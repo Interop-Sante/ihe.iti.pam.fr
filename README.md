@@ -8,13 +8,13 @@ Les événements et les segments HL7 v2.5 utilisés par le profil PAM sont décr
 
 ## Version officielle
 
-**La version officielle et active du profil PAM est la 2.11**. Cette version incarne les dernières avancées et les meilleures pratiques dans le domaine de la gestion administrative des patients. Elle est recommandée pour toutes les nouvelles intégrations et mises à jour.
+**La version officielle et active du profil PAM est la 2.11.1**. Cette version incarne les dernières avancées et les meilleures pratiques dans le domaine de la gestion administrative des patients. Elle est recommandée pour toutes les nouvelles intégrations et mises à jour.
 
 Les ajouts de cette version sont référencés dans le chapitre 8.5.12. Ces ajouts, approuvés par le groupe de travail IHE France – ITI PAM au travers du cycle 2022-2023, via des Change Proposals, sont disponibles pour mise en œuvre. Ils doivent faire l’objet de retour de la part des éditeurs et/ou utilisateurs si des difficultés surviennent durant cette phase. Ils seront en état final lors de la publication de la prochaine version du document.
 
 ## Documentation
 
-La documentation pour le profil PAM version 2.11 est disponible dans ce dépôt. Elle inclut des spécifications techniques, des guides d'implémentation, et des exemples pour aider les développeurs et les intégrateurs à adopter ce profil.
+La documentation pour le [profil PAM version 2.11.1 est disponible dans ce dépôt](). Elle inclut des spécifications techniques, des guides d'implémentation, et des exemples pour aider les développeurs et les intégrateurs à adopter ce profil.
 
 ## Commencer
 
