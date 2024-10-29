@@ -14,7 +14,7 @@ Les ajouts de cette version sont référencés dans le chapitre 8.5.12. Ces ajou
 
 ## Documentation
 
-La documentation pour le [profil PAM version 2.11.1 est disponible dans ce dépôt](). Elle inclut des spécifications techniques, des guides d'implémentation, et des exemples pour aider les développeurs et les intégrateurs à adopter ce profil.
+La documentation pour le [profil PAM version 2.11.1 est disponible dans ce dépôt](https://github.com/Interop-Sante/ihe.iti.pam.fr/blob/main/Publication/Publication-IHE_FRANCE_PAM_National_Extension_v2.11.1.pdf). Elle inclut des spécifications techniques, des guides d'implémentation, et des exemples pour aider les développeurs et les intégrateurs à adopter ce profil.
 
 ## Commencer
 
