@@ -8,14 +8,14 @@ Les événements et les segments HL7 v2.5 utilisés par le profil PAM sont décr
 
 ## Version officielle
 
-**La version officielle et active du profil PAM est la 2.11.1**. Cette version incarne les dernières avancées et les meilleures pratiques dans le domaine de la gestion administrative des patients. Elle est recommandée pour toutes les nouvelles intégrations et mises à jour.
+**La version officielle et active du profil PAM est la 2.11.2**. Cette version incarne les dernières avancées et les meilleures pratiques dans le domaine de la gestion administrative des patients. Elle est recommandée pour toutes les nouvelles intégrations et mises à jour.
 
 Les ajouts de cette version sont référencés dans le chapitre 8.5.13. Ces ajouts, approuvés par le groupe de travail IHE France – ITI PAM au travers du cycle 2023-2024, via des Change Proposals, sont disponibles pour mise en œuvre. Ils doivent faire l’objet de retour de la part des éditeurs et/ou utilisateurs si des difficultés surviennent durant cette phase. Ils seront en état final lors de la publication de la prochaine version du document.
 
 ## Documentation
 
-1. La documentation pour le [profil PAM version 2.11.1 est disponible dans ce dépôt](https://github.com/Interop-Sante/ihe.iti.pam.fr/blob/main/Publication/Publication-IHE_FRANCE_PAM_National_Extension_v2.11.1.pdf). Elle inclut des spécifications techniques, des guides d'implémentation, et des exemples pour aider les développeurs et les intégrateurs à adopter ce profil. 
-2. La documentation pour les [contraintes sur les types de données HL7 v2.5 en version 1.8.1](https://github.com/Interop-Sante/ihe.iti.pam.fr/blob/main/Publication/IHE_France_Constraints_on_HL7_data_types_for_ITI_V1.8.1.pdf) applicables aux profils d’intégration du cadre technique IT Infrastructure dans le périmètre d’IHE France.
+1. La documentation pour le [profil PAM version 2.11.2 est disponible dans ce dépôt](https://github.com/Interop-Sante/ihe.iti.pam.fr/blob/main/Publication/Publication-IHE_FRANCE_PAM_National_Extension_v2.11.2.pdf). Elle inclut des spécifications techniques, des guides d'implémentation, et des exemples pour aider les développeurs et les intégrateurs à adopter ce profil. 
+2. La documentation pour les [contraintes sur les types de données HL7 v2.5 en version 1.8.2](https://github.com/Interop-Sante/ihe.iti.pam.fr/blob/main/Publication/IHE_France_Constraints_on_HL7_data_types_for_ITI_V1.8.2.pdf) applicables aux profils d’intégration du cadre technique IT Infrastructure dans le périmètre d’IHE France.
 
 ## Commencer
 
