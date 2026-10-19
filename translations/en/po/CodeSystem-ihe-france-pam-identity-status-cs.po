@@ -21,7 +21,7 @@ msgstr ""
 
 # CodeSystem.description
 #: CodeSystem.description
-msgid "Jeu de codes local initial pour le statut d'identite dans l'extension IHE France PAM."
+msgid "Jeu de codes local initial pour le statut d'identité dans l'extension IHE France PAM."
 msgstr ""
 
 # Coding.display
@@ -31,7 +31,7 @@ msgstr ""
 
 # CodeSystem.concept.display
 #: CodeSystem.concept.display
-msgid "Identite validee"
+msgid "Identité validée"
 msgstr ""
 
 # CodeSystem.concept.definition
@@ -41,7 +41,7 @@ msgstr ""
 
 # CodeSystem.concept.display
 #: CodeSystem.concept.display
-msgid "Identite provisoire"
+msgid "Identité provisoire"
 msgstr ""
 
 # CodeSystem.concept.definition
@@ -51,7 +51,7 @@ msgstr ""
 
 # CodeSystem.concept.display
 #: CodeSystem.concept.display
-msgid "Identite recuperee"
+msgid "Identité récupérée"
 msgstr ""
 
 # CodeSystem.concept.definition

@@ -51,7 +51,7 @@ msgstr ""
 
 # CodeSystem.concept.display
 #: CodeSystem.concept.display
-msgid "DMP ferme"
+msgid "DMP fermé"
 msgstr ""
 
 # CodeSystem.concept.definition
@@ -61,7 +61,7 @@ msgstr ""
 
 # CodeSystem.concept.display
 #: CodeSystem.concept.display
-msgid "Acces autorise"
+msgid "Accès autorisé"
 msgstr ""
 
 # CodeSystem.concept.definition
@@ -71,7 +71,7 @@ msgstr ""
 
 # CodeSystem.concept.display
 #: CodeSystem.concept.display
-msgid "Opposition exprimee"
+msgid "Opposition exprimée"
 msgstr ""
 
 # CodeSystem.concept.definition

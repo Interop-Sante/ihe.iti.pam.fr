@@ -1,28 +1,28 @@
-Cette page documente une première structuration du contenu PAM France vers des artefacts FHIR. Elle ne remplace pas encore les tableaux détaillés de mapping champ à champ, mais fournit une base stable pour le travail de profilage.
+Cette page décrit la correspondance entre les segments HL7 v2.5 de l'extension française de PAM et les ressources FHIR de ce guide. Le mapping est détaillé champ à champ pour les segments les plus structurants ; les autres sont indiqués au niveau du segment.
 
 ### Principes retenus
 
 - le texte normatif des documents source reste la référence
 - l'IG FHIR expose une projection structurée de cette matière
-- les profils créés à ce stade sont une première couche de convergence et non encore l'expression exhaustive de toutes les contraintes
+- les profils expriment les contraintes principales, mais pas encore l'ensemble des règles du texte source
 
 ### Segments et ressources cibles
 
-| Segment / notion HL7 | Ressource FHIR cible | Statut |
+| Segment / notion HL7 | Ressource FHIR cible | Représentation |
 | --- | --- | --- |
-| `PID` | `Patient` | profil initial créé |
-| `PD1` | `Patient` ou extensions | à détailler |
-| `NK1` | `RelatedPerson` | profil initial créé |
-| `PV1`, `PV2` | `Encounter` | profil initial créé |
-| `ROL` | `Practitioner` / `PractitionerRole` | à détailler |
-| `ACC` | `Encounter` ou extension dédiée | à détailler |
-| `ZBE` | `Encounter` + extensions | première structuration créée |
-| `ZFA` | extension `Patient` | première structuration créée |
-| `ZFD`, `ZFP`, `ZFV`, `ZFM`, `ZFS` | extensions nationales | première structuration créée |
+| `PID` | `Patient` | profil |
+| `PD1` | `Patient` ou extensions | non détaillé |
+| `NK1` | `RelatedPerson` | profil |
+| `PV1`, `PV2` | `Encounter` | profil |
+| `ROL` | `Practitioner` / `PractitionerRole` | non détaillé |
+| `ACC` | `Encounter` ou extension dédiée | non détaillé |
+| `ZBE` | `Encounter` + extensions | extension(s) publiée(s) |
+| `ZFA` | extension `Patient` | extension(s) publiée(s) |
+| `ZFD`, `ZFP`, `ZFV`, `ZFM`, `ZFS` | extensions nationales | extension(s) publiée(s) |
 
-### Mapping initial du segment PID
+### Mapping du segment PID
 
-| Champ HL7 v2.5 | Sémantique | Cible FHIR initiale |
+| Champ HL7 v2.5 | Sémantique | Cible FHIR |
 | --- | --- | --- |
 | `PID-3` | identifiants du patient | `Patient.identifier` avec slices `PI`, `INS`, `NH` |
 | `PID-5` | nom du patient | `Patient.name` |
@@ -36,9 +36,9 @@ Cette page documente une première structuration du contenu PAM France vers des 
 | `PID-32` | statut de l'identité | extension `IHEFrancePamIdentityStatus` |
 | `PID-34` | entité modificatrice de l'identité | extension à modéliser |
 
-### Mapping initial des segments PV1 et PV2
+### Mapping des segments PV1 et PV2
 
-| Champ HL7 v2.5 | Sémantique | Cible FHIR initiale |
+| Champ HL7 v2.5 | Sémantique | Cible FHIR |
 | --- | --- | --- |
 | `PV1-2` | classe de patient | `Encounter.class` |
 | `PV1-3` | hébergement / localisation | `Encounter.location` |
@@ -52,9 +52,9 @@ Cette page documente une première structuration du contenu PAM France vers des 
 | `PV2-9` | date de sortie prévisionnelle | extension ou `plannedEndDate` selon choix final |
 | `PV2-22` | protection concernant la venue | extension à modéliser |
 
-### Mapping initial du segment NK1
+### Mapping du segment NK1
 
-| Champ HL7 v2.5 | Sémantique | Cible FHIR initiale |
+| Champ HL7 v2.5 | Sémantique | Cible FHIR |
 | --- | --- | --- |
 | `NK1` | proche / personne associée | `RelatedPerson` |
 | relation | nature de la relation | `RelatedPerson.relationship` |
@@ -63,9 +63,9 @@ Cette page documente une première structuration du contenu PAM France vers des 
 | télécommunications | téléphone / email | `RelatedPerson.telecom` |
 | identifiants | identifiant de la personne | `RelatedPerson.identifier` |
 
-### Mapping initial du segment ROL
+### Mapping du segment ROL
 
-| Champ HL7 v2.5 | Sémantique | Cible FHIR initiale |
+| Champ HL7 v2.5 | Sémantique | Cible FHIR |
 | --- | --- | --- |
 | `ROL-3` | nature du rôle | `PractitionerRole.code` |
 | `ROL-4` | personne dans le rôle | `Practitioner` |
@@ -77,9 +77,9 @@ Les professionnels référencés par `PV1-7`, `PV1-8` ou `ROL` sont maintenant o
 - `IHEFrancePamPractitioner`
 - `IHEFrancePamPractitionerRole`
 
-### Mapping initial du segment ZBE
+### Mapping du segment ZBE
 
-| Champ HL7 v2.5 | Sémantique | Cible FHIR initiale |
+| Champ HL7 v2.5 | Sémantique | Cible FHIR |
 | --- | --- | --- |
 | `ZBE-1` | identifiant du mouvement | `Encounter.identifier` ou extension dédiée |
 | `ZBE-2` | date et heure de création du mouvement | extension ou élément dérivé de période |
@@ -91,9 +91,9 @@ Les professionnels référencés par `PV1-7`, `PV1-8` ou `ROL` sont maintenant o
 | `ZBE-8` | UF de responsabilité des soins | extension `IHEFrancePamCareResponsibilityUnit` |
 | `ZBE-9` | nature du mouvement | extension ou `Encounter.type` à préciser |
 
-### Mapping initial des segments nationaux Z*
+### Mapping des segments nationaux Z*
 
-| Segment | Sémantique | Cible FHIR initiale |
+| Segment | Sémantique | Cible FHIR |
 | --- | --- | --- |
 | `ZFA` | statut DMP du patient | extension `IHEFrancePamDmpStatus` sur `Patient` |
 | `ZFD` | complément démographique | extension `IHEFrancePamDemographicComplement` sur `Patient` |
@@ -118,11 +118,11 @@ Le profil [IHEFrancePamEncounter](StructureDefinition-ihe-france-pam-encounter.h
 
 - un slice `VN` pour l'identifiant de venue
 - une extension d'identifiant de dossier administratif issue de `PID-18`
-- une première place pour l'identifiant de mouvement
+- une place pour l'identifiant de mouvement
 
-### Extensions déjà posées
+### Extensions nationales
 
-Les extensions initiales actuellement créées sont :
+Les extensions nationales publiées sont :
 
 - `IHEFrancePamIdentityStatus`
 - `IHEFrancePamDmpStatus`
@@ -147,11 +147,11 @@ Les extensions initiales actuellement créées sont :
 - `IHEFrancePamPmsiMovement`
 - `IHEFrancePamAccidentNature`
 
-Elles servent à matérialiser dès maintenant les concepts français clairement présents dans les documents, même si leurs bindings terminologiques ou règles détaillées restent à compléter.
+Elles représentent les concepts français présents dans les documents source. Leurs bindings terminologiques et règles détaillées ne sont pas tous formalisés dans cette version.
 
-### Terminologies initiales ajoutées
+### Terminologies locales
 
-Une première couche de terminologie locale a maintenant été ajoutée pour éviter de laisser les extensions principales en code libre :
+Les terminologies locales suivantes évitent de laisser les extensions principales en code libre :
 
 - `IHEFrancePamIdentityStatusCS` / `IHEFrancePamIdentityStatusVS`
 - `IHEFrancePamDmpStatusCS` / `IHEFrancePamDmpStatusVS`
@@ -160,22 +160,20 @@ Une première couche de terminologie locale a maintenant été ajoutée pour év
 - `IHEFrancePamTriggerEventCS` / `IHEFrancePamTriggerEventVS`
 - `IHEFrancePamIdentifierTypeCS` / `IHEFrancePamIdentifierTypeVS`
 
-### Hypothèses de travail
+### Choix de modélisation
 
-À ce stade, les choix suivants sont assumés pour lancer le profilage :
+Les choix suivants sont retenus :
 
 - la `venue` est portée par `Encounter`
-- le `dossier administratif` est d'abord matérialisé comme un identifiant porté en extension sur `Encounter`
-- les responsabilités d'UF médicale et de soins sont modélisées en extensions en attendant une formalisation plus avancée
+- le `dossier administratif` est matérialisé comme un identifiant porté en extension sur `Encounter`
+- les responsabilités d'UF médicale et de soins sont modélisées en extensions
 - les personnes associées décrites par `NK1` sont représentées par `RelatedPerson`
 - les professionnels et rôles médicaux sont projetés sur `Practitioner` et `PractitionerRole`
-- les informations `Z*` sont d'abord modélisées comme extensions nationales ciblées
+- les informations `Z*` sont modélisées comme extensions nationales ciblées
 
-### Étapes suivantes
+### Limites de cette version
 
-Les prochaines itérations doivent détailler :
-
-1. le mapping champ à champ pour `PID`, `PV1`, `PV2`, `NK1`, `ROL`
-2. la formalisation plus fine des cardinalités et bindings terminologiques sur les extensions `Z*`
-3. la terminologie associée aux statuts d'identité, DMP, unités fonctionnelles et natures de mouvements
-4. les exemples complets alignés sur les scénarios documentaires `ITI-30` et `ITI-31`
+- le mapping champ à champ n'est pas détaillé pour tous les segments (`PD1`, `ROL`, `ACC` en particulier)
+- les cardinalités et bindings des extensions `Z*` sont posés au niveau principal, sans règles de dépendance entre champs
+- les terminologies sont locales : les nomenclatures nationales ne sont pas encore référencées
+- les scénarios d'exemple `ITI-30` et `ITI-31` complets (messages) ne sont pas encore publiés : voir [exemples](examples.html)

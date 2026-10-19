@@ -31,7 +31,7 @@ msgstr ""
 
 # CodeSystem.concept.display
 #: CodeSystem.concept.display
-msgid "Admission hospitalisee"
+msgid "Admission hospitalisée"
 msgstr ""
 
 # CodeSystem.concept.definition
@@ -71,7 +71,7 @@ msgstr ""
 
 # CodeSystem.concept.display
 #: CodeSystem.concept.display
-msgid "Pre-admission"
+msgid "Pré-admission"
 msgstr ""
 
 # CodeSystem.concept.definition
@@ -151,7 +151,7 @@ msgstr ""
 
 # CodeSystem.concept.display
 #: CodeSystem.concept.display
-msgid "Creation patient"
+msgid "Création patient"
 msgstr ""
 
 # CodeSystem.concept.definition
@@ -161,7 +161,7 @@ msgstr ""
 
 # CodeSystem.concept.display
 #: CodeSystem.concept.display
-msgid "Mise a jour patient"
+msgid "Mise à jour patient"
 msgstr ""
 
 # CodeSystem.concept.definition
@@ -171,7 +171,7 @@ msgstr ""
 
 # CodeSystem.concept.display
 #: CodeSystem.concept.display
-msgid "Annulation pre-admission"
+msgid "Annulation pré-admission"
 msgstr ""
 
 # CodeSystem.concept.definition
@@ -191,7 +191,7 @@ msgstr ""
 
 # CodeSystem.concept.display
 #: CodeSystem.concept.display
-msgid "Reattribution dossier"
+msgid "Réattribution dossier"
 msgstr ""
 
 # CodeSystem.concept.definition
@@ -201,7 +201,7 @@ msgstr ""
 
 # CodeSystem.concept.display
 #: CodeSystem.concept.display
-msgid "Mise a jour identifiants patient"
+msgid "Mise à jour identifiants patient"
 msgstr ""
 
 # CodeSystem.concept.definition
@@ -211,7 +211,7 @@ msgstr ""
 
 # CodeSystem.concept.display
 #: CodeSystem.concept.display
-msgid "Changement medecin responsable"
+msgid "Changement médecin responsable"
 msgstr ""
 
 # CodeSystem.concept.definition
@@ -221,7 +221,7 @@ msgstr ""
 
 # CodeSystem.concept.display
 #: CodeSystem.concept.display
-msgid "Annulation changement medecin responsable"
+msgid "Annulation changement médecin responsable"
 msgstr ""
 
 # CodeSystem.concept.definition

@@ -47,7 +47,7 @@ msgstr ""
 
 # ImplementationGuide.definition.resource.description
 #: ImplementationGuide.definition.resource.description
-msgid "Exemple minimal de localisation d'hebergement."
+msgid "Exemple minimal de localisation d'hébergement."
 msgstr ""
 
 # ImplementationGuide.definition.resource.name
@@ -57,7 +57,7 @@ msgstr ""
 
 # ImplementationGuide.definition.resource.description
 #: ImplementationGuide.definition.resource.description
-msgid "Exemple minimal d'organisation ou d'etablissement."
+msgid "Exemple minimal d'organisation ou d'établissement."
 msgstr ""
 
 # ImplementationGuide.definition.resource.name
@@ -77,7 +77,7 @@ msgstr ""
 
 # ImplementationGuide.definition.resource.description
 #: ImplementationGuide.definition.resource.description
-msgid "Exemple minimal de professionnel de sante."
+msgid "Exemple minimal de professionnel de santé."
 msgstr ""
 
 # ImplementationGuide.definition.resource.name
@@ -87,7 +87,7 @@ msgstr ""
 
 # ImplementationGuide.definition.resource.description
 #: ImplementationGuide.definition.resource.description
-msgid "Exemple minimal de personne associee au patient."
+msgid "Exemple minimal de personne associée au patient."
 msgstr ""
 
 # ImplementationGuide.definition.resource.name
@@ -97,7 +97,7 @@ msgstr ""
 
 # ImplementationGuide.definition.resource.description
 #: ImplementationGuide.definition.resource.description
-msgid "Nature de l'accident, derivee notamment de ACC-2."
+msgid "Nature de l'accident, dérivée notamment de ACC-2."
 msgstr ""
 
 # ImplementationGuide.definition.resource.name
@@ -107,7 +107,7 @@ msgstr ""
 
 # ImplementationGuide.definition.resource.description
 #: ImplementationGuide.definition.resource.description
-msgid "Numero de dossier administratif, issu notamment de PID-18."
+msgid "Numéro de dossier administratif, issu notamment de PID-18."
 msgstr ""
 
 # ImplementationGuide.definition.resource.name
@@ -127,17 +127,17 @@ msgstr ""
 
 # ImplementationGuide.definition.resource.description
 #: ImplementationGuide.definition.resource.description
-msgid "Unite fonctionnelle responsable des soins, issue notamment de ZBE-8."
+msgid "Unité fonctionnelle responsable des soins, issue notamment de ZBE-8."
 msgstr ""
 
 # ImplementationGuide.definition.resource.name
 #: ImplementationGuide.definition.resource.name
-msgid "IHE France PAM Demographic Complement"
+msgid "IHE France PAM Demographic Complément"
 msgstr ""
 
 # ImplementationGuide.definition.resource.description
 #: ImplementationGuide.definition.resource.description
-msgid "Complement demographique derive notamment du segment ZFD."
+msgid "Complément démographique dérivé notamment du segment ZFD."
 msgstr ""
 
 # ImplementationGuide.definition.resource.name
@@ -187,7 +187,7 @@ msgstr ""
 
 # ImplementationGuide.definition.resource.description
 #: ImplementationGuide.definition.resource.description
-msgid "Complement d'information sur la venue, derive notamment du segment ZFV."
+msgid "Complément d'information sur la venue, dérivé notamment du segment ZFV."
 msgstr ""
 
 # ImplementationGuide.definition.resource.name
@@ -197,7 +197,7 @@ msgstr ""
 
 # ImplementationGuide.definition.resource.description
 #: ImplementationGuide.definition.resource.description
-msgid "Indicateur de mouvement historique, derive notamment de ZBE-5."
+msgid "Indicateur de mouvement historique, dérivé notamment de ZBE-5."
 msgstr ""
 
 # ImplementationGuide.definition.resource.name
@@ -227,7 +227,7 @@ msgstr ""
 
 # ImplementationGuide.definition.resource.description
 #: ImplementationGuide.definition.resource.description
-msgid "Entite modificatrice de l'identite, issue notamment de PID-34."
+msgid "Entité modificatrice de l'identité, issue notamment de PID-34."
 msgstr ""
 
 # ImplementationGuide.definition.resource.name
@@ -237,7 +237,7 @@ msgstr ""
 
 # ImplementationGuide.definition.resource.description
 #: ImplementationGuide.definition.resource.description
-msgid "Statut d'identite porte par le contenu PAM France, notamment en lien avec PID-32."
+msgid "Statut d'identité porte par le contenu PAM France, notamment en lien avec PID-32."
 msgstr ""
 
 # ImplementationGuide.definition.resource.name
@@ -247,7 +247,7 @@ msgstr ""
 
 # ImplementationGuide.definition.resource.description
 #: ImplementationGuide.definition.resource.description
-msgid "Jeu de codes local initial pour le statut d'identite dans l'extension IHE France PAM."
+msgid "Jeu de codes local initial pour le statut d'identité dans l'extension IHE France PAM."
 msgstr ""
 
 # ImplementationGuide.definition.resource.name
@@ -257,7 +257,7 @@ msgstr ""
 
 # ImplementationGuide.definition.resource.description
 #: ImplementationGuide.definition.resource.description
-msgid "Jeu de valeurs initial pour le statut d'identite."
+msgid "Jeu de valeurs initial pour le statut d'identité."
 msgstr ""
 
 # ImplementationGuide.definition.resource.name
@@ -287,7 +287,7 @@ msgstr ""
 
 # ImplementationGuide.definition.resource.description
 #: ImplementationGuide.definition.resource.description
-msgid "Profil location initial pour les localisations patient et unites d'hebergement vehiculees notamment par PV1-3 et le type PL."
+msgid "Profil location initial pour les localisations patient et unités d'hébergement véhiculées notamment par PV1-3 et le type PL."
 msgstr ""
 
 # ImplementationGuide.definition.resource.name
@@ -297,7 +297,7 @@ msgstr ""
 
 # ImplementationGuide.definition.resource.description
 #: ImplementationGuide.definition.resource.description
-msgid "Unite fonctionnelle medicalement ou medico-administrativement responsable du patient, issue notamment de ZBE-7."
+msgid "Unité fonctionnelle médicalement ou médico-administrativement responsable du patient, issue notamment de ZBE-7."
 msgstr ""
 
 # ImplementationGuide.definition.resource.name
@@ -307,7 +307,7 @@ msgstr ""
 
 # ImplementationGuide.definition.resource.description
 #: ImplementationGuide.definition.resource.description
-msgid "Nom de naissance de la mere, issu notamment de PID-6."
+msgid "Nom de naissance de la mère, issu notamment de PID-6."
 msgstr ""
 
 # ImplementationGuide.definition.resource.name
@@ -317,7 +317,7 @@ msgstr ""
 
 # ImplementationGuide.definition.resource.description
 #: ImplementationGuide.definition.resource.description
-msgid "Code action portant sur le mouvement, derive notamment de ZBE-4."
+msgid "Code action portant sur le mouvement, dérivé notamment de ZBE-4."
 msgstr ""
 
 # ImplementationGuide.definition.resource.name
@@ -327,7 +327,7 @@ msgstr ""
 
 # ImplementationGuide.definition.resource.description
 #: ImplementationGuide.definition.resource.description
-msgid "Jeu de codes local initial pour l'action sur un mouvement derivee notamment de ZBE-4."
+msgid "Jeu de codes local initial pour l'action sur un mouvement dérivée notamment de ZBE-4."
 msgstr ""
 
 # ImplementationGuide.definition.resource.name
@@ -347,7 +347,7 @@ msgstr ""
 
 # ImplementationGuide.definition.resource.description
 #: ImplementationGuide.definition.resource.description
-msgid "Nature du mouvement, derivee notamment de ZBE-9."
+msgid "Nature du mouvement, dérivée notamment de ZBE-9."
 msgstr ""
 
 # ImplementationGuide.definition.resource.name
@@ -357,7 +357,7 @@ msgstr ""
 
 # ImplementationGuide.definition.resource.description
 #: ImplementationGuide.definition.resource.description
-msgid "Nationalite ou citoyennete vehiculee notamment par PID-26 et PID-28."
+msgid "Nationalité ou citoyenneté véhiculée notamment par PID-26 et PID-28."
 msgstr ""
 
 # ImplementationGuide.definition.resource.name
@@ -367,7 +367,7 @@ msgstr ""
 
 # ImplementationGuide.definition.resource.description
 #: ImplementationGuide.definition.resource.description
-msgid "Profil organisation initial pour etablissements, entites juridiques et unites fonctionnelles identifiees dans PAM France."
+msgid "Profil organisation initial pour établissements, entités juridiques et unités fonctionnelles identifiées dans PAM France."
 msgstr ""
 
 # ImplementationGuide.definition.resource.name
@@ -377,7 +377,7 @@ msgstr ""
 
 # ImplementationGuide.definition.resource.description
 #: ImplementationGuide.definition.resource.description
-msgid "Code d'evenement d'origine du mouvement, derive notamment de ZBE-6."
+msgid "Code d'événement d'origine du mouvement, dérivé notamment de ZBE-6."
 msgstr ""
 
 # ImplementationGuide.definition.resource.name
@@ -397,7 +397,7 @@ msgstr ""
 
 # ImplementationGuide.definition.resource.description
 #: ImplementationGuide.definition.resource.description
-msgid "Date de sortie previsionnelle, derivee notamment de PV2-9 et EVN-3 selon le contexte."
+msgid "Date de sortie prévisionnelle, dérivée notamment de PV2-9 et EVN-3 selon le contexte."
 msgstr ""
 
 # ImplementationGuide.definition.resource.name
@@ -407,7 +407,7 @@ msgstr ""
 
 # ImplementationGuide.definition.resource.description
 #: ImplementationGuide.definition.resource.description
-msgid "Date d'entree previsionnelle, derivee notamment de PV2-8."
+msgid "Date d'entrée prévisionnelle, dérivée notamment de PV2-8."
 msgstr ""
 
 # ImplementationGuide.definition.resource.name
@@ -417,7 +417,7 @@ msgstr ""
 
 # ImplementationGuide.definition.resource.description
 #: ImplementationGuide.definition.resource.description
-msgid "Informations de mouvement PMSI derivees notamment du segment ZFM."
+msgid "Informations de mouvement PMSI dérivées notamment du segment ZFM."
 msgstr ""
 
 # ImplementationGuide.definition.resource.name
@@ -427,7 +427,7 @@ msgstr ""
 
 # ImplementationGuide.definition.resource.description
 #: ImplementationGuide.definition.resource.description
-msgid "Profil practitioner initial pour les professionnels de sante references dans les segments ROL et PV1."
+msgid "Profil practitioner initial pour les professionnels de santé référencés dans les segments ROL et PV1."
 msgstr ""
 
 # ImplementationGuide.definition.resource.name
@@ -437,7 +437,7 @@ msgstr ""
 
 # ImplementationGuide.definition.resource.description
 #: ImplementationGuide.definition.resource.description
-msgid "Profil practitioner role initial pour les roles vehicules notamment par ROL et par les references medecins dans PV1."
+msgid "Profil practitioner role initial pour les roles véhiculés notamment par ROL et par les référencés médecins dans PV1."
 msgstr ""
 
 # ImplementationGuide.definition.resource.name
@@ -447,7 +447,7 @@ msgstr ""
 
 # ImplementationGuide.definition.resource.description
 #: ImplementationGuide.definition.resource.description
-msgid "Situation professionnelle du patient, derivee notamment du segment ZFP."
+msgid "Situation professionnelle du patient, dérivée notamment du segment ZFP."
 msgstr ""
 
 # ImplementationGuide.definition.resource.name
@@ -457,7 +457,7 @@ msgstr ""
 
 # ImplementationGuide.definition.resource.description
 #: ImplementationGuide.definition.resource.description
-msgid "Mode legal de soins en psychiatrie, derive notamment du segment ZFS."
+msgid "Mode legal de soins en psychiatrie, dérivé notamment du segment ZFS."
 msgstr ""
 
 # ImplementationGuide.definition.resource.name
@@ -467,7 +467,7 @@ msgstr ""
 
 # ImplementationGuide.definition.resource.description
 #: ImplementationGuide.definition.resource.description
-msgid "Profil related person initial pour représenter les proches et personnes associees vehicules notamment via le segment NK1."
+msgid "Profil related person initial pour représenter les proches et personnes associées véhiculés notamment via le segment NK1."
 msgstr ""
 
 # ImplementationGuide.definition.resource.name
@@ -497,7 +497,7 @@ msgstr ""
 
 # ImplementationGuide.definition.resource.description
 #: ImplementationGuide.definition.resource.description
-msgid "Protection concernant la venue, derivee notamment de PV2-22."
+msgid "Protection concernant la venue, dérivée notamment de PV2-22."
 msgstr ""
 
 # ImplementationGuide.definition.resource.name
@@ -507,7 +507,7 @@ msgstr ""
 
 # ImplementationGuide.definition.resource.description
 #: ImplementationGuide.definition.resource.description
-msgid "Jeu de codes local initial pour la protection de la venue derivee notamment de PV2-22."
+msgid "Jeu de codes local initial pour la protection de la venue dérivée notamment de PV2-22."
 msgstr ""
 
 # ImplementationGuide.definition.resource.name
@@ -538,6 +538,11 @@ msgstr ""
 # ImplementationGuide.definition.page.title
 #: ImplementationGuide.definition.page.title
 msgid "Acteurs et transactions"
+msgstr ""
+
+# ImplementationGuide.definition.page.title
+#: ImplementationGuide.definition.page.title
+msgid "Conformité"
 msgstr ""
 
 # ImplementationGuide.definition.page.title

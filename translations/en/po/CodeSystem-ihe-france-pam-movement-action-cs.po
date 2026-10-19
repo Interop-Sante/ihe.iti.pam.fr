@@ -21,7 +21,7 @@ msgstr ""
 
 # CodeSystem.description
 #: CodeSystem.description
-msgid "Jeu de codes local initial pour l'action sur un mouvement derivee notamment de ZBE-4."
+msgid "Jeu de codes local initial pour l'action sur un mouvement dérivée notamment de ZBE-4."
 msgstr ""
 
 # Coding.display
@@ -41,7 +41,7 @@ msgstr ""
 
 # CodeSystem.concept.display
 #: CodeSystem.concept.display
-msgid "Mise a jour d'un mouvement"
+msgid "Mise à jour d'un mouvement"
 msgstr ""
 
 # CodeSystem.concept.definition

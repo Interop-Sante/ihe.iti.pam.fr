@@ -54,7 +54,7 @@
     {
       "id" : "CodeSystem.concept.display",
       "context" : "CodeSystem.concept.display",
-      "source" : "Identifiant National de Sante",
+      "source" : "Identifiant National de Santé",
       "target" : null
     },
     {
@@ -78,7 +78,7 @@
     {
       "id" : "CodeSystem.concept.display",
       "context" : "CodeSystem.concept.display",
-      "source" : "Numero de dossier administratif",
+      "source" : "Numéro de dossier administratif",
       "target" : null
     },
     {
@@ -90,7 +90,7 @@
     {
       "id" : "CodeSystem.concept.display",
       "context" : "CodeSystem.concept.display",
-      "source" : "Numero de venue",
+      "source" : "Numéro de venue",
       "target" : null
     },
     {

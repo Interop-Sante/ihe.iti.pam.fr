@@ -35,7 +35,7 @@
              <notes>
                <note id="n1">CodeSystem.description</note>
              </notes>
-        <source>Jeu de codes local initial pour l'action sur un mouvement derivee notamment de ZBE-4.</source>
+        <source>Jeu de codes local initial pour l'action sur un mouvement dérivée notamment de ZBE-4.</source>
         <target></target>
       </trans-unit>
       <trans-unit id="CodeSystem-ihe-france-pam-movement-action-cs" resname="Coding.display">
@@ -63,7 +63,7 @@
              <notes>
                <note id="n1">CodeSystem.concept.display</note>
              </notes>
-        <source>Mise a jour d'un mouvement</source>
+        <source>Mise à jour d'un mouvement</source>
         <target></target>
       </trans-unit>
       <trans-unit id="CodeSystem-ihe-france-pam-movement-action-cs" resname="CodeSystem.concept.definition">

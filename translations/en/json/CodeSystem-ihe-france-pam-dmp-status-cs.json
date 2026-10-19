@@ -66,7 +66,7 @@
     {
       "id" : "CodeSystem.concept.display",
       "context" : "CodeSystem.concept.display",
-      "source" : "DMP ferme",
+      "source" : "DMP fermé",
       "target" : null
     },
     {
@@ -78,7 +78,7 @@
     {
       "id" : "CodeSystem.concept.display",
       "context" : "CodeSystem.concept.display",
-      "source" : "Acces autorise",
+      "source" : "Accès autorisé",
       "target" : null
     },
     {
@@ -90,7 +90,7 @@
     {
       "id" : "CodeSystem.concept.display",
       "context" : "CodeSystem.concept.display",
-      "source" : "Opposition exprimee",
+      "source" : "Opposition exprimée",
       "target" : null
     },
     {

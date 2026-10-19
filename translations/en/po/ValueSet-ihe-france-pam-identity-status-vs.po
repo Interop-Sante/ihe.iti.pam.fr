@@ -21,7 +21,7 @@ msgstr ""
 
 # ValueSet.description
 #: ValueSet.description
-msgid "Jeu de valeurs initial pour le statut d'identite."
+msgid "Jeu de valeurs initial pour le statut d'identité."
 msgstr ""
 
 # Coding.display

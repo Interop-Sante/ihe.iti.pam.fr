@@ -42,7 +42,7 @@
     {
       "id" : "CodeSystem.concept.display",
       "context" : "CodeSystem.concept.display",
-      "source" : "Admission hospitalisee",
+      "source" : "Admission hospitalisée",
       "target" : null
     },
     {
@@ -90,7 +90,7 @@
     {
       "id" : "CodeSystem.concept.display",
       "context" : "CodeSystem.concept.display",
-      "source" : "Pre-admission",
+      "source" : "Pré-admission",
       "target" : null
     },
     {
@@ -186,7 +186,7 @@
     {
       "id" : "CodeSystem.concept.display",
       "context" : "CodeSystem.concept.display",
-      "source" : "Creation patient",
+      "source" : "Création patient",
       "target" : null
     },
     {
@@ -198,7 +198,7 @@
     {
       "id" : "CodeSystem.concept.display",
       "context" : "CodeSystem.concept.display",
-      "source" : "Mise a jour patient",
+      "source" : "Mise à jour patient",
       "target" : null
     },
     {
@@ -210,7 +210,7 @@
     {
       "id" : "CodeSystem.concept.display",
       "context" : "CodeSystem.concept.display",
-      "source" : "Annulation pre-admission",
+      "source" : "Annulation pré-admission",
       "target" : null
     },
     {
@@ -234,7 +234,7 @@
     {
       "id" : "CodeSystem.concept.display",
       "context" : "CodeSystem.concept.display",
-      "source" : "Reattribution dossier",
+      "source" : "Réattribution dossier",
       "target" : null
     },
     {
@@ -246,7 +246,7 @@
     {
       "id" : "CodeSystem.concept.display",
       "context" : "CodeSystem.concept.display",
-      "source" : "Mise a jour identifiants patient",
+      "source" : "Mise à jour identifiants patient",
       "target" : null
     },
     {
@@ -258,7 +258,7 @@
     {
       "id" : "CodeSystem.concept.display",
       "context" : "CodeSystem.concept.display",
-      "source" : "Changement medecin responsable",
+      "source" : "Changement médecin responsable",
       "target" : null
     },
     {
@@ -270,7 +270,7 @@
     {
       "id" : "CodeSystem.concept.display",
       "context" : "CodeSystem.concept.display",
-      "source" : "Annulation changement medecin responsable",
+      "source" : "Annulation changement médecin responsable",
       "target" : null
     },
     {

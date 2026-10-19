@@ -1,4 +1,4 @@
-Cette page intègre le cadrage principal du document source `Publication-IHE_FRANCE_PAM_National_Extension_v2.11.2.doc`, release `2.11.2`, statut `Trial Implementation`, daté du `3 février 2025`.
+Cette page intègre le cadrage principal du document source [Publication-IHE_FRANCE_PAM_National_Extension_v2.11.2](publications/Publication-IHE_FRANCE_PAM_National_Extension_v2.11.2.pdf), release `2.11.2`, statut `Trial Implementation`, daté du `3 février 2025`.
 
 ### Positionnement
 
@@ -31,12 +31,12 @@ Le document source introduit un modèle de données minimal commun qui sous-tend
 - la `venue` et le `dossier administratif` peuvent être en correspondance `1 pour 1`, mais certains systèmes regroupent plusieurs venues dans un même dossier
 - un `mouvement` est un événement horodaté qui détermine un changement dans la situation du patient et découpe la venue en périodes stables de prise en charge
 
-En pratique, ce modèle servira de base à la structuration FHIR de l'IG et à l'identification des ressources cœur à profiler.
+Ce modèle structure les ressources FHIR de l'IG : la venue est portée par `Encounter`, le patient par `Patient`, et les mouvements par `Encounter` et ses extensions.
 
-### Conséquence pour l'IG FHIR
+### Organisation de l'IG
 
-Le contenu importé ici doit être progressivement ventilé vers :
+Le contenu du document source est réparti entre :
 
-- des pages narratives de contexte
-- des artefacts techniques décrivant les contraintes de données
-- des exemples illustrant les flux et situations PAM France
+- des pages narratives de contexte et de règles métier ([acteurs et transactions](actors-transactions.html))
+- des artefacts techniques décrivant les contraintes de données ([contenus et contraintes FHIR](content-modules.html))
+- des exemples illustrant des situations PAM France ([exemples](examples.html))

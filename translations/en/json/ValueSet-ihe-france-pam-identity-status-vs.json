@@ -30,7 +30,7 @@
     {
       "id" : "ValueSet.description",
       "context" : "ValueSet.description",
-      "source" : "Jeu de valeurs initial pour le statut d'identite.",
+      "source" : "Jeu de valeurs initial pour le statut d'identité.",
       "target" : null
     },
     {

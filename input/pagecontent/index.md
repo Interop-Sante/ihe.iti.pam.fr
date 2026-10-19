@@ -1,16 +1,30 @@
-Cette base d'Implementation Guide a pour objectif de transformer le profil IHE PAM France, aujourd'hui rédigé en PDF, en une spécification FHIR structurée, traçable et publiable.
+Ce guide d'implémentation décrit l'extension nationale française du profil IHE PAM (*Patient Administration Management*) : les contraintes sur les événements et segments HL7 v2.5 applicables en France pour la gestion de l'identité patient (transaction `ITI-30`) et des venues et mouvements (transaction `ITI-31`), ainsi que leur représentation en FHIR R4 (4.0.1).
 
-### Documents source identifiés
+### À qui s'adresse ce guide
 
-- `Publication-IHE_FRANCE_PAM_National_Extension_v2.11.2.doc`, release `2.11.2`, `Trial Implementation`, `3 février 2025`
-- `IHE_France_Constraints_on_HL7_data_types_for_ITI_V1.8.2.doc`, release `1.8.2`, `Trial Implementation`, `3 février 2025`
+- les éditeurs de systèmes de gestion administrative du patient (GAP) et de systèmes d'information hospitaliers
+- les intégrateurs qui échangent des messages PAM entre établissements ou avec des systèmes consommateurs (dossier patient, PMSI, identito-vigilance)
+- les équipes qui souhaitent exposer ou consommer ces informations en FHIR
 
-### Objectifs
+### Contenu
 
-- conserver le niveau normatif du texte source
-- séparer clairement narratif, contraintes FHIR et exemples
-- préparer une publication avec le template IHE
+| Page | Contenu |
+| --- | --- |
+| [Volume 1](volume-1.html) | cadrage, contextes d'utilisation et modèle de données minimal commun |
+| [Acteurs et transactions](actors-transactions.html) | transactions `ITI-30` et `ITI-31`, événements requis, règles d'identification et de mouvement |
+| [Conformité](conformite.html) | lecture des exigences et correspondance avec les artefacts FHIR |
+| [Contenus et contraintes FHIR](content-modules.html) | profils, extensions et terminologies publiés |
+| [Contraintes HL7 v2.5](hl7v2-datatypes.html) | types de données HL7 v2 contraints pour la France |
+| [Mapping HL7 v2 vers FHIR](hl7v2-to-fhir.html) | correspondance segments et champs vers ressources FHIR |
+| [Sécurité](security.html) | considérations de sécurité et de protection des données |
+| [Exemples](examples.html) | instances d'exemple |
+| [Publications antérieures](publications.html) | versions PDF précédentes |
 
-### Prochaine étape
+### Documents de référence
 
-Convertir ces documents source en texte de travail, puis compléter la matrice de mapping pour convertir chaque section en pages et artefacts FHIR.
+Ce guide s'appuie sur les deux documents suivants, publiés par IHE France (version `2.11.2` et `1.8.2`, statut `Trial Implementation`, 3 février 2025) :
+
+- *IHE France PAM National Extension* ([PDF v2.11.2](publications/Publication-IHE_FRANCE_PAM_National_Extension_v2.11.2.pdf))
+- *IHE France Constraints on HL7 data types for ITI* ([PDF v1.8.2](publications/IHE_France_Constraints_on_HL7_data_types_for_ITI_V1.8.2.pdf))
+
+Le texte de ces documents reste la référence normative. Les artefacts FHIR de ce guide en sont une projection structurée.

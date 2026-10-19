@@ -41,7 +41,7 @@ msgstr ""
 
 # CodeSystem.concept.display
 #: CodeSystem.concept.display
-msgid "Identifiant National de Sante"
+msgid "Identifiant National de Santé"
 msgstr ""
 
 # CodeSystem.concept.definition
@@ -61,7 +61,7 @@ msgstr ""
 
 # CodeSystem.concept.display
 #: CodeSystem.concept.display
-msgid "Numero de dossier administratif"
+msgid "Numéro de dossier administratif"
 msgstr ""
 
 # CodeSystem.concept.definition
@@ -71,7 +71,7 @@ msgstr ""
 
 # CodeSystem.concept.display
 #: CodeSystem.concept.display
-msgid "Numero de venue"
+msgid "Numéro de venue"
 msgstr ""
 
 # CodeSystem.concept.definition

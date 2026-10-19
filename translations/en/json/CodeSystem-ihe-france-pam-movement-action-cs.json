@@ -30,7 +30,7 @@
     {
       "id" : "CodeSystem.description",
       "context" : "CodeSystem.description",
-      "source" : "Jeu de codes local initial pour l'action sur un mouvement derivee notamment de ZBE-4.",
+      "source" : "Jeu de codes local initial pour l'action sur un mouvement dérivée notamment de ZBE-4.",
       "target" : null
     },
     {
@@ -54,7 +54,7 @@
     {
       "id" : "CodeSystem.concept.display",
       "context" : "CodeSystem.concept.display",
-      "source" : "Mise a jour d'un mouvement",
+      "source" : "Mise à jour d'un mouvement",
       "target" : null
     },
     {

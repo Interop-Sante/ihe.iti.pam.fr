@@ -21,7 +21,7 @@ msgstr ""
 
 # CodeSystem.description
 #: CodeSystem.description
-msgid "Jeu de codes local initial pour la protection de la venue derivee notamment de PV2-22."
+msgid "Jeu de codes local initial pour la protection de la venue dérivée notamment de PV2-22."
 msgstr ""
 
 # Coding.display
@@ -31,7 +31,7 @@ msgstr ""
 
 # CodeSystem.concept.display
 #: CodeSystem.concept.display
-msgid "Aucune protection particuliere"
+msgid "Aucune protection particulière"
 msgstr ""
 
 # CodeSystem.concept.definition
@@ -51,7 +51,7 @@ msgstr ""
 
 # CodeSystem.concept.display
 #: CodeSystem.concept.display
-msgid "Venue masquee"
+msgid "Venue masquée"
 msgstr ""
 
 # CodeSystem.concept.definition

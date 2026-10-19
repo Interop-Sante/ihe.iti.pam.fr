@@ -30,7 +30,7 @@
     {
       "id" : "CodeSystem.description",
       "context" : "CodeSystem.description",
-      "source" : "Jeu de codes local initial pour la protection de la venue derivee notamment de PV2-22.",
+      "source" : "Jeu de codes local initial pour la protection de la venue dérivée notamment de PV2-22.",
       "target" : null
     },
     {
@@ -42,7 +42,7 @@
     {
       "id" : "CodeSystem.concept.display",
       "context" : "CodeSystem.concept.display",
-      "source" : "Aucune protection particuliere",
+      "source" : "Aucune protection particulière",
       "target" : null
     },
     {
@@ -66,7 +66,7 @@
     {
       "id" : "CodeSystem.concept.display",
       "context" : "CodeSystem.concept.display",
-      "source" : "Venue masquee",
+      "source" : "Venue masquée",
       "target" : null
     },
     {

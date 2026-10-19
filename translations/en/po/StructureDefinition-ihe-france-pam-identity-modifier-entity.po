@@ -31,6 +31,6 @@ msgstr "IHE France PAM Identity Modifier Entity"
 
 # Provides a complete explanation of the meaning of the data element for human readability.  For the case of elements derived from existing elements (e.g. constraints), the definition SHALL be consistent with the base definition, but convey the meaning of the element in the particular context of use of the resource. (Note: The text you are reading is specified in ElementDefinition.definition).
 #: StructureDefinition.element.Extension/definition
-msgid "Entite modificatrice de l'identite, issue notamment de PID-34."
-msgstr "Entite modificatrice de l'identite, issue notamment de PID-34."
+msgid "Entité modificatrice de l'identité, issue notamment de PID-34."
+msgstr "Entité modificatrice de l'identité, issue notamment de PID-34."
 

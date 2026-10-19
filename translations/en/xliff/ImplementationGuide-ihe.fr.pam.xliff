@@ -71,7 +71,7 @@
              <notes>
                <note id="n1">ImplementationGuide.definition.resource.description</note>
              </notes>
-        <source>Exemple minimal de localisation d'hebergement.</source>
+        <source>Exemple minimal de localisation d'hébergement.</source>
         <target></target>
       </trans-unit>
       <trans-unit id="ImplementationGuide-ihe.fr.pam" resname="ImplementationGuide.definition.resource.name">
@@ -85,7 +85,7 @@
              <notes>
                <note id="n1">ImplementationGuide.definition.resource.description</note>
              </notes>
-        <source>Exemple minimal d'organisation ou d'etablissement.</source>
+        <source>Exemple minimal d'organisation ou d'établissement.</source>
         <target></target>
       </trans-unit>
       <trans-unit id="ImplementationGuide-ihe.fr.pam" resname="ImplementationGuide.definition.resource.name">
@@ -113,7 +113,7 @@
              <notes>
                <note id="n1">ImplementationGuide.definition.resource.description</note>
              </notes>
-        <source>Exemple minimal de professionnel de sante.</source>
+        <source>Exemple minimal de professionnel de santé.</source>
         <target></target>
       </trans-unit>
       <trans-unit id="ImplementationGuide-ihe.fr.pam" resname="ImplementationGuide.definition.resource.name">
@@ -127,7 +127,7 @@
              <notes>
                <note id="n1">ImplementationGuide.definition.resource.description</note>
              </notes>
-        <source>Exemple minimal de personne associee au patient.</source>
+        <source>Exemple minimal de personne associée au patient.</source>
         <target></target>
       </trans-unit>
       <trans-unit id="ImplementationGuide-ihe.fr.pam" resname="ImplementationGuide.definition.resource.name">
@@ -141,7 +141,7 @@
              <notes>
                <note id="n1">ImplementationGuide.definition.resource.description</note>
              </notes>
-        <source>Nature de l'accident, derivee notamment de ACC-2.</source>
+        <source>Nature de l'accident, dérivée notamment de ACC-2.</source>
         <target></target>
       </trans-unit>
       <trans-unit id="ImplementationGuide-ihe.fr.pam" resname="ImplementationGuide.definition.resource.name">
@@ -155,7 +155,7 @@
              <notes>
                <note id="n1">ImplementationGuide.definition.resource.description</note>
              </notes>
-        <source>Numero de dossier administratif, issu notamment de PID-18.</source>
+        <source>Numéro de dossier administratif, issu notamment de PID-18.</source>
         <target></target>
       </trans-unit>
       <trans-unit id="ImplementationGuide-ihe.fr.pam" resname="ImplementationGuide.definition.resource.name">
@@ -183,21 +183,21 @@
              <notes>
                <note id="n1">ImplementationGuide.definition.resource.description</note>
              </notes>
-        <source>Unite fonctionnelle responsable des soins, issue notamment de ZBE-8.</source>
+        <source>Unité fonctionnelle responsable des soins, issue notamment de ZBE-8.</source>
         <target></target>
       </trans-unit>
       <trans-unit id="ImplementationGuide-ihe.fr.pam" resname="ImplementationGuide.definition.resource.name">
              <notes>
                <note id="n1">ImplementationGuide.definition.resource.name</note>
              </notes>
-        <source>IHE France PAM Demographic Complement</source>
+        <source>IHE France PAM Demographic Complément</source>
         <target></target>
       </trans-unit>
       <trans-unit id="ImplementationGuide-ihe.fr.pam" resname="ImplementationGuide.definition.resource.description">
              <notes>
                <note id="n1">ImplementationGuide.definition.resource.description</note>
              </notes>
-        <source>Complement demographique derive notamment du segment ZFD.</source>
+        <source>Complément démographique dérivé notamment du segment ZFD.</source>
         <target></target>
       </trans-unit>
       <trans-unit id="ImplementationGuide-ihe.fr.pam" resname="ImplementationGuide.definition.resource.name">
@@ -267,7 +267,7 @@
              <notes>
                <note id="n1">ImplementationGuide.definition.resource.description</note>
              </notes>
-        <source>Complement d'information sur la venue, derive notamment du segment ZFV.</source>
+        <source>Complément d'information sur la venue, dérivé notamment du segment ZFV.</source>
         <target></target>
       </trans-unit>
       <trans-unit id="ImplementationGuide-ihe.fr.pam" resname="ImplementationGuide.definition.resource.name">
@@ -281,7 +281,7 @@
              <notes>
                <note id="n1">ImplementationGuide.definition.resource.description</note>
              </notes>
-        <source>Indicateur de mouvement historique, derive notamment de ZBE-5.</source>
+        <source>Indicateur de mouvement historique, dérivé notamment de ZBE-5.</source>
         <target></target>
       </trans-unit>
       <trans-unit id="ImplementationGuide-ihe.fr.pam" resname="ImplementationGuide.definition.resource.name">
@@ -323,7 +323,7 @@
              <notes>
                <note id="n1">ImplementationGuide.definition.resource.description</note>
              </notes>
-        <source>Entite modificatrice de l'identite, issue notamment de PID-34.</source>
+        <source>Entité modificatrice de l'identité, issue notamment de PID-34.</source>
         <target></target>
       </trans-unit>
       <trans-unit id="ImplementationGuide-ihe.fr.pam" resname="ImplementationGuide.definition.resource.name">
@@ -337,7 +337,7 @@
              <notes>
                <note id="n1">ImplementationGuide.definition.resource.description</note>
              </notes>
-        <source>Statut d'identite porte par le contenu PAM France, notamment en lien avec PID-32.</source>
+        <source>Statut d'identité porte par le contenu PAM France, notamment en lien avec PID-32.</source>
         <target></target>
       </trans-unit>
       <trans-unit id="ImplementationGuide-ihe.fr.pam" resname="ImplementationGuide.definition.resource.name">
@@ -351,7 +351,7 @@
              <notes>
                <note id="n1">ImplementationGuide.definition.resource.description</note>
              </notes>
-        <source>Jeu de codes local initial pour le statut d'identite dans l'extension IHE France PAM.</source>
+        <source>Jeu de codes local initial pour le statut d'identité dans l'extension IHE France PAM.</source>
         <target></target>
       </trans-unit>
       <trans-unit id="ImplementationGuide-ihe.fr.pam" resname="ImplementationGuide.definition.resource.name">
@@ -365,7 +365,7 @@
              <notes>
                <note id="n1">ImplementationGuide.definition.resource.description</note>
              </notes>
-        <source>Jeu de valeurs initial pour le statut d'identite.</source>
+        <source>Jeu de valeurs initial pour le statut d'identité.</source>
         <target></target>
       </trans-unit>
       <trans-unit id="ImplementationGuide-ihe.fr.pam" resname="ImplementationGuide.definition.resource.name">
@@ -407,7 +407,7 @@
              <notes>
                <note id="n1">ImplementationGuide.definition.resource.description</note>
              </notes>
-        <source>Profil location initial pour les localisations patient et unites d'hebergement vehiculees notamment par PV1-3 et le type PL.</source>
+        <source>Profil location initial pour les localisations patient et unités d'hébergement véhiculées notamment par PV1-3 et le type PL.</source>
         <target></target>
       </trans-unit>
       <trans-unit id="ImplementationGuide-ihe.fr.pam" resname="ImplementationGuide.definition.resource.name">
@@ -421,7 +421,7 @@
              <notes>
                <note id="n1">ImplementationGuide.definition.resource.description</note>
              </notes>
-        <source>Unite fonctionnelle medicalement ou medico-administrativement responsable du patient, issue notamment de ZBE-7.</source>
+        <source>Unité fonctionnelle médicalement ou médico-administrativement responsable du patient, issue notamment de ZBE-7.</source>
         <target></target>
       </trans-unit>
       <trans-unit id="ImplementationGuide-ihe.fr.pam" resname="ImplementationGuide.definition.resource.name">
@@ -435,7 +435,7 @@
              <notes>
                <note id="n1">ImplementationGuide.definition.resource.description</note>
              </notes>
-        <source>Nom de naissance de la mere, issu notamment de PID-6.</source>
+        <source>Nom de naissance de la mère, issu notamment de PID-6.</source>
         <target></target>
       </trans-unit>
       <trans-unit id="ImplementationGuide-ihe.fr.pam" resname="ImplementationGuide.definition.resource.name">
@@ -449,7 +449,7 @@
              <notes>
                <note id="n1">ImplementationGuide.definition.resource.description</note>
              </notes>
-        <source>Code action portant sur le mouvement, derive notamment de ZBE-4.</source>
+        <source>Code action portant sur le mouvement, dérivé notamment de ZBE-4.</source>
         <target></target>
       </trans-unit>
       <trans-unit id="ImplementationGuide-ihe.fr.pam" resname="ImplementationGuide.definition.resource.name">
@@ -463,7 +463,7 @@
              <notes>
                <note id="n1">ImplementationGuide.definition.resource.description</note>
              </notes>
-        <source>Jeu de codes local initial pour l'action sur un mouvement derivee notamment de ZBE-4.</source>
+        <source>Jeu de codes local initial pour l'action sur un mouvement dérivée notamment de ZBE-4.</source>
         <target></target>
       </trans-unit>
       <trans-unit id="ImplementationGuide-ihe.fr.pam" resname="ImplementationGuide.definition.resource.name">
@@ -491,7 +491,7 @@
              <notes>
                <note id="n1">ImplementationGuide.definition.resource.description</note>
              </notes>
-        <source>Nature du mouvement, derivee notamment de ZBE-9.</source>
+        <source>Nature du mouvement, dérivée notamment de ZBE-9.</source>
         <target></target>
       </trans-unit>
       <trans-unit id="ImplementationGuide-ihe.fr.pam" resname="ImplementationGuide.definition.resource.name">
@@ -505,7 +505,7 @@
              <notes>
                <note id="n1">ImplementationGuide.definition.resource.description</note>
              </notes>
-        <source>Nationalite ou citoyennete vehiculee notamment par PID-26 et PID-28.</source>
+        <source>Nationalité ou citoyenneté véhiculée notamment par PID-26 et PID-28.</source>
         <target></target>
       </trans-unit>
       <trans-unit id="ImplementationGuide-ihe.fr.pam" resname="ImplementationGuide.definition.resource.name">
@@ -519,7 +519,7 @@
              <notes>
                <note id="n1">ImplementationGuide.definition.resource.description</note>
              </notes>
-        <source>Profil organisation initial pour etablissements, entites juridiques et unites fonctionnelles identifiees dans PAM France.</source>
+        <source>Profil organisation initial pour établissements, entités juridiques et unités fonctionnelles identifiées dans PAM France.</source>
         <target></target>
       </trans-unit>
       <trans-unit id="ImplementationGuide-ihe.fr.pam" resname="ImplementationGuide.definition.resource.name">
@@ -533,7 +533,7 @@
              <notes>
                <note id="n1">ImplementationGuide.definition.resource.description</note>
              </notes>
-        <source>Code d'evenement d'origine du mouvement, derive notamment de ZBE-6.</source>
+        <source>Code d'événement d'origine du mouvement, dérivé notamment de ZBE-6.</source>
         <target></target>
       </trans-unit>
       <trans-unit id="ImplementationGuide-ihe.fr.pam" resname="ImplementationGuide.definition.resource.name">
@@ -561,7 +561,7 @@
              <notes>
                <note id="n1">ImplementationGuide.definition.resource.description</note>
              </notes>
-        <source>Date de sortie previsionnelle, derivee notamment de PV2-9 et EVN-3 selon le contexte.</source>
+        <source>Date de sortie prévisionnelle, dérivée notamment de PV2-9 et EVN-3 selon le contexte.</source>
         <target></target>
       </trans-unit>
       <trans-unit id="ImplementationGuide-ihe.fr.pam" resname="ImplementationGuide.definition.resource.name">
@@ -575,7 +575,7 @@
              <notes>
                <note id="n1">ImplementationGuide.definition.resource.description</note>
              </notes>
-        <source>Date d'entree previsionnelle, derivee notamment de PV2-8.</source>
+        <source>Date d'entrée prévisionnelle, dérivée notamment de PV2-8.</source>
         <target></target>
       </trans-unit>
       <trans-unit id="ImplementationGuide-ihe.fr.pam" resname="ImplementationGuide.definition.resource.name">
@@ -589,7 +589,7 @@
              <notes>
                <note id="n1">ImplementationGuide.definition.resource.description</note>
              </notes>
-        <source>Informations de mouvement PMSI derivees notamment du segment ZFM.</source>
+        <source>Informations de mouvement PMSI dérivées notamment du segment ZFM.</source>
         <target></target>
       </trans-unit>
       <trans-unit id="ImplementationGuide-ihe.fr.pam" resname="ImplementationGuide.definition.resource.name">
@@ -603,7 +603,7 @@
              <notes>
                <note id="n1">ImplementationGuide.definition.resource.description</note>
              </notes>
-        <source>Profil practitioner initial pour les professionnels de sante references dans les segments ROL et PV1.</source>
+        <source>Profil practitioner initial pour les professionnels de santé référencés dans les segments ROL et PV1.</source>
         <target></target>
       </trans-unit>
       <trans-unit id="ImplementationGuide-ihe.fr.pam" resname="ImplementationGuide.definition.resource.name">
@@ -617,7 +617,7 @@
              <notes>
                <note id="n1">ImplementationGuide.definition.resource.description</note>
              </notes>
-        <source>Profil practitioner role initial pour les roles vehicules notamment par ROL et par les references medecins dans PV1.</source>
+        <source>Profil practitioner role initial pour les roles véhiculés notamment par ROL et par les référencés médecins dans PV1.</source>
         <target></target>
       </trans-unit>
       <trans-unit id="ImplementationGuide-ihe.fr.pam" resname="ImplementationGuide.definition.resource.name">
@@ -631,7 +631,7 @@
              <notes>
                <note id="n1">ImplementationGuide.definition.resource.description</note>
              </notes>
-        <source>Situation professionnelle du patient, derivee notamment du segment ZFP.</source>
+        <source>Situation professionnelle du patient, dérivée notamment du segment ZFP.</source>
         <target></target>
       </trans-unit>
       <trans-unit id="ImplementationGuide-ihe.fr.pam" resname="ImplementationGuide.definition.resource.name">
@@ -645,7 +645,7 @@
              <notes>
                <note id="n1">ImplementationGuide.definition.resource.description</note>
              </notes>
-        <source>Mode legal de soins en psychiatrie, derive notamment du segment ZFS.</source>
+        <source>Mode legal de soins en psychiatrie, dérivé notamment du segment ZFS.</source>
         <target></target>
       </trans-unit>
       <trans-unit id="ImplementationGuide-ihe.fr.pam" resname="ImplementationGuide.definition.resource.name">
@@ -659,7 +659,7 @@
              <notes>
                <note id="n1">ImplementationGuide.definition.resource.description</note>
              </notes>
-        <source>Profil related person initial pour représenter les proches et personnes associees vehicules notamment via le segment NK1.</source>
+        <source>Profil related person initial pour représenter les proches et personnes associées véhiculés notamment via le segment NK1.</source>
         <target></target>
       </trans-unit>
       <trans-unit id="ImplementationGuide-ihe.fr.pam" resname="ImplementationGuide.definition.resource.name">
@@ -701,7 +701,7 @@
              <notes>
                <note id="n1">ImplementationGuide.definition.resource.description</note>
              </notes>
-        <source>Protection concernant la venue, derivee notamment de PV2-22.</source>
+        <source>Protection concernant la venue, dérivée notamment de PV2-22.</source>
         <target></target>
       </trans-unit>
       <trans-unit id="ImplementationGuide-ihe.fr.pam" resname="ImplementationGuide.definition.resource.name">
@@ -715,7 +715,7 @@
              <notes>
                <note id="n1">ImplementationGuide.definition.resource.description</note>
              </notes>
-        <source>Jeu de codes local initial pour la protection de la venue derivee notamment de PV2-22.</source>
+        <source>Jeu de codes local initial pour la protection de la venue dérivée notamment de PV2-22.</source>
         <target></target>
       </trans-unit>
       <trans-unit id="ImplementationGuide-ihe.fr.pam" resname="ImplementationGuide.definition.resource.name">
@@ -758,6 +758,13 @@
                <note id="n1">ImplementationGuide.definition.page.title</note>
              </notes>
         <source>Acteurs et transactions</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-ihe.fr.pam" resname="ImplementationGuide.definition.page.title">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.page.title</note>
+             </notes>
+        <source>Conformité</source>
         <target></target>
       </trans-unit>
       <trans-unit id="ImplementationGuide-ihe.fr.pam" resname="ImplementationGuide.definition.page.title">

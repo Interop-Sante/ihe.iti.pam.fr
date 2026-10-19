@@ -35,7 +35,7 @@
              <notes>
                <note id="n1">CodeSystem.description</note>
              </notes>
-        <source>Jeu de codes local initial pour la protection de la venue derivee notamment de PV2-22.</source>
+        <source>Jeu de codes local initial pour la protection de la venue dérivée notamment de PV2-22.</source>
         <target></target>
       </trans-unit>
       <trans-unit id="CodeSystem-ihe-france-pam-venue-protection-cs" resname="Coding.display">
@@ -49,7 +49,7 @@
              <notes>
                <note id="n1">CodeSystem.concept.display</note>
              </notes>
-        <source>Aucune protection particuliere</source>
+        <source>Aucune protection particulière</source>
         <target></target>
       </trans-unit>
       <trans-unit id="CodeSystem-ihe-france-pam-venue-protection-cs" resname="CodeSystem.concept.definition">
@@ -77,7 +77,7 @@
              <notes>
                <note id="n1">CodeSystem.concept.display</note>
              </notes>
-        <source>Venue masquee</source>
+        <source>Venue masquée</source>
         <target></target>
       </trans-unit>
       <trans-unit id="CodeSystem-ihe-france-pam-venue-protection-cs" resname="CodeSystem.concept.definition">

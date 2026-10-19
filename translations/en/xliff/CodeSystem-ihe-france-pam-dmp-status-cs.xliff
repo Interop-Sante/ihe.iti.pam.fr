@@ -77,7 +77,7 @@
              <notes>
                <note id="n1">CodeSystem.concept.display</note>
              </notes>
-        <source>DMP ferme</source>
+        <source>DMP fermé</source>
         <target></target>
       </trans-unit>
       <trans-unit id="CodeSystem-ihe-france-pam-dmp-status-cs" resname="CodeSystem.concept.definition">
@@ -91,7 +91,7 @@
              <notes>
                <note id="n1">CodeSystem.concept.display</note>
              </notes>
-        <source>Acces autorise</source>
+        <source>Accès autorisé</source>
         <target></target>
       </trans-unit>
       <trans-unit id="CodeSystem-ihe-france-pam-dmp-status-cs" resname="CodeSystem.concept.definition">
@@ -105,7 +105,7 @@
              <notes>
                <note id="n1">CodeSystem.concept.display</note>
              </notes>
-        <source>Opposition exprimee</source>
+        <source>Opposition exprimée</source>
         <target></target>
       </trans-unit>
       <trans-unit id="CodeSystem-ihe-france-pam-dmp-status-cs" resname="CodeSystem.concept.definition">

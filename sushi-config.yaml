@@ -44,6 +44,8 @@ pages:
     title: Volume 1 - Vue d'ensemble
   actors-transactions.md:
     title: Acteurs et transactions
+  conformite.md:
+    title: Conformité
   content-modules.md:
     title: Contenus et contraintes FHIR
   hl7v2-datatypes.md:
@@ -66,6 +68,7 @@ menu:
   Spécification:
     Volume 1 - Vue d'ensemble: volume-1.html
     Acteurs et transactions: actors-transactions.html
+    Conformité: conformite.html
     Contenus et contraintes FHIR: content-modules.html
     Contraintes HL7 v2.5: hl7v2-datatypes.html
     Mapping HL7 v2 vers FHIR: hl7v2-to-fhir.html

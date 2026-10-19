@@ -145,10 +145,11 @@ Le document détaille aussi :
 - les cas d'usage de mouvements historiques
 - la réutilisation interdite ou contrôlée des identifiants de dossier, venue et mouvement
 
-### Orientation FHIR
+### Représentation en FHIR
 
-Cette matière sera ensuite ventilée entre :
+Les règles décrites sur cette page sont reprises dans les artefacts FHIR de la façon suivante :
 
-- pages narratives d'usage et de conformité
-- exemples de scénarios
-- profils ou règles de mapping pour `Patient`, `Encounter`, contacts, couvertures et extensions nationales
+- les identifiants (IPP, INS, dossier, venue, mouvement) sont portés par `Identifier` avec des slices : voir [mapping](hl7v2-to-fhir.html)
+- la venue et les mouvements sont portés par `Encounter` et ses extensions nationales
+- les segments nationaux `Z*` sont représentés par des extensions
+- la page [conformité](conformite.html) précise comment lire les exigences du document source

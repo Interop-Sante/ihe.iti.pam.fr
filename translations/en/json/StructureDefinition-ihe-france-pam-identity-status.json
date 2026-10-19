@@ -42,8 +42,8 @@
     {
       "id" : "StructureDefinition.element.Extension/definition",
       "context" : "Provides a complete explanation of the meaning of the data element for human readability.  For the case of elements derived from existing elements (e.g. constraints), the definition SHALL be consistent with the base definition, but convey the meaning of the element in the particular context of use of the resource. (Note: The text you are reading is specified in ElementDefinition.definition).",
-      "source" : "Statut d'identite porte par le contenu PAM France, notamment en lien avec PID-32.",
-      "target" : "Statut d'identite porte par le contenu PAM France, notamment en lien avec PID-32."
+      "source" : "Statut d'identité porte par le contenu PAM France, notamment en lien avec PID-32.",
+      "target" : "Statut d'identité porte par le contenu PAM France, notamment en lien avec PID-32."
     }]
   }]
 }

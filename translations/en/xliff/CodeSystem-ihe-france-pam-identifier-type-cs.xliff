@@ -63,7 +63,7 @@
              <notes>
                <note id="n1">CodeSystem.concept.display</note>
              </notes>
-        <source>Identifiant National de Sante</source>
+        <source>Identifiant National de Santé</source>
         <target></target>
       </trans-unit>
       <trans-unit id="CodeSystem-ihe-france-pam-identifier-type-cs" resname="CodeSystem.concept.definition">
@@ -91,7 +91,7 @@
              <notes>
                <note id="n1">CodeSystem.concept.display</note>
              </notes>
-        <source>Numero de dossier administratif</source>
+        <source>Numéro de dossier administratif</source>
         <target></target>
       </trans-unit>
       <trans-unit id="CodeSystem-ihe-france-pam-identifier-type-cs" resname="CodeSystem.concept.definition">
@@ -105,7 +105,7 @@
              <notes>
                <note id="n1">CodeSystem.concept.display</note>
              </notes>
-        <source>Numero de venue</source>
+        <source>Numéro de venue</source>
         <target></target>
       </trans-unit>
       <trans-unit id="CodeSystem-ihe-france-pam-identifier-type-cs" resname="CodeSystem.concept.definition">

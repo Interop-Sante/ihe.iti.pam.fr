@@ -31,6 +31,6 @@ msgstr "IHE France PAM Identity Status"
 
 # Provides a complete explanation of the meaning of the data element for human readability.  For the case of elements derived from existing elements (e.g. constraints), the definition SHALL be consistent with the base definition, but convey the meaning of the element in the particular context of use of the resource. (Note: The text you are reading is specified in ElementDefinition.definition).
 #: StructureDefinition.element.Extension/definition
-msgid "Statut d'identite porte par le contenu PAM France, notamment en lien avec PID-32."
-msgstr "Statut d'identite porte par le contenu PAM France, notamment en lien avec PID-32."
+msgid "Statut d'identité porte par le contenu PAM France, notamment en lien avec PID-32."
+msgstr "Statut d'identité porte par le contenu PAM France, notamment en lien avec PID-32."
 
