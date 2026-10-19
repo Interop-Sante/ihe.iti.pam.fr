@@ -204,6 +204,62 @@
              <notes>
                <note id="n1">ImplementationGuide.definition.resource.name</note>
              </notes>
+        <source>IHE France PAM Admission Type CodeSystem</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-ihe.fr.pam" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.description</note>
+             </notes>
+        <source>Type d'admission (PV1-4, table HL7 0007).</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-ihe.fr.pam" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
+        <source>IHE France PAM Admission Type ValueSet</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-ihe.fr.pam" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.description</note>
+             </notes>
+        <source>Valeurs pour : Type d'admission (PV1-4, table HL7 0007).</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-ihe.fr.pam" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
+        <source>IHE France PAM Admit Source CodeSystem</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-ihe.fr.pam" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.description</note>
+             </notes>
+        <source>Mode d'entrée personnalisé (PV1-14, table HL7 0023). Liste non limitative, à adapter selon les besoins du site.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-ihe.fr.pam" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
+        <source>IHE France PAM Admit Source ValueSet</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-ihe.fr.pam" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.description</note>
+             </notes>
+        <source>Valeurs pour : Mode d'entrée personnalisé (PV1-14, table HL7 0023). Liste non limitative, à adapter selon les besoins du site.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-ihe.fr.pam" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
         <source>IHE France PAM Arrival Mode</source>
         <target></target>
       </trans-unit>
@@ -246,6 +302,48 @@
              <notes>
                <note id="n1">ImplementationGuide.definition.resource.name</note>
              </notes>
+        <source>IHE France PAM Contact Role</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-ihe.fr.pam" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.description</note>
+             </notes>
+        <source>Rôle de la personne auprès du patient (NK1-7) : personne à prévenir, personne de confiance, représentant légal, personne à ne pas prévenir.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-ihe.fr.pam" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
+        <source>IHE France PAM Contact Role CodeSystem</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-ihe.fr.pam" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.description</note>
+             </notes>
+        <source>Rôle de la personne auprès du patient pendant le séjour (NK1-7, table HL7 0131). Liste non limitative. La personne de confiance est rattachée au séjour et transmise uniquement via ITI-31.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-ihe.fr.pam" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
+        <source>IHE France PAM Contact Role ValueSet</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-ihe.fr.pam" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.description</note>
+             </notes>
+        <source>Valeurs pour : Rôle de la personne auprès du patient pendant le séjour (NK1-7, table HL7 0131). Liste non limitative. La personne de confiance est rattachée au séjour et transmise uniquement via ITI-31.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-ihe.fr.pam" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
         <source>IHE France PAM Data Protection</source>
         <target></target>
       </trans-unit>
@@ -268,6 +366,34 @@
                <note id="n1">ImplementationGuide.definition.resource.description</note>
              </notes>
         <source>Complément démographique (segment ZFD) : date lunaire, semaines de gestation, consentement SMS, indicateur de date de naissance corrigée, mode d'obtention et justificatif de l'identité.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-ihe.fr.pam" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
+        <source>IHE France PAM Discharge Disposition CodeSystem</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-ihe.fr.pam" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.description</note>
+             </notes>
+        <source>Circonstance de sortie (PV1-36, table HL7 0112). Table définie par l'utilisateur.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-ihe.fr.pam" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
+        <source>IHE France PAM Discharge Disposition ValueSet</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-ihe.fr.pam" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.description</note>
+             </notes>
+        <source>Valeurs pour : Circonstance de sortie (PV1-36, table HL7 0112). Table définie par l'utilisateur.</source>
         <target></target>
       </trans-unit>
       <trans-unit id="ImplementationGuide-ihe.fr.pam" resname="ImplementationGuide.definition.resource.name">
@@ -1002,6 +1128,62 @@
              <notes>
                <note id="n1">ImplementationGuide.definition.resource.name</note>
              </notes>
+        <source>IHE France PAM Professional Activity CodeSystem</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-ihe.fr.pam" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.description</note>
+             </notes>
+        <source>Activité socioprofessionnelle (ZFP-1, nomenclature PCS 2003 de l'INSEE).</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-ihe.fr.pam" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
+        <source>IHE France PAM Professional Activity ValueSet</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-ihe.fr.pam" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.description</note>
+             </notes>
+        <source>Valeurs pour : Activité socioprofessionnelle (ZFP-1, nomenclature PCS 2003 de l'INSEE).</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-ihe.fr.pam" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
+        <source>IHE France PAM Professional Category CodeSystem</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-ihe.fr.pam" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.description</note>
+             </notes>
+        <source>Catégorie socioprofessionnelle (ZFP-2, nomenclature PCS 2003 de l'INSEE).</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-ihe.fr.pam" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
+        <source>IHE France PAM Professional Category ValueSet</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-ihe.fr.pam" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.description</note>
+             </notes>
+        <source>Valeurs pour : Catégorie socioprofessionnelle (ZFP-2, nomenclature PCS 2003 de l'INSEE).</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-ihe.fr.pam" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
         <source>IHE France PAM Professional Situation</source>
         <target></target>
       </trans-unit>
@@ -1066,6 +1248,34 @@
                <note id="n1">ImplementationGuide.definition.resource.description</note>
              </notes>
         <source>Profil related person pour représenter les personnes à prévenir, personnes de confiance et personnes associées, véhiculées par le segment NK1.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-ihe.fr.pam" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
+        <source>IHE France PAM Relationship CodeSystem</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-ihe.fr.pam" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.description</note>
+             </notes>
+        <source>Nature de la relation avec le patient (NK1-3, table HL7 0063). Liste non limitative.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-ihe.fr.pam" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
+        <source>IHE France PAM Relationship ValueSet</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-ihe.fr.pam" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.description</note>
+             </notes>
+        <source>Valeurs pour : Nature de la relation avec le patient (NK1-3, table HL7 0063). Liste non limitative.</source>
         <target></target>
       </trans-unit>
       <trans-unit id="ImplementationGuide-ihe.fr.pam" resname="ImplementationGuide.definition.resource.name">

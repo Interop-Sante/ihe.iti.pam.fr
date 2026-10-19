@@ -45,11 +45,11 @@ Cette page décrit la correspondance entre les segments HL7 v2.5 de l'extension 
 | --- | --- | --- |
 | `PV1-2` | classe de patient | extension `IHEFrancePamPatientClass` (et `Encounter.class`) |
 | `PV1-3` | hébergement / localisation | `Encounter.location` |
-| `PV1-4` | type d'admission | `Encounter.type` à détailler |
+| `PV1-4` | type d'admission | `Encounter.type` |
 | `PV1-7` | médecin responsable | `Encounter.participant` ou `PractitionerRole` |
 | `PV1-8` | médecin adressant | `Encounter.participant` ou référence dédiée |
 | `PV1-19` | identifiant de venue | `Encounter.identifier` slice `VN` |
-| `PV1-36` | circonstance de sortie | `Encounter.hospital.dischargeDisposition` ou extension |
+| `PV1-36` | circonstance de sortie | `Encounter.hospitalization.dischargeDisposition` |
 | `PV1-41` | statut du dossier administratif | extension à modéliser |
 | `PV2-8` | date d'entrée prévisionnelle | extension ou `plannedStartDate` selon choix final |
 | `PV2-9` | date de sortie prévisionnelle | extension ou `plannedEndDate` selon choix final |
@@ -175,6 +175,9 @@ Les terminologies locales suivantes évitent de laisser les extensions principal
 - `IHEFrancePamPmsiEntryMode`, `IHEFrancePamPmsiExitMode` et `IHEFrancePamEmergencyPassage` : modes PMSI (`ZFM-1`, `ZFM-2`, `ZFM-5`)
 - `IHEFrancePamAccident` : nature de l'accident (`ACC-2`)
 - `IHEFrancePamProviderRole` : rôle d'un médecin (`ROL-3`)
+- `IHEFrancePamAdmissionType`, `IHEFrancePamAdmitSource` et `IHEFrancePamDischargeDisposition` : type d'admission, mode d'entrée et circonstance de sortie (`PV1-4`, `PV1-14`, `PV1-36`)
+- `IHEFrancePamRelationship` et `IHEFrancePamContactRole` : relation et rôle d'une personne associée (`NK1-3`, `NK1-7`)
+- `IHEFrancePamProfessionalActivity` et `IHEFrancePamProfessionalCategory` : activité et catégorie socioprofessionnelles (`ZFP-1`, `ZFP-2`)
 
 Chaque terminologie est publiée sous la forme d'un `CodeSystem` (suffixe `CS`) et d'un `ValueSet` (suffixe `VS`).
 
@@ -193,5 +196,5 @@ Les choix suivants sont retenus :
 
 - le mapping champ à champ n'est pas détaillé pour tous les segments (`PD1`, `ROL`, `ACC` en particulier)
 - les règles de dépendance entre champs (par exemple `ZBE-6` requis avec les actions `UPDATE` et `CANCEL`) ne sont pas exprimées par des invariants
-- les tables à valeurs libres ou issues de nomenclatures externes (`ZFM-3`, `ZFM-4`, `ZFP`, `PV1-10`, `PV1-14`, `PV1-21`, `PV1-36`, `NK1-3`, `NK1-7`) ne sont pas encore publiées comme ValueSets
+- les tables de grande taille ou issues de nomenclatures externes (`ZFM-3`, `ZFM-4`, `PV1-10` disciplines médico-tarifaires, `PV1-21` types d'activité) ne sont pas encore publiées comme ValueSets
 - les scénarios d'exemple `ITI-30` et `ITI-31` complets (messages) ne sont pas encore publiés : voir [exemples](examples.html)

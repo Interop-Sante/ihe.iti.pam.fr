@@ -61,6 +61,9 @@ Description: "Profil encounter pour l'extension nationale IHE France PAM, dériv
 * identifier[visitNumber].type.coding.display = "Numéro de venue"
 * status 1..1
 * class 1..1
+* type from IHEFrancePamAdmissionTypeVS (extensible)
+* hospitalization.admitSource from IHEFrancePamAdmitSourceVS (extensible)
+* hospitalization.dischargeDisposition from IHEFrancePamDischargeDispositionVS (extensible)
 * subject 1..1
 * period 0..1
 * location 0..*
@@ -92,6 +95,8 @@ Title: "IHE France PAM Related Person"
 Description: "Profil related person pour représenter les personnes à prévenir, personnes de confiance et personnes associées, véhiculées par le segment NK1."
 * patient 1..1
 * relationship 1..*
+* relationship from IHEFrancePamRelationshipVS (extensible)
+* extension contains IHEFrancePamContactRole named contactRole 0..*
 * identifier 1..*
 * identifier ^short = "Identifiant de la personne (NK1-33), de préférence de type PN"
 * name 0..*
@@ -245,8 +250,10 @@ Context: Patient
     category 0..1
 * extension[activity] ^short = "ZFP-1 : activité socioprofessionnelle"
 * extension[activity].value[x] only CodeableConcept
+* extension[activity].valueCodeableConcept from IHEFrancePamProfessionalActivityVS (extensible)
 * extension[category] ^short = "ZFP-2 : catégorie socioprofessionnelle"
 * extension[category].value[x] only CodeableConcept
+* extension[category].valueCodeableConcept from IHEFrancePamProfessionalCategoryVS (extensible)
 
 Extension: IHEFrancePamPsychiatricLegalStatus
 Id: ihe-france-pam-psychiatric-legal-status
@@ -462,3 +469,11 @@ Description: "Nature de l'accident (ACC-2). Le segment ACC est obligatoire lorsq
 Context: Encounter
 * value[x] only CodeableConcept
 * valueCodeableConcept from IHEFrancePamAccidentVS (extensible)
+
+Extension: IHEFrancePamContactRole
+Id: ihe-france-pam-contact-role
+Title: "IHE France PAM Contact Role"
+Description: "Rôle de la personne auprès du patient (NK1-7) : personne à prévenir, personne de confiance, représentant légal, personne à ne pas prévenir."
+Context: RelatedPerson
+* value[x] only CodeableConcept
+* valueCodeableConcept from IHEFrancePamContactRoleVS (extensible)

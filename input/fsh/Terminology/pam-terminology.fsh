@@ -466,3 +466,224 @@ Title: "IHE France PAM Provider Role ValueSet"
 Description: "Valeurs permises pour le rôle d'un médecin (ROL-3)."
 * ^experimental = false
 * include codes from system IHEFrancePamProviderRoleCS
+
+CodeSystem: IHEFrancePamAdmitSourceCS
+Id: ihe-france-pam-admit-source-cs
+Title: "IHE France PAM Admit Source CodeSystem"
+Description: "Mode d'entrée personnalisé (PV1-14, table HL7 0023). Liste non limitative, à adapter selon les besoins du site."
+* ^experimental = false
+* ^caseSensitive = true
+* #1 "Envoyé par un médecin extérieur" "Envoyé par un médecin extérieur."
+* #3 "Convocation à l'hôpital" "Convocation à l'hôpital."
+* #4 "Transfert depuis un autre centre hospitalier" "Transfert depuis un autre centre hospitalier."
+* #6 "Entrée par transfert interne" "Entrée par transfert interne."
+* #7 "Entrée en urgence" "Entrée en urgence : la venue présente a priori un caractère d'urgence, ce qui n'est pas déductible du fait que le patient arrive par une UF d'urgence."
+* #8 "Entrée sous contrainte des forces de l'ordre" "Entrée sous contrainte des forces de l'ordre."
+* #90 "Séjour programmé" "Séjour programmé."
+* #91 "Décision personnelle" "Décision personnelle."
+
+ValueSet: IHEFrancePamAdmitSourceVS
+Id: ihe-france-pam-admit-source-vs
+Title: "IHE France PAM Admit Source ValueSet"
+Description: "Valeurs pour : Mode d'entrée personnalisé (PV1-14, table HL7 0023). Liste non limitative, à adapter selon les besoins du site."
+* ^experimental = false
+* include codes from system IHEFrancePamAdmitSourceCS
+
+CodeSystem: IHEFrancePamDischargeDispositionCS
+Id: ihe-france-pam-discharge-disposition-cs
+Title: "IHE France PAM Discharge Disposition CodeSystem"
+Description: "Circonstance de sortie (PV1-36, table HL7 0112). Table définie par l'utilisateur."
+* ^experimental = false
+* ^caseSensitive = true
+* #2 "Mesures disciplinaires" "Mesures disciplinaires."
+* #3 "Décision médicale" "Décision médicale (valeur par défaut)."
+* #4 "Contre avis médical" "Contre avis médical."
+* #5 "En attente d'examen" "En attente d'examen."
+* #6 "Convenances personnelles" "Convenances personnelles."
+* #R "Essai" "Essai (contexte psychiatrique)."
+* #E "Évasion" "Évasion."
+* #F "Fugue" "Fugue."
+* #A "Absence" "Absence de moins de 12 heures."
+* #P "Permission" "Permission de moins de 72 heures."
+* #S "Sortie avec programme de soins" "Sortie avec programme de soins."
+* #B "Départ vers MCO" "Départ vers MCO."
+* #REO "Réorientation" "Réorientation."
+* #PSA "Patient parti sans attendre les soins" "Patient parti sans attendre les soins."
+
+ValueSet: IHEFrancePamDischargeDispositionVS
+Id: ihe-france-pam-discharge-disposition-vs
+Title: "IHE France PAM Discharge Disposition ValueSet"
+Description: "Valeurs pour : Circonstance de sortie (PV1-36, table HL7 0112). Table définie par l'utilisateur."
+* ^experimental = false
+* include codes from system IHEFrancePamDischargeDispositionCS
+
+CodeSystem: IHEFrancePamAdmissionTypeCS
+Id: ihe-france-pam-admission-type-cs
+Title: "IHE France PAM Admission Type CodeSystem"
+Description: "Type d'admission (PV1-4, table HL7 0007)."
+* ^experimental = false
+* ^caseSensitive = true
+* #C "Confort" "Confort (chirurgie esthétique)."
+* #L "Accouchement maternité" "Accouchement maternité."
+* #N "Nouveau-né" "Nouveau-né."
+* #R "Routine" "Routine (valeur par défaut)."
+* #U "Urgent" "Caractère d'urgence aiguë du problème, quel que soit le service d'entrée."
+* #RM "Rétrocession de médicament" "Valeur ajoutée par IHE France pour caractériser les venues pour rétrocession médicamenteuse."
+* #IE "Prestation inter-établissements" "Valeur ajoutée par IHE France pour caractériser les venues pour prestation facturée à un autre établissement demandeur."
+
+ValueSet: IHEFrancePamAdmissionTypeVS
+Id: ihe-france-pam-admission-type-vs
+Title: "IHE France PAM Admission Type ValueSet"
+Description: "Valeurs pour : Type d'admission (PV1-4, table HL7 0007)."
+* ^experimental = false
+* include codes from system IHEFrancePamAdmissionTypeCS
+
+CodeSystem: IHEFrancePamRelationshipCS
+Id: ihe-france-pam-relationship-cs
+Title: "IHE France PAM Relationship CodeSystem"
+Description: "Nature de la relation avec le patient (NK1-3, table HL7 0063). Liste non limitative."
+* ^experimental = false
+* ^caseSensitive = true
+* #ASC "Collègue" "Collègue."
+* #BRO "Frère" "Frère."
+* #CGV "Aidant" "Aidant (care giver)."
+* #CHD "Enfant" "Enfant."
+* #CUR "Curateur" "Curateur."
+* #DEP "Dépendant handicapé" "Dépendant handicapé."
+* #DOM "Compagnon" "Compagnon."
+* #EMC "Contact d'urgence" "Contact d'urgence."
+* #EME "Employé" "Employé."
+* #EMR "Employeur" "Employeur."
+* #EXF "Proche" "Proche."
+* #FCH "Enfant adoptif" "Enfant adoptif."
+* #FND "Ami" "Ami."
+* #FTH "Père" "Père."
+* #GCH "Petit-enfant" "Petit-enfant."
+* #GRD "Tuteur" "Tuteur."
+* #GRP "Grand-parent" "Grand-parent."
+* #MGR "Directeur" "Directeur."
+* #MTH "Mère" "Mère."
+* #NCH "Enfant naturel" "Enfant naturel."
+* #NON "Aucun" "Aucun."
+* #OAD "Autre adulte" "Autre adulte."
+* #OTH "Autre" "Autre : utiliser NK1-3.2 pour véhiculer le texte lorsque la nature de la relation n'est pas dans la table."
+* #OWN "Propriétaire" "Propriétaire."
+* #PAR "Parent proche" "Parent proche."
+* #SCH "Beau-fils" "Beau-fils."
+* #SEL "Elle-même" "Elle-même."
+* #SIB "Frère ou sœur" "Frère ou sœur."
+* #SIS "Sœur" "Sœur."
+* #SPO "Époux" "Époux."
+* #TRA "Entraîneur" "Entraîneur."
+* #UNK "Inconnu" "Inconnu."
+* #WRD "Tutelle judiciaire" "Tutelle judiciaire."
+
+ValueSet: IHEFrancePamRelationshipVS
+Id: ihe-france-pam-relationship-vs
+Title: "IHE France PAM Relationship ValueSet"
+Description: "Valeurs pour : Nature de la relation avec le patient (NK1-3, table HL7 0063). Liste non limitative."
+* ^experimental = false
+* include codes from system IHEFrancePamRelationshipCS
+
+CodeSystem: IHEFrancePamContactRoleCS
+Id: ihe-france-pam-contact-role-cs
+Title: "IHE France PAM Contact Role CodeSystem"
+Description: "Rôle de la personne auprès du patient pendant le séjour (NK1-7, table HL7 0131). Liste non limitative. La personne de confiance est rattachée au séjour et transmise uniquement via ITI-31."
+* ^experimental = false
+* ^caseSensitive = true
+* #E "Employeur" "Employeur."
+* #C "Personne à contacter en cas d'urgence" "Personne à contacter en cas d'urgence."
+* #F "Agence fédérale" "Agence fédérale."
+* #I "Compagnie d'assurances" "Compagnie d'assurances."
+* #N "Parent proche" "Parent proche."
+* #S "Agence d'État" "Agence d'État."
+* #O "Autre" "Autre."
+* #U "Inconnu" "Inconnu."
+* #K "Personne de confiance" "Personne de confiance."
+* #P "Personne à ne pas prévenir" "Personne à ne pas prévenir."
+* #R "Représentant légal" "Représentant légal."
+
+ValueSet: IHEFrancePamContactRoleVS
+Id: ihe-france-pam-contact-role-vs
+Title: "IHE France PAM Contact Role ValueSet"
+Description: "Valeurs pour : Rôle de la personne auprès du patient pendant le séjour (NK1-7, table HL7 0131). Liste non limitative. La personne de confiance est rattachée au séjour et transmise uniquement via ITI-31."
+* ^experimental = false
+* include codes from system IHEFrancePamContactRoleCS
+
+CodeSystem: IHEFrancePamProfessionalActivityCS
+Id: ihe-france-pam-professional-activity-cs
+Title: "IHE France PAM Professional Activity CodeSystem"
+Description: "Activité socioprofessionnelle (ZFP-1, nomenclature PCS 2003 de l'INSEE)."
+* ^experimental = false
+* ^caseSensitive = true
+* #1 "Agriculteurs exploitants" "Agriculteurs exploitants."
+* #2 "Artisans, commerçants et chefs d'entreprise" "Artisans, commerçants et chefs d'entreprise."
+* #3 "Cadres et professions intellectuelles supérieures" "Cadres et professions intellectuelles supérieures."
+* #4 "Professions intermédiaires" "Professions intermédiaires."
+* #5 "Employés" "Employés."
+* #6 "Ouvriers" "Ouvriers."
+* #7 "Retraités" "Retraités."
+* #8 "Autres personnes sans activité professionnelle" "Autres personnes sans activité professionnelle."
+
+ValueSet: IHEFrancePamProfessionalActivityVS
+Id: ihe-france-pam-professional-activity-vs
+Title: "IHE France PAM Professional Activity ValueSet"
+Description: "Valeurs pour : Activité socioprofessionnelle (ZFP-1, nomenclature PCS 2003 de l'INSEE)."
+* ^experimental = false
+* include codes from system IHEFrancePamProfessionalActivityCS
+
+CodeSystem: IHEFrancePamProfessionalCategoryCS
+Id: ihe-france-pam-professional-category-cs
+Title: "IHE France PAM Professional Category CodeSystem"
+Description: "Catégorie socioprofessionnelle (ZFP-2, nomenclature PCS 2003 de l'INSEE)."
+* ^experimental = false
+* ^caseSensitive = true
+* #11 "Agriculteurs sur petite exploitation" "Agriculteurs sur petite exploitation."
+* #12 "Agriculteurs sur moyenne exploitation" "Agriculteurs sur moyenne exploitation."
+* #13 "Agriculteurs sur grande exploitation" "Agriculteurs sur grande exploitation."
+* #21 "Artisans" "Artisans."
+* #22 "Commerçants et assimilés" "Commerçants et assimilés."
+* #23 "Chefs d'entreprise de 10 salariés ou plus" "Chefs d'entreprise de 10 salariés ou plus."
+* #31 "Professions libérales" "Professions libérales."
+* #33 "Cadres de la fonction publique" "Cadres de la fonction publique."
+* #34 "Professeurs, professions scientifiques" "Professeurs, professions scientifiques."
+* #35 "Professions de l'information, des arts et des spectacles" "Professions de l'information, des arts et des spectacles."
+* #37 "Cadres administratifs et commerciaux d'entreprise" "Cadres administratifs et commerciaux d'entreprise."
+* #38 "Ingénieurs et cadres techniques d'entreprise" "Ingénieurs et cadres techniques d'entreprise."
+* #42 "Professeurs des écoles, instituteurs et assimilés" "Professeurs des écoles, instituteurs et assimilés."
+* #43 "Professions intermédiaires de la santé et du travail social" "Professions intermédiaires de la santé et du travail social."
+* #44 "Clergé, religieux" "Clergé, religieux."
+* #45 "Professions intermédiaires administratives de la fonction publique" "Professions intermédiaires administratives de la fonction publique."
+* #46 "Professions intermédiaires administratives et commerciales des entreprises" "Professions intermédiaires administratives et commerciales des entreprises."
+* #47 "Techniciens" "Techniciens."
+* #48 "Contremaîtres, agents de maîtrise" "Contremaîtres, agents de maîtrise."
+* #52 "Employés civils et agents de service de la fonction publique" "Employés civils et agents de service de la fonction publique."
+* #53 "Policiers et militaires" "Policiers et militaires."
+* #54 "Employés administratifs d'entreprise" "Employés administratifs d'entreprise."
+* #55 "Employés de commerce" "Employés de commerce."
+* #56 "Personnels des services directs aux particuliers" "Personnels des services directs aux particuliers."
+* #62 "Ouvriers qualifiés de type industriel" "Ouvriers qualifiés de type industriel."
+* #63 "Ouvriers qualifiés de type artisanal" "Ouvriers qualifiés de type artisanal."
+* #64 "Chauffeurs" "Chauffeurs."
+* #65 "Ouvriers qualifiés de la manutention, du magasinage et du transport" "Ouvriers qualifiés de la manutention, du magasinage et du transport."
+* #67 "Ouvriers non qualifiés de type industriel" "Ouvriers non qualifiés de type industriel."
+* #68 "Ouvriers non qualifiés de type artisanal" "Ouvriers non qualifiés de type artisanal."
+* #69 "Ouvriers agricoles" "Ouvriers agricoles."
+* #71 "Anciens agriculteurs exploitants" "Anciens agriculteurs exploitants."
+* #72 "Anciens artisans, commerçants, chefs d'entreprise" "Anciens artisans, commerçants, chefs d'entreprise."
+* #74 "Anciens cadres" "Anciens cadres."
+* #75 "Anciennes professions intermédiaires" "Anciennes professions intermédiaires."
+* #77 "Anciens employés" "Anciens employés."
+* #78 "Anciens ouvriers" "Anciens ouvriers."
+* #81 "Chômeurs n'ayant jamais travaillé" "Chômeurs n'ayant jamais travaillé."
+* #83 "Militaires du contingent" "Militaires du contingent."
+* #84 "Élèves, étudiants" "Élèves, étudiants."
+* #85 "Personnes diverses sans activité professionnelle de moins de 60 ans (sauf retraités)" "Personnes diverses sans activité professionnelle de moins de 60 ans (sauf retraités)."
+* #86 "Personnes diverses sans activité professionnelle de 60 ans et plus (sauf retraités)" "Personnes diverses sans activité professionnelle de 60 ans et plus (sauf retraités)."
+
+ValueSet: IHEFrancePamProfessionalCategoryVS
+Id: ihe-france-pam-professional-category-vs
+Title: "IHE France PAM Professional Category ValueSet"
+Description: "Valeurs pour : Catégorie socioprofessionnelle (ZFP-2, nomenclature PCS 2003 de l'INSEE)."
+* ^experimental = false
+* include codes from system IHEFrancePamProfessionalCategoryCS
