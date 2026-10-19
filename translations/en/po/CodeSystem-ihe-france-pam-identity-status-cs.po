@@ -1,0 +1,61 @@
+
+# CodeSystem.name
+#: CodeSystem.name
+msgid "IHEFrancePamIdentityStatusCS"
+msgstr ""
+
+# CodeSystem.title
+#: CodeSystem.title
+msgid "IHE France PAM Identity Status CodeSystem"
+msgstr ""
+
+# CodeSystem.publisher
+#: CodeSystem.publisher
+msgid "IHE France"
+msgstr ""
+
+# ContactDetail.name
+#: ContactDetail.name
+msgid "IHE France"
+msgstr ""
+
+# CodeSystem.description
+#: CodeSystem.description
+msgid "Jeu de codes local initial pour le statut d'identite dans l'extension IHE France PAM."
+msgstr ""
+
+# Coding.display
+#: Coding.display
+msgid "France (la)"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Identite validee"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "Identité du patient validée, vérifiée à partir d'un titre d'identité."
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Identite provisoire"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "Identité provisoire, non encore vérifiée."
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Identite recuperee"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "Identité récupérée depuis une source externe, en attente de validation."
+msgstr ""
+

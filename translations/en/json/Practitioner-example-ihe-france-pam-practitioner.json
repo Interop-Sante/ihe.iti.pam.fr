@@ -1,0 +1,19 @@
+{
+  "id" : "Practitioner-example-ihe-france-pam-practitioner",
+  "baseLang" : "fr",
+  "languages" : [{
+    "targetLang" : "en",
+    "entries" : [{
+      "id" : "HumanName.family",
+      "context" : "HumanName.family",
+      "source" : "MARTIN",
+      "target" : null
+    },
+    {
+      "id" : "HumanName.given",
+      "context" : "HumanName.given",
+      "source" : "PAUL",
+      "target" : null
+    }]
+  }]
+}

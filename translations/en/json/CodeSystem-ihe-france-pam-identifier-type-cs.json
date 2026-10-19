@@ -1,0 +1,115 @@
+{
+  "id" : "CodeSystem-ihe-france-pam-identifier-type-cs",
+  "baseLang" : "fr",
+  "languages" : [{
+    "targetLang" : "en",
+    "entries" : [{
+      "id" : "CodeSystem.name",
+      "context" : "CodeSystem.name",
+      "source" : "IHEFrancePamIdentifierTypeCS",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.title",
+      "context" : "CodeSystem.title",
+      "source" : "IHE France PAM Identifier Type CodeSystem",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.publisher",
+      "context" : "CodeSystem.publisher",
+      "source" : "IHE France",
+      "target" : null
+    },
+    {
+      "id" : "ContactDetail.name",
+      "context" : "ContactDetail.name",
+      "source" : "IHE France",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.description",
+      "context" : "CodeSystem.description",
+      "source" : "Sous-ensemble local initial des types d'identifiants PAM France utilises dans les slices et mappings.",
+      "target" : null
+    },
+    {
+      "id" : "Coding.display",
+      "context" : "Coding.display",
+      "source" : "France (la)",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "IPP",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "Identifiant patient permanent attribué par l'établissement (IPP).",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Identifiant National de Sante",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "Identifiant national de santé du patient.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "National Health Identifier",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "Identifiant national de santé de type NH (National Health Plan Identifier).",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Numero de dossier administratif",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "Numéro de dossier administratif.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Numero de venue",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "Numéro identifiant une venue.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Identifiant de mouvement ou medical record selon le contexte",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "Identifiant de mouvement ou de dossier médical, selon le contexte.",
+      "target" : null
+    }]
+  }]
+}

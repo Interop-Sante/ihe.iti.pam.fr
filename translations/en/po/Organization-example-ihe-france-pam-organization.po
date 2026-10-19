@@ -1,0 +1,6 @@
+
+# Organization.name
+#: Organization.name
+msgid "Centre Hospitalier Exemple"
+msgstr ""
+

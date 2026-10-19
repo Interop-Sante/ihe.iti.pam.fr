@@ -1,0 +1,134 @@
+<?xml version="1.0" ?>
+
+<xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0">
+  <file source-language="fr" target-language="en" id="CodeSystem-ihe-france-pam-identifier-type-cs" original="Resource CodeSystem-ihe-france-pam-identifier-type-cs" datatype="KEYVALUEJSON">
+    <body>
+      <trans-unit id="CodeSystem-ihe-france-pam-identifier-type-cs" resname="CodeSystem.name">
+             <notes>
+               <note id="n1">CodeSystem.name</note>
+             </notes>
+        <source>IHEFrancePamIdentifierTypeCS</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-ihe-france-pam-identifier-type-cs" resname="CodeSystem.title">
+             <notes>
+               <note id="n1">CodeSystem.title</note>
+             </notes>
+        <source>IHE France PAM Identifier Type CodeSystem</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-ihe-france-pam-identifier-type-cs" resname="CodeSystem.publisher">
+             <notes>
+               <note id="n1">CodeSystem.publisher</note>
+             </notes>
+        <source>IHE France</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-ihe-france-pam-identifier-type-cs" resname="ContactDetail.name">
+             <notes>
+               <note id="n1">ContactDetail.name</note>
+             </notes>
+        <source>IHE France</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-ihe-france-pam-identifier-type-cs" resname="CodeSystem.description">
+             <notes>
+               <note id="n1">CodeSystem.description</note>
+             </notes>
+        <source>Sous-ensemble local initial des types d'identifiants PAM France utilises dans les slices et mappings.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-ihe-france-pam-identifier-type-cs" resname="Coding.display">
+             <notes>
+               <note id="n1">Coding.display</note>
+             </notes>
+        <source>France (la)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-ihe-france-pam-identifier-type-cs" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>IPP</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-ihe-france-pam-identifier-type-cs" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>Identifiant patient permanent attribué par l'établissement (IPP).</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-ihe-france-pam-identifier-type-cs" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Identifiant National de Sante</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-ihe-france-pam-identifier-type-cs" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>Identifiant national de santé du patient.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-ihe-france-pam-identifier-type-cs" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>National Health Identifier</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-ihe-france-pam-identifier-type-cs" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>Identifiant national de santé de type NH (National Health Plan Identifier).</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-ihe-france-pam-identifier-type-cs" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Numero de dossier administratif</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-ihe-france-pam-identifier-type-cs" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>Numéro de dossier administratif.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-ihe-france-pam-identifier-type-cs" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Numero de venue</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-ihe-france-pam-identifier-type-cs" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>Numéro identifiant une venue.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-ihe-france-pam-identifier-type-cs" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Identifiant de mouvement ou medical record selon le contexte</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-ihe-france-pam-identifier-type-cs" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>Identifiant de mouvement ou de dossier médical, selon le contexte.</source>
+        <target></target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

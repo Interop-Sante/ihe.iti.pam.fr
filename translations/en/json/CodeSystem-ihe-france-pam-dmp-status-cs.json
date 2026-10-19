@@ -1,0 +1,103 @@
+{
+  "id" : "CodeSystem-ihe-france-pam-dmp-status-cs",
+  "baseLang" : "fr",
+  "languages" : [{
+    "targetLang" : "en",
+    "entries" : [{
+      "id" : "CodeSystem.name",
+      "context" : "CodeSystem.name",
+      "source" : "IHEFrancePamDmpStatusCS",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.title",
+      "context" : "CodeSystem.title",
+      "source" : "IHE France PAM DMP Status CodeSystem",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.publisher",
+      "context" : "CodeSystem.publisher",
+      "source" : "IHE France",
+      "target" : null
+    },
+    {
+      "id" : "ContactDetail.name",
+      "context" : "ContactDetail.name",
+      "source" : "IHE France",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.description",
+      "context" : "CodeSystem.description",
+      "source" : "Jeu de codes local initial pour le statut DMP dans l'extension IHE France PAM.",
+      "target" : null
+    },
+    {
+      "id" : "Coding.display",
+      "context" : "Coding.display",
+      "source" : "France (la)",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Statut inconnu",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "Le statut du DMP du patient n'est pas connu.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "DMP ouvert",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "Le patient dispose d'un DMP ouvert.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "DMP ferme",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "Le DMP du patient est fermé.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Acces autorise",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "L'accès au DMP du patient est autorisé pour l'établissement.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Opposition exprimee",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "Le patient a exprimé une opposition à l'accès à son DMP.",
+      "target" : null
+    }]
+  }]
+}

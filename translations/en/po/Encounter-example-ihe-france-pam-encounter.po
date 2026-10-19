@@ -1,0 +1,11 @@
+
+# CodeableConcept.text
+#: CodeableConcept.text
+msgid "Admission hospitalisee"
+msgstr ""
+
+# CodeableConcept.text
+#: CodeableConcept.text
+msgid "Accident domestique"
+msgstr ""
+

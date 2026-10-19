@@ -1,0 +1,92 @@
+<?xml version="1.0" ?>
+
+<xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0">
+  <file source-language="fr" target-language="en" id="CodeSystem-ihe-france-pam-venue-protection-cs" original="Resource CodeSystem-ihe-france-pam-venue-protection-cs" datatype="KEYVALUEJSON">
+    <body>
+      <trans-unit id="CodeSystem-ihe-france-pam-venue-protection-cs" resname="CodeSystem.name">
+             <notes>
+               <note id="n1">CodeSystem.name</note>
+             </notes>
+        <source>IHEFrancePamVenueProtectionCS</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-ihe-france-pam-venue-protection-cs" resname="CodeSystem.title">
+             <notes>
+               <note id="n1">CodeSystem.title</note>
+             </notes>
+        <source>IHE France PAM Venue Protection CodeSystem</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-ihe-france-pam-venue-protection-cs" resname="CodeSystem.publisher">
+             <notes>
+               <note id="n1">CodeSystem.publisher</note>
+             </notes>
+        <source>IHE France</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-ihe-france-pam-venue-protection-cs" resname="ContactDetail.name">
+             <notes>
+               <note id="n1">ContactDetail.name</note>
+             </notes>
+        <source>IHE France</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-ihe-france-pam-venue-protection-cs" resname="CodeSystem.description">
+             <notes>
+               <note id="n1">CodeSystem.description</note>
+             </notes>
+        <source>Jeu de codes local initial pour la protection de la venue derivee notamment de PV2-22.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-ihe-france-pam-venue-protection-cs" resname="Coding.display">
+             <notes>
+               <note id="n1">Coding.display</note>
+             </notes>
+        <source>France (la)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-ihe-france-pam-venue-protection-cs" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Aucune protection particuliere</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-ihe-france-pam-venue-protection-cs" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>La venue ne fait l'objet d'aucune protection particulière.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-ihe-france-pam-venue-protection-cs" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Venue confidentielle</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-ihe-france-pam-venue-protection-cs" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>La venue est confidentielle : son accès est restreint.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-ihe-france-pam-venue-protection-cs" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Venue masquee</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-ihe-france-pam-venue-protection-cs" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>La venue est masquée : elle n'est pas visible des utilisateurs non habilités.</source>
+        <target></target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

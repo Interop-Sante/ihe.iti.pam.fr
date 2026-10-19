@@ -1,0 +1,241 @@
+
+# CodeSystem.name
+#: CodeSystem.name
+msgid "IHEFrancePamTriggerEventCS"
+msgstr ""
+
+# CodeSystem.title
+#: CodeSystem.title
+msgid "IHE France PAM Trigger Event CodeSystem"
+msgstr ""
+
+# CodeSystem.publisher
+#: CodeSystem.publisher
+msgid "IHE France"
+msgstr ""
+
+# ContactDetail.name
+#: ContactDetail.name
+msgid "IHE France"
+msgstr ""
+
+# CodeSystem.description
+#: CodeSystem.description
+msgid "Jeu de codes local initial pour les trigger events PAM France utilises dans les mappings."
+msgstr ""
+
+# Coding.display
+#: Coding.display
+msgid "France (la)"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Admission hospitalisee"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "Événement HL7 v2 ADT^A01 : admission d'un patient hospitalisé."
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Mutation"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "Événement ADT^A02 : mutation du patient vers une autre unité."
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Sortie"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "Événement ADT^A03 : sortie du patient."
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Enregistrement externe"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "Événement ADT^A04 : enregistrement d'un patient externe."
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Pre-admission"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "Événement ADT^A05 : pré-admission du patient."
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Changement vers hospitalisation"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "Événement ADT^A06 : passage d'un patient externe en hospitalisation."
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Changement vers externe"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "Événement ADT^A07 : passage d'un patient hospitalisé en externe."
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Annulation admission"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "Événement ADT^A11 : annulation d'une admission."
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Annulation mutation"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "Événement ADT^A12 : annulation d'une mutation."
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Annulation sortie"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "Événement ADT^A13 : annulation d'une sortie."
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Absence provisoire"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "Événement ADT^A21 : début d'une absence provisoire."
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Retour d'absence provisoire"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "Événement ADT^A22 : retour d'une absence provisoire."
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Creation patient"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "Événement ADT^A28 : création d'un patient."
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Mise a jour patient"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "Événement ADT^A31 : mise à jour des informations du patient."
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Annulation pre-admission"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "Événement ADT^A38 : annulation d'une pré-admission."
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Fusion patient"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "Événement ADT^A40 : fusion de deux patients."
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Reattribution dossier"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "Événement ADT^A44 : réattribution d'un dossier à un autre patient."
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Mise a jour identifiants patient"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "Événement ADT^A47 : mise à jour des identifiants du patient."
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Changement medecin responsable"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "Événement ADT^A54 : changement du médecin responsable."
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Annulation changement medecin responsable"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "Événement ADT^A55 : annulation du changement de médecin responsable."
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Correction de mouvement"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "Événement national : correction d'un mouvement."
+msgstr ""
+

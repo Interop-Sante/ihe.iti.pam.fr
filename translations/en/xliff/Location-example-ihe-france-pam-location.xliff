@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+
+<xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0">
+  <file source-language="fr" target-language="en" id="Location-example-ihe-france-pam-location" original="Resource Location-example-ihe-france-pam-location" datatype="KEYVALUEJSON">
+    <body>
+      <trans-unit id="Location-example-ihe-france-pam-location" resname="Location.name">
+             <notes>
+               <note id="n1">Location.name</note>
+             </notes>
+        <source>UF 4036 chambre 22 lit 3</source>
+        <target></target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

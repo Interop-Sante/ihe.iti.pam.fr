@@ -1,0 +1,821 @@
+<?xml version="1.0" ?>
+
+<xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0">
+  <file source-language="fr" target-language="en" id="ImplementationGuide-ihe.fr.pam" original="Resource ImplementationGuide-ihe.fr.pam" datatype="KEYVALUEJSON">
+    <body>
+      <trans-unit id="ImplementationGuide-ihe.fr.pam" resname="ImplementationGuide.name">
+             <notes>
+               <note id="n1">ImplementationGuide.name</note>
+             </notes>
+        <source>IHEFrancePAM</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-ihe.fr.pam" resname="ImplementationGuide.title">
+             <notes>
+               <note id="n1">ImplementationGuide.title</note>
+             </notes>
+        <source>IHE PAM France</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-ihe.fr.pam" resname="ImplementationGuide.publisher">
+             <notes>
+               <note id="n1">ImplementationGuide.publisher</note>
+             </notes>
+        <source>IHE France</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-ihe.fr.pam" resname="ContactDetail.name">
+             <notes>
+               <note id="n1">ContactDetail.name</note>
+             </notes>
+        <source>IHE France</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-ihe.fr.pam" resname="ImplementationGuide.description">
+             <notes>
+               <note id="n1">ImplementationGuide.description</note>
+             </notes>
+        <source>Base de travail pour transformer le profil IHE PAM France issu d'un PDF en Implementation Guide FHIR publiable avec le template Interop'Sante.
+</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-ihe.fr.pam" resname="Coding.display">
+             <notes>
+               <note id="n1">Coding.display</note>
+             </notes>
+        <source>France (la)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-ihe.fr.pam" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
+        <source>Exemple encounter PAM France</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-ihe.fr.pam" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.description</note>
+             </notes>
+        <source>Exemple minimal de venue conforme au profil initial IHE France PAM.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-ihe.fr.pam" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
+        <source>Exemple location PAM France</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-ihe.fr.pam" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.description</note>
+             </notes>
+        <source>Exemple minimal de localisation d'hebergement.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-ihe.fr.pam" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
+        <source>Exemple organisation PAM France</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-ihe.fr.pam" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.description</note>
+             </notes>
+        <source>Exemple minimal d'organisation ou d'etablissement.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-ihe.fr.pam" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
+        <source>Exemple patient PAM France</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-ihe.fr.pam" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.description</note>
+             </notes>
+        <source>Exemple minimal de patient conforme au profil initial IHE France PAM.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-ihe.fr.pam" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
+        <source>Exemple practitioner PAM France</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-ihe.fr.pam" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.description</note>
+             </notes>
+        <source>Exemple minimal de professionnel de sante.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-ihe.fr.pam" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
+        <source>Exemple proche PAM France</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-ihe.fr.pam" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.description</note>
+             </notes>
+        <source>Exemple minimal de personne associee au patient.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-ihe.fr.pam" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
+        <source>IHE France PAM Accident Nature</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-ihe.fr.pam" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.description</note>
+             </notes>
+        <source>Nature de l'accident, derivee notamment de ACC-2.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-ihe.fr.pam" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
+        <source>IHE France PAM Administrative Number</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-ihe.fr.pam" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.description</note>
+             </notes>
+        <source>Numero de dossier administratif, issu notamment de PID-18.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-ihe.fr.pam" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
+        <source>IHE France PAM Birth Multiple Rank</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-ihe.fr.pam" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.description</note>
+             </notes>
+        <source>Rang gemellaire, issu notamment de PID-25.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-ihe.fr.pam" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
+        <source>IHE France PAM Care Responsibility Unit</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-ihe.fr.pam" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.description</note>
+             </notes>
+        <source>Unite fonctionnelle responsable des soins, issue notamment de ZBE-8.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-ihe.fr.pam" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
+        <source>IHE France PAM Demographic Complement</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-ihe.fr.pam" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.description</note>
+             </notes>
+        <source>Complement demographique derive notamment du segment ZFD.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-ihe.fr.pam" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
+        <source>IHE France PAM DMP Status</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-ihe.fr.pam" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.description</note>
+             </notes>
+        <source>Statut DMP du patient porte par le segment ZFA dans l'extension nationale PAM France.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-ihe.fr.pam" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
+        <source>IHE France PAM DMP Status CodeSystem</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-ihe.fr.pam" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.description</note>
+             </notes>
+        <source>Jeu de codes local initial pour le statut DMP dans l'extension IHE France PAM.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-ihe.fr.pam" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
+        <source>IHE France PAM DMP Status ValueSet</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-ihe.fr.pam" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.description</note>
+             </notes>
+        <source>Jeu de valeurs initial pour le statut DMP.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-ihe.fr.pam" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
+        <source>IHE France PAM Encounter</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-ihe.fr.pam" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.description</note>
+             </notes>
+        <source>Profil encounter initial pour l'extension nationale IHE France PAM, dérivé des contraintes documentaires portées par les segments PV1, PV2, ACC et ZBE.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-ihe.fr.pam" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
+        <source>IHE France PAM Encounter Supplement</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-ihe.fr.pam" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.description</note>
+             </notes>
+        <source>Complement d'information sur la venue, derive notamment du segment ZFV.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-ihe.fr.pam" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
+        <source>IHE France PAM Historic Movement Indicator</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-ihe.fr.pam" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.description</note>
+             </notes>
+        <source>Indicateur de mouvement historique, derive notamment de ZBE-5.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-ihe.fr.pam" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
+        <source>IHE France PAM Identifier Type CodeSystem</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-ihe.fr.pam" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.description</note>
+             </notes>
+        <source>Sous-ensemble local initial des types d'identifiants PAM France utilises dans les slices et mappings.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-ihe.fr.pam" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
+        <source>IHE France PAM Identifier Type ValueSet</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-ihe.fr.pam" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.description</note>
+             </notes>
+        <source>Jeu de valeurs initial pour les types d'identifiants PAM France.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-ihe.fr.pam" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
+        <source>IHE France PAM Identity Modifier Entity</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-ihe.fr.pam" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.description</note>
+             </notes>
+        <source>Entite modificatrice de l'identite, issue notamment de PID-34.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-ihe.fr.pam" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
+        <source>IHE France PAM Identity Status</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-ihe.fr.pam" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.description</note>
+             </notes>
+        <source>Statut d'identite porte par le contenu PAM France, notamment en lien avec PID-32.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-ihe.fr.pam" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
+        <source>IHE France PAM Identity Status CodeSystem</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-ihe.fr.pam" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.description</note>
+             </notes>
+        <source>Jeu de codes local initial pour le statut d'identite dans l'extension IHE France PAM.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-ihe.fr.pam" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
+        <source>IHE France PAM Identity Status ValueSet</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-ihe.fr.pam" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.description</note>
+             </notes>
+        <source>Jeu de valeurs initial pour le statut d'identite.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-ihe.fr.pam" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
+        <source>IHE France PAM ITI-30 Mapping Summary</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-ihe.fr.pam" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.description</note>
+             </notes>
+        <source>Résumé narratif de la transaction ITI-30 et de ses cibles FHIR probables.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-ihe.fr.pam" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
+        <source>IHE France PAM ITI-31 Mapping Summary</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-ihe.fr.pam" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.description</note>
+             </notes>
+        <source>Résumé narratif de la transaction ITI-31 et de ses cibles FHIR probables.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-ihe.fr.pam" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
+        <source>IHE France PAM Location</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-ihe.fr.pam" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.description</note>
+             </notes>
+        <source>Profil location initial pour les localisations patient et unites d'hebergement vehiculees notamment par PV1-3 et le type PL.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-ihe.fr.pam" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
+        <source>IHE France PAM Medical Responsibility Unit</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-ihe.fr.pam" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.description</note>
+             </notes>
+        <source>Unite fonctionnelle medicalement ou medico-administrativement responsable du patient, issue notamment de ZBE-7.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-ihe.fr.pam" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
+        <source>IHE France PAM Mother Birth Name</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-ihe.fr.pam" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.description</note>
+             </notes>
+        <source>Nom de naissance de la mere, issu notamment de PID-6.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-ihe.fr.pam" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
+        <source>IHE France PAM Movement Action</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-ihe.fr.pam" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.description</note>
+             </notes>
+        <source>Code action portant sur le mouvement, derive notamment de ZBE-4.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-ihe.fr.pam" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
+        <source>IHE France PAM Movement Action CodeSystem</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-ihe.fr.pam" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.description</note>
+             </notes>
+        <source>Jeu de codes local initial pour l'action sur un mouvement derivee notamment de ZBE-4.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-ihe.fr.pam" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
+        <source>IHE France PAM Movement Action ValueSet</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-ihe.fr.pam" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.description</note>
+             </notes>
+        <source>Jeu de valeurs initial pour l'action sur un mouvement.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-ihe.fr.pam" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
+        <source>IHE France PAM Movement Nature</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-ihe.fr.pam" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.description</note>
+             </notes>
+        <source>Nature du mouvement, derivee notamment de ZBE-9.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-ihe.fr.pam" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
+        <source>IHE France PAM Nationality</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-ihe.fr.pam" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.description</note>
+             </notes>
+        <source>Nationalite ou citoyennete vehiculee notamment par PID-26 et PID-28.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-ihe.fr.pam" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
+        <source>IHE France PAM Organization</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-ihe.fr.pam" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.description</note>
+             </notes>
+        <source>Profil organisation initial pour etablissements, entites juridiques et unites fonctionnelles identifiees dans PAM France.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-ihe.fr.pam" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
+        <source>IHE France PAM Origin Event Code</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-ihe.fr.pam" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.description</note>
+             </notes>
+        <source>Code d'evenement d'origine du mouvement, derive notamment de ZBE-6.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-ihe.fr.pam" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
+        <source>IHE France PAM Patient</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-ihe.fr.pam" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.description</note>
+             </notes>
+        <source>Profil patient initial pour l'extension nationale IHE France PAM, dérivé des contraintes documentaires portées notamment par les segments PID, PD1, NK1 et les data types HL7 v2.5 français.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-ihe.fr.pam" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
+        <source>IHE France PAM Planned End</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-ihe.fr.pam" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.description</note>
+             </notes>
+        <source>Date de sortie previsionnelle, derivee notamment de PV2-9 et EVN-3 selon le contexte.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-ihe.fr.pam" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
+        <source>IHE France PAM Planned Start</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-ihe.fr.pam" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.description</note>
+             </notes>
+        <source>Date d'entree previsionnelle, derivee notamment de PV2-8.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-ihe.fr.pam" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
+        <source>IHE France PAM PMSI Movement</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-ihe.fr.pam" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.description</note>
+             </notes>
+        <source>Informations de mouvement PMSI derivees notamment du segment ZFM.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-ihe.fr.pam" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
+        <source>IHE France PAM Practitioner</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-ihe.fr.pam" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.description</note>
+             </notes>
+        <source>Profil practitioner initial pour les professionnels de sante references dans les segments ROL et PV1.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-ihe.fr.pam" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
+        <source>IHE France PAM PractitionerRole</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-ihe.fr.pam" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.description</note>
+             </notes>
+        <source>Profil practitioner role initial pour les roles vehicules notamment par ROL et par les references medecins dans PV1.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-ihe.fr.pam" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
+        <source>IHE France PAM Professional Situation</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-ihe.fr.pam" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.description</note>
+             </notes>
+        <source>Situation professionnelle du patient, derivee notamment du segment ZFP.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-ihe.fr.pam" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
+        <source>IHE France PAM Psychiatric Legal Status</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-ihe.fr.pam" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.description</note>
+             </notes>
+        <source>Mode legal de soins en psychiatrie, derive notamment du segment ZFS.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-ihe.fr.pam" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
+        <source>IHE France PAM Related Person</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-ihe.fr.pam" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.description</note>
+             </notes>
+        <source>Profil related person initial pour représenter les proches et personnes associees vehicules notamment via le segment NK1.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-ihe.fr.pam" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
+        <source>IHE France PAM Trigger Event CodeSystem</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-ihe.fr.pam" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.description</note>
+             </notes>
+        <source>Jeu de codes local initial pour les trigger events PAM France utilises dans les mappings.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-ihe.fr.pam" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
+        <source>IHE France PAM Trigger Event ValueSet</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-ihe.fr.pam" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.description</note>
+             </notes>
+        <source>Jeu de valeurs initial pour les trigger events PAM France.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-ihe.fr.pam" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
+        <source>IHE France PAM Venue Protection</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-ihe.fr.pam" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.description</note>
+             </notes>
+        <source>Protection concernant la venue, derivee notamment de PV2-22.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-ihe.fr.pam" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
+        <source>IHE France PAM Venue Protection CodeSystem</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-ihe.fr.pam" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.description</note>
+             </notes>
+        <source>Jeu de codes local initial pour la protection de la venue derivee notamment de PV2-22.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-ihe.fr.pam" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
+        <source>IHE France PAM Venue Protection ValueSet</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-ihe.fr.pam" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.description</note>
+             </notes>
+        <source>Jeu de valeurs initial pour la protection de la venue.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-ihe.fr.pam" resname="ImplementationGuide.definition.page.title">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.page.title</note>
+             </notes>
+        <source>Table of Contents</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-ihe.fr.pam" resname="ImplementationGuide.definition.page.title">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.page.title</note>
+             </notes>
+        <source>Accueil</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-ihe.fr.pam" resname="ImplementationGuide.definition.page.title">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.page.title</note>
+             </notes>
+        <source>Volume 1 - Vue d'ensemble</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-ihe.fr.pam" resname="ImplementationGuide.definition.page.title">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.page.title</note>
+             </notes>
+        <source>Acteurs et transactions</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-ihe.fr.pam" resname="ImplementationGuide.definition.page.title">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.page.title</note>
+             </notes>
+        <source>Contenus et contraintes FHIR</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-ihe.fr.pam" resname="ImplementationGuide.definition.page.title">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.page.title</note>
+             </notes>
+        <source>Contraintes HL7 v2.5</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-ihe.fr.pam" resname="ImplementationGuide.definition.page.title">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.page.title</note>
+             </notes>
+        <source>Mapping HL7 v2 vers FHIR</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-ihe.fr.pam" resname="ImplementationGuide.definition.page.title">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.page.title</note>
+             </notes>
+        <source>Sécurité et considérations techniques</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-ihe.fr.pam" resname="ImplementationGuide.definition.page.title">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.page.title</note>
+             </notes>
+        <source>Exemples</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-ihe.fr.pam" resname="ImplementationGuide.definition.page.title">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.page.title</note>
+             </notes>
+        <source>Publications antérieures</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-ihe.fr.pam" resname="ImplementationGuide.definition.page.title">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.page.title</note>
+             </notes>
+        <source>Téléchargements du guide</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-ihe.fr.pam" resname="ImplementationGuide.definition.page.title">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.page.title</note>
+             </notes>
+        <source>Informations de traduction</source>
+        <target></target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,295 @@
+{
+  "id" : "CodeSystem-ihe-france-pam-trigger-event-cs",
+  "baseLang" : "fr",
+  "languages" : [{
+    "targetLang" : "en",
+    "entries" : [{
+      "id" : "CodeSystem.name",
+      "context" : "CodeSystem.name",
+      "source" : "IHEFrancePamTriggerEventCS",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.title",
+      "context" : "CodeSystem.title",
+      "source" : "IHE France PAM Trigger Event CodeSystem",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.publisher",
+      "context" : "CodeSystem.publisher",
+      "source" : "IHE France",
+      "target" : null
+    },
+    {
+      "id" : "ContactDetail.name",
+      "context" : "ContactDetail.name",
+      "source" : "IHE France",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.description",
+      "context" : "CodeSystem.description",
+      "source" : "Jeu de codes local initial pour les trigger events PAM France utilises dans les mappings.",
+      "target" : null
+    },
+    {
+      "id" : "Coding.display",
+      "context" : "Coding.display",
+      "source" : "France (la)",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Admission hospitalisee",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "Événement HL7 v2 ADT^A01 : admission d'un patient hospitalisé.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Mutation",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "Événement ADT^A02 : mutation du patient vers une autre unité.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Sortie",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "Événement ADT^A03 : sortie du patient.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Enregistrement externe",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "Événement ADT^A04 : enregistrement d'un patient externe.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Pre-admission",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "Événement ADT^A05 : pré-admission du patient.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Changement vers hospitalisation",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "Événement ADT^A06 : passage d'un patient externe en hospitalisation.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Changement vers externe",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "Événement ADT^A07 : passage d'un patient hospitalisé en externe.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Annulation admission",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "Événement ADT^A11 : annulation d'une admission.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Annulation mutation",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "Événement ADT^A12 : annulation d'une mutation.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Annulation sortie",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "Événement ADT^A13 : annulation d'une sortie.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Absence provisoire",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "Événement ADT^A21 : début d'une absence provisoire.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Retour d'absence provisoire",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "Événement ADT^A22 : retour d'une absence provisoire.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Creation patient",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "Événement ADT^A28 : création d'un patient.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Mise a jour patient",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "Événement ADT^A31 : mise à jour des informations du patient.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Annulation pre-admission",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "Événement ADT^A38 : annulation d'une pré-admission.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Fusion patient",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "Événement ADT^A40 : fusion de deux patients.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Reattribution dossier",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "Événement ADT^A44 : réattribution d'un dossier à un autre patient.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Mise a jour identifiants patient",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "Événement ADT^A47 : mise à jour des identifiants du patient.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Changement medecin responsable",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "Événement ADT^A54 : changement du médecin responsable.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Annulation changement medecin responsable",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "Événement ADT^A55 : annulation du changement de médecin responsable.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Correction de mouvement",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "Événement national : correction d'un mouvement.",
+      "target" : null
+    }]
+  }]
+}

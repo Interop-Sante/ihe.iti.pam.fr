@@ -1,0 +1,6 @@
+
+# CodeableConcept.text
+#: CodeableConcept.text
+msgid "ITI-31"
+msgstr ""
+

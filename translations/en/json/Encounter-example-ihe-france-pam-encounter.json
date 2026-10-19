@@ -1,0 +1,19 @@
+{
+  "id" : "Encounter-example-ihe-france-pam-encounter",
+  "baseLang" : "fr",
+  "languages" : [{
+    "targetLang" : "en",
+    "entries" : [{
+      "id" : "CodeableConcept.text",
+      "context" : "CodeableConcept.text",
+      "source" : "Admission hospitalisee",
+      "target" : null
+    },
+    {
+      "id" : "CodeableConcept.text",
+      "context" : "CodeableConcept.text",
+      "source" : "Accident domestique",
+      "target" : null
+    }]
+  }]
+}

@@ -1,0 +1,81 @@
+
+# CodeSystem.name
+#: CodeSystem.name
+msgid "IHEFrancePamDmpStatusCS"
+msgstr ""
+
+# CodeSystem.title
+#: CodeSystem.title
+msgid "IHE France PAM DMP Status CodeSystem"
+msgstr ""
+
+# CodeSystem.publisher
+#: CodeSystem.publisher
+msgid "IHE France"
+msgstr ""
+
+# ContactDetail.name
+#: ContactDetail.name
+msgid "IHE France"
+msgstr ""
+
+# CodeSystem.description
+#: CodeSystem.description
+msgid "Jeu de codes local initial pour le statut DMP dans l'extension IHE France PAM."
+msgstr ""
+
+# Coding.display
+#: Coding.display
+msgid "France (la)"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Statut inconnu"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "Le statut du DMP du patient n'est pas connu."
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "DMP ouvert"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "Le patient dispose d'un DMP ouvert."
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "DMP ferme"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "Le DMP du patient est fermé."
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Acces autorise"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "L'accès au DMP du patient est autorisé pour l'établissement."
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Opposition exprimee"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "Le patient a exprimé une opposition à l'accès à son DMP."
+msgstr ""
+

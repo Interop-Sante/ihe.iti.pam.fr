@@ -1,0 +1,61 @@
+
+# CodeSystem.name
+#: CodeSystem.name
+msgid "IHEFrancePamMovementActionCS"
+msgstr ""
+
+# CodeSystem.title
+#: CodeSystem.title
+msgid "IHE France PAM Movement Action CodeSystem"
+msgstr ""
+
+# CodeSystem.publisher
+#: CodeSystem.publisher
+msgid "IHE France"
+msgstr ""
+
+# ContactDetail.name
+#: ContactDetail.name
+msgid "IHE France"
+msgstr ""
+
+# CodeSystem.description
+#: CodeSystem.description
+msgid "Jeu de codes local initial pour l'action sur un mouvement derivee notamment de ZBE-4."
+msgstr ""
+
+# Coding.display
+#: Coding.display
+msgid "France (la)"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Insertion d'un mouvement"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "Création d'un nouveau mouvement."
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Mise a jour d'un mouvement"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "Mise à jour d'un mouvement existant."
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Annulation d'un mouvement"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "Annulation d'un mouvement existant."
+msgstr ""
+

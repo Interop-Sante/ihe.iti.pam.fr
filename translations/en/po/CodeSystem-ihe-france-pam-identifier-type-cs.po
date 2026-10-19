@@ -1,0 +1,91 @@
+
+# CodeSystem.name
+#: CodeSystem.name
+msgid "IHEFrancePamIdentifierTypeCS"
+msgstr ""
+
+# CodeSystem.title
+#: CodeSystem.title
+msgid "IHE France PAM Identifier Type CodeSystem"
+msgstr ""
+
+# CodeSystem.publisher
+#: CodeSystem.publisher
+msgid "IHE France"
+msgstr ""
+
+# ContactDetail.name
+#: ContactDetail.name
+msgid "IHE France"
+msgstr ""
+
+# CodeSystem.description
+#: CodeSystem.description
+msgid "Sous-ensemble local initial des types d'identifiants PAM France utilises dans les slices et mappings."
+msgstr ""
+
+# Coding.display
+#: Coding.display
+msgid "France (la)"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "IPP"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "Identifiant patient permanent attribué par l'établissement (IPP)."
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Identifiant National de Sante"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "Identifiant national de santé du patient."
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "National Health Identifier"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "Identifiant national de santé de type NH (National Health Plan Identifier)."
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Numero de dossier administratif"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "Numéro de dossier administratif."
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Numero de venue"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "Numéro identifiant une venue."
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Identifiant de mouvement ou medical record selon le contexte"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "Identifiant de mouvement ou de dossier médical, selon le contexte."
+msgstr ""
+

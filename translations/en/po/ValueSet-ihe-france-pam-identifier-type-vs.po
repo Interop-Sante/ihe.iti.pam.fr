@@ -1,0 +1,36 @@
+
+# ValueSet.name
+#: ValueSet.name
+msgid "IHEFrancePamIdentifierTypeVS"
+msgstr ""
+
+# ValueSet.title
+#: ValueSet.title
+msgid "IHE France PAM Identifier Type ValueSet"
+msgstr ""
+
+# ValueSet.publisher
+#: ValueSet.publisher
+msgid "IHE France"
+msgstr ""
+
+# ContactDetail.name
+#: ContactDetail.name
+msgid "IHE France"
+msgstr ""
+
+# ValueSet.description
+#: ValueSet.description
+msgid "Jeu de valeurs initial pour les types d'identifiants PAM France."
+msgstr ""
+
+# Coding.display
+#: Coding.display
+msgid "France (la)"
+msgstr ""
+
+# ValueSet.compose.include.version
+#: ValueSet.compose.include.version
+msgid "0.1.0"
+msgstr ""
+
