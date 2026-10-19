@@ -10,7 +10,7 @@ Le document source exprime l'usage de chaque champ par un code de la colonne `Us
 | `RE` | requis si connu | cardinalité minimale `0`, valeur à transmettre lorsqu'elle est connue |
 | `O` | optionnel | cardinalité minimale `0` |
 | `C` | conditionnel | cardinalité minimale `0`, condition décrite dans le texte |
-| `X` | non supporté | élément non utilisé |
+| `X` | interdit en France | élément non utilisé (cardinalité `0..0`) |
 
 La colonne `Card.` du document source donne les cardinalités minimale et maximale, et la colonne `IHE fr` signale les contraintes françaises qui diffèrent d'IHE International ou de HL7 v2.5.
 

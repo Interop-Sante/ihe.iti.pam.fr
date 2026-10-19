@@ -21,7 +21,7 @@ msgstr ""
 
 # ValueSet.description
 #: ValueSet.description
-msgid "Jeu de valeurs initial pour l'action sur un mouvement."
+msgid "Valeurs permises pour l'action sur un mouvement."
 msgstr ""
 
 # Coding.display

@@ -30,7 +30,7 @@
     {
       "id" : "ValueSet.description",
       "context" : "ValueSet.description",
-      "source" : "Jeu de valeurs initial pour les trigger events PAM France.",
+      "source" : "Valeurs permises pour les événements déclencheurs PAM France.",
       "target" : null
     },
     {

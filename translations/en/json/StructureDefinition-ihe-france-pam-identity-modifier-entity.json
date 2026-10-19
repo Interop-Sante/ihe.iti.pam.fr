@@ -42,8 +42,8 @@
     {
       "id" : "StructureDefinition.element.Extension/definition",
       "context" : "Provides a complete explanation of the meaning of the data element for human readability.  For the case of elements derived from existing elements (e.g. constraints), the definition SHALL be consistent with the base definition, but convey the meaning of the element in the particular context of use of the resource. (Note: The text you are reading is specified in ElementDefinition.definition).",
-      "source" : "Entité modificatrice de l'identité, issue notamment de PID-34.",
-      "target" : "Entité modificatrice de l'identité, issue notamment de PID-34."
+      "source" : "Entité ayant modifié l'identité du patient (PID-34), renseignée dans un contexte de groupement hospitalier de territoire où les identités sont partagées.",
+      "target" : "Entité ayant modifié l'identité du patient (PID-34), renseignée dans un contexte de groupement hospitalier de territoire où les identités sont partagées."
     }]
   }]
 }

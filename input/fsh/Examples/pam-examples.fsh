@@ -11,12 +11,14 @@ Description: "Exemple minimal de patient conforme au profil initial IHE France P
 * identifier[ins].value = "260058815400233"
 * identifier[ins].type.coding.system = Canonical(IHEFrancePamIdentifierTypeCS)
 * identifier[ins].type.coding.code = #INS
-* extension[identityStatus].valueCode = #VALI
-* extension[dmpStatus].valueCode = #unknown
+* extension[identityStatus][0].valueCode = #VALI
+* extension[dmpStatus].extension[status].valueCode = #INEXISTANT
+* extension[dmpStatus].extension[consultationConsent].valueCode = #NA
 * extension[motherBirthName].valueHumanName.family = "DARK"
 * extension[nationality][0].valueCodeableConcept.text = "Francaise"
 * extension[professionalSituation].extension[activity].valueCodeableConcept.text = "Actif"
-* extension[demographicComplement].valueString = "Complement demographique d'exemple"
+* extension[demographicComplement].extension[smsConsent].valueBoolean = false
+* extension[demographicComplement].extension[identityMeans].valueCode = #INSI
 * name[0].family = "DARK"
 * name[0].given[0] = "JEANNE"
 * name[0].given[1] = "MARIE-CECILE"
@@ -37,6 +39,9 @@ Description: "Exemple minimal de venue conforme au profil initial IHE France PAM
 * identifier[visitNumber].value = "000897406"
 * identifier[visitNumber].type.coding.system = Canonical(IHEFrancePamIdentifierTypeCS)
 * identifier[visitNumber].type.coding.code = #VN
+* extension[patientClass].valueCode = #I
+* extension[movementIdentifier][0].valueIdentifier.system = "urn:example:movement-id"
+* extension[movementIdentifier][0].valueIdentifier.value = "1"
 * extension[administrativeNumber].valueIdentifier.system = "urn:example:account-number"
 * extension[administrativeNumber].valueIdentifier.value = "405660"
 * extension[medicalResponsibilityUnit].valueIdentifier.system = "urn:example:uf"
@@ -46,13 +51,13 @@ Description: "Exemple minimal de venue conforme au profil initial IHE France PAM
 * extension[movementAction].valueCode = #INSERT
 * extension[historicMovementIndicator].valueBoolean = false
 * extension[originEventCode].valueCode = #A01
-* extension[movementNature].valueCodeableConcept.text = "Admission hospitalisee"
+* extension[movementNature].valueCodeableConcept = IHEFrancePamMovementNatureCS#HMS "Trois responsabilités"
 * extension[plannedStart].valueDateTime = "2025-02-03T09:00:00+01:00"
 * extension[plannedEnd].valueDateTime = "2025-02-10T10:00:00+01:00"
-* extension[venueProtection].valueCode = #N
-* extension[encounterSupplement].valueString = "Complement d'information sur la venue"
-* extension[pmsiMovement].valueString = "Donnees PMSI d'exemple"
-* extension[accidentNature].valueCodeableConcept.text = "Accident domestique"
+* extension[venueProtection].valueBoolean = false
+* extension[encounterSupplement].extension[transportCare].valueCode = #AUCUN
+* extension[pmsiMovement].extension[entryMode].valueCode = #8
+* extension[accidentNature].valueCodeableConcept = IHEFrancePamAccidentCS#D "Accident domestique"
 * period.start = "2025-02-03T09:00:00+01:00"
 
 Instance: example-ihe-france-pam-related-person
@@ -62,6 +67,10 @@ Title: "Exemple proche PAM France"
 Description: "Exemple minimal de personne associée au patient."
 * patient = Reference(example-ihe-france-pam-patient)
 * relationship[0].text = "Personne a prevenir"
+* identifier[0].system = "urn:example:person-number"
+* identifier[0].value = "PN-0001"
+* identifier[0].type.coding.system = Canonical(IHEFrancePamIdentifierTypeCS)
+* identifier[0].type.coding.code = #PN
 * name[0].family = "DARK"
 * name[0].given[0] = "ALICE"
 * telecom[0].system = #phone

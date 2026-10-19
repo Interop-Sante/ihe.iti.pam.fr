@@ -21,7 +21,7 @@ msgstr ""
 
 # CodeSystem.description
 #: CodeSystem.description
-msgid "Jeu de codes local initial pour le statut DMP dans l'extension IHE France PAM."
+msgid "Statut du DMP du patient (ZFA-1, table IHE-FRANCE-ZFA-1)."
 msgstr ""
 
 # Coding.display
@@ -31,51 +31,31 @@ msgstr ""
 
 # CodeSystem.concept.display
 #: CodeSystem.concept.display
-msgid "Statut inconnu"
+msgid "Actif"
 msgstr ""
 
 # CodeSystem.concept.definition
 #: CodeSystem.concept.definition
-msgid "Le statut du DMP du patient n'est pas connu."
+msgid "Le DMP du patient existe et n'est pas fermé."
 msgstr ""
 
 # CodeSystem.concept.display
 #: CodeSystem.concept.display
-msgid "DMP ouvert"
+msgid "Fermé"
 msgstr ""
 
 # CodeSystem.concept.definition
 #: CodeSystem.concept.definition
-msgid "Le patient dispose d'un DMP ouvert."
+msgid "Le DMP du patient existe et est fermé."
 msgstr ""
 
 # CodeSystem.concept.display
 #: CodeSystem.concept.display
-msgid "DMP fermé"
+msgid "Inexistant"
 msgstr ""
 
 # CodeSystem.concept.definition
 #: CodeSystem.concept.definition
-msgid "Le DMP du patient est fermé."
-msgstr ""
-
-# CodeSystem.concept.display
-#: CodeSystem.concept.display
-msgid "Accès autorisé"
-msgstr ""
-
-# CodeSystem.concept.definition
-#: CodeSystem.concept.definition
-msgid "L'accès au DMP du patient est autorisé pour l'établissement."
-msgstr ""
-
-# CodeSystem.concept.display
-#: CodeSystem.concept.display
-msgid "Opposition exprimée"
-msgstr ""
-
-# CodeSystem.concept.definition
-#: CodeSystem.concept.definition
-msgid "Le patient a exprimé une opposition à l'accès à son DMP."
+msgid "Le DMP du patient n'existe pas."
 msgstr ""
 

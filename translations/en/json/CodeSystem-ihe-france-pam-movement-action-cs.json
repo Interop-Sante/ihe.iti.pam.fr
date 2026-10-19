@@ -30,7 +30,7 @@
     {
       "id" : "CodeSystem.description",
       "context" : "CodeSystem.description",
-      "source" : "Jeu de codes local initial pour l'action sur un mouvement dérivée notamment de ZBE-4.",
+      "source" : "Action portant sur un mouvement (ZBE-4) ou sur un mode légal de soins (ZFS-5).",
       "target" : null
     },
     {
@@ -48,7 +48,7 @@
     {
       "id" : "CodeSystem.concept.definition",
       "context" : "CodeSystem.concept.definition",
-      "source" : "Création d'un nouveau mouvement.",
+      "source" : "Insertion d'un nouveau mouvement en fin de séquence.",
       "target" : null
     },
     {
@@ -60,7 +60,7 @@
     {
       "id" : "CodeSystem.concept.definition",
       "context" : "CodeSystem.concept.definition",
-      "source" : "Mise à jour d'un mouvement existant.",
+      "source" : "Correction du mouvement, courant ou historique (événement Z99).",
       "target" : null
     },
     {
@@ -72,7 +72,7 @@
     {
       "id" : "CodeSystem.concept.definition",
       "context" : "CodeSystem.concept.definition",
-      "source" : "Annulation d'un mouvement existant.",
+      "source" : "Annulation d'un mouvement de la séquence.",
       "target" : null
     }]
   }]

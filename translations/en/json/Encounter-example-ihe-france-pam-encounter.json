@@ -4,14 +4,14 @@
   "languages" : [{
     "targetLang" : "en",
     "entries" : [{
-      "id" : "CodeableConcept.text",
-      "context" : "CodeableConcept.text",
-      "source" : "Admission hospitalisee",
+      "id" : "Coding.display",
+      "context" : "Coding.display",
+      "source" : "Trois responsabilités",
       "target" : null
     },
     {
-      "id" : "CodeableConcept.text",
-      "context" : "CodeableConcept.text",
+      "id" : "Coding.display",
+      "context" : "Coding.display",
       "source" : "Accident domestique",
       "target" : null
     }]

@@ -35,7 +35,7 @@
              <notes>
                <note id="n1">ValueSet.description</note>
              </notes>
-        <source>Jeu de valeurs initial pour l'action sur un mouvement.</source>
+        <source>Valeurs permises pour l'action sur un mouvement.</source>
         <target></target>
       </trans-unit>
       <trans-unit id="ValueSet-ihe-france-pam-movement-action-vs" resname="Coding.display">

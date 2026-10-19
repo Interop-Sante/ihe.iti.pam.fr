@@ -30,7 +30,7 @@
     {
       "id" : "ValueSet.description",
       "context" : "ValueSet.description",
-      "source" : "Jeu de valeurs initial pour les types d'identifiants PAM France.",
+      "source" : "Valeurs permises pour les types d'identifiants.",
       "target" : null
     },
     {

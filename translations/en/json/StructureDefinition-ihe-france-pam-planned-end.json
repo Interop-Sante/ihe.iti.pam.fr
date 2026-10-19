@@ -42,8 +42,8 @@
     {
       "id" : "StructureDefinition.element.Extension/definition",
       "context" : "Provides a complete explanation of the meaning of the data element for human readability.  For the case of elements derived from existing elements (e.g. constraints), the definition SHALL be consistent with the base definition, but convey the meaning of the element in the particular context of use of the resource. (Note: The text you are reading is specified in ElementDefinition.definition).",
-      "source" : "Date de sortie prévisionnelle, dérivée notamment de PV2-9 et EVN-3 selon le contexte.",
-      "target" : "Date de sortie prévisionnelle, dérivée notamment de PV2-9 et EVN-3 selon le contexte."
+      "source" : "Date de sortie prévisionnelle (PV2-9), également portée par EVN-3 pour l'événement A16.",
+      "target" : "Date de sortie prévisionnelle (PV2-9), également portée par EVN-3 pour l'événement A16."
     }]
   }]
 }

@@ -30,7 +30,7 @@
     {
       "id" : "CodeSystem.description",
       "context" : "CodeSystem.description",
-      "source" : "Jeu de codes local initial pour les trigger events PAM France utilises dans les mappings.",
+      "source" : "Événements déclencheurs HL7 v2 utilisés par les transactions ITI-30 et ITI-31 en France.",
       "target" : null
     },
     {
@@ -48,7 +48,7 @@
     {
       "id" : "CodeSystem.concept.definition",
       "context" : "CodeSystem.concept.definition",
-      "source" : "Événement HL7 v2 ADT^A01 : admission d'un patient hospitalisé.",
+      "source" : "ADT^A01 : admission d'un patient hospitalisé.",
       "target" : null
     },
     {
@@ -60,7 +60,7 @@
     {
       "id" : "CodeSystem.concept.definition",
       "context" : "CodeSystem.concept.definition",
-      "source" : "Événement ADT^A02 : mutation du patient vers une autre unité.",
+      "source" : "ADT^A02 : mutation (changement d'unité fonctionnelle, de localisation ou de conditions de prise en charge).",
       "target" : null
     },
     {
@@ -72,7 +72,7 @@
     {
       "id" : "CodeSystem.concept.definition",
       "context" : "CodeSystem.concept.definition",
-      "source" : "Événement ADT^A03 : sortie du patient.",
+      "source" : "ADT^A03 : sortie définitive.",
       "target" : null
     },
     {
@@ -84,7 +84,7 @@
     {
       "id" : "CodeSystem.concept.definition",
       "context" : "CodeSystem.concept.definition",
-      "source" : "Événement ADT^A04 : enregistrement d'un patient externe.",
+      "source" : "ADT^A04 : enregistrement d'un patient externe, ou arrivée aux urgences.",
       "target" : null
     },
     {
@@ -96,7 +96,7 @@
     {
       "id" : "CodeSystem.concept.definition",
       "context" : "CodeSystem.concept.definition",
-      "source" : "Événement ADT^A05 : pré-admission du patient.",
+      "source" : "ADT^A05 : pré-admission.",
       "target" : null
     },
     {
@@ -108,7 +108,7 @@
     {
       "id" : "CodeSystem.concept.definition",
       "context" : "CodeSystem.concept.definition",
-      "source" : "Événement ADT^A06 : passage d'un patient externe en hospitalisation.",
+      "source" : "ADT^A06 : le patient externe ou aux urgences devient hospitalisé.",
       "target" : null
     },
     {
@@ -120,7 +120,7 @@
     {
       "id" : "CodeSystem.concept.definition",
       "context" : "CodeSystem.concept.definition",
-      "source" : "Événement ADT^A07 : passage d'un patient hospitalisé en externe.",
+      "source" : "ADT^A07 : le patient hospitalisé ou aux urgences devient externe.",
       "target" : null
     },
     {
@@ -132,7 +132,7 @@
     {
       "id" : "CodeSystem.concept.definition",
       "context" : "CodeSystem.concept.definition",
-      "source" : "Événement ADT^A11 : annulation d'une admission.",
+      "source" : "ADT^A11 : annulation d'une admission ou d'une activité externe.",
       "target" : null
     },
     {
@@ -144,7 +144,7 @@
     {
       "id" : "CodeSystem.concept.definition",
       "context" : "CodeSystem.concept.definition",
-      "source" : "Événement ADT^A12 : annulation d'une mutation.",
+      "source" : "ADT^A12 : annulation d'une mutation.",
       "target" : null
     },
     {
@@ -156,7 +156,43 @@
     {
       "id" : "CodeSystem.concept.definition",
       "context" : "CodeSystem.concept.definition",
-      "source" : "Événement ADT^A13 : annulation d'une sortie.",
+      "source" : "ADT^A13 : annulation d'une sortie.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Admission en attente",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "ADT^A14 : admission hospitalisée en attente.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Mutation en attente",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "ADT^A15 : mutation en attente.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Sortie en attente",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "ADT^A16 : sortie en attente (sortie imminente).",
       "target" : null
     },
     {
@@ -168,7 +204,7 @@
     {
       "id" : "CodeSystem.concept.definition",
       "context" : "CodeSystem.concept.definition",
-      "source" : "Événement ADT^A21 : début d'une absence provisoire.",
+      "source" : "ADT^A21 : absence provisoire (permission) ou transfert vers un plateau technique pour acte (moins de 48 heures).",
       "target" : null
     },
     {
@@ -180,7 +216,43 @@
     {
       "id" : "CodeSystem.concept.definition",
       "context" : "CodeSystem.concept.definition",
-      "source" : "Événement ADT^A22 : retour d'une absence provisoire.",
+      "source" : "ADT^A22 : retour d'absence provisoire ou de transfert vers un plateau technique.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Annulation sortie en attente",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "ADT^A25 : annulation d'une sortie en attente.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Annulation mutation en attente",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "ADT^A26 : annulation d'une mutation en attente.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Annulation admission en attente",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "ADT^A27 : annulation d'une admission en attente.",
       "target" : null
     },
     {
@@ -192,7 +264,7 @@
     {
       "id" : "CodeSystem.concept.definition",
       "context" : "CodeSystem.concept.definition",
-      "source" : "Événement ADT^A28 : création d'un patient.",
+      "source" : "ADT^A28 : création d'un nouveau patient (ITI-30).",
       "target" : null
     },
     {
@@ -204,7 +276,7 @@
     {
       "id" : "CodeSystem.concept.definition",
       "context" : "CodeSystem.concept.definition",
-      "source" : "Événement ADT^A31 : mise à jour des informations du patient.",
+      "source" : "ADT^A31 : mise à jour des informations du patient (ITI-30).",
       "target" : null
     },
     {
@@ -216,7 +288,7 @@
     {
       "id" : "CodeSystem.concept.definition",
       "context" : "CodeSystem.concept.definition",
-      "source" : "Événement ADT^A38 : annulation d'une pré-admission.",
+      "source" : "ADT^A38 : annulation d'une pré-admission.",
       "target" : null
     },
     {
@@ -228,7 +300,7 @@
     {
       "id" : "CodeSystem.concept.definition",
       "context" : "CodeSystem.concept.definition",
-      "source" : "Événement ADT^A40 : fusion de deux patients.",
+      "source" : "ADT^A40 : fusion de deux dossiers patients (ITI-30).",
       "target" : null
     },
     {
@@ -240,7 +312,7 @@
     {
       "id" : "CodeSystem.concept.definition",
       "context" : "CodeSystem.concept.definition",
-      "source" : "Événement ADT^A44 : réattribution d'un dossier à un autre patient.",
+      "source" : "ADT^A44 : réattribution d'un dossier administratif à un autre patient.",
       "target" : null
     },
     {
@@ -252,7 +324,43 @@
     {
       "id" : "CodeSystem.concept.definition",
       "context" : "CodeSystem.concept.definition",
-      "source" : "Événement ADT^A47 : mise à jour des identifiants du patient.",
+      "source" : "ADT^A47 : mise à jour d'un ou plusieurs identifiants du patient (ITI-30).",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Changement du numéro de dossier",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "ADT^A49 : changement du numéro de dossier administratif.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Annulation absence provisoire",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "ADT^A52 : annulation d'une absence provisoire.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Annulation retour d'absence provisoire",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "ADT^A53 : annulation d'un retour d'absence provisoire.",
       "target" : null
     },
     {
@@ -264,7 +372,7 @@
     {
       "id" : "CodeSystem.concept.definition",
       "context" : "CodeSystem.concept.definition",
-      "source" : "Événement ADT^A54 : changement du médecin responsable.",
+      "source" : "ADT^A54 : changement du médecin responsable.",
       "target" : null
     },
     {
@@ -276,7 +384,7 @@
     {
       "id" : "CodeSystem.concept.definition",
       "context" : "CodeSystem.concept.definition",
-      "source" : "Événement ADT^A55 : annulation du changement de médecin responsable.",
+      "source" : "ADT^A55 : annulation du changement de médecin responsable.",
       "target" : null
     },
     {
@@ -288,7 +396,7 @@
     {
       "id" : "CodeSystem.concept.definition",
       "context" : "CodeSystem.concept.definition",
-      "source" : "Événement national : correction d'un mouvement.",
+      "source" : "ADT^Z99 : correction d'un mouvement, courant ou historique. Seul événement pouvant modifier un mouvement.",
       "target" : null
     }]
   }]

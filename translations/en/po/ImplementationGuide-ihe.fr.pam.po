@@ -92,12 +92,42 @@ msgstr ""
 
 # ImplementationGuide.definition.resource.name
 #: ImplementationGuide.definition.resource.name
+msgid "IHE France PAM Accident Code CodeSystem"
+msgstr ""
+
+# ImplementationGuide.definition.resource.description
+#: ImplementationGuide.definition.resource.description
+msgid "Nature de l'accident (ACC-2, table HL7 0050)."
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "IHE France PAM Accident Code ValueSet"
+msgstr ""
+
+# ImplementationGuide.definition.resource.description
+#: ImplementationGuide.definition.resource.description
+msgid "Valeurs permises pour la nature de l'accident (ACC-2)."
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "IHE France PAM Accident Date"
+msgstr ""
+
+# ImplementationGuide.definition.resource.description
+#: ImplementationGuide.definition.resource.description
+msgid "Date et heure de l'accident (ACC-1), renseignées si l'entrée du patient fait suite à un accident."
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
 msgid "IHE France PAM Accident Nature"
 msgstr ""
 
 # ImplementationGuide.definition.resource.description
 #: ImplementationGuide.definition.resource.description
-msgid "Nature de l'accident, dérivée notamment de ACC-2."
+msgid "Nature de l'accident (ACC-2). Le segment ACC est obligatoire lorsque l'entrée du patient fait suite à un accident."
 msgstr ""
 
 # ImplementationGuide.definition.resource.name
@@ -107,7 +137,17 @@ msgstr ""
 
 # ImplementationGuide.definition.resource.description
 #: ImplementationGuide.definition.resource.description
-msgid "Numéro de dossier administratif, issu notamment de PID-18."
+msgid "Numéro de dossier administratif (PID-18), de type AN."
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "IHE France PAM Arrival Mode"
+msgstr ""
+
+# ImplementationGuide.definition.resource.description
+#: ImplementationGuide.definition.resource.description
+msgid "Mode de transport d'entrée (PV2-38)."
 msgstr ""
 
 # ImplementationGuide.definition.resource.name
@@ -117,7 +157,7 @@ msgstr ""
 
 # ImplementationGuide.definition.resource.description
 #: ImplementationGuide.definition.resource.description
-msgid "Rang gemellaire, issu notamment de PID-25."
+msgid "Rang gémellaire (PID-25), entier positif pour un patient issu d'une naissance multiple."
 msgstr ""
 
 # ImplementationGuide.definition.resource.name
@@ -127,17 +167,67 @@ msgstr ""
 
 # ImplementationGuide.definition.resource.description
 #: ImplementationGuide.definition.resource.description
-msgid "Unité fonctionnelle responsable des soins, issue notamment de ZBE-8."
+msgid "Unité fonctionnelle responsable des soins (ZBE-8, type XON)."
 msgstr ""
 
 # ImplementationGuide.definition.resource.name
 #: ImplementationGuide.definition.resource.name
-msgid "IHE France PAM Demographic Complément"
+msgid "IHE France PAM Data Protection"
 msgstr ""
 
 # ImplementationGuide.definition.resource.description
 #: ImplementationGuide.definition.resource.description
-msgid "Complément démographique dérivé notamment du segment ZFD."
+msgid "Protection des données du patient (PD1-12) : vrai si l'accès à l'information du patient est protégé, faux si l'accès est normal."
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "IHE France PAM Demographic Complement"
+msgstr ""
+
+# ImplementationGuide.definition.resource.description
+#: ImplementationGuide.definition.resource.description
+msgid "Complément démographique (segment ZFD) : date lunaire, semaines de gestation, consentement SMS, indicateur de date de naissance corrigée, mode d'obtention et justificatif de l'identité."
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "IHE France PAM DMP Consultation Consent CodeSystem"
+msgstr ""
+
+# ImplementationGuide.definition.resource.description
+#: ImplementationGuide.definition.resource.description
+msgid "Information du patient et consentement à la consultation de Mon espace santé / DMP (ZFA-11, table IHE-FRANCE-ZFA-11)."
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "IHE France PAM DMP Consultation Consent ValueSet"
+msgstr ""
+
+# ImplementationGuide.definition.resource.description
+#: ImplementationGuide.definition.resource.description
+msgid "Valeurs permises pour l'information et le consentement à la consultation du DMP (ZFA-11)."
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "IHE France PAM DMP Feeding Information CodeSystem"
+msgstr ""
+
+# ImplementationGuide.definition.resource.description
+#: ImplementationGuide.definition.resource.description
+msgid "Information du patient et opposition à l'alimentation de Mon espace santé / DMP (ZFA-9, table IHE-FRANCE-ZFA-9)."
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "IHE France PAM DMP Feeding Information ValueSet"
+msgstr ""
+
+# ImplementationGuide.definition.resource.description
+#: ImplementationGuide.definition.resource.description
+msgid "Valeurs permises pour l'information et l'opposition à l'alimentation du DMP (ZFA-9)."
 msgstr ""
 
 # ImplementationGuide.definition.resource.name
@@ -147,7 +237,7 @@ msgstr ""
 
 # ImplementationGuide.definition.resource.description
 #: ImplementationGuide.definition.resource.description
-msgid "Statut DMP du patient porte par le segment ZFA dans l'extension nationale PAM France."
+msgid "Contexte DMP du patient (segment ZFA) : statut du DMP, information et opposition à l'alimentation, information et consentement à la consultation."
 msgstr ""
 
 # ImplementationGuide.definition.resource.name
@@ -157,7 +247,7 @@ msgstr ""
 
 # ImplementationGuide.definition.resource.description
 #: ImplementationGuide.definition.resource.description
-msgid "Jeu de codes local initial pour le statut DMP dans l'extension IHE France PAM."
+msgid "Statut du DMP du patient (ZFA-1, table IHE-FRANCE-ZFA-1)."
 msgstr ""
 
 # ImplementationGuide.definition.resource.name
@@ -167,7 +257,27 @@ msgstr ""
 
 # ImplementationGuide.definition.resource.description
 #: ImplementationGuide.definition.resource.description
-msgid "Jeu de valeurs initial pour le statut DMP."
+msgid "Valeurs permises pour le statut du DMP (ZFA-1)."
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "IHE France PAM Emergency Passage CodeSystem"
+msgstr ""
+
+# ImplementationGuide.definition.resource.description
+#: ImplementationGuide.definition.resource.description
+msgid "Passage par une structure des urgences (ZFM-5, table IHE-FRANCE-ZFM-5)."
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "IHE France PAM Emergency Passage ValueSet"
+msgstr ""
+
+# ImplementationGuide.definition.resource.description
+#: ImplementationGuide.definition.resource.description
+msgid "Valeurs permises pour le passage par une structure des urgences (ZFM-5)."
 msgstr ""
 
 # ImplementationGuide.definition.resource.name
@@ -177,7 +287,7 @@ msgstr ""
 
 # ImplementationGuide.definition.resource.description
 #: ImplementationGuide.definition.resource.description
-msgid "Profil encounter initial pour l'extension nationale IHE France PAM, dérivé des contraintes documentaires portées par les segments PV1, PV2, ACC et ZBE."
+msgid "Profil encounter pour l'extension nationale IHE France PAM, dérivé des contraintes portées par les segments PV1, PV2, ACC, ZBE, ZFV et ZFM."
 msgstr ""
 
 # ImplementationGuide.definition.resource.name
@@ -187,7 +297,7 @@ msgstr ""
 
 # ImplementationGuide.definition.resource.description
 #: ImplementationGuide.definition.resource.description
-msgid "Complément d'information sur la venue, dérivé notamment du segment ZFV."
+msgid "Compléments sur la rencontre (segment ZFV) : établissement de provenance, transport de sortie, période de placement en psychiatrie, adresse de provenance ou de destination, numéros d'archive."
 msgstr ""
 
 # ImplementationGuide.definition.resource.name
@@ -197,7 +307,7 @@ msgstr ""
 
 # ImplementationGuide.definition.resource.description
 #: ImplementationGuide.definition.resource.description
-msgid "Indicateur de mouvement historique, dérivé notamment de ZBE-5."
+msgid "Indicateur de mouvement historique (ZBE-5) : vrai pour un mouvement ancien de la séquence, faux pour le mouvement courant."
 msgstr ""
 
 # ImplementationGuide.definition.resource.name
@@ -207,7 +317,7 @@ msgstr ""
 
 # ImplementationGuide.definition.resource.description
 #: ImplementationGuide.definition.resource.description
-msgid "Sous-ensemble local initial des types d'identifiants PAM France utilises dans les slices et mappings."
+msgid "Types d'identifiants permis en France (CX-5, XCN-13, XON-7 ; table HL7 0203 spécialisée)."
 msgstr ""
 
 # ImplementationGuide.definition.resource.name
@@ -217,7 +327,47 @@ msgstr ""
 
 # ImplementationGuide.definition.resource.description
 #: ImplementationGuide.definition.resource.description
-msgid "Jeu de valeurs initial pour les types d'identifiants PAM France."
+msgid "Valeurs permises pour les types d'identifiants."
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "IHE France PAM Identity Document CodeSystem"
+msgstr ""
+
+# ImplementationGuide.definition.resource.description
+#: ImplementationGuide.definition.resource.description
+msgid "Type de justificatif d'identité (ZFD-7, table IHE-FRANCE-ZFD-7)."
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "IHE France PAM Identity Document ValueSet"
+msgstr ""
+
+# ImplementationGuide.definition.resource.description
+#: ImplementationGuide.definition.resource.description
+msgid "Valeurs permises pour le type de justificatif d'identité (ZFD-7)."
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "IHE France PAM Identity Means CodeSystem"
+msgstr ""
+
+# ImplementationGuide.definition.resource.description
+#: ImplementationGuide.definition.resource.description
+msgid "Mode d'obtention de l'identité (ZFD-5, table IHE-FRANCE-ZFD-5)."
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "IHE France PAM Identity Means ValueSet"
+msgstr ""
+
+# ImplementationGuide.definition.resource.description
+#: ImplementationGuide.definition.resource.description
+msgid "Valeurs permises pour le mode d'obtention de l'identité (ZFD-5)."
 msgstr ""
 
 # ImplementationGuide.definition.resource.name
@@ -227,7 +377,7 @@ msgstr ""
 
 # ImplementationGuide.definition.resource.description
 #: ImplementationGuide.definition.resource.description
-msgid "Entité modificatrice de l'identité, issue notamment de PID-34."
+msgid "Entité ayant modifié l'identité du patient (PID-34), renseignée dans un contexte de groupement hospitalier de territoire où les identités sont partagées."
 msgstr ""
 
 # ImplementationGuide.definition.resource.name
@@ -237,7 +387,7 @@ msgstr ""
 
 # ImplementationGuide.definition.resource.description
 #: ImplementationGuide.definition.resource.description
-msgid "Statut d'identité porte par le contenu PAM France, notamment en lien avec PID-32."
+msgid "Statut ou attribut de l'identité du patient (PID-32). Répétable : un statut et, le cas échéant, des attributs d'identité."
 msgstr ""
 
 # ImplementationGuide.definition.resource.name
@@ -247,7 +397,7 @@ msgstr ""
 
 # ImplementationGuide.definition.resource.description
 #: ImplementationGuide.definition.resource.description
-msgid "Jeu de codes local initial pour le statut d'identité dans l'extension IHE France PAM."
+msgid "Statuts et attributs de l'identité du patient (PID-32, table HL7 0445 spécialisée pour la France)."
 msgstr ""
 
 # ImplementationGuide.definition.resource.name
@@ -257,7 +407,7 @@ msgstr ""
 
 # ImplementationGuide.definition.resource.description
 #: ImplementationGuide.definition.resource.description
-msgid "Jeu de valeurs initial pour le statut d'identité."
+msgid "Valeurs permises pour le statut et les attributs d'identité (PID-32)."
 msgstr ""
 
 # ImplementationGuide.definition.resource.name
@@ -282,12 +432,32 @@ msgstr ""
 
 # ImplementationGuide.definition.resource.name
 #: ImplementationGuide.definition.resource.name
+msgid "IHE France PAM Legal Care Mode CodeSystem"
+msgstr ""
+
+# ImplementationGuide.definition.resource.description
+#: ImplementationGuide.definition.resource.description
+msgid "Mode légal de soins en psychiatrie (ZFS-6, table IHE-FRANCE-ZFS-6). Liste non limitative."
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "IHE France PAM Legal Care Mode ValueSet"
+msgstr ""
+
+# ImplementationGuide.definition.resource.description
+#: ImplementationGuide.definition.resource.description
+msgid "Valeurs proposées pour le mode légal de soins en psychiatrie (ZFS-6)."
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
 msgid "IHE France PAM Location"
 msgstr ""
 
 # ImplementationGuide.definition.resource.description
 #: ImplementationGuide.definition.resource.description
-msgid "Profil location initial pour les localisations patient et unités d'hébergement véhiculées notamment par PV1-3 et le type PL."
+msgid "Profil location pour la localisation du patient (type de données PL, champ PV1-3) : unité fonctionnelle d'hébergement, chambre, lit et établissement."
 msgstr ""
 
 # ImplementationGuide.definition.resource.name
@@ -297,7 +467,7 @@ msgstr ""
 
 # ImplementationGuide.definition.resource.description
 #: ImplementationGuide.definition.resource.description
-msgid "Unité fonctionnelle médicalement ou médico-administrativement responsable du patient, issue notamment de ZBE-7."
+msgid "Unité fonctionnelle médicalement ou médico-administrativement responsable du patient (ZBE-7, type XON)."
 msgstr ""
 
 # ImplementationGuide.definition.resource.name
@@ -307,7 +477,7 @@ msgstr ""
 
 # ImplementationGuide.definition.resource.description
 #: ImplementationGuide.definition.resource.description
-msgid "Nom de naissance de la mère, issu notamment de PID-6."
+msgid "Nom de naissance de la mère (PID-6). Ce champ ne porte pas le nom de naissance du patient."
 msgstr ""
 
 # ImplementationGuide.definition.resource.name
@@ -317,7 +487,7 @@ msgstr ""
 
 # ImplementationGuide.definition.resource.description
 #: ImplementationGuide.definition.resource.description
-msgid "Code action portant sur le mouvement, dérivé notamment de ZBE-4."
+msgid "Action portant sur le mouvement (ZBE-4) : insertion, annulation ou correction."
 msgstr ""
 
 # ImplementationGuide.definition.resource.name
@@ -327,7 +497,7 @@ msgstr ""
 
 # ImplementationGuide.definition.resource.description
 #: ImplementationGuide.definition.resource.description
-msgid "Jeu de codes local initial pour l'action sur un mouvement dérivée notamment de ZBE-4."
+msgid "Action portant sur un mouvement (ZBE-4) ou sur un mode légal de soins (ZFS-5)."
 msgstr ""
 
 # ImplementationGuide.definition.resource.name
@@ -337,7 +507,17 @@ msgstr ""
 
 # ImplementationGuide.definition.resource.description
 #: ImplementationGuide.definition.resource.description
-msgid "Jeu de valeurs initial pour l'action sur un mouvement."
+msgid "Valeurs permises pour l'action sur un mouvement."
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "IHE France PAM Movement Identifier"
+msgstr ""
+
+# ImplementationGuide.definition.resource.description
+#: ImplementationGuide.definition.resource.description
+msgid "Identifiant du mouvement (ZBE-1, type EI). Répétable dans un contexte de gestion coopérative des mouvements."
 msgstr ""
 
 # ImplementationGuide.definition.resource.name
@@ -347,7 +527,27 @@ msgstr ""
 
 # ImplementationGuide.definition.resource.description
 #: ImplementationGuide.definition.resource.description
-msgid "Nature du mouvement, dérivée notamment de ZBE-9."
+msgid "Nature du mouvement (ZBE-9) : éléments ayant fait l'objet d'un changement de situation."
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "IHE France PAM Movement Nature CodeSystem"
+msgstr ""
+
+# ImplementationGuide.definition.resource.description
+#: ImplementationGuide.definition.resource.description
+msgid "Nature du mouvement (ZBE-9, table IHE-FRANCE-ZBE-9)."
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "IHE France PAM Movement Nature ValueSet"
+msgstr ""
+
+# ImplementationGuide.definition.resource.description
+#: ImplementationGuide.definition.resource.description
+msgid "Valeurs permises pour la nature du mouvement (ZBE-9)."
 msgstr ""
 
 # ImplementationGuide.definition.resource.name
@@ -357,7 +557,7 @@ msgstr ""
 
 # ImplementationGuide.definition.resource.description
 #: ImplementationGuide.definition.resource.description
-msgid "Nationalité ou citoyenneté véhiculée notamment par PID-26 et PID-28."
+msgid "Citoyenneté du patient (PID-26), code pays ISO 3166 alpha-3 par défaut. Le champ PID-28 (nationalité) est déprécié et son usage est interdit en France."
 msgstr ""
 
 # ImplementationGuide.definition.resource.name
@@ -367,7 +567,7 @@ msgstr ""
 
 # ImplementationGuide.definition.resource.description
 #: ImplementationGuide.definition.resource.description
-msgid "Profil organisation initial pour établissements, entités juridiques et unités fonctionnelles identifiées dans PAM France."
+msgid "Profil organisation pour les établissements, entités juridiques et unités fonctionnelles identifiés dans PAM France (type de données XON)."
 msgstr ""
 
 # ImplementationGuide.definition.resource.name
@@ -377,7 +577,7 @@ msgstr ""
 
 # ImplementationGuide.definition.resource.description
 #: ImplementationGuide.definition.resource.description
-msgid "Code d'événement d'origine du mouvement, dérivé notamment de ZBE-6."
+msgid "Événement déclencheur d'origine du mouvement (ZBE-6), renseigné pour une correction ou une annulation."
 msgstr ""
 
 # ImplementationGuide.definition.resource.name
@@ -387,7 +587,37 @@ msgstr ""
 
 # ImplementationGuide.definition.resource.description
 #: ImplementationGuide.definition.resource.description
-msgid "Profil patient initial pour l'extension nationale IHE France PAM, dérivé des contraintes documentaires portées notamment par les segments PID, PD1, NK1 et les data types HL7 v2.5 français."
+msgid "Profil patient pour l'extension nationale IHE France PAM, dérivé des contraintes portées notamment par les segments PID, PD1, NK1 et par les types de données HL7 v2.5 français."
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "IHE France PAM Patient Class"
+msgstr ""
+
+# ImplementationGuide.definition.resource.description
+#: ImplementationGuide.definition.resource.description
+msgid "Classe de patient (PV1-2) : urgences, hospitalisation, externe, séances, télésurveillance médicale ou non applicable."
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "IHE France PAM Patient Class CodeSystem"
+msgstr ""
+
+# ImplementationGuide.definition.resource.description
+#: ImplementationGuide.definition.resource.description
+msgid "Classe de patient (PV1-2, table HL7 0004)."
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "IHE France PAM Patient Class ValueSet"
+msgstr ""
+
+# ImplementationGuide.definition.resource.description
+#: ImplementationGuide.definition.resource.description
+msgid "Valeurs permises pour la classe de patient."
 msgstr ""
 
 # ImplementationGuide.definition.resource.name
@@ -397,7 +627,7 @@ msgstr ""
 
 # ImplementationGuide.definition.resource.description
 #: ImplementationGuide.definition.resource.description
-msgid "Date de sortie prévisionnelle, dérivée notamment de PV2-9 et EVN-3 selon le contexte."
+msgid "Date de sortie prévisionnelle (PV2-9), également portée par EVN-3 pour l'événement A16."
 msgstr ""
 
 # ImplementationGuide.definition.resource.name
@@ -407,7 +637,47 @@ msgstr ""
 
 # ImplementationGuide.definition.resource.description
 #: ImplementationGuide.definition.resource.description
-msgid "Date d'entrée prévisionnelle, dérivée notamment de PV2-8."
+msgid "Date d'entrée prévisionnelle (PV2-8)."
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "IHE France PAM PMSI Entry Mode CodeSystem"
+msgstr ""
+
+# ImplementationGuide.definition.resource.description
+#: ImplementationGuide.definition.resource.description
+msgid "Mode d'entrée PMSI (ZFM-1, table IHE-FRANCE-ZFM-1)."
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "IHE France PAM PMSI Entry Mode ValueSet"
+msgstr ""
+
+# ImplementationGuide.definition.resource.description
+#: ImplementationGuide.definition.resource.description
+msgid "Valeurs permises pour le mode d'entrée PMSI (ZFM-1)."
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "IHE France PAM PMSI Exit Mode CodeSystem"
+msgstr ""
+
+# ImplementationGuide.definition.resource.description
+#: ImplementationGuide.definition.resource.description
+msgid "Mode de sortie PMSI (ZFM-2, table IHE-FRANCE-ZFM-2)."
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "IHE France PAM PMSI Exit Mode ValueSet"
+msgstr ""
+
+# ImplementationGuide.definition.resource.description
+#: ImplementationGuide.definition.resource.description
+msgid "Valeurs permises pour le mode de sortie PMSI (ZFM-2)."
 msgstr ""
 
 # ImplementationGuide.definition.resource.name
@@ -417,7 +687,7 @@ msgstr ""
 
 # ImplementationGuide.definition.resource.description
 #: ImplementationGuide.definition.resource.description
-msgid "Informations de mouvement PMSI dérivées notamment du segment ZFM."
+msgid "Mouvement PMSI (segment ZFM) : mode d'entrée, mode de sortie, provenance, destination et passage par une structure des urgences."
 msgstr ""
 
 # ImplementationGuide.definition.resource.name
@@ -427,7 +697,7 @@ msgstr ""
 
 # ImplementationGuide.definition.resource.description
 #: ImplementationGuide.definition.resource.description
-msgid "Profil practitioner initial pour les professionnels de santé référencés dans les segments ROL et PV1."
+msgid "Profil practitioner pour les professionnels de santé référencés dans les segments ROL et PV1 (type de données XCN)."
 msgstr ""
 
 # ImplementationGuide.definition.resource.name
@@ -437,7 +707,7 @@ msgstr ""
 
 # ImplementationGuide.definition.resource.description
 #: ImplementationGuide.definition.resource.description
-msgid "Profil practitioner role initial pour les roles véhiculés notamment par ROL et par les référencés médecins dans PV1."
+msgid "Profil practitioner role pour les rôles véhiculés par le segment ROL et par les références médecins du segment PV1."
 msgstr ""
 
 # ImplementationGuide.definition.resource.name
@@ -447,7 +717,27 @@ msgstr ""
 
 # ImplementationGuide.definition.resource.description
 #: ImplementationGuide.definition.resource.description
-msgid "Situation professionnelle du patient, dérivée notamment du segment ZFP."
+msgid "Situation professionnelle du patient (segment ZFP) : activité et catégorie socioprofessionnelles (nomenclature PCS 2003 de l'INSEE)."
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "IHE France PAM Provider Role CodeSystem"
+msgstr ""
+
+# ImplementationGuide.definition.resource.description
+#: ImplementationGuide.definition.resource.description
+msgid "Rôle d'un médecin en relation avec le patient (ROL-3, table HL7 0443)."
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "IHE France PAM Provider Role ValueSet"
+msgstr ""
+
+# ImplementationGuide.definition.resource.description
+#: ImplementationGuide.definition.resource.description
+msgid "Valeurs permises pour le rôle d'un médecin (ROL-3)."
 msgstr ""
 
 # ImplementationGuide.definition.resource.name
@@ -457,7 +747,7 @@ msgstr ""
 
 # ImplementationGuide.definition.resource.description
 #: ImplementationGuide.definition.resource.description
-msgid "Mode legal de soins en psychiatrie, dérivé notamment du segment ZFS."
+msgid "Mode légal de soins en psychiatrie (segment ZFS, répétable). Un seul système doit être maître de la saisie des modes légaux de soins."
 msgstr ""
 
 # ImplementationGuide.definition.resource.name
@@ -467,7 +757,67 @@ msgstr ""
 
 # ImplementationGuide.definition.resource.description
 #: ImplementationGuide.definition.resource.description
-msgid "Profil related person initial pour représenter les proches et personnes associées véhiculés notamment via le segment NK1."
+msgid "Profil related person pour représenter les personnes à prévenir, personnes de confiance et personnes associées, véhiculées par le segment NK1."
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "IHE France PAM RIM-P Legal Care Code CodeSystem"
+msgstr ""
+
+# ImplementationGuide.definition.resource.description
+#: ImplementationGuide.definition.resource.description
+msgid "Code RIM-P du mode légal de soins (ZFS-7, table IHE-FRANCE-ZFS-7)."
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "IHE France PAM RIM-P Legal Care Code ValueSet"
+msgstr ""
+
+# ImplementationGuide.definition.resource.description
+#: ImplementationGuide.definition.resource.description
+msgid "Valeurs permises pour le code RIM-P du mode légal de soins (ZFS-7)."
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "IHE France PAM Transport Care CodeSystem"
+msgstr ""
+
+# ImplementationGuide.definition.resource.description
+#: ImplementationGuide.definition.resource.description
+msgid "Prise en charge durant le transport (ZFV-11, table IHE-FRANCE-ZFV-11, codes RPU)."
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "IHE France PAM Transport Care ValueSet"
+msgstr ""
+
+# ImplementationGuide.definition.resource.description
+#: ImplementationGuide.definition.resource.description
+msgid "Valeurs permises pour la prise en charge durant le transport (ZFV-11)."
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "IHE France PAM Transport Mode CodeSystem"
+msgstr ""
+
+# ImplementationGuide.definition.resource.description
+#: ImplementationGuide.definition.resource.description
+msgid "Mode de transport d'entrée (PV2-38) et de sortie (ZFV-2) (table HL7 0430)."
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "IHE France PAM Transport Mode ValueSet"
+msgstr ""
+
+# ImplementationGuide.definition.resource.description
+#: ImplementationGuide.definition.resource.description
+msgid "Valeurs permises pour le mode de transport."
 msgstr ""
 
 # ImplementationGuide.definition.resource.name
@@ -477,7 +827,7 @@ msgstr ""
 
 # ImplementationGuide.definition.resource.description
 #: ImplementationGuide.definition.resource.description
-msgid "Jeu de codes local initial pour les trigger events PAM France utilises dans les mappings."
+msgid "Événements déclencheurs HL7 v2 utilisés par les transactions ITI-30 et ITI-31 en France."
 msgstr ""
 
 # ImplementationGuide.definition.resource.name
@@ -487,7 +837,7 @@ msgstr ""
 
 # ImplementationGuide.definition.resource.description
 #: ImplementationGuide.definition.resource.description
-msgid "Jeu de valeurs initial pour les trigger events PAM France."
+msgid "Valeurs permises pour les événements déclencheurs PAM France."
 msgstr ""
 
 # ImplementationGuide.definition.resource.name
@@ -497,27 +847,7 @@ msgstr ""
 
 # ImplementationGuide.definition.resource.description
 #: ImplementationGuide.definition.resource.description
-msgid "Protection concernant la venue, dérivée notamment de PV2-22."
-msgstr ""
-
-# ImplementationGuide.definition.resource.name
-#: ImplementationGuide.definition.resource.name
-msgid "IHE France PAM Venue Protection CodeSystem"
-msgstr ""
-
-# ImplementationGuide.definition.resource.description
-#: ImplementationGuide.definition.resource.description
-msgid "Jeu de codes local initial pour la protection de la venue dérivée notamment de PV2-22."
-msgstr ""
-
-# ImplementationGuide.definition.resource.name
-#: ImplementationGuide.definition.resource.name
-msgid "IHE France PAM Venue Protection ValueSet"
-msgstr ""
-
-# ImplementationGuide.definition.resource.description
-#: ImplementationGuide.definition.resource.description
-msgid "Jeu de valeurs initial pour la protection de la venue."
+msgid "Protection concernant la venue (PV2-22) : vrai si l'accès aux données de la venue est protégé, faux si l'accès est normal."
 msgstr ""
 
 # ImplementationGuide.definition.page.title

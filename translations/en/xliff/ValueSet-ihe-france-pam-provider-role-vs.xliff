@@ -1,0 +1,57 @@
+<?xml version="1.0" ?>
+
+<xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0">
+  <file source-language="fr" target-language="en" id="ValueSet-ihe-france-pam-provider-role-vs" original="Resource ValueSet-ihe-france-pam-provider-role-vs" datatype="KEYVALUEJSON">
+    <body>
+      <trans-unit id="ValueSet-ihe-france-pam-provider-role-vs" resname="ValueSet.name">
+             <notes>
+               <note id="n1">ValueSet.name</note>
+             </notes>
+        <source>IHEFrancePamProviderRoleVS</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-ihe-france-pam-provider-role-vs" resname="ValueSet.title">
+             <notes>
+               <note id="n1">ValueSet.title</note>
+             </notes>
+        <source>IHE France PAM Provider Role ValueSet</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-ihe-france-pam-provider-role-vs" resname="ValueSet.publisher">
+             <notes>
+               <note id="n1">ValueSet.publisher</note>
+             </notes>
+        <source>IHE France</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-ihe-france-pam-provider-role-vs" resname="ContactDetail.name">
+             <notes>
+               <note id="n1">ContactDetail.name</note>
+             </notes>
+        <source>IHE France</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-ihe-france-pam-provider-role-vs" resname="ValueSet.description">
+             <notes>
+               <note id="n1">ValueSet.description</note>
+             </notes>
+        <source>Valeurs permises pour le rôle d'un médecin (ROL-3).</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-ihe-france-pam-provider-role-vs" resname="Coding.display">
+             <notes>
+               <note id="n1">Coding.display</note>
+             </notes>
+        <source>France (la)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-ihe-france-pam-provider-role-vs" resname="ValueSet.compose.include.version">
+             <notes>
+               <note id="n1">ValueSet.compose.include.version</note>
+             </notes>
+        <source>0.1.0</source>
+        <target></target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

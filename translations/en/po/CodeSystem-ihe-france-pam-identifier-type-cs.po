@@ -21,7 +21,7 @@ msgstr ""
 
 # CodeSystem.description
 #: CodeSystem.description
-msgid "Sous-ensemble local initial des types d'identifiants PAM France utilises dans les slices et mappings."
+msgid "Types d'identifiants permis en France (CX-5, XCN-13, XON-7 ; table HL7 0203 spécialisée)."
 msgstr ""
 
 # Coding.display
@@ -36,7 +36,7 @@ msgstr ""
 
 # CodeSystem.concept.definition
 #: CodeSystem.concept.definition
-msgid "Identifiant patient permanent attribué par l'établissement (IPP)."
+msgid "Identifiant permanent du patient attribué par l'établissement."
 msgstr ""
 
 # CodeSystem.concept.display
@@ -46,27 +46,67 @@ msgstr ""
 
 # CodeSystem.concept.definition
 #: CodeSystem.concept.definition
-msgid "Identifiant national de santé du patient."
+msgid "INS-NIR ou INS-NIA récupéré à partir du téléservice INSi."
 msgstr ""
 
 # CodeSystem.concept.display
 #: CodeSystem.concept.display
-msgid "National Health Identifier"
+msgid "INS-C"
 msgstr ""
 
 # CodeSystem.concept.definition
 #: CodeSystem.concept.definition
-msgid "Identifiant national de santé de type NH (National Health Plan Identifier)."
+msgid "Identifiant national de santé calculé."
 msgstr ""
 
 # CodeSystem.concept.display
 #: CodeSystem.concept.display
-msgid "Numéro de dossier administratif"
+msgid "National Health Plan Identifier"
 msgstr ""
 
 # CodeSystem.concept.definition
 #: CodeSystem.concept.definition
-msgid "Numéro de dossier administratif."
+msgid "NIR du bénéficiaire utilisé dans les échanges avec l'assurance maladie (à ne pas confondre avec l'INS-NIR)."
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Identifiant du patient au Dossier Pharmaceutique"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "Identifiant du patient au dossier pharmaceutique."
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Person number"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "IPP fédérateur d'un gestionnaire de références croisées. Utilisé aussi pour identifier les personnes à prévenir et les personnes de confiance."
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Regional registry ID"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "Identifiant de registre régional."
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Numéro de dossier"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "Numéro de dossier administratif (PID-18)."
 msgstr ""
 
 # CodeSystem.concept.display
@@ -76,16 +116,126 @@ msgstr ""
 
 # CodeSystem.concept.definition
 #: CodeSystem.concept.definition
-msgid "Numéro identifiant une venue."
+msgid "Numéro de venue (PV1-19)."
 msgstr ""
 
 # CodeSystem.concept.display
 #: CodeSystem.concept.display
-msgid "Identifiant de mouvement ou medical record selon le contexte"
+msgid "Numéro d'archive"
 msgstr ""
 
 # CodeSystem.concept.definition
 #: CodeSystem.concept.definition
-msgid "Identifiant de mouvement ou de dossier médical, selon le contexte."
+msgid "Numéro d'archive."
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Employee number"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "Numéro d'employé, identifiant interne d'un professionnel dans un établissement."
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "ADELI"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "Numéro au répertoire ADELI du professionnel de santé."
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "RPPS"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "Numéro d'inscription au RPPS du professionnel de santé."
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "IDNPS"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "Identification nationale des professionnels de santé (CI-SIS), utilisée en extra-hospitalier."
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "FINESS entité juridique"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "Numéro FINESS d'entité juridique."
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "FINESS entité géographique"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "Numéro FINESS d'entité géographique."
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "SIREN"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "Numéro SIREN de l'organisation."
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "SIRET"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "Numéro SIRET de l'organisation."
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Code UF"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "Code d'unité fonctionnelle."
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Code service"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "Code de service (axe organisationnel)."
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "IDNST"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "Identification nationale de structure (CI-SIS), utilisée en extra-hospitalier."
 msgstr ""
 

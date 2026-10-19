@@ -21,7 +21,7 @@ msgstr ""
 
 # CodeSystem.description
 #: CodeSystem.description
-msgid "Jeu de codes local initial pour les trigger events PAM France utilises dans les mappings."
+msgid "Événements déclencheurs HL7 v2 utilisés par les transactions ITI-30 et ITI-31 en France."
 msgstr ""
 
 # Coding.display
@@ -36,7 +36,7 @@ msgstr ""
 
 # CodeSystem.concept.definition
 #: CodeSystem.concept.definition
-msgid "Événement HL7 v2 ADT^A01 : admission d'un patient hospitalisé."
+msgid "ADT^A01 : admission d'un patient hospitalisé."
 msgstr ""
 
 # CodeSystem.concept.display
@@ -46,7 +46,7 @@ msgstr ""
 
 # CodeSystem.concept.definition
 #: CodeSystem.concept.definition
-msgid "Événement ADT^A02 : mutation du patient vers une autre unité."
+msgid "ADT^A02 : mutation (changement d'unité fonctionnelle, de localisation ou de conditions de prise en charge)."
 msgstr ""
 
 # CodeSystem.concept.display
@@ -56,7 +56,7 @@ msgstr ""
 
 # CodeSystem.concept.definition
 #: CodeSystem.concept.definition
-msgid "Événement ADT^A03 : sortie du patient."
+msgid "ADT^A03 : sortie définitive."
 msgstr ""
 
 # CodeSystem.concept.display
@@ -66,7 +66,7 @@ msgstr ""
 
 # CodeSystem.concept.definition
 #: CodeSystem.concept.definition
-msgid "Événement ADT^A04 : enregistrement d'un patient externe."
+msgid "ADT^A04 : enregistrement d'un patient externe, ou arrivée aux urgences."
 msgstr ""
 
 # CodeSystem.concept.display
@@ -76,7 +76,7 @@ msgstr ""
 
 # CodeSystem.concept.definition
 #: CodeSystem.concept.definition
-msgid "Événement ADT^A05 : pré-admission du patient."
+msgid "ADT^A05 : pré-admission."
 msgstr ""
 
 # CodeSystem.concept.display
@@ -86,7 +86,7 @@ msgstr ""
 
 # CodeSystem.concept.definition
 #: CodeSystem.concept.definition
-msgid "Événement ADT^A06 : passage d'un patient externe en hospitalisation."
+msgid "ADT^A06 : le patient externe ou aux urgences devient hospitalisé."
 msgstr ""
 
 # CodeSystem.concept.display
@@ -96,7 +96,7 @@ msgstr ""
 
 # CodeSystem.concept.definition
 #: CodeSystem.concept.definition
-msgid "Événement ADT^A07 : passage d'un patient hospitalisé en externe."
+msgid "ADT^A07 : le patient hospitalisé ou aux urgences devient externe."
 msgstr ""
 
 # CodeSystem.concept.display
@@ -106,7 +106,7 @@ msgstr ""
 
 # CodeSystem.concept.definition
 #: CodeSystem.concept.definition
-msgid "Événement ADT^A11 : annulation d'une admission."
+msgid "ADT^A11 : annulation d'une admission ou d'une activité externe."
 msgstr ""
 
 # CodeSystem.concept.display
@@ -116,7 +116,7 @@ msgstr ""
 
 # CodeSystem.concept.definition
 #: CodeSystem.concept.definition
-msgid "Événement ADT^A12 : annulation d'une mutation."
+msgid "ADT^A12 : annulation d'une mutation."
 msgstr ""
 
 # CodeSystem.concept.display
@@ -126,7 +126,37 @@ msgstr ""
 
 # CodeSystem.concept.definition
 #: CodeSystem.concept.definition
-msgid "Événement ADT^A13 : annulation d'une sortie."
+msgid "ADT^A13 : annulation d'une sortie."
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Admission en attente"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "ADT^A14 : admission hospitalisée en attente."
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Mutation en attente"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "ADT^A15 : mutation en attente."
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Sortie en attente"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "ADT^A16 : sortie en attente (sortie imminente)."
 msgstr ""
 
 # CodeSystem.concept.display
@@ -136,7 +166,7 @@ msgstr ""
 
 # CodeSystem.concept.definition
 #: CodeSystem.concept.definition
-msgid "Événement ADT^A21 : début d'une absence provisoire."
+msgid "ADT^A21 : absence provisoire (permission) ou transfert vers un plateau technique pour acte (moins de 48 heures)."
 msgstr ""
 
 # CodeSystem.concept.display
@@ -146,7 +176,37 @@ msgstr ""
 
 # CodeSystem.concept.definition
 #: CodeSystem.concept.definition
-msgid "Événement ADT^A22 : retour d'une absence provisoire."
+msgid "ADT^A22 : retour d'absence provisoire ou de transfert vers un plateau technique."
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Annulation sortie en attente"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "ADT^A25 : annulation d'une sortie en attente."
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Annulation mutation en attente"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "ADT^A26 : annulation d'une mutation en attente."
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Annulation admission en attente"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "ADT^A27 : annulation d'une admission en attente."
 msgstr ""
 
 # CodeSystem.concept.display
@@ -156,7 +216,7 @@ msgstr ""
 
 # CodeSystem.concept.definition
 #: CodeSystem.concept.definition
-msgid "Événement ADT^A28 : création d'un patient."
+msgid "ADT^A28 : création d'un nouveau patient (ITI-30)."
 msgstr ""
 
 # CodeSystem.concept.display
@@ -166,7 +226,7 @@ msgstr ""
 
 # CodeSystem.concept.definition
 #: CodeSystem.concept.definition
-msgid "Événement ADT^A31 : mise à jour des informations du patient."
+msgid "ADT^A31 : mise à jour des informations du patient (ITI-30)."
 msgstr ""
 
 # CodeSystem.concept.display
@@ -176,7 +236,7 @@ msgstr ""
 
 # CodeSystem.concept.definition
 #: CodeSystem.concept.definition
-msgid "Événement ADT^A38 : annulation d'une pré-admission."
+msgid "ADT^A38 : annulation d'une pré-admission."
 msgstr ""
 
 # CodeSystem.concept.display
@@ -186,7 +246,7 @@ msgstr ""
 
 # CodeSystem.concept.definition
 #: CodeSystem.concept.definition
-msgid "Événement ADT^A40 : fusion de deux patients."
+msgid "ADT^A40 : fusion de deux dossiers patients (ITI-30)."
 msgstr ""
 
 # CodeSystem.concept.display
@@ -196,7 +256,7 @@ msgstr ""
 
 # CodeSystem.concept.definition
 #: CodeSystem.concept.definition
-msgid "Événement ADT^A44 : réattribution d'un dossier à un autre patient."
+msgid "ADT^A44 : réattribution d'un dossier administratif à un autre patient."
 msgstr ""
 
 # CodeSystem.concept.display
@@ -206,7 +266,37 @@ msgstr ""
 
 # CodeSystem.concept.definition
 #: CodeSystem.concept.definition
-msgid "Événement ADT^A47 : mise à jour des identifiants du patient."
+msgid "ADT^A47 : mise à jour d'un ou plusieurs identifiants du patient (ITI-30)."
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Changement du numéro de dossier"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "ADT^A49 : changement du numéro de dossier administratif."
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Annulation absence provisoire"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "ADT^A52 : annulation d'une absence provisoire."
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Annulation retour d'absence provisoire"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "ADT^A53 : annulation d'un retour d'absence provisoire."
 msgstr ""
 
 # CodeSystem.concept.display
@@ -216,7 +306,7 @@ msgstr ""
 
 # CodeSystem.concept.definition
 #: CodeSystem.concept.definition
-msgid "Événement ADT^A54 : changement du médecin responsable."
+msgid "ADT^A54 : changement du médecin responsable."
 msgstr ""
 
 # CodeSystem.concept.display
@@ -226,7 +316,7 @@ msgstr ""
 
 # CodeSystem.concept.definition
 #: CodeSystem.concept.definition
-msgid "Événement ADT^A55 : annulation du changement de médecin responsable."
+msgid "ADT^A55 : annulation du changement de médecin responsable."
 msgstr ""
 
 # CodeSystem.concept.display
@@ -236,6 +326,6 @@ msgstr ""
 
 # CodeSystem.concept.definition
 #: CodeSystem.concept.definition
-msgid "Événement national : correction d'un mouvement."
+msgid "ADT^Z99 : correction d'un mouvement, courant ou historique. Seul événement pouvant modifier un mouvement."
 msgstr ""
 

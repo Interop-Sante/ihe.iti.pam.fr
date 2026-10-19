@@ -35,7 +35,7 @@
              <notes>
                <note id="n1">CodeSystem.description</note>
              </notes>
-        <source>Jeu de codes local initial pour les trigger events PAM France utilises dans les mappings.</source>
+        <source>Événements déclencheurs HL7 v2 utilisés par les transactions ITI-30 et ITI-31 en France.</source>
         <target></target>
       </trans-unit>
       <trans-unit id="CodeSystem-ihe-france-pam-trigger-event-cs" resname="Coding.display">
@@ -56,7 +56,7 @@
              <notes>
                <note id="n1">CodeSystem.concept.definition</note>
              </notes>
-        <source>Événement HL7 v2 ADT^A01 : admission d'un patient hospitalisé.</source>
+        <source>ADT^A01 : admission d'un patient hospitalisé.</source>
         <target></target>
       </trans-unit>
       <trans-unit id="CodeSystem-ihe-france-pam-trigger-event-cs" resname="CodeSystem.concept.display">
@@ -70,7 +70,7 @@
              <notes>
                <note id="n1">CodeSystem.concept.definition</note>
              </notes>
-        <source>Événement ADT^A02 : mutation du patient vers une autre unité.</source>
+        <source>ADT^A02 : mutation (changement d'unité fonctionnelle, de localisation ou de conditions de prise en charge).</source>
         <target></target>
       </trans-unit>
       <trans-unit id="CodeSystem-ihe-france-pam-trigger-event-cs" resname="CodeSystem.concept.display">
@@ -84,7 +84,7 @@
              <notes>
                <note id="n1">CodeSystem.concept.definition</note>
              </notes>
-        <source>Événement ADT^A03 : sortie du patient.</source>
+        <source>ADT^A03 : sortie définitive.</source>
         <target></target>
       </trans-unit>
       <trans-unit id="CodeSystem-ihe-france-pam-trigger-event-cs" resname="CodeSystem.concept.display">
@@ -98,7 +98,7 @@
              <notes>
                <note id="n1">CodeSystem.concept.definition</note>
              </notes>
-        <source>Événement ADT^A04 : enregistrement d'un patient externe.</source>
+        <source>ADT^A04 : enregistrement d'un patient externe, ou arrivée aux urgences.</source>
         <target></target>
       </trans-unit>
       <trans-unit id="CodeSystem-ihe-france-pam-trigger-event-cs" resname="CodeSystem.concept.display">
@@ -112,7 +112,7 @@
              <notes>
                <note id="n1">CodeSystem.concept.definition</note>
              </notes>
-        <source>Événement ADT^A05 : pré-admission du patient.</source>
+        <source>ADT^A05 : pré-admission.</source>
         <target></target>
       </trans-unit>
       <trans-unit id="CodeSystem-ihe-france-pam-trigger-event-cs" resname="CodeSystem.concept.display">
@@ -126,7 +126,7 @@
              <notes>
                <note id="n1">CodeSystem.concept.definition</note>
              </notes>
-        <source>Événement ADT^A06 : passage d'un patient externe en hospitalisation.</source>
+        <source>ADT^A06 : le patient externe ou aux urgences devient hospitalisé.</source>
         <target></target>
       </trans-unit>
       <trans-unit id="CodeSystem-ihe-france-pam-trigger-event-cs" resname="CodeSystem.concept.display">
@@ -140,7 +140,7 @@
              <notes>
                <note id="n1">CodeSystem.concept.definition</note>
              </notes>
-        <source>Événement ADT^A07 : passage d'un patient hospitalisé en externe.</source>
+        <source>ADT^A07 : le patient hospitalisé ou aux urgences devient externe.</source>
         <target></target>
       </trans-unit>
       <trans-unit id="CodeSystem-ihe-france-pam-trigger-event-cs" resname="CodeSystem.concept.display">
@@ -154,7 +154,7 @@
              <notes>
                <note id="n1">CodeSystem.concept.definition</note>
              </notes>
-        <source>Événement ADT^A11 : annulation d'une admission.</source>
+        <source>ADT^A11 : annulation d'une admission ou d'une activité externe.</source>
         <target></target>
       </trans-unit>
       <trans-unit id="CodeSystem-ihe-france-pam-trigger-event-cs" resname="CodeSystem.concept.display">
@@ -168,7 +168,7 @@
              <notes>
                <note id="n1">CodeSystem.concept.definition</note>
              </notes>
-        <source>Événement ADT^A12 : annulation d'une mutation.</source>
+        <source>ADT^A12 : annulation d'une mutation.</source>
         <target></target>
       </trans-unit>
       <trans-unit id="CodeSystem-ihe-france-pam-trigger-event-cs" resname="CodeSystem.concept.display">
@@ -182,7 +182,49 @@
              <notes>
                <note id="n1">CodeSystem.concept.definition</note>
              </notes>
-        <source>Événement ADT^A13 : annulation d'une sortie.</source>
+        <source>ADT^A13 : annulation d'une sortie.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-ihe-france-pam-trigger-event-cs" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Admission en attente</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-ihe-france-pam-trigger-event-cs" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>ADT^A14 : admission hospitalisée en attente.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-ihe-france-pam-trigger-event-cs" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Mutation en attente</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-ihe-france-pam-trigger-event-cs" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>ADT^A15 : mutation en attente.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-ihe-france-pam-trigger-event-cs" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Sortie en attente</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-ihe-france-pam-trigger-event-cs" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>ADT^A16 : sortie en attente (sortie imminente).</source>
         <target></target>
       </trans-unit>
       <trans-unit id="CodeSystem-ihe-france-pam-trigger-event-cs" resname="CodeSystem.concept.display">
@@ -196,7 +238,7 @@
              <notes>
                <note id="n1">CodeSystem.concept.definition</note>
              </notes>
-        <source>Événement ADT^A21 : début d'une absence provisoire.</source>
+        <source>ADT^A21 : absence provisoire (permission) ou transfert vers un plateau technique pour acte (moins de 48 heures).</source>
         <target></target>
       </trans-unit>
       <trans-unit id="CodeSystem-ihe-france-pam-trigger-event-cs" resname="CodeSystem.concept.display">
@@ -210,7 +252,49 @@
              <notes>
                <note id="n1">CodeSystem.concept.definition</note>
              </notes>
-        <source>Événement ADT^A22 : retour d'une absence provisoire.</source>
+        <source>ADT^A22 : retour d'absence provisoire ou de transfert vers un plateau technique.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-ihe-france-pam-trigger-event-cs" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Annulation sortie en attente</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-ihe-france-pam-trigger-event-cs" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>ADT^A25 : annulation d'une sortie en attente.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-ihe-france-pam-trigger-event-cs" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Annulation mutation en attente</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-ihe-france-pam-trigger-event-cs" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>ADT^A26 : annulation d'une mutation en attente.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-ihe-france-pam-trigger-event-cs" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Annulation admission en attente</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-ihe-france-pam-trigger-event-cs" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>ADT^A27 : annulation d'une admission en attente.</source>
         <target></target>
       </trans-unit>
       <trans-unit id="CodeSystem-ihe-france-pam-trigger-event-cs" resname="CodeSystem.concept.display">
@@ -224,7 +308,7 @@
              <notes>
                <note id="n1">CodeSystem.concept.definition</note>
              </notes>
-        <source>Événement ADT^A28 : création d'un patient.</source>
+        <source>ADT^A28 : création d'un nouveau patient (ITI-30).</source>
         <target></target>
       </trans-unit>
       <trans-unit id="CodeSystem-ihe-france-pam-trigger-event-cs" resname="CodeSystem.concept.display">
@@ -238,7 +322,7 @@
              <notes>
                <note id="n1">CodeSystem.concept.definition</note>
              </notes>
-        <source>Événement ADT^A31 : mise à jour des informations du patient.</source>
+        <source>ADT^A31 : mise à jour des informations du patient (ITI-30).</source>
         <target></target>
       </trans-unit>
       <trans-unit id="CodeSystem-ihe-france-pam-trigger-event-cs" resname="CodeSystem.concept.display">
@@ -252,7 +336,7 @@
              <notes>
                <note id="n1">CodeSystem.concept.definition</note>
              </notes>
-        <source>Événement ADT^A38 : annulation d'une pré-admission.</source>
+        <source>ADT^A38 : annulation d'une pré-admission.</source>
         <target></target>
       </trans-unit>
       <trans-unit id="CodeSystem-ihe-france-pam-trigger-event-cs" resname="CodeSystem.concept.display">
@@ -266,7 +350,7 @@
              <notes>
                <note id="n1">CodeSystem.concept.definition</note>
              </notes>
-        <source>Événement ADT^A40 : fusion de deux patients.</source>
+        <source>ADT^A40 : fusion de deux dossiers patients (ITI-30).</source>
         <target></target>
       </trans-unit>
       <trans-unit id="CodeSystem-ihe-france-pam-trigger-event-cs" resname="CodeSystem.concept.display">
@@ -280,7 +364,7 @@
              <notes>
                <note id="n1">CodeSystem.concept.definition</note>
              </notes>
-        <source>Événement ADT^A44 : réattribution d'un dossier à un autre patient.</source>
+        <source>ADT^A44 : réattribution d'un dossier administratif à un autre patient.</source>
         <target></target>
       </trans-unit>
       <trans-unit id="CodeSystem-ihe-france-pam-trigger-event-cs" resname="CodeSystem.concept.display">
@@ -294,7 +378,49 @@
              <notes>
                <note id="n1">CodeSystem.concept.definition</note>
              </notes>
-        <source>Événement ADT^A47 : mise à jour des identifiants du patient.</source>
+        <source>ADT^A47 : mise à jour d'un ou plusieurs identifiants du patient (ITI-30).</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-ihe-france-pam-trigger-event-cs" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Changement du numéro de dossier</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-ihe-france-pam-trigger-event-cs" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>ADT^A49 : changement du numéro de dossier administratif.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-ihe-france-pam-trigger-event-cs" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Annulation absence provisoire</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-ihe-france-pam-trigger-event-cs" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>ADT^A52 : annulation d'une absence provisoire.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-ihe-france-pam-trigger-event-cs" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Annulation retour d'absence provisoire</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-ihe-france-pam-trigger-event-cs" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>ADT^A53 : annulation d'un retour d'absence provisoire.</source>
         <target></target>
       </trans-unit>
       <trans-unit id="CodeSystem-ihe-france-pam-trigger-event-cs" resname="CodeSystem.concept.display">
@@ -308,7 +434,7 @@
              <notes>
                <note id="n1">CodeSystem.concept.definition</note>
              </notes>
-        <source>Événement ADT^A54 : changement du médecin responsable.</source>
+        <source>ADT^A54 : changement du médecin responsable.</source>
         <target></target>
       </trans-unit>
       <trans-unit id="CodeSystem-ihe-france-pam-trigger-event-cs" resname="CodeSystem.concept.display">
@@ -322,7 +448,7 @@
              <notes>
                <note id="n1">CodeSystem.concept.definition</note>
              </notes>
-        <source>Événement ADT^A55 : annulation du changement de médecin responsable.</source>
+        <source>ADT^A55 : annulation du changement de médecin responsable.</source>
         <target></target>
       </trans-unit>
       <trans-unit id="CodeSystem-ihe-france-pam-trigger-event-cs" resname="CodeSystem.concept.display">
@@ -336,7 +462,7 @@
              <notes>
                <note id="n1">CodeSystem.concept.definition</note>
              </notes>
-        <source>Événement national : correction d'un mouvement.</source>
+        <source>ADT^Z99 : correction d'un mouvement, courant ou historique. Seul événement pouvant modifier un mouvement.</source>
         <target></target>
       </trans-unit>
     </body>

@@ -21,7 +21,7 @@ msgstr ""
 
 # ValueSet.description
 #: ValueSet.description
-msgid "Jeu de valeurs initial pour les trigger events PAM France."
+msgid "Valeurs permises pour les événements déclencheurs PAM France."
 msgstr ""
 
 # Coding.display

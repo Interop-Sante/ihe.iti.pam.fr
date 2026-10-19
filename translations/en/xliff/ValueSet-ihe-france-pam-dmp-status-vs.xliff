@@ -35,7 +35,7 @@
              <notes>
                <note id="n1">ValueSet.description</note>
              </notes>
-        <source>Jeu de valeurs initial pour le statut DMP.</source>
+        <source>Valeurs permises pour le statut du DMP (ZFA-1).</source>
         <target></target>
       </trans-unit>
       <trans-unit id="ValueSet-ihe-france-pam-dmp-status-vs" resname="Coding.display">

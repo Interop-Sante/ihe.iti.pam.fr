@@ -35,7 +35,7 @@
              <notes>
                <note id="n1">ValueSet.description</note>
              </notes>
-        <source>Jeu de valeurs initial pour les types d'identifiants PAM France.</source>
+        <source>Valeurs permises pour les types d'identifiants.</source>
         <target></target>
       </trans-unit>
       <trans-unit id="ValueSet-ihe-france-pam-identifier-type-vs" resname="Coding.display">

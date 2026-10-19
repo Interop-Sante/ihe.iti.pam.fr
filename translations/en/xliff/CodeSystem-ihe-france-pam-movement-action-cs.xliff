@@ -35,7 +35,7 @@
              <notes>
                <note id="n1">CodeSystem.description</note>
              </notes>
-        <source>Jeu de codes local initial pour l'action sur un mouvement dérivée notamment de ZBE-4.</source>
+        <source>Action portant sur un mouvement (ZBE-4) ou sur un mode légal de soins (ZFS-5).</source>
         <target></target>
       </trans-unit>
       <trans-unit id="CodeSystem-ihe-france-pam-movement-action-cs" resname="Coding.display">
@@ -56,7 +56,7 @@
              <notes>
                <note id="n1">CodeSystem.concept.definition</note>
              </notes>
-        <source>Création d'un nouveau mouvement.</source>
+        <source>Insertion d'un nouveau mouvement en fin de séquence.</source>
         <target></target>
       </trans-unit>
       <trans-unit id="CodeSystem-ihe-france-pam-movement-action-cs" resname="CodeSystem.concept.display">
@@ -70,7 +70,7 @@
              <notes>
                <note id="n1">CodeSystem.concept.definition</note>
              </notes>
-        <source>Mise à jour d'un mouvement existant.</source>
+        <source>Correction du mouvement, courant ou historique (événement Z99).</source>
         <target></target>
       </trans-unit>
       <trans-unit id="CodeSystem-ihe-france-pam-movement-action-cs" resname="CodeSystem.concept.display">
@@ -84,7 +84,7 @@
              <notes>
                <note id="n1">CodeSystem.concept.definition</note>
              </notes>
-        <source>Annulation d'un mouvement existant.</source>
+        <source>Annulation d'un mouvement de la séquence.</source>
         <target></target>
       </trans-unit>
     </body>

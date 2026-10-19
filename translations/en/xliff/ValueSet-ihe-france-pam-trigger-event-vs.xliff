@@ -35,7 +35,7 @@
              <notes>
                <note id="n1">ValueSet.description</note>
              </notes>
-        <source>Jeu de valeurs initial pour les trigger events PAM France.</source>
+        <source>Valeurs permises pour les événements déclencheurs PAM France.</source>
         <target></target>
       </trans-unit>
       <trans-unit id="ValueSet-ihe-france-pam-trigger-event-vs" resname="Coding.display">

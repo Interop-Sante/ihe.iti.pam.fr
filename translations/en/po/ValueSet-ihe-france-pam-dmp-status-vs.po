@@ -21,7 +21,7 @@ msgstr ""
 
 # ValueSet.description
 #: ValueSet.description
-msgid "Jeu de valeurs initial pour le statut DMP."
+msgid "Valeurs permises pour le statut du DMP (ZFA-1)."
 msgstr ""
 
 # Coding.display

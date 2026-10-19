@@ -21,7 +21,7 @@ msgstr ""
 
 # ValueSet.description
 #: ValueSet.description
-msgid "Jeu de valeurs initial pour les types d'identifiants PAM France."
+msgid "Valeurs permises pour les types d'identifiants."
 msgstr ""
 
 # Coding.display

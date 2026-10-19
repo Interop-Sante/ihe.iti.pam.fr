@@ -30,7 +30,7 @@
     {
       "id" : "ValueSet.description",
       "context" : "ValueSet.description",
-      "source" : "Jeu de valeurs initial pour l'action sur un mouvement.",
+      "source" : "Valeurs permises pour l'action sur un mouvement.",
       "target" : null
     },
     {

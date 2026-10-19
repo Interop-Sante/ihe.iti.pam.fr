@@ -42,8 +42,8 @@
     {
       "id" : "StructureDefinition.element.Extension/definition",
       "context" : "Provides a complete explanation of the meaning of the data element for human readability.  For the case of elements derived from existing elements (e.g. constraints), the definition SHALL be consistent with the base definition, but convey the meaning of the element in the particular context of use of the resource. (Note: The text you are reading is specified in ElementDefinition.definition).",
-      "source" : "Unité fonctionnelle responsable des soins, issue notamment de ZBE-8.",
-      "target" : "Unité fonctionnelle responsable des soins, issue notamment de ZBE-8."
+      "source" : "Unité fonctionnelle responsable des soins (ZBE-8, type XON).",
+      "target" : "Unité fonctionnelle responsable des soins (ZBE-8, type XON)."
     }]
   }]
 }

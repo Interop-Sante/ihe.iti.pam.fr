@@ -31,6 +31,6 @@ msgstr "IHE France PAM Mother Birth Name"
 
 # Provides a complete explanation of the meaning of the data element for human readability.  For the case of elements derived from existing elements (e.g. constraints), the definition SHALL be consistent with the base definition, but convey the meaning of the element in the particular context of use of the resource. (Note: The text you are reading is specified in ElementDefinition.definition).
 #: StructureDefinition.element.Extension/definition
-msgid "Nom de naissance de la mère, issu notamment de PID-6."
-msgstr "Nom de naissance de la mère, issu notamment de PID-6."
+msgid "Nom de naissance de la mère (PID-6). Ce champ ne porte pas le nom de naissance du patient."
+msgstr "Nom de naissance de la mère (PID-6). Ce champ ne porte pas le nom de naissance du patient."
 

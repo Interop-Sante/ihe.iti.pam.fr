@@ -30,7 +30,7 @@
     {
       "id" : "ValueSet.description",
       "context" : "ValueSet.description",
-      "source" : "Jeu de valeurs initial pour le statut DMP.",
+      "source" : "Valeurs permises pour le statut du DMP (ZFA-1).",
       "target" : null
     },
     {

@@ -21,7 +21,7 @@ msgstr ""
 
 # CodeSystem.description
 #: CodeSystem.description
-msgid "Jeu de codes local initial pour l'action sur un mouvement dérivée notamment de ZBE-4."
+msgid "Action portant sur un mouvement (ZBE-4) ou sur un mode légal de soins (ZFS-5)."
 msgstr ""
 
 # Coding.display
@@ -36,7 +36,7 @@ msgstr ""
 
 # CodeSystem.concept.definition
 #: CodeSystem.concept.definition
-msgid "Création d'un nouveau mouvement."
+msgid "Insertion d'un nouveau mouvement en fin de séquence."
 msgstr ""
 
 # CodeSystem.concept.display
@@ -46,7 +46,7 @@ msgstr ""
 
 # CodeSystem.concept.definition
 #: CodeSystem.concept.definition
-msgid "Mise à jour d'un mouvement existant."
+msgid "Correction du mouvement, courant ou historique (événement Z99)."
 msgstr ""
 
 # CodeSystem.concept.display
@@ -56,6 +56,6 @@ msgstr ""
 
 # CodeSystem.concept.definition
 #: CodeSystem.concept.definition
-msgid "Annulation d'un mouvement existant."
+msgid "Annulation d'un mouvement de la séquence."
 msgstr ""
 

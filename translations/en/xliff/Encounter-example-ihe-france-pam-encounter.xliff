@@ -3,16 +3,16 @@
 <xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0">
   <file source-language="fr" target-language="en" id="Encounter-example-ihe-france-pam-encounter" original="Resource Encounter-example-ihe-france-pam-encounter" datatype="KEYVALUEJSON">
     <body>
-      <trans-unit id="Encounter-example-ihe-france-pam-encounter" resname="CodeableConcept.text">
+      <trans-unit id="Encounter-example-ihe-france-pam-encounter" resname="Coding.display">
              <notes>
-               <note id="n1">CodeableConcept.text</note>
+               <note id="n1">Coding.display</note>
              </notes>
-        <source>Admission hospitalisee</source>
+        <source>Trois responsabilités</source>
         <target></target>
       </trans-unit>
-      <trans-unit id="Encounter-example-ihe-france-pam-encounter" resname="CodeableConcept.text">
+      <trans-unit id="Encounter-example-ihe-france-pam-encounter" resname="Coding.display">
              <notes>
-               <note id="n1">CodeableConcept.text</note>
+               <note id="n1">Coding.display</note>
              </notes>
         <source>Accident domestique</source>
         <target></target>

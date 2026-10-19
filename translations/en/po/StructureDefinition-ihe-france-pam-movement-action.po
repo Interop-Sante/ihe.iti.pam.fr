@@ -31,6 +31,6 @@ msgstr "IHE France PAM Movement Action"
 
 # Provides a complete explanation of the meaning of the data element for human readability.  For the case of elements derived from existing elements (e.g. constraints), the definition SHALL be consistent with the base definition, but convey the meaning of the element in the particular context of use of the resource. (Note: The text you are reading is specified in ElementDefinition.definition).
 #: StructureDefinition.element.Extension/definition
-msgid "Code action portant sur le mouvement, dérivé notamment de ZBE-4."
-msgstr "Code action portant sur le mouvement, dérivé notamment de ZBE-4."
+msgid "Action portant sur le mouvement (ZBE-4) : insertion, annulation ou correction."
+msgstr "Action portant sur le mouvement (ZBE-4) : insertion, annulation ou correction."
 

@@ -34,7 +34,7 @@ Les extensions couvrent :
 
 ### Terminologies
 
-Les CodeSystems et ValueSets locaux couvrent le statut d'identité, le statut DMP, l'action sur un mouvement, la protection de la venue, les événements déclencheurs et les types d'identifiants.
+Les CodeSystems et ValueSets locaux reprennent les tables du document source : statut d'identité, contexte DMP, action et nature d'un mouvement, événements déclencheurs, types d'identifiants, classe de patient, justificatifs d'identité, modes légaux de soins, transport, modes PMSI, nature de l'accident et rôle d'un médecin. La liste figure dans [Mapping HL7 v2 vers FHIR](hl7v2-to-fhir.html).
 
 ### Niveaux de lecture
 
