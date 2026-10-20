@@ -1218,7 +1218,7 @@
     {
       "id" : "ImplementationGuide.definition.page.title",
       "context" : "ImplementationGuide.definition.page.title",
-      "source" : "Volume 1 - Vue d'ensemble",
+      "source" : "Introduction",
       "target" : null
     },
     {
@@ -1254,13 +1254,13 @@
     {
       "id" : "ImplementationGuide.definition.page.title",
       "context" : "ImplementationGuide.definition.page.title",
-      "source" : "Sécurité et considérations techniques",
+      "source" : "Exemples",
       "target" : null
     },
     {
       "id" : "ImplementationGuide.definition.page.title",
       "context" : "ImplementationGuide.definition.page.title",
-      "source" : "Exemples",
+      "source" : "Sécurité",
       "target" : null
     },
     {
@@ -1272,13 +1272,13 @@
     {
       "id" : "ImplementationGuide.definition.page.title",
       "context" : "ImplementationGuide.definition.page.title",
-      "source" : "Téléchargements du guide",
+      "source" : "Téléchargements et usages",
       "target" : null
     },
     {
       "id" : "ImplementationGuide.definition.page.title",
       "context" : "ImplementationGuide.definition.page.title",
-      "source" : "Informations de traduction",
+      "source" : "Informations sur la traduction",
       "target" : null
     }]
   }]

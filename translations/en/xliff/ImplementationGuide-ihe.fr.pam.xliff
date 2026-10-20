@@ -1422,7 +1422,7 @@
              <notes>
                <note id="n1">ImplementationGuide.definition.page.title</note>
              </notes>
-        <source>Volume 1 - Vue d'ensemble</source>
+        <source>Introduction</source>
         <target></target>
       </trans-unit>
       <trans-unit id="ImplementationGuide-ihe.fr.pam" resname="ImplementationGuide.definition.page.title">
@@ -1464,14 +1464,14 @@
              <notes>
                <note id="n1">ImplementationGuide.definition.page.title</note>
              </notes>
-        <source>Sécurité et considérations techniques</source>
+        <source>Exemples</source>
         <target></target>
       </trans-unit>
       <trans-unit id="ImplementationGuide-ihe.fr.pam" resname="ImplementationGuide.definition.page.title">
              <notes>
                <note id="n1">ImplementationGuide.definition.page.title</note>
              </notes>
-        <source>Exemples</source>
+        <source>Sécurité</source>
         <target></target>
       </trans-unit>
       <trans-unit id="ImplementationGuide-ihe.fr.pam" resname="ImplementationGuide.definition.page.title">
@@ -1485,14 +1485,14 @@
              <notes>
                <note id="n1">ImplementationGuide.definition.page.title</note>
              </notes>
-        <source>Téléchargements du guide</source>
+        <source>Téléchargements et usages</source>
         <target></target>
       </trans-unit>
       <trans-unit id="ImplementationGuide-ihe.fr.pam" resname="ImplementationGuide.definition.page.title">
              <notes>
                <note id="n1">ImplementationGuide.definition.page.title</note>
              </notes>
-        <source>Informations de traduction</source>
+        <source>Informations sur la traduction</source>
         <target></target>
       </trans-unit>
     </body>

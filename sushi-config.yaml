@@ -41,43 +41,45 @@ pages:
   index.md:
     title: Accueil
   volume-1.md:
-    title: Volume 1 - Vue d'ensemble
-  actors-transactions.md:
-    title: Acteurs et transactions
-  conformite.md:
-    title: Conformité
+    title: Introduction
+    actors-transactions.md:
+      title: Acteurs et transactions
+    conformite.md:
+      title: Conformité
   content-modules.md:
     title: Contenus et contraintes FHIR
-  hl7v2-datatypes.md:
-    title: Contraintes HL7 v2.5
-  hl7v2-to-fhir.md:
-    title: Mapping HL7 v2 vers FHIR
+    hl7v2-datatypes.md:
+      title: Contraintes HL7 v2.5
+    hl7v2-to-fhir.md:
+      title: Mapping HL7 v2 vers FHIR
+    examples.md:
+      title: Exemples
   security.md:
-    title: Sécurité et considérations techniques
-  examples.md:
-    title: Exemples
+    title: Sécurité
   publications.md:
     title: Publications antérieures
   downloads.md:
-    title: Téléchargements du guide
+    title: Téléchargements et usages
   translationinfo.md:
-    title: Informations de traduction
+    title: Informations sur la traduction
 
 menu:
   Accueil: index.html
-  Spécification:
-    Volume 1 - Vue d'ensemble: volume-1.html
+  Vol. 1 - Étude fonctionnelle:
+    Introduction: volume-1.html
     Acteurs et transactions: actors-transactions.html
     Conformité: conformite.html
+  Vol. 2 - Détail des transactions:
     Contenus et contraintes FHIR: content-modules.html
     Contraintes HL7 v2.5: hl7v2-datatypes.html
     Mapping HL7 v2 vers FHIR: hl7v2-to-fhir.html
-    Sécurité et considérations techniques: security.html
     Exemples: examples.html
-  Ressources de conformité: artifacts.html
-  Documentations:
-    Documentation des IGs: new-tab https://interop.esante.gouv.fr/ig/documentation/
-    Site d'Interop'Sante: new-tab https://www.interopsante.org/
-    Informations de traduction: translationinfo.html
+  Vol. 3 - Annexes:
+    Sécurité: security.html
     Publications antérieures: publications.html
-    Téléchargements: downloads.html
+    Téléchargements et usages: downloads.html
+    Informations sur la traduction: translationinfo.html
+    "Spécifications FHIR ": new-tab {{site.data.fhir.path}}index.html
+    "Site d'Interop'Santé ": new-tab https://www.interopsante.org/
+  Ressources de conformité: artifacts.html
+  Documentation: new-tab https://interop.esante.gouv.fr/ig/documentation/

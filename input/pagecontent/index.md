@@ -8,17 +8,18 @@ Ce guide d'implémentation décrit l'extension nationale française du profil IH
 
 ### Contenu
 
-| Page | Contenu |
-| --- | --- |
-| [Volume 1](volume-1.html) | cadrage, contextes d'utilisation et modèle de données minimal commun |
-| [Acteurs et transactions](actors-transactions.html) | transactions `ITI-30` et `ITI-31`, événements requis, règles d'identification et de mouvement |
-| [Conformité](conformite.html) | lecture des exigences et correspondance avec les artefacts FHIR |
-| [Contenus et contraintes FHIR](content-modules.html) | profils, extensions et terminologies publiés |
-| [Contraintes HL7 v2.5](hl7v2-datatypes.html) | types de données HL7 v2 contraints pour la France |
-| [Mapping HL7 v2 vers FHIR](hl7v2-to-fhir.html) | correspondance segments et champs vers ressources FHIR |
-| [Sécurité](security.html) | considérations de sécurité et de protection des données |
-| [Exemples](examples.html) | instances d'exemple |
-| [Publications antérieures](publications.html) | versions PDF précédentes |
+| Volume | Page | Contenu |
+| --- | --- | --- |
+| Vol. 1 - Étude fonctionnelle | [Introduction](volume-1.html) | cadrage, contextes d'utilisation et modèle de données minimal commun |
+| | [Acteurs et transactions](actors-transactions.html) | transactions `ITI-30` et `ITI-31`, événements requis, règles d'identification et de mouvement |
+| | [Conformité](conformite.html) | lecture des exigences et correspondance avec les artefacts FHIR |
+| Vol. 2 - Détail des transactions | [Contenus et contraintes FHIR](content-modules.html) | profils, extensions et terminologies publiés |
+| | [Contraintes HL7 v2.5](hl7v2-datatypes.html) | types de données HL7 v2 contraints pour la France |
+| | [Mapping HL7 v2 vers FHIR](hl7v2-to-fhir.html) | correspondance segments et champs vers ressources FHIR |
+| | [Exemples](examples.html) | instances d'exemple |
+| Vol. 3 - Annexes | [Sécurité](security.html) | considérations de sécurité et de protection des données |
+| | [Publications antérieures](publications.html) | versions PDF précédentes |
+| | [Téléchargements et usages](downloads.html) | artefacts et ressources téléchargeables |
 
 ### Documents de référence
 

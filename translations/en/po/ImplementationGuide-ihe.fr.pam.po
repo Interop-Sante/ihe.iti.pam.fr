@@ -1012,7 +1012,7 @@ msgstr ""
 
 # ImplementationGuide.definition.page.title
 #: ImplementationGuide.definition.page.title
-msgid "Volume 1 - Vue d'ensemble"
+msgid "Introduction"
 msgstr ""
 
 # ImplementationGuide.definition.page.title
@@ -1042,12 +1042,12 @@ msgstr ""
 
 # ImplementationGuide.definition.page.title
 #: ImplementationGuide.definition.page.title
-msgid "Sécurité et considérations techniques"
+msgid "Exemples"
 msgstr ""
 
 # ImplementationGuide.definition.page.title
 #: ImplementationGuide.definition.page.title
-msgid "Exemples"
+msgid "Sécurité"
 msgstr ""
 
 # ImplementationGuide.definition.page.title
@@ -1057,11 +1057,11 @@ msgstr ""
 
 # ImplementationGuide.definition.page.title
 #: ImplementationGuide.definition.page.title
-msgid "Téléchargements du guide"
+msgid "Téléchargements et usages"
 msgstr ""
 
 # ImplementationGuide.definition.page.title
 #: ImplementationGuide.definition.page.title
-msgid "Informations de traduction"
+msgid "Informations sur la traduction"
 msgstr ""
 
