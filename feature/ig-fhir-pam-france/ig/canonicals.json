@@ -1,0 +1,630 @@
+[{
+  "id" : "ihe-france-pam-accident-cs",
+  "type" : "CodeSystem",
+  "url" : "https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-accident-cs",
+  "version" : "0.1.0",
+  "name" : "IHEFrancePamAccidentCS"
+},
+{
+  "id" : "ihe-france-pam-admission-type-cs",
+  "type" : "CodeSystem",
+  "url" : "https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-admission-type-cs",
+  "version" : "0.1.0",
+  "name" : "IHEFrancePamAdmissionTypeCS"
+},
+{
+  "id" : "ihe-france-pam-admit-source-cs",
+  "type" : "CodeSystem",
+  "url" : "https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-admit-source-cs",
+  "version" : "0.1.0",
+  "name" : "IHEFrancePamAdmitSourceCS"
+},
+{
+  "id" : "ihe-france-pam-contact-role-cs",
+  "type" : "CodeSystem",
+  "url" : "https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-contact-role-cs",
+  "version" : "0.1.0",
+  "name" : "IHEFrancePamContactRoleCS"
+},
+{
+  "id" : "ihe-france-pam-discharge-disposition-cs",
+  "type" : "CodeSystem",
+  "url" : "https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-discharge-disposition-cs",
+  "version" : "0.1.0",
+  "name" : "IHEFrancePamDischargeDispositionCS"
+},
+{
+  "id" : "ihe-france-pam-dmp-consultation-cs",
+  "type" : "CodeSystem",
+  "url" : "https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-dmp-consultation-cs",
+  "version" : "0.1.0",
+  "name" : "IHEFrancePamDmpConsultationCS"
+},
+{
+  "id" : "ihe-france-pam-dmp-feeding-cs",
+  "type" : "CodeSystem",
+  "url" : "https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-dmp-feeding-cs",
+  "version" : "0.1.0",
+  "name" : "IHEFrancePamDmpFeedingCS"
+},
+{
+  "id" : "ihe-france-pam-dmp-status-cs",
+  "type" : "CodeSystem",
+  "url" : "https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-dmp-status-cs",
+  "version" : "0.1.0",
+  "name" : "IHEFrancePamDmpStatusCS"
+},
+{
+  "id" : "ihe-france-pam-emergency-passage-cs",
+  "type" : "CodeSystem",
+  "url" : "https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-emergency-passage-cs",
+  "version" : "0.1.0",
+  "name" : "IHEFrancePamEmergencyPassageCS"
+},
+{
+  "id" : "ihe-france-pam-identifier-type-cs",
+  "type" : "CodeSystem",
+  "url" : "https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-identifier-type-cs",
+  "version" : "0.1.0",
+  "name" : "IHEFrancePamIdentifierTypeCS"
+},
+{
+  "id" : "ihe-france-pam-identity-document-cs",
+  "type" : "CodeSystem",
+  "url" : "https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-identity-document-cs",
+  "version" : "0.1.0",
+  "name" : "IHEFrancePamIdentityDocumentCS"
+},
+{
+  "id" : "ihe-france-pam-identity-means-cs",
+  "type" : "CodeSystem",
+  "url" : "https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-identity-means-cs",
+  "version" : "0.1.0",
+  "name" : "IHEFrancePamIdentityMeansCS"
+},
+{
+  "id" : "ihe-france-pam-identity-status-cs",
+  "type" : "CodeSystem",
+  "url" : "https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-identity-status-cs",
+  "version" : "0.1.0",
+  "name" : "IHEFrancePamIdentityStatusCS"
+},
+{
+  "id" : "ihe-france-pam-legal-care-mode-cs",
+  "type" : "CodeSystem",
+  "url" : "https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-legal-care-mode-cs",
+  "version" : "0.1.0",
+  "name" : "IHEFrancePamLegalCareModeCS"
+},
+{
+  "id" : "ihe-france-pam-movement-action-cs",
+  "type" : "CodeSystem",
+  "url" : "https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-movement-action-cs",
+  "version" : "0.1.0",
+  "name" : "IHEFrancePamMovementActionCS"
+},
+{
+  "id" : "ihe-france-pam-movement-nature-cs",
+  "type" : "CodeSystem",
+  "url" : "https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-movement-nature-cs",
+  "version" : "0.1.0",
+  "name" : "IHEFrancePamMovementNatureCS"
+},
+{
+  "id" : "ihe-france-pam-patient-class-cs",
+  "type" : "CodeSystem",
+  "url" : "https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-patient-class-cs",
+  "version" : "0.1.0",
+  "name" : "IHEFrancePamPatientClassCS"
+},
+{
+  "id" : "ihe-france-pam-pmsi-entry-mode-cs",
+  "type" : "CodeSystem",
+  "url" : "https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-pmsi-entry-mode-cs",
+  "version" : "0.1.0",
+  "name" : "IHEFrancePamPmsiEntryModeCS"
+},
+{
+  "id" : "ihe-france-pam-pmsi-exit-mode-cs",
+  "type" : "CodeSystem",
+  "url" : "https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-pmsi-exit-mode-cs",
+  "version" : "0.1.0",
+  "name" : "IHEFrancePamPmsiExitModeCS"
+},
+{
+  "id" : "ihe-france-pam-professional-activity-cs",
+  "type" : "CodeSystem",
+  "url" : "https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-professional-activity-cs",
+  "version" : "0.1.0",
+  "name" : "IHEFrancePamProfessionalActivityCS"
+},
+{
+  "id" : "ihe-france-pam-professional-category-cs",
+  "type" : "CodeSystem",
+  "url" : "https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-professional-category-cs",
+  "version" : "0.1.0",
+  "name" : "IHEFrancePamProfessionalCategoryCS"
+},
+{
+  "id" : "ihe-france-pam-provider-role-cs",
+  "type" : "CodeSystem",
+  "url" : "https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-provider-role-cs",
+  "version" : "0.1.0",
+  "name" : "IHEFrancePamProviderRoleCS"
+},
+{
+  "id" : "ihe-france-pam-relationship-cs",
+  "type" : "CodeSystem",
+  "url" : "https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-relationship-cs",
+  "version" : "0.1.0",
+  "name" : "IHEFrancePamRelationshipCS"
+},
+{
+  "id" : "ihe-france-pam-rimp-cs",
+  "type" : "CodeSystem",
+  "url" : "https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-rimp-cs",
+  "version" : "0.1.0",
+  "name" : "IHEFrancePamRimpCS"
+},
+{
+  "id" : "ihe-france-pam-transport-care-cs",
+  "type" : "CodeSystem",
+  "url" : "https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-transport-care-cs",
+  "version" : "0.1.0",
+  "name" : "IHEFrancePamTransportCareCS"
+},
+{
+  "id" : "ihe-france-pam-transport-mode-cs",
+  "type" : "CodeSystem",
+  "url" : "https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-transport-mode-cs",
+  "version" : "0.1.0",
+  "name" : "IHEFrancePamTransportModeCS"
+},
+{
+  "id" : "ihe-france-pam-trigger-event-cs",
+  "type" : "CodeSystem",
+  "url" : "https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-trigger-event-cs",
+  "version" : "0.1.0",
+  "name" : "IHEFrancePamTriggerEventCS"
+},
+{
+  "id" : "ihe.fr.pam",
+  "type" : "ImplementationGuide",
+  "url" : "https://hl7.fr/ig/v2/pam/ImplementationGuide/ihe.fr.pam",
+  "version" : "0.1.0",
+  "name" : "IHEFrancePAM"
+},
+{
+  "id" : "ihe-france-pam-accident-date",
+  "type" : "StructureDefinition",
+  "url" : "https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-accident-date",
+  "version" : "0.1.0",
+  "name" : "IHEFrancePamAccidentDate"
+},
+{
+  "id" : "ihe-france-pam-accident-nature",
+  "type" : "StructureDefinition",
+  "url" : "https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-accident-nature",
+  "version" : "0.1.0",
+  "name" : "IHEFrancePamAccidentNature"
+},
+{
+  "id" : "ihe-france-pam-administrative-number",
+  "type" : "StructureDefinition",
+  "url" : "https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-administrative-number",
+  "version" : "0.1.0",
+  "name" : "IHEFrancePamAdministrativeNumber"
+},
+{
+  "id" : "ihe-france-pam-arrival-mode",
+  "type" : "StructureDefinition",
+  "url" : "https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-arrival-mode",
+  "version" : "0.1.0",
+  "name" : "IHEFrancePamArrivalMode"
+},
+{
+  "id" : "ihe-france-pam-birth-multiple-rank",
+  "type" : "StructureDefinition",
+  "url" : "https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-birth-multiple-rank",
+  "version" : "0.1.0",
+  "name" : "IHEFrancePamBirthMultipleRank"
+},
+{
+  "id" : "ihe-france-pam-care-responsibility-unit",
+  "type" : "StructureDefinition",
+  "url" : "https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-care-responsibility-unit",
+  "version" : "0.1.0",
+  "name" : "IHEFrancePamCareResponsibilityUnit"
+},
+{
+  "id" : "ihe-france-pam-contact-role",
+  "type" : "StructureDefinition",
+  "url" : "https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-contact-role",
+  "version" : "0.1.0",
+  "name" : "IHEFrancePamContactRole"
+},
+{
+  "id" : "ihe-france-pam-data-protection",
+  "type" : "StructureDefinition",
+  "url" : "https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-data-protection",
+  "version" : "0.1.0",
+  "name" : "IHEFrancePamDataProtection"
+},
+{
+  "id" : "ihe-france-pam-demographic-complement",
+  "type" : "StructureDefinition",
+  "url" : "https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-demographic-complement",
+  "version" : "0.1.0",
+  "name" : "IHEFrancePamDemographicComplement"
+},
+{
+  "id" : "ihe-france-pam-dmp-status",
+  "type" : "StructureDefinition",
+  "url" : "https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-dmp-status",
+  "version" : "0.1.0",
+  "name" : "IHEFrancePamDmpStatus"
+},
+{
+  "id" : "ihe-france-pam-encounter",
+  "type" : "StructureDefinition",
+  "url" : "https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-encounter",
+  "version" : "0.1.0",
+  "name" : "IHEFrancePamEncounter"
+},
+{
+  "id" : "ihe-france-pam-encounter-supplement",
+  "type" : "StructureDefinition",
+  "url" : "https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-encounter-supplement",
+  "version" : "0.1.0",
+  "name" : "IHEFrancePamEncounterSupplement"
+},
+{
+  "id" : "ihe-france-pam-historic-movement-indicator",
+  "type" : "StructureDefinition",
+  "url" : "https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-historic-movement-indicator",
+  "version" : "0.1.0",
+  "name" : "IHEFrancePamHistoricMovementIndicator"
+},
+{
+  "id" : "ihe-france-pam-identity-modifier-entity",
+  "type" : "StructureDefinition",
+  "url" : "https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-identity-modifier-entity",
+  "version" : "0.1.0",
+  "name" : "IHEFrancePamIdentityModifierEntity"
+},
+{
+  "id" : "ihe-france-pam-identity-status",
+  "type" : "StructureDefinition",
+  "url" : "https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-identity-status",
+  "version" : "0.1.0",
+  "name" : "IHEFrancePamIdentityStatus"
+},
+{
+  "id" : "ihe-france-pam-location",
+  "type" : "StructureDefinition",
+  "url" : "https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-location",
+  "version" : "0.1.0",
+  "name" : "IHEFrancePamLocation"
+},
+{
+  "id" : "ihe-france-pam-medical-responsibility-unit",
+  "type" : "StructureDefinition",
+  "url" : "https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-medical-responsibility-unit",
+  "version" : "0.1.0",
+  "name" : "IHEFrancePamMedicalResponsibilityUnit"
+},
+{
+  "id" : "ihe-france-pam-mother-birth-name",
+  "type" : "StructureDefinition",
+  "url" : "https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-mother-birth-name",
+  "version" : "0.1.0",
+  "name" : "IHEFrancePamMotherBirthName"
+},
+{
+  "id" : "ihe-france-pam-movement-action",
+  "type" : "StructureDefinition",
+  "url" : "https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-movement-action",
+  "version" : "0.1.0",
+  "name" : "IHEFrancePamMovementAction"
+},
+{
+  "id" : "ihe-france-pam-movement-identifier",
+  "type" : "StructureDefinition",
+  "url" : "https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-movement-identifier",
+  "version" : "0.1.0",
+  "name" : "IHEFrancePamMovementIdentifier"
+},
+{
+  "id" : "ihe-france-pam-movement-nature",
+  "type" : "StructureDefinition",
+  "url" : "https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-movement-nature",
+  "version" : "0.1.0",
+  "name" : "IHEFrancePamMovementNature"
+},
+{
+  "id" : "ihe-france-pam-nationality",
+  "type" : "StructureDefinition",
+  "url" : "https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-nationality",
+  "version" : "0.1.0",
+  "name" : "IHEFrancePamNationality"
+},
+{
+  "id" : "ihe-france-pam-organization",
+  "type" : "StructureDefinition",
+  "url" : "https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-organization",
+  "version" : "0.1.0",
+  "name" : "IHEFrancePamOrganization"
+},
+{
+  "id" : "ihe-france-pam-origin-event-code",
+  "type" : "StructureDefinition",
+  "url" : "https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-origin-event-code",
+  "version" : "0.1.0",
+  "name" : "IHEFrancePamOriginEventCode"
+},
+{
+  "id" : "ihe-france-pam-patient",
+  "type" : "StructureDefinition",
+  "url" : "https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-patient",
+  "version" : "0.1.0",
+  "name" : "IHEFrancePamPatient"
+},
+{
+  "id" : "ihe-france-pam-patient-class",
+  "type" : "StructureDefinition",
+  "url" : "https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-patient-class",
+  "version" : "0.1.0",
+  "name" : "IHEFrancePamPatientClass"
+},
+{
+  "id" : "ihe-france-pam-planned-end",
+  "type" : "StructureDefinition",
+  "url" : "https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-planned-end",
+  "version" : "0.1.0",
+  "name" : "IHEFrancePamPlannedEnd"
+},
+{
+  "id" : "ihe-france-pam-planned-start",
+  "type" : "StructureDefinition",
+  "url" : "https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-planned-start",
+  "version" : "0.1.0",
+  "name" : "IHEFrancePamPlannedStart"
+},
+{
+  "id" : "ihe-france-pam-pmsi-movement",
+  "type" : "StructureDefinition",
+  "url" : "https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-pmsi-movement",
+  "version" : "0.1.0",
+  "name" : "IHEFrancePamPmsiMovement"
+},
+{
+  "id" : "ihe-france-pam-practitioner",
+  "type" : "StructureDefinition",
+  "url" : "https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-practitioner",
+  "version" : "0.1.0",
+  "name" : "IHEFrancePamPractitioner"
+},
+{
+  "id" : "ihe-france-pam-practitioner-role",
+  "type" : "StructureDefinition",
+  "url" : "https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-practitioner-role",
+  "version" : "0.1.0",
+  "name" : "IHEFrancePamPractitionerRole"
+},
+{
+  "id" : "ihe-france-pam-professional-situation",
+  "type" : "StructureDefinition",
+  "url" : "https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-professional-situation",
+  "version" : "0.1.0",
+  "name" : "IHEFrancePamProfessionalSituation"
+},
+{
+  "id" : "ihe-france-pam-psychiatric-legal-status",
+  "type" : "StructureDefinition",
+  "url" : "https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-psychiatric-legal-status",
+  "version" : "0.1.0",
+  "name" : "IHEFrancePamPsychiatricLegalStatus"
+},
+{
+  "id" : "ihe-france-pam-related-person",
+  "type" : "StructureDefinition",
+  "url" : "https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-related-person",
+  "version" : "0.1.0",
+  "name" : "IHEFrancePamRelatedPerson"
+},
+{
+  "id" : "ihe-france-pam-venue-protection",
+  "type" : "StructureDefinition",
+  "url" : "https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-venue-protection",
+  "version" : "0.1.0",
+  "name" : "IHEFrancePamVenueProtection"
+},
+{
+  "id" : "ihe-france-pam-accident-vs",
+  "type" : "ValueSet",
+  "url" : "https://hl7.fr/ig/v2/pam/ValueSet/ihe-france-pam-accident-vs",
+  "version" : "0.1.0",
+  "name" : "IHEFrancePamAccidentVS"
+},
+{
+  "id" : "ihe-france-pam-admission-type-vs",
+  "type" : "ValueSet",
+  "url" : "https://hl7.fr/ig/v2/pam/ValueSet/ihe-france-pam-admission-type-vs",
+  "version" : "0.1.0",
+  "name" : "IHEFrancePamAdmissionTypeVS"
+},
+{
+  "id" : "ihe-france-pam-admit-source-vs",
+  "type" : "ValueSet",
+  "url" : "https://hl7.fr/ig/v2/pam/ValueSet/ihe-france-pam-admit-source-vs",
+  "version" : "0.1.0",
+  "name" : "IHEFrancePamAdmitSourceVS"
+},
+{
+  "id" : "ihe-france-pam-contact-role-vs",
+  "type" : "ValueSet",
+  "url" : "https://hl7.fr/ig/v2/pam/ValueSet/ihe-france-pam-contact-role-vs",
+  "version" : "0.1.0",
+  "name" : "IHEFrancePamContactRoleVS"
+},
+{
+  "id" : "ihe-france-pam-discharge-disposition-vs",
+  "type" : "ValueSet",
+  "url" : "https://hl7.fr/ig/v2/pam/ValueSet/ihe-france-pam-discharge-disposition-vs",
+  "version" : "0.1.0",
+  "name" : "IHEFrancePamDischargeDispositionVS"
+},
+{
+  "id" : "ihe-france-pam-dmp-consultation-vs",
+  "type" : "ValueSet",
+  "url" : "https://hl7.fr/ig/v2/pam/ValueSet/ihe-france-pam-dmp-consultation-vs",
+  "version" : "0.1.0",
+  "name" : "IHEFrancePamDmpConsultationVS"
+},
+{
+  "id" : "ihe-france-pam-dmp-feeding-vs",
+  "type" : "ValueSet",
+  "url" : "https://hl7.fr/ig/v2/pam/ValueSet/ihe-france-pam-dmp-feeding-vs",
+  "version" : "0.1.0",
+  "name" : "IHEFrancePamDmpFeedingVS"
+},
+{
+  "id" : "ihe-france-pam-dmp-status-vs",
+  "type" : "ValueSet",
+  "url" : "https://hl7.fr/ig/v2/pam/ValueSet/ihe-france-pam-dmp-status-vs",
+  "version" : "0.1.0",
+  "name" : "IHEFrancePamDmpStatusVS"
+},
+{
+  "id" : "ihe-france-pam-emergency-passage-vs",
+  "type" : "ValueSet",
+  "url" : "https://hl7.fr/ig/v2/pam/ValueSet/ihe-france-pam-emergency-passage-vs",
+  "version" : "0.1.0",
+  "name" : "IHEFrancePamEmergencyPassageVS"
+},
+{
+  "id" : "ihe-france-pam-identifier-type-vs",
+  "type" : "ValueSet",
+  "url" : "https://hl7.fr/ig/v2/pam/ValueSet/ihe-france-pam-identifier-type-vs",
+  "version" : "0.1.0",
+  "name" : "IHEFrancePamIdentifierTypeVS"
+},
+{
+  "id" : "ihe-france-pam-identity-document-vs",
+  "type" : "ValueSet",
+  "url" : "https://hl7.fr/ig/v2/pam/ValueSet/ihe-france-pam-identity-document-vs",
+  "version" : "0.1.0",
+  "name" : "IHEFrancePamIdentityDocumentVS"
+},
+{
+  "id" : "ihe-france-pam-identity-means-vs",
+  "type" : "ValueSet",
+  "url" : "https://hl7.fr/ig/v2/pam/ValueSet/ihe-france-pam-identity-means-vs",
+  "version" : "0.1.0",
+  "name" : "IHEFrancePamIdentityMeansVS"
+},
+{
+  "id" : "ihe-france-pam-identity-status-vs",
+  "type" : "ValueSet",
+  "url" : "https://hl7.fr/ig/v2/pam/ValueSet/ihe-france-pam-identity-status-vs",
+  "version" : "0.1.0",
+  "name" : "IHEFrancePamIdentityStatusVS"
+},
+{
+  "id" : "ihe-france-pam-legal-care-mode-vs",
+  "type" : "ValueSet",
+  "url" : "https://hl7.fr/ig/v2/pam/ValueSet/ihe-france-pam-legal-care-mode-vs",
+  "version" : "0.1.0",
+  "name" : "IHEFrancePamLegalCareModeVS"
+},
+{
+  "id" : "ihe-france-pam-movement-action-vs",
+  "type" : "ValueSet",
+  "url" : "https://hl7.fr/ig/v2/pam/ValueSet/ihe-france-pam-movement-action-vs",
+  "version" : "0.1.0",
+  "name" : "IHEFrancePamMovementActionVS"
+},
+{
+  "id" : "ihe-france-pam-movement-nature-vs",
+  "type" : "ValueSet",
+  "url" : "https://hl7.fr/ig/v2/pam/ValueSet/ihe-france-pam-movement-nature-vs",
+  "version" : "0.1.0",
+  "name" : "IHEFrancePamMovementNatureVS"
+},
+{
+  "id" : "ihe-france-pam-patient-class-vs",
+  "type" : "ValueSet",
+  "url" : "https://hl7.fr/ig/v2/pam/ValueSet/ihe-france-pam-patient-class-vs",
+  "version" : "0.1.0",
+  "name" : "IHEFrancePamPatientClassVS"
+},
+{
+  "id" : "ihe-france-pam-pmsi-entry-mode-vs",
+  "type" : "ValueSet",
+  "url" : "https://hl7.fr/ig/v2/pam/ValueSet/ihe-france-pam-pmsi-entry-mode-vs",
+  "version" : "0.1.0",
+  "name" : "IHEFrancePamPmsiEntryModeVS"
+},
+{
+  "id" : "ihe-france-pam-pmsi-exit-mode-vs",
+  "type" : "ValueSet",
+  "url" : "https://hl7.fr/ig/v2/pam/ValueSet/ihe-france-pam-pmsi-exit-mode-vs",
+  "version" : "0.1.0",
+  "name" : "IHEFrancePamPmsiExitModeVS"
+},
+{
+  "id" : "ihe-france-pam-professional-activity-vs",
+  "type" : "ValueSet",
+  "url" : "https://hl7.fr/ig/v2/pam/ValueSet/ihe-france-pam-professional-activity-vs",
+  "version" : "0.1.0",
+  "name" : "IHEFrancePamProfessionalActivityVS"
+},
+{
+  "id" : "ihe-france-pam-professional-category-vs",
+  "type" : "ValueSet",
+  "url" : "https://hl7.fr/ig/v2/pam/ValueSet/ihe-france-pam-professional-category-vs",
+  "version" : "0.1.0",
+  "name" : "IHEFrancePamProfessionalCategoryVS"
+},
+{
+  "id" : "ihe-france-pam-provider-role-vs",
+  "type" : "ValueSet",
+  "url" : "https://hl7.fr/ig/v2/pam/ValueSet/ihe-france-pam-provider-role-vs",
+  "version" : "0.1.0",
+  "name" : "IHEFrancePamProviderRoleVS"
+},
+{
+  "id" : "ihe-france-pam-relationship-vs",
+  "type" : "ValueSet",
+  "url" : "https://hl7.fr/ig/v2/pam/ValueSet/ihe-france-pam-relationship-vs",
+  "version" : "0.1.0",
+  "name" : "IHEFrancePamRelationshipVS"
+},
+{
+  "id" : "ihe-france-pam-rimp-vs",
+  "type" : "ValueSet",
+  "url" : "https://hl7.fr/ig/v2/pam/ValueSet/ihe-france-pam-rimp-vs",
+  "version" : "0.1.0",
+  "name" : "IHEFrancePamRimpVS"
+},
+{
+  "id" : "ihe-france-pam-transport-care-vs",
+  "type" : "ValueSet",
+  "url" : "https://hl7.fr/ig/v2/pam/ValueSet/ihe-france-pam-transport-care-vs",
+  "version" : "0.1.0",
+  "name" : "IHEFrancePamTransportCareVS"
+},
+{
+  "id" : "ihe-france-pam-transport-mode-vs",
+  "type" : "ValueSet",
+  "url" : "https://hl7.fr/ig/v2/pam/ValueSet/ihe-france-pam-transport-mode-vs",
+  "version" : "0.1.0",
+  "name" : "IHEFrancePamTransportModeVS"
+},
+{
+  "id" : "ihe-france-pam-trigger-event-vs",
+  "type" : "ValueSet",
+  "url" : "https://hl7.fr/ig/v2/pam/ValueSet/ihe-france-pam-trigger-event-vs",
+  "version" : "0.1.0",
+  "name" : "IHEFrancePamTriggerEventVS"
+}]

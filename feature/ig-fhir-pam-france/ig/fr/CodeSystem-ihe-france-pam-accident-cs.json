@@ -1,0 +1,88 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "ihe-france-pam-accident-cs",
+  "language" : "fr",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xml:lang=\"fr\" lang=\"fr\"><hr/><p><b>French</b></p><hr/><p class=\"res-header-id\"><b>Narratif généré : CodeSystem ihe-france-pam-accident-cs</b></p><a name=\"ihe-france-pam-accident-cs\"> </a><a name=\"hcihe-france-pam-accident-cs\"> </a><p>This case-sensitive code system <code>https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-accident-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Affichage</b></td><td><b>Définition</b></td></tr><tr><td style=\"white-space:nowrap\">P<a name=\"ihe-france-pam-accident-cs-P\"> </a></td><td>Accident voie publique</td><td>Accident de la voie publique.</td></tr><tr><td style=\"white-space:nowrap\">T<a name=\"ihe-france-pam-accident-cs-T\"> </a></td><td>Accident du travail</td><td>Accident du travail.</td></tr><tr><td style=\"white-space:nowrap\">D<a name=\"ihe-france-pam-accident-cs-D\"> </a></td><td>Accident domestique</td><td>Accident domestique.</td></tr><tr><td style=\"white-space:nowrap\">S<a name=\"ihe-france-pam-accident-cs-S\"> </a></td><td>Accident de sport</td><td>Accident de sport.</td></tr><tr><td style=\"white-space:nowrap\">J<a name=\"ihe-france-pam-accident-cs-J\"> </a></td><td>Accident de trajet</td><td>Accident de trajet.</td></tr><tr><td style=\"white-space:nowrap\">C<a name=\"ihe-france-pam-accident-cs-C\"> </a></td><td>Coups et blessures</td><td>Coups et blessures.</td></tr><tr><td style=\"white-space:nowrap\">L<a name=\"ihe-france-pam-accident-cs-L\"> </a></td><td>Accident scolaire</td><td>Accident scolaire.</td></tr><tr><td style=\"white-space:nowrap\">B<a name=\"ihe-france-pam-accident-cs-B\"> </a></td><td>Plan blanc</td><td>Plan blanc.</td></tr><tr><td style=\"white-space:nowrap\">U<a name=\"ihe-france-pam-accident-cs-U\"> </a></td><td>Nature d'accident inconnue</td><td>Nature de l'accident inconnue.</td></tr></table></div>"
+  },
+  "url" : "https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-accident-cs",
+  "version" : "0.1.0",
+  "name" : "IHEFrancePamAccidentCS",
+  "title" : "IHE France PAM Accident Code CodeSystem",
+  "status" : "draft",
+  "experimental" : false,
+  "date" : "2026-10-20T11:55:56+00:00",
+  "publisher" : "IHE France",
+  "contact" : [{
+    "name" : "IHE France",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://www.ihe-france.org"
+    }]
+  },
+  {
+    "name" : "IHE France",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://www.ihe-france.org",
+      "use" : "work"
+    }]
+  }],
+  "description" : "Nature de l'accident (ACC-2, table HL7 0050).",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR",
+      "display" : "France (la)"
+    }]
+  }],
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 9,
+  "concept" : [{
+    "code" : "P",
+    "display" : "Accident voie publique",
+    "definition" : "Accident de la voie publique."
+  },
+  {
+    "code" : "T",
+    "display" : "Accident du travail",
+    "definition" : "Accident du travail."
+  },
+  {
+    "code" : "D",
+    "display" : "Accident domestique",
+    "definition" : "Accident domestique."
+  },
+  {
+    "code" : "S",
+    "display" : "Accident de sport",
+    "definition" : "Accident de sport."
+  },
+  {
+    "code" : "J",
+    "display" : "Accident de trajet",
+    "definition" : "Accident de trajet."
+  },
+  {
+    "code" : "C",
+    "display" : "Coups et blessures",
+    "definition" : "Coups et blessures."
+  },
+  {
+    "code" : "L",
+    "display" : "Accident scolaire",
+    "definition" : "Accident scolaire."
+  },
+  {
+    "code" : "B",
+    "display" : "Plan blanc",
+    "definition" : "Plan blanc."
+  },
+  {
+    "code" : "U",
+    "display" : "Nature d'accident inconnue",
+    "definition" : "Nature de l'accident inconnue."
+  }]
+}

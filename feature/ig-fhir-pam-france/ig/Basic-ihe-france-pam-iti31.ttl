@@ -1,0 +1,25 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://hl7.fr/ig/v2/pam/Basic/ihe-france-pam-iti31> a fhir:Basic ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:Resource.id [ fhir:value "ihe-france-pam-iti31"] ;
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ] ;
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div xml:lang=\"fr\" lang=\"fr\"><hr/><p><b>French</b></p><hr/><p class=\"res-header-id\"><b>Narratif généré : Basique ihe-france-pam-iti31</b></p><a name=\"ihe-france-pam-iti31\"> </a><a name=\"hcihe-france-pam-iti31\"> </a><p><b>code</b>: <span title=\"Codes :\">ITI-31</span></p></div><div xml:lang=\"en\" lang=\"en\"><hr/><p><b>English</b></p><hr/><p class=\"res-header-id\"><b>Generated Narrative: Basic ihe-france-pam-iti31</b></p><a name=\"en-ihe-france-pam-iti31\"> </a><a name=\"en-hcihe-france-pam-iti31\"> </a><p><b>code</b>: <span title=\"Codes:\">ITI-31</span></p></div></div>"
+  ] ;
+  fhir:Basic.code [
+     fhir:CodeableConcept.text [ fhir:value "ITI-31" ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://hl7.fr/ig/v2/pam/Basic/ihe-france-pam-iti31.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

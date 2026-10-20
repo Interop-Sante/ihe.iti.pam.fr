@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="ihe-france-pam-professional-category-cs"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><div xml:lang="fr" lang="fr"><hr/><p><b>French</b></p><hr/><p class="res-header-id"><b>Narratif généré : CodeSystem ihe-france-pam-professional-category-cs</b></p><a name="ihe-france-pam-professional-category-cs"> </a><a name="hcihe-france-pam-professional-category-cs"> </a><p>This case-sensitive code system <code>https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-professional-category-cs</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Affichage</b></td><td><b>Définition</b></td></tr><tr><td style="white-space:nowrap">11<a name="ihe-france-pam-professional-category-cs-11"> </a></td><td>Agriculteurs sur petite exploitation</td><td>Agriculteurs sur petite exploitation.</td></tr><tr><td style="white-space:nowrap">12<a name="ihe-france-pam-professional-category-cs-12"> </a></td><td>Agriculteurs sur moyenne exploitation</td><td>Agriculteurs sur moyenne exploitation.</td></tr><tr><td style="white-space:nowrap">13<a name="ihe-france-pam-professional-category-cs-13"> </a></td><td>Agriculteurs sur grande exploitation</td><td>Agriculteurs sur grande exploitation.</td></tr><tr><td style="white-space:nowrap">21<a name="ihe-france-pam-professional-category-cs-21"> </a></td><td>Artisans</td><td>Artisans.</td></tr><tr><td style="white-space:nowrap">22<a name="ihe-france-pam-professional-category-cs-22"> </a></td><td>Commerçants et assimilés</td><td>Commerçants et assimilés.</td></tr><tr><td style="white-space:nowrap">23<a name="ihe-france-pam-professional-category-cs-23"> </a></td><td>Chefs d'entreprise de 10 salariés ou plus</td><td>Chefs d'entreprise de 10 salariés ou plus.</td></tr><tr><td style="white-space:nowrap">31<a name="ihe-france-pam-professional-category-cs-31"> </a></td><td>Professions libérales</td><td>Professions libérales.</td></tr><tr><td style="white-space:nowrap">33<a name="ihe-france-pam-professional-category-cs-33"> </a></td><td>Cadres de la fonction publique</td><td>Cadres de la fonction publique.</td></tr><tr><td style="white-space:nowrap">34<a name="ihe-france-pam-professional-category-cs-34"> </a></td><td>Professeurs, professions scientifiques</td><td>Professeurs, professions scientifiques.</td></tr><tr><td style="white-space:nowrap">35<a name="ihe-france-pam-professional-category-cs-35"> </a></td><td>Professions de l'information, des arts et des spectacles</td><td>Professions de l'information, des arts et des spectacles.</td></tr><tr><td style="white-space:nowrap">37<a name="ihe-france-pam-professional-category-cs-37"> </a></td><td>Cadres administratifs et commerciaux d'entreprise</td><td>Cadres administratifs et commerciaux d'entreprise.</td></tr><tr><td style="white-space:nowrap">38<a name="ihe-france-pam-professional-category-cs-38"> </a></td><td>Ingénieurs et cadres techniques d'entreprise</td><td>Ingénieurs et cadres techniques d'entreprise.</td></tr><tr><td style="white-space:nowrap">42<a name="ihe-france-pam-professional-category-cs-42"> </a></td><td>Professeurs des écoles, instituteurs et assimilés</td><td>Professeurs des écoles, instituteurs et assimilés.</td></tr><tr><td style="white-space:nowrap">43<a name="ihe-france-pam-professional-category-cs-43"> </a></td><td>Professions intermédiaires de la santé et du travail social</td><td>Professions intermédiaires de la santé et du travail social.</td></tr><tr><td style="white-space:nowrap">44<a name="ihe-france-pam-professional-category-cs-44"> </a></td><td>Clergé, religieux</td><td>Clergé, religieux.</td></tr><tr><td style="white-space:nowrap">45<a name="ihe-france-pam-professional-category-cs-45"> </a></td><td>Professions intermédiaires administratives de la fonction publique</td><td>Professions intermédiaires administratives de la fonction publique.</td></tr><tr><td style="white-space:nowrap">46<a name="ihe-france-pam-professional-category-cs-46"> </a></td><td>Professions intermédiaires administratives et commerciales des entreprises</td><td>Professions intermédiaires administratives et commerciales des entreprises.</td></tr><tr><td style="white-space:nowrap">47<a name="ihe-france-pam-professional-category-cs-47"> </a></td><td>Techniciens</td><td>Techniciens.</td></tr><tr><td style="white-space:nowrap">48<a name="ihe-france-pam-professional-category-cs-48"> </a></td><td>Contremaîtres, agents de maîtrise</td><td>Contremaîtres, agents de maîtrise.</td></tr><tr><td style="white-space:nowrap">52<a name="ihe-france-pam-professional-category-cs-52"> </a></td><td>Employés civils et agents de service de la fonction publique</td><td>Employés civils et agents de service de la fonction publique.</td></tr><tr><td style="white-space:nowrap">53<a name="ihe-france-pam-professional-category-cs-53"> </a></td><td>Policiers et militaires</td><td>Policiers et militaires.</td></tr><tr><td style="white-space:nowrap">54<a name="ihe-france-pam-professional-category-cs-54"> </a></td><td>Employés administratifs d'entreprise</td><td>Employés administratifs d'entreprise.</td></tr><tr><td style="white-space:nowrap">55<a name="ihe-france-pam-professional-category-cs-55"> </a></td><td>Employés de commerce</td><td>Employés de commerce.</td></tr><tr><td style="white-space:nowrap">56<a name="ihe-france-pam-professional-category-cs-56"> </a></td><td>Personnels des services directs aux particuliers</td><td>Personnels des services directs aux particuliers.</td></tr><tr><td style="white-space:nowrap">62<a name="ihe-france-pam-professional-category-cs-62"> </a></td><td>Ouvriers qualifiés de type industriel</td><td>Ouvriers qualifiés de type industriel.</td></tr><tr><td style="white-space:nowrap">63<a name="ihe-france-pam-professional-category-cs-63"> </a></td><td>Ouvriers qualifiés de type artisanal</td><td>Ouvriers qualifiés de type artisanal.</td></tr><tr><td style="white-space:nowrap">64<a name="ihe-france-pam-professional-category-cs-64"> </a></td><td>Chauffeurs</td><td>Chauffeurs.</td></tr><tr><td style="white-space:nowrap">65<a name="ihe-france-pam-professional-category-cs-65"> </a></td><td>Ouvriers qualifiés de la manutention, du magasinage et du transport</td><td>Ouvriers qualifiés de la manutention, du magasinage et du transport.</td></tr><tr><td style="white-space:nowrap">67<a name="ihe-france-pam-professional-category-cs-67"> </a></td><td>Ouvriers non qualifiés de type industriel</td><td>Ouvriers non qualifiés de type industriel.</td></tr><tr><td style="white-space:nowrap">68<a name="ihe-france-pam-professional-category-cs-68"> </a></td><td>Ouvriers non qualifiés de type artisanal</td><td>Ouvriers non qualifiés de type artisanal.</td></tr><tr><td style="white-space:nowrap">69<a name="ihe-france-pam-professional-category-cs-69"> </a></td><td>Ouvriers agricoles</td><td>Ouvriers agricoles.</td></tr><tr><td style="white-space:nowrap">71<a name="ihe-france-pam-professional-category-cs-71"> </a></td><td>Anciens agriculteurs exploitants</td><td>Anciens agriculteurs exploitants.</td></tr><tr><td style="white-space:nowrap">72<a name="ihe-france-pam-professional-category-cs-72"> </a></td><td>Anciens artisans, commerçants, chefs d'entreprise</td><td>Anciens artisans, commerçants, chefs d'entreprise.</td></tr><tr><td style="white-space:nowrap">74<a name="ihe-france-pam-professional-category-cs-74"> </a></td><td>Anciens cadres</td><td>Anciens cadres.</td></tr><tr><td style="white-space:nowrap">75<a name="ihe-france-pam-professional-category-cs-75"> </a></td><td>Anciennes professions intermédiaires</td><td>Anciennes professions intermédiaires.</td></tr><tr><td style="white-space:nowrap">77<a name="ihe-france-pam-professional-category-cs-77"> </a></td><td>Anciens employés</td><td>Anciens employés.</td></tr><tr><td style="white-space:nowrap">78<a name="ihe-france-pam-professional-category-cs-78"> </a></td><td>Anciens ouvriers</td><td>Anciens ouvriers.</td></tr><tr><td style="white-space:nowrap">81<a name="ihe-france-pam-professional-category-cs-81"> </a></td><td>Chômeurs n'ayant jamais travaillé</td><td>Chômeurs n'ayant jamais travaillé.</td></tr><tr><td style="white-space:nowrap">83<a name="ihe-france-pam-professional-category-cs-83"> </a></td><td>Militaires du contingent</td><td>Militaires du contingent.</td></tr><tr><td style="white-space:nowrap">84<a name="ihe-france-pam-professional-category-cs-84"> </a></td><td>Élèves, étudiants</td><td>Élèves, étudiants.</td></tr><tr><td style="white-space:nowrap">85<a name="ihe-france-pam-professional-category-cs-85"> </a></td><td>Personnes diverses sans activité professionnelle de moins de 60 ans (sauf retraités)</td><td>Personnes diverses sans activité professionnelle de moins de 60 ans (sauf retraités).</td></tr><tr><td style="white-space:nowrap">86<a name="ihe-france-pam-professional-category-cs-86"> </a></td><td>Personnes diverses sans activité professionnelle de 60 ans et plus (sauf retraités)</td><td>Personnes diverses sans activité professionnelle de 60 ans et plus (sauf retraités).</td></tr></table></div><div xml:lang="en" lang="en"><hr/><p><b>English</b></p><hr/><p class="res-header-id"><b>Generated Narrative: CodeSystem ihe-france-pam-professional-category-cs</b></p><a name="en-ihe-france-pam-professional-category-cs"> </a><a name="en-hcihe-france-pam-professional-category-cs"> </a><p>This case-sensitive code system <code>https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-professional-category-cs</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap">11<a name="en-ihe-france-pam-professional-category-cs-11"> </a></td><td>Agriculteurs sur petite exploitation</td><td>Agriculteurs sur petite exploitation.</td></tr><tr><td style="white-space:nowrap">12<a name="en-ihe-france-pam-professional-category-cs-12"> </a></td><td>Agriculteurs sur moyenne exploitation</td><td>Agriculteurs sur moyenne exploitation.</td></tr><tr><td style="white-space:nowrap">13<a name="en-ihe-france-pam-professional-category-cs-13"> </a></td><td>Agriculteurs sur grande exploitation</td><td>Agriculteurs sur grande exploitation.</td></tr><tr><td style="white-space:nowrap">21<a name="en-ihe-france-pam-professional-category-cs-21"> </a></td><td>Artisans</td><td>Artisans.</td></tr><tr><td style="white-space:nowrap">22<a name="en-ihe-france-pam-professional-category-cs-22"> </a></td><td>Commerçants et assimilés</td><td>Commerçants et assimilés.</td></tr><tr><td style="white-space:nowrap">23<a name="en-ihe-france-pam-professional-category-cs-23"> </a></td><td>Chefs d'entreprise de 10 salariés ou plus</td><td>Chefs d'entreprise de 10 salariés ou plus.</td></tr><tr><td style="white-space:nowrap">31<a name="en-ihe-france-pam-professional-category-cs-31"> </a></td><td>Professions libérales</td><td>Professions libérales.</td></tr><tr><td style="white-space:nowrap">33<a name="en-ihe-france-pam-professional-category-cs-33"> </a></td><td>Cadres de la fonction publique</td><td>Cadres de la fonction publique.</td></tr><tr><td style="white-space:nowrap">34<a name="en-ihe-france-pam-professional-category-cs-34"> </a></td><td>Professeurs, professions scientifiques</td><td>Professeurs, professions scientifiques.</td></tr><tr><td style="white-space:nowrap">35<a name="en-ihe-france-pam-professional-category-cs-35"> </a></td><td>Professions de l'information, des arts et des spectacles</td><td>Professions de l'information, des arts et des spectacles.</td></tr><tr><td style="white-space:nowrap">37<a name="en-ihe-france-pam-professional-category-cs-37"> </a></td><td>Cadres administratifs et commerciaux d'entreprise</td><td>Cadres administratifs et commerciaux d'entreprise.</td></tr><tr><td style="white-space:nowrap">38<a name="en-ihe-france-pam-professional-category-cs-38"> </a></td><td>Ingénieurs et cadres techniques d'entreprise</td><td>Ingénieurs et cadres techniques d'entreprise.</td></tr><tr><td style="white-space:nowrap">42<a name="en-ihe-france-pam-professional-category-cs-42"> </a></td><td>Professeurs des écoles, instituteurs et assimilés</td><td>Professeurs des écoles, instituteurs et assimilés.</td></tr><tr><td style="white-space:nowrap">43<a name="en-ihe-france-pam-professional-category-cs-43"> </a></td><td>Professions intermédiaires de la santé et du travail social</td><td>Professions intermédiaires de la santé et du travail social.</td></tr><tr><td style="white-space:nowrap">44<a name="en-ihe-france-pam-professional-category-cs-44"> </a></td><td>Clergé, religieux</td><td>Clergé, religieux.</td></tr><tr><td style="white-space:nowrap">45<a name="en-ihe-france-pam-professional-category-cs-45"> </a></td><td>Professions intermédiaires administratives de la fonction publique</td><td>Professions intermédiaires administratives de la fonction publique.</td></tr><tr><td style="white-space:nowrap">46<a name="en-ihe-france-pam-professional-category-cs-46"> </a></td><td>Professions intermédiaires administratives et commerciales des entreprises</td><td>Professions intermédiaires administratives et commerciales des entreprises.</td></tr><tr><td style="white-space:nowrap">47<a name="en-ihe-france-pam-professional-category-cs-47"> </a></td><td>Techniciens</td><td>Techniciens.</td></tr><tr><td style="white-space:nowrap">48<a name="en-ihe-france-pam-professional-category-cs-48"> </a></td><td>Contremaîtres, agents de maîtrise</td><td>Contremaîtres, agents de maîtrise.</td></tr><tr><td style="white-space:nowrap">52<a name="en-ihe-france-pam-professional-category-cs-52"> </a></td><td>Employés civils et agents de service de la fonction publique</td><td>Employés civils et agents de service de la fonction publique.</td></tr><tr><td style="white-space:nowrap">53<a name="en-ihe-france-pam-professional-category-cs-53"> </a></td><td>Policiers et militaires</td><td>Policiers et militaires.</td></tr><tr><td style="white-space:nowrap">54<a name="en-ihe-france-pam-professional-category-cs-54"> </a></td><td>Employés administratifs d'entreprise</td><td>Employés administratifs d'entreprise.</td></tr><tr><td style="white-space:nowrap">55<a name="en-ihe-france-pam-professional-category-cs-55"> </a></td><td>Employés de commerce</td><td>Employés de commerce.</td></tr><tr><td style="white-space:nowrap">56<a name="en-ihe-france-pam-professional-category-cs-56"> </a></td><td>Personnels des services directs aux particuliers</td><td>Personnels des services directs aux particuliers.</td></tr><tr><td style="white-space:nowrap">62<a name="en-ihe-france-pam-professional-category-cs-62"> </a></td><td>Ouvriers qualifiés de type industriel</td><td>Ouvriers qualifiés de type industriel.</td></tr><tr><td style="white-space:nowrap">63<a name="en-ihe-france-pam-professional-category-cs-63"> </a></td><td>Ouvriers qualifiés de type artisanal</td><td>Ouvriers qualifiés de type artisanal.</td></tr><tr><td style="white-space:nowrap">64<a name="en-ihe-france-pam-professional-category-cs-64"> </a></td><td>Chauffeurs</td><td>Chauffeurs.</td></tr><tr><td style="white-space:nowrap">65<a name="en-ihe-france-pam-professional-category-cs-65"> </a></td><td>Ouvriers qualifiés de la manutention, du magasinage et du transport</td><td>Ouvriers qualifiés de la manutention, du magasinage et du transport.</td></tr><tr><td style="white-space:nowrap">67<a name="en-ihe-france-pam-professional-category-cs-67"> </a></td><td>Ouvriers non qualifiés de type industriel</td><td>Ouvriers non qualifiés de type industriel.</td></tr><tr><td style="white-space:nowrap">68<a name="en-ihe-france-pam-professional-category-cs-68"> </a></td><td>Ouvriers non qualifiés de type artisanal</td><td>Ouvriers non qualifiés de type artisanal.</td></tr><tr><td style="white-space:nowrap">69<a name="en-ihe-france-pam-professional-category-cs-69"> </a></td><td>Ouvriers agricoles</td><td>Ouvriers agricoles.</td></tr><tr><td style="white-space:nowrap">71<a name="en-ihe-france-pam-professional-category-cs-71"> </a></td><td>Anciens agriculteurs exploitants</td><td>Anciens agriculteurs exploitants.</td></tr><tr><td style="white-space:nowrap">72<a name="en-ihe-france-pam-professional-category-cs-72"> </a></td><td>Anciens artisans, commerçants, chefs d'entreprise</td><td>Anciens artisans, commerçants, chefs d'entreprise.</td></tr><tr><td style="white-space:nowrap">74<a name="en-ihe-france-pam-professional-category-cs-74"> </a></td><td>Anciens cadres</td><td>Anciens cadres.</td></tr><tr><td style="white-space:nowrap">75<a name="en-ihe-france-pam-professional-category-cs-75"> </a></td><td>Anciennes professions intermédiaires</td><td>Anciennes professions intermédiaires.</td></tr><tr><td style="white-space:nowrap">77<a name="en-ihe-france-pam-professional-category-cs-77"> </a></td><td>Anciens employés</td><td>Anciens employés.</td></tr><tr><td style="white-space:nowrap">78<a name="en-ihe-france-pam-professional-category-cs-78"> </a></td><td>Anciens ouvriers</td><td>Anciens ouvriers.</td></tr><tr><td style="white-space:nowrap">81<a name="en-ihe-france-pam-professional-category-cs-81"> </a></td><td>Chômeurs n'ayant jamais travaillé</td><td>Chômeurs n'ayant jamais travaillé.</td></tr><tr><td style="white-space:nowrap">83<a name="en-ihe-france-pam-professional-category-cs-83"> </a></td><td>Militaires du contingent</td><td>Militaires du contingent.</td></tr><tr><td style="white-space:nowrap">84<a name="en-ihe-france-pam-professional-category-cs-84"> </a></td><td>Élèves, étudiants</td><td>Élèves, étudiants.</td></tr><tr><td style="white-space:nowrap">85<a name="en-ihe-france-pam-professional-category-cs-85"> </a></td><td>Personnes diverses sans activité professionnelle de moins de 60 ans (sauf retraités)</td><td>Personnes diverses sans activité professionnelle de moins de 60 ans (sauf retraités).</td></tr><tr><td style="white-space:nowrap">86<a name="en-ihe-france-pam-professional-category-cs-86"> </a></td><td>Personnes diverses sans activité professionnelle de 60 ans et plus (sauf retraités)</td><td>Personnes diverses sans activité professionnelle de 60 ans et plus (sauf retraités).</td></tr></table></div></div>
+  </text>
+  <url value="https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-professional-category-cs"/>
+  <version value="0.1.0"/>
+  <name value="IHEFrancePamProfessionalCategoryCS"/>
+  <title value="IHE France PAM Professional Category CodeSystem"/>
+  <status value="draft"/>
+  <experimental value="false"/>
+  <date value="2026-10-20T11:55:56+00:00"/>
+  <publisher value="IHE France"/>
+  <contact>
+    <name value="IHE France"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.ihe-france.org"/>
+    </telecom>
+  </contact>
+  <contact>
+    <name value="IHE France"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.ihe-france.org"/>
+      <use value="work"/>
+    </telecom>
+  </contact>
+  <description value="Catégorie socioprofessionnelle (ZFP-2, nomenclature PCS 2003 de l'INSEE)."/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="FR"/>
+      <display value="France (la)"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="42"/>
+  <concept>
+    <code value="11"/>
+    <display value="Agriculteurs sur petite exploitation"/>
+    <definition value="Agriculteurs sur petite exploitation."/>
+  </concept>
+  <concept>
+    <code value="12"/>
+    <display value="Agriculteurs sur moyenne exploitation"/>
+    <definition value="Agriculteurs sur moyenne exploitation."/>
+  </concept>
+  <concept>
+    <code value="13"/>
+    <display value="Agriculteurs sur grande exploitation"/>
+    <definition value="Agriculteurs sur grande exploitation."/>
+  </concept>
+  <concept>
+    <code value="21"/>
+    <display value="Artisans"/>
+    <definition value="Artisans."/>
+  </concept>
+  <concept>
+    <code value="22"/>
+    <display value="Commerçants et assimilés"/>
+    <definition value="Commerçants et assimilés."/>
+  </concept>
+  <concept>
+    <code value="23"/>
+    <display value="Chefs d'entreprise de 10 salariés ou plus"/>
+    <definition value="Chefs d'entreprise de 10 salariés ou plus."/>
+  </concept>
+  <concept>
+    <code value="31"/>
+    <display value="Professions libérales"/>
+    <definition value="Professions libérales."/>
+  </concept>
+  <concept>
+    <code value="33"/>
+    <display value="Cadres de la fonction publique"/>
+    <definition value="Cadres de la fonction publique."/>
+  </concept>
+  <concept>
+    <code value="34"/>
+    <display value="Professeurs, professions scientifiques"/>
+    <definition value="Professeurs, professions scientifiques."/>
+  </concept>
+  <concept>
+    <code value="35"/>
+    <display value="Professions de l'information, des arts et des spectacles"/>
+    <definition value="Professions de l'information, des arts et des spectacles."/>
+  </concept>
+  <concept>
+    <code value="37"/>
+    <display value="Cadres administratifs et commerciaux d'entreprise"/>
+    <definition value="Cadres administratifs et commerciaux d'entreprise."/>
+  </concept>
+  <concept>
+    <code value="38"/>
+    <display value="Ingénieurs et cadres techniques d'entreprise"/>
+    <definition value="Ingénieurs et cadres techniques d'entreprise."/>
+  </concept>
+  <concept>
+    <code value="42"/>
+    <display value="Professeurs des écoles, instituteurs et assimilés"/>
+    <definition value="Professeurs des écoles, instituteurs et assimilés."/>
+  </concept>
+  <concept>
+    <code value="43"/>
+    <display value="Professions intermédiaires de la santé et du travail social"/>
+    <definition value="Professions intermédiaires de la santé et du travail social."/>
+  </concept>
+  <concept>
+    <code value="44"/>
+    <display value="Clergé, religieux"/>
+    <definition value="Clergé, religieux."/>
+  </concept>
+  <concept>
+    <code value="45"/>
+    <display value="Professions intermédiaires administratives de la fonction publique"/>
+    <definition value="Professions intermédiaires administratives de la fonction publique."/>
+  </concept>
+  <concept>
+    <code value="46"/>
+    <display value="Professions intermédiaires administratives et commerciales des entreprises"/>
+    <definition value="Professions intermédiaires administratives et commerciales des entreprises."/>
+  </concept>
+  <concept>
+    <code value="47"/>
+    <display value="Techniciens"/>
+    <definition value="Techniciens."/>
+  </concept>
+  <concept>
+    <code value="48"/>
+    <display value="Contremaîtres, agents de maîtrise"/>
+    <definition value="Contremaîtres, agents de maîtrise."/>
+  </concept>
+  <concept>
+    <code value="52"/>
+    <display value="Employés civils et agents de service de la fonction publique"/>
+    <definition value="Employés civils et agents de service de la fonction publique."/>
+  </concept>
+  <concept>
+    <code value="53"/>
+    <display value="Policiers et militaires"/>
+    <definition value="Policiers et militaires."/>
+  </concept>
+  <concept>
+    <code value="54"/>
+    <display value="Employés administratifs d'entreprise"/>
+    <definition value="Employés administratifs d'entreprise."/>
+  </concept>
+  <concept>
+    <code value="55"/>
+    <display value="Employés de commerce"/>
+    <definition value="Employés de commerce."/>
+  </concept>
+  <concept>
+    <code value="56"/>
+    <display value="Personnels des services directs aux particuliers"/>
+    <definition value="Personnels des services directs aux particuliers."/>
+  </concept>
+  <concept>
+    <code value="62"/>
+    <display value="Ouvriers qualifiés de type industriel"/>
+    <definition value="Ouvriers qualifiés de type industriel."/>
+  </concept>
+  <concept>
+    <code value="63"/>
+    <display value="Ouvriers qualifiés de type artisanal"/>
+    <definition value="Ouvriers qualifiés de type artisanal."/>
+  </concept>
+  <concept>
+    <code value="64"/>
+    <display value="Chauffeurs"/>
+    <definition value="Chauffeurs."/>
+  </concept>
+  <concept>
+    <code value="65"/>
+    <display value="Ouvriers qualifiés de la manutention, du magasinage et du transport"/>
+    <definition value="Ouvriers qualifiés de la manutention, du magasinage et du transport."/>
+  </concept>
+  <concept>
+    <code value="67"/>
+    <display value="Ouvriers non qualifiés de type industriel"/>
+    <definition value="Ouvriers non qualifiés de type industriel."/>
+  </concept>
+  <concept>
+    <code value="68"/>
+    <display value="Ouvriers non qualifiés de type artisanal"/>
+    <definition value="Ouvriers non qualifiés de type artisanal."/>
+  </concept>
+  <concept>
+    <code value="69"/>
+    <display value="Ouvriers agricoles"/>
+    <definition value="Ouvriers agricoles."/>
+  </concept>
+  <concept>
+    <code value="71"/>
+    <display value="Anciens agriculteurs exploitants"/>
+    <definition value="Anciens agriculteurs exploitants."/>
+  </concept>
+  <concept>
+    <code value="72"/>
+    <display value="Anciens artisans, commerçants, chefs d'entreprise"/>
+    <definition value="Anciens artisans, commerçants, chefs d'entreprise."/>
+  </concept>
+  <concept>
+    <code value="74"/>
+    <display value="Anciens cadres"/>
+    <definition value="Anciens cadres."/>
+  </concept>
+  <concept>
+    <code value="75"/>
+    <display value="Anciennes professions intermédiaires"/>
+    <definition value="Anciennes professions intermédiaires."/>
+  </concept>
+  <concept>
+    <code value="77"/>
+    <display value="Anciens employés"/>
+    <definition value="Anciens employés."/>
+  </concept>
+  <concept>
+    <code value="78"/>
+    <display value="Anciens ouvriers"/>
+    <definition value="Anciens ouvriers."/>
+  </concept>
+  <concept>
+    <code value="81"/>
+    <display value="Chômeurs n'ayant jamais travaillé"/>
+    <definition value="Chômeurs n'ayant jamais travaillé."/>
+  </concept>
+  <concept>
+    <code value="83"/>
+    <display value="Militaires du contingent"/>
+    <definition value="Militaires du contingent."/>
+  </concept>
+  <concept>
+    <code value="84"/>
+    <display value="Élèves, étudiants"/>
+    <definition value="Élèves, étudiants."/>
+  </concept>
+  <concept>
+    <code value="85"/>
+    <display value="Personnes diverses sans activité professionnelle de moins de 60 ans (sauf retraités)"/>
+    <definition value="Personnes diverses sans activité professionnelle de moins de 60 ans (sauf retraités)."/>
+  </concept>
+  <concept>
+    <code value="86"/>
+    <display value="Personnes diverses sans activité professionnelle de 60 ans et plus (sauf retraités)"/>
+    <definition value="Personnes diverses sans activité professionnelle de 60 ans et plus (sauf retraités)."/>
+  </concept>
+</CodeSystem>

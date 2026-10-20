@@ -1,0 +1,16 @@
+/* Hide navigation artifacts rendered without labels by template2. */
+a[href]:empty {
+  display: none !important;
+}
+
+li:has(> a[href]:empty) {
+  display: none !important;
+}
+
+td:has(> a[href]:empty) {
+  display: none !important;
+}
+
+#segment-breadcrumb .breadcrumb > span {
+  display: none !important;
+}

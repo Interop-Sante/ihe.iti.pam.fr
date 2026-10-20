@@ -1,0 +1,569 @@
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+
+
+
+<html xml:lang="fr" xmlns="http://www.w3.org/1999/xhtml" lang="fr" dir="ltr">
+  <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
+    <title>IHE France PAM Professional Category CodeSystem - IHE PAM France v0.1.0</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="http://hl7.org/fhir"/>
+
+    <link href="fhir.css" rel="stylesheet"/>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap-fhir.css" rel="stylesheet"/>
+
+    <!-- Project extras -->
+    <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
+    <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
+  	<link href="assets/css/prism.css" rel="stylesheet" />
+    <link href="assets/css/liquid.css" rel="stylesheet" />
+    <link href="assets/css/project.css" rel="stylesheet"/>
+  	<!-- Placeholder for child template CSS declarations -->
+<link href="assets/css/hl7fr.css" rel="stylesheet"/>
+<link href="assets/css/pam-overrides.css" rel="stylesheet"/>
+<script type="text/javascript" src="assets/js/pam-cleanup.js"></script>
+
+
+    <script type="text/javascript" src="fhir-table-scripts.js"> </script>
+    <script type="text/javascript" src="assets/js/direction-management.js"> </script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Favicons -->
+    <link rel="fhir-logo" sizes="144x144" href="assets/ico/icon-fhir-144.png"/>
+    <link rel="fhir-logo" sizes="114x114" href="assets/ico/icon-fhir-114.png"/>
+    <link rel="fhir-logo" sizes="72x72" href="assets/ico/icon-fhir-72.png"/>
+    <link rel="fhir-logo" href="assets/ico/icon-fhir-57.png"/>
+    <link rel="shortcut icon" href="assets/ico/favicon.png"/>
+  </head>
+  <body onload="document.body.style.opacity='1'">
+
+	  <script type="text/javascript" src="assets/js/prism.js"></script>
+	  <script type="text/javascript" src="assets/js/prism-fhirpath.js"></script>
+	  <script type="text/javascript" src="assets/js/prism-cql.js"></script>
+    <script type="text/javascript" src="assets/js/mermaid.js"></script>
+    <script type="text/javascript" src="assets/js/mermaid-init.js"></script>
+    <style type="text/css">h2{--heading-prefix:"8.83"}
+    h3,h4,h5,h6{--heading-prefix:"8.83"}</style>
+    <div id="segment-header" class="segment">  <!-- segment-header -->
+      <div class="container">  <!-- container -->
+
+        <!-- Placeholder for child template header declarations -->
+<div id="project-nav">
+  <a id="hl7-logo" data-no-external="true" href="http://interopsante.org/"><img height="50" alt="Interop'Santé Logo" src="assets/images/IS_LOGO.png"/></a>
+</div>
+
+<div id="family-nav">
+  <a id="family-logo" data-no-external="true" href="http://hl7.org/fhir"><img height="50" alt="Visit the FHIR website" src="assets/images/fhir-logo-www.png"/> </a>
+</div>
+
+        <div id="ig-status" data-fhir="generated">
+          <p><span style="font-size:12pt;font-weight:bold">IHE PAM France</span>
+            <br/>
+            <span style="display:inline-block;">0.1.0 - ci-build
+
+
+
+  <img alt="France (la) drapeau" src="../assets/images/fra.svg" height="16" title="France (la)"/>
+
+
+            </span>
+          </p>
+        </div>
+      </div> <!-- /container -->
+    </div>  <!-- /segment-header -->
+
+    <div id="segment-navbar" class="segment" data-fhir="generated">  <!-- segment-navbar -->
+      <div id="stripe"> </div>
+      <div class="container">  <!-- container -->
+        <!-- HEADER CONTENT -->
+
+        <nav class="navbar navbar-inverse">
+          <!--status-bar-->
+          <div class="container">
+
+            <button data-target=".navbar-inverse-collapse" class="navbar-toggle" data-toggle="collapse" type="button">
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+            </button>
+            <a class="navbar-brand hidden" href="http://hl7.org/fhir/R4/index.html">FHIR</a>
+            <div class="nav-collapse collapse navbar-inverse-collapse">
+              <!-- menu.xml  -->
+
+<ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
+  <li>
+    <a href="index.html">Accueil</a>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Vol. 1 - Étude fonctionnelle
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="volume-1.html">Introduction</a>
+      </li>
+      <li>
+        <a href="actors-transactions.html">Acteurs et transactions</a>
+      </li>
+      <li>
+        <a href="conformite.html">Conformité</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Vol. 2 - Détail des transactions
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="content-modules.html">Contenus et contraintes FHIR</a>
+      </li>
+      <li>
+        <a href="hl7v2-datatypes.html">Contraintes HL7 v2.5</a>
+      </li>
+      <li>
+        <a href="hl7v2-to-fhir.html">Mapping HL7 v2 vers FHIR</a>
+      </li>
+      <li>
+        <a href="examples.html">Exemples</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Vol. 3 - Annexes
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="security.html">Sécurité</a>
+      </li>
+      <li>
+        <a href="publications.html">Publications antérieures</a>
+      </li>
+      <li>
+        <a href="downloads.html">Téléchargements et usages</a>
+      </li>
+      <li>
+        <a href="translationinfo.html">Informations sur la traduction</a>
+      </li>
+      <li>
+        <a target="_blank" href="http://hl7.org/fhir/R4/index.html">Spécifications FHIR </a>
+      </li>
+      <li>
+        <a target="_blank" href="https://www.interopsante.org/">Site d&apos;Interop&apos;Santé </a>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <a href="artifacts.html">Ressources de conformité</a>
+  </li>
+  <li>
+    <a target="_blank" href="https://interop.esante.gouv.fr/ig/documentation/">Documentation</a>
+  </li>
+</ul>
+            </div>  <!-- /.nav-collapse -->
+
+              
+
+
+<div style="float: var(--ig-right);padding: 8px 0px;" id="language">
+  <div id="select_flg" class="flaglist" style="background-image: url(assets/images/icon_arrow_down.png);background-position: 133px 3px;">
+    <div><img class="flag" alt="drapeau English" src="assets/images/lang-fr.png"/>Français</div>
+  </div>
+  <div style="float: var(--ig-right); margin: 2px 0px; padding: 1px 0;color: var(--btn-text-color);font-size:12px">Language:</div>
+ 	<div id="flaglist" class="flaglist" style="display: none;position: absolute;right: 0;z-index: 100;background-image: url(assets/images/icon_arrow_up.png);background-position: 133px 3px;">
+    <div><img class="flag" alt="drapeau fr" src="assets/images/lang-fr.png"/>Français</div>
+
+    <div><a href="../en/CodeSystem-ihe-france-pam-professional-category-cs.html"><img class="flag" src="assets/images/lang-en.png" alt="drapeau en"/>English</a></div>
+
+  </div>
+</div>
+
+
+          </div>  <!-- /.container -->
+        </nav>  <!-- /.navbar -->
+      <!-- /HEADER CONTENT -->
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-navbar -->
+    <!--status-bar-->
+
+    <div id="segment-breadcrumb" class="segment" data-fhir="generated">  <!-- segment-breadcrumb -->
+      <div class="container">  <!-- container -->
+        <ul class="breadcrumb">
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Résumé des artefacts</b></a></li><li><b>IHE France PAM Professional Category CodeSystem</b></li>
+
+          <span style="float: var(--ig-right);">
+
+            <a href="CodeSystem-ihe-france-pam-professional-activity-cs.ttl.html">&lt; précédent</a> | 
+
+            <a href="#bottom">bas de page</a>
+
+          | <a href="CodeSystem-ihe-france-pam-professional-category-cs-testing.html">suivant &gt;</a>
+
+          </span>
+
+        </ul>
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-breadcrumb -->
+
+    <a name="top"> </a>
+    <div id="segment-content" class="segment">  <!-- segment-content -->
+      <div class="container">  <!-- container -->
+        <div class="row">
+          <div class="inner-wrapper">
+
+<!-- layouts\layout-codesystem -->
+<div class="col-12">
+  <!--ReleaseHeader--><p id="publish-box">IHE PAM France - version de développement local (intégration continue v0.1.0) construite par les outils de publication FHIR (HL7® FHIR® Standard). Voir le <a href='https://hl7.fr/ig/v2/pam/history.html'>répertoire des versions publiées</a></p><!--EndReleaseHeader-->
+  
+
+
+
+
+
+
+
+
+
+
+<ul class="nav nav-tabs">
+
+  <li class="active">
+    <a href="#">Contenu narratif</a>
+  </li>
+
+
+
+  
+    <li>
+      <a href="CodeSystem-ihe-france-pam-professional-category-cs.xml.html">XML</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="CodeSystem-ihe-france-pam-professional-category-cs.json.html">JSON</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="CodeSystem-ihe-france-pam-professional-category-cs.ttl.html">TTL</a>
+    </li>
+  
+
+
+
+</ul>
+
+  <a name="root"> </a>
+
+  <h2 id="root">CodeSystem: IHE France PAM Professional Category CodeSystem
+
+  </h2>
+
+  <table class="colsd" data-fhir="generated">
+
+    <tr>
+      <td colspan="4"><i>URL officielle</i>: <span class="copy-text">https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-professional-category-cs<button title="Cliquez pour copier l'URL" class="btn-copy" data-clipboard-text="https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-professional-category-cs"/></span>
+      </td>
+      <td><i>Version</i>:
+      <span class="copy-text">0.1.0<button title="Cliquez pour copier l'URL versionnée" class="btn-copy" data-clipboard-text="https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-professional-category-cs|0.1.0"/></span>
+      </td>
+      <td style="text-align: right;border-left-style: hidden" title="Activez ceci pour voir les modifications depuis la dernière version officielle">
+        <span id="toggle-change-display"><label style="margin:0;font-weight:normal" for="showChanges">Surligner les changements ?</label>
+  
+        <input style="margin:0" type="checkbox" id="showChanges" onchange="toggleChanges()"/>
+  
+      </span>
+      </td>
+    </tr>
+
+    <tr>
+
+
+
+
+
+
+
+      <td colspan="5">
+        
+          Draft
+          
+
+            à date du 
+2026-10-20
+
+          
+        
+      </td>
+
+
+
+      <td><i>Nom computable</i>: <span style="font-family: monospace;">IHEFrancePamProfessionalCategoryCS</span></td>
+    </tr>
+
+
+
+
+  </table>
+
+<div data-fhir="generated">
+<p>Catégorie socioprofessionnelle (ZFP-2, nomenclature PCS 2003 de l’INSEE).</p>
+
+</div>
+
+  <!-- insert intro if present -->
+  
+
+
+
+  <p>Ce système de codes est référencé dans la définition des ensembles de valeurs suivants :</p>
+
+  
+<ul>
+ <li><a href="ValueSet-ihe-france-pam-professional-category-vs.html">IHE France PAM Professional Category ValueSet</a></li>
+</ul>
+
+
+  <div xmlns="http://www.w3.org/1999/xhtml" data-fhir="generated"><p class="res-header-id"></p><a name="ihe-france-pam-professional-category-cs"> </a><a name="hcihe-france-pam-professional-category-cs"> </a><p>This case-sensitive code system <code>https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-professional-category-cs</code> defines the following codes:</p>
+<table class="codes" data-fhir="generated"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Affichage</b></td><td><b>Définition</b></td></tr>
+<tr><td style="white-space:nowrap">11<a name="ihe-france-pam-professional-category-cs-11"> </a></td>
+<td>Agriculteurs sur petite exploitation</td>
+<td>Agriculteurs sur petite exploitation.</td></tr>
+<tr><td style="white-space:nowrap">12<a name="ihe-france-pam-professional-category-cs-12"> </a></td>
+<td>Agriculteurs sur moyenne exploitation</td>
+<td>Agriculteurs sur moyenne exploitation.</td></tr>
+<tr><td style="white-space:nowrap">13<a name="ihe-france-pam-professional-category-cs-13"> </a></td>
+<td>Agriculteurs sur grande exploitation</td>
+<td>Agriculteurs sur grande exploitation.</td></tr>
+<tr><td style="white-space:nowrap">21<a name="ihe-france-pam-professional-category-cs-21"> </a></td>
+<td>Artisans</td>
+<td>Artisans.</td></tr>
+<tr><td style="white-space:nowrap">22<a name="ihe-france-pam-professional-category-cs-22"> </a></td>
+<td>Commerçants et assimilés</td>
+<td>Commerçants et assimilés.</td></tr>
+<tr><td style="white-space:nowrap">23<a name="ihe-france-pam-professional-category-cs-23"> </a></td>
+<td>Chefs d'entreprise de 10 salariés ou plus</td>
+<td>Chefs d'entreprise de 10 salariés ou plus.</td></tr>
+<tr><td style="white-space:nowrap">31<a name="ihe-france-pam-professional-category-cs-31"> </a></td>
+<td>Professions libérales</td>
+<td>Professions libérales.</td></tr>
+<tr><td style="white-space:nowrap">33<a name="ihe-france-pam-professional-category-cs-33"> </a></td>
+<td>Cadres de la fonction publique</td>
+<td>Cadres de la fonction publique.</td></tr>
+<tr><td style="white-space:nowrap">34<a name="ihe-france-pam-professional-category-cs-34"> </a></td>
+<td>Professeurs, professions scientifiques</td>
+<td>Professeurs, professions scientifiques.</td></tr>
+<tr><td style="white-space:nowrap">35<a name="ihe-france-pam-professional-category-cs-35"> </a></td>
+<td>Professions de l'information, des arts et des spectacles</td>
+<td>Professions de l'information, des arts et des spectacles.</td></tr>
+<tr><td style="white-space:nowrap">37<a name="ihe-france-pam-professional-category-cs-37"> </a></td>
+<td>Cadres administratifs et commerciaux d'entreprise</td>
+<td>Cadres administratifs et commerciaux d'entreprise.</td></tr>
+<tr><td style="white-space:nowrap">38<a name="ihe-france-pam-professional-category-cs-38"> </a></td>
+<td>Ingénieurs et cadres techniques d'entreprise</td>
+<td>Ingénieurs et cadres techniques d'entreprise.</td></tr>
+<tr><td style="white-space:nowrap">42<a name="ihe-france-pam-professional-category-cs-42"> </a></td>
+<td>Professeurs des écoles, instituteurs et assimilés</td>
+<td>Professeurs des écoles, instituteurs et assimilés.</td></tr>
+<tr><td style="white-space:nowrap">43<a name="ihe-france-pam-professional-category-cs-43"> </a></td>
+<td>Professions intermédiaires de la santé et du travail social</td>
+<td>Professions intermédiaires de la santé et du travail social.</td></tr>
+<tr><td style="white-space:nowrap">44<a name="ihe-france-pam-professional-category-cs-44"> </a></td>
+<td>Clergé, religieux</td>
+<td>Clergé, religieux.</td></tr>
+<tr><td style="white-space:nowrap">45<a name="ihe-france-pam-professional-category-cs-45"> </a></td>
+<td>Professions intermédiaires administratives de la fonction publique</td>
+<td>Professions intermédiaires administratives de la fonction publique.</td></tr>
+<tr><td style="white-space:nowrap">46<a name="ihe-france-pam-professional-category-cs-46"> </a></td>
+<td>Professions intermédiaires administratives et commerciales des entreprises</td>
+<td>Professions intermédiaires administratives et commerciales des entreprises.</td></tr>
+<tr><td style="white-space:nowrap">47<a name="ihe-france-pam-professional-category-cs-47"> </a></td>
+<td>Techniciens</td>
+<td>Techniciens.</td></tr>
+<tr><td style="white-space:nowrap">48<a name="ihe-france-pam-professional-category-cs-48"> </a></td>
+<td>Contremaîtres, agents de maîtrise</td>
+<td>Contremaîtres, agents de maîtrise.</td></tr>
+<tr><td style="white-space:nowrap">52<a name="ihe-france-pam-professional-category-cs-52"> </a></td>
+<td>Employés civils et agents de service de la fonction publique</td>
+<td>Employés civils et agents de service de la fonction publique.</td></tr>
+<tr><td style="white-space:nowrap">53<a name="ihe-france-pam-professional-category-cs-53"> </a></td>
+<td>Policiers et militaires</td>
+<td>Policiers et militaires.</td></tr>
+<tr><td style="white-space:nowrap">54<a name="ihe-france-pam-professional-category-cs-54"> </a></td>
+<td>Employés administratifs d'entreprise</td>
+<td>Employés administratifs d'entreprise.</td></tr>
+<tr><td style="white-space:nowrap">55<a name="ihe-france-pam-professional-category-cs-55"> </a></td>
+<td>Employés de commerce</td>
+<td>Employés de commerce.</td></tr>
+<tr><td style="white-space:nowrap">56<a name="ihe-france-pam-professional-category-cs-56"> </a></td>
+<td>Personnels des services directs aux particuliers</td>
+<td>Personnels des services directs aux particuliers.</td></tr>
+<tr><td style="white-space:nowrap">62<a name="ihe-france-pam-professional-category-cs-62"> </a></td>
+<td>Ouvriers qualifiés de type industriel</td>
+<td>Ouvriers qualifiés de type industriel.</td></tr>
+<tr><td style="white-space:nowrap">63<a name="ihe-france-pam-professional-category-cs-63"> </a></td>
+<td>Ouvriers qualifiés de type artisanal</td>
+<td>Ouvriers qualifiés de type artisanal.</td></tr>
+<tr><td style="white-space:nowrap">64<a name="ihe-france-pam-professional-category-cs-64"> </a></td>
+<td>Chauffeurs</td>
+<td>Chauffeurs.</td></tr>
+<tr><td style="white-space:nowrap">65<a name="ihe-france-pam-professional-category-cs-65"> </a></td>
+<td>Ouvriers qualifiés de la manutention, du magasinage et du transport</td>
+<td>Ouvriers qualifiés de la manutention, du magasinage et du transport.</td></tr>
+<tr><td style="white-space:nowrap">67<a name="ihe-france-pam-professional-category-cs-67"> </a></td>
+<td>Ouvriers non qualifiés de type industriel</td>
+<td>Ouvriers non qualifiés de type industriel.</td></tr>
+<tr><td style="white-space:nowrap">68<a name="ihe-france-pam-professional-category-cs-68"> </a></td>
+<td>Ouvriers non qualifiés de type artisanal</td>
+<td>Ouvriers non qualifiés de type artisanal.</td></tr>
+<tr><td style="white-space:nowrap">69<a name="ihe-france-pam-professional-category-cs-69"> </a></td>
+<td>Ouvriers agricoles</td>
+<td>Ouvriers agricoles.</td></tr>
+<tr><td style="white-space:nowrap">71<a name="ihe-france-pam-professional-category-cs-71"> </a></td>
+<td>Anciens agriculteurs exploitants</td>
+<td>Anciens agriculteurs exploitants.</td></tr>
+<tr><td style="white-space:nowrap">72<a name="ihe-france-pam-professional-category-cs-72"> </a></td>
+<td>Anciens artisans, commerçants, chefs d'entreprise</td>
+<td>Anciens artisans, commerçants, chefs d'entreprise.</td></tr>
+<tr><td style="white-space:nowrap">74<a name="ihe-france-pam-professional-category-cs-74"> </a></td>
+<td>Anciens cadres</td>
+<td>Anciens cadres.</td></tr>
+<tr><td style="white-space:nowrap">75<a name="ihe-france-pam-professional-category-cs-75"> </a></td>
+<td>Anciennes professions intermédiaires</td>
+<td>Anciennes professions intermédiaires.</td></tr>
+<tr><td style="white-space:nowrap">77<a name="ihe-france-pam-professional-category-cs-77"> </a></td>
+<td>Anciens employés</td>
+<td>Anciens employés.</td></tr>
+<tr><td style="white-space:nowrap">78<a name="ihe-france-pam-professional-category-cs-78"> </a></td>
+<td>Anciens ouvriers</td>
+<td>Anciens ouvriers.</td></tr>
+<tr><td style="white-space:nowrap">81<a name="ihe-france-pam-professional-category-cs-81"> </a></td>
+<td>Chômeurs n'ayant jamais travaillé</td>
+<td>Chômeurs n'ayant jamais travaillé.</td></tr>
+<tr><td style="white-space:nowrap">83<a name="ihe-france-pam-professional-category-cs-83"> </a></td>
+<td>Militaires du contingent</td>
+<td>Militaires du contingent.</td></tr>
+<tr><td style="white-space:nowrap">84<a name="ihe-france-pam-professional-category-cs-84"> </a></td>
+<td>Élèves, étudiants</td>
+<td>Élèves, étudiants.</td></tr>
+<tr><td style="white-space:nowrap">85<a name="ihe-france-pam-professional-category-cs-85"> </a></td>
+<td>Personnes diverses sans activité professionnelle de moins de 60 ans (sauf retraités)</td>
+<td>Personnes diverses sans activité professionnelle de moins de 60 ans (sauf retraités).</td></tr>
+<tr><td style="white-space:nowrap">86<a name="ihe-france-pam-professional-category-cs-86"> </a></td>
+<td>Personnes diverses sans activité professionnelle de 60 ans et plus (sauf retraités)</td>
+<td>Personnes diverses sans activité professionnelle de 60 ans et plus (sauf retraités).</td></tr></table></div>
+
+  <hr/>
+  <p>
+    <a href="http://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#terminology">Description du (des) tableau(x) ci-dessus</a>.
+  </p>
+  
+
+  <!-- insert notes if present -->
+  
+
+
+
+  
+
+</div>
+        </div>  <!-- /inner-wrapper -->
+      </div>  <!-- /row -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-content -->
+
+  <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
+  <script type="text/javascript" src="assets/js/flags.js"> </script>
+
+  <script type="text/javascript" src="assets/js/window-hash.js"> </script>
+  <script type="text/javascript" src="assets/js/togglechanges.js"> </script>
+  <script type="text/javascript" src="assets/js/requirements-table.js"> </script>
+  <a name="bottom"> </a>
+  <div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
+    <div class="container" data-fhir="generated">  <!-- container -->
+
+      <div style="background-color:var(--footer-nav-bg-color)">
+        <table style="width:100%">
+          <tbody>
+            <tr>
+              <td style="text-align:var(--ig-left);">&#xA0;
+
+                <a href="CodeSystem-ihe-france-pam-professional-activity-cs.ttl.html">&lt; précédent</a>
+
+              </td>
+              <td style="text-align:center">
+                <a href="#top">haut</a>
+              </td>
+              <td style="text-align:var(--ig-right);">&#xA0;
+
+                <a href="CodeSystem-ihe-france-pam-professional-category-cs-testing.html">suivant ></a>
+
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="inner-wrapper">
+        <p>
+
+
+
+          IG © 2026+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.ihe-france.org">IHE France</a>.  
+          Le package ihe.fr.pam#0.1.0 est basé sur <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>.
+          Date de génération : 
+  <span title="2026-10-20 11:55:00 +0000">
+    2026-10-20
+  </span>
+
+          <br/>
+          <span style="color: var(--footer-highlight-text-color)">
+                      Liens: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table des matières </a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" href="../qa.html">QA </a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" target="_blank" href="https://hl7.fr/ig/v2/pam/history.html">Historique des versions </a>
+                  | <a style="color: var(--footer-hyperlink-text-color)" target="_blank" href="https://github.com/Interop-Sante/ihe.iti.pam.fr/issues/new">New Issue</a>
+
+
+          </span>
+        </p>
+      </div>  <!-- /inner-wrapper -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-footer -->
+  
+  <div id="segment-post-footer" class="segment hidden">  <!-- segment-post-footer -->
+    <div class="container">  <!-- container -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-post-footer -->
+
+  <!-- JS and analytics only. -->
+  <!-- Bootstrap core JavaScript
+  ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"> </script>
+  <script type="text/javascript" src="assets/js/respond.min.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard-btn.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor-hover.js"> </script>
+  <!-- Analytics Below
+  ================================================== -->
+  </body>
+</html>
+

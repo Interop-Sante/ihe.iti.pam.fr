@@ -1,0 +1,113 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "ihe-france-pam-discharge-disposition-cs",
+  "language" : "en",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xml:lang=\"en\" lang=\"en\"><hr/><p><b>English</b></p><hr/><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem ihe-france-pam-discharge-disposition-cs</b></p><a name=\"en-ihe-france-pam-discharge-disposition-cs\"> </a><a name=\"en-hcihe-france-pam-discharge-disposition-cs\"> </a><p>This case-sensitive code system <code>https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-discharge-disposition-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">2<a name=\"en-ihe-france-pam-discharge-disposition-cs-2\"> </a></td><td>Mesures disciplinaires</td><td>Mesures disciplinaires.</td></tr><tr><td style=\"white-space:nowrap\">3<a name=\"en-ihe-france-pam-discharge-disposition-cs-3\"> </a></td><td>Décision médicale</td><td>Décision médicale (valeur par défaut).</td></tr><tr><td style=\"white-space:nowrap\">4<a name=\"en-ihe-france-pam-discharge-disposition-cs-4\"> </a></td><td>Contre avis médical</td><td>Contre avis médical.</td></tr><tr><td style=\"white-space:nowrap\">5<a name=\"en-ihe-france-pam-discharge-disposition-cs-5\"> </a></td><td>En attente d'examen</td><td>En attente d'examen.</td></tr><tr><td style=\"white-space:nowrap\">6<a name=\"en-ihe-france-pam-discharge-disposition-cs-6\"> </a></td><td>Convenances personnelles</td><td>Convenances personnelles.</td></tr><tr><td style=\"white-space:nowrap\">R<a name=\"en-ihe-france-pam-discharge-disposition-cs-R\"> </a></td><td>Essai</td><td>Essai (contexte psychiatrique).</td></tr><tr><td style=\"white-space:nowrap\">E<a name=\"en-ihe-france-pam-discharge-disposition-cs-E\"> </a></td><td>Évasion</td><td>Évasion.</td></tr><tr><td style=\"white-space:nowrap\">F<a name=\"en-ihe-france-pam-discharge-disposition-cs-F\"> </a></td><td>Fugue</td><td>Fugue.</td></tr><tr><td style=\"white-space:nowrap\">A<a name=\"en-ihe-france-pam-discharge-disposition-cs-A\"> </a></td><td>Absence</td><td>Absence de moins de 12 heures.</td></tr><tr><td style=\"white-space:nowrap\">P<a name=\"en-ihe-france-pam-discharge-disposition-cs-P\"> </a></td><td>Permission</td><td>Permission de moins de 72 heures.</td></tr><tr><td style=\"white-space:nowrap\">S<a name=\"en-ihe-france-pam-discharge-disposition-cs-S\"> </a></td><td>Sortie avec programme de soins</td><td>Sortie avec programme de soins.</td></tr><tr><td style=\"white-space:nowrap\">B<a name=\"en-ihe-france-pam-discharge-disposition-cs-B\"> </a></td><td>Départ vers MCO</td><td>Départ vers MCO.</td></tr><tr><td style=\"white-space:nowrap\">REO<a name=\"en-ihe-france-pam-discharge-disposition-cs-REO\"> </a></td><td>Réorientation</td><td>Réorientation.</td></tr><tr><td style=\"white-space:nowrap\">PSA<a name=\"en-ihe-france-pam-discharge-disposition-cs-PSA\"> </a></td><td>Patient parti sans attendre les soins</td><td>Patient parti sans attendre les soins.</td></tr></table></div>"
+  },
+  "url" : "https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-discharge-disposition-cs",
+  "version" : "0.1.0",
+  "name" : "IHEFrancePamDischargeDispositionCS",
+  "title" : "IHE France PAM Discharge Disposition CodeSystem",
+  "status" : "draft",
+  "experimental" : false,
+  "date" : "2026-10-20T11:55:56+00:00",
+  "publisher" : "IHE France",
+  "contact" : [{
+    "name" : "IHE France",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://www.ihe-france.org"
+    }]
+  },
+  {
+    "name" : "IHE France",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://www.ihe-france.org",
+      "use" : "work"
+    }]
+  }],
+  "description" : "Circonstance de sortie (PV1-36, table HL7 0112). Table définie par l'utilisateur.",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR",
+      "display" : "France (la)"
+    }]
+  }],
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 14,
+  "concept" : [{
+    "code" : "2",
+    "display" : "Mesures disciplinaires",
+    "definition" : "Mesures disciplinaires."
+  },
+  {
+    "code" : "3",
+    "display" : "Décision médicale",
+    "definition" : "Décision médicale (valeur par défaut)."
+  },
+  {
+    "code" : "4",
+    "display" : "Contre avis médical",
+    "definition" : "Contre avis médical."
+  },
+  {
+    "code" : "5",
+    "display" : "En attente d'examen",
+    "definition" : "En attente d'examen."
+  },
+  {
+    "code" : "6",
+    "display" : "Convenances personnelles",
+    "definition" : "Convenances personnelles."
+  },
+  {
+    "code" : "R",
+    "display" : "Essai",
+    "definition" : "Essai (contexte psychiatrique)."
+  },
+  {
+    "code" : "E",
+    "display" : "Évasion",
+    "definition" : "Évasion."
+  },
+  {
+    "code" : "F",
+    "display" : "Fugue",
+    "definition" : "Fugue."
+  },
+  {
+    "code" : "A",
+    "display" : "Absence",
+    "definition" : "Absence de moins de 12 heures."
+  },
+  {
+    "code" : "P",
+    "display" : "Permission",
+    "definition" : "Permission de moins de 72 heures."
+  },
+  {
+    "code" : "S",
+    "display" : "Sortie avec programme de soins",
+    "definition" : "Sortie avec programme de soins."
+  },
+  {
+    "code" : "B",
+    "display" : "Départ vers MCO",
+    "definition" : "Départ vers MCO."
+  },
+  {
+    "code" : "REO",
+    "display" : "Réorientation",
+    "definition" : "Réorientation."
+  },
+  {
+    "code" : "PSA",
+    "display" : "Patient parti sans attendre les soins",
+    "definition" : "Patient parti sans attendre les soins."
+  }]
+}

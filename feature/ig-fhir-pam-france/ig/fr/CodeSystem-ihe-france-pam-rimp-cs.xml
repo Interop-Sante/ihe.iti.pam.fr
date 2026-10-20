@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="ihe-france-pam-rimp-cs"/>
+  <language value="fr"/>
+  <text>
+    <status value="generated"/><div xml:lang="fr" lang="fr"><hr/><p><b>French</b></p><hr/><p class="res-header-id"><b>Narratif généré : CodeSystem ihe-france-pam-rimp-cs</b></p><a name="ihe-france-pam-rimp-cs"> </a><a name="hcihe-france-pam-rimp-cs"> </a><p>This case-sensitive code system <code>https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-rimp-cs</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Affichage</b></td><td><b>Définition</b></td></tr><tr><td style="white-space:nowrap">1<a name="ihe-france-pam-rimp-cs-1"> </a></td><td>Soins psychiatriques libres</td><td>Soins psychiatriques libres.</td></tr><tr><td style="white-space:nowrap">3<a name="ihe-france-pam-rimp-cs-3"> </a></td><td>Soins psychiatriques sur décision du représentant de l'État</td><td>Soins psychiatriques sur décision du représentant de l'État.</td></tr><tr><td style="white-space:nowrap">4<a name="ihe-france-pam-rimp-cs-4"> </a></td><td>Personnes jugées pénalement irresponsables</td><td>Article 706-135 du code de procédure pénale et article L3213-7 du code de la santé publique.</td></tr><tr><td style="white-space:nowrap">5<a name="ihe-france-pam-rimp-cs-5"> </a></td><td>Ordonnance provisoire de placement</td><td>Ordonnance provisoire de placement.</td></tr><tr><td style="white-space:nowrap">6<a name="ihe-france-pam-rimp-cs-6"> </a></td><td>Détenus</td><td>Article D398 du code de procédure pénale.</td></tr><tr><td style="white-space:nowrap">7<a name="ihe-france-pam-rimp-cs-7"> </a></td><td>Soins psychiatriques à la demande d'un tiers</td><td>Soins à la demande d'un tiers (deux certificats), ou en urgence (un certificat).</td></tr><tr><td style="white-space:nowrap">8<a name="ihe-france-pam-rimp-cs-8"> </a></td><td>Soins psychiatriques pour péril imminent</td><td>Soins psychiatriques pour péril imminent, un certificat, sans tiers.</td></tr></table></div>
+  </text>
+  <url value="https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-rimp-cs"/>
+  <version value="0.1.0"/>
+  <name value="IHEFrancePamRimpCS"/>
+  <title value="IHE France PAM RIM-P Legal Care Code CodeSystem"/>
+  <status value="draft"/>
+  <experimental value="false"/>
+  <date value="2026-10-20T11:55:56+00:00"/>
+  <publisher value="IHE France"/>
+  <contact>
+    <name value="IHE France"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.ihe-france.org"/>
+    </telecom>
+  </contact>
+  <contact>
+    <name value="IHE France"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.ihe-france.org"/>
+      <use value="work"/>
+    </telecom>
+  </contact>
+  <description value="Code RIM-P du mode légal de soins (ZFS-7, table IHE-FRANCE-ZFS-7)."/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="FR"/>
+      <display value="France (la)"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="7"/>
+  <concept>
+    <code value="1"/>
+    <display value="Soins psychiatriques libres"/>
+    <definition value="Soins psychiatriques libres."/>
+  </concept>
+  <concept>
+    <code value="3"/>
+    <display value="Soins psychiatriques sur décision du représentant de l'État"/>
+    <definition value="Soins psychiatriques sur décision du représentant de l'État."/>
+  </concept>
+  <concept>
+    <code value="4"/>
+    <display value="Personnes jugées pénalement irresponsables"/>
+    <definition value="Article 706-135 du code de procédure pénale et article L3213-7 du code de la santé publique."/>
+  </concept>
+  <concept>
+    <code value="5"/>
+    <display value="Ordonnance provisoire de placement"/>
+    <definition value="Ordonnance provisoire de placement."/>
+  </concept>
+  <concept>
+    <code value="6"/>
+    <display value="Détenus"/>
+    <definition value="Article D398 du code de procédure pénale."/>
+  </concept>
+  <concept>
+    <code value="7"/>
+    <display value="Soins psychiatriques à la demande d'un tiers"/>
+    <definition value="Soins à la demande d'un tiers (deux certificats), ou en urgence (un certificat)."/>
+  </concept>
+  <concept>
+    <code value="8"/>
+    <display value="Soins psychiatriques pour péril imminent"/>
+    <definition value="Soins psychiatriques pour péril imminent, un certificat, sans tiers."/>
+  </concept>
+</CodeSystem>

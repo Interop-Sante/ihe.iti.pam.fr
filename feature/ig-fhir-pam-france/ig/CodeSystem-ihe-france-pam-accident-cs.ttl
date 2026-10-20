@@ -1,0 +1,107 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-accident-cs> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:Resource.id [ fhir:value "ihe-france-pam-accident-cs"] ;
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ] ;
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div xml:lang=\"fr\" lang=\"fr\"><hr/><p><b>French</b></p><hr/><p class=\"res-header-id\"><b>Narratif généré : CodeSystem ihe-france-pam-accident-cs</b></p><a name=\"ihe-france-pam-accident-cs\"> </a><a name=\"hcihe-france-pam-accident-cs\"> </a><p>This case-sensitive code system <code>https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-accident-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Affichage</b></td><td><b>Définition</b></td></tr><tr><td style=\"white-space:nowrap\">P<a name=\"ihe-france-pam-accident-cs-P\"> </a></td><td>Accident voie publique</td><td>Accident de la voie publique.</td></tr><tr><td style=\"white-space:nowrap\">T<a name=\"ihe-france-pam-accident-cs-T\"> </a></td><td>Accident du travail</td><td>Accident du travail.</td></tr><tr><td style=\"white-space:nowrap\">D<a name=\"ihe-france-pam-accident-cs-D\"> </a></td><td>Accident domestique</td><td>Accident domestique.</td></tr><tr><td style=\"white-space:nowrap\">S<a name=\"ihe-france-pam-accident-cs-S\"> </a></td><td>Accident de sport</td><td>Accident de sport.</td></tr><tr><td style=\"white-space:nowrap\">J<a name=\"ihe-france-pam-accident-cs-J\"> </a></td><td>Accident de trajet</td><td>Accident de trajet.</td></tr><tr><td style=\"white-space:nowrap\">C<a name=\"ihe-france-pam-accident-cs-C\"> </a></td><td>Coups et blessures</td><td>Coups et blessures.</td></tr><tr><td style=\"white-space:nowrap\">L<a name=\"ihe-france-pam-accident-cs-L\"> </a></td><td>Accident scolaire</td><td>Accident scolaire.</td></tr><tr><td style=\"white-space:nowrap\">B<a name=\"ihe-france-pam-accident-cs-B\"> </a></td><td>Plan blanc</td><td>Plan blanc.</td></tr><tr><td style=\"white-space:nowrap\">U<a name=\"ihe-france-pam-accident-cs-U\"> </a></td><td>Nature d'accident inconnue</td><td>Nature de l'accident inconnue.</td></tr></table></div><div xml:lang=\"en\" lang=\"en\"><hr/><p><b>English</b></p><hr/><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem ihe-france-pam-accident-cs</b></p><a name=\"en-ihe-france-pam-accident-cs\"> </a><a name=\"en-hcihe-france-pam-accident-cs\"> </a><p>This case-sensitive code system <code>https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-accident-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">P<a name=\"en-ihe-france-pam-accident-cs-P\"> </a></td><td>Accident voie publique</td><td>Accident de la voie publique.</td></tr><tr><td style=\"white-space:nowrap\">T<a name=\"en-ihe-france-pam-accident-cs-T\"> </a></td><td>Accident du travail</td><td>Accident du travail.</td></tr><tr><td style=\"white-space:nowrap\">D<a name=\"en-ihe-france-pam-accident-cs-D\"> </a></td><td>Accident domestique</td><td>Accident domestique.</td></tr><tr><td style=\"white-space:nowrap\">S<a name=\"en-ihe-france-pam-accident-cs-S\"> </a></td><td>Accident de sport</td><td>Accident de sport.</td></tr><tr><td style=\"white-space:nowrap\">J<a name=\"en-ihe-france-pam-accident-cs-J\"> </a></td><td>Accident de trajet</td><td>Accident de trajet.</td></tr><tr><td style=\"white-space:nowrap\">C<a name=\"en-ihe-france-pam-accident-cs-C\"> </a></td><td>Coups et blessures</td><td>Coups et blessures.</td></tr><tr><td style=\"white-space:nowrap\">L<a name=\"en-ihe-france-pam-accident-cs-L\"> </a></td><td>Accident scolaire</td><td>Accident scolaire.</td></tr><tr><td style=\"white-space:nowrap\">B<a name=\"en-ihe-france-pam-accident-cs-B\"> </a></td><td>Plan blanc</td><td>Plan blanc.</td></tr><tr><td style=\"white-space:nowrap\">U<a name=\"en-ihe-france-pam-accident-cs-U\"> </a></td><td>Nature d'accident inconnue</td><td>Nature de l'accident inconnue.</td></tr></table></div></div>"
+  ] ;
+  fhir:CodeSystem.url [ fhir:value "https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-accident-cs"] ;
+  fhir:CodeSystem.version [ fhir:value "0.1.0"] ;
+  fhir:CodeSystem.name [ fhir:value "IHEFrancePamAccidentCS"] ;
+  fhir:CodeSystem.title [ fhir:value "IHE France PAM Accident Code CodeSystem"] ;
+  fhir:CodeSystem.status [ fhir:value "draft"] ;
+  fhir:CodeSystem.experimental [ fhir:value "false"^^xsd:boolean] ;
+  fhir:CodeSystem.date [ fhir:value "2026-10-20T11:55:56+00:00"^^xsd:dateTime] ;
+  fhir:CodeSystem.publisher [ fhir:value "IHE France"] ;
+  fhir:CodeSystem.contact [
+     fhir:index 0 ;
+     fhir:ContactDetail.name [ fhir:value "IHE France" ] ;
+     fhir:ContactDetail.telecom [
+       fhir:index 0 ;
+       fhir:ContactPoint.system [ fhir:value "url" ] ;
+       fhir:ContactPoint.value [ fhir:value "https://www.ihe-france.org" ]
+     ]
+  ], [
+     fhir:index 1 ;
+     fhir:ContactDetail.name [ fhir:value "IHE France" ] ;
+     fhir:ContactDetail.telecom [
+       fhir:index 0 ;
+       fhir:ContactPoint.system [ fhir:value "url" ] ;
+       fhir:ContactPoint.value [ fhir:value "https://www.ihe-france.org" ] ;
+       fhir:ContactPoint.use [ fhir:value "work" ]
+     ]
+  ] ;
+  fhir:CodeSystem.description [ fhir:value "Nature de l'accident (ACC-2, table HL7 0050)."] ;
+  fhir:CodeSystem.jurisdiction [
+     fhir:index 0 ;
+     fhir:CodeableConcept.coding [
+       fhir:index 0 ;
+       fhir:Coding.system [ fhir:value "urn:iso:std:iso:3166" ] ;
+       fhir:Coding.code [ fhir:value "FR" ] ;
+       fhir:Coding.display [ fhir:value "France (la)" ]
+     ]
+  ] ;
+  fhir:CodeSystem.caseSensitive [ fhir:value "true"^^xsd:boolean] ;
+  fhir:CodeSystem.content [ fhir:value "complete"] ;
+  fhir:CodeSystem.count [ fhir:value "9"^^xsd:nonNegativeInteger] ;
+  fhir:CodeSystem.concept [
+     fhir:index 0 ;
+     fhir:CodeSystem.concept.code [ fhir:value "P" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Accident voie publique" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Accident de la voie publique." ]
+  ], [
+     fhir:index 1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "T" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Accident du travail" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Accident du travail." ]
+  ], [
+     fhir:index 2 ;
+     fhir:CodeSystem.concept.code [ fhir:value "D" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Accident domestique" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Accident domestique." ]
+  ], [
+     fhir:index 3 ;
+     fhir:CodeSystem.concept.code [ fhir:value "S" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Accident de sport" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Accident de sport." ]
+  ], [
+     fhir:index 4 ;
+     fhir:CodeSystem.concept.code [ fhir:value "J" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Accident de trajet" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Accident de trajet." ]
+  ], [
+     fhir:index 5 ;
+     fhir:CodeSystem.concept.code [ fhir:value "C" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Coups et blessures" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Coups et blessures." ]
+  ], [
+     fhir:index 6 ;
+     fhir:CodeSystem.concept.code [ fhir:value "L" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Accident scolaire" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Accident scolaire." ]
+  ], [
+     fhir:index 7 ;
+     fhir:CodeSystem.concept.code [ fhir:value "B" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Plan blanc" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Plan blanc." ]
+  ], [
+     fhir:index 8 ;
+     fhir:CodeSystem.concept.code [ fhir:value "U" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Nature d'accident inconnue" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Nature de l'accident inconnue." ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-accident-cs.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

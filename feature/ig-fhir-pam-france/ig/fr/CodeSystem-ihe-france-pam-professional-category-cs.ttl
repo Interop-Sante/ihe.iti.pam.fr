@@ -1,0 +1,273 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-professional-category-cs> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:Resource.id [ fhir:value "ihe-france-pam-professional-category-cs"] ;
+  fhir:Resource.language [ fhir:value "fr"] ;
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ] ;
+     fhir:Narrative.div "<div xml:lang=\"fr\" lang=\"fr\"><hr/><p><b>French</b></p><hr/><p class=\"res-header-id\"><b>Narratif généré : CodeSystem ihe-france-pam-professional-category-cs</b></p><a name=\"ihe-france-pam-professional-category-cs\"> </a><a name=\"hcihe-france-pam-professional-category-cs\"> </a><p>This case-sensitive code system <code>https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-professional-category-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Affichage</b></td><td><b>Définition</b></td></tr><tr><td style=\"white-space:nowrap\">11<a name=\"ihe-france-pam-professional-category-cs-11\"> </a></td><td>Agriculteurs sur petite exploitation</td><td>Agriculteurs sur petite exploitation.</td></tr><tr><td style=\"white-space:nowrap\">12<a name=\"ihe-france-pam-professional-category-cs-12\"> </a></td><td>Agriculteurs sur moyenne exploitation</td><td>Agriculteurs sur moyenne exploitation.</td></tr><tr><td style=\"white-space:nowrap\">13<a name=\"ihe-france-pam-professional-category-cs-13\"> </a></td><td>Agriculteurs sur grande exploitation</td><td>Agriculteurs sur grande exploitation.</td></tr><tr><td style=\"white-space:nowrap\">21<a name=\"ihe-france-pam-professional-category-cs-21\"> </a></td><td>Artisans</td><td>Artisans.</td></tr><tr><td style=\"white-space:nowrap\">22<a name=\"ihe-france-pam-professional-category-cs-22\"> </a></td><td>Commerçants et assimilés</td><td>Commerçants et assimilés.</td></tr><tr><td style=\"white-space:nowrap\">23<a name=\"ihe-france-pam-professional-category-cs-23\"> </a></td><td>Chefs d'entreprise de 10 salariés ou plus</td><td>Chefs d'entreprise de 10 salariés ou plus.</td></tr><tr><td style=\"white-space:nowrap\">31<a name=\"ihe-france-pam-professional-category-cs-31\"> </a></td><td>Professions libérales</td><td>Professions libérales.</td></tr><tr><td style=\"white-space:nowrap\">33<a name=\"ihe-france-pam-professional-category-cs-33\"> </a></td><td>Cadres de la fonction publique</td><td>Cadres de la fonction publique.</td></tr><tr><td style=\"white-space:nowrap\">34<a name=\"ihe-france-pam-professional-category-cs-34\"> </a></td><td>Professeurs, professions scientifiques</td><td>Professeurs, professions scientifiques.</td></tr><tr><td style=\"white-space:nowrap\">35<a name=\"ihe-france-pam-professional-category-cs-35\"> </a></td><td>Professions de l'information, des arts et des spectacles</td><td>Professions de l'information, des arts et des spectacles.</td></tr><tr><td style=\"white-space:nowrap\">37<a name=\"ihe-france-pam-professional-category-cs-37\"> </a></td><td>Cadres administratifs et commerciaux d'entreprise</td><td>Cadres administratifs et commerciaux d'entreprise.</td></tr><tr><td style=\"white-space:nowrap\">38<a name=\"ihe-france-pam-professional-category-cs-38\"> </a></td><td>Ingénieurs et cadres techniques d'entreprise</td><td>Ingénieurs et cadres techniques d'entreprise.</td></tr><tr><td style=\"white-space:nowrap\">42<a name=\"ihe-france-pam-professional-category-cs-42\"> </a></td><td>Professeurs des écoles, instituteurs et assimilés</td><td>Professeurs des écoles, instituteurs et assimilés.</td></tr><tr><td style=\"white-space:nowrap\">43<a name=\"ihe-france-pam-professional-category-cs-43\"> </a></td><td>Professions intermédiaires de la santé et du travail social</td><td>Professions intermédiaires de la santé et du travail social.</td></tr><tr><td style=\"white-space:nowrap\">44<a name=\"ihe-france-pam-professional-category-cs-44\"> </a></td><td>Clergé, religieux</td><td>Clergé, religieux.</td></tr><tr><td style=\"white-space:nowrap\">45<a name=\"ihe-france-pam-professional-category-cs-45\"> </a></td><td>Professions intermédiaires administratives de la fonction publique</td><td>Professions intermédiaires administratives de la fonction publique.</td></tr><tr><td style=\"white-space:nowrap\">46<a name=\"ihe-france-pam-professional-category-cs-46\"> </a></td><td>Professions intermédiaires administratives et commerciales des entreprises</td><td>Professions intermédiaires administratives et commerciales des entreprises.</td></tr><tr><td style=\"white-space:nowrap\">47<a name=\"ihe-france-pam-professional-category-cs-47\"> </a></td><td>Techniciens</td><td>Techniciens.</td></tr><tr><td style=\"white-space:nowrap\">48<a name=\"ihe-france-pam-professional-category-cs-48\"> </a></td><td>Contremaîtres, agents de maîtrise</td><td>Contremaîtres, agents de maîtrise.</td></tr><tr><td style=\"white-space:nowrap\">52<a name=\"ihe-france-pam-professional-category-cs-52\"> </a></td><td>Employés civils et agents de service de la fonction publique</td><td>Employés civils et agents de service de la fonction publique.</td></tr><tr><td style=\"white-space:nowrap\">53<a name=\"ihe-france-pam-professional-category-cs-53\"> </a></td><td>Policiers et militaires</td><td>Policiers et militaires.</td></tr><tr><td style=\"white-space:nowrap\">54<a name=\"ihe-france-pam-professional-category-cs-54\"> </a></td><td>Employés administratifs d'entreprise</td><td>Employés administratifs d'entreprise.</td></tr><tr><td style=\"white-space:nowrap\">55<a name=\"ihe-france-pam-professional-category-cs-55\"> </a></td><td>Employés de commerce</td><td>Employés de commerce.</td></tr><tr><td style=\"white-space:nowrap\">56<a name=\"ihe-france-pam-professional-category-cs-56\"> </a></td><td>Personnels des services directs aux particuliers</td><td>Personnels des services directs aux particuliers.</td></tr><tr><td style=\"white-space:nowrap\">62<a name=\"ihe-france-pam-professional-category-cs-62\"> </a></td><td>Ouvriers qualifiés de type industriel</td><td>Ouvriers qualifiés de type industriel.</td></tr><tr><td style=\"white-space:nowrap\">63<a name=\"ihe-france-pam-professional-category-cs-63\"> </a></td><td>Ouvriers qualifiés de type artisanal</td><td>Ouvriers qualifiés de type artisanal.</td></tr><tr><td style=\"white-space:nowrap\">64<a name=\"ihe-france-pam-professional-category-cs-64\"> </a></td><td>Chauffeurs</td><td>Chauffeurs.</td></tr><tr><td style=\"white-space:nowrap\">65<a name=\"ihe-france-pam-professional-category-cs-65\"> </a></td><td>Ouvriers qualifiés de la manutention, du magasinage et du transport</td><td>Ouvriers qualifiés de la manutention, du magasinage et du transport.</td></tr><tr><td style=\"white-space:nowrap\">67<a name=\"ihe-france-pam-professional-category-cs-67\"> </a></td><td>Ouvriers non qualifiés de type industriel</td><td>Ouvriers non qualifiés de type industriel.</td></tr><tr><td style=\"white-space:nowrap\">68<a name=\"ihe-france-pam-professional-category-cs-68\"> </a></td><td>Ouvriers non qualifiés de type artisanal</td><td>Ouvriers non qualifiés de type artisanal.</td></tr><tr><td style=\"white-space:nowrap\">69<a name=\"ihe-france-pam-professional-category-cs-69\"> </a></td><td>Ouvriers agricoles</td><td>Ouvriers agricoles.</td></tr><tr><td style=\"white-space:nowrap\">71<a name=\"ihe-france-pam-professional-category-cs-71\"> </a></td><td>Anciens agriculteurs exploitants</td><td>Anciens agriculteurs exploitants.</td></tr><tr><td style=\"white-space:nowrap\">72<a name=\"ihe-france-pam-professional-category-cs-72\"> </a></td><td>Anciens artisans, commerçants, chefs d'entreprise</td><td>Anciens artisans, commerçants, chefs d'entreprise.</td></tr><tr><td style=\"white-space:nowrap\">74<a name=\"ihe-france-pam-professional-category-cs-74\"> </a></td><td>Anciens cadres</td><td>Anciens cadres.</td></tr><tr><td style=\"white-space:nowrap\">75<a name=\"ihe-france-pam-professional-category-cs-75\"> </a></td><td>Anciennes professions intermédiaires</td><td>Anciennes professions intermédiaires.</td></tr><tr><td style=\"white-space:nowrap\">77<a name=\"ihe-france-pam-professional-category-cs-77\"> </a></td><td>Anciens employés</td><td>Anciens employés.</td></tr><tr><td style=\"white-space:nowrap\">78<a name=\"ihe-france-pam-professional-category-cs-78\"> </a></td><td>Anciens ouvriers</td><td>Anciens ouvriers.</td></tr><tr><td style=\"white-space:nowrap\">81<a name=\"ihe-france-pam-professional-category-cs-81\"> </a></td><td>Chômeurs n'ayant jamais travaillé</td><td>Chômeurs n'ayant jamais travaillé.</td></tr><tr><td style=\"white-space:nowrap\">83<a name=\"ihe-france-pam-professional-category-cs-83\"> </a></td><td>Militaires du contingent</td><td>Militaires du contingent.</td></tr><tr><td style=\"white-space:nowrap\">84<a name=\"ihe-france-pam-professional-category-cs-84\"> </a></td><td>Élèves, étudiants</td><td>Élèves, étudiants.</td></tr><tr><td style=\"white-space:nowrap\">85<a name=\"ihe-france-pam-professional-category-cs-85\"> </a></td><td>Personnes diverses sans activité professionnelle de moins de 60 ans (sauf retraités)</td><td>Personnes diverses sans activité professionnelle de moins de 60 ans (sauf retraités).</td></tr><tr><td style=\"white-space:nowrap\">86<a name=\"ihe-france-pam-professional-category-cs-86\"> </a></td><td>Personnes diverses sans activité professionnelle de 60 ans et plus (sauf retraités)</td><td>Personnes diverses sans activité professionnelle de 60 ans et plus (sauf retraités).</td></tr></table></div>"
+  ] ;
+  fhir:CodeSystem.url [ fhir:value "https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-professional-category-cs"] ;
+  fhir:CodeSystem.version [ fhir:value "0.1.0"] ;
+  fhir:CodeSystem.name [ fhir:value "IHEFrancePamProfessionalCategoryCS"] ;
+  fhir:CodeSystem.title [ fhir:value "IHE France PAM Professional Category CodeSystem"] ;
+  fhir:CodeSystem.status [ fhir:value "draft"] ;
+  fhir:CodeSystem.experimental [ fhir:value "false"^^xsd:boolean] ;
+  fhir:CodeSystem.date [ fhir:value "2026-10-20T11:55:56+00:00"^^xsd:dateTime] ;
+  fhir:CodeSystem.publisher [ fhir:value "IHE France"] ;
+  fhir:CodeSystem.contact [
+     fhir:index -1 ;
+     fhir:ContactDetail.name [ fhir:value "IHE France" ] ;
+     fhir:ContactDetail.telecom [
+       fhir:index -1 ;
+       fhir:ContactPoint.system [ fhir:value "url" ] ;
+       fhir:ContactPoint.value [ fhir:value "https://www.ihe-france.org" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:ContactDetail.name [ fhir:value "IHE France" ] ;
+     fhir:ContactDetail.telecom [
+       fhir:index -1 ;
+       fhir:ContactPoint.system [ fhir:value "url" ] ;
+       fhir:ContactPoint.value [ fhir:value "https://www.ihe-france.org" ] ;
+       fhir:ContactPoint.use [ fhir:value "work" ]
+     ]
+  ] ;
+  fhir:CodeSystem.description [ fhir:value "Catégorie socioprofessionnelle (ZFP-2, nomenclature PCS 2003 de l'INSEE)."] ;
+  fhir:CodeSystem.jurisdiction [
+     fhir:index -1 ;
+     fhir:CodeableConcept.coding [
+       fhir:index -1 ;
+       fhir:Coding.system [ fhir:value "urn:iso:std:iso:3166" ] ;
+       fhir:Coding.code [ fhir:value "FR" ] ;
+       fhir:Coding.display [ fhir:value "France (la)" ]
+     ]
+  ] ;
+  fhir:CodeSystem.caseSensitive [ fhir:value "true"^^xsd:boolean] ;
+  fhir:CodeSystem.content [ fhir:value "complete"] ;
+  fhir:CodeSystem.count [ fhir:value "42"^^xsd:nonNegativeInteger] ;
+  fhir:CodeSystem.concept [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "11" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Agriculteurs sur petite exploitation" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Agriculteurs sur petite exploitation." ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "12" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Agriculteurs sur moyenne exploitation" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Agriculteurs sur moyenne exploitation." ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "13" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Agriculteurs sur grande exploitation" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Agriculteurs sur grande exploitation." ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "21" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Artisans" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Artisans." ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "22" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Commerçants et assimilés" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Commerçants et assimilés." ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "23" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Chefs d'entreprise de 10 salariés ou plus" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Chefs d'entreprise de 10 salariés ou plus." ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "31" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Professions libérales" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Professions libérales." ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "33" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Cadres de la fonction publique" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Cadres de la fonction publique." ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "34" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Professeurs, professions scientifiques" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Professeurs, professions scientifiques." ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "35" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Professions de l'information, des arts et des spectacles" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Professions de l'information, des arts et des spectacles." ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "37" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Cadres administratifs et commerciaux d'entreprise" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Cadres administratifs et commerciaux d'entreprise." ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "38" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Ingénieurs et cadres techniques d'entreprise" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Ingénieurs et cadres techniques d'entreprise." ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "42" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Professeurs des écoles, instituteurs et assimilés" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Professeurs des écoles, instituteurs et assimilés." ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "43" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Professions intermédiaires de la santé et du travail social" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Professions intermédiaires de la santé et du travail social." ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "44" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Clergé, religieux" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Clergé, religieux." ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "45" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Professions intermédiaires administratives de la fonction publique" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Professions intermédiaires administratives de la fonction publique." ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "46" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Professions intermédiaires administratives et commerciales des entreprises" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Professions intermédiaires administratives et commerciales des entreprises." ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "47" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Techniciens" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Techniciens." ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "48" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Contremaîtres, agents de maîtrise" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Contremaîtres, agents de maîtrise." ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "52" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Employés civils et agents de service de la fonction publique" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Employés civils et agents de service de la fonction publique." ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "53" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Policiers et militaires" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Policiers et militaires." ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "54" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Employés administratifs d'entreprise" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Employés administratifs d'entreprise." ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "55" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Employés de commerce" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Employés de commerce." ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "56" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Personnels des services directs aux particuliers" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Personnels des services directs aux particuliers." ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "62" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Ouvriers qualifiés de type industriel" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Ouvriers qualifiés de type industriel." ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "63" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Ouvriers qualifiés de type artisanal" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Ouvriers qualifiés de type artisanal." ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "64" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Chauffeurs" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Chauffeurs." ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "65" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Ouvriers qualifiés de la manutention, du magasinage et du transport" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Ouvriers qualifiés de la manutention, du magasinage et du transport." ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "67" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Ouvriers non qualifiés de type industriel" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Ouvriers non qualifiés de type industriel." ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "68" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Ouvriers non qualifiés de type artisanal" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Ouvriers non qualifiés de type artisanal." ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "69" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Ouvriers agricoles" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Ouvriers agricoles." ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "71" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Anciens agriculteurs exploitants" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Anciens agriculteurs exploitants." ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "72" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Anciens artisans, commerçants, chefs d'entreprise" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Anciens artisans, commerçants, chefs d'entreprise." ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "74" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Anciens cadres" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Anciens cadres." ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "75" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Anciennes professions intermédiaires" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Anciennes professions intermédiaires." ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "77" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Anciens employés" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Anciens employés." ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "78" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Anciens ouvriers" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Anciens ouvriers." ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "81" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Chômeurs n'ayant jamais travaillé" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Chômeurs n'ayant jamais travaillé." ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "83" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Militaires du contingent" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Militaires du contingent." ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "84" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Élèves, étudiants" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Élèves, étudiants." ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "85" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Personnes diverses sans activité professionnelle de moins de 60 ans (sauf retraités)" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Personnes diverses sans activité professionnelle de moins de 60 ans (sauf retraités)." ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "86" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Personnes diverses sans activité professionnelle de 60 ans et plus (sauf retraités)" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Personnes diverses sans activité professionnelle de 60 ans et plus (sauf retraités)." ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-professional-category-cs.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

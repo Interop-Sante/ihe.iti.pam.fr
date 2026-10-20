@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Encounter xmlns="http://hl7.org/fhir">
+  <id value="example-ihe-france-pam-encounter"/>
+  <meta>
+    <profile value="https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-encounter"/>
+  </meta>
+  <text>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><div xml:lang="fr" lang="fr"><hr/><p><b>French</b></p><hr/><p class="res-header-id"><b>Narratif généré : Venue example-ihe-france-pam-encounter</b></p><a name="example-ihe-france-pam-encounter"> </a><a name="hcexample-ihe-france-pam-encounter"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px"/><p style="margin-bottom: 0px">Profil: <a href="StructureDefinition-ihe-france-pam-encounter.html">IHE France PAM Encounter</a></p></div><p><b>IHE France PAM Patient Class</b>: I</p><p><b>IHE France PAM Movement Identifier</b>: <code>urn:example:movement-id</code>/1</p><p><b>IHE France PAM Administrative Number</b>: <code>urn:example:account-number</code>/405660</p><p><b>IHE France PAM Medical Responsibility Unit</b>: <code>urn:example:uf</code>/6000</p><p><b>IHE France PAM Care Responsibility Unit</b>: <code>urn:example:uf</code>/6001</p><p><b>IHE France PAM Movement Action</b>: INSERT</p><p><b>IHE France PAM Historic Movement Indicator</b>: false</p><p><b>IHE France PAM Origin Event Code</b>: A01</p><p><b>IHE France PAM Movement Nature</b>: <span title="Codes :{https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-movement-nature-cs HMS}">Trois responsabilités</span></p><p><b>IHE France PAM Planned Start</b>: 2025-02-03 09:00:00+0100</p><p><b>IHE France PAM Planned End</b>: 2025-02-10 10:00:00+0100</p><p><b>IHE France PAM Venue Protection</b>: false</p><blockquote><p><b>IHE France PAM Encounter Supplement</b></p><ul><li>transportCare: AUCUN</li></ul></blockquote><blockquote><p><b>IHE France PAM PMSI Movement</b></p><ul><li>entryMode: 8</li></ul></blockquote><p><b>IHE France PAM Accident Nature</b>: <span title="Codes :{https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-accident-cs D}">Accident domestique</span></p><p><b>identifier</b>: Numéro de venue/000897406</p><p><b>status</b>: In Progress</p><p><b>class</b>: <a href="http://terminology.hl7.org/7.4.0/CodeSystem-v3-ActCode.html#v3-ActCode-IMP">ActCode: IMP</a> (inpatient encounter)</p><p><b>subject</b>: <a href="Patient-example-ihe-france-pam-patient.html">JEANNE MARIE-CECILE DARK  Female, Date de Naissance :1960-05-30 ( IPP: 1900068)</a></p><p><b>period</b>: 2025-02-03 09:00:00+0100 --&gt; (en cours)</p></div><div xml:lang="en" lang="en"><hr/><p><b>English</b></p><hr/><p class="res-header-id"><b>Generated Narrative: Encounter example-ihe-france-pam-encounter</b></p><a name="en-example-ihe-france-pam-encounter"> </a><a name="en-hcexample-ihe-france-pam-encounter"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px"/><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-ihe-france-pam-encounter.html">IHE France PAM Encounter</a></p></div><p><b>IHE France PAM Patient Class</b>: I</p><p><b>IHE France PAM Movement Identifier</b>: <code>urn:example:movement-id</code>/1</p><p><b>IHE France PAM Administrative Number</b>: <code>urn:example:account-number</code>/405660</p><p><b>IHE France PAM Medical Responsibility Unit</b>: <code>urn:example:uf</code>/6000</p><p><b>IHE France PAM Care Responsibility Unit</b>: <code>urn:example:uf</code>/6001</p><p><b>IHE France PAM Movement Action</b>: INSERT</p><p><b>IHE France PAM Historic Movement Indicator</b>: false</p><p><b>IHE France PAM Origin Event Code</b>: A01</p><p><b>IHE France PAM Movement Nature</b>: <span title="Codes:{https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-movement-nature-cs HMS}">Trois responsabilités</span></p><p><b>IHE France PAM Planned Start</b>: 2025-02-03 09:00:00+0100</p><p><b>IHE France PAM Planned End</b>: 2025-02-10 10:00:00+0100</p><p><b>IHE France PAM Venue Protection</b>: false</p><blockquote><p><b>IHE France PAM Encounter Supplement</b></p><ul><li>transportCare: AUCUN</li></ul></blockquote><blockquote><p><b>IHE France PAM PMSI Movement</b></p><ul><li>entryMode: 8</li></ul></blockquote><p><b>IHE France PAM Accident Nature</b>: <span title="Codes:{https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-accident-cs D}">Accident domestique</span></p><p><b>identifier</b>: Numéro de venue/000897406</p><p><b>status</b>: In Progress</p><p><b>class</b>: <a href="http://terminology.hl7.org/7.4.0/CodeSystem-v3-ActCode.html#v3-ActCode-IMP">ActCode: IMP</a> (inpatient encounter)</p><p><b>subject</b>: <a href="Patient-example-ihe-france-pam-patient.html">JEANNE MARIE-CECILE DARK  Female, DoB: 1960-05-30 ( IPP: 1900068)</a></p><p><b>period</b>: 2025-02-03 09:00:00+0100 --&gt; (ongoing)</p></div></div>
+  </text>
+  <extension url="https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-patient-class">
+    <valueCode value="I"/>
+  </extension>
+  <extension url="https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-movement-identifier">
+    <valueIdentifier>
+      <system value="urn:example:movement-id"/>
+      <value value="1"/>
+    </valueIdentifier>
+  </extension>
+  <extension url="https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-administrative-number">
+    <valueIdentifier>
+      <system value="urn:example:account-number"/>
+      <value value="405660"/>
+    </valueIdentifier>
+  </extension>
+  <extension url="https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-medical-responsibility-unit">
+    <valueIdentifier>
+      <system value="urn:example:uf"/>
+      <value value="6000"/>
+    </valueIdentifier>
+  </extension>
+  <extension url="https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-care-responsibility-unit">
+    <valueIdentifier>
+      <system value="urn:example:uf"/>
+      <value value="6001"/>
+    </valueIdentifier>
+  </extension>
+  <extension url="https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-movement-action">
+    <valueCode value="INSERT"/>
+  </extension>
+  <extension url="https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-historic-movement-indicator">
+    <valueBoolean value="false"/>
+  </extension>
+  <extension url="https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-origin-event-code">
+    <valueCode value="A01"/>
+  </extension>
+  <extension url="https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-movement-nature">
+    <valueCodeableConcept>
+      <coding>
+        <system value="https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-movement-nature-cs"/>
+        <code value="HMS"/>
+        <display value="Trois responsabilités"/>
+      </coding>
+    </valueCodeableConcept>
+  </extension>
+  <extension url="https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-planned-start">
+    <valueDateTime value="2025-02-03T09:00:00+01:00"/>
+  </extension>
+  <extension url="https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-planned-end">
+    <valueDateTime value="2025-02-10T10:00:00+01:00"/>
+  </extension>
+  <extension url="https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-venue-protection">
+    <valueBoolean value="false"/>
+  </extension>
+  <extension url="https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-encounter-supplement">
+    <extension url="transportCare">
+      <valueCode value="AUCUN"/>
+    </extension>
+  </extension>
+  <extension url="https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-pmsi-movement">
+    <extension url="entryMode">
+      <valueCode value="8"/>
+    </extension>
+  </extension>
+  <extension url="https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-accident-nature">
+    <valueCodeableConcept>
+      <coding>
+        <system value="https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-accident-cs"/>
+        <code value="D"/>
+        <display value="Accident domestique"/>
+      </coding>
+    </valueCodeableConcept>
+  </extension>
+  <identifier>
+    <type>
+      <coding>
+        <system value="https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-identifier-type-cs"/>
+        <code value="VN"/>
+      </coding>
+    </type>
+    <system value="urn:example:visit-number"/>
+    <value value="000897406"/>
+  </identifier>
+  <status value="in-progress"/>
+  <class>
+    <system value="http://terminology.hl7.org/CodeSystem/v3-ActCode"/>
+    <code value="IMP"/>
+  </class>
+  <subject>
+    <reference value="Patient/example-ihe-france-pam-patient"/>
+  </subject>
+  <period>
+    <start value="2025-02-03T09:00:00+01:00"/>
+  </period>
+</Encounter>

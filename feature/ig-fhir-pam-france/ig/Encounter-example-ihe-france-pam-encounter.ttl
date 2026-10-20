@@ -1,0 +1,148 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://hl7.fr/ig/v2/pam/Encounter/example-ihe-france-pam-encounter> a fhir:Encounter ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:Resource.id [ fhir:value "example-ihe-france-pam-encounter"] ;
+  fhir:Resource.meta [
+     fhir:Meta.profile [
+       fhir:value "https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-encounter" ;
+       fhir:index 0 ;
+       fhir:link <https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-encounter>
+     ]
+  ] ;
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "extensions" ] ;
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div xml:lang=\"fr\" lang=\"fr\"><hr/><p><b>French</b></p><hr/><p class=\"res-header-id\"><b>Narratif généré : Venue example-ihe-france-pam-encounter</b></p><a name=\"example-ihe-france-pam-encounter\"> </a><a name=\"hcexample-ihe-france-pam-encounter\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profil: <a href=\"StructureDefinition-ihe-france-pam-encounter.html\">IHE France PAM Encounter</a></p></div><p><b>IHE France PAM Patient Class</b>: I</p><p><b>IHE France PAM Movement Identifier</b>: <code>urn:example:movement-id</code>/1</p><p><b>IHE France PAM Administrative Number</b>: <code>urn:example:account-number</code>/405660</p><p><b>IHE France PAM Medical Responsibility Unit</b>: <code>urn:example:uf</code>/6000</p><p><b>IHE France PAM Care Responsibility Unit</b>: <code>urn:example:uf</code>/6001</p><p><b>IHE France PAM Movement Action</b>: INSERT</p><p><b>IHE France PAM Historic Movement Indicator</b>: false</p><p><b>IHE France PAM Origin Event Code</b>: A01</p><p><b>IHE France PAM Movement Nature</b>: <span title=\"Codes :{https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-movement-nature-cs HMS}\">Trois responsabilités</span></p><p><b>IHE France PAM Planned Start</b>: 2025-02-03 09:00:00+0100</p><p><b>IHE France PAM Planned End</b>: 2025-02-10 10:00:00+0100</p><p><b>IHE France PAM Venue Protection</b>: false</p><blockquote><p><b>IHE France PAM Encounter Supplement</b></p><ul><li>transportCare: AUCUN</li></ul></blockquote><blockquote><p><b>IHE France PAM PMSI Movement</b></p><ul><li>entryMode: 8</li></ul></blockquote><p><b>IHE France PAM Accident Nature</b>: <span title=\"Codes :{https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-accident-cs D}\">Accident domestique</span></p><p><b>identifier</b>: Numéro de venue/000897406</p><p><b>status</b>: In Progress</p><p><b>class</b>: <a href=\"http://terminology.hl7.org/7.4.0/CodeSystem-v3-ActCode.html#v3-ActCode-IMP\">ActCode: IMP</a> (inpatient encounter)</p><p><b>subject</b>: <a href=\"Patient-example-ihe-france-pam-patient.html\">JEANNE MARIE-CECILE DARK  Female, Date de Naissance :1960-05-30 ( IPP: 1900068)</a></p><p><b>period</b>: 2025-02-03 09:00:00+0100 --&gt; (en cours)</p></div><div xml:lang=\"en\" lang=\"en\"><hr/><p><b>English</b></p><hr/><p class=\"res-header-id\"><b>Generated Narrative: Encounter example-ihe-france-pam-encounter</b></p><a name=\"en-example-ihe-france-pam-encounter\"> </a><a name=\"en-hcexample-ihe-france-pam-encounter\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-ihe-france-pam-encounter.html\">IHE France PAM Encounter</a></p></div><p><b>IHE France PAM Patient Class</b>: I</p><p><b>IHE France PAM Movement Identifier</b>: <code>urn:example:movement-id</code>/1</p><p><b>IHE France PAM Administrative Number</b>: <code>urn:example:account-number</code>/405660</p><p><b>IHE France PAM Medical Responsibility Unit</b>: <code>urn:example:uf</code>/6000</p><p><b>IHE France PAM Care Responsibility Unit</b>: <code>urn:example:uf</code>/6001</p><p><b>IHE France PAM Movement Action</b>: INSERT</p><p><b>IHE France PAM Historic Movement Indicator</b>: false</p><p><b>IHE France PAM Origin Event Code</b>: A01</p><p><b>IHE France PAM Movement Nature</b>: <span title=\"Codes:{https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-movement-nature-cs HMS}\">Trois responsabilités</span></p><p><b>IHE France PAM Planned Start</b>: 2025-02-03 09:00:00+0100</p><p><b>IHE France PAM Planned End</b>: 2025-02-10 10:00:00+0100</p><p><b>IHE France PAM Venue Protection</b>: false</p><blockquote><p><b>IHE France PAM Encounter Supplement</b></p><ul><li>transportCare: AUCUN</li></ul></blockquote><blockquote><p><b>IHE France PAM PMSI Movement</b></p><ul><li>entryMode: 8</li></ul></blockquote><p><b>IHE France PAM Accident Nature</b>: <span title=\"Codes:{https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-accident-cs D}\">Accident domestique</span></p><p><b>identifier</b>: Numéro de venue/000897406</p><p><b>status</b>: In Progress</p><p><b>class</b>: <a href=\"http://terminology.hl7.org/7.4.0/CodeSystem-v3-ActCode.html#v3-ActCode-IMP\">ActCode: IMP</a> (inpatient encounter)</p><p><b>subject</b>: <a href=\"Patient-example-ihe-france-pam-patient.html\">JEANNE MARIE-CECILE DARK  Female, DoB: 1960-05-30 ( IPP: 1900068)</a></p><p><b>period</b>: 2025-02-03 09:00:00+0100 --&gt; (ongoing)</p></div></div>"
+  ] ;
+  fhir:DomainResource.extension [
+     fhir:index 0 ;
+     fhir:Extension.url [ fhir:value "https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-patient-class" ] ;
+     fhir:Extension.valueCode [ fhir:value "I" ]
+  ], [
+     fhir:index 1 ;
+     fhir:Extension.url [ fhir:value "https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-movement-identifier" ] ;
+     fhir:Extension.valueIdentifier [
+       fhir:Identifier.system [ fhir:value "urn:example:movement-id" ] ;
+       fhir:Identifier.value [ fhir:value "1" ]
+     ]
+  ], [
+     fhir:index 2 ;
+     fhir:Extension.url [ fhir:value "https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-administrative-number" ] ;
+     fhir:Extension.valueIdentifier [
+       fhir:Identifier.system [ fhir:value "urn:example:account-number" ] ;
+       fhir:Identifier.value [ fhir:value "405660" ]
+     ]
+  ], [
+     fhir:index 3 ;
+     fhir:Extension.url [ fhir:value "https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-medical-responsibility-unit" ] ;
+     fhir:Extension.valueIdentifier [
+       fhir:Identifier.system [ fhir:value "urn:example:uf" ] ;
+       fhir:Identifier.value [ fhir:value "6000" ]
+     ]
+  ], [
+     fhir:index 4 ;
+     fhir:Extension.url [ fhir:value "https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-care-responsibility-unit" ] ;
+     fhir:Extension.valueIdentifier [
+       fhir:Identifier.system [ fhir:value "urn:example:uf" ] ;
+       fhir:Identifier.value [ fhir:value "6001" ]
+     ]
+  ], [
+     fhir:index 5 ;
+     fhir:Extension.url [ fhir:value "https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-movement-action" ] ;
+     fhir:Extension.valueCode [ fhir:value "INSERT" ]
+  ], [
+     fhir:index 6 ;
+     fhir:Extension.url [ fhir:value "https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-historic-movement-indicator" ] ;
+     fhir:Extension.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+  ], [
+     fhir:index 7 ;
+     fhir:Extension.url [ fhir:value "https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-origin-event-code" ] ;
+     fhir:Extension.valueCode [ fhir:value "A01" ]
+  ], [
+     fhir:index 8 ;
+     fhir:Extension.url [ fhir:value "https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-movement-nature" ] ;
+     fhir:Extension.valueCodeableConcept [
+       fhir:CodeableConcept.coding [
+         fhir:index 0 ;
+         fhir:Coding.system [ fhir:value "https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-movement-nature-cs" ] ;
+         fhir:Coding.code [ fhir:value "HMS" ] ;
+         fhir:Coding.display [ fhir:value "Trois responsabilités" ]
+       ]
+     ]
+  ], [
+     fhir:index 9 ;
+     fhir:Extension.url [ fhir:value "https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-planned-start" ] ;
+     fhir:Extension.valueDateTime [ fhir:value "2025-02-03T09:00:00+01:00"^^xsd:dateTime ]
+  ], [
+     fhir:index 10 ;
+     fhir:Extension.url [ fhir:value "https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-planned-end" ] ;
+     fhir:Extension.valueDateTime [ fhir:value "2025-02-10T10:00:00+01:00"^^xsd:dateTime ]
+  ], [
+     fhir:index 11 ;
+     fhir:Extension.url [ fhir:value "https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-venue-protection" ] ;
+     fhir:Extension.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+  ], [
+     fhir:index 12 ;
+     fhir:Element.extension [
+       fhir:index 0 ;
+       fhir:Extension.url [ fhir:value "transportCare" ] ;
+       fhir:Extension.valueCode [ fhir:value "AUCUN" ]
+     ] ;
+     fhir:Extension.url [ fhir:value "https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-encounter-supplement" ]
+  ], [
+     fhir:index 13 ;
+     fhir:Element.extension [
+       fhir:index 0 ;
+       fhir:Extension.url [ fhir:value "entryMode" ] ;
+       fhir:Extension.valueCode [ fhir:value "8" ]
+     ] ;
+     fhir:Extension.url [ fhir:value "https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-pmsi-movement" ]
+  ], [
+     fhir:index 14 ;
+     fhir:Extension.url [ fhir:value "https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-accident-nature" ] ;
+     fhir:Extension.valueCodeableConcept [
+       fhir:CodeableConcept.coding [
+         fhir:index 0 ;
+         fhir:Coding.system [ fhir:value "https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-accident-cs" ] ;
+         fhir:Coding.code [ fhir:value "D" ] ;
+         fhir:Coding.display [ fhir:value "Accident domestique" ]
+       ]
+     ]
+  ] ;
+  fhir:Encounter.identifier [
+     fhir:index 0 ;
+     fhir:Identifier.type [
+       fhir:CodeableConcept.coding [
+         fhir:index 0 ;
+         fhir:Coding.system [ fhir:value "https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-identifier-type-cs" ] ;
+         fhir:Coding.code [ fhir:value "VN" ]
+       ]
+     ] ;
+     fhir:Identifier.system [ fhir:value "urn:example:visit-number" ] ;
+     fhir:Identifier.value [ fhir:value "000897406" ]
+  ] ;
+  fhir:Encounter.status [ fhir:value "in-progress"] ;
+  fhir:Encounter.class [
+     fhir:Coding.system [ fhir:value "http://terminology.hl7.org/CodeSystem/v3-ActCode" ] ;
+     fhir:Coding.code [ fhir:value "IMP" ]
+  ] ;
+  fhir:Encounter.subject [
+     fhir:link <https://hl7.fr/ig/v2/pam/Patient/example-ihe-france-pam-patient> ;
+     fhir:Reference.reference [ fhir:value "Patient/example-ihe-france-pam-patient" ]
+  ] ;
+  fhir:Encounter.period [
+     fhir:Period.start [ fhir:value "2025-02-03T09:00:00+01:00"^^xsd:dateTime ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://hl7.fr/ig/v2/pam/Encounter/example-ihe-france-pam-encounter.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

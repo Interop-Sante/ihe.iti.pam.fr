@@ -1,0 +1,118 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-legal-care-mode-cs> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:Resource.id [ fhir:value "ihe-france-pam-legal-care-mode-cs"] ;
+  fhir:Resource.language [ fhir:value "en"] ;
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ] ;
+     fhir:Narrative.div "<div xml:lang=\"en\" lang=\"en\"><hr/><p><b>English</b></p><hr/><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem ihe-france-pam-legal-care-mode-cs</b></p><a name=\"en-ihe-france-pam-legal-care-mode-cs\"> </a><a name=\"en-hcihe-france-pam-legal-care-mode-cs\"> </a><p>This case-sensitive code system <code>https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-legal-care-mode-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">OPP<a name=\"en-ihe-france-pam-legal-care-mode-cs-OPP\"> </a></td><td>Ordonnance provisoire de placement</td><td>Ordonnance provisoire de placement.</td></tr><tr><td style=\"white-space:nowrap\">SPP<a name=\"en-ihe-france-pam-legal-care-mode-cs-SPP\"> </a></td><td>Soins psychiatriques pour péril imminent</td><td>Soins psychiatriques pour péril imminent.</td></tr><tr><td style=\"white-space:nowrap\">SPL<a name=\"en-ihe-france-pam-legal-care-mode-cs-SPL\"> </a></td><td>Soins psychiatriques libres</td><td>Soins psychiatriques libres.</td></tr><tr><td style=\"white-space:nowrap\">SPAP<a name=\"en-ihe-france-pam-legal-care-mode-cs-SPAP\"> </a></td><td>Soins psychiatriques avec autorisation parentale</td><td>Soins psychiatriques avec autorisation parentale.</td></tr><tr><td style=\"white-space:nowrap\">SDREP<a name=\"en-ihe-france-pam-legal-care-mode-cs-SDREP\"> </a></td><td>Soins psychiatriques sur décision du représentant de l'État (arrêté préfectoral)</td><td>Soins psychiatriques à la demande du représentant de l'État sur arrêté préfectoral (article L3213-1).</td></tr><tr><td style=\"white-space:nowrap\">SDREM<a name=\"en-ihe-france-pam-legal-care-mode-cs-SDREM\"> </a></td><td>Soins psychiatriques sur décision du représentant de l'État (arrêté municipal)</td><td>Soins psychiatriques à la demande du représentant de l'État sur arrêté municipal (article L3213-2).</td></tr><tr><td style=\"white-space:nowrap\">SDREIP<a name=\"en-ihe-france-pam-legal-care-mode-cs-SDREIP\"> </a></td><td>Soins psychiatriques après irresponsabilité pénale</td><td>Soins psychiatriques à la demande du représentant de l'État après irresponsabilité pénale (article L3213-7).</td></tr><tr><td style=\"white-space:nowrap\">SPD<a name=\"en-ihe-france-pam-legal-care-mode-cs-SPD\"> </a></td><td>Soins psychiatriques des personnes détenues</td><td>Soins psychiatriques des personnes détenues (article D398 du code de procédure pénale).</td></tr><tr><td style=\"white-space:nowrap\">SDT<a name=\"en-ihe-france-pam-legal-care-mode-cs-SDT\"> </a></td><td>Soins psychiatriques à la demande d'un tiers</td><td>Soins psychiatriques à la demande d'un tiers, deux certificats (article L3212-1-II-1).</td></tr><tr><td style=\"white-space:nowrap\">SDTU<a name=\"en-ihe-france-pam-legal-care-mode-cs-SDTU\"> </a></td><td>Soins psychiatriques à la demande d'un tiers en urgence</td><td>Soins psychiatriques à la demande d'un tiers en urgence, un certificat (article L3213-3).</td></tr><tr><td style=\"white-space:nowrap\">SPI<a name=\"en-ihe-france-pam-legal-care-mode-cs-SPI\"> </a></td><td>Soins psychiatriques pour péril imminent (un certificat)</td><td>Soins psychiatriques pour péril imminent, un certificat (article L3212-1-II-2).</td></tr></table></div>"
+  ] ;
+  fhir:CodeSystem.url [ fhir:value "https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-legal-care-mode-cs"] ;
+  fhir:CodeSystem.version [ fhir:value "0.1.0"] ;
+  fhir:CodeSystem.name [ fhir:value "IHEFrancePamLegalCareModeCS"] ;
+  fhir:CodeSystem.title [ fhir:value "IHE France PAM Legal Care Mode CodeSystem"] ;
+  fhir:CodeSystem.status [ fhir:value "draft"] ;
+  fhir:CodeSystem.experimental [ fhir:value "false"^^xsd:boolean] ;
+  fhir:CodeSystem.date [ fhir:value "2026-10-20T11:55:56+00:00"^^xsd:dateTime] ;
+  fhir:CodeSystem.publisher [ fhir:value "IHE France"] ;
+  fhir:CodeSystem.contact [
+     fhir:index -1 ;
+     fhir:ContactDetail.name [ fhir:value "IHE France" ] ;
+     fhir:ContactDetail.telecom [
+       fhir:index -1 ;
+       fhir:ContactPoint.system [ fhir:value "url" ] ;
+       fhir:ContactPoint.value [ fhir:value "https://www.ihe-france.org" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:ContactDetail.name [ fhir:value "IHE France" ] ;
+     fhir:ContactDetail.telecom [
+       fhir:index -1 ;
+       fhir:ContactPoint.system [ fhir:value "url" ] ;
+       fhir:ContactPoint.value [ fhir:value "https://www.ihe-france.org" ] ;
+       fhir:ContactPoint.use [ fhir:value "work" ]
+     ]
+  ] ;
+  fhir:CodeSystem.description [ fhir:value "Mode légal de soins en psychiatrie (ZFS-6, table IHE-FRANCE-ZFS-6). Liste non limitative."] ;
+  fhir:CodeSystem.jurisdiction [
+     fhir:index -1 ;
+     fhir:CodeableConcept.coding [
+       fhir:index -1 ;
+       fhir:Coding.system [ fhir:value "urn:iso:std:iso:3166" ] ;
+       fhir:Coding.code [ fhir:value "FR" ] ;
+       fhir:Coding.display [ fhir:value "France (la)" ]
+     ]
+  ] ;
+  fhir:CodeSystem.caseSensitive [ fhir:value "true"^^xsd:boolean] ;
+  fhir:CodeSystem.content [ fhir:value "complete"] ;
+  fhir:CodeSystem.count [ fhir:value "11"^^xsd:nonNegativeInteger] ;
+  fhir:CodeSystem.concept [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "OPP" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Ordonnance provisoire de placement" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Ordonnance provisoire de placement." ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "SPP" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Soins psychiatriques pour péril imminent" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Soins psychiatriques pour péril imminent." ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "SPL" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Soins psychiatriques libres" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Soins psychiatriques libres." ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "SPAP" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Soins psychiatriques avec autorisation parentale" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Soins psychiatriques avec autorisation parentale." ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "SDREP" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Soins psychiatriques sur décision du représentant de l'État (arrêté préfectoral)" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Soins psychiatriques à la demande du représentant de l'État sur arrêté préfectoral (article L3213-1)." ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "SDREM" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Soins psychiatriques sur décision du représentant de l'État (arrêté municipal)" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Soins psychiatriques à la demande du représentant de l'État sur arrêté municipal (article L3213-2)." ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "SDREIP" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Soins psychiatriques après irresponsabilité pénale" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Soins psychiatriques à la demande du représentant de l'État après irresponsabilité pénale (article L3213-7)." ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "SPD" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Soins psychiatriques des personnes détenues" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Soins psychiatriques des personnes détenues (article D398 du code de procédure pénale)." ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "SDT" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Soins psychiatriques à la demande d'un tiers" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Soins psychiatriques à la demande d'un tiers, deux certificats (article L3212-1-II-1)." ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "SDTU" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Soins psychiatriques à la demande d'un tiers en urgence" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Soins psychiatriques à la demande d'un tiers en urgence, un certificat (article L3213-3)." ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "SPI" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Soins psychiatriques pour péril imminent (un certificat)" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Soins psychiatriques pour péril imminent, un certificat (article L3212-1-II-2)." ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-legal-care-mode-cs.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

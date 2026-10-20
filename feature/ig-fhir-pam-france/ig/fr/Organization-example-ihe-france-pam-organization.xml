@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Organization xmlns="http://hl7.org/fhir">
+  <id value="example-ihe-france-pam-organization"/>
+  <meta>
+    <profile value="https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-organization"/>
+  </meta>
+  <language value="fr"/>
+  <text>
+    <status value="generated"/><div xml:lang="fr" lang="fr"><hr/><p><b>French</b></p><hr/><p class="res-header-id"><b>Narratif généré : Organisation example-ihe-france-pam-organization</b></p><a name="example-ihe-france-pam-organization"> </a><a name="hcexample-ihe-france-pam-organization"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px"/><p style="margin-bottom: 0px">Profil: <a href="StructureDefinition-ihe-france-pam-organization.html">IHE France PAM Organization</a></p></div><p style="border: 1px #661aff solid; background-color: #e6e6ff; padding: 10px;">Centre Hospitalier Exemple (urn:example:finess#120456789)</p><hr/></div>
+  </text>
+  <identifier>
+    <system value="urn:example:finess"/>
+    <value value="120456789"/>
+  </identifier>
+  <name value="Centre Hospitalier Exemple"/>
+</Organization>

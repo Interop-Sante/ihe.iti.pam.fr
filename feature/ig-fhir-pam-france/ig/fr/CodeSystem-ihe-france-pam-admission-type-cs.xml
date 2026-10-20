@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="ihe-france-pam-admission-type-cs"/>
+  <language value="fr"/>
+  <text>
+    <status value="generated"/><div xml:lang="fr" lang="fr"><hr/><p><b>French</b></p><hr/><p class="res-header-id"><b>Narratif généré : CodeSystem ihe-france-pam-admission-type-cs</b></p><a name="ihe-france-pam-admission-type-cs"> </a><a name="hcihe-france-pam-admission-type-cs"> </a><p>This case-sensitive code system <code>https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-admission-type-cs</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Affichage</b></td><td><b>Définition</b></td></tr><tr><td style="white-space:nowrap">C<a name="ihe-france-pam-admission-type-cs-C"> </a></td><td>Confort</td><td>Confort (chirurgie esthétique).</td></tr><tr><td style="white-space:nowrap">L<a name="ihe-france-pam-admission-type-cs-L"> </a></td><td>Accouchement maternité</td><td>Accouchement maternité.</td></tr><tr><td style="white-space:nowrap">N<a name="ihe-france-pam-admission-type-cs-N"> </a></td><td>Nouveau-né</td><td>Nouveau-né.</td></tr><tr><td style="white-space:nowrap">R<a name="ihe-france-pam-admission-type-cs-R"> </a></td><td>Routine</td><td>Routine (valeur par défaut).</td></tr><tr><td style="white-space:nowrap">U<a name="ihe-france-pam-admission-type-cs-U"> </a></td><td>Urgent</td><td>Caractère d'urgence aiguë du problème, quel que soit le service d'entrée.</td></tr><tr><td style="white-space:nowrap">RM<a name="ihe-france-pam-admission-type-cs-RM"> </a></td><td>Rétrocession de médicament</td><td>Valeur ajoutée par IHE France pour caractériser les venues pour rétrocession médicamenteuse.</td></tr><tr><td style="white-space:nowrap">IE<a name="ihe-france-pam-admission-type-cs-IE"> </a></td><td>Prestation inter-établissements</td><td>Valeur ajoutée par IHE France pour caractériser les venues pour prestation facturée à un autre établissement demandeur.</td></tr></table></div>
+  </text>
+  <url value="https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-admission-type-cs"/>
+  <version value="0.1.0"/>
+  <name value="IHEFrancePamAdmissionTypeCS"/>
+  <title value="IHE France PAM Admission Type CodeSystem"/>
+  <status value="draft"/>
+  <experimental value="false"/>
+  <date value="2026-10-20T11:55:56+00:00"/>
+  <publisher value="IHE France"/>
+  <contact>
+    <name value="IHE France"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.ihe-france.org"/>
+    </telecom>
+  </contact>
+  <contact>
+    <name value="IHE France"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.ihe-france.org"/>
+      <use value="work"/>
+    </telecom>
+  </contact>
+  <description value="Type d'admission (PV1-4, table HL7 0007)."/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="FR"/>
+      <display value="France (la)"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="7"/>
+  <concept>
+    <code value="C"/>
+    <display value="Confort"/>
+    <definition value="Confort (chirurgie esthétique)."/>
+  </concept>
+  <concept>
+    <code value="L"/>
+    <display value="Accouchement maternité"/>
+    <definition value="Accouchement maternité."/>
+  </concept>
+  <concept>
+    <code value="N"/>
+    <display value="Nouveau-né"/>
+    <definition value="Nouveau-né."/>
+  </concept>
+  <concept>
+    <code value="R"/>
+    <display value="Routine"/>
+    <definition value="Routine (valeur par défaut)."/>
+  </concept>
+  <concept>
+    <code value="U"/>
+    <display value="Urgent"/>
+    <definition value="Caractère d'urgence aiguë du problème, quel que soit le service d'entrée."/>
+  </concept>
+  <concept>
+    <code value="RM"/>
+    <display value="Rétrocession de médicament"/>
+    <definition value="Valeur ajoutée par IHE France pour caractériser les venues pour rétrocession médicamenteuse."/>
+  </concept>
+  <concept>
+    <code value="IE"/>
+    <display value="Prestation inter-établissements"/>
+    <definition value="Valeur ajoutée par IHE France pour caractériser les venues pour prestation facturée à un autre établissement demandeur."/>
+  </concept>
+</CodeSystem>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="ihe-france-pam-movement-action-cs"/>
+  <language value="fr"/>
+  <text>
+    <status value="generated"/><div xml:lang="fr" lang="fr"><hr/><p><b>French</b></p><hr/><p class="res-header-id"><b>Narratif généré : CodeSystem ihe-france-pam-movement-action-cs</b></p><a name="ihe-france-pam-movement-action-cs"> </a><a name="hcihe-france-pam-movement-action-cs"> </a><p>This case-sensitive code system <code>https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-movement-action-cs</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Affichage</b></td><td><b>Définition</b></td></tr><tr><td style="white-space:nowrap">INSERT<a name="ihe-france-pam-movement-action-cs-INSERT"> </a></td><td>Insertion d'un mouvement</td><td>Insertion d'un nouveau mouvement en fin de séquence.</td></tr><tr><td style="white-space:nowrap">UPDATE<a name="ihe-france-pam-movement-action-cs-UPDATE"> </a></td><td>Mise à jour d'un mouvement</td><td>Correction du mouvement, courant ou historique (événement Z99).</td></tr><tr><td style="white-space:nowrap">CANCEL<a name="ihe-france-pam-movement-action-cs-CANCEL"> </a></td><td>Annulation d'un mouvement</td><td>Annulation d'un mouvement de la séquence.</td></tr></table></div>
+  </text>
+  <url value="https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-movement-action-cs"/>
+  <version value="0.1.0"/>
+  <name value="IHEFrancePamMovementActionCS"/>
+  <title value="IHE France PAM Movement Action CodeSystem"/>
+  <status value="draft"/>
+  <experimental value="false"/>
+  <date value="2026-10-20T11:55:56+00:00"/>
+  <publisher value="IHE France"/>
+  <contact>
+    <name value="IHE France"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.ihe-france.org"/>
+    </telecom>
+  </contact>
+  <contact>
+    <name value="IHE France"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.ihe-france.org"/>
+      <use value="work"/>
+    </telecom>
+  </contact>
+  <description value="Action portant sur un mouvement (ZBE-4) ou sur un mode légal de soins (ZFS-5)."/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="FR"/>
+      <display value="France (la)"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="3"/>
+  <concept>
+    <code value="INSERT"/>
+    <display value="Insertion d'un mouvement"/>
+    <definition value="Insertion d'un nouveau mouvement en fin de séquence."/>
+  </concept>
+  <concept>
+    <code value="UPDATE"/>
+    <display value="Mise à jour d'un mouvement"/>
+    <definition value="Correction du mouvement, courant ou historique (événement Z99)."/>
+  </concept>
+  <concept>
+    <code value="CANCEL"/>
+    <display value="Annulation d'un mouvement"/>
+    <definition value="Annulation d'un mouvement de la séquence."/>
+  </concept>
+</CodeSystem>

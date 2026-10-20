@@ -1,0 +1,2090 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://hl7.fr/ig/v2/pam/ImplementationGuide/ihe.fr.pam> a fhir:ImplementationGuide ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:Resource.id [ fhir:value "ihe.fr.pam"] ;
+  fhir:Resource.language [ fhir:value "en"] ;
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ] ;
+     fhir:Narrative.div "<div xml:lang=\"en\" lang=\"en\"><hr/><p><b>English</b></p><hr/><p class=\"res-header-id\"><b>Generated Narrative: ImplementationGuide ihe.fr.pam</b></p><a name=\"en-ihe.fr.pam\"> </a><a name=\"en-hcihe.fr.pam\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Language: fr</p></div><h2>IHEFrancePAM</h2><p>The official URL for this implementation guide is: </p><pre>https://hl7.fr/ig/v2/pam/ImplementationGuide/ihe.fr.pam</pre><div><p>Base de travail pour transformer le profil IHE PAM France issu d'un PDF en Implementation Guide FHIR publiable avec le template Interop'Sante.</p>\n</div></div>"
+  ] ;
+  fhir:ImplementationGuide.url [ fhir:value "https://hl7.fr/ig/v2/pam/ImplementationGuide/ihe.fr.pam"] ;
+  fhir:ImplementationGuide.version [ fhir:value "0.1.0"] ;
+  fhir:ImplementationGuide.name [ fhir:value "IHEFrancePAM"] ;
+  fhir:ImplementationGuide.title [ fhir:value "IHE PAM France"] ;
+  fhir:ImplementationGuide.status [ fhir:value "draft"] ;
+  fhir:ImplementationGuide.date [ fhir:value "2026-10-20T11:55:56+00:00"^^xsd:dateTime] ;
+  fhir:ImplementationGuide.publisher [ fhir:value "IHE France"] ;
+  fhir:ImplementationGuide.contact [
+     fhir:index -1 ;
+     fhir:ContactDetail.name [ fhir:value "IHE France" ] ;
+     fhir:ContactDetail.telecom [
+       fhir:index -1 ;
+       fhir:ContactPoint.system [ fhir:value "url" ] ;
+       fhir:ContactPoint.value [ fhir:value "https://www.ihe-france.org" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:ContactDetail.name [ fhir:value "IHE France" ] ;
+     fhir:ContactDetail.telecom [
+       fhir:index -1 ;
+       fhir:ContactPoint.system [ fhir:value "url" ] ;
+       fhir:ContactPoint.value [ fhir:value "https://www.ihe-france.org" ] ;
+       fhir:ContactPoint.use [ fhir:value "work" ]
+     ]
+  ] ;
+  fhir:ImplementationGuide.description [ fhir:value "Base de travail pour transformer le profil IHE PAM France issu d'un PDF en Implementation Guide FHIR publiable avec le template Interop'Sante.\n"] ;
+  fhir:ImplementationGuide.jurisdiction [
+     fhir:index -1 ;
+     fhir:CodeableConcept.coding [
+       fhir:index -1 ;
+       fhir:Coding.system [ fhir:value "urn:iso:std:iso:3166" ] ;
+       fhir:Coding.code [ fhir:value "FR" ] ;
+       fhir:Coding.display [ fhir:value "France (la)" ]
+     ]
+  ] ;
+  fhir:ImplementationGuide.packageId [ fhir:value "ihe.fr.pam"] ;
+  fhir:ImplementationGuide.license [ fhir:value "CC0-1.0"] ;
+  fhir:ImplementationGuide.fhirVersion [
+     fhir:value "4.0.1" ;
+     fhir:index -1
+  ] ;
+  fhir:ImplementationGuide.dependsOn [
+     fhir:index -1 ;
+     fhir:Element.id [ fhir:value "hl7tx" ] ;
+     fhir:Element.extension [
+       fhir:index -1 ;
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/implementationguide-dependency-comment" ] ;
+       fhir:Extension.valueMarkdown [ fhir:value "Automatically added as a dependency - all IGs depend on HL7 Terminology" ]
+     ] ;
+     fhir:ImplementationGuide.dependsOn.uri [
+       fhir:value "http://terminology.hl7.org/ImplementationGuide/hl7.terminology" ;
+       fhir:link <http://terminology.hl7.org/ImplementationGuide/hl7.terminology>
+     ] ;
+     fhir:ImplementationGuide.dependsOn.packageId [ fhir:value "hl7.terminology.r4" ] ;
+     fhir:ImplementationGuide.dependsOn.version [ fhir:value "7.4.0" ]
+  ], [
+     fhir:index -1 ;
+     fhir:Element.id [ fhir:value "hl7ext" ] ;
+     fhir:Element.extension [
+       fhir:index -1 ;
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/implementationguide-dependency-comment" ] ;
+       fhir:Extension.valueMarkdown [ fhir:value "Automatically added as a dependency - all IGs depend on the HL7 Extension Pack" ]
+     ] ;
+     fhir:ImplementationGuide.dependsOn.uri [
+       fhir:value "http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions" ;
+       fhir:link <http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions>
+     ] ;
+     fhir:ImplementationGuide.dependsOn.packageId [ fhir:value "hl7.fhir.uv.extensions.r4" ] ;
+     fhir:ImplementationGuide.dependsOn.version [ fhir:value "5.3.0" ]
+  ] ;
+  fhir:ImplementationGuide.definition [
+     fhir:Element.extension [
+       fhir:index -1 ;
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/expansion-parameters" ] ;
+       fhir:Extension.valueReference [
+         fhir:link <https://hl7.fr/ig/v2/pam/Parameters/expansion-parameters> ;
+         fhir:Reference.reference [ fhir:value "Parameters/expansion-parameters" ]
+       ]
+     ], [
+       fhir:index -1 ;
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency" ] ;
+       fhir:Extension.valueCode [ fhir:value "hl7.fhir.uv.tools.r4#1.3.0" ]
+     ], [
+       fhir:index -1 ;
+       fhir:Element.extension [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "code" ] ;
+         fhir:Extension.valueCode [ fhir:value "copyrightyear" ]
+       ], [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "value" ] ;
+         fhir:Extension.valueString [ fhir:value "2026+" ]
+       ] ;
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
+     ], [
+       fhir:index -1 ;
+       fhir:Element.extension [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "code" ] ;
+         fhir:Extension.valueCode [ fhir:value "releaselabel" ]
+       ], [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "value" ] ;
+         fhir:Extension.valueString [ fhir:value "ci-build" ]
+       ] ;
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
+     ], [
+       fhir:index -1 ;
+       fhir:Element.extension [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "code" ] ;
+         fhir:Extension.valueCode [ fhir:value "path-expansion-params" ]
+       ], [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "value" ] ;
+         fhir:Extension.valueString [ fhir:value "../../expansion-params.json" ]
+       ] ;
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
+     ], [
+       fhir:index -1 ;
+       fhir:Element.extension [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "code" ] ;
+         fhir:Extension.valueCode [ fhir:value "i18n-default-lang" ]
+       ], [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "value" ] ;
+         fhir:Extension.valueString [ fhir:value "fr" ]
+       ] ;
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
+     ], [
+       fhir:index -1 ;
+       fhir:Element.extension [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "code" ] ;
+         fhir:Extension.valueCode [ fhir:value "i18n-lang" ]
+       ], [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "value" ] ;
+         fhir:Extension.valueString [ fhir:value "en" ]
+       ] ;
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
+     ], [
+       fhir:index -1 ;
+       fhir:Element.extension [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "code" ] ;
+         fhir:Extension.valueCode [ fhir:value "translation-sources" ]
+       ], [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "value" ] ;
+         fhir:Extension.valueString [ fhir:value "input/translations/en" ]
+       ] ;
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
+     ], [
+       fhir:index -1 ;
+       fhir:Element.extension [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "code" ] ;
+         fhir:Extension.valueCode [ fhir:value "shownav" ]
+       ], [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "value" ] ;
+         fhir:Extension.valueString [ fhir:value "true" ]
+       ] ;
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
+     ], [
+       fhir:index -1 ;
+       fhir:Element.extension [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "code" ] ;
+         fhir:Extension.valueCode [ fhir:value "pin-canonicals" ]
+       ], [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "value" ] ;
+         fhir:Extension.valueString [ fhir:value "pin-all" ]
+       ] ;
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
+     ], [
+       fhir:index -1 ;
+       fhir:Element.extension [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "code" ] ;
+         fhir:Extension.valueCode [ fhir:value "apply-contact" ]
+       ], [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "value" ] ;
+         fhir:Extension.valueString [ fhir:value "true" ]
+       ] ;
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
+     ], [
+       fhir:index -1 ;
+       fhir:Element.extension [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "code" ] ;
+         fhir:Extension.valueCode [ fhir:value "apply-jurisdiction" ]
+       ], [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "value" ] ;
+         fhir:Extension.valueString [ fhir:value "true" ]
+       ] ;
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
+     ], [
+       fhir:index -1 ;
+       fhir:Element.extension [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "code" ] ;
+         fhir:Extension.valueCode [ fhir:value "logging" ]
+       ], [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "value" ] ;
+         fhir:Extension.valueString [ fhir:value "tx" ]
+       ] ;
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
+     ], [
+       fhir:index -1 ;
+       fhir:Element.extension [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "code" ] ;
+         fhir:Extension.valueCode [ fhir:value "logging" ]
+       ], [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "value" ] ;
+         fhir:Extension.valueString [ fhir:value "init" ]
+       ] ;
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
+     ], [
+       fhir:index -1 ;
+       fhir:Element.extension [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "code" ] ;
+         fhir:Extension.valueCode [ fhir:value "logging" ]
+       ], [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "value" ] ;
+         fhir:Extension.valueString [ fhir:value "progress" ]
+       ] ;
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
+     ], [
+       fhir:index -1 ;
+       fhir:Element.extension [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "code" ] ;
+         fhir:Extension.valueCode [ fhir:value "autoload-resources" ]
+       ], [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "value" ] ;
+         fhir:Extension.valueString [ fhir:value "true" ]
+       ] ;
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
+     ], [
+       fhir:index -1 ;
+       fhir:Element.extension [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "code" ] ;
+         fhir:Extension.valueCode [ fhir:value "path-liquid-template" ]
+       ], [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "value" ] ;
+         fhir:Extension.valueString [ fhir:value "template/liquid" ]
+       ] ;
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
+     ], [
+       fhir:index -1 ;
+       fhir:Element.extension [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "code" ] ;
+         fhir:Extension.valueCode [ fhir:value "path-liquid-template" ]
+       ], [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "value" ] ;
+         fhir:Extension.valueString [ fhir:value "input/liquid" ]
+       ] ;
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
+     ], [
+       fhir:index -1 ;
+       fhir:Element.extension [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "code" ] ;
+         fhir:Extension.valueCode [ fhir:value "path-qa" ]
+       ], [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "value" ] ;
+         fhir:Extension.valueString [ fhir:value "temp/qa" ]
+       ] ;
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
+     ], [
+       fhir:index -1 ;
+       fhir:Element.extension [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "code" ] ;
+         fhir:Extension.valueCode [ fhir:value "path-temp" ]
+       ], [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "value" ] ;
+         fhir:Extension.valueString [ fhir:value "temp/pages" ]
+       ] ;
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
+     ], [
+       fhir:index -1 ;
+       fhir:Element.extension [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "code" ] ;
+         fhir:Extension.valueCode [ fhir:value "path-output" ]
+       ], [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "value" ] ;
+         fhir:Extension.valueString [ fhir:value "output" ]
+       ] ;
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
+     ], [
+       fhir:index -1 ;
+       fhir:Element.extension [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "code" ] ;
+         fhir:Extension.valueCode [ fhir:value "path-suppressed-warnings" ]
+       ], [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "value" ] ;
+         fhir:Extension.valueString [ fhir:value "input/ignoreWarnings.txt" ]
+       ] ;
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
+     ], [
+       fhir:index -1 ;
+       fhir:Element.extension [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "code" ] ;
+         fhir:Extension.valueCode [ fhir:value "path-history" ]
+       ], [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "value" ] ;
+         fhir:Extension.valueString [ fhir:value "https://hl7.fr/ig/v2/pam/history.html" ]
+       ] ;
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
+     ], [
+       fhir:index -1 ;
+       fhir:Element.extension [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "code" ] ;
+         fhir:Extension.valueCode [ fhir:value "template-html" ]
+       ], [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "value" ] ;
+         fhir:Extension.valueString [ fhir:value "template-page.html" ]
+       ] ;
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
+     ], [
+       fhir:index -1 ;
+       fhir:Element.extension [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "code" ] ;
+         fhir:Extension.valueCode [ fhir:value "template-md" ]
+       ], [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "value" ] ;
+         fhir:Extension.valueString [ fhir:value "template-page-md.html" ]
+       ] ;
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
+     ], [
+       fhir:index -1 ;
+       fhir:Element.extension [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "code" ] ;
+         fhir:Extension.valueCode [ fhir:value "apply-context" ]
+       ], [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "value" ] ;
+         fhir:Extension.valueString [ fhir:value "true" ]
+       ] ;
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
+     ], [
+       fhir:index -1 ;
+       fhir:Element.extension [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "code" ] ;
+         fhir:Extension.valueCode [ fhir:value "apply-copyright" ]
+       ], [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "value" ] ;
+         fhir:Extension.valueString [ fhir:value "true" ]
+       ] ;
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
+     ], [
+       fhir:index -1 ;
+       fhir:Element.extension [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "code" ] ;
+         fhir:Extension.valueCode [ fhir:value "apply-license" ]
+       ], [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "value" ] ;
+         fhir:Extension.valueString [ fhir:value "true" ]
+       ] ;
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
+     ], [
+       fhir:index -1 ;
+       fhir:Element.extension [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "code" ] ;
+         fhir:Extension.valueCode [ fhir:value "apply-publisher" ]
+       ], [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "value" ] ;
+         fhir:Extension.valueString [ fhir:value "true" ]
+       ] ;
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
+     ], [
+       fhir:index -1 ;
+       fhir:Element.extension [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "code" ] ;
+         fhir:Extension.valueCode [ fhir:value "apply-version" ]
+       ], [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "value" ] ;
+         fhir:Extension.valueString [ fhir:value "true" ]
+       ] ;
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
+     ], [
+       fhir:index -1 ;
+       fhir:Element.extension [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "code" ] ;
+         fhir:Extension.valueCode [ fhir:value "apply-wg" ]
+       ], [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "value" ] ;
+         fhir:Extension.valueString [ fhir:value "true" ]
+       ] ;
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
+     ], [
+       fhir:index -1 ;
+       fhir:Element.extension [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "code" ] ;
+         fhir:Extension.valueCode [ fhir:value "active-tables" ]
+       ], [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "value" ] ;
+         fhir:Extension.valueString [ fhir:value "true" ]
+       ] ;
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
+     ], [
+       fhir:index -1 ;
+       fhir:Element.extension [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "code" ] ;
+         fhir:Extension.valueCode [ fhir:value "fmm-definition" ]
+       ], [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "value" ] ;
+         fhir:Extension.valueString [ fhir:value "http://hl7.org/fhir/versions.html#maturity" ]
+       ] ;
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
+     ], [
+       fhir:index -1 ;
+       fhir:Element.extension [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "code" ] ;
+         fhir:Extension.valueCode [ fhir:value "propagate-status" ]
+       ], [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "value" ] ;
+         fhir:Extension.valueString [ fhir:value "true" ]
+       ] ;
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
+     ], [
+       fhir:index -1 ;
+       fhir:Element.extension [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "code" ] ;
+         fhir:Extension.valueCode [ fhir:value "excludelogbinaryformat" ]
+       ], [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "value" ] ;
+         fhir:Extension.valueString [ fhir:value "true" ]
+       ] ;
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
+     ], [
+       fhir:index -1 ;
+       fhir:Element.extension [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "code" ] ;
+         fhir:Extension.valueCode [ fhir:value "tabbed-snapshots" ]
+       ], [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "value" ] ;
+         fhir:Extension.valueString [ fhir:value "true" ]
+       ] ;
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
+     ] ;
+     fhir:ImplementationGuide.definition.resource [
+       fhir:index -1 ;
+       fhir:Element.extension [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
+         fhir:Extension.valueString [ fhir:value "Encounter" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://hl7.fr/ig/v2/pam/Encounter/example-ihe-france-pam-encounter> ;
+         fhir:Reference.reference [ fhir:value "Encounter/example-ihe-france-pam-encounter" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Exemple encounter PAM France" ] ;
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Exemple minimal de venue conforme au profil initial IHE France PAM." ] ;
+       fhir:ImplementationGuide.definition.resource.exampleCanonical [
+         fhir:value "https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-encounter|0.1.0" ;
+         fhir:link <https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-encounter|0.1.0>
+       ]
+     ], [
+       fhir:index -1 ;
+       fhir:Element.extension [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
+         fhir:Extension.valueString [ fhir:value "Location" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://hl7.fr/ig/v2/pam/Location/example-ihe-france-pam-location> ;
+         fhir:Reference.reference [ fhir:value "Location/example-ihe-france-pam-location" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Exemple location PAM France" ] ;
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Exemple minimal de localisation d'hébergement." ] ;
+       fhir:ImplementationGuide.definition.resource.exampleCanonical [
+         fhir:value "https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-location|0.1.0" ;
+         fhir:link <https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-location|0.1.0>
+       ]
+     ], [
+       fhir:index -1 ;
+       fhir:Element.extension [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
+         fhir:Extension.valueString [ fhir:value "Organization" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://hl7.fr/ig/v2/pam/Organization/example-ihe-france-pam-organization> ;
+         fhir:Reference.reference [ fhir:value "Organization/example-ihe-france-pam-organization" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Exemple organisation PAM France" ] ;
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Exemple minimal d'organisation ou d'établissement." ] ;
+       fhir:ImplementationGuide.definition.resource.exampleCanonical [
+         fhir:value "https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-organization|0.1.0" ;
+         fhir:link <https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-organization|0.1.0>
+       ]
+     ], [
+       fhir:index -1 ;
+       fhir:Element.extension [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
+         fhir:Extension.valueString [ fhir:value "Patient" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://hl7.fr/ig/v2/pam/Patient/example-ihe-france-pam-patient> ;
+         fhir:Reference.reference [ fhir:value "Patient/example-ihe-france-pam-patient" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Exemple patient PAM France" ] ;
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Exemple minimal de patient conforme au profil initial IHE France PAM." ] ;
+       fhir:ImplementationGuide.definition.resource.exampleCanonical [
+         fhir:value "https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-patient|0.1.0" ;
+         fhir:link <https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-patient|0.1.0>
+       ]
+     ], [
+       fhir:index -1 ;
+       fhir:Element.extension [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
+         fhir:Extension.valueString [ fhir:value "Practitioner" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://hl7.fr/ig/v2/pam/Practitioner/example-ihe-france-pam-practitioner> ;
+         fhir:Reference.reference [ fhir:value "Practitioner/example-ihe-france-pam-practitioner" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Exemple practitioner PAM France" ] ;
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Exemple minimal de professionnel de santé." ] ;
+       fhir:ImplementationGuide.definition.resource.exampleCanonical [
+         fhir:value "https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-practitioner|0.1.0" ;
+         fhir:link <https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-practitioner|0.1.0>
+       ]
+     ], [
+       fhir:index -1 ;
+       fhir:Element.extension [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
+         fhir:Extension.valueString [ fhir:value "RelatedPerson" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://hl7.fr/ig/v2/pam/RelatedPerson/example-ihe-france-pam-related-person> ;
+         fhir:Reference.reference [ fhir:value "RelatedPerson/example-ihe-france-pam-related-person" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Exemple proche PAM France" ] ;
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Exemple minimal de personne associée au patient." ] ;
+       fhir:ImplementationGuide.definition.resource.exampleCanonical [
+         fhir:value "https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-related-person|0.1.0" ;
+         fhir:link <https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-related-person|0.1.0>
+       ]
+     ], [
+       fhir:index -1 ;
+       fhir:Element.extension [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
+         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-accident-cs> ;
+         fhir:Reference.reference [ fhir:value "CodeSystem/ihe-france-pam-accident-cs" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "IHE France PAM Accident Code CodeSystem" ] ;
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Nature de l'accident (ACC-2, table HL7 0050)." ] ;
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index -1 ;
+       fhir:Element.extension [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
+         fhir:Extension.valueString [ fhir:value "ValueSet" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://hl7.fr/ig/v2/pam/ValueSet/ihe-france-pam-accident-vs> ;
+         fhir:Reference.reference [ fhir:value "ValueSet/ihe-france-pam-accident-vs" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "IHE France PAM Accident Code ValueSet" ] ;
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Valeurs permises pour la nature de l'accident (ACC-2)." ] ;
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index -1 ;
+       fhir:Element.extension [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-accident-date> ;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/ihe-france-pam-accident-date" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "IHE France PAM Accident Date" ] ;
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Date et heure de l'accident (ACC-1), renseignées si l'entrée du patient fait suite à un accident." ] ;
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index -1 ;
+       fhir:Element.extension [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-accident-nature> ;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/ihe-france-pam-accident-nature" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "IHE France PAM Accident Nature" ] ;
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Nature de l'accident (ACC-2). Le segment ACC est obligatoire lorsque l'entrée du patient fait suite à un accident." ] ;
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index -1 ;
+       fhir:Element.extension [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-administrative-number> ;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/ihe-france-pam-administrative-number" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "IHE France PAM Administrative Number" ] ;
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Numéro de dossier administratif (PID-18), de type AN." ] ;
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index -1 ;
+       fhir:Element.extension [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
+         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-admission-type-cs> ;
+         fhir:Reference.reference [ fhir:value "CodeSystem/ihe-france-pam-admission-type-cs" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "IHE France PAM Admission Type CodeSystem" ] ;
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Type d'admission (PV1-4, table HL7 0007)." ] ;
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index -1 ;
+       fhir:Element.extension [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
+         fhir:Extension.valueString [ fhir:value "ValueSet" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://hl7.fr/ig/v2/pam/ValueSet/ihe-france-pam-admission-type-vs> ;
+         fhir:Reference.reference [ fhir:value "ValueSet/ihe-france-pam-admission-type-vs" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "IHE France PAM Admission Type ValueSet" ] ;
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Valeurs pour : Type d'admission (PV1-4, table HL7 0007)." ] ;
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index -1 ;
+       fhir:Element.extension [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
+         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-admit-source-cs> ;
+         fhir:Reference.reference [ fhir:value "CodeSystem/ihe-france-pam-admit-source-cs" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "IHE France PAM Admit Source CodeSystem" ] ;
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Mode d'entrée personnalisé (PV1-14, table HL7 0023). Liste non limitative, à adapter selon les besoins du site." ] ;
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index -1 ;
+       fhir:Element.extension [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
+         fhir:Extension.valueString [ fhir:value "ValueSet" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://hl7.fr/ig/v2/pam/ValueSet/ihe-france-pam-admit-source-vs> ;
+         fhir:Reference.reference [ fhir:value "ValueSet/ihe-france-pam-admit-source-vs" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "IHE France PAM Admit Source ValueSet" ] ;
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Valeurs pour : Mode d'entrée personnalisé (PV1-14, table HL7 0023). Liste non limitative, à adapter selon les besoins du site." ] ;
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index -1 ;
+       fhir:Element.extension [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-arrival-mode> ;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/ihe-france-pam-arrival-mode" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "IHE France PAM Arrival Mode" ] ;
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Mode de transport d'entrée (PV2-38)." ] ;
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index -1 ;
+       fhir:Element.extension [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-birth-multiple-rank> ;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/ihe-france-pam-birth-multiple-rank" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "IHE France PAM Birth Multiple Rank" ] ;
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Rang gémellaire (PID-25), entier positif pour un patient issu d'une naissance multiple." ] ;
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index -1 ;
+       fhir:Element.extension [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-care-responsibility-unit> ;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/ihe-france-pam-care-responsibility-unit" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "IHE France PAM Care Responsibility Unit" ] ;
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Unité fonctionnelle responsable des soins (ZBE-8, type XON)." ] ;
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index -1 ;
+       fhir:Element.extension [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-contact-role> ;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/ihe-france-pam-contact-role" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "IHE France PAM Contact Role" ] ;
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Rôle de la personne auprès du patient (NK1-7) : personne à prévenir, personne de confiance, représentant légal, personne à ne pas prévenir." ] ;
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index -1 ;
+       fhir:Element.extension [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
+         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-contact-role-cs> ;
+         fhir:Reference.reference [ fhir:value "CodeSystem/ihe-france-pam-contact-role-cs" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "IHE France PAM Contact Role CodeSystem" ] ;
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Rôle de la personne auprès du patient pendant le séjour (NK1-7, table HL7 0131). Liste non limitative. La personne de confiance est rattachée au séjour et transmise uniquement via ITI-31." ] ;
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index -1 ;
+       fhir:Element.extension [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
+         fhir:Extension.valueString [ fhir:value "ValueSet" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://hl7.fr/ig/v2/pam/ValueSet/ihe-france-pam-contact-role-vs> ;
+         fhir:Reference.reference [ fhir:value "ValueSet/ihe-france-pam-contact-role-vs" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "IHE France PAM Contact Role ValueSet" ] ;
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Valeurs pour : Rôle de la personne auprès du patient pendant le séjour (NK1-7, table HL7 0131). Liste non limitative. La personne de confiance est rattachée au séjour et transmise uniquement via ITI-31." ] ;
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index -1 ;
+       fhir:Element.extension [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-data-protection> ;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/ihe-france-pam-data-protection" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "IHE France PAM Data Protection" ] ;
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Protection des données du patient (PD1-12) : vrai si l'accès à l'information du patient est protégé, faux si l'accès est normal." ] ;
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index -1 ;
+       fhir:Element.extension [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-demographic-complement> ;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/ihe-france-pam-demographic-complement" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "IHE France PAM Demographic Complement" ] ;
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Complément démographique (segment ZFD) : date lunaire, semaines de gestation, consentement SMS, indicateur de date de naissance corrigée, mode d'obtention et justificatif de l'identité." ] ;
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index -1 ;
+       fhir:Element.extension [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
+         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-discharge-disposition-cs> ;
+         fhir:Reference.reference [ fhir:value "CodeSystem/ihe-france-pam-discharge-disposition-cs" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "IHE France PAM Discharge Disposition CodeSystem" ] ;
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Circonstance de sortie (PV1-36, table HL7 0112). Table définie par l'utilisateur." ] ;
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index -1 ;
+       fhir:Element.extension [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
+         fhir:Extension.valueString [ fhir:value "ValueSet" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://hl7.fr/ig/v2/pam/ValueSet/ihe-france-pam-discharge-disposition-vs> ;
+         fhir:Reference.reference [ fhir:value "ValueSet/ihe-france-pam-discharge-disposition-vs" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "IHE France PAM Discharge Disposition ValueSet" ] ;
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Valeurs pour : Circonstance de sortie (PV1-36, table HL7 0112). Table définie par l'utilisateur." ] ;
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index -1 ;
+       fhir:Element.extension [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
+         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-dmp-consultation-cs> ;
+         fhir:Reference.reference [ fhir:value "CodeSystem/ihe-france-pam-dmp-consultation-cs" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "IHE France PAM DMP Consultation Consent CodeSystem" ] ;
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Information du patient et consentement à la consultation de Mon espace santé / DMP (ZFA-11, table IHE-FRANCE-ZFA-11)." ] ;
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index -1 ;
+       fhir:Element.extension [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
+         fhir:Extension.valueString [ fhir:value "ValueSet" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://hl7.fr/ig/v2/pam/ValueSet/ihe-france-pam-dmp-consultation-vs> ;
+         fhir:Reference.reference [ fhir:value "ValueSet/ihe-france-pam-dmp-consultation-vs" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "IHE France PAM DMP Consultation Consent ValueSet" ] ;
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Valeurs permises pour l'information et le consentement à la consultation du DMP (ZFA-11)." ] ;
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index -1 ;
+       fhir:Element.extension [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
+         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-dmp-feeding-cs> ;
+         fhir:Reference.reference [ fhir:value "CodeSystem/ihe-france-pam-dmp-feeding-cs" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "IHE France PAM DMP Feeding Information CodeSystem" ] ;
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Information du patient et opposition à l'alimentation de Mon espace santé / DMP (ZFA-9, table IHE-FRANCE-ZFA-9)." ] ;
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index -1 ;
+       fhir:Element.extension [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
+         fhir:Extension.valueString [ fhir:value "ValueSet" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://hl7.fr/ig/v2/pam/ValueSet/ihe-france-pam-dmp-feeding-vs> ;
+         fhir:Reference.reference [ fhir:value "ValueSet/ihe-france-pam-dmp-feeding-vs" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "IHE France PAM DMP Feeding Information ValueSet" ] ;
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Valeurs permises pour l'information et l'opposition à l'alimentation du DMP (ZFA-9)." ] ;
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index -1 ;
+       fhir:Element.extension [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-dmp-status> ;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/ihe-france-pam-dmp-status" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "IHE France PAM DMP Status" ] ;
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Contexte DMP du patient (segment ZFA) : statut du DMP, information et opposition à l'alimentation, information et consentement à la consultation." ] ;
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index -1 ;
+       fhir:Element.extension [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
+         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-dmp-status-cs> ;
+         fhir:Reference.reference [ fhir:value "CodeSystem/ihe-france-pam-dmp-status-cs" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "IHE France PAM DMP Status CodeSystem" ] ;
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Statut du DMP du patient (ZFA-1, table IHE-FRANCE-ZFA-1)." ] ;
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index -1 ;
+       fhir:Element.extension [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
+         fhir:Extension.valueString [ fhir:value "ValueSet" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://hl7.fr/ig/v2/pam/ValueSet/ihe-france-pam-dmp-status-vs> ;
+         fhir:Reference.reference [ fhir:value "ValueSet/ihe-france-pam-dmp-status-vs" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "IHE France PAM DMP Status ValueSet" ] ;
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Valeurs permises pour le statut du DMP (ZFA-1)." ] ;
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index -1 ;
+       fhir:Element.extension [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
+         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-emergency-passage-cs> ;
+         fhir:Reference.reference [ fhir:value "CodeSystem/ihe-france-pam-emergency-passage-cs" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "IHE France PAM Emergency Passage CodeSystem" ] ;
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Passage par une structure des urgences (ZFM-5, table IHE-FRANCE-ZFM-5)." ] ;
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index -1 ;
+       fhir:Element.extension [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
+         fhir:Extension.valueString [ fhir:value "ValueSet" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://hl7.fr/ig/v2/pam/ValueSet/ihe-france-pam-emergency-passage-vs> ;
+         fhir:Reference.reference [ fhir:value "ValueSet/ihe-france-pam-emergency-passage-vs" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "IHE France PAM Emergency Passage ValueSet" ] ;
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Valeurs permises pour le passage par une structure des urgences (ZFM-5)." ] ;
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index -1 ;
+       fhir:Element.extension [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-encounter> ;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/ihe-france-pam-encounter" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "IHE France PAM Encounter" ] ;
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Profil encounter pour l'extension nationale IHE France PAM, dérivé des contraintes portées par les segments PV1, PV2, ACC, ZBE, ZFV et ZFM." ] ;
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index -1 ;
+       fhir:Element.extension [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-encounter-supplement> ;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/ihe-france-pam-encounter-supplement" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "IHE France PAM Encounter Supplement" ] ;
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Compléments sur la rencontre (segment ZFV) : établissement de provenance, transport de sortie, période de placement en psychiatrie, adresse de provenance ou de destination, numéros d'archive." ] ;
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index -1 ;
+       fhir:Element.extension [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-historic-movement-indicator> ;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/ihe-france-pam-historic-movement-indicator" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "IHE France PAM Historic Movement Indicator" ] ;
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Indicateur de mouvement historique (ZBE-5) : vrai pour un mouvement ancien de la séquence, faux pour le mouvement courant." ] ;
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index -1 ;
+       fhir:Element.extension [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
+         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-identifier-type-cs> ;
+         fhir:Reference.reference [ fhir:value "CodeSystem/ihe-france-pam-identifier-type-cs" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "IHE France PAM Identifier Type CodeSystem" ] ;
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Types d'identifiants permis en France (CX-5, XCN-13, XON-7 ; table HL7 0203 spécialisée)." ] ;
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index -1 ;
+       fhir:Element.extension [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
+         fhir:Extension.valueString [ fhir:value "ValueSet" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://hl7.fr/ig/v2/pam/ValueSet/ihe-france-pam-identifier-type-vs> ;
+         fhir:Reference.reference [ fhir:value "ValueSet/ihe-france-pam-identifier-type-vs" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "IHE France PAM Identifier Type ValueSet" ] ;
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Valeurs permises pour les types d'identifiants." ] ;
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index -1 ;
+       fhir:Element.extension [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
+         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-identity-document-cs> ;
+         fhir:Reference.reference [ fhir:value "CodeSystem/ihe-france-pam-identity-document-cs" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "IHE France PAM Identity Document CodeSystem" ] ;
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Type de justificatif d'identité (ZFD-7, table IHE-FRANCE-ZFD-7)." ] ;
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index -1 ;
+       fhir:Element.extension [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
+         fhir:Extension.valueString [ fhir:value "ValueSet" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://hl7.fr/ig/v2/pam/ValueSet/ihe-france-pam-identity-document-vs> ;
+         fhir:Reference.reference [ fhir:value "ValueSet/ihe-france-pam-identity-document-vs" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "IHE France PAM Identity Document ValueSet" ] ;
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Valeurs permises pour le type de justificatif d'identité (ZFD-7)." ] ;
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index -1 ;
+       fhir:Element.extension [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
+         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-identity-means-cs> ;
+         fhir:Reference.reference [ fhir:value "CodeSystem/ihe-france-pam-identity-means-cs" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "IHE France PAM Identity Means CodeSystem" ] ;
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Mode d'obtention de l'identité (ZFD-5, table IHE-FRANCE-ZFD-5)." ] ;
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index -1 ;
+       fhir:Element.extension [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
+         fhir:Extension.valueString [ fhir:value "ValueSet" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://hl7.fr/ig/v2/pam/ValueSet/ihe-france-pam-identity-means-vs> ;
+         fhir:Reference.reference [ fhir:value "ValueSet/ihe-france-pam-identity-means-vs" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "IHE France PAM Identity Means ValueSet" ] ;
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Valeurs permises pour le mode d'obtention de l'identité (ZFD-5)." ] ;
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index -1 ;
+       fhir:Element.extension [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-identity-modifier-entity> ;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/ihe-france-pam-identity-modifier-entity" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "IHE France PAM Identity Modifier Entity" ] ;
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Entité ayant modifié l'identité du patient (PID-34), renseignée dans un contexte de groupement hospitalier de territoire où les identités sont partagées." ] ;
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index -1 ;
+       fhir:Element.extension [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-identity-status> ;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/ihe-france-pam-identity-status" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "IHE France PAM Identity Status" ] ;
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Statut ou attribut de l'identité du patient (PID-32). Répétable : un statut et, le cas échéant, des attributs d'identité." ] ;
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index -1 ;
+       fhir:Element.extension [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
+         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-identity-status-cs> ;
+         fhir:Reference.reference [ fhir:value "CodeSystem/ihe-france-pam-identity-status-cs" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "IHE France PAM Identity Status CodeSystem" ] ;
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Statuts et attributs de l'identité du patient (PID-32, table HL7 0445 spécialisée pour la France)." ] ;
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index -1 ;
+       fhir:Element.extension [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
+         fhir:Extension.valueString [ fhir:value "ValueSet" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://hl7.fr/ig/v2/pam/ValueSet/ihe-france-pam-identity-status-vs> ;
+         fhir:Reference.reference [ fhir:value "ValueSet/ihe-france-pam-identity-status-vs" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "IHE France PAM Identity Status ValueSet" ] ;
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Valeurs permises pour le statut et les attributs d'identité (PID-32)." ] ;
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index -1 ;
+       fhir:Element.extension [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
+         fhir:Extension.valueString [ fhir:value "Basic" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://hl7.fr/ig/v2/pam/Basic/ihe-france-pam-iti30> ;
+         fhir:Reference.reference [ fhir:value "Basic/ihe-france-pam-iti30" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "IHE France PAM ITI-30 Mapping Summary" ] ;
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Résumé narratif de la transaction ITI-30 et de ses cibles FHIR probables." ] ;
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index -1 ;
+       fhir:Element.extension [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
+         fhir:Extension.valueString [ fhir:value "Basic" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://hl7.fr/ig/v2/pam/Basic/ihe-france-pam-iti31> ;
+         fhir:Reference.reference [ fhir:value "Basic/ihe-france-pam-iti31" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "IHE France PAM ITI-31 Mapping Summary" ] ;
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Résumé narratif de la transaction ITI-31 et de ses cibles FHIR probables." ] ;
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index -1 ;
+       fhir:Element.extension [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
+         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-legal-care-mode-cs> ;
+         fhir:Reference.reference [ fhir:value "CodeSystem/ihe-france-pam-legal-care-mode-cs" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "IHE France PAM Legal Care Mode CodeSystem" ] ;
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Mode légal de soins en psychiatrie (ZFS-6, table IHE-FRANCE-ZFS-6). Liste non limitative." ] ;
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index -1 ;
+       fhir:Element.extension [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
+         fhir:Extension.valueString [ fhir:value "ValueSet" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://hl7.fr/ig/v2/pam/ValueSet/ihe-france-pam-legal-care-mode-vs> ;
+         fhir:Reference.reference [ fhir:value "ValueSet/ihe-france-pam-legal-care-mode-vs" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "IHE France PAM Legal Care Mode ValueSet" ] ;
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Valeurs proposées pour le mode légal de soins en psychiatrie (ZFS-6)." ] ;
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index -1 ;
+       fhir:Element.extension [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-location> ;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/ihe-france-pam-location" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "IHE France PAM Location" ] ;
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Profil location pour la localisation du patient (type de données PL, champ PV1-3) : unité fonctionnelle d'hébergement, chambre, lit et établissement." ] ;
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index -1 ;
+       fhir:Element.extension [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-medical-responsibility-unit> ;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/ihe-france-pam-medical-responsibility-unit" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "IHE France PAM Medical Responsibility Unit" ] ;
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Unité fonctionnelle médicalement ou médico-administrativement responsable du patient (ZBE-7, type XON)." ] ;
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index -1 ;
+       fhir:Element.extension [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-mother-birth-name> ;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/ihe-france-pam-mother-birth-name" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "IHE France PAM Mother Birth Name" ] ;
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Nom de naissance de la mère (PID-6). Ce champ ne porte pas le nom de naissance du patient." ] ;
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index -1 ;
+       fhir:Element.extension [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-movement-action> ;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/ihe-france-pam-movement-action" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "IHE France PAM Movement Action" ] ;
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Action portant sur le mouvement (ZBE-4) : insertion, annulation ou correction." ] ;
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index -1 ;
+       fhir:Element.extension [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
+         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-movement-action-cs> ;
+         fhir:Reference.reference [ fhir:value "CodeSystem/ihe-france-pam-movement-action-cs" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "IHE France PAM Movement Action CodeSystem" ] ;
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Action portant sur un mouvement (ZBE-4) ou sur un mode légal de soins (ZFS-5)." ] ;
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index -1 ;
+       fhir:Element.extension [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
+         fhir:Extension.valueString [ fhir:value "ValueSet" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://hl7.fr/ig/v2/pam/ValueSet/ihe-france-pam-movement-action-vs> ;
+         fhir:Reference.reference [ fhir:value "ValueSet/ihe-france-pam-movement-action-vs" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "IHE France PAM Movement Action ValueSet" ] ;
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Valeurs permises pour l'action sur un mouvement." ] ;
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index -1 ;
+       fhir:Element.extension [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-movement-identifier> ;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/ihe-france-pam-movement-identifier" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "IHE France PAM Movement Identifier" ] ;
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Identifiant du mouvement (ZBE-1, type EI). Répétable dans un contexte de gestion coopérative des mouvements." ] ;
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index -1 ;
+       fhir:Element.extension [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-movement-nature> ;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/ihe-france-pam-movement-nature" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "IHE France PAM Movement Nature" ] ;
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Nature du mouvement (ZBE-9) : éléments ayant fait l'objet d'un changement de situation." ] ;
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index -1 ;
+       fhir:Element.extension [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
+         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-movement-nature-cs> ;
+         fhir:Reference.reference [ fhir:value "CodeSystem/ihe-france-pam-movement-nature-cs" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "IHE France PAM Movement Nature CodeSystem" ] ;
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Nature du mouvement (ZBE-9, table IHE-FRANCE-ZBE-9)." ] ;
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index -1 ;
+       fhir:Element.extension [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
+         fhir:Extension.valueString [ fhir:value "ValueSet" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://hl7.fr/ig/v2/pam/ValueSet/ihe-france-pam-movement-nature-vs> ;
+         fhir:Reference.reference [ fhir:value "ValueSet/ihe-france-pam-movement-nature-vs" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "IHE France PAM Movement Nature ValueSet" ] ;
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Valeurs permises pour la nature du mouvement (ZBE-9)." ] ;
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index -1 ;
+       fhir:Element.extension [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-nationality> ;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/ihe-france-pam-nationality" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "IHE France PAM Nationality" ] ;
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Citoyenneté du patient (PID-26), code pays ISO 3166 alpha-3 par défaut. Le champ PID-28 (nationalité) est déprécié et son usage est interdit en France." ] ;
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index -1 ;
+       fhir:Element.extension [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-organization> ;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/ihe-france-pam-organization" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "IHE France PAM Organization" ] ;
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Profil organisation pour les établissements, entités juridiques et unités fonctionnelles identifiés dans PAM France (type de données XON)." ] ;
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index -1 ;
+       fhir:Element.extension [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-origin-event-code> ;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/ihe-france-pam-origin-event-code" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "IHE France PAM Origin Event Code" ] ;
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Événement déclencheur d'origine du mouvement (ZBE-6), renseigné pour une correction ou une annulation." ] ;
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index -1 ;
+       fhir:Element.extension [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-patient> ;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/ihe-france-pam-patient" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "IHE France PAM Patient" ] ;
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Profil patient pour l'extension nationale IHE France PAM, dérivé des contraintes portées notamment par les segments PID, PD1, NK1 et par les types de données HL7 v2.5 français." ] ;
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index -1 ;
+       fhir:Element.extension [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-patient-class> ;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/ihe-france-pam-patient-class" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "IHE France PAM Patient Class" ] ;
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Classe de patient (PV1-2) : urgences, hospitalisation, externe, séances, télésurveillance médicale ou non applicable." ] ;
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index -1 ;
+       fhir:Element.extension [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
+         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-patient-class-cs> ;
+         fhir:Reference.reference [ fhir:value "CodeSystem/ihe-france-pam-patient-class-cs" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "IHE France PAM Patient Class CodeSystem" ] ;
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Classe de patient (PV1-2, table HL7 0004)." ] ;
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index -1 ;
+       fhir:Element.extension [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
+         fhir:Extension.valueString [ fhir:value "ValueSet" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://hl7.fr/ig/v2/pam/ValueSet/ihe-france-pam-patient-class-vs> ;
+         fhir:Reference.reference [ fhir:value "ValueSet/ihe-france-pam-patient-class-vs" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "IHE France PAM Patient Class ValueSet" ] ;
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Valeurs permises pour la classe de patient." ] ;
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index -1 ;
+       fhir:Element.extension [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-planned-end> ;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/ihe-france-pam-planned-end" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "IHE France PAM Planned End" ] ;
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Date de sortie prévisionnelle (PV2-9), également portée par EVN-3 pour l'événement A16." ] ;
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index -1 ;
+       fhir:Element.extension [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-planned-start> ;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/ihe-france-pam-planned-start" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "IHE France PAM Planned Start" ] ;
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Date d'entrée prévisionnelle (PV2-8)." ] ;
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index -1 ;
+       fhir:Element.extension [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
+         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-pmsi-entry-mode-cs> ;
+         fhir:Reference.reference [ fhir:value "CodeSystem/ihe-france-pam-pmsi-entry-mode-cs" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "IHE France PAM PMSI Entry Mode CodeSystem" ] ;
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Mode d'entrée PMSI (ZFM-1, table IHE-FRANCE-ZFM-1)." ] ;
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index -1 ;
+       fhir:Element.extension [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
+         fhir:Extension.valueString [ fhir:value "ValueSet" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://hl7.fr/ig/v2/pam/ValueSet/ihe-france-pam-pmsi-entry-mode-vs> ;
+         fhir:Reference.reference [ fhir:value "ValueSet/ihe-france-pam-pmsi-entry-mode-vs" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "IHE France PAM PMSI Entry Mode ValueSet" ] ;
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Valeurs permises pour le mode d'entrée PMSI (ZFM-1)." ] ;
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index -1 ;
+       fhir:Element.extension [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
+         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-pmsi-exit-mode-cs> ;
+         fhir:Reference.reference [ fhir:value "CodeSystem/ihe-france-pam-pmsi-exit-mode-cs" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "IHE France PAM PMSI Exit Mode CodeSystem" ] ;
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Mode de sortie PMSI (ZFM-2, table IHE-FRANCE-ZFM-2)." ] ;
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index -1 ;
+       fhir:Element.extension [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
+         fhir:Extension.valueString [ fhir:value "ValueSet" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://hl7.fr/ig/v2/pam/ValueSet/ihe-france-pam-pmsi-exit-mode-vs> ;
+         fhir:Reference.reference [ fhir:value "ValueSet/ihe-france-pam-pmsi-exit-mode-vs" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "IHE France PAM PMSI Exit Mode ValueSet" ] ;
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Valeurs permises pour le mode de sortie PMSI (ZFM-2)." ] ;
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index -1 ;
+       fhir:Element.extension [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-pmsi-movement> ;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/ihe-france-pam-pmsi-movement" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "IHE France PAM PMSI Movement" ] ;
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Mouvement PMSI (segment ZFM) : mode d'entrée, mode de sortie, provenance, destination et passage par une structure des urgences." ] ;
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index -1 ;
+       fhir:Element.extension [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-practitioner> ;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/ihe-france-pam-practitioner" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "IHE France PAM Practitioner" ] ;
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Profil practitioner pour les professionnels de santé référencés dans les segments ROL et PV1 (type de données XCN)." ] ;
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index -1 ;
+       fhir:Element.extension [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-practitioner-role> ;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/ihe-france-pam-practitioner-role" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "IHE France PAM PractitionerRole" ] ;
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Profil practitioner role pour les rôles véhiculés par le segment ROL et par les références médecins du segment PV1." ] ;
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index -1 ;
+       fhir:Element.extension [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
+         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-professional-activity-cs> ;
+         fhir:Reference.reference [ fhir:value "CodeSystem/ihe-france-pam-professional-activity-cs" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "IHE France PAM Professional Activity CodeSystem" ] ;
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Activité socioprofessionnelle (ZFP-1, nomenclature PCS 2003 de l'INSEE)." ] ;
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index -1 ;
+       fhir:Element.extension [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
+         fhir:Extension.valueString [ fhir:value "ValueSet" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://hl7.fr/ig/v2/pam/ValueSet/ihe-france-pam-professional-activity-vs> ;
+         fhir:Reference.reference [ fhir:value "ValueSet/ihe-france-pam-professional-activity-vs" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "IHE France PAM Professional Activity ValueSet" ] ;
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Valeurs pour : Activité socioprofessionnelle (ZFP-1, nomenclature PCS 2003 de l'INSEE)." ] ;
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index -1 ;
+       fhir:Element.extension [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
+         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-professional-category-cs> ;
+         fhir:Reference.reference [ fhir:value "CodeSystem/ihe-france-pam-professional-category-cs" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "IHE France PAM Professional Category CodeSystem" ] ;
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Catégorie socioprofessionnelle (ZFP-2, nomenclature PCS 2003 de l'INSEE)." ] ;
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index -1 ;
+       fhir:Element.extension [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
+         fhir:Extension.valueString [ fhir:value "ValueSet" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://hl7.fr/ig/v2/pam/ValueSet/ihe-france-pam-professional-category-vs> ;
+         fhir:Reference.reference [ fhir:value "ValueSet/ihe-france-pam-professional-category-vs" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "IHE France PAM Professional Category ValueSet" ] ;
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Valeurs pour : Catégorie socioprofessionnelle (ZFP-2, nomenclature PCS 2003 de l'INSEE)." ] ;
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index -1 ;
+       fhir:Element.extension [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-professional-situation> ;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/ihe-france-pam-professional-situation" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "IHE France PAM Professional Situation" ] ;
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Situation professionnelle du patient (segment ZFP) : activité et catégorie socioprofessionnelles (nomenclature PCS 2003 de l'INSEE)." ] ;
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index -1 ;
+       fhir:Element.extension [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
+         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-provider-role-cs> ;
+         fhir:Reference.reference [ fhir:value "CodeSystem/ihe-france-pam-provider-role-cs" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "IHE France PAM Provider Role CodeSystem" ] ;
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Rôle d'un médecin en relation avec le patient (ROL-3, table HL7 0443)." ] ;
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index -1 ;
+       fhir:Element.extension [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
+         fhir:Extension.valueString [ fhir:value "ValueSet" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://hl7.fr/ig/v2/pam/ValueSet/ihe-france-pam-provider-role-vs> ;
+         fhir:Reference.reference [ fhir:value "ValueSet/ihe-france-pam-provider-role-vs" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "IHE France PAM Provider Role ValueSet" ] ;
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Valeurs permises pour le rôle d'un médecin (ROL-3)." ] ;
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index -1 ;
+       fhir:Element.extension [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-psychiatric-legal-status> ;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/ihe-france-pam-psychiatric-legal-status" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "IHE France PAM Psychiatric Legal Status" ] ;
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Mode légal de soins en psychiatrie (segment ZFS, répétable). Un seul système doit être maître de la saisie des modes légaux de soins." ] ;
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index -1 ;
+       fhir:Element.extension [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-related-person> ;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/ihe-france-pam-related-person" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "IHE France PAM Related Person" ] ;
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Profil related person pour représenter les personnes à prévenir, personnes de confiance et personnes associées, véhiculées par le segment NK1." ] ;
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index -1 ;
+       fhir:Element.extension [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
+         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-relationship-cs> ;
+         fhir:Reference.reference [ fhir:value "CodeSystem/ihe-france-pam-relationship-cs" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "IHE France PAM Relationship CodeSystem" ] ;
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Nature de la relation avec le patient (NK1-3, table HL7 0063). Liste non limitative." ] ;
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index -1 ;
+       fhir:Element.extension [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
+         fhir:Extension.valueString [ fhir:value "ValueSet" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://hl7.fr/ig/v2/pam/ValueSet/ihe-france-pam-relationship-vs> ;
+         fhir:Reference.reference [ fhir:value "ValueSet/ihe-france-pam-relationship-vs" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "IHE France PAM Relationship ValueSet" ] ;
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Valeurs pour : Nature de la relation avec le patient (NK1-3, table HL7 0063). Liste non limitative." ] ;
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index -1 ;
+       fhir:Element.extension [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
+         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-rimp-cs> ;
+         fhir:Reference.reference [ fhir:value "CodeSystem/ihe-france-pam-rimp-cs" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "IHE France PAM RIM-P Legal Care Code CodeSystem" ] ;
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Code RIM-P du mode légal de soins (ZFS-7, table IHE-FRANCE-ZFS-7)." ] ;
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index -1 ;
+       fhir:Element.extension [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
+         fhir:Extension.valueString [ fhir:value "ValueSet" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://hl7.fr/ig/v2/pam/ValueSet/ihe-france-pam-rimp-vs> ;
+         fhir:Reference.reference [ fhir:value "ValueSet/ihe-france-pam-rimp-vs" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "IHE France PAM RIM-P Legal Care Code ValueSet" ] ;
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Valeurs permises pour le code RIM-P du mode légal de soins (ZFS-7)." ] ;
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index -1 ;
+       fhir:Element.extension [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
+         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-transport-care-cs> ;
+         fhir:Reference.reference [ fhir:value "CodeSystem/ihe-france-pam-transport-care-cs" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "IHE France PAM Transport Care CodeSystem" ] ;
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Prise en charge durant le transport (ZFV-11, table IHE-FRANCE-ZFV-11, codes RPU)." ] ;
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index -1 ;
+       fhir:Element.extension [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
+         fhir:Extension.valueString [ fhir:value "ValueSet" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://hl7.fr/ig/v2/pam/ValueSet/ihe-france-pam-transport-care-vs> ;
+         fhir:Reference.reference [ fhir:value "ValueSet/ihe-france-pam-transport-care-vs" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "IHE France PAM Transport Care ValueSet" ] ;
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Valeurs permises pour la prise en charge durant le transport (ZFV-11)." ] ;
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index -1 ;
+       fhir:Element.extension [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
+         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-transport-mode-cs> ;
+         fhir:Reference.reference [ fhir:value "CodeSystem/ihe-france-pam-transport-mode-cs" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "IHE France PAM Transport Mode CodeSystem" ] ;
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Mode de transport d'entrée (PV2-38) et de sortie (ZFV-2) (table HL7 0430)." ] ;
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index -1 ;
+       fhir:Element.extension [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
+         fhir:Extension.valueString [ fhir:value "ValueSet" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://hl7.fr/ig/v2/pam/ValueSet/ihe-france-pam-transport-mode-vs> ;
+         fhir:Reference.reference [ fhir:value "ValueSet/ihe-france-pam-transport-mode-vs" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "IHE France PAM Transport Mode ValueSet" ] ;
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Valeurs permises pour le mode de transport." ] ;
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index -1 ;
+       fhir:Element.extension [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
+         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-trigger-event-cs> ;
+         fhir:Reference.reference [ fhir:value "CodeSystem/ihe-france-pam-trigger-event-cs" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "IHE France PAM Trigger Event CodeSystem" ] ;
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Événements déclencheurs HL7 v2 utilisés par les transactions ITI-30 et ITI-31 en France." ] ;
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index -1 ;
+       fhir:Element.extension [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
+         fhir:Extension.valueString [ fhir:value "ValueSet" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://hl7.fr/ig/v2/pam/ValueSet/ihe-france-pam-trigger-event-vs> ;
+         fhir:Reference.reference [ fhir:value "ValueSet/ihe-france-pam-trigger-event-vs" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "IHE France PAM Trigger Event ValueSet" ] ;
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Valeurs permises pour les événements déclencheurs PAM France." ] ;
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index -1 ;
+       fhir:Element.extension [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-venue-protection> ;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/ihe-france-pam-venue-protection" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "IHE France PAM Venue Protection" ] ;
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Protection concernant la venue (PV2-22) : vrai si l'accès aux données de la venue est protégé, faux si l'accès est normal." ] ;
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ] ;
+     fhir:ImplementationGuide.definition.page [
+       fhir:Element.extension [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name" ] ;
+         fhir:Extension.valueUrl [ fhir:value "toc.html" ]
+       ] ;
+       fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "toc.html" ] ;
+       fhir:ImplementationGuide.definition.page.title [ fhir:value "Table of Contents" ] ;
+       fhir:ImplementationGuide.definition.page.generation [ fhir:value "html" ] ;
+       fhir:ImplementationGuide.definition.page.page [
+         fhir:index -1 ;
+         fhir:Element.extension [
+           fhir:index -1 ;
+           fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name" ] ;
+           fhir:Extension.valueUrl [ fhir:value "index.html" ]
+         ] ;
+         fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "index.html" ] ;
+         fhir:ImplementationGuide.definition.page.title [ fhir:value "Accueil" ] ;
+         fhir:ImplementationGuide.definition.page.generation [ fhir:value "markdown" ]
+       ], [
+         fhir:index -1 ;
+         fhir:Element.extension [
+           fhir:index -1 ;
+           fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name" ] ;
+           fhir:Extension.valueUrl [ fhir:value "volume-1.html" ]
+         ] ;
+         fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "volume-1.html" ] ;
+         fhir:ImplementationGuide.definition.page.title [ fhir:value "Introduction" ] ;
+         fhir:ImplementationGuide.definition.page.generation [ fhir:value "markdown" ] ;
+         fhir:ImplementationGuide.definition.page.page [
+           fhir:index -1 ;
+           fhir:Element.extension [
+             fhir:index -1 ;
+             fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name" ] ;
+             fhir:Extension.valueUrl [ fhir:value "actors-transactions.html" ]
+           ] ;
+           fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "actors-transactions.html" ] ;
+           fhir:ImplementationGuide.definition.page.title [ fhir:value "Acteurs et transactions" ] ;
+           fhir:ImplementationGuide.definition.page.generation [ fhir:value "markdown" ]
+         ], [
+           fhir:index -1 ;
+           fhir:Element.extension [
+             fhir:index -1 ;
+             fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name" ] ;
+             fhir:Extension.valueUrl [ fhir:value "conformite.html" ]
+           ] ;
+           fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "conformite.html" ] ;
+           fhir:ImplementationGuide.definition.page.title [ fhir:value "Conformité" ] ;
+           fhir:ImplementationGuide.definition.page.generation [ fhir:value "markdown" ]
+         ]
+       ], [
+         fhir:index -1 ;
+         fhir:Element.extension [
+           fhir:index -1 ;
+           fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name" ] ;
+           fhir:Extension.valueUrl [ fhir:value "content-modules.html" ]
+         ] ;
+         fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "content-modules.html" ] ;
+         fhir:ImplementationGuide.definition.page.title [ fhir:value "Contenus et contraintes FHIR" ] ;
+         fhir:ImplementationGuide.definition.page.generation [ fhir:value "markdown" ] ;
+         fhir:ImplementationGuide.definition.page.page [
+           fhir:index -1 ;
+           fhir:Element.extension [
+             fhir:index -1 ;
+             fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name" ] ;
+             fhir:Extension.valueUrl [ fhir:value "hl7v2-datatypes.html" ]
+           ] ;
+           fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "hl7v2-datatypes.html" ] ;
+           fhir:ImplementationGuide.definition.page.title [ fhir:value "Contraintes HL7 v2.5" ] ;
+           fhir:ImplementationGuide.definition.page.generation [ fhir:value "markdown" ]
+         ], [
+           fhir:index -1 ;
+           fhir:Element.extension [
+             fhir:index -1 ;
+             fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name" ] ;
+             fhir:Extension.valueUrl [ fhir:value "hl7v2-to-fhir.html" ]
+           ] ;
+           fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "hl7v2-to-fhir.html" ] ;
+           fhir:ImplementationGuide.definition.page.title [ fhir:value "Mapping HL7 v2 vers FHIR" ] ;
+           fhir:ImplementationGuide.definition.page.generation [ fhir:value "markdown" ]
+         ], [
+           fhir:index -1 ;
+           fhir:Element.extension [
+             fhir:index -1 ;
+             fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name" ] ;
+             fhir:Extension.valueUrl [ fhir:value "examples.html" ]
+           ] ;
+           fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "examples.html" ] ;
+           fhir:ImplementationGuide.definition.page.title [ fhir:value "Exemples" ] ;
+           fhir:ImplementationGuide.definition.page.generation [ fhir:value "markdown" ]
+         ]
+       ], [
+         fhir:index -1 ;
+         fhir:Element.extension [
+           fhir:index -1 ;
+           fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name" ] ;
+           fhir:Extension.valueUrl [ fhir:value "security.html" ]
+         ] ;
+         fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "security.html" ] ;
+         fhir:ImplementationGuide.definition.page.title [ fhir:value "Sécurité" ] ;
+         fhir:ImplementationGuide.definition.page.generation [ fhir:value "markdown" ]
+       ], [
+         fhir:index -1 ;
+         fhir:Element.extension [
+           fhir:index -1 ;
+           fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name" ] ;
+           fhir:Extension.valueUrl [ fhir:value "publications.html" ]
+         ] ;
+         fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "publications.html" ] ;
+         fhir:ImplementationGuide.definition.page.title [ fhir:value "Publications antérieures" ] ;
+         fhir:ImplementationGuide.definition.page.generation [ fhir:value "markdown" ]
+       ], [
+         fhir:index -1 ;
+         fhir:Element.extension [
+           fhir:index -1 ;
+           fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name" ] ;
+           fhir:Extension.valueUrl [ fhir:value "downloads.html" ]
+         ] ;
+         fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "downloads.html" ] ;
+         fhir:ImplementationGuide.definition.page.title [ fhir:value "Téléchargements et usages" ] ;
+         fhir:ImplementationGuide.definition.page.generation [ fhir:value "markdown" ]
+       ], [
+         fhir:index -1 ;
+         fhir:Element.extension [
+           fhir:index -1 ;
+           fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name" ] ;
+           fhir:Extension.valueUrl [ fhir:value "translationinfo.html" ]
+         ] ;
+         fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "translationinfo.html" ] ;
+         fhir:ImplementationGuide.definition.page.title [ fhir:value "Informations sur la traduction" ] ;
+         fhir:ImplementationGuide.definition.page.generation [ fhir:value "markdown" ]
+       ]
+     ] ;
+     fhir:ImplementationGuide.definition.parameter [
+       fhir:index -1 ;
+       fhir:ImplementationGuide.definition.parameter.code [ fhir:value "path-resource" ] ;
+       fhir:ImplementationGuide.definition.parameter.value [ fhir:value "input/capabilities" ]
+     ], [
+       fhir:index -1 ;
+       fhir:ImplementationGuide.definition.parameter.code [ fhir:value "path-resource" ] ;
+       fhir:ImplementationGuide.definition.parameter.value [ fhir:value "input/examples" ]
+     ], [
+       fhir:index -1 ;
+       fhir:ImplementationGuide.definition.parameter.code [ fhir:value "path-resource" ] ;
+       fhir:ImplementationGuide.definition.parameter.value [ fhir:value "input/extensions" ]
+     ], [
+       fhir:index -1 ;
+       fhir:ImplementationGuide.definition.parameter.code [ fhir:value "path-resource" ] ;
+       fhir:ImplementationGuide.definition.parameter.value [ fhir:value "input/models" ]
+     ], [
+       fhir:index -1 ;
+       fhir:ImplementationGuide.definition.parameter.code [ fhir:value "path-resource" ] ;
+       fhir:ImplementationGuide.definition.parameter.value [ fhir:value "input/operations" ]
+     ], [
+       fhir:index -1 ;
+       fhir:ImplementationGuide.definition.parameter.code [ fhir:value "path-resource" ] ;
+       fhir:ImplementationGuide.definition.parameter.value [ fhir:value "input/profiles" ]
+     ], [
+       fhir:index -1 ;
+       fhir:ImplementationGuide.definition.parameter.code [ fhir:value "path-resource" ] ;
+       fhir:ImplementationGuide.definition.parameter.value [ fhir:value "input/resources" ]
+     ], [
+       fhir:index -1 ;
+       fhir:ImplementationGuide.definition.parameter.code [ fhir:value "path-resource" ] ;
+       fhir:ImplementationGuide.definition.parameter.value [ fhir:value "input/vocabulary" ]
+     ], [
+       fhir:index -1 ;
+       fhir:ImplementationGuide.definition.parameter.code [ fhir:value "path-resource" ] ;
+       fhir:ImplementationGuide.definition.parameter.value [ fhir:value "input/maps" ]
+     ], [
+       fhir:index -1 ;
+       fhir:ImplementationGuide.definition.parameter.code [ fhir:value "path-resource" ] ;
+       fhir:ImplementationGuide.definition.parameter.value [ fhir:value "input/testing" ]
+     ], [
+       fhir:index -1 ;
+       fhir:ImplementationGuide.definition.parameter.code [ fhir:value "path-resource" ] ;
+       fhir:ImplementationGuide.definition.parameter.value [ fhir:value "input/history" ]
+     ], [
+       fhir:index -1 ;
+       fhir:ImplementationGuide.definition.parameter.code [ fhir:value "path-resource" ] ;
+       fhir:ImplementationGuide.definition.parameter.value [ fhir:value "fsh-generated/resources" ]
+     ], [
+       fhir:index -1 ;
+       fhir:ImplementationGuide.definition.parameter.code [ fhir:value "path-pages" ] ;
+       fhir:ImplementationGuide.definition.parameter.value [ fhir:value "template/config" ]
+     ], [
+       fhir:index -1 ;
+       fhir:ImplementationGuide.definition.parameter.code [ fhir:value "path-pages" ] ;
+       fhir:ImplementationGuide.definition.parameter.value [ fhir:value "input/assets" ]
+     ], [
+       fhir:index -1 ;
+       fhir:ImplementationGuide.definition.parameter.code [ fhir:value "path-pages" ] ;
+       fhir:ImplementationGuide.definition.parameter.value [ fhir:value "input/images" ]
+     ], [
+       fhir:index -1 ;
+       fhir:ImplementationGuide.definition.parameter.code [ fhir:value "path-tx-cache" ] ;
+       fhir:ImplementationGuide.definition.parameter.value [ fhir:value "input-cache/txcache" ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://hl7.fr/ig/v2/pam/ImplementationGuide/ihe.fr.pam.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="ihe-france-pam-relationship-vs"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><div xml:lang="fr" lang="fr"><hr/><p><b>French</b></p><hr/><p class="res-header-id"><b>Narratif généré : EnsembleValeurs ihe-france-pam-relationship-vs</b></p><a name="ihe-france-pam-relationship-vs"> </a><a name="hcihe-france-pam-relationship-vs"> </a><ul><li>Include tous les codes définis dans <a href="CodeSystem-ihe-france-pam-relationship-cs.html"><code>https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-relationship-cs</code></a><span title="La version est explicitement indiquée comme étant 0.1.0"> version &#x1F4CD;0.1.0</span></li></ul></div><div xml:lang="en" lang="en"><hr/><p><b>English</b></p><hr/><p class="res-header-id"><b>Generated Narrative: ValueSet ihe-france-pam-relationship-vs</b></p><a name="en-ihe-france-pam-relationship-vs"> </a><a name="en-hcihe-france-pam-relationship-vs"> </a><ul><li>Include all codes defined in <a href="CodeSystem-ihe-france-pam-relationship-cs.html"><code>https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-relationship-cs</code></a><span title="Version is explicitly stated to be 0.1.0"> version &#x1F4CD;0.1.0</span></li></ul></div></div>
+  </text>
+  <url value="https://hl7.fr/ig/v2/pam/ValueSet/ihe-france-pam-relationship-vs"/>
+  <version value="0.1.0"/>
+  <name value="IHEFrancePamRelationshipVS"/>
+  <title value="IHE France PAM Relationship ValueSet"/>
+  <status value="draft"/>
+  <experimental value="false"/>
+  <date value="2026-10-20T11:55:56+00:00"/>
+  <publisher value="IHE France"/>
+  <contact>
+    <name value="IHE France"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.ihe-france.org"/>
+    </telecom>
+  </contact>
+  <contact>
+    <name value="IHE France"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.ihe-france.org"/>
+      <use value="work"/>
+    </telecom>
+  </contact>
+  <description value="Valeurs pour : Nature de la relation avec le patient (NK1-3, table HL7 0063). Liste non limitative."/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="FR"/>
+      <display value="France (la)"/>
+    </coding>
+  </jurisdiction>
+  <compose>
+    <include>
+      <system value="https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-relationship-cs"/>
+      <version value="0.1.0"/>
+    </include>
+  </compose>
+</ValueSet>

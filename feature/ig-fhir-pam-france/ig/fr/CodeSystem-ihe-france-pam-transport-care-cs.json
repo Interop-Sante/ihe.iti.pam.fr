@@ -1,0 +1,58 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "ihe-france-pam-transport-care-cs",
+  "language" : "fr",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xml:lang=\"fr\" lang=\"fr\"><hr/><p><b>French</b></p><hr/><p class=\"res-header-id\"><b>Narratif généré : CodeSystem ihe-france-pam-transport-care-cs</b></p><a name=\"ihe-france-pam-transport-care-cs\"> </a><a name=\"hcihe-france-pam-transport-care-cs\"> </a><p>This case-sensitive code system <code>https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-transport-care-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Affichage</b></td><td><b>Définition</b></td></tr><tr><td style=\"white-space:nowrap\">MED<a name=\"ihe-france-pam-transport-care-cs-MED\"> </a></td><td>Médicalisé</td><td>Transport médicalisé.</td></tr><tr><td style=\"white-space:nowrap\">PARAMED<a name=\"ihe-france-pam-transport-care-cs-PARAMED\"> </a></td><td>Paramédicalisé</td><td>Transport paramédicalisé.</td></tr><tr><td style=\"white-space:nowrap\">AUCUN<a name=\"ihe-france-pam-transport-care-cs-AUCUN\"> </a></td><td>Aucune prise en charge</td><td>Sans prise en charge médicalisée ou paramédicalisée.</td></tr></table></div>"
+  },
+  "url" : "https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-transport-care-cs",
+  "version" : "0.1.0",
+  "name" : "IHEFrancePamTransportCareCS",
+  "title" : "IHE France PAM Transport Care CodeSystem",
+  "status" : "draft",
+  "experimental" : false,
+  "date" : "2026-10-20T11:55:56+00:00",
+  "publisher" : "IHE France",
+  "contact" : [{
+    "name" : "IHE France",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://www.ihe-france.org"
+    }]
+  },
+  {
+    "name" : "IHE France",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://www.ihe-france.org",
+      "use" : "work"
+    }]
+  }],
+  "description" : "Prise en charge durant le transport (ZFV-11, table IHE-FRANCE-ZFV-11, codes RPU).",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR",
+      "display" : "France (la)"
+    }]
+  }],
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 3,
+  "concept" : [{
+    "code" : "MED",
+    "display" : "Médicalisé",
+    "definition" : "Transport médicalisé."
+  },
+  {
+    "code" : "PARAMED",
+    "display" : "Paramédicalisé",
+    "definition" : "Transport paramédicalisé."
+  },
+  {
+    "code" : "AUCUN",
+    "display" : "Aucune prise en charge",
+    "definition" : "Sans prise en charge médicalisée ou paramédicalisée."
+  }]
+}
