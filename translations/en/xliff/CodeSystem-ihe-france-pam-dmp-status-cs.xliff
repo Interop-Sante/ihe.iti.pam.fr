@@ -1,0 +1,92 @@
+<?xml version="1.0" ?>
+
+<xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0">
+  <file source-language="fr" target-language="en" id="CodeSystem-ihe-france-pam-dmp-status-cs" original="Resource CodeSystem-ihe-france-pam-dmp-status-cs" datatype="KEYVALUEJSON">
+    <body>
+      <trans-unit id="CodeSystem-ihe-france-pam-dmp-status-cs" resname="CodeSystem.name">
+             <notes>
+               <note id="n1">CodeSystem.name</note>
+             </notes>
+        <source>IHEFrancePamDmpStatusCS</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-ihe-france-pam-dmp-status-cs" resname="CodeSystem.title">
+             <notes>
+               <note id="n1">CodeSystem.title</note>
+             </notes>
+        <source>IHE France PAM DMP Status CodeSystem</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-ihe-france-pam-dmp-status-cs" resname="CodeSystem.publisher">
+             <notes>
+               <note id="n1">CodeSystem.publisher</note>
+             </notes>
+        <source>IHE France</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-ihe-france-pam-dmp-status-cs" resname="ContactDetail.name">
+             <notes>
+               <note id="n1">ContactDetail.name</note>
+             </notes>
+        <source>IHE France</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-ihe-france-pam-dmp-status-cs" resname="CodeSystem.description">
+             <notes>
+               <note id="n1">CodeSystem.description</note>
+             </notes>
+        <source>Statut du DMP du patient (ZFA-1, table IHE-FRANCE-ZFA-1).</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-ihe-france-pam-dmp-status-cs" resname="Coding.display">
+             <notes>
+               <note id="n1">Coding.display</note>
+             </notes>
+        <source>France (la)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-ihe-france-pam-dmp-status-cs" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Actif</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-ihe-france-pam-dmp-status-cs" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>Le DMP du patient existe et n'est pas fermé.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-ihe-france-pam-dmp-status-cs" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Fermé</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-ihe-france-pam-dmp-status-cs" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>Le DMP du patient existe et est fermé.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-ihe-france-pam-dmp-status-cs" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Inexistant</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-ihe-france-pam-dmp-status-cs" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>Le DMP du patient n'existe pas.</source>
+        <target></target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,141 @@
+
+# CodeSystem.name
+#: CodeSystem.name
+msgid "IHEFrancePamLegalCareModeCS"
+msgstr ""
+
+# CodeSystem.title
+#: CodeSystem.title
+msgid "IHE France PAM Legal Care Mode CodeSystem"
+msgstr ""
+
+# CodeSystem.publisher
+#: CodeSystem.publisher
+msgid "IHE France"
+msgstr ""
+
+# ContactDetail.name
+#: ContactDetail.name
+msgid "IHE France"
+msgstr ""
+
+# CodeSystem.description
+#: CodeSystem.description
+msgid "Mode légal de soins en psychiatrie (ZFS-6, table IHE-FRANCE-ZFS-6). Liste non limitative."
+msgstr ""
+
+# Coding.display
+#: Coding.display
+msgid "France (la)"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Ordonnance provisoire de placement"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "Ordonnance provisoire de placement."
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Soins psychiatriques pour péril imminent"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "Soins psychiatriques pour péril imminent."
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Soins psychiatriques libres"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "Soins psychiatriques libres."
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Soins psychiatriques avec autorisation parentale"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "Soins psychiatriques avec autorisation parentale."
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Soins psychiatriques sur décision du représentant de l'État (arrêté préfectoral)"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "Soins psychiatriques à la demande du représentant de l'État sur arrêté préfectoral (article L3213-1)."
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Soins psychiatriques sur décision du représentant de l'État (arrêté municipal)"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "Soins psychiatriques à la demande du représentant de l'État sur arrêté municipal (article L3213-2)."
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Soins psychiatriques après irresponsabilité pénale"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "Soins psychiatriques à la demande du représentant de l'État après irresponsabilité pénale (article L3213-7)."
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Soins psychiatriques des personnes détenues"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "Soins psychiatriques des personnes détenues (article D398 du code de procédure pénale)."
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Soins psychiatriques à la demande d'un tiers"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "Soins psychiatriques à la demande d'un tiers, deux certificats (article L3212-1-II-1)."
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Soins psychiatriques à la demande d'un tiers en urgence"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "Soins psychiatriques à la demande d'un tiers en urgence, un certificat (article L3213-3)."
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Soins psychiatriques pour péril imminent (un certificat)"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "Soins psychiatriques pour péril imminent, un certificat (article L3212-1-II-2)."
+msgstr ""
+

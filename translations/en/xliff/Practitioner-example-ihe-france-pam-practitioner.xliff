@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+
+<xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0">
+  <file source-language="fr" target-language="en" id="Practitioner-example-ihe-france-pam-practitioner" original="Resource Practitioner-example-ihe-france-pam-practitioner" datatype="KEYVALUEJSON">
+    <body>
+      <trans-unit id="Practitioner-example-ihe-france-pam-practitioner" resname="HumanName.family">
+             <notes>
+               <note id="n1">HumanName.family</note>
+             </notes>
+        <source>MARTIN</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="Practitioner-example-ihe-france-pam-practitioner" resname="HumanName.given">
+             <notes>
+               <note id="n1">HumanName.given</note>
+             </notes>
+        <source>PAUL</source>
+        <target></target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

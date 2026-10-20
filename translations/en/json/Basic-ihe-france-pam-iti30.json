@@ -1,0 +1,13 @@
+{
+  "id" : "Basic-ihe-france-pam-iti30",
+  "baseLang" : "fr",
+  "languages" : [{
+    "targetLang" : "en",
+    "entries" : [{
+      "id" : "CodeableConcept.text",
+      "context" : "CodeableConcept.text",
+      "source" : "ITI-30",
+      "target" : null
+    }]
+  }]
+}

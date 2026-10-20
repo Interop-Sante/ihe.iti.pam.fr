@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+
+<xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0">
+  <file source-language="fr" target-language="en" id="RelatedPerson-example-ihe-france-pam-related-person" original="Resource RelatedPerson-example-ihe-france-pam-related-person" datatype="KEYVALUEJSON">
+    <body>
+      <trans-unit id="RelatedPerson-example-ihe-france-pam-related-person" resname="CodeableConcept.text">
+             <notes>
+               <note id="n1">CodeableConcept.text</note>
+             </notes>
+        <source>Personne a prevenir</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="RelatedPerson-example-ihe-france-pam-related-person" resname="HumanName.family">
+             <notes>
+               <note id="n1">HumanName.family</note>
+             </notes>
+        <source>DARK</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="RelatedPerson-example-ihe-france-pam-related-person" resname="HumanName.given">
+             <notes>
+               <note id="n1">HumanName.given</note>
+             </notes>
+        <source>ALICE</source>
+        <target></target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

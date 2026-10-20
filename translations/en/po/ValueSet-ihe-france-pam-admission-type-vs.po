@@ -1,0 +1,36 @@
+
+# ValueSet.name
+#: ValueSet.name
+msgid "IHEFrancePamAdmissionTypeVS"
+msgstr ""
+
+# ValueSet.title
+#: ValueSet.title
+msgid "IHE France PAM Admission Type ValueSet"
+msgstr ""
+
+# ValueSet.publisher
+#: ValueSet.publisher
+msgid "IHE France"
+msgstr ""
+
+# ContactDetail.name
+#: ContactDetail.name
+msgid "IHE France"
+msgstr ""
+
+# ValueSet.description
+#: ValueSet.description
+msgid "Valeurs pour : Type d'admission (PV1-4, table HL7 0007)."
+msgstr ""
+
+# Coding.display
+#: Coding.display
+msgid "France (la)"
+msgstr ""
+
+# ValueSet.compose.include.version
+#: ValueSet.compose.include.version
+msgid "0.1.0"
+msgstr ""
+
