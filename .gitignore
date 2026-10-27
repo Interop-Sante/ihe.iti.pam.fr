@@ -24,3 +24,7 @@ Thumbs.db
 # backup files #
 ################
 *.bak
+
+# Traductions générées par l IG Publisher #
+##########################################
+/translations

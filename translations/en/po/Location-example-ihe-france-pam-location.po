@@ -1,6 +1,0 @@
-
-# Location.name
-#: Location.name
-msgid "UF 4036 chambre 22 lit 3"
-msgstr ""
-
