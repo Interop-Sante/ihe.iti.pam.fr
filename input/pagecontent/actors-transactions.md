@@ -1,5 +1,20 @@
 Cette page reprend le contenu documentaire principal des chapitres `2`, `4` et `5` du document source PAM France.
 
+### Acteurs
+
+Le profil PAM (*Patient Administration Management*) repose sur deux transactions, chacune mettant en jeu un acteur qui émet les messages et un acteur qui les reçoit.
+
+| Acteur | Transaction | Rôle |
+| --- | --- | --- |
+| `Patient Demographics Supplier` (PDS) | `ITI-30` | émet les données d'identification et les données démographiques du patient : création, mise à jour, changement d'identifiants, fusion de dossiers |
+| `Patient Demographics Consumer` | `ITI-30` | reçoit ces données et les intègre pour garder une vision cohérente de l'identité du patient |
+| `Patient Encounter Supplier` (PES) | `ITI-31` | émet les notifications concernant la venue, le dossier administratif et les mouvements du patient. Le document source le désigne aussi par `Encounter Source` |
+| `Patient Encounter Consumer` | `ITI-31` | reçoit ces notifications et met à jour sa vision de la venue et des mouvements |
+
+En pratique, le système de gestion administrative du patient (GAP) joue en général les rôles de producteur d'identités et de mouvements (`Patient Demographics Supplier` et `Patient Encounter Supplier`). Les systèmes qui reçoivent ces informations, comme le dossier patient informatisé, un système de biologie ou d'imagerie, jouent les rôles de consommateurs. Cette répartition est une lecture usuelle : le document source ne l'impose pas et renvoie, pour le groupement des acteurs, au chapitre 14.4.1 du volume 1 du cadre technique ITI.
+
+Dans le contexte français intra ou inter établissements, l'usage conjoint des transactions `ITI-30` et `ITI-31` est requis. En médecine de ville, seule `ITI-30` est utile.
+
 ### Transaction ITI-30
 
 La transaction `ITI-30` véhicule les données démographiques et d'identification des patients afin de maintenir une vision cohérente de ces données entre les systèmes concernés par le patient.
