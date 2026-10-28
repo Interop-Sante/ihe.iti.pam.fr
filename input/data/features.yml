@@ -1,0 +1,7 @@
+---
+disable_autonumbering: true
+feedback:
+  - active: true
+    dashboard:
+      label: New Issue
+      url: https://github.com/Interop-Sante/ihe.iti.pam.fr/issues/new

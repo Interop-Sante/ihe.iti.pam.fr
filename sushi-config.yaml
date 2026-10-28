@@ -1,0 +1,85 @@
+id: ihe.fr.pam
+canonical: https://hl7.fr/ig/v2/pam
+name: IHEFrancePAM
+title: IHE PAM France
+description: >
+  Base de travail pour transformer le profil IHE PAM France issu d'un PDF
+  en Implementation Guide FHIR publiable avec le template Interop'Sante.
+status: draft
+version: 0.1.0
+fhirVersion: 4.0.1
+copyrightYear: 2026+
+releaseLabel: ci-build # doit être conforme au cycle de vie de la doctrine du CI-SIS (colonne "label de publication") : https://interop.esante.gouv.fr/ig/documentation/mod_bonnes_pratiques.html#release-dun-ig-fhir
+publisher:
+  name: IHE France
+  url: https://www.ihe-france.org
+contact:
+  - name: IHE France
+    telecom:
+      - system: url
+        value: https://www.ihe-france.org
+        use: work
+jurisdiction: urn:iso:std:iso:3166#FR "France (la)"
+
+parameters:
+  path-expansion-params: ../../expansion-params.json # for using French SNOMED CT Extension
+  i18n-default-lang: fr
+  i18n-lang:
+    - en
+  translation-sources:
+    - input/translations/en
+  shownav: 'true'
+  pin-canonicals: pin-all
+  apply-contact: true
+  apply-jurisdiction: true
+  logging:
+    - tx
+    - init
+    - progress
+
+pages:
+  index.md:
+    title: Accueil
+  volume-1.md:
+    title: Introduction
+    actors-transactions.md:
+      title: Acteurs et transactions
+    conformite.md:
+      title: Conformité
+  content-modules.md:
+    title: Contenus et contraintes FHIR
+    hl7v2-datatypes.md:
+      title: Contraintes HL7 v2.5
+    hl7v2-to-fhir.md:
+      title: Mapping HL7 v2 vers FHIR
+    examples.md:
+      title: Exemples
+  security.md:
+    title: Sécurité
+  publications.md:
+    title: Publications antérieures
+  downloads.md:
+    title: Téléchargements et usages
+  translationinfo.md:
+    title: Informations sur la traduction
+
+menu:
+  Accueil: index.html
+  Vol. 1 - Étude fonctionnelle:
+    Introduction: volume-1.html
+    Acteurs et transactions: actors-transactions.html
+    Conformité: conformite.html
+  Vol. 2 - Détail des transactions:
+    Contenus et contraintes FHIR: content-modules.html
+    Contraintes HL7 v2.5: hl7v2-datatypes.html
+    Mapping HL7 v2 vers FHIR: hl7v2-to-fhir.html
+    Exemples: examples.html
+  Vol. 3 - Annexes:
+    Sécurité: security.html
+    Publications antérieures: publications.html
+    Téléchargements et usages: downloads.html
+    Informations sur la traduction: translationinfo.html
+    "Spécifications FHIR ": new-tab {{site.data.fhir.path}}index.html
+    "Site d'Interop'Santé ": new-tab https://www.interopsante.org/
+  Ressources de conformité: artifacts.html
+  Documentation: new-tab https://interop.esante.gouv.fr/ig/documentation/

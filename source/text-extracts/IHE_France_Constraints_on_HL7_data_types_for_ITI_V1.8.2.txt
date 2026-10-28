@@ -1,0 +1,3185 @@
+IHE FRANCE
+Integrating the Healthcare Enterprise
+
+IT Infrastructure
+Technical Framework
+National Extensions
+
+
+Extension for France of 
+ITI TF-2: Appendix N:
+
+Constraints on common HL7 v2.5 data types 
+for ITI Integration Profiles in France 
+
+Contraintes sur les types de données HL7 v2.5 applicables aux profils d’intégration du cadre technique IT Infrastructure dans le périmètre d’IHE France
+
+Release 1.8.2 – Trial Implementation – 3 février 2025
+
+
+Copyright © 2024-25: IHE FRANCE
+Avant-propos
+
+Les types de donnée HL7 v2.5 utilisés par les profils d’intégration du cadre technique IT Infrastructure IHE sont décrits dans l’appendice N du volume 2 de ce cadre technique, référencé ci-après ITI TF-2 : Appendix N. 
+Le présent document constitue l’extension française de cet appendice N. Il décrit les contraintes sur ces types de données HL7 v2.5 applicables à tout profil d’intégration du cadre technique ITI exploité dans le contexte français. 
+Le document restreint ou précise l’utilisation des types de données décrits dans ITI TF-2 : Appendix N. Le document précise aussi l’utilisation de types de données HL7 v2.5 qui ne sont pas encore décrits dans ITI TF-2 : Appendix N.
+Chaque type de données est décrit sous la forme d’un tableau dont les lignes représentent les éléments du type de données, et dont les colonnes « Usage » et « Card » précisent respectivement l’usage de l’élément et ses cardinalités dans le contexte français.
+La colonne Usage respecte la codification commune à HL7 et IHE : 
+R 		Requis. L’élément doit être renseigné dans le contexte français
+RE 		Doit être renseigné si l’application émettrice possède l’information. L’application productrice doit être capable de fournir cet élément. L’application réceptrice doit être capable de l’intégrer.
+O		Optionnel : IHE France n’impose aucune contrainte sur cet élément qui peut être géré ou non par les applications productrices et consommatrices.
+C		Conditionnel. La condition pour l’utilisation dans le contexte français est précisée en dessous du tableau.
+X		Interdit en France
+La colonne Card. contient les cardinalités minimum et maximum entre crochets.
+Une colonne « IHE fr » a été ajoutée à droite des tableaux. Cette colonne contient un astérisque lorsque la contrainte d’usage définie par IHE France  se distingue de celle définie par IHE International ou par le standard HL7 v2.5 pour l’élément concerné. Autrement dit, l’absence d’astérisque signifie que l’usage français ne se distingue en rien de l’usage international.
+Certains éléments sont détaillés en dessous du tableau du type de données. En particulier, des listes de valeurs peuvent être fournies par IHE France pour certains de ces éléments. Ces listes (restreintes, étendues ou modifiées par rapport aux listes originales définies par HL7) contiennent les valeurs strictement permises en France. Aucune de ces listes ne peut être étendue sans recourir à une nouvelle révision du présent document.
+
+
+
+
+
+Liste des contributeurs
+Contributeurs
+Courriel
+Organisation
+Yohann Poiron
+yohann.poiron@esante.gouv.fr
+ANS
+Jean-Christophe Cauvin
+jean-christophe.cauvin@sante.gouv.fr
+DNS
+Frédéric Laurent
+laurentfr@chu-rennes.fr
+CHU de Rennes
+Thierry Dubreu
+thierry.dubreu@sesan.fr
+Sesan
+Eric Marchand
+eric.marchand@maincare.fr
+Maincare
+Jérémie Gaquière
+jeremie.gaquiere@mediane.tm.fr
+Mediane
+Philippe Mangion
+philippe.mangion@intellitec.net
+Intellitec
+Sebastien Huard
+sebastien.huard@chu-lyon.fr
+HCL
+Nicolas Moreau
+nicolas.moreau@cpage.fr
+CPage
+Sabine Coloigner
+coloigner.s@mipih.fr 
+Mipih
+Maël Priour
+mael.priour@esante.gouv.fr 
+ANS
+Peter Baumgarten 
+peter.baumgarten@dedalus.com
+Dedalus
+Cyprien Mercier
+cyprien.mercier@kereval.com
+Kereval
+François Macary
+francois.macary@use-and-share.com
+Use and Share
+Benoit Tissot
+benoit.tissot@aphp.fr
+APHP
+Gonzague Frete
+gonzague.frete@dedalus.eu
+Dedalus
+Morane Lhoir
+morane.lhoir@kereval.com
+Kereval
+
+SOMMAIRE
+
+ TOC \o "1-5" \t "Titre 1;1" \h HYPERLINK \l "_Toc189488732" N.	Contraints on HL7 v2.5 data types for ITI Profiles in France	 PAGEREF _Toc189488732 \h 6
+ HYPERLINK \l "_Toc189488733" N.1	CX : Identifiant composite étendu avec caractère de contrôle	 PAGEREF _Toc189488733 \h 6
+ HYPERLINK \l "_Toc189488734" CX-1 : Identifiant (ST)	 PAGEREF _Toc189488734 \h 9
+ HYPERLINK \l "_Toc189488735" CX-4 : Autorité d’affectation (HD)	 PAGEREF _Toc189488735 \h 9
+ HYPERLINK \l "_Toc189488736" CX-5 : Code de type d’identifiant (ID)	 PAGEREF _Toc189488736 \h 10
+ HYPERLINK \l "_Toc189488737" CX-6 : Etablissement ou entité géographique (HD)	 PAGEREF _Toc189488737 \h 11
+ HYPERLINK \l "_Toc189488738" CX-7 : Date effective (DT)	 PAGEREF _Toc189488738 \h 11
+ HYPERLINK \l "_Toc189488739" CX-9 : Entité juridique (CWE)	 PAGEREF _Toc189488739 \h 11
+ HYPERLINK \l "_Toc189488740" CX-10 : Service, Unité ou Département (CWE)	 PAGEREF _Toc189488740 \h 12
+ HYPERLINK \l "_Toc189488741" N.2	EI : Identifiant d’entité	 PAGEREF _Toc189488741 \h 13
+ HYPERLINK \l "_Toc189488742" N.3	HD : Désignateur hiérarchique	 PAGEREF _Toc189488742 \h 13
+ HYPERLINK \l "_Toc189488743" N.4	PL : Localisation de la personne	 PAGEREF _Toc189488743 \h 15
+ HYPERLINK \l "_Toc189488744" N.5	TS: Point dans le temps	 PAGEREF _Toc189488744 \h 17
+ HYPERLINK \l "_Toc189488745" N.6	XAD : Adresse étendue	 PAGEREF _Toc189488745 \h 18
+ HYPERLINK \l "_Toc189488746" XAD-1 : Voie de l’adresse (SAD)	 PAGEREF _Toc189488746 \h 19
+ HYPERLINK \l "_Toc189488747" XAD-2 : Compléments d’adresse (ST)	 PAGEREF _Toc189488747 \h 19
+ HYPERLINK \l "_Toc189488748" XAD-3 : Commune (ST)	 PAGEREF _Toc189488748 \h 19
+ HYPERLINK \l "_Toc189488749" XAD-4 : Etat ou province (ST)	 PAGEREF _Toc189488749 \h 19
+ HYPERLINK \l "_Toc189488750" XAD-5 : Code postal ou code zip (ST)	 PAGEREF _Toc189488750 \h 19
+ HYPERLINK \l "_Toc189488751" XAD-6 : Pays (ID)	 PAGEREF _Toc189488751 \h 20
+ HYPERLINK \l "_Toc189488752" XAD-7 : Type d’adresse (ID)	 PAGEREF _Toc189488752 \h 24
+ HYPERLINK \l "_Toc189488753" XAD-9 : Cedex (IS)	 PAGEREF _Toc189488753 \h 25
+ HYPERLINK \l "_Toc189488754" XAD-13 : Date de début de validité (TS)	 PAGEREF _Toc189488754 \h 25
+ HYPERLINK \l "_Toc189488755" XAD-14 : Date de fin de validité (TS)	 PAGEREF _Toc189488755 \h 26
+ HYPERLINK \l "_Toc189488756" N.7	SAD : Voie	 PAGEREF _Toc189488756 \h 27
+ HYPERLINK \l "_Toc189488757" SAD-1 : Ligne d’adresse	 PAGEREF _Toc189488757 \h 27
+ HYPERLINK \l "_Toc189488758" N.8	XCN : Identifiant composite étendu et nom pour les personnes	 PAGEREF _Toc189488758 \h 28
+ HYPERLINK \l "_Toc189488759" XCN-1 : Identifiant de la personne (ST)	 PAGEREF _Toc189488759 \h 29
+ HYPERLINK \l "_Toc189488760" XCN-2 : Nom de famille (FN)	 PAGEREF _Toc189488760 \h 31
+ HYPERLINK \l "_Toc189488761" XCN-3 : Premier prénom (ST)	 PAGEREF _Toc189488761 \h 31
+ HYPERLINK \l "_Toc189488762" XCN-4 : Deuxième prénom et suivants (ST)	 PAGEREF _Toc189488762 \h 31
+ HYPERLINK \l "_Toc189488763" XCN-6 : Préfixe (ST)	 PAGEREF _Toc189488763 \h 31
+ HYPERLINK \l "_Toc189488764" XCN-9 : Autorité d’affectation (HD)	 PAGEREF _Toc189488764 \h 31
+ HYPERLINK \l "_Toc189488765" XCN-10 : Type de nom (ID)	 PAGEREF _Toc189488765 \h 31
+ HYPERLINK \l "_Toc189488766" XCN-13 : Type d’identifiant (ID)	 PAGEREF _Toc189488766 \h 31
+ HYPERLINK \l "_Toc189488767" N.9	XON : Nom et identifiant pour les organisations	 PAGEREF _Toc189488767 \h 33
+ HYPERLINK \l "_Toc189488768" XON-1 : Nom de l’organisation (ST)	 PAGEREF _Toc189488768 \h 34
+ HYPERLINK \l "_Toc189488769" XON-6 : Autorité d’affectation de l’identifiant (HD)	 PAGEREF _Toc189488769 \h 35
+ HYPERLINK \l "_Toc189488770" XON-7 : Type d’identifiant (ID)	 PAGEREF _Toc189488770 \h 35
+ HYPERLINK \l "_Toc189488771" XON-10 : Identifiant de l’organisation (ST)	 PAGEREF _Toc189488771 \h 35
+ HYPERLINK \l "_Toc189488772" N.10	XPN : Nom étendu de personne	 PAGEREF _Toc189488772 \h 36
+ HYPERLINK \l "_Toc189488773" XPN-1 : Nom de famille (FN)	 PAGEREF _Toc189488773 \h 36
+ HYPERLINK \l "_Toc189488774" XPN-2 : Premier prénom (ST)	 PAGEREF _Toc189488774 \h 36
+ HYPERLINK \l "_Toc189488775" XPN-3 : Liste des prénoms (ST)	 PAGEREF _Toc189488775 \h 37
+ HYPERLINK \l "_Toc189488776" XPN-5 : Préfixe – civilité (ST)	 PAGEREF _Toc189488776 \h 37
+ HYPERLINK \l "_Toc189488777" XPN-7 : Type de nom (ID)	 PAGEREF _Toc189488777 \h 37
+ HYPERLINK \l "_Toc189488778" N.11	XTN : numéro de télécommunication étendu	 PAGEREF _Toc189488778 \h 39
+ HYPERLINK \l "_Toc189488779" XTN-2 : type de numéro (ID)	 PAGEREF _Toc189488779 \h 39
+ HYPERLINK \l "_Toc189488780" XTN-3 : type d’équipement (ID)	 PAGEREF _Toc189488780 \h 40
+ HYPERLINK \l "_Toc189488781" XTN-4 : adresse e-mail (ST)	 PAGEREF _Toc189488781 \h 40
+ HYPERLINK \l "_Toc189488782" XTN-9 : texte libre (ST)	 PAGEREF _Toc189488782 \h 40
+ HYPERLINK \l "_Toc189488783" XTN-12 : n° de téléphone non formaté (ST)	 PAGEREF _Toc189488783 \h 40
+ HYPERLINK \l "_Toc189488784" N.12	Fiche de Contrôle du document	 PAGEREF _Toc189488784 \h 42
+ HYPERLINK \l "_Toc189488785" N.13	Notes de version	 PAGEREF _Toc189488785 \h 43
+ HYPERLINK \l "_Toc189488786" N.13.1	Release 1.1	 PAGEREF _Toc189488786 \h 43
+ HYPERLINK \l "_Toc189488787" N.13.1.1	CP-ITI-FR-2008-003	 PAGEREF _Toc189488787 \h 43
+ HYPERLINK \l "_Toc189488788" N.13.1.2	CP-ITI-FR-2008-007b	 PAGEREF _Toc189488788 \h 43
+ HYPERLINK \l "_Toc189488789" N.13.1.3	CP-ITI-FR-2008-013	 PAGEREF _Toc189488789 \h 44
+ HYPERLINK \l "_Toc189488790" N.13.1.4	CP-ITI-FR-2008-016	 PAGEREF _Toc189488790 \h 44
+ HYPERLINK \l "_Toc189488791" N.13.2	Release 1.2	 PAGEREF _Toc189488791 \h 44
+ HYPERLINK \l "_Toc189488792" N.13.2.1	CP-ITI-FR-2009-019	 PAGEREF _Toc189488792 \h 44
+ HYPERLINK \l "_Toc189488793" N.13.3	Release 1.3	 PAGEREF _Toc189488793 \h 45
+ HYPERLINK \l "_Toc189488794" N.13.3.1	CP-ITI-FR-2010-024	 PAGEREF _Toc189488794 \h 45
+ HYPERLINK \l "_Toc189488795" N.13.4	Release 1.4	 PAGEREF _Toc189488795 \h 45
+ HYPERLINK \l "_Toc189488796" N.13.4.1	CP-ITI-FR-2010-033	 PAGEREF _Toc189488796 \h 45
+ HYPERLINK \l "_Toc189488797" N.13.4.2	CP-ITI-FR-2011-034	 PAGEREF _Toc189488797 \h 45
+ HYPERLINK \l "_Toc189488798" N.13.4.3	CP-ITI-FR-2011-038	 PAGEREF _Toc189488798 \h 45
+ HYPERLINK \l "_Toc189488799" N.13.4.4	CP-ITI-FR-2011-040	 PAGEREF _Toc189488799 \h 45
+ HYPERLINK \l "_Toc189488800" N.13.4.5	CP-ITI-FR-2011-046	 PAGEREF _Toc189488800 \h 45
+ HYPERLINK \l "_Toc189488801" N.13.4.6	CP-ITI-FR-2011-048	 PAGEREF _Toc189488801 \h 45
+ HYPERLINK \l "_Toc189488802" N.13.4.7	CP-ITI-FR-2011-050	 PAGEREF _Toc189488802 \h 45
+ HYPERLINK \l "_Toc189488803" N.13.4.8	CP-ITI-FR-2011-051	 PAGEREF _Toc189488803 \h 46
+ HYPERLINK \l "_Toc189488804" N.13.5	Release 1.5	 PAGEREF _Toc189488804 \h 46
+ HYPERLINK \l "_Toc189488805" N.13.5.1	CP-ITI-FR-2011-051	 PAGEREF _Toc189488805 \h 46
+ HYPERLINK \l "_Toc189488806" N.13.5.2	CP-ITI-FR-2012-043	 PAGEREF _Toc189488806 \h 46
+ HYPERLINK \l "_Toc189488807" N.13.5.3	CP-ITI-FR-2012-064	 PAGEREF _Toc189488807 \h 46
+ HYPERLINK \l "_Toc189488808" N.13.5.4	CP-ITI-FR-2012-069	 PAGEREF _Toc189488808 \h 46
+ HYPERLINK \l "_Toc189488809" N.13.6	Release 1.6	 PAGEREF _Toc189488809 \h 46
+ HYPERLINK \l "_Toc189488810" N.13.6.1	IHE-CP-ITI-FR-2017-129	 PAGEREF _Toc189488810 \h 46
+ HYPERLINK \l "_Toc189488811" N.13.7	Release 1.7	 PAGEREF _Toc189488811 \h 46
+ HYPERLINK \l "_Toc189488812" N.13.7.1	IHE-CP-ITI-FR-2017-130	 PAGEREF _Toc189488812 \h 46
+ HYPERLINK \l "_Toc189488813" Release 1.7.3	 PAGEREF _Toc189488813 \h 47
+ HYPERLINK \l "_Toc189488814" Release 1.8	 PAGEREF _Toc189488814 \h 47
+ HYPERLINK \l "_Toc189488815" Release 1.8.1	 PAGEREF _Toc189488815 \h 47
+ HYPERLINK \l "_Toc189488816" Release 1.8.2	 PAGEREF _Toc189488816 \h 47
+
+
+Contraints on HL7 v2.5 data types for ITI Profiles in France
+Contraintes sur les types de données HL7 v2.5 applicables aux profils du domaine IT Infrastructure implémentés dans le périmètre géographique d’IHE France.
+CX : Identifiant composite étendu avec caractère de contrôle
+CX: Extended Composite ID with check digit
+Ce type de données est décrit dans ITI TF-2 : Appendix N. L’extension française apporte des contraintes supplémentaires et des précisions. 
+Data Type CX
+SEQ
+LEN
+DT
+Usage
+Card.
+HL7 table
+COMPONENT NAME
+IHE FR 
+CX-1
+128
+ST
+R
+[1..1]
+ 
+ID Number
+*
+CX-2
+1
+ST
+O
+[0..1]
+ 
+Check Digit
+
+CX-3
+3
+ID
+O
+[0..1]
+61
+Check Digit Scheme
+
+CX-4
+227
+HD
+R
+[1..1]
+363
+Assigning Authority
+*
+CX-5
+5
+ID
+RE
+[0..1]
+203
+Identifier Type Code
+*
+CX-6
+227
+HD
+O
+[0..1]
+ 
+Assigning Facility
+*
+CX-7
+8
+DT
+C
+[0..1]
+ 
+Effective Date
+
+CX-8
+8
+DT
+O
+[0..1]
+ 
+Expiration Date
+
+CX-9
+705
+CWE
+O
+[0..1]
+ 
+Assigning Jurisdiction
+*
+CX-10
+705
+CWE
+O
+[0..1]
+ 
+Assigning Agency or Department
+*
+
+Le tableau suivant représente les différents composants du type de donnée CX. Pour chacun des identifiants, la nature de chaque composant ou sous composant est précisée.
+Un texte en italique indique que le composant est à renseigner avec la valeur indiquée par le texte dans le tableau.
+Un texte qui n’apparaît pas en italique indique que le composant ou le sous composant est à renseigner avec le texte indiqué dans le tableau.
+Une croix indique que le composant ou le sous composant ne doit pas être utilisé.
+Le lecteur se reportera à la section N.3 pour le détail du type de données HD (Désignateur hiérarchique)
+
+
+CX
+123HD5674.14.24.3Identifiant de patient (PID-3)
+INS-CValeurASIP-SANTE-INS-C1.2.250.1.213.1.4.2
+1.2.250.1.213.1.4.6
+1.2.250.1.213.1.4.7
+Cf note (2)ISOINC-CDate du calculNDPValeur CNOP1.2.250.1.176.1.2ISONDPNIRValeurASIP-SANTE-NIR1.2.250.1.213.1.4.8ISONHDate de lecture de la carte vitaleINS-NIRValeurASIP-SANTE-INS-NIR1.2.250.1.213.1.4.8ISOINSINS-NIAValeurASIP-SANTE-INS-NIA1.2.250.1.213.1.4.9ISOINSIPPValeur nom/Finess-ej
+/Finej-eg (1)Nom de l’ autorité
+N° FINESS-EJ
+N° FINEJ-EGL
+M
+NPIIdentifiant n° de dossier administratif (PID-18)
+Numéro de dossier administratifValeur Nom/Finess-ej
+/Finej-eg (1)Nom de l’ autorité
+N° FINESS-EJ
+N° FINEJ-EGL
+M
+NANIdentifiant de pré-admission (PV1-5), de venue (PV1-19)
+N° venueValeur Nom/Fines-ejs
+/Finej-eg (1)Nom de l’autorité
+N° FINESS-EJ
+N° FINEJ-EGL
+M
+NVN(1) Nom/Finess-ej/Finej-eg signifie que le composant peut être renseigné soit avec le nom, soit avec le n° FINESS d’entité juridique, soit avec le n° FINESS d’entité géographique de l’autorité d’affectation qui a affecté l’identifiant.
+Les données qui apparaissent en vert dans le tableau ci-dessus sont optionnelles.
+(2) Le Cadre d’interopérabilité des SIS version 1.3 de l’ASIP Santé (publiée le 18 octobre 2012) fait référence au « dossier de conception de l’INS-C ».
+Deux nouveaux OID d’affectation pour l’INS-C ont été ajoutés dans le dossier de conception de l’INS-C, afin de permettre une gestion distincte des INS-C en fonction du type de carte Vitale à partir de laquelle est calculé l’INS-C (carte Réelle, Test ou Démonstration).
+
+OID
+Objet
+1.2.250.1.213.1.4.2
+Autorité d’affectation des INS-C calculés à partir de cartes Vitale de production (carte réelle)
+1.2.250.1.213.1.4.6
+Autorité d’affectation des INS-C calculés à partir de cartes Vitale de test 
+1.2.250.1.213.1.4.7
+Autorité d’affectation des INS-C calculés à partir de cartes Vitale de démonstration 
+1.2.250.1.213.1.4.8
+Autorité d’affectation des INS-NIR
+1.2.250.1.213.1.4.10
+Autorité d’affectation des INS-NIR de test
+1.2.250.1.213.1.4.11
+Autorité d’affectation des INS-NIR de démonstration
+1.2.250.1.213.1.4.9
+Autorité d’affectation des INS-NIA
+
+URL du CI-SIS :
+ HYPERLINK "https://esante.gouv.fr/interoperabilite/ci-sis" https://esante.gouv.fr/interoperabilite/ci-sis
+
+URL du dossier de conception INS-C :
+ HYPERLINK "http://esante.gouv.fr/services/referentiels/identification/dossier-de-conception-de-l-identifiant-national-de-sante-calcul" http://esante.gouv.fr/services/referentiels/identification/dossier-de-conception-de-l-identifiant-national-de-sante-calcul
+
+URL de l’INS :
+ HYPERLINK "https://esante.gouv.fr/securite/identifiant-national-de-sante" https://esante.gouv.fr/securite/identifiant-national-de-sante
+
+Le NDP (Identifiant Patient au Dossier Pharmaceutique) s’exprime par concaténation de six composants extraits de la carte vitale du patient. Ces six composants sont séparés par le caractère ‘|’ qui correspond également au caractère de séparation des champs dans le message HL7. Pour cette raison, les six composants du NDP inscrits dans le champ CX-1 du type de données CX, seront séparés par le caractère d’échappement \F\. Ce caractère d’échappement doit être interprété par l’application réceptrice comme le caractère ‘|’ de séparation des composants du NDP et non pas comme un séparateur de champ du message. 
+
+Exemple d’identifiant de patient (PID-3):
+INS-C : 0411886319605719371016^^^ASIP-SANTE-INS-C&1.2.250.1.213.1.4.2&ISO^INS-C^^20101207
+NDP: DUPONT\F\Jean\F\19590510\F\1\F\1234567891011\F\clésur14positions^^^CNOP&1.2.250.1.176.1.2&ISO^ NDP 
+NIR du bénéficiaire (identifiant avec sa clé) actuel : 276037510669326^^^ASIP-SANTE-NIR&1.2.250.1.213.1.4.8&ISO^NH^^20210506
+INS-NIA (identifiant avec sa clé) : 276037510669380^^^ASIP-SANTE-INS-NIA&1.2.250.1.213.1.4.9&ISO^INS
+INS-NIR (identifiant avec sa clé) actuel : 276037510669380^^^ASIP-SANTE-INS-NIR&1.2.250.1.213.1.4.8&ISO^INS
+IPP crée par le serveur d’identités qui est l’unique domaine d’identification de l’établissement juridique :
+1° exemple où seule la 1° sous composante du type HD est utilisée 123456789^^^AUT-AFFECTATION^PI
+2° exemple équivalent où les trois sous composantes sont utilisées :  123456789^^^AUT-AFFECTATION&120456789&M&^PI
+AUT-AFFECTATION représente le nom de l’autorité d’affectation
+120456789 représente le n° FINESS de l’établissement
+M représente le type d’identifiant qui caractérise un établissement juridique 
+INS-NIR et IPP : 123456789^^^AUT-AFFECTATION^PI~276037510669380^^^ASIP-SANTE-INS-NIR&1.2.250.1.213.1.4.8&ISO^INS
+N° dossier administratif (PID-18) où le n° 120456789 indique le FINESS-EJ d’entité juridique de l’établissement qui a affecté le n° de dossier administratif 405660^^^AUT-AFFECTATION&120456789&M^AN^^20101205    
+N° de venue (PV1-19) 000897406^^^ AUT-AFFECTATION&120456789&M ^VN^^20101205    
+
+CX-1 : Identifiant (ST)
+Remarque : Au regard du standard HL7 2.5, l’identifiant est une chaîne de caractères opaque, c'est-à-dire sans structuration particulière, qui possède la seule propriété d’être unique dans le champ délimité par l’autorité d’affectation, et d’être affecté à la personne qu’il désigne. Par conséquent les applications s’échangeant les identifiants dans les messages ne sont pas sensées interpréter la structure de ces identifiants. Lorsque structure il y a, son interprétation n’est pas du ressort des couches applicatives de communication dont la seule responsabilité est d’acheminer l’identifiant dans son entièreté.
+CX-4 : Autorité d’affectation (HD)
+CX-4: Assigning Authority
+Ce composant identifie l’autorité qui a produit et affecté l’identifiant contenu dans CX-1. Exemples : 
+Pour un identifiant national de santé calculé (INS-C), CX-4 contient l’identification de l’autorité d’affectation qui a affecté l’INS-C : dans ce cas, cette autorité est décrite par un OID fourni par l’ASIP et précisé dans son dossier de conception de l’INS-C: 1.2.250.1.213.1.4.2 
+Pour un identifiant national de santé INS (NIR ou NIA), CX-4 contient un identifiant qui permet de distinguer un NIR (1.2.250.1.213.1.4.8) ou un NIA (1.2.250.1.213.1.4.9).
+Pour un IPP ou un n° de venue, CX-4 contient l’identification de l’autorité d’affectation de ces identifiants. 
+
+Voir plus loin le type HD pour la structuration de ce composant CX-4.
+CX-5 : Code de type d’identifiant (ID)
+CX-5: Identifier Type Code 
+Les codes de types d’identifiants permis en France sont les suivants :
+HL7 table 0203 – Identifier Type
+
+Value 
+Description
+Utilisé dans les types de données
+IHE FR Comments
+EI
+Employee number
+ CX, XCN
+ 
+NH
+National Health Plan Identifier
+ CX, XCN
+INS (Numéro Identifiant de Santé)
+INS-C
+INS-C
+ CX, XCN, XON
+Numéro de sécurité social utilisé dans les échanges avec l'assurance maladie.
+INS
+Identifiant National de Santé NIR
+ CX, XCN
+INS-NIR ou INS-NIA récupéré à partir du téléservice INSi.
+NNFRA
+National Person Identifier where the FRA is the ISO table 3166 3-character (alphabetic) country code
+ CX, XCN
+N° de carte d’identité nationale National (NIR) Person Identifier. FRA est le code pays ISO 3166-1
+PPN
+Passport Number
+CX, XCN
+Numéro du passeport
+PI
+Patient internal identifier
+CX, XCN
+IPP d'établissement
+NDP
+Identifiant du patient au Dossier Pharmaceutique
+CX
+
+PN
+Person number
+ CX, XCN
+Ipp fédérateur utilisé par un Cross Reference Manager. 
+Egalement utilisé pour identifier les personnes à prévenir ou les personnes de confiance.
+RRI
+Regional registry ID
+ CX, XCN
+ 
+ADELI
+ADELI
+ CX, XCN
+Numéro au répertoire ADELI du professionnel de santé
+RPPS
+RPPS
+ CX, XCN
+N° d’inscription au RPPS du professionnel de santé
+IDNPS
+
+CX, XCN
+Identification nationale de PS définie par l’ASIP-SANTE dans le CI_SIS et utilisée en extra-hospitalier
+RI
+
+XCN
+Ressource interne
+FINEJ
+
+XON
+FINESS d’entité juridique
+FINEG
+
+XON
+FINESS d’entité géographique
+RPPS
+
+XON
+Répertoire partagé des professionnels de santé
+ADELI
+
+XON
+Repertoire ADELI
+SIREN
+
+XON
+N° SIREN de l’organisation
+SIRET
+
+XON
+N° SIRET de l’organisation
+UF
+
+XON
+Code UF
+IDNST
+
+XON
+Identification nationale de structure définie par l’ASIP-SANTE dans le CI_SIS et utilisée en extra-hospitalier.
+SRV
+
+XON
+Code Service (axe organisationnel)
+MR
+Medical record
+CX
+Numéro d’archive
+AN
+Account Number
+CX
+Numéro de dossier
+VN
+Visit Number
+CX
+Numéro de venue
+
+CX-6 : Etablissement ou entité géographique (HD)
+CX-6 – Assigning Facility
+Ce composant optionnel permet d’identifier  l’établissement de santé qui a : 
+soit produit l’identifiant transporté en CX-1 (par exemple un IPP, un NDA, un numéro de venue) ;
+ soit obtenu cet identifiant d’un support externe ou d’un télé-service fourni par une autre autorité (par exemple un INS-A fourni par la CNAV) ;
+ soit calculé cet identifiant sous le contrôle d’une autre autorité (par exemple un INS-C calculé selon l’algorithme public fourni par l’ASIP)
+L’identifiant de l’établissement peut être son OID ou son n° FINESS d’établissement (entité géographique) ou plus tard, son n° RMESS
+
+CX-7 : Date effective (DT)
+CX-7: Effective Date 
+Définition : Ce composant représente une date connue à partir de laquelle cet identifiant est valide.
+Condition : Ce composant doit être renseigné avec la date de calcul de l’INS-C. Pour les autres types d’identifiants ce composant reste optionnel.
+Explication : Un patient qui change de prénom ou de NIR ou de date de naissance sur sa carte Vitale (qu’il s’agisse d’une correction d’erreur ou d’un changement réel), changera aussi d’INS-C de fait. Les SI de santé étant habilités et encouragés à stocker ces identifiants il pourra se faire qu’un SI ait connaissance de deux INS-C successifs pour un même patient. Il devra dans ce cas, à chaque fois qu’il communique un INS, inclure les deux INS-C dans son message, en précisant pour chacun d’eux la date à laquelle il a été obtenu, c'est-à-dire sa date de calcul. Le SI destinataire du message saura ainsi ordonner les INS-C du patient dans le temps, et connaître le dernier valide : celui qui a la date effective la plus récente.
+CX-9 : Entité juridique (CWE)
+CX-9 : Assigning Jurisdiction
+Ce composant optionnel permet d’identifier  l’entité juridique de santé qui a : 
+soit produit l’identifiant transporté en CX-1 (par exemple un IPP, un NDA, un numéro de venue) ;
+ soit obtenu cet identifiant d’un support externe ou d’un télé-service fourni par une autre autorité (par exemple un INS-A fourni par la CNAV) ;
+ soit calculé cet identifiant sous le contrôle d’une autre autorité (par exemple un INS-C calculé selon l’algorithme public fourni par l’ASIP)
+L’identifiant de l’entité juridique peut être son OID ou son n° FINESS d’entité juridique, ou plus tard, son n° RMESS
+
+CX-10 : Service, Unité ou Département (CWE)
+CX-10 : Assigning Agency or Department
+Ce composant optionnel permet d’identifier  l’unité fonctionnelle ou service ou département qui a : 
+soit produit l’identifiant transporté en CX-1 (par exemple un IPP, un NDA, un numéro de venue) ;
+ soit obtenu cet identifiant d’un support externe ou d’un télé-service fourni par une autre autorité (par exemple un INS-A fourni par la CNAV) ;
+ soit calculé cet identifiant sous le contrôle d’une autre autorité (par exemple un INS-C calculé selon l’algorithme public fourni par l’ASIP)
+L’identifiant est un code affecté à l’unité fonctionnelle ou au service ou au département par l’établissement (CX-6) auquel elle appartient.
+EI : Identifiant d’entité
+EI: Entity Identifier
+Ce type de données est utilisé en France sans changement,  tel que décrit dans ITI TF-2 : Appendix N.  En particulier, la longueur maximum de l’identifiant stocké dans EI-1 est fixée à 128 caractères pour la France comme pour IHE international.
+
+HD : Désignateur hiérarchique
+HD: Hierarchic Designator
+Ce type de données est décrit dans ITI TF-2 : Appendix N. 
+Data Type HD
+SEQ
+LEN
+DT
+Usage
+Card.
+HL7 table
+COMPONENT NAME
+IHE FR 
+HD-1
+20
+IS
+R
+[1..1]
+300
+Namespace ID
+
+HD-2
+199
+ST
+C
+[0..1]
+ 
+Universal ID
+*
+HD-3
+6
+ID
+C
+[0..1]
+203
+Universal ID Type
+*
+
+
+Le type de données HD identifie une entité qui a la responsabilité de gérer et d’affecter des identifiants. Ces entités chargées d’affecter des identifiants peuvent être des applications, une organisation gouvernementale, une organisation régionale, un établissement de santé, etc.
+Ce type de données est composé de trois sous composants :
+1° sous composant : <namespaceID> (IS)
+2° sous composant : <universal ID> (ST)
+3° sous composant : <universal ID type> (ID)
+
+Le type HD représente notamment une autorité d’affectation (assigning authority) d’un identifiant dans les types CX (identification du patient, du dossier administratif, d’une venue), XCN (identification des professionnels de santé) et XON (identification des organisations).
+Le type HD représente une entité (juridique ou géographique) d’hébergement du patient (assigning facility) dans le type PL.
+
+Le type HD est utilisé à la fois en tant qu’identifiant local (seule la 1° sous composante est renseignée) et en tant qu’identifiant universel (l’ensemble des trois sous composantes sont renseignées).
+
+
+Utilisation française du type HD pour les autorités d’affectation :
+
+Dans un contexte communautaire ou inter-entreprises, une autorité d’affectation (Assigning authority) DOIT être représentée par un identifiant typé : Le premier composant HD-1 contient le nom, le Finess-ej ou le Finej-eg de l’autorité, le second HD-2 est renseigné avec l’identifiant de l’autorité en question, et le troisième HD-3 est une valeur choisie dans la table 0301 – Universal ID Type, et permet de spécifier le type d’identifiant utilisé pour l’autorité. 
+Dans un contexte intra-entreprise une autorité PEUT être représentée par un identifiant typé ou un identifiant local qui est représenté soit par le nom, le n° Finess-ej (entité juridique) ou le n° Finej-eg (entité géographique), exploitant exclusivement le premier composant HD-1. 
+
+Dans les deux cas, le composant HD-1 est requis et les composants HD-2 et HD-3 sont conditionnels et sont utilisés dans un contexte communautaire ou inter-entreprises.
+Dans le cas où les trois sous composantes sont renseignées (contexte communautaire), l’entité identifiée par le 1° sous composant est identique à celle identifiée par les sous composants 2 et 3 réunis.
+
+Les valeurs de la table 0301 – Universal ID Type utilisée en France sont les suivantes :
+
+Universal Type ID
+libellé
+DNS
+Nom de domaine Internet exprimé en ASCII ou par des entiers
+ISO
+Type d’identifiant universel et unique d’un objet
+L.M.N
+   L
+   M
+   N
+Réservé aux schémas de codage locaux
+   Identifiant local d’une autorité d’affectation au sein d’un établissement
+   Identifiant FINESS-EJ d’entité juridique
+   Identifiant FINESS-EG d’entité géographique
+UUID
+Identifiant unique et universel de type DCE
+
+Les concepts manipulés dans les types de données HL7 peuvent être identifiés localement au niveau d’une entité juridique d’établissement de soins ou au niveau d’une entité géographique d’un établissement de soins.
+La distinction entre les types d’identifiants locaux L, M et N  permet de distinguer respectivement :
+un identifiant local affecté par une autorité d’affectation particulière au sein d’un établissement (L), 
+un identifiant local affecté par une entité juridique (M),
+un identifiant local affecté par une entité géographique appartenant à une entité juridique (N).
+
+La gestion des entités géographiques au niveau du type de données HD permet ainsi en France d’implémenter les échanges de données de santé dans un contexte de regroupements de cliniques ou de communautés hospitalières de territoires.
+En dehors de ces contextes, il est conseillé de ne pas renseigner les sous composants 2 et 3 de façon à simplifier les implémentations.
+PL : Localisation de la personne
+PL: Person Location
+Ce type de données est décrit dans ITI TF-2 : Appendix N. 
+Data Type PL
+SEQ
+LEN
+DT
+Usage
+Card.
+HL7 table
+COMPONENT NAME
+IHE FR 
+PL-1
+20
+IS
+O
+[0..1]
+302
+Point of Care
+
+PL-2
+20
+IS
+O
+[0..1]
+303
+Room
+
+PL-3
+20
+IS
+O
+[0..1]
+304
+Bed
+
+PL-4
+227
+HD
+O
+[0..1]
+ 
+Facility
+
+PL-5
+20
+IS
+O
+[0..1]
+306
+Location Status
+
+PL-6
+20
+IS
+C
+[0..1]
+305
+Person Location Type
+*
+PL-7
+20
+IS
+O
+[0..1]
+307
+Building
+
+PL-8
+20
+IS
+O
+[0..1]
+308
+Floor
+
+PL-9
+199
+ST
+O
+[0..1]
+ 
+Location Description
+
+PL-10
+427
+EI
+O
+[0..1]
+ 
+Comprehensive Location Identifier
+
+PL-11
+227
+HD
+O
+[0..1]
+ 
+Assigning Authority for Location
+
+
+En France, ce type de données peut servir en particulier à renseigner l’unité fonctionnelle d’hébergement du patient (champ PV1-3 du segment PV1) dans un établissement de soins. Dans ce contexte, le type de données est utilisé ainsi :
+	PL-1 : code de l’UF d’hébergement
+	PL-2 : chambre
+	PL-3 : lit 
+	PL-4 : établissement
+PL-6 : inutilisé
+Le tableau suivant représente les différents composants du type de donnée PL pour lequel la nature de chaque composant ou sous composant est précisée.
+Un texte en italique indique que le composant est à renseigné avec la valeur indiquée par le texte dans le tableau.
+Un texte qui n’apparaît pas en italique indique que le composant ou le sous composant est à renseigner avec le texte indiqué dans le tableau.
+Une croix indique que le composant ou le sous composant ne doit pas être utilisé.
+
+
+PL
+1
+2
+3
+HD
+4.14.24.3Localisation patientn° UFn° chambren° litNom/Finess-ej
+/Finej-eg (1)Nom de l’ autorité
+N° FINESS-EJ
+N° FINEJ-EGL
+
+M
+
+N(1) Nom/Finess-ej/Finej-eg signifie que le composant peut être renseigné soit avec le nom, soit avec le n° FINESS-EJ d’entité juridique, soit avec le n° FINESS-EG d’entité géographique de l’autorité d’affectation qui a affecté l’identifiant.
+Les données qui apparaissent en vert dans le tableau ci-dessus sont optionnelles.
+
+Exemple : 
+Un patient localisé dans l’UF 4036, chambre 22, lit n°3 :
+4036^22^3^n° FINESS établissement
+TS: Point dans le temps
+TS: Time Stamp
+Ce type de données est décrit dans ITI TF-2 : Appendix N. 
+Data Type TS
+SEQ
+LEN
+DT
+Usage
+Card.
+HL7 table
+COMPONENT NAME
+IHE fr 
+TS-1
+24
+DTM
+R
+[0..1]
+ 
+Time
+
+TS-2
+1
+ID
+X
+[0..0]
+529
+Degree of Precision
+
+Ce type de données véhicule un point dans le temps. Le format défini par IHE international est également applicable en France : YYYY[MM[DD[HH[MM[SS]]]]][+/-ZZZZ]
+
+Format
+Description
+YYYY
+année sur 4 chiffres
+MM
+mois sur 2 chiffres (01 à 12)
+DD
+jour sur 2 chiffres (01 à 31)
+HH
+heure sur 2 chiffres (00 à 23)
+MM
+minute sur 2 chiffres (00 à 59)
+SS
+seconde sur 2 chiffres (00 à 59)
+ZZZZ
+« time zone », c'est-à-dire le décalage du fuseau horaire par rapport au temps UTC (GMT), exprimé en +/-HHMM.
+Exemples :
+1967 				: L’année 1967
+20080314 			: Le 14 mars 2008
+200803141001		: Le 14 mars 2008 à 10h01, fuseau horaire local non précisé
+200803141041+0100		: Le 14 mars 2008 à 10h41, heure de Paris
+20080314104103+0000	: Le 14 mars 2008 à 10h41 et 3 secondes, heure de Dublin
+
+XAD : Adresse étendue
+XAD: Extended Address
+Ce type de données qui véhicule l’adresse d’une personne ou d’une organisation n’est pas encore décrit dans ITI TF-2 : Appendix N. 
+L’extension française apporte des contraintes et des précisions par rapport à la définition de ce type fournie par le standard HL7 v2.5.
+Data Type XAD
+SEQ
+LEN
+DT
+Usage
+Card.
+HL7 table
+COMPONENT NAME
+IHE FR 
+XAD-1
+184
+SAD
+O
+[0..1]
+ 
+Street Address
+
+XAD-2
+120
+ST
+O
+[0..1]
+ 
+Other Designation
+*
+XAD-3
+50
+ST
+O
+[0..1]
+ 
+City
+
+XAD-4
+50
+ST
+O
+[0..1]
+ 
+State or Province
+*
+XAD-5
+12
+ST
+O
+[0..1]
+ 
+Zip or Postal Code
+*
+XAD-6
+3
+ID
+O
+[0..1]
+399
+Country
+
+XAD-7
+3
+ID
+O
+[0..1]
+190
+Address Type
+*
+XAD-8
+50
+ST
+O
+[0..1]
+ 
+Other Geographic Designation
+
+XAD-9
+20
+IS
+O
+[0..1]
+289
+County/Parish Code
+*
+XAD-10
+20
+IS
+O
+[0..1]
+288
+Census Tract
+
+XAD-11
+1
+ID
+O
+[0..1]
+465
+Address Representation Code
+
+XAD-12
+53
+DR
+X
+[0..0]
+ 
+Address Validity Range
+
+XAD-13
+26
+TS
+O
+[0..1]
+ 
+Effective Date
+
+XAD-14
+26
+TS
+O
+[0..1]
+ 
+Expiration Date
+
+Exemples d’adresses valides :
+Exemples :
+Une adresse personnelle :
+	1 avenue des champs Elysées	(ligne 1)
+2ème étage 			(ligne 2)
+75008 Paris 			(CP et ville)
+|1 avenue des champs Elysées^2ème étage^Paris^^75008^100^H|
+Une adresse de vacances :
+Rue des cavernes		(ligne 1)
+Lascaux 			(ville)
+|rue des cavernes^^Lascaux^^^^VA^^^^^^20050801^20050831|
+Une adresse professionnelle :
+56 Rue Emile Zola                  	(ligne 1)
+Société DUPONT Sce Achats 	(ligne 2)
+Bâtiment A Les Edelweiss      	(ligne 3)
+49120 St Georges Des Gardes	(CP et ville)
+|56 Rue Emile^Zola Société DUPONT Sce Achats\S\Bâtiment A Les Edelweiss^St Georges Des Gardes^^49120^^VA^^^^^^20050801^20050831|
+Cette extension nationale utilise les composants suivants de ce type de donnée :
+XAD-1 : Voie de l’adresse (SAD)
+XAD-1: Street Address
+Ce composant contient le numéro de la voie et le nom de la voie. Ce composant est du type SAD (voir définition du type SAD un peu plus loin)
+XAD-2 : Compléments d’adresse (ST)
+XAD-2: Other Designation
+Ce composant contient le lieu-dit ou une précision géographique comme par exemple le bâtiment, le numéro d’escalier, l’étage…
+Références : 
+Norme AFNOR XP Z 10-011 
+RGI : Lieu-dit (identifiant UN00000031) 
+Pour un émetteur envoyant l’adresse sur plusieurs lignes, XAD-1 correspond à la premiere ligne ; XAD-2 peut contenir les autres lignes concaténées et séparées par le code format \S\. 
+
+XAD-3 : Commune (ST)
+XAD-3: City
+
+Ce composant contient le libellé de la localité ou du bureau distributeur CEDEX.
+
+Libellé de la localité : Zone d'habitation, en général la commune d'implantation du destinataire. Elle est identifiée par son libellé INSEE sauf dans quelques cas où le libellé postal diffère du libellé INSEE, généralement pour lever des ambiguïtés.
+
+Libellé du bureau distributeur : dans la très grande majorité des cas, libellé de la commune siège du bureau CEDEX; la mention CEDEX doit obligatoirement suivre le libellé du bureau CEDEX; dans le cas où il existe plusieurs bureaux CEDEX pour une même entité ou commune, chaque bureau CEDEX sera identifié par un numéro (exemple : ROUBAIX CEDEX 2); ce numéro correspond au numéro d'arrondissement dans le cas des villes à arrondissements, à un numéro d'ordre dans les autres cas.
+
+Références :
+Norme AFNOR XP Z 10-011
+RGI : Localité (identifiant UN00000013)
+XAD-4 : Etat ou province (ST)
+XAD-4: State or Province
+Ce composant peut être nécessaire dans une adresse étrangère.
+XAD-5 : Code postal ou code zip (ST)
+XAD-5: Zip or Postal Code
+
+Ce composant contient le code postal ou le code postal spécifique CEDEX.
+
+Code postal: Un code à 5 chiffres servant à l'acheminement et/ou à la distribution des envois. Il identifie un bureau distributeur dans la chaîne de traitement du courrier.
+
+Code CEDEX (Courrier d'Entreprise à Distribution Exceptionnelle) : le CEDEX est une modalité d'acheminement du courrier associée à des services particuliers de distribution offerts aux entreprises caractérisées par un adressage spécifique; le code postal spécifique CEDEX est un code attribué aux organismes, entreprises, services publics recevant un fort trafic. Il identifie un client ou un ensemble de clients. Il est positionné aux lieu et place du code postal général dans le cas des adresses CEDEX. Ainsi, un code peut être associé à un client (code individuel) ou partagé entre plusieurs clients (code collectif).
+
+Référence :
+Norme AFNOR XP Z 10-011
+RGI : Code postal (identifiant UN 00000014)
+XAD-6 : Pays (ID)
+XAD-6: Country
+Ce composant contient le code pays. 
+Pour la France, par exemple, ce composant contiendra la valeur « FRA ». 
+Les valeurs permises sont les codes alphabétiques à trois caractères de la norme ISO 3166-1 alpha -3 :
+HL7 table 0399 – Country Code = ISO 3166-1 alpha -3
+Value
+Description
+Display France
+IHE FR Comments
+AFG
+ 
+Afghanistan
+ 
+ZAF
+ 
+Afrique Du Sud
+ 
+ALB
+ 
+Albanie
+ 
+DZA
+ 
+Algerie
+ 
+DEU
+ 
+Allemagne
+ 
+AND
+ 
+Andorre
+ 
+AGO
+ 
+Angola
+ 
+ATG
+ 
+Antigua-Et-Barbuda
+ 
+SAU
+ 
+Arabie Saoudite
+ 
+ARG
+ 
+Argentine
+ 
+ARM
+ 
+Armenie
+ 
+AUS
+ 
+Australie
+ 
+AUT
+ 
+Autriche
+ 
+AZE
+ 
+Azerbaidjan
+ 
+BHS
+ 
+Bahamas
+ 
+BHR
+ 
+Bahrein
+ 
+BGD
+ 
+Bangladesh
+ 
+BRB
+ 
+Barbade
+ 
+BEL
+ 
+Belgique
+ 
+BLZ
+ 
+Belize
+ 
+BEN
+ 
+Benin
+ 
+BTN
+ 
+Bhoutan
+ 
+BLR
+ 
+Bielorussie
+ 
+MMR
+ 
+Birmanie (Myanmar)
+ 
+BOL
+ 
+Bolivie
+ 
+BIH
+ 
+Bosnie-Herzegovine
+ 
+BWA
+ 
+Botswana
+ 
+BRA
+ 
+Bresil
+ 
+BRN
+ 
+Brunei
+ 
+BGR
+ 
+Bulgarie
+ 
+BFA
+ 
+Burkina
+ 
+BDI
+ 
+Burundi
+ 
+KHM
+ 
+Cambodge
+ 
+CMR
+ 
+Cameroun
+ 
+CAN
+ 
+Canada
+ 
+CPV
+ 
+Cap-Vert
+ 
+CAF
+ 
+Centrafricaine (Republique)
+ 
+CHL
+ 
+Chili
+ 
+CHN
+ 
+Chine
+ 
+CYP
+ 
+Chypre
+ 
+COL
+ 
+Colombie
+ 
+COM
+ 
+Comores
+ 
+COG
+ 
+Congo
+ 
+KOR
+ 
+Coree (Republique De)
+ 
+PRK
+ 
+Coree (Republique Populaire De
+ 
+CRI
+ 
+Costa Rica
+ 
+CIV
+ 
+Cote D'Ivoire
+ 
+HRV
+ 
+Croatie
+ 
+CUB
+ 
+Cuba
+ 
+DNK
+ 
+Danemark
+ 
+DJI
+ 
+Djibouti
+ 
+DMA
+ 
+Dominique
+ 
+EGY
+ 
+Egypte
+ 
+SLV
+ 
+El Salvador
+ 
+ARE
+ 
+Emirats Arabes Unis
+ 
+ECU
+ 
+Equateur
+ 
+ERI
+ 
+Erythree
+ 
+ESP
+ 
+Espagne
+ 
+EST
+ 
+Estonie
+ 
+USA
+ 
+Etats-Unis
+ 
+ETH
+ 
+Ethiopie
+ 
+MKD
+ 
+Macedoine,Ex-Republique Yougoslave
+ 
+FJI
+ 
+Fidji
+ 
+FIN
+ 
+Finlande
+ 
+FRA
+ 
+France
+ 
+GAB
+ 
+Gabon
+ 
+GMB
+ 
+Gambie
+ 
+GEO
+ 
+Georgie
+ 
+GHA
+ 
+Ghana
+ 
+GRC
+ 
+Grece
+ 
+GRD
+ 
+Grenade
+ 
+GTM
+ 
+Guatemala
+ 
+GIN
+ 
+Guinee
+ 
+GNQ
+ 
+Guinee Equatoriale
+ 
+GNB
+ 
+Guinee-Bissau
+ 
+GUY
+ 
+Guyana
+ 
+HTI
+ 
+Haiti
+ 
+HND
+ 
+Honduras
+ 
+HUN
+ 
+Hongrie
+ 
+IND
+ 
+Inde
+ 
+IDN
+ 
+Indonesie
+ 
+IRN
+ 
+Iran
+ 
+IRQ
+ 
+Iraq
+ 
+IRL
+ 
+Irlande; Ou Eire
+ 
+ISL
+ 
+Islande
+ 
+ISR
+ 
+Israel
+ 
+ITA
+ 
+Italie
+ 
+JAM
+ 
+Jamaique
+ 
+JPN
+ 
+Japon
+ 
+JOR
+ 
+Jordanie
+ 
+KAZ
+ 
+Kazakhstan
+ 
+KEN
+ 
+Kenya
+ 
+KGZ
+ 
+Kirghizistan
+ 
+KIR
+ 
+Kiribati
+ 
+KWT
+ 
+Koweit
+ 
+LAO
+ 
+Laos
+ 
+LSO
+ 
+Lesotho
+ 
+LVA
+ 
+Lettonie
+ 
+LBN
+ 
+Liban
+ 
+LBR
+ 
+Liberia
+ 
+LBY
+ 
+Libye
+ 
+LIE
+ 
+Liechtenstein
+ 
+LTU
+ 
+Lituanie
+ 
+LUX
+ 
+Luxembourg
+ 
+MDG
+ 
+Madagascar
+ 
+MYS
+ 
+Malaisie
+ 
+MWI
+ 
+Malawi
+ 
+MDV
+ 
+Maldives
+ 
+MLI
+ 
+Mali
+ 
+MLT
+ 
+Malte
+ 
+MAR
+ 
+Maroc
+ 
+MHL
+ 
+Marshall (Iles)
+ 
+MUS
+ 
+Maurice
+ 
+MRT
+ 
+Mauritanie
+ 
+MEX
+ 
+Mexique
+ 
+FSM
+ 
+Micronesie (Etats Federes De)
+ 
+MDA
+ 
+Moldavie
+ 
+MCO
+ 
+Monaco
+ 
+MNG
+ 
+Mongolie
+ 
+MOZ
+ 
+Mozambique
+ 
+NAM
+ 
+Namibie
+ 
+NRU
+ 
+Nauru
+ 
+NPL
+ 
+Nepal
+ 
+NIC
+ 
+Nicaragua
+ 
+NER
+ 
+Niger
+ 
+NGA
+ 
+Nigeria
+ 
+NOR
+ 
+Norvege
+ 
+NZL
+ 
+Nouvelle-Zelande
+ 
+OMN
+ 
+Oman
+ 
+UGA
+ 
+Ouganda
+ 
+UZB
+ 
+Ouzbekistan
+ 
+PAK
+ 
+Pakistan
+ 
+PLW
+ 
+Palaos (Iles)
+ 
+PSE
+ 
+Palestine
+ 
+PAN
+ 
+Panama
+ 
+PNG
+ 
+Papouasie-Nouvelle-Guinee
+ 
+PRY
+ 
+Paraguay
+ 
+NLD
+ 
+Pays-Bas
+ 
+PER
+ 
+Perou
+ 
+PHL
+ 
+Philippines
+ 
+POL
+ 
+Pologne
+ 
+PRT
+ 
+Portugal
+ 
+QAT
+ 
+Qatar
+ 
+DOM
+ 
+Republique Dominicaine
+ 
+ROU
+ 
+Roumanie
+ 
+GBR
+ 
+Royaume-Uni
+ 
+RUS
+ 
+Russie
+ 
+RWA
+ 
+Rwanda
+ 
+ESH
+ 
+Sahara Occidental
+ 
+KNA
+ 
+Saint-Christophe-Et-Nieves
+ 
+LCA
+ 
+Sainte-Lucie
+ 
+SMR
+ 
+Saint-Marin
+ 
+VCT
+ 
+Saint-Vincent-Et-Les Grenadine
+ 
+SLB
+ 
+Salomon (Iles)
+ 
+WSM
+ 
+Samoa Occidentales
+ 
+STP
+ 
+Sao Tome-Et-Principe
+ 
+SEN
+ 
+Senegal
+ 
+SYC
+ 
+Seychelles
+ 
+SLE
+ 
+Sierra Leone
+ 
+SGP
+ 
+Singapour
+ 
+SVK
+ 
+Slovaquie
+ 
+SVN
+ 
+Slovenie
+ 
+SOM
+ 
+Somalie
+ 
+SDN
+ 
+Soudan
+ 
+LKA
+ 
+Sri Lanka
+ 
+SWE
+ 
+Suede
+ 
+CHE
+ 
+Suisse
+ 
+SUR
+ 
+Suriname
+ 
+SWZ
+ 
+Swaziland
+ 
+SYR
+ 
+Syrie
+ 
+TJK
+ 
+Tadjikistan
+ 
+TWN
+ 
+Taiwan
+ 
+TZA
+ 
+Tanzanie
+ 
+TCD
+ 
+Tchad
+ 
+CZE
+ 
+Tcheque (Republique)
+ 
+THA
+ 
+Thailande
+ 
+TGO
+ 
+Togo
+ 
+TON
+ 
+Tonga
+ 
+TTO
+ 
+Trinite-Et-Tobago
+ 
+TUN
+ 
+Tunisie
+ 
+TKM
+ 
+Turkmenistan
+ 
+TUR
+ 
+Turquie
+ 
+TUV
+ 
+Tuvalu
+ 
+UKR
+ 
+Ukraine
+ 
+URY
+ 
+Uruguay
+ 
+VUT
+ 
+Vanuatu
+ 
+VAT
+ 
+Vatican; Ou Saint-Siege
+ 
+VEN
+ 
+Venezuela
+ 
+VNM
+ 
+Viet Nam
+ 
+YEM
+ 
+Yemen
+ 
+ZMB
+ 
+Zambie
+ 
+ZWE
+ 
+Zimbabwe
+ 
+AIA
+ 
+Anguilla
+ 
+ANT
+ 
+Antilles Néerlandaises
+ 
+ABW
+ 
+Aruba
+ 
+BMU
+ 
+Bermudes
+ 
+BVT
+ 
+Bouvet (Ile)
+ 
+CYM
+ 
+Caimanes (Iles)
+ 
+CXR
+ 
+Christmas (Ile)
+ 
+CCK
+ 
+Cocos ou Keeling(Iles)
+ 
+COD
+ 
+Congo (République Démocratique)
+ 
+COK
+ 
+Cook (Iles)
+ 
+DOM
+ 
+Dominicaine (République)
+ 
+FRO
+ 
+Feroe (Iles)
+ 
+SGS
+ 
+Georgie du Sud et les Iles sandwich du Sud 
+ 
+GIB
+ 
+Gibraltar
+ 
+GRL
+ 
+Groenland
+ 
+GUM
+ 
+Guam
+ 
+GEY
+ 
+Guernesey
+ 
+HMD
+ 
+Heard et MacDonald  (Iles)
+ 
+HKG
+ 
+Hong-Kong
+ 
+JEY
+ 
+Jersey
+ 
+MAC
+ 
+Macao
+ 
+FLK
+ 
+Malouines, ou Falkland (Iles)
+ 
+IMN
+ 
+Man (Ile)
+ 
+MNP
+ 
+Mariannes du Nord (Iles)
+ 
+MNE
+ 
+Monténégro
+ 
+MSR
+ 
+Montsérrat
+ 
+NIU
+ 
+Niue
+ 
+NFK
+ 
+Norfolk (Ile)
+ 
+IOT
+ 
+Océan Indien (Territoire Britannique de l')
+ 
+PCN
+ 
+Pitcairn (Ile)
+ 
+PRI
+ 
+Porto Rico
+ 
+ASM
+ 
+Samoa américaines
+ 
+SHN
+ 
+Sainte-Hélène
+ 
+SRB
+ 
+Serbie
+ 
+SJM
+ 
+Svalbard et Ile Jan Mayen
+ 
+TLS
+ 
+Timor Oriental
+ 
+TKL
+ 
+Tokelau
+ 
+TCA
+ 
+Turks et Caiques(Iles)
+ 
+VGB
+ 
+Vierges Britanniques (Iles)
+ 
+VIR
+ 
+Vierges des Etats-Unis (Iles)
+ 
+ALA
+ 
+Aland, Iles
+ 
+UMI
+ 
+Iles mineures éloignées des Etats-Unis
+ 
+GUF
+ 
+Guyane Francaise
+ 
+GLP
+ 
+Guadeloupe
+ 
+ATA
+ 
+Antartique
+ 
+SPM
+ 
+Saint-Pierre-et-Miquelon
+ 
+ATF
+ 
+Terres Australes Francaises
+ 
+REU
+ 
+Réunion
+ 
+PYF
+ 
+Polynésie Française
+ 
+MYT
+ 
+Mayotte
+ 
+NCL
+ 
+Nouvelle-Calédonie
+ 
+MTQ
+ 
+Martinique
+ 
+WLF
+ 
+Wallis-et-Futuna
+ 
+XAD-7 : Type d’adresse (ID)
+XAD-7: Address Type
+Ce composant précise la nature de l’adresse. Les valeurs valides de ce composant sont un sous-ensemble de celles proposées par la table HL7 0190 :
+HL7 table 0190 – Adress Type
+Value
+Description
+Display France
+IHE FR Comments
+B
+Firm/Business
+Adresse de l’employeur
+ 
+BA
+Bad address
+Mauvaise adresse
+ 
+BDL
+Birth delivery location (address where birth occurred)
+Lieu de l’accouchement
+ 
+BR
+Residence at birth (home address at time of birth)
+Adresse de naissance
+ 
+C
+Current Or Temporary
+Adresse temporaire
+ 
+F
+Country Of Origin
+Pays d’origine
+ 
+H
+Home
+Adresse personnelle
+ 
+M
+Mailing
+Adresse courier
+ 
+O
+Office
+Adresse professionnelle
+ 
+RH
+Registry home. Refers to the information system, typically managed by a public health agency, that stores patient information such as immunization histories or cancer data, regardless of where the patient obtains services.
+Utilisable pour communiquer l’Adresse Qualité Santé du Dossier Médical Personnel du patient
+ 
+VA
+ 
+Adresse de vacances
+ 
+SA
+ 
+Adresse de résidence secondaire
+ 
+ORI
+ 
+Etablissement de provenance 
+Usage spécifique au profil PAM (champ ZFV-6)
+DST
+ 
+Etablissement de destination 
+Usage spécifique au profil PAM (champ ZFV-6)
+BI
+Billing Address
+Adresse de facturation
+Adoptée depuis HL7 v2.6
+ASE
+
+Adresse de soins du patient quand celui-ci est suivi à l’extérieur de l’établissement. Cette adresse et notamment utilisé dans le cadre des soins/suivis HAD, RAAC, chronique, post urgence…
+Usage spécifique au profil PAM
+
+XAD-9 : Cedex (IS)
+XAD-9 : County/Parish Code
+
+Dans le contexte français, County est utilisé pour véhiculer le Code Officiel Géographique (COG) de la commune pour les personnes nées en France ou du pays pour les personnes nées à l’étranger, XAD-7 prenant la valeur « BDL ».
+
+Dans le cas où l’on véhicule l’INS et que l’identité est qualifiée (celui-ci ne doit pas être altéré), ce champ est obligatoire dans le cas du profil IHE PAM France.
+XAD-13 : Date de début de validité (TS)
+XAD-13: Effective Date
+Ce composant permet d’indiquer la date de début de validité de l’adresse.
+XAD-14 : Date de fin de validité (TS)
+XAD-14: Expiration Date
+Ce composant permet d’indiquer la date de fin de validité de l’adresse.
+
+SAD : Voie
+SAD: Street Address
+Ce type de données qui véhicule la ligne d’adresse n’est pas encore décrit dans ITI TF-2 : Appendix N. L’extension française restreint ce type à son premier composant.
+Data Type SAD
+SEQ
+LEN
+DT
+Usage
+Card.
+HL7 table
+COMPONENT NAME
+IHE FR 
+SAD-1
+120
+ST
+O
+[0..1]
+ 
+Street or Mailing Address
+*
+SAD-2
+50
+ST
+X
+[0..0]
+ 
+Street Name
+*
+SAD-3
+12
+ST
+X
+[0..0]
+ 
+Dwelling Number
+*
+SAD-1 : Ligne d’adresse
+SAD-1: Street or Mailing Address
+Ce composant contient la ligne d’adresse comprenant numéro et voie. 
+Exemple : “2 avenue des champs Elysées”
+Remarque :
+Norme AFNOR XP Z 10-011
+RGI : XAD-1 (N°de voie) identifiant UN
+
+XCN : Identifiant composite étendu et nom pour les personnes
+XCN: Extended composite ID number and name for persons
+Ce type de données qui permet d’identifier un acteur du processus de soins n’est pas encore décrit dans ITI TF-2 : Appendix N. L’extension française apporte des contraintes et des précisions par rapport à la définition de ce type fournie par le standard HL7 v2.5.
+Exemples d’acteurs identifiés avec le type XCN : Le médecin traitant, le médecin correspondant, le médecin responsable, une infirmière, un biologiste, un technicien de laboratoire, un préparateur, …
+Data Type XCN
+SEQ
+LEN
+DT
+Usage
+Card.
+HL7 table
+COMPONENT NAME
+IHE FR 
+XCN-1
+199
+ST
+RE
+[0..1]
+ 
+ID Number
+*
+XCN-2
+194
+FN
+RE
+[0..1]
+ 
+Family Name
+*
+XCN-3
+30
+ST
+RE
+[0..1]
+ 
+Given Name
+*
+XCN-4
+30
+ST
+O
+[0..1]
+ 
+Second and Further Given Names or Initials Thereof
+*
+XCN-5
+20
+ST
+X
+[0..0]
+ 
+Suffix (e.g., JR or III)
+*
+XCN-6
+20
+ST
+O
+[0..1]
+ 
+Prefix (e.g., DR)
+*
+XCN-7
+5
+IS
+X
+[0..0]
+360
+Degree (e.g., MD)
+*
+XCN-8
+4
+IS
+X
+[0..0]
+297
+Source Table
+*
+XCN-9
+227
+HD
+RE
+[0..1]
+363
+Assigning Authority
+
+XCN-10
+1
+ID
+C
+[0..1]
+200
+Name Type Code
+
+XCN-11
+1
+ST
+X
+[0..0]
+ 
+Identifier Check Digit
+
+XCN-12
+3
+ID
+X
+[0..0]
+61
+Check Digit Scheme
+
+XCN-13
+5
+ID
+C
+[0..1]
+203
+Identifier Type Code
+*
+XCN-14
+227
+HD
+O
+[0..1]
+ 
+Assigning Facility
+
+XCN-15
+1
+ID
+X
+[0..0]
+465
+Name Representation Code
+*
+XCN-16
+483
+CE
+X
+[0..0]
+448
+Name Context
+*
+XCN-17
+53
+DR
+X
+[0..0]
+ 
+Name Validity Range
+
+XCN-18
+1
+ID
+X
+[0..0]
+444
+Name Assembly Order
+*
+XCN-19
+26
+TS
+X
+[0..0]
+ 
+Effective Date
+*
+XCN-20
+26
+TS
+X
+[0..0]
+ 
+Expiration Date
+*
+XCN-21
+199
+ST
+X
+[0..0]
+ 
+Professional Suffix
+*
+XCN-22
+705
+CWE
+X
+[0..0]
+ 
+Assigning Jurisdiction
+*
+XCN-23
+705
+CWE
+X
+[0..0]
+ 
+Assigning Agency or Department
+*
+
+Le tableau suivant représente les différents composants du type de donnée XCN. Pour chacun des identifiants, la nature de chaque composant ou sous composant est précisée.
+Un texte en italique indique que le composant est à renseigné avec la valeur indiquée par le texte dans le tableau.
+Un texte qui n’apparaît pas en italique indique que le composant ou le sous composant est à renseigner avec le texte indiqué dans le tableau.
+Une croix indique que le composant ou le sous composant ne doit pas être utilisé.
+
+
+
+XCN
+123…HD101112139.19.29.3Identifiant de professionnel de santé (PV1-7, PV1-8, PV1-9)
+Identifiant national des PSCode IDNPSNomPrénom…ASIP-SANTE-PS1.2.250.1.71.4.2.1ISOType nomxxIDNPSADELICode ADELINomPrénom…ASIP-SANTE-PS1.2.250.1.71.4.2.1ISOType nomxxADELIRPPSCode RPPSNomPrénom…ASIP-SANTE-PS1.2.250.1.71.4.2.1ISOType nomxxRPPSInterne
+établissementCode interneNomPrénom…Nom/Finess
+/FinejN° autorité
+N° FINESS
+N° FINEJL
+M
+NType nomxxEINom/Finess/Finej signifie que le composant peut être renseigné soit avec le nom, soit avec le n° FINESS d’entité juridique, soit avec le n° FINESS d’entité géographique de l’autorité d’affectation qui a affecté l’identifiant. Les données qui apparaissent en vert dans le tableau ci-dessus sont optionnelles.
+Pour rappel, l’identifiant national du PS est préfixé selon source de provenance de l'identifiant (cf. HYPERLINK "https://esante.gouv.fr/annexe-sources-des-donnees-personnes-et-structures"Annexe Transverse – Source des données métier pour les professionnels et les structures du CI-SIS). 
+
+Exemple :
+Identifiant national d’un médecin 801234567897^Réault^Pierre^^^^^^ASIP-SANTE-PS&1.2.250.1.71.4.2.1&ISO^D^^^IDNPS
+Identifiant d’un médecin au répertoire ADELI 751012344^Dupont^Jean^^^^^^ASIP-SANTE-PS&1.2.250.1.71.4.2.1&ISO^D^^^ADELI
+Identifiant d’un médecin au RPPS 01234567897^Réault^Pierre^^^^^^ASIP-SANTE-PS&1.2.250.1.71.4.2.1&ISO^D^^^RPPS
+Identifiant d’un agent dans le registre du personnel de l’établissement de soins (Finess-ej : 750100125) 750100125/50362^Loisel^Jeanne^^^^^^AUT-AFFECTATION&3750100125&M^D^^^EI
+
+XCN-1 : Identifiant de la personne (ST)
+XCN-1: ID Number
+Le composant XCN-1 fournit l’identifiant de la personne. Cet identifiant est typé par le composant XCN-13. L’application émettrice doit renseigner ce champ si elle dispose de l’identifiant.
+Remarque :
+
+IHE France repousse la limite à 15 caractères fixée par le standard HL7 v2.5, à 199 caractères, ceci dans le but de pouvoir véhiculer tous les types d’identifiants d’acteurs de santé des annuaires de professionnels de santé français, et d’autoriser les extensions à ces identifiants (exemple : N° de cabinet / identifiant du professionnel au sein du cabinet)
+199 étant la valeur maximale du type ST.
+Exemples : 
+L’identifiant national des PS
+L’identifiant d’un médecin au répertoire ADELI
+L’identifiant d’un professionnel de santé au RPPS
+L’identification d’un agent dans le registre du personnel de l’établissement de soins.
+Remarque : Au regard du standard HL7 2.5, l’identifiant est une chaîne de caractères opaque, c'est-à-dire sans structuration particulière, qui possède la seule propriété d’être unique dans le champ délimité par l’autorité d’affectation, et d’être affecté à la personne qu’il désigne. Par conséquent les applications s’échangeant les identifiants dans les messages ne sont pas sensées interpréter la structure de ces identifiants. Lorsque structure il y a, son interprétation n’est pas du ressort des couches applicatives de communication dont la seule responsabilité est d’acheminer l’identifiant dans son entièreté. 
+La construction de l’identifiant complet est défini dans le MOS de l’ANS : « Cette identification est obtenue par la concaténation du type d'identifiant national de personne (provenant de la nomenclature HYPERLINK "https://mos.esante.gouv.fr/NOS/TRE_G08-TypeIdentifiantPersonne/"TRE_G08-TypeIdentifiantPersonne) et de l'identifiant de la personne physique provenant, selon le type d’identifiant, soit d’un référentiel national, soit d’un référentiel local propre à la structure d’exercice de la personne physique) ».
+En particulier (liste non exhaustive) :
+0 + N° ADELI du professionnel Ex : 0123456789 : identification nationale d’un professionnel identifié par un n° ADELI = 123456789
+3 + N° FINESS/identifiant interne du professionnel employé au sein d’une structure FINESS
+8 + N° RPPS du professionnel ou de l’étudiant; les étudiants sont dorénavant enregistrés progressivement dans le RPPS
+Le premier chiffre de l’identifiant, attribué par le GIP CPS représente un typage de cet identifiant. L’identifiant entier, incluant ce premier chiffre sera acheminé dans XCN-1, pour être homogène avec le MOS, sans que les applications émettrice et réceptrice ne cherchent à interpréter ce premier chiffre. En revanche, ces applications auront la responsabilité de matérialiser et d’interpréter correctement le type de l’identifiant dans XCN-13 (« ADELI » ou « RPPS »).
+XCN-2 : Nom de famille (FN)
+XCN-2: Family Name
+Ce composant suit la même structuration et le même usage que le composant XPN-1.
+XCN-3 : Premier prénom (ST)
+XCN-2: Given Name
+Ce composant suit la même structuration et le même usage que le composant XPN-2.
+XCN-4 : Deuxième prénom et suivants (ST)
+XCN-4: Second and Further Given Names or Initials Thereof
+Ce composant suit la même structuration et le même usage que le composant XPN-3.
+XCN-6 : Préfixe (ST)
+XCN-6: Prefix
+Ce composant suit la même structuration et le même usage que le composant XPN-5.
+XCN-9 : Autorité d’affectation (HD)
+XCN-9: Assigning Authority
+Le composant XCN-9 précise l’autorité d’affectation de l’identifiant (XCN-1). Selon les cas : OID de l’organisme en charge du RPPS ou de celui en charge de l’ADELI, ou de l’entreprise de santé attribuant ses identifiants locaux.
+XCN-10 : Type de nom (ID)
+XCN-10: Name Type Code
+Condition : Le composant doit être renseigné dès lors que l’un au moins des deux composants XCN-2, XCN-3 est renseigné.
+Ce composant suit le même usage et le même codage que le composant XPN-7. 
+XCN-13 : Type d’identifiant (ID)
+XCN-13: Identifier Type Code
+Ce composant sert à typer dans le vocabulaire du message HL7, l’identifiant véhiculé en XCN-1. Il est obligatoire dès lors que XCN-1 contient effectivement un identifiant.
+Les valeurs permises sont indiquées dans la table 203 Identifier Type (voir CX-5)
+
+Remarque : Le fait de transmettre ce type d’identifiant dans le vocabulaire de la table 203 ne dispense pas de véhiculer l’identifiant complet dans XCN-1, même dans le cas où l’une des positions de cet identifiant représente elle aussi son type aux yeux de l’autorité d’affectation.
+XON : Nom et identifiant pour les organisations
+XON: Extended composite name & ID for organizations
+Ce type de données qui permet d’identifier une organisation liée au processus de soins n’est pas encore décrit dans ITI TF-2 : Appendix N. 
+L’extension française apporte des contraintes et des précisions par rapport à la définition de ce type fournie par le standard HL7 v2.5.
+Exemples d’organisations identifiées avec le type XON : 
+La métadonnée authorInstitution dans XDS, représentant l’organisation productrice d’un document médical électronique.
+La métadonnée intendedRecipient dans XDS, représentant l’organisation destinataire d’un document médical électronique.
+Data Type XON
+SEQ
+LEN
+DT
+Usage
+Card.
+HL7 table
+COMPONENT NAME
+IHE FR 
+XON-1
+50
+ST
+RE
+[0..1]
+
+Organization Name
+*
+XON-2
+20
+IS
+X
+[0..0]
+0204
+Organization Name Type Code
+*
+XON-3
+4
+NM
+X
+[0..0]
+
+ID Number
+
+XON-4
+1
+NM
+X
+[0..0]
+
+Check Digit
+*
+XON-5
+3
+ID
+X
+[0..0]
+0061
+Check Digit Scheme
+
+XON-6
+227
+HD
+RE
+[0..1]
+0363
+Assigning Authority
+
+XON-7
+5
+ID
+RE
+[0..1]
+0203
+Identifier Type Code
+*
+XON-8
+227
+HD
+X
+[0..1]
+
+Assigning Facility
+
+XON-9
+1
+ID
+X
+[0..0]
+0465
+Name Representation Code
+*
+XON-10
+64
+ST
+RE
+[0..1]
+
+Organization Identifier
+*
+
+Le tableau suivant représente les différents composants du type de donnée XON. Pour chacun des identifiants, la nature de chaque composant ou sous composant est précisée.
+Un texte en italique indique que le composant est à renseigné avec la valeur indiquée par le texte dans le tableau.
+Un texte qui n’apparaît pas en italique indique que le composant ou le sous composant est à renseigner avec le texte indiqué dans le tableau.
+Une croix indique que le composant ou le sous composant ne doit pas être utilisé.
+
+
+
+
+XON
+1….HD789106.16.26.3Identifiant UF hébergement (ZBE-7) et UF de soins (ZBE-8)
+idNat_StructNom de la structurexASIP-SANTE-ST1.2.250.1.71.4.2.2ISOIDNSTxxID de la structureUF responsabilité
+médicaleLibellé UFxNom/Finess-ej
+/Finej-egNom autorité
+N° FINESS-EJ
+N° FINEJ-EGL
+M
+NUFxxCode UFUF responsabilité
+soinsLibellé UFxNom/Finess-ej
+/Finej-egNom  autorité
+N° FINESS-EJ
+N° FINEJ-EGL
+
+M
+NUFxxCode UFEtablissement de santéNom de l’organisationxASIP-SANTE-ST1.2.250.1.71.4.2.2ISOFINESS
+ou FINEG
+ou
+FINEJ
+ou
+SIRET
+ou
+SIRENN°Nom/Finess-ej/Fine-egj signifie que le composant peut être renseigné soit avec le nom, soit avec le n° FINESS-EJ d’entité juridique, soit avec le n° FINESS-EG d’entité géographique de l’autorité d’affectation qui a affecté l’identifiant. Les données qui apparaissent en vert dans le tableau ci-dessus sont optionnelles.
+L’identifiant idNat_Struct délivré par une autorité d'enregistrement tel que défini dans HYPERLINK "https://esante.gouv.fr/annexe-sources-des-donnees-personnes-et-structures"l'Annexe Transverse Source des données métier pour les professionnels et les structures.
+
+Identifiant national de structure d’un établissement de santé, dont le n° FINESS  est 750100125 :
+Groupe Pitié Salpêtrière^^^^^ASIP-SANTE-ST&1.2.250.1.71.4.2.2&ISO^IDNST^^^1750100125
+
+Identifiant de l’UF 3435 d’urologie par un établissement dont le Finess est  120456789. dans cet exemple, seule la 1° sous composante du type HD est renseignée.
+Urologie^^^^^120456789^UF^^^3435
+
+Identifiant d’un établissement de santé, dont le n° FINESS  est 750100125 :
+Groupe Pitié Salpêtrière^^^^^ASIP-SANTE-ST&1.2.250.1.71.4.2.2&ISO^FINESS^^^750100125
+
+XON-1 : Nom de l’organisation (ST)
+XON-1: Organization Name
+Ce composant contient le nom de l’organisation. L’application émettrice doit fournir l’information si elle en dispose.
+XON-6 : Autorité d’affectation de l’identifiant (HD)
+XON-6: Assigning Authority
+Ce composant fournit l’autorité ayant attribué l’identifiant à l’organisation. L’application émettrice doit fournir cette information si elle en dispose.
+XON-7 : Type d’identifiant (ID)
+XON-7: Identifier Type Code
+Ce composant fournit le type d’identifiant de l’organisation. L’application émettrice doit fournir l’information si elle en dispose. 
+Les valeurs permises sont indiquées dans la table 203 Identifier Type (voir CX-5)
+
+XON-10 : Identifiant de l’organisation (ST)
+XON-10: Organization Identifier
+Ce composant fournit l’identifiant de l’organisation selon le type précisé en XON-7. L’application émettrice doit fournir l’information si elle en dispose. L’identifiant doit être acheminé dans son intégrité, sans interprétation particulière de ses positions (cf discussion sur le type de données XCN).
+
+XPN : Nom étendu de personne
+XPN : Extended Person Name
+Ce type de données est décrit dans ITI TF-2 : Appendix N. 
+L’extension française apporte des contraintes supplémentaires et des précisions.
+Data Type XPN
+SEQ
+LEN
+DT
+Usage
+Card.
+HL7 table
+COMPONENT NAME
+IHE FR 
+XPN-1
+194
+FN
+C
+[0..1]
+ 
+Family Name
+
+XPN-2
+		194
+ST
+C
+[0..1]
+ 
+Given Name
+
+XPN-3
+194
+ST
+C
+[0..1] 
+ 
+Second and Further Given Names or Initials Thereof
+*
+XPN-4
+20
+ST
+X
+[0..0] 
+ 
+Suffix (e.g. JR or III)
+*
+XPN-5
+20
+ST
+O
+[0..1] 
+ 
+Prefix (e.g., DR)
+*
+XPN-6
+6
+IS
+X
+[0..0]
+360
+Degree (e.g., MD)
+
+XPN-7
+1
+ID
+R
+[1..1]
+200
+Name Type Code
+*
+XPN-8
+1
+ID
+X
+[0..0] 
+465
+Name Representation Code
+*
+XPN-9
+483
+CE
+X
+[0..0]
+448
+Name Context
+*
+XPN-10
+53
+DR
+X
+[0..0]
+ 
+Name Validity Range
+
+XPN-11
+1
+ID
+X
+[0..0] 
+444
+Name Assembly Order
+*
+XPN-12
+26
+TS
+X
+[0..0] 
+ 
+Effective Date
+*
+XPN-13
+26
+TS
+X
+[0..0] 
+ 
+Expiration Date
+*
+XPN-14
+199
+ST
+X
+[0..0] 
+ 
+Professional Suffix
+*
+XPN-1 : Nom de famille (FN)
+XPN-1: Family Name
+Ce composant est requis si connu de l’application émettrice. Les noms composés ou à particule sont à mettre intégralement dans ce sous-champ. 
+Le nom de naissance (type L) est obligatoire dans les messages HL7 dans le cas où l’on véhicule l’INS et que l’identité est qualifiée (celui-ci ne doit pas être altéré). 
+
+Le nom utilisé (type D) n’est transmis que s’il est défini (par exemple nom marital du conjoint). 
+
+Exemple : ^MARIE-CECILE^^^^^D~DARK^JEANNE^JEANNE MARIE CECILE^^^Mme^^L
+XPN-2 : Premier prénom (ST)
+XPN-2: Given Name
+Ce composant contient le premier prénom. 
+Dans le cas d’une identité créée ou modifiée par un appel au téléservice INSi, il est nécessaire d’extraire le premier prénom de la liste des prénoms retournée par le téléservice. Ce champ est obligatoire.
+XPN-3 : Liste des prénoms (ST)
+XPN-3: Second and Futher Given Names or Initials Thereof
+
+Ce composant contient les prénoms. 
+
+Dans le cas d’une identité créée ou modifiée par un appel au téléservice INSi, il s’agit de la liste des prénoms retournée par le téléservice. 
+
+Exemple : identité créée en local  
+DARK^JEANNE^^^^Mme^^L
+
+Exemple : identité créée à partir du téléservice  INSi
+DARK^JEANNE^JEANNE MARIE CECILE^^^Mme^^L
+
+Exemple : identité modifiée en local avec un prénom utilisé
+^MARIE-CECILE^^^^^D~DARK^JEANNE^JEANNE MARIE CECILE^^^Mme^^L
+XPN-5 : Préfixe – civilité (ST)
+XPN-5: Prefix
+Les deux civilités suivantes sont définies par IHE France pour supporter les deux civilités légales. Ce type reste extensible pour ajouter d’autres civilités, si nécessaire. Cependant, les civilités Monsieur et Madame ne doivent pas être redéfinies et les valeurs ci-dessous doivent être utilisées. 
+Par ailleurs, une réponse ministérielle (n°5128 du 3 mars 1983) précise que la civilité Mademoiselle (Mlle) ne devrait pas être utilisée. 
+
+Valeur
+Description
+M.
+Monsieur
+Mme
+Madame
+
+XPN-7 : Type de nom (ID)
+XPN-7: Name Type Code
+Le composant XPN-7 donne le type du nom, c'est-à-dire de l’ensemble des informations fournies par une occurrence d’un champ de type XPN.  Les types de noms utilisables en France sont les suivants :
+HL7 table 0200 – Name Type
+Value
+Description HL7
+Display France
+IHE FR Comments
+D
+Display Name
+Nom d'usage
+Nom d’usage, mais non légal.  Par exemple : Nom du partenaire (norme UN/CEFACT : UN : 00000076)
+L
+Legal Name
+Nom de naissance
+Nom de famille, c'est-à-dire le nom légal conformément à la loi de 2003 (norme UN/CEFACT : UN : 00000080)
+S
+Coded Pseudo-Name to ensure anonymity
+Pseudonyme
+Pseudonyme assurant l’anonymat (norme UN/CEFACT : UN : 000000207)
+U
+Unspecified
+Non spécifié
+Non spécifié
+En conséquence, les autres types de noms définis par HL7 : A, B, C, I, M, N, P, R, T ne doivent pas être utilisés dans le contexte français
+Remarques concernant les noms de patients et les relations entre patients : 
+Le nom de l’époux ou épouse n’est pas renseigné en tant que propriété du nom d’une personne. En effet, lorsque cette information est nécessaire, elle doit être portée par un segment NK1 (next of kin), dans le champ NK1-2 (Name) avec une relation (NK1-3) de type « SPO » (spouse).
+Il n’est pas pour autant exclu qu’un patient soit enregistré et communiqué sous son nom d’usage (par exemple nom du partenaire), dans ce cas, le nom du patient ou de la patiente sera typé « D » = Nom d’usage.
+Il est également possible que l’identité d’une patiente soit enregistrée, et donc communiquée avec les deux noms : le nom légal et le nom d’usage. Dans ce cas, le champ PID-5 « Patient Name » qui est répétable contiendra deux occurrences du nom, une typée « L » porteuse du nom de famille et une typée « D » qui portera le nom d’usage.
+En résumé, lorsqu’on cherche à détailler l’identité d’un patient (nom d’usage + nom légal) on renseigne deux occurrences dans le champ PID-5. Si par contre on veut communiquer l’identité complète du conjoint ou du partenaire d’un(e) patient(e) il faut exploiter un segment de parenté NK1 dans le message.
+
+Exemples de noms valides dans le périmètre de IHE France :
+TOUTLEMONDE^Jean-Pierre^Paul,Jacques^^^^^L	(nom de famille, légal)
+DE GUERMANTES^Orianne^^^Duchesse^^D			(nom d’usage, non légal)
+DES LAUMES^Orianne^^^Princesse^^L			(nom de famille, légal)
+CESAR^Jules^^^^^S						(VIP sous un pseudonyme)
+XTN : numéro de télécommunication étendu
+XTN : Extended Telecommunication Number
+Ce type de données n’est pas décrit dans ITI TF-2 : Appendix N. 
+
+L’extension française apporte des contraintes et des précisions concernant le formatage de ce type de données. Le type sert à renseigner un numéro de téléphone en utilisant le composant XTN.12 « Unformatted Telephone Number », ou une adresse email en utilisant le composant XTN.4 « Email Address », en conformité avec la norme UN00000095 retenue par le RGI en France.
+Data Type XTN
+SEQ
+LEN
+DT
+Usage
+Card.
+HL7 table
+COMPONENT NAME
+IHE FR 
+XTN-1
+199
+ST
+X
+[0..0]
+ 
+Telephone Number
+*
+XTN-2
+3
+ID
+O
+[0..1]
+201
+Telecommunication Use Code
+ 
+XTN-3
+8
+ID
+O
+[0..1]
+202
+Telecommunication Equipment Type
+ 
+XTN-4
+199
+ST
+C
+[0..1]
+ 
+Email Address
+*
+XTN-5
+3
+NM
+X
+[0..1]
+ 
+Country Code
+ 
+XTN-6
+5
+NM
+X
+[0..0]
+ 
+Area/City Code
+*
+XTN-7
+9
+NM
+X
+[0..0]
+ 
+Local Number
+*
+XTN-8
+5
+NM
+X
+[0..0]
+ 
+Extension
+*
+XTN-9
+199
+ST
+O
+[0..1]
+ 
+Any Text
+ 
+XTN-10
+4
+ST
+X
+[0..0]
+ 
+Extension Prefix
+*
+XTN-11
+6
+ST
+X
+[0..0]
+ 
+Speed Dial Code
+*
+XTN-12
+199
+ST
+C
+[0..1]
+ 
+Unformatted Telephone number
+*
+XTN-2 : type de numéro (ID)
+XTN-2: Telecommunication Use Code
+Ce composant est optionnel. Les types de numéro utilisables en France sont les suivants :
+HL7 Table 0201 – Type de numéro
+Name
+Description
+Display France
+IHE fr Comments
+ASN
+Answering Service Number
+Serveur vocal
+ 
+BPN
+Beeper Number
+Numéro de Beeper
+ 
+EMR
+Emergency Number
+Numéro en cas d'urgence
+ 
+NET
+Network (email) Address
+Adresse electronique
+ 
+ORN
+Other Residence Number
+Numéro personnel 2
+ 
+PRN
+Primary Residence Number
+Numéro personnel
+ 
+VHN
+Vacation Home Number
+Numéro temporaire
+ 
+WPN
+Work Number
+Numéro professionnel
+ 
+XTN-3 : type d’équipement (ID)
+XTN-3: Telecommunication Equipment Type
+Ce composant est optionnel.
+ Les types de numéro utilisables en France sont les suivants :
+HL7 Table 0202 – Type d’équipement
+Name
+Description
+Display France
+IHE fr Comments
+BP
+Beeper
+Numéro de Beeper
+ 
+CP
+Cellular Phone
+Téléphone portable
+ 
+FX
+Fax
+Fax
+ 
+Internet
+Internet Address: Use Only If Telecommunication Use Code Is NET
+Adresse electronique
+ 
+MD
+Modem
+Modem
+ 
+PH
+Telephone
+Téléphone fixe
+ 
+TDD
+Telecommunications Device for the Deaf
+Appareil de communication pour les malentendants
+ 
+XTN-4 : adresse e-mail (ST)
+XTN-4: Email Address
+La saisie de ce composant est conditionnelle. 
+Ce champ sera renseigné avec une adresse e-mail à condition que la valeur du champ XTN-2 = « NET », c'est-à-dire que le type de numéro corresponde à une adresse e-mail (network email address).
+L’adresse e-mail est saisie sous la forme d’une chaîne de caractères.
+XTN-9 : texte libre (ST)
+XTN-9: Any Text
+Un texte libre peut être utilisé ici afin de donner des renseignement vis-à-vis des données véhiculées. Par exemple : « ne pas contacter après 19h00 ». 
+IHE France n’impose aucune contrainte vis-à-vis de l’utilisation de ce champ.
+XTN-12 : n° de téléphone non formaté (ST)
+XTN-12: Unformatted Telephone number 
+La saisie de ce composant est conditionnelle et correspond au n° de téléphone indiqué sous la forme d’une chaîne de caractères. Ce composant est renseigné dans le cas où la valeur du composant XTN-2 est différente de NET, ou si ce composant XTN-2 est vide. 
+C’est le numéro complet de téléphone qui doit être fourni dans ce champ, avec les chiffres sans caractère de séparation.
+Exemples :
+|^PRN^PH^^^^^^^^^0148587200|
+|^PRN^CP^^^^^^^^^+3360708091|
+|^NET^ Internet^info@ihe.net|
+Fiche de Contrôle du document
+Caractéristique du document
+
+Statut
+ FORMCHECKBOX TRAVAIL
+ FORMCHECKBOX FINALISE 
+ FORMCHECKBOX VALIDE
+Réf. Fichier
+ FILENAME IHE_France_Constraints_on_HL7_data_types_for_ITI_V1.3_FT.doc
+SuiviCe document est produit par IHE France. Toutes remarques et commentaires sur ce document doivent être adressés aux co-chairs d’IHE France :
+Karima Bourquard :  HYPERLINK "mailto:karima.bourquard@in-system.eu"karima.bourquard@in-system.eu 
+
+Ainsi qu’au coordonnateur France ITI : 
+Yohann Poiron – ypoiron@openxtrem.com
+
+
+
+
+Historique des mises à jour
+
+Version
+Modifications
+Date 
+Rédacteurs
+VT0.1
+Initialisation du document à partir du draft 2005 de l’extension FR PAM et des réunions PAM 15 février 2008 et 4 mars 2008 (XPN, XAD, SAD, XCN)
+04/03/08
+Fabien Munoz
+VT0.2
+Revue de la mise en forme Ajout de : XON ; ajout des interdiction sur certains éléments
+13/03/08
+François Macary
+VT0.3
+Description de CX à partir de l’extension Française PAM
+26/03/08
+Fabien Munoz
+VT0.4
+Graphie des prénoms et noms composés dans le type XPN suite séance de revue du 7 mai, + reclassement & mise en forme
+15/05/08
+François Macary
+Release 1.0
+Prise en compte derniers commentaires
+04/06/08
+François Macary
+Release 1.1
+Intégration des CP 3 et 7b, 13, 16
+Voir « Notes de version »
+05/12/08
+Fabien Munoz
+Release 1.2
+Intégration des CP 19
+08/10/09
+Fabien Munoz
+Release 1.3
+Intégration des CP 24
+25/10/10
+Fabien Munoz
+Release 1.4
+Intégration des CP 33, 34, 38, 40, 48, 50, 51
+29/01/2012
+Fabien Munoz
+Release 1.5
+Intégration des CP  64 et 69
+10/01/2013
+Isabelle Gibaud
+Release 1.6
+Intégration CP 129
+22/02/2018
+Yohann Poiron
+Release 1.7
+Intégration CP 130
+22/06/2021
+Yohann Poiron
+Release 1.8
+Intégration CP
+
+
+
+Validation
+Nom
+Commentaires
+Date
+Version
+IHE France
+
+09/06/08
+Release 1.0
+IHE France
+
+05/12/08
+Release 1.1
+IHE France
+
+08/10/09
+Release 1.2
+IHE France
+
+19/11/10
+Release 1.3
+IHE France
+
+29/01/12
+Release 1.4
+IHE France
+
+10/01/2012
+Release 1.5
+IHE France
+
+22/02/2018
+Release 1.6
+IHE France
+
+22/06/2021
+Release 1.7
+IHE France
+
+31/01/2024
+Release 1.8
+
+Notes de version
+ Release 1.1
+Description des CP intégrés à cette version :
+CP-ITI-FR-2008-003
+Section : N.1.2 & N8.8 & N9.3
+Le contenu de la table 0203-Identifier Type était différent selon le type de donnée décrit (CX, XCN et XON). A présent, la table 0203 regroupe les types d’identifiant de personnes comme les types d’identifiants d’organisations. Il s’agit d’une concaténation des valeurs contenues dans la table pour les types de données CX et XCN avec les valeurs contenues dans la table pour le type de données XON.
+CP-ITI-FR-2008-007b
+Section N.3 HD : Désignateur hiérarchique
+Dans le cadre d’échange de messages entre plusieurs établissements regroupés/mutualisés, mais gardant leur propre structure juridique, il est important de pouvoir spécifier l’autorité d'attribution pour chaque code et chaque identifiant transmis.
+Cela permet de ne pas mélanger les messages et les données lorsque par exemple un système d'information clinique est interfacé avec plusieurs systèmes de gestion administrative des malades. 
+A noter que HD-3 est, à présent, lié à la table 203 et non plus à la table 301.
+CP-ITI-FR-2008-013
+Section N.11 XTN : numéro de télécommunication étendu
+Ce CP propose de préciser les règles d’encodage d’un n° de téléphone ou d’une adresse e-mail.
+Il est important de noter qu’IHE France s’appuie ici sur le type de donnée XTN comportant 12 composants. Cette version de XTN est apparue avec la version 2.5 d’HL7.
+IHE France est conscient que certains rares profils utilisent des versions inférieures d’HL7 (exemple PIX)
+IHE France a décidé de ne pas brider les apport fait par HL7 2.5.
+Une utilisation spécifique d’XTN pour PIX devra être spécifiée dans une verison future de cette annexe.
+CP-ITI-FR-2008-016
+
+Section N.8.1 XCN-1 : Identifiant de la personne (ST)
+Le type de données XCN sert à nommer et identifier une personne. Il offre un identifiant de taille limitée à 15 caractères. (XCN-1)
+Ce type est utilisé en France pour nommer et identifier les professionnels de santé. La limitation à 15 caractères est incompatible avec les annuaires gérés par le GIP CPS.
+Par conséquent, IHE France repousse cette limite en France. Ceci représente une entorse vis-à-vis d’HL7 v2.5, mais va dans le sens de l’évolution d’HL7 v2.
+ Release 1.2
+CP-ITI-FR-2009-019
+Complément/changement du type CX : Section N.1
+Dans le tableau : 
+CX-1 : longueur passe  à 64. Choix arbitraire du groupe.
+CX-7 : usage passe de O (optionnel) à C (conditionnel) dans le tableau
+
+Dans la description des champs : 
+CX-4 : Autorité d’affectation (HD) : Remplacer de la valeur INS par INS-C et INS-A. Ajout des deux premiers puces.
+CX-5 : Code de type d’identifiant (ID) : Remplacement de la ligne NH du tableau par deux lignes INS-C et INS-A. Supprimer XCN pour la valeur PI.
+CX-6: Etablissement d’affectation (HD) : Précision de la signification de ce composant dont l’usage reste optionnel.
+CX-7: Date effective (DT) : Usage conditionnel. Précision la condition
+CX-9: Entité juridique d’affectation (HD) : Précision sur la signification de ce composant dont l’usage reste optionnel.
+CX-10: Service, unité ou département (HD) : Précision sur la signification de ce composant dont l’usage reste optionnel.
+
+Complément/changement du type XON : Section N.9
+XON-1 : la longueur actuelle du champ ne permet pas le transport d'OID. La longueur passe  à 64. Choix arbitraire du groupe.
+
+ Release 1.3
+CP-ITI-FR-2010-024
+XAD : précision sur l’envoi de plusieurs lignes d’adresses.
+ Release 1.4
+CP-ITI-FR-2010-033
+Le type pour représenter les adresses de facturation dans HL7 v2.5 n’existait pas. Cependant dans la version Internationale HL7 v2.6, il existe le type « Billing Address ». Adoption du type BI dans l’annexe N.
+CP-ITI-FR-2011-034
+Il n'était pas possible d'identifier des organismes de type service (XON-7). Le but de ce CP est d'ajouter dans la table 203 de l'appendice N un type 'SRV' pour identifier les services (au sens services cliniques).
+CP-ITI-FR-2011-038
+Liste 203 permet le typage des numéro d’archive « MR ».
+CP-ITI-FR-2011-040
+Liste 203 permet le typage du numéro de dossier « AN ».
+CP-ITI-FR-2011-046
+Précisions sur la gestion des noms
+CP-ITI-FR-2011-048
+Précision sur la civilité
+CP-ITI-FR-2011-050
+Description précise des identifiants :
+Patients (PID-3)
+professionnels de santé (PV1-7, PV1-8, PV1-9)
+du dossier administratif (PID-18)
+de la venue (PV1-19)
+de la localisation du patient (PV1-3)
+des UF de responsabilités médicales et de soins (ZBE)
+CP-ITI-FR-2011-051
+Rajout de la valeur VN (Visit number) qui qualifie un n° de venue dans la table 203
+ Release 1.5
+Description des CP intégrés à cette version :
+CP-ITI-FR-2011-051
+Rajout de la valeur VN (Visit number) qui qualifie
+CP-ITI-FR-2012-043
+PN est le type d’identifiant utilisé pour identifier les personnes à prévenir ou les personnes de confiance.
+CP-ITI-FR-2012-064
+précisions concernant les sous composants HD1 et HD2.
+Préciser que les types d’identifiants IDNST et IDNPS sont utilisés uniquement en extra-hospitalier.
+Type XCN : modification des exemples.
+Type XON : ajout de l’identification d’une organisation de santé et d’un cabinet médical.
+CP-ITI-FR-2012-069
+Rajout de deux OID pour l’INS-C conformément au dossier de conception de l’INS-C publié par l’ASIP.
+ Release 1.6
+IHE-CP-ITI-FR-2017-129
+
+Section N.1 CX : Identifiant composite étendu avec caractère de contrôle
+Évolution de la table des types d’identifiants (ajout NDP et suppression INS-A et RMESS)
+Le CX.1 a été modifié pour le passer à 128 caractères. 
+ Release 1.7
+IHE-CP-ITI-FR-2017-130
+
+Section XAD-7: Address Type 
+Ce composant précise la nature de l’adresse. Les valeurs valides de ce composant sont un sous-ensemble de celles proposées par la table HL7 0190.
+Release 1.7.3
+Section CX-5: Identifier Type Code 
+Ajout du commentaire FR pour le type PPN afin de renseigner le numéro du passeport 
+Release 1.8
+Section N.8 XCN-1 : Identifiant de la personne (ST)
+Éclaircissement pour véhiculer le premier chiffre de l’identifiant attribué par le GIP-CPS.
+Section N.1 EI : Entity Identifier
+Dans le cadre du Segur et du DMP, nous avons besoin d’augmenter la longueur à 128 caractères. L’appendix N des annexes du domaine ITI nous permet d’agrandir la taille de ce champ : IHE constrains the length of the first component to 16 characters. National extensions can extend this length up to a maximum of 199.
+Release 1.8.1 
+Accessible depuis : HYPERLINK "https://github.com/Interop-Sante/ihe.iti.pam.fr/milestone/3?closed=1"https://github.com/Interop-Sante/ihe.iti.pam.fr/milestone/3?closed=1 
+Identification des structures : Précisions sur l’utilisation de l’identifiant national des structures (idNat_Struct) et modification des exemples. À terme, suppression des identifiants tels que Finess, Fineg, et SIRET au profit du idNat_Struct.
+Identification des PS : Introduction de l’identifiant national des professionnels de santé (IDNPS) dans le segment XCN, avec la clarification de l’utilisation du RPPS et ADELI. Objectif futur : remplacer ces identifiants par l’IDNPS.
+Release 1.8.2
+Accessible depuis : HYPERLINK "https://github.com/Interop-Sante/ihe.iti.pam.fr/milestone/4?closed=1"https://github.com/Interop-Sante/ihe.iti.pam.fr/milestone/4?closed=1 
+XTN-12 : Des précisions supplémentaires ont été ajoutées sur l’utilisation de ce champ (numéro de téléphone non formaté).
+De nouvelles règles ont été ajoutées pour les champs XPN-3 (prénoms) et XTN-9 (texte libre pour télécommunication).
+Pour plusieurs champs comme CX-1 et HD-1, la cardinalité a été ajustée pour inclure des contraintes spécifiques au contexte français.
+Certains champs jugés inutiles dans le contexte français ont été explicitement marqués comme interdits (X).
+
+
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+FIN DU DOCUMENT
+
+
+
+
+
+
+
+
+
+IHE ITI Appendix N  v.1.8.2
+
+
+
+ITI TF-2 :N.FR : Constraints on common HL7 data types for ITI Integration Profiles in France
+PAGE   \* MERGEFORMAT1
+
+
+
+J’ai inséré ce détail mais il n’est peut être pas nécessaire dans la mesure où cela est déjà décrit dans la norme NF Z 10-011, dans le RGI et dans le MOS
+Idem
+
+
