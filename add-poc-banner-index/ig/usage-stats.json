@@ -1,0 +1,773 @@
+{
+  "package": "ihe.fr.pam",
+  "version": "0.1.0",
+  "fhirVersion": "4.0.1",
+  "jurisdiction": "FR",
+  "extensions": [
+    {
+      "url": "https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-accident-date",
+      "title": "IHE France PAM Accident Date",
+      "types": [
+        "dateTime"
+      ]
+    },
+    {
+      "url": "https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-accident-nature",
+      "title": "IHE France PAM Accident Nature",
+      "types": [
+        "CodeableConcept"
+      ]
+    },
+    {
+      "url": "https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-administrative-number",
+      "title": "IHE France PAM Administrative Number",
+      "types": [
+        "Identifier"
+      ]
+    },
+    {
+      "url": "https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-arrival-mode",
+      "title": "IHE France PAM Arrival Mode",
+      "types": [
+        "CodeableConcept"
+      ]
+    },
+    {
+      "url": "https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-birth-multiple-rank",
+      "title": "IHE France PAM Birth Multiple Rank",
+      "types": [
+        "positiveInt"
+      ]
+    },
+    {
+      "url": "https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-care-responsibility-unit",
+      "title": "IHE France PAM Care Responsibility Unit",
+      "types": [
+        "Identifier"
+      ]
+    },
+    {
+      "url": "https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-contact-role",
+      "title": "IHE France PAM Contact Role",
+      "types": [
+        "CodeableConcept"
+      ]
+    },
+    {
+      "url": "https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-data-protection",
+      "title": "IHE France PAM Data Protection",
+      "types": [
+        "boolean"
+      ]
+    },
+    {
+      "url": "https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-demographic-complement",
+      "title": "IHE France PAM Demographic Complement",
+      "types": [
+        "string",
+        "integer",
+        "boolean",
+        "boolean",
+        "code",
+        "dateTime",
+        "code",
+        "dateTime",
+        "base64Binary",
+        "boolean",
+        "canonical",
+        "code",
+        "date",
+        "dateTime",
+        "decimal",
+        "id",
+        "instant",
+        "integer",
+        "markdown",
+        "oid",
+        "positiveInt",
+        "string",
+        "time",
+        "unsignedInt",
+        "uri",
+        "url",
+        "uuid",
+        "Address",
+        "Age",
+        "Annotation",
+        "Attachment",
+        "CodeableConcept",
+        "Coding",
+        "ContactPoint",
+        "Count",
+        "Distance",
+        "Duration",
+        "HumanName",
+        "Identifier",
+        "Money",
+        "Period",
+        "Quantity",
+        "Range",
+        "Ratio",
+        "Reference",
+        "SampledData",
+        "Signature",
+        "Timing",
+        "ContactDetail",
+        "Contributor",
+        "DataRequirement",
+        "Expression",
+        "ParameterDefinition",
+        "RelatedArtifact",
+        "TriggerDefinition",
+        "UsageContext",
+        "Dosage",
+        "Meta"
+      ]
+    },
+    {
+      "url": "https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-dmp-status",
+      "title": "IHE France PAM DMP Status",
+      "types": [
+        "code",
+        "dateTime",
+        "dateTime",
+        "code",
+        "dateTime",
+        "code",
+        "dateTime",
+        "base64Binary",
+        "boolean",
+        "canonical",
+        "code",
+        "date",
+        "dateTime",
+        "decimal",
+        "id",
+        "instant",
+        "integer",
+        "markdown",
+        "oid",
+        "positiveInt",
+        "string",
+        "time",
+        "unsignedInt",
+        "uri",
+        "url",
+        "uuid",
+        "Address",
+        "Age",
+        "Annotation",
+        "Attachment",
+        "CodeableConcept",
+        "Coding",
+        "ContactPoint",
+        "Count",
+        "Distance",
+        "Duration",
+        "HumanName",
+        "Identifier",
+        "Money",
+        "Period",
+        "Quantity",
+        "Range",
+        "Ratio",
+        "Reference",
+        "SampledData",
+        "Signature",
+        "Timing",
+        "ContactDetail",
+        "Contributor",
+        "DataRequirement",
+        "Expression",
+        "ParameterDefinition",
+        "RelatedArtifact",
+        "TriggerDefinition",
+        "UsageContext",
+        "Dosage",
+        "Meta"
+      ]
+    },
+    {
+      "url": "https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-encounter-supplement",
+      "title": "IHE France PAM Encounter Supplement",
+      "types": [
+        "Identifier",
+        "dateTime",
+        "CodeableConcept",
+        "dateTime",
+        "dateTime",
+        "Address",
+        "Identifier",
+        "Identifier",
+        "CodeableConcept",
+        "code",
+        "base64Binary",
+        "boolean",
+        "canonical",
+        "code",
+        "date",
+        "dateTime",
+        "decimal",
+        "id",
+        "instant",
+        "integer",
+        "markdown",
+        "oid",
+        "positiveInt",
+        "string",
+        "time",
+        "unsignedInt",
+        "uri",
+        "url",
+        "uuid",
+        "Address",
+        "Age",
+        "Annotation",
+        "Attachment",
+        "CodeableConcept",
+        "Coding",
+        "ContactPoint",
+        "Count",
+        "Distance",
+        "Duration",
+        "HumanName",
+        "Identifier",
+        "Money",
+        "Period",
+        "Quantity",
+        "Range",
+        "Ratio",
+        "Reference",
+        "SampledData",
+        "Signature",
+        "Timing",
+        "ContactDetail",
+        "Contributor",
+        "DataRequirement",
+        "Expression",
+        "ParameterDefinition",
+        "RelatedArtifact",
+        "TriggerDefinition",
+        "UsageContext",
+        "Dosage",
+        "Meta"
+      ]
+    },
+    {
+      "url": "https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-historic-movement-indicator",
+      "title": "IHE France PAM Historic Movement Indicator",
+      "types": [
+        "boolean"
+      ]
+    },
+    {
+      "url": "https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-identity-modifier-entity",
+      "title": "IHE France PAM Identity Modifier Entity",
+      "types": [
+        "Identifier"
+      ]
+    },
+    {
+      "url": "https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-identity-status",
+      "title": "IHE France PAM Identity Status",
+      "types": [
+        "code"
+      ]
+    },
+    {
+      "url": "https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-medical-responsibility-unit",
+      "title": "IHE France PAM Medical Responsibility Unit",
+      "types": [
+        "Identifier"
+      ]
+    },
+    {
+      "url": "https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-mother-birth-name",
+      "title": "IHE France PAM Mother Birth Name",
+      "types": [
+        "HumanName"
+      ]
+    },
+    {
+      "url": "https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-movement-action",
+      "title": "IHE France PAM Movement Action",
+      "types": [
+        "code"
+      ]
+    },
+    {
+      "url": "https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-movement-identifier",
+      "title": "IHE France PAM Movement Identifier",
+      "types": [
+        "Identifier"
+      ]
+    },
+    {
+      "url": "https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-movement-nature",
+      "title": "IHE France PAM Movement Nature",
+      "types": [
+        "CodeableConcept"
+      ]
+    },
+    {
+      "url": "https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-nationality",
+      "title": "IHE France PAM Nationality",
+      "types": [
+        "CodeableConcept"
+      ]
+    },
+    {
+      "url": "https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-origin-event-code",
+      "title": "IHE France PAM Origin Event Code",
+      "types": [
+        "code"
+      ]
+    },
+    {
+      "url": "https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-patient-class",
+      "title": "IHE France PAM Patient Class",
+      "types": [
+        "code"
+      ]
+    },
+    {
+      "url": "https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-planned-end",
+      "title": "IHE France PAM Planned End",
+      "types": [
+        "dateTime"
+      ]
+    },
+    {
+      "url": "https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-planned-start",
+      "title": "IHE France PAM Planned Start",
+      "types": [
+        "dateTime"
+      ]
+    },
+    {
+      "url": "https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-pmsi-movement",
+      "title": "IHE France PAM PMSI Movement",
+      "types": [
+        "code",
+        "code",
+        "code",
+        "code",
+        "code",
+        "base64Binary",
+        "boolean",
+        "canonical",
+        "code",
+        "date",
+        "dateTime",
+        "decimal",
+        "id",
+        "instant",
+        "integer",
+        "markdown",
+        "oid",
+        "positiveInt",
+        "string",
+        "time",
+        "unsignedInt",
+        "uri",
+        "url",
+        "uuid",
+        "Address",
+        "Age",
+        "Annotation",
+        "Attachment",
+        "CodeableConcept",
+        "Coding",
+        "ContactPoint",
+        "Count",
+        "Distance",
+        "Duration",
+        "HumanName",
+        "Identifier",
+        "Money",
+        "Period",
+        "Quantity",
+        "Range",
+        "Ratio",
+        "Reference",
+        "SampledData",
+        "Signature",
+        "Timing",
+        "ContactDetail",
+        "Contributor",
+        "DataRequirement",
+        "Expression",
+        "ParameterDefinition",
+        "RelatedArtifact",
+        "TriggerDefinition",
+        "UsageContext",
+        "Dosage",
+        "Meta"
+      ]
+    },
+    {
+      "url": "https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-professional-situation",
+      "title": "IHE France PAM Professional Situation",
+      "types": [
+        "CodeableConcept",
+        "CodeableConcept",
+        "base64Binary",
+        "boolean",
+        "canonical",
+        "code",
+        "date",
+        "dateTime",
+        "decimal",
+        "id",
+        "instant",
+        "integer",
+        "markdown",
+        "oid",
+        "positiveInt",
+        "string",
+        "time",
+        "unsignedInt",
+        "uri",
+        "url",
+        "uuid",
+        "Address",
+        "Age",
+        "Annotation",
+        "Attachment",
+        "CodeableConcept",
+        "Coding",
+        "ContactPoint",
+        "Count",
+        "Distance",
+        "Duration",
+        "HumanName",
+        "Identifier",
+        "Money",
+        "Period",
+        "Quantity",
+        "Range",
+        "Ratio",
+        "Reference",
+        "SampledData",
+        "Signature",
+        "Timing",
+        "ContactDetail",
+        "Contributor",
+        "DataRequirement",
+        "Expression",
+        "ParameterDefinition",
+        "RelatedArtifact",
+        "TriggerDefinition",
+        "UsageContext",
+        "Dosage",
+        "Meta"
+      ]
+    },
+    {
+      "url": "https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-psychiatric-legal-status",
+      "title": "IHE France PAM Psychiatric Legal Status",
+      "types": [
+        "Identifier",
+        "Period",
+        "code",
+        "CodeableConcept",
+        "code",
+        "string",
+        "base64Binary",
+        "boolean",
+        "canonical",
+        "code",
+        "date",
+        "dateTime",
+        "decimal",
+        "id",
+        "instant",
+        "integer",
+        "markdown",
+        "oid",
+        "positiveInt",
+        "string",
+        "time",
+        "unsignedInt",
+        "uri",
+        "url",
+        "uuid",
+        "Address",
+        "Age",
+        "Annotation",
+        "Attachment",
+        "CodeableConcept",
+        "Coding",
+        "ContactPoint",
+        "Count",
+        "Distance",
+        "Duration",
+        "HumanName",
+        "Identifier",
+        "Money",
+        "Period",
+        "Quantity",
+        "Range",
+        "Ratio",
+        "Reference",
+        "SampledData",
+        "Signature",
+        "Timing",
+        "ContactDetail",
+        "Contributor",
+        "DataRequirement",
+        "Expression",
+        "ParameterDefinition",
+        "RelatedArtifact",
+        "TriggerDefinition",
+        "UsageContext",
+        "Dosage",
+        "Meta"
+      ]
+    },
+    {
+      "url": "https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-venue-protection",
+      "title": "IHE France PAM Venue Protection",
+      "types": [
+        "boolean"
+      ]
+    }
+  ],
+  "profiles": {
+    "Encounter": [
+      {
+        "url": "https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-encounter",
+        "title": "IHE France PAM Encounter"
+      }
+    ],
+    "Location": [
+      {
+        "url": "https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-location",
+        "title": "IHE France PAM Location"
+      }
+    ],
+    "Organization": [
+      {
+        "url": "https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-organization",
+        "title": "IHE France PAM Organization"
+      }
+    ],
+    "Patient": [
+      {
+        "url": "https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-patient",
+        "title": "IHE France PAM Patient"
+      }
+    ],
+    "Practitioner": [
+      {
+        "url": "https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-practitioner",
+        "title": "IHE France PAM Practitioner"
+      }
+    ],
+    "PractitionerRole": [
+      {
+        "url": "https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-practitioner-role",
+        "title": "IHE France PAM PractitionerRole"
+      }
+    ],
+    "RelatedPerson": [
+      {
+        "url": "https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-related-person",
+        "title": "IHE France PAM Related Person"
+      }
+    ]
+  },
+  "usage": {
+    "http://hl7.org/fhir/StructureDefinition/elementdefinition-bestpractice": [
+      "StructureDefinition.snapshot.element.constraint"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/elementdefinition-bestpractice-explanation": [
+      "StructureDefinition.snapshot.element.constraint"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName": [
+      "StructureDefinition.snapshot.element.binding"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet": [
+      "StructureDefinition.snapshot.element.binding"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable": [
+      "StructureDefinition.snapshot.element"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/structuredefinition-fhir-type": [
+      "StructureDefinition.snapshot.element.type"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/structuredefinition-hierarchy": [
+      "StructureDefinition.snapshot.element.type"
+    ],
+    "http://hl7.org/fhir/tools/StructureDefinition/expansion-parameters": [
+      "ImplementationGuide.definition"
+    ],
+    "http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency": [
+      "ImplementationGuide.definition"
+    ],
+    "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name": [
+      "ImplementationGuide.definition.page",
+      "ImplementationGuide.definition.page.page",
+      "ImplementationGuide.definition.page.page.page"
+    ],
+    "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter": [
+      "ImplementationGuide.definition"
+    ],
+    "http://hl7.org/fhir/tools/StructureDefinition/implementationguide-dependency-comment": [
+      "ImplementationGuide.dependsOn"
+    ],
+    "http://hl7.org/fhir/tools/StructureDefinition/resource-information": [
+      "ImplementationGuide.definition.resource"
+    ],
+    "http://hl7.org/fhir/tools/StructureDefinition/snapshot-base-version": [
+      "StructureDefinition.snapshot"
+    ],
+    "https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-accident-date|0.1.0": [
+      "Encounter"
+    ],
+    "https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-accident-nature": [
+      "Encounter"
+    ],
+    "https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-accident-nature|0.1.0": [
+      "Encounter"
+    ],
+    "https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-administrative-number": [
+      "Encounter"
+    ],
+    "https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-administrative-number|0.1.0": [
+      "Encounter"
+    ],
+    "https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-arrival-mode|0.1.0": [
+      "Encounter"
+    ],
+    "https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-birth-multiple-rank|0.1.0": [
+      "Patient"
+    ],
+    "https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-care-responsibility-unit": [
+      "Encounter"
+    ],
+    "https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-care-responsibility-unit|0.1.0": [
+      "Encounter"
+    ],
+    "https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-contact-role|0.1.0": [
+      "RelatedPerson"
+    ],
+    "https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-data-protection|0.1.0": [
+      "Patient"
+    ],
+    "https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-demographic-complement": [
+      "Patient"
+    ],
+    "https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-demographic-complement|0.1.0": [
+      "Patient"
+    ],
+    "https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-dmp-status": [
+      "Patient"
+    ],
+    "https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-dmp-status|0.1.0": [
+      "Patient"
+    ],
+    "https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-encounter-supplement": [
+      "Encounter"
+    ],
+    "https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-encounter-supplement|0.1.0": [
+      "Encounter"
+    ],
+    "https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-historic-movement-indicator": [
+      "Encounter"
+    ],
+    "https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-historic-movement-indicator|0.1.0": [
+      "Encounter"
+    ],
+    "https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-identity-modifier-entity|0.1.0": [
+      "Patient"
+    ],
+    "https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-identity-status": [
+      "Patient"
+    ],
+    "https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-identity-status|0.1.0": [
+      "Patient"
+    ],
+    "https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-medical-responsibility-unit": [
+      "Encounter"
+    ],
+    "https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-medical-responsibility-unit|0.1.0": [
+      "Encounter"
+    ],
+    "https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-mother-birth-name": [
+      "Patient"
+    ],
+    "https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-mother-birth-name|0.1.0": [
+      "Patient"
+    ],
+    "https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-movement-action": [
+      "Encounter"
+    ],
+    "https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-movement-action|0.1.0": [
+      "Encounter"
+    ],
+    "https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-movement-identifier": [
+      "Encounter"
+    ],
+    "https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-movement-identifier|0.1.0": [
+      "Encounter"
+    ],
+    "https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-movement-nature": [
+      "Encounter"
+    ],
+    "https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-movement-nature|0.1.0": [
+      "Encounter"
+    ],
+    "https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-nationality": [
+      "Patient"
+    ],
+    "https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-nationality|0.1.0": [
+      "Patient"
+    ],
+    "https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-origin-event-code": [
+      "Encounter"
+    ],
+    "https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-origin-event-code|0.1.0": [
+      "Encounter"
+    ],
+    "https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-patient-class": [
+      "Encounter"
+    ],
+    "https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-patient-class|0.1.0": [
+      "Encounter"
+    ],
+    "https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-planned-end": [
+      "Encounter"
+    ],
+    "https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-planned-end|0.1.0": [
+      "Encounter"
+    ],
+    "https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-planned-start": [
+      "Encounter"
+    ],
+    "https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-planned-start|0.1.0": [
+      "Encounter"
+    ],
+    "https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-pmsi-movement": [
+      "Encounter"
+    ],
+    "https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-pmsi-movement|0.1.0": [
+      "Encounter"
+    ],
+    "https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-professional-situation": [
+      "Patient"
+    ],
+    "https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-professional-situation|0.1.0": [
+      "Patient"
+    ],
+    "https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-psychiatric-legal-status|0.1.0": [
+      "Patient"
+    ],
+    "https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-venue-protection": [
+      "Encounter"
+    ],
+    "https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-venue-protection|0.1.0": [
+      "Encounter"
+    ]
+  }
+}

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="ihe-france-pam-pmsi-exit-mode-cs"/>
+  <language value="en"/>
+  <text>
+    <status value="generated"/><div xml:lang="en" lang="en"><hr/><p><b>English</b></p><hr/><p class="res-header-id"><b>Generated Narrative: CodeSystem ihe-france-pam-pmsi-exit-mode-cs</b></p><a name="en-ihe-france-pam-pmsi-exit-mode-cs"> </a><a name="en-hcihe-france-pam-pmsi-exit-mode-cs"> </a><p>This case-sensitive code system <code>https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-pmsi-exit-mode-cs</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap">0<a name="en-ihe-france-pam-pmsi-exit-mode-cs-0"> </a></td><td>Transfert pour acte</td><td>Sortie temporaire de l'hôpital.</td></tr><tr><td style="white-space:nowrap">4<a name="en-ihe-france-pam-pmsi-exit-mode-cs-4"> </a></td><td>Fugue ou sortie contre avis médical</td><td>Fugue ou sortie contre avis médical.</td></tr><tr><td style="white-space:nowrap">5<a name="en-ihe-france-pam-pmsi-exit-mode-cs-5"> </a></td><td>Sortie à l'essai</td><td>Sortie temporaire de l'établissement psychiatrique. Valeur obsolète depuis mars 2012.</td></tr><tr><td style="white-space:nowrap">6<a name="en-ihe-france-pam-pmsi-exit-mode-cs-6"> </a></td><td>Mutation (même hôpital)</td><td>Départ du patient de l'unité fonctionnelle.</td></tr><tr><td style="white-space:nowrap">7<a name="en-ihe-france-pam-pmsi-exit-mode-cs-7"> </a></td><td>Transfert</td><td>Transfert vers un autre établissement.</td></tr><tr><td style="white-space:nowrap">8<a name="en-ihe-france-pam-pmsi-exit-mode-cs-8"> </a></td><td>Départ vers le domicile ou assimilé</td><td>Sortie définitive.</td></tr><tr><td style="white-space:nowrap">9<a name="en-ihe-france-pam-pmsi-exit-mode-cs-9"> </a></td><td>Décès</td><td>Sortie définitive par décès.</td></tr></table></div>
+  </text>
+  <url value="https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-pmsi-exit-mode-cs"/>
+  <version value="0.1.0"/>
+  <name value="IHEFrancePamPmsiExitModeCS"/>
+  <title value="IHE France PAM PMSI Exit Mode CodeSystem"/>
+  <status value="draft"/>
+  <experimental value="false"/>
+  <date value="2026-10-28T10:01:53+00:00"/>
+  <publisher value="IHE France"/>
+  <contact>
+    <name value="IHE France"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.ihe-france.org"/>
+    </telecom>
+  </contact>
+  <contact>
+    <name value="IHE France"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.ihe-france.org"/>
+      <use value="work"/>
+    </telecom>
+  </contact>
+  <description value="Mode de sortie PMSI (ZFM-2, table IHE-FRANCE-ZFM-2)."/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="FR"/>
+      <display value="France (la)"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="7"/>
+  <concept>
+    <code value="0"/>
+    <display value="Transfert pour acte"/>
+    <definition value="Sortie temporaire de l'hôpital."/>
+  </concept>
+  <concept>
+    <code value="4"/>
+    <display value="Fugue ou sortie contre avis médical"/>
+    <definition value="Fugue ou sortie contre avis médical."/>
+  </concept>
+  <concept>
+    <code value="5"/>
+    <display value="Sortie à l'essai"/>
+    <definition value="Sortie temporaire de l'établissement psychiatrique. Valeur obsolète depuis mars 2012."/>
+  </concept>
+  <concept>
+    <code value="6"/>
+    <display value="Mutation (même hôpital)"/>
+    <definition value="Départ du patient de l'unité fonctionnelle."/>
+  </concept>
+  <concept>
+    <code value="7"/>
+    <display value="Transfert"/>
+    <definition value="Transfert vers un autre établissement."/>
+  </concept>
+  <concept>
+    <code value="8"/>
+    <display value="Départ vers le domicile ou assimilé"/>
+    <definition value="Sortie définitive."/>
+  </concept>
+  <concept>
+    <code value="9"/>
+    <display value="Décès"/>
+    <definition value="Sortie définitive par décès."/>
+  </concept>
+</CodeSystem>

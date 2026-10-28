@@ -1,0 +1,46 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "ihe-france-pam-admission-type-vs",
+  "language" : "en",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xml:lang=\"en\" lang=\"en\"><hr/><p><b>English</b></p><hr/><p class=\"res-header-id\"><b>Generated Narrative: ValueSet ihe-france-pam-admission-type-vs</b></p><a name=\"en-ihe-france-pam-admission-type-vs\"> </a><a name=\"en-hcihe-france-pam-admission-type-vs\"> </a><ul><li>Include all codes defined in <a href=\"CodeSystem-ihe-france-pam-admission-type-cs.html\"><code>https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-admission-type-cs</code></a><span title=\"Version is explicitly stated to be 0.1.0\"> version &#x1F4CD;0.1.0</span></li></ul></div>"
+  },
+  "url" : "https://hl7.fr/ig/v2/pam/ValueSet/ihe-france-pam-admission-type-vs",
+  "version" : "0.1.0",
+  "name" : "IHEFrancePamAdmissionTypeVS",
+  "title" : "IHE France PAM Admission Type ValueSet",
+  "status" : "draft",
+  "experimental" : false,
+  "date" : "2026-10-28T10:01:53+00:00",
+  "publisher" : "IHE France",
+  "contact" : [{
+    "name" : "IHE France",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://www.ihe-france.org"
+    }]
+  },
+  {
+    "name" : "IHE France",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://www.ihe-france.org",
+      "use" : "work"
+    }]
+  }],
+  "description" : "Valeurs pour : Type d'admission (PV1-4, table HL7 0007).",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR",
+      "display" : "France (la)"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "system" : "https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-admission-type-cs",
+      "version" : "0.1.0"
+    }]
+  }
+}

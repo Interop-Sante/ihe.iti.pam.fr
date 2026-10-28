@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="ihe-france-pam-provider-role-cs"/>
+  <language value="fr"/>
+  <text>
+    <status value="generated"/><div xml:lang="fr" lang="fr"><hr/><p><b>French</b></p><hr/><p class="res-header-id"><b>Narratif généré : CodeSystem ihe-france-pam-provider-role-cs</b></p><a name="ihe-france-pam-provider-role-cs"> </a><a name="hcihe-france-pam-provider-role-cs"> </a><p>This case-sensitive code system <code>https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-provider-role-cs</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Affichage</b></td><td><b>Définition</b></td></tr><tr><td style="white-space:nowrap">AD<a name="ihe-france-pam-provider-role-cs-AD"> </a></td><td>Médecin ayant admis</td><td>Médecin de la structure qui décide d'hospitaliser (PV1-17).</td></tr><tr><td style="white-space:nowrap">AT<a name="ihe-france-pam-provider-role-cs-AT"> </a></td><td>Médecin responsable</td><td>Médecin responsable du patient pendant le séjour (PV1-7).</td></tr><tr><td style="white-space:nowrap">CP<a name="ihe-france-pam-provider-role-cs-CP"> </a></td><td>Médecin consulté</td><td>Médecin consulté pour un deuxième avis dans le cadre de la venue.</td></tr><tr><td style="white-space:nowrap">FHCP<a name="ihe-france-pam-provider-role-cs-FHCP"> </a></td><td>Médecin de famille</td><td>Médecin de famille, utilisé dans les rares cas où il est distinct du médecin traitant.</td></tr><tr><td style="white-space:nowrap">RP<a name="ihe-france-pam-provider-role-cs-RP"> </a></td><td>Médecin adressant</td><td>Médecin adressant (PV1-8).</td></tr><tr><td style="white-space:nowrap">RT<a name="ihe-france-pam-provider-role-cs-RT"> </a></td><td>Médecin correspondant</td><td>Médecin correspondant, au sens de la Sécurité sociale.</td></tr><tr><td style="white-space:nowrap">ODRP<a name="ihe-france-pam-provider-role-cs-ODRP"> </a></td><td>Médecin traitant</td><td>Médecin traitant déclaré, au sens de la Sécurité sociale.</td></tr><tr><td style="white-space:nowrap">SUBS<a name="ihe-france-pam-provider-role-cs-SUBS"> </a></td><td>Remplaçant du médecin traitant</td><td>Médecin qui remplace le médecin traitant en son absence.</td></tr></table></div>
+  </text>
+  <url value="https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-provider-role-cs"/>
+  <version value="0.1.0"/>
+  <name value="IHEFrancePamProviderRoleCS"/>
+  <title value="IHE France PAM Provider Role CodeSystem"/>
+  <status value="draft"/>
+  <experimental value="false"/>
+  <date value="2026-10-28T10:01:53+00:00"/>
+  <publisher value="IHE France"/>
+  <contact>
+    <name value="IHE France"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.ihe-france.org"/>
+    </telecom>
+  </contact>
+  <contact>
+    <name value="IHE France"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.ihe-france.org"/>
+      <use value="work"/>
+    </telecom>
+  </contact>
+  <description value="Rôle d'un médecin en relation avec le patient (ROL-3, table HL7 0443)."/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="FR"/>
+      <display value="France (la)"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="8"/>
+  <concept>
+    <code value="AD"/>
+    <display value="Médecin ayant admis"/>
+    <definition value="Médecin de la structure qui décide d'hospitaliser (PV1-17)."/>
+  </concept>
+  <concept>
+    <code value="AT"/>
+    <display value="Médecin responsable"/>
+    <definition value="Médecin responsable du patient pendant le séjour (PV1-7)."/>
+  </concept>
+  <concept>
+    <code value="CP"/>
+    <display value="Médecin consulté"/>
+    <definition value="Médecin consulté pour un deuxième avis dans le cadre de la venue."/>
+  </concept>
+  <concept>
+    <code value="FHCP"/>
+    <display value="Médecin de famille"/>
+    <definition value="Médecin de famille, utilisé dans les rares cas où il est distinct du médecin traitant."/>
+  </concept>
+  <concept>
+    <code value="RP"/>
+    <display value="Médecin adressant"/>
+    <definition value="Médecin adressant (PV1-8)."/>
+  </concept>
+  <concept>
+    <code value="RT"/>
+    <display value="Médecin correspondant"/>
+    <definition value="Médecin correspondant, au sens de la Sécurité sociale."/>
+  </concept>
+  <concept>
+    <code value="ODRP"/>
+    <display value="Médecin traitant"/>
+    <definition value="Médecin traitant déclaré, au sens de la Sécurité sociale."/>
+  </concept>
+  <concept>
+    <code value="SUBS"/>
+    <display value="Remplaçant du médecin traitant"/>
+    <definition value="Médecin qui remplace le médecin traitant en son absence."/>
+  </concept>
+</CodeSystem>

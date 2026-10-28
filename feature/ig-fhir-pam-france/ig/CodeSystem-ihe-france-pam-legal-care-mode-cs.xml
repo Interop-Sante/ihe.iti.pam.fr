@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="ihe-france-pam-legal-care-mode-cs"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><div xml:lang="fr" lang="fr"><hr/><p><b>French</b></p><hr/><p class="res-header-id"><b>Narratif généré : CodeSystem ihe-france-pam-legal-care-mode-cs</b></p><a name="ihe-france-pam-legal-care-mode-cs"> </a><a name="hcihe-france-pam-legal-care-mode-cs"> </a><p>This case-sensitive code system <code>https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-legal-care-mode-cs</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Affichage</b></td><td><b>Définition</b></td></tr><tr><td style="white-space:nowrap">OPP<a name="ihe-france-pam-legal-care-mode-cs-OPP"> </a></td><td>Ordonnance provisoire de placement</td><td>Ordonnance provisoire de placement.</td></tr><tr><td style="white-space:nowrap">SPP<a name="ihe-france-pam-legal-care-mode-cs-SPP"> </a></td><td>Soins psychiatriques pour péril imminent</td><td>Soins psychiatriques pour péril imminent.</td></tr><tr><td style="white-space:nowrap">SPL<a name="ihe-france-pam-legal-care-mode-cs-SPL"> </a></td><td>Soins psychiatriques libres</td><td>Soins psychiatriques libres.</td></tr><tr><td style="white-space:nowrap">SPAP<a name="ihe-france-pam-legal-care-mode-cs-SPAP"> </a></td><td>Soins psychiatriques avec autorisation parentale</td><td>Soins psychiatriques avec autorisation parentale.</td></tr><tr><td style="white-space:nowrap">SDREP<a name="ihe-france-pam-legal-care-mode-cs-SDREP"> </a></td><td>Soins psychiatriques sur décision du représentant de l'État (arrêté préfectoral)</td><td>Soins psychiatriques à la demande du représentant de l'État sur arrêté préfectoral (article L3213-1).</td></tr><tr><td style="white-space:nowrap">SDREM<a name="ihe-france-pam-legal-care-mode-cs-SDREM"> </a></td><td>Soins psychiatriques sur décision du représentant de l'État (arrêté municipal)</td><td>Soins psychiatriques à la demande du représentant de l'État sur arrêté municipal (article L3213-2).</td></tr><tr><td style="white-space:nowrap">SDREIP<a name="ihe-france-pam-legal-care-mode-cs-SDREIP"> </a></td><td>Soins psychiatriques après irresponsabilité pénale</td><td>Soins psychiatriques à la demande du représentant de l'État après irresponsabilité pénale (article L3213-7).</td></tr><tr><td style="white-space:nowrap">SPD<a name="ihe-france-pam-legal-care-mode-cs-SPD"> </a></td><td>Soins psychiatriques des personnes détenues</td><td>Soins psychiatriques des personnes détenues (article D398 du code de procédure pénale).</td></tr><tr><td style="white-space:nowrap">SDT<a name="ihe-france-pam-legal-care-mode-cs-SDT"> </a></td><td>Soins psychiatriques à la demande d'un tiers</td><td>Soins psychiatriques à la demande d'un tiers, deux certificats (article L3212-1-II-1).</td></tr><tr><td style="white-space:nowrap">SDTU<a name="ihe-france-pam-legal-care-mode-cs-SDTU"> </a></td><td>Soins psychiatriques à la demande d'un tiers en urgence</td><td>Soins psychiatriques à la demande d'un tiers en urgence, un certificat (article L3213-3).</td></tr><tr><td style="white-space:nowrap">SPI<a name="ihe-france-pam-legal-care-mode-cs-SPI"> </a></td><td>Soins psychiatriques pour péril imminent (un certificat)</td><td>Soins psychiatriques pour péril imminent, un certificat (article L3212-1-II-2).</td></tr></table></div><div xml:lang="en" lang="en"><hr/><p><b>English</b></p><hr/><p class="res-header-id"><b>Generated Narrative: CodeSystem ihe-france-pam-legal-care-mode-cs</b></p><a name="en-ihe-france-pam-legal-care-mode-cs"> </a><a name="en-hcihe-france-pam-legal-care-mode-cs"> </a><p>This case-sensitive code system <code>https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-legal-care-mode-cs</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap">OPP<a name="en-ihe-france-pam-legal-care-mode-cs-OPP"> </a></td><td>Ordonnance provisoire de placement</td><td>Ordonnance provisoire de placement.</td></tr><tr><td style="white-space:nowrap">SPP<a name="en-ihe-france-pam-legal-care-mode-cs-SPP"> </a></td><td>Soins psychiatriques pour péril imminent</td><td>Soins psychiatriques pour péril imminent.</td></tr><tr><td style="white-space:nowrap">SPL<a name="en-ihe-france-pam-legal-care-mode-cs-SPL"> </a></td><td>Soins psychiatriques libres</td><td>Soins psychiatriques libres.</td></tr><tr><td style="white-space:nowrap">SPAP<a name="en-ihe-france-pam-legal-care-mode-cs-SPAP"> </a></td><td>Soins psychiatriques avec autorisation parentale</td><td>Soins psychiatriques avec autorisation parentale.</td></tr><tr><td style="white-space:nowrap">SDREP<a name="en-ihe-france-pam-legal-care-mode-cs-SDREP"> </a></td><td>Soins psychiatriques sur décision du représentant de l'État (arrêté préfectoral)</td><td>Soins psychiatriques à la demande du représentant de l'État sur arrêté préfectoral (article L3213-1).</td></tr><tr><td style="white-space:nowrap">SDREM<a name="en-ihe-france-pam-legal-care-mode-cs-SDREM"> </a></td><td>Soins psychiatriques sur décision du représentant de l'État (arrêté municipal)</td><td>Soins psychiatriques à la demande du représentant de l'État sur arrêté municipal (article L3213-2).</td></tr><tr><td style="white-space:nowrap">SDREIP<a name="en-ihe-france-pam-legal-care-mode-cs-SDREIP"> </a></td><td>Soins psychiatriques après irresponsabilité pénale</td><td>Soins psychiatriques à la demande du représentant de l'État après irresponsabilité pénale (article L3213-7).</td></tr><tr><td style="white-space:nowrap">SPD<a name="en-ihe-france-pam-legal-care-mode-cs-SPD"> </a></td><td>Soins psychiatriques des personnes détenues</td><td>Soins psychiatriques des personnes détenues (article D398 du code de procédure pénale).</td></tr><tr><td style="white-space:nowrap">SDT<a name="en-ihe-france-pam-legal-care-mode-cs-SDT"> </a></td><td>Soins psychiatriques à la demande d'un tiers</td><td>Soins psychiatriques à la demande d'un tiers, deux certificats (article L3212-1-II-1).</td></tr><tr><td style="white-space:nowrap">SDTU<a name="en-ihe-france-pam-legal-care-mode-cs-SDTU"> </a></td><td>Soins psychiatriques à la demande d'un tiers en urgence</td><td>Soins psychiatriques à la demande d'un tiers en urgence, un certificat (article L3213-3).</td></tr><tr><td style="white-space:nowrap">SPI<a name="en-ihe-france-pam-legal-care-mode-cs-SPI"> </a></td><td>Soins psychiatriques pour péril imminent (un certificat)</td><td>Soins psychiatriques pour péril imminent, un certificat (article L3212-1-II-2).</td></tr></table></div></div>
+  </text>
+  <url value="https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-legal-care-mode-cs"/>
+  <version value="0.1.0"/>
+  <name value="IHEFrancePamLegalCareModeCS"/>
+  <title value="IHE France PAM Legal Care Mode CodeSystem"/>
+  <status value="draft"/>
+  <experimental value="false"/>
+  <date value="2026-10-28T10:06:53+00:00"/>
+  <publisher value="IHE France"/>
+  <contact>
+    <name value="IHE France"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.ihe-france.org"/>
+    </telecom>
+  </contact>
+  <contact>
+    <name value="IHE France"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.ihe-france.org"/>
+      <use value="work"/>
+    </telecom>
+  </contact>
+  <description value="Mode légal de soins en psychiatrie (ZFS-6, table IHE-FRANCE-ZFS-6). Liste non limitative."/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="FR"/>
+      <display value="France (la)"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="11"/>
+  <concept>
+    <code value="OPP"/>
+    <display value="Ordonnance provisoire de placement"/>
+    <definition value="Ordonnance provisoire de placement."/>
+  </concept>
+  <concept>
+    <code value="SPP"/>
+    <display value="Soins psychiatriques pour péril imminent"/>
+    <definition value="Soins psychiatriques pour péril imminent."/>
+  </concept>
+  <concept>
+    <code value="SPL"/>
+    <display value="Soins psychiatriques libres"/>
+    <definition value="Soins psychiatriques libres."/>
+  </concept>
+  <concept>
+    <code value="SPAP"/>
+    <display value="Soins psychiatriques avec autorisation parentale"/>
+    <definition value="Soins psychiatriques avec autorisation parentale."/>
+  </concept>
+  <concept>
+    <code value="SDREP"/>
+    <display value="Soins psychiatriques sur décision du représentant de l'État (arrêté préfectoral)"/>
+    <definition value="Soins psychiatriques à la demande du représentant de l'État sur arrêté préfectoral (article L3213-1)."/>
+  </concept>
+  <concept>
+    <code value="SDREM"/>
+    <display value="Soins psychiatriques sur décision du représentant de l'État (arrêté municipal)"/>
+    <definition value="Soins psychiatriques à la demande du représentant de l'État sur arrêté municipal (article L3213-2)."/>
+  </concept>
+  <concept>
+    <code value="SDREIP"/>
+    <display value="Soins psychiatriques après irresponsabilité pénale"/>
+    <definition value="Soins psychiatriques à la demande du représentant de l'État après irresponsabilité pénale (article L3213-7)."/>
+  </concept>
+  <concept>
+    <code value="SPD"/>
+    <display value="Soins psychiatriques des personnes détenues"/>
+    <definition value="Soins psychiatriques des personnes détenues (article D398 du code de procédure pénale)."/>
+  </concept>
+  <concept>
+    <code value="SDT"/>
+    <display value="Soins psychiatriques à la demande d'un tiers"/>
+    <definition value="Soins psychiatriques à la demande d'un tiers, deux certificats (article L3212-1-II-1)."/>
+  </concept>
+  <concept>
+    <code value="SDTU"/>
+    <display value="Soins psychiatriques à la demande d'un tiers en urgence"/>
+    <definition value="Soins psychiatriques à la demande d'un tiers en urgence, un certificat (article L3213-3)."/>
+  </concept>
+  <concept>
+    <code value="SPI"/>
+    <display value="Soins psychiatriques pour péril imminent (un certificat)"/>
+    <definition value="Soins psychiatriques pour péril imminent, un certificat (article L3212-1-II-2)."/>
+  </concept>
+</CodeSystem>

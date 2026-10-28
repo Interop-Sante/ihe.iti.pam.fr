@@ -1,0 +1,1576 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ImplementationGuide xmlns="http://hl7.org/fhir">
+  <id value="ihe.fr.pam"/>
+  <language value="en"/>
+  <text>
+    <status value="generated"/><div xml:lang="en" lang="en"><hr/><p><b>English</b></p><hr/><p class="res-header-id"><b>Generated Narrative: ImplementationGuide ihe.fr.pam</b></p><a name="en-ihe.fr.pam"> </a><a name="en-hcihe.fr.pam"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Language: fr</p></div><h2>IHEFrancePAM</h2><p>The official URL for this implementation guide is: </p><pre>https://hl7.fr/ig/v2/pam/ImplementationGuide/ihe.fr.pam</pre><div><p>Base de travail pour transformer le profil IHE PAM France issu d'un PDF en Implementation Guide FHIR publiable avec le template Interop'Sante.</p>
+</div></div>
+  </text>
+  <url value="https://hl7.fr/ig/v2/pam/ImplementationGuide/ihe.fr.pam"/>
+  <version value="0.1.0"/>
+  <name value="IHEFrancePAM"/>
+  <title value="IHE PAM France"/>
+  <status value="draft"/>
+  <date value="2026-10-28T10:06:53+00:00"/>
+  <publisher value="IHE France"/>
+  <contact>
+    <name value="IHE France"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.ihe-france.org"/>
+    </telecom>
+  </contact>
+  <contact>
+    <name value="IHE France"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.ihe-france.org"/>
+      <use value="work"/>
+    </telecom>
+  </contact>
+  <description value="Base de travail pour transformer le profil IHE PAM France issu d'un PDF en Implementation Guide FHIR publiable avec le template Interop'Sante.&#xA;"/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="FR"/>
+      <display value="France (la)"/>
+    </coding>
+  </jurisdiction>
+  <packageId value="ihe.fr.pam"/>
+  <license value="CC0-1.0"/>
+  <fhirVersion value="4.0.1"/>
+  <dependsOn id="hl7tx">
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/implementationguide-dependency-comment">
+      <valueMarkdown value="Automatically added as a dependency - all IGs depend on HL7 Terminology"/>
+    </extension>
+    <uri value="http://terminology.hl7.org/ImplementationGuide/hl7.terminology"/>
+    <packageId value="hl7.terminology.r4"/>
+    <version value="7.5.0"/>
+  </dependsOn>
+  <dependsOn id="hl7ext">
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/implementationguide-dependency-comment">
+      <valueMarkdown value="Automatically added as a dependency - all IGs depend on the HL7 Extension Pack"/>
+    </extension>
+    <uri value="http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions"/>
+    <packageId value="hl7.fhir.uv.extensions.r4"/>
+    <version value="5.4.0"/>
+  </dependsOn>
+  <definition>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/expansion-parameters">
+      <valueReference>
+        <reference value="Parameters/expansion-parameters"/>
+      </valueReference>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency">
+      <valueCode value="hl7.fhir.uv.tools.r4#1.3.0"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="copyrightyear"/>
+      </extension>
+      <extension url="value">
+        <valueString value="2026+"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="releaselabel"/>
+      </extension>
+      <extension url="value">
+        <valueString value="ci-build"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="path-expansion-params"/>
+      </extension>
+      <extension url="value">
+        <valueString value="../../expansion-params.json"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="i18n-default-lang"/>
+      </extension>
+      <extension url="value">
+        <valueString value="fr"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="i18n-lang"/>
+      </extension>
+      <extension url="value">
+        <valueString value="en"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="translation-sources"/>
+      </extension>
+      <extension url="value">
+        <valueString value="input/translations/en"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="shownav"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="pin-canonicals"/>
+      </extension>
+      <extension url="value">
+        <valueString value="pin-all"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="apply-contact"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="apply-jurisdiction"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="logging"/>
+      </extension>
+      <extension url="value">
+        <valueString value="tx"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="logging"/>
+      </extension>
+      <extension url="value">
+        <valueString value="init"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="logging"/>
+      </extension>
+      <extension url="value">
+        <valueString value="progress"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="autoload-resources"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="path-liquid-template"/>
+      </extension>
+      <extension url="value">
+        <valueString value="template/liquid"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="path-liquid-template"/>
+      </extension>
+      <extension url="value">
+        <valueString value="input/liquid"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="path-qa"/>
+      </extension>
+      <extension url="value">
+        <valueString value="temp/qa"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="path-temp"/>
+      </extension>
+      <extension url="value">
+        <valueString value="temp/pages"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="path-output"/>
+      </extension>
+      <extension url="value">
+        <valueString value="output"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="path-suppressed-warnings"/>
+      </extension>
+      <extension url="value">
+        <valueString value="input/ignoreWarnings.txt"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="path-history"/>
+      </extension>
+      <extension url="value">
+        <valueString value="https://hl7.fr/ig/v2/pam/history.html"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="template-html"/>
+      </extension>
+      <extension url="value">
+        <valueString value="template-page.html"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="template-md"/>
+      </extension>
+      <extension url="value">
+        <valueString value="template-page-md.html"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="apply-context"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="apply-copyright"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="apply-license"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="apply-publisher"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="apply-version"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="apply-wg"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="active-tables"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="fmm-definition"/>
+      </extension>
+      <extension url="value">
+        <valueString value="http://hl7.org/fhir/versions.html#maturity"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="propagate-status"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="excludelogbinaryformat"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="tabbed-snapshots"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Encounter"/>
+      </extension>
+      <reference>
+        <reference value="Encounter/example-ihe-france-pam-encounter"/>
+      </reference>
+      <name value="Exemple encounter PAM France"/>
+      <description value="Exemple minimal de venue conforme au profil initial IHE France PAM."/>
+      <exampleCanonical value="https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-encounter|0.1.0"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Location"/>
+      </extension>
+      <reference>
+        <reference value="Location/example-ihe-france-pam-location"/>
+      </reference>
+      <name value="Exemple location PAM France"/>
+      <description value="Exemple minimal de localisation d'hébergement."/>
+      <exampleCanonical value="https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-location|0.1.0"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Organization"/>
+      </extension>
+      <reference>
+        <reference value="Organization/example-ihe-france-pam-organization"/>
+      </reference>
+      <name value="Exemple organisation PAM France"/>
+      <description value="Exemple minimal d'organisation ou d'établissement."/>
+      <exampleCanonical value="https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-organization|0.1.0"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Patient"/>
+      </extension>
+      <reference>
+        <reference value="Patient/example-ihe-france-pam-patient"/>
+      </reference>
+      <name value="Exemple patient PAM France"/>
+      <description value="Exemple minimal de patient conforme au profil initial IHE France PAM."/>
+      <exampleCanonical value="https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-patient|0.1.0"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Practitioner"/>
+      </extension>
+      <reference>
+        <reference value="Practitioner/example-ihe-france-pam-practitioner"/>
+      </reference>
+      <name value="Exemple practitioner PAM France"/>
+      <description value="Exemple minimal de professionnel de santé."/>
+      <exampleCanonical value="https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-practitioner|0.1.0"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="RelatedPerson"/>
+      </extension>
+      <reference>
+        <reference value="RelatedPerson/example-ihe-france-pam-related-person"/>
+      </reference>
+      <name value="Exemple proche PAM France"/>
+      <description value="Exemple minimal de personne associée au patient."/>
+      <exampleCanonical value="https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-related-person|0.1.0"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/ihe-france-pam-accident-cs"/>
+      </reference>
+      <name value="IHE France PAM Accident Code CodeSystem"/>
+      <description value="Nature de l'accident (ACC-2, table HL7 0050)."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/ihe-france-pam-accident-vs"/>
+      </reference>
+      <name value="IHE France PAM Accident Code ValueSet"/>
+      <description value="Valeurs permises pour la nature de l'accident (ACC-2)."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/ihe-france-pam-accident-date"/>
+      </reference>
+      <name value="IHE France PAM Accident Date"/>
+      <description value="Date et heure de l'accident (ACC-1), renseignées si l'entrée du patient fait suite à un accident."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/ihe-france-pam-accident-nature"/>
+      </reference>
+      <name value="IHE France PAM Accident Nature"/>
+      <description value="Nature de l'accident (ACC-2). Le segment ACC est obligatoire lorsque l'entrée du patient fait suite à un accident."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/ihe-france-pam-administrative-number"/>
+      </reference>
+      <name value="IHE France PAM Administrative Number"/>
+      <description value="Numéro de dossier administratif (PID-18), de type AN."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/ihe-france-pam-admission-type-cs"/>
+      </reference>
+      <name value="IHE France PAM Admission Type CodeSystem"/>
+      <description value="Type d'admission (PV1-4, table HL7 0007)."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/ihe-france-pam-admission-type-vs"/>
+      </reference>
+      <name value="IHE France PAM Admission Type ValueSet"/>
+      <description value="Valeurs pour : Type d'admission (PV1-4, table HL7 0007)."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/ihe-france-pam-admit-source-cs"/>
+      </reference>
+      <name value="IHE France PAM Admit Source CodeSystem"/>
+      <description value="Mode d'entrée personnalisé (PV1-14, table HL7 0023). Liste non limitative, à adapter selon les besoins du site."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/ihe-france-pam-admit-source-vs"/>
+      </reference>
+      <name value="IHE France PAM Admit Source ValueSet"/>
+      <description value="Valeurs pour : Mode d'entrée personnalisé (PV1-14, table HL7 0023). Liste non limitative, à adapter selon les besoins du site."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/ihe-france-pam-arrival-mode"/>
+      </reference>
+      <name value="IHE France PAM Arrival Mode"/>
+      <description value="Mode de transport d'entrée (PV2-38)."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/ihe-france-pam-birth-multiple-rank"/>
+      </reference>
+      <name value="IHE France PAM Birth Multiple Rank"/>
+      <description value="Rang gémellaire (PID-25), entier positif pour un patient issu d'une naissance multiple."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/ihe-france-pam-care-responsibility-unit"/>
+      </reference>
+      <name value="IHE France PAM Care Responsibility Unit"/>
+      <description value="Unité fonctionnelle responsable des soins (ZBE-8, type XON)."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/ihe-france-pam-contact-role"/>
+      </reference>
+      <name value="IHE France PAM Contact Role"/>
+      <description value="Rôle de la personne auprès du patient (NK1-7) : personne à prévenir, personne de confiance, représentant légal, personne à ne pas prévenir."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/ihe-france-pam-contact-role-cs"/>
+      </reference>
+      <name value="IHE France PAM Contact Role CodeSystem"/>
+      <description value="Rôle de la personne auprès du patient pendant le séjour (NK1-7, table HL7 0131). Liste non limitative. La personne de confiance est rattachée au séjour et transmise uniquement via ITI-31."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/ihe-france-pam-contact-role-vs"/>
+      </reference>
+      <name value="IHE France PAM Contact Role ValueSet"/>
+      <description value="Valeurs pour : Rôle de la personne auprès du patient pendant le séjour (NK1-7, table HL7 0131). Liste non limitative. La personne de confiance est rattachée au séjour et transmise uniquement via ITI-31."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/ihe-france-pam-data-protection"/>
+      </reference>
+      <name value="IHE France PAM Data Protection"/>
+      <description value="Protection des données du patient (PD1-12) : vrai si l'accès à l'information du patient est protégé, faux si l'accès est normal."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/ihe-france-pam-demographic-complement"/>
+      </reference>
+      <name value="IHE France PAM Demographic Complement"/>
+      <description value="Complément démographique (segment ZFD) : date lunaire, semaines de gestation, consentement SMS, indicateur de date de naissance corrigée, mode d'obtention et justificatif de l'identité."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/ihe-france-pam-discharge-disposition-cs"/>
+      </reference>
+      <name value="IHE France PAM Discharge Disposition CodeSystem"/>
+      <description value="Circonstance de sortie (PV1-36, table HL7 0112). Table définie par l'utilisateur."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/ihe-france-pam-discharge-disposition-vs"/>
+      </reference>
+      <name value="IHE France PAM Discharge Disposition ValueSet"/>
+      <description value="Valeurs pour : Circonstance de sortie (PV1-36, table HL7 0112). Table définie par l'utilisateur."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/ihe-france-pam-dmp-consultation-cs"/>
+      </reference>
+      <name value="IHE France PAM DMP Consultation Consent CodeSystem"/>
+      <description value="Information du patient et consentement à la consultation de Mon espace santé / DMP (ZFA-11, table IHE-FRANCE-ZFA-11)."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/ihe-france-pam-dmp-consultation-vs"/>
+      </reference>
+      <name value="IHE France PAM DMP Consultation Consent ValueSet"/>
+      <description value="Valeurs permises pour l'information et le consentement à la consultation du DMP (ZFA-11)."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/ihe-france-pam-dmp-feeding-cs"/>
+      </reference>
+      <name value="IHE France PAM DMP Feeding Information CodeSystem"/>
+      <description value="Information du patient et opposition à l'alimentation de Mon espace santé / DMP (ZFA-9, table IHE-FRANCE-ZFA-9)."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/ihe-france-pam-dmp-feeding-vs"/>
+      </reference>
+      <name value="IHE France PAM DMP Feeding Information ValueSet"/>
+      <description value="Valeurs permises pour l'information et l'opposition à l'alimentation du DMP (ZFA-9)."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/ihe-france-pam-dmp-status"/>
+      </reference>
+      <name value="IHE France PAM DMP Status"/>
+      <description value="Contexte DMP du patient (segment ZFA) : statut du DMP, information et opposition à l'alimentation, information et consentement à la consultation."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/ihe-france-pam-dmp-status-cs"/>
+      </reference>
+      <name value="IHE France PAM DMP Status CodeSystem"/>
+      <description value="Statut du DMP du patient (ZFA-1, table IHE-FRANCE-ZFA-1)."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/ihe-france-pam-dmp-status-vs"/>
+      </reference>
+      <name value="IHE France PAM DMP Status ValueSet"/>
+      <description value="Valeurs permises pour le statut du DMP (ZFA-1)."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/ihe-france-pam-emergency-passage-cs"/>
+      </reference>
+      <name value="IHE France PAM Emergency Passage CodeSystem"/>
+      <description value="Passage par une structure des urgences (ZFM-5, table IHE-FRANCE-ZFM-5)."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/ihe-france-pam-emergency-passage-vs"/>
+      </reference>
+      <name value="IHE France PAM Emergency Passage ValueSet"/>
+      <description value="Valeurs permises pour le passage par une structure des urgences (ZFM-5)."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/ihe-france-pam-encounter"/>
+      </reference>
+      <name value="IHE France PAM Encounter"/>
+      <description value="Profil encounter pour l'extension nationale IHE France PAM, dérivé des contraintes portées par les segments PV1, PV2, ACC, ZBE, ZFV et ZFM."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/ihe-france-pam-encounter-supplement"/>
+      </reference>
+      <name value="IHE France PAM Encounter Supplement"/>
+      <description value="Compléments sur la rencontre (segment ZFV) : établissement de provenance, transport de sortie, période de placement en psychiatrie, adresse de provenance ou de destination, numéros d'archive."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/ihe-france-pam-historic-movement-indicator"/>
+      </reference>
+      <name value="IHE France PAM Historic Movement Indicator"/>
+      <description value="Indicateur de mouvement historique (ZBE-5) : vrai pour un mouvement ancien de la séquence, faux pour le mouvement courant."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/ihe-france-pam-identifier-type-cs"/>
+      </reference>
+      <name value="IHE France PAM Identifier Type CodeSystem"/>
+      <description value="Types d'identifiants permis en France (CX-5, XCN-13, XON-7 ; table HL7 0203 spécialisée)."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/ihe-france-pam-identifier-type-vs"/>
+      </reference>
+      <name value="IHE France PAM Identifier Type ValueSet"/>
+      <description value="Valeurs permises pour les types d'identifiants."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/ihe-france-pam-identity-document-cs"/>
+      </reference>
+      <name value="IHE France PAM Identity Document CodeSystem"/>
+      <description value="Type de justificatif d'identité (ZFD-7, table IHE-FRANCE-ZFD-7)."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/ihe-france-pam-identity-document-vs"/>
+      </reference>
+      <name value="IHE France PAM Identity Document ValueSet"/>
+      <description value="Valeurs permises pour le type de justificatif d'identité (ZFD-7)."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/ihe-france-pam-identity-means-cs"/>
+      </reference>
+      <name value="IHE France PAM Identity Means CodeSystem"/>
+      <description value="Mode d'obtention de l'identité (ZFD-5, table IHE-FRANCE-ZFD-5)."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/ihe-france-pam-identity-means-vs"/>
+      </reference>
+      <name value="IHE France PAM Identity Means ValueSet"/>
+      <description value="Valeurs permises pour le mode d'obtention de l'identité (ZFD-5)."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/ihe-france-pam-identity-modifier-entity"/>
+      </reference>
+      <name value="IHE France PAM Identity Modifier Entity"/>
+      <description value="Entité ayant modifié l'identité du patient (PID-34), renseignée dans un contexte de groupement hospitalier de territoire où les identités sont partagées."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/ihe-france-pam-identity-status"/>
+      </reference>
+      <name value="IHE France PAM Identity Status"/>
+      <description value="Statut ou attribut de l'identité du patient (PID-32). Répétable : un statut et, le cas échéant, des attributs d'identité."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/ihe-france-pam-identity-status-cs"/>
+      </reference>
+      <name value="IHE France PAM Identity Status CodeSystem"/>
+      <description value="Statuts et attributs de l'identité du patient (PID-32, table HL7 0445 spécialisée pour la France)."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/ihe-france-pam-identity-status-vs"/>
+      </reference>
+      <name value="IHE France PAM Identity Status ValueSet"/>
+      <description value="Valeurs permises pour le statut et les attributs d'identité (PID-32)."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Basic"/>
+      </extension>
+      <reference>
+        <reference value="Basic/ihe-france-pam-iti30"/>
+      </reference>
+      <name value="IHE France PAM ITI-30 Mapping Summary"/>
+      <description value="Résumé narratif de la transaction ITI-30 et de ses cibles FHIR probables."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Basic"/>
+      </extension>
+      <reference>
+        <reference value="Basic/ihe-france-pam-iti31"/>
+      </reference>
+      <name value="IHE France PAM ITI-31 Mapping Summary"/>
+      <description value="Résumé narratif de la transaction ITI-31 et de ses cibles FHIR probables."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/ihe-france-pam-legal-care-mode-cs"/>
+      </reference>
+      <name value="IHE France PAM Legal Care Mode CodeSystem"/>
+      <description value="Mode légal de soins en psychiatrie (ZFS-6, table IHE-FRANCE-ZFS-6). Liste non limitative."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/ihe-france-pam-legal-care-mode-vs"/>
+      </reference>
+      <name value="IHE France PAM Legal Care Mode ValueSet"/>
+      <description value="Valeurs proposées pour le mode légal de soins en psychiatrie (ZFS-6)."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/ihe-france-pam-location"/>
+      </reference>
+      <name value="IHE France PAM Location"/>
+      <description value="Profil location pour la localisation du patient (type de données PL, champ PV1-3) : unité fonctionnelle d'hébergement, chambre, lit et établissement."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/ihe-france-pam-medical-responsibility-unit"/>
+      </reference>
+      <name value="IHE France PAM Medical Responsibility Unit"/>
+      <description value="Unité fonctionnelle médicalement ou médico-administrativement responsable du patient (ZBE-7, type XON)."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/ihe-france-pam-mother-birth-name"/>
+      </reference>
+      <name value="IHE France PAM Mother Birth Name"/>
+      <description value="Nom de naissance de la mère (PID-6). Ce champ ne porte pas le nom de naissance du patient."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/ihe-france-pam-movement-action"/>
+      </reference>
+      <name value="IHE France PAM Movement Action"/>
+      <description value="Action portant sur le mouvement (ZBE-4) : insertion, annulation ou correction."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/ihe-france-pam-movement-action-cs"/>
+      </reference>
+      <name value="IHE France PAM Movement Action CodeSystem"/>
+      <description value="Action portant sur un mouvement (ZBE-4) ou sur un mode légal de soins (ZFS-5)."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/ihe-france-pam-movement-action-vs"/>
+      </reference>
+      <name value="IHE France PAM Movement Action ValueSet"/>
+      <description value="Valeurs permises pour l'action sur un mouvement."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/ihe-france-pam-movement-identifier"/>
+      </reference>
+      <name value="IHE France PAM Movement Identifier"/>
+      <description value="Identifiant du mouvement (ZBE-1, type EI). Répétable dans un contexte de gestion coopérative des mouvements."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/ihe-france-pam-movement-nature"/>
+      </reference>
+      <name value="IHE France PAM Movement Nature"/>
+      <description value="Nature du mouvement (ZBE-9) : éléments ayant fait l'objet d'un changement de situation."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/ihe-france-pam-movement-nature-cs"/>
+      </reference>
+      <name value="IHE France PAM Movement Nature CodeSystem"/>
+      <description value="Nature du mouvement (ZBE-9, table IHE-FRANCE-ZBE-9)."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/ihe-france-pam-movement-nature-vs"/>
+      </reference>
+      <name value="IHE France PAM Movement Nature ValueSet"/>
+      <description value="Valeurs permises pour la nature du mouvement (ZBE-9)."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/ihe-france-pam-nationality"/>
+      </reference>
+      <name value="IHE France PAM Nationality"/>
+      <description value="Citoyenneté du patient (PID-26), code pays ISO 3166 alpha-3 par défaut. Le champ PID-28 (nationalité) est déprécié et son usage est interdit en France."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/ihe-france-pam-organization"/>
+      </reference>
+      <name value="IHE France PAM Organization"/>
+      <description value="Profil organisation pour les établissements, entités juridiques et unités fonctionnelles identifiés dans PAM France (type de données XON)."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/ihe-france-pam-origin-event-code"/>
+      </reference>
+      <name value="IHE France PAM Origin Event Code"/>
+      <description value="Événement déclencheur d'origine du mouvement (ZBE-6), renseigné pour une correction ou une annulation."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/ihe-france-pam-patient"/>
+      </reference>
+      <name value="IHE France PAM Patient"/>
+      <description value="Profil patient pour l'extension nationale IHE France PAM, dérivé des contraintes portées notamment par les segments PID, PD1, NK1 et par les types de données HL7 v2.5 français."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/ihe-france-pam-patient-class"/>
+      </reference>
+      <name value="IHE France PAM Patient Class"/>
+      <description value="Classe de patient (PV1-2) : urgences, hospitalisation, externe, séances, télésurveillance médicale ou non applicable."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/ihe-france-pam-patient-class-cs"/>
+      </reference>
+      <name value="IHE France PAM Patient Class CodeSystem"/>
+      <description value="Classe de patient (PV1-2, table HL7 0004)."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/ihe-france-pam-patient-class-vs"/>
+      </reference>
+      <name value="IHE France PAM Patient Class ValueSet"/>
+      <description value="Valeurs permises pour la classe de patient."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/ihe-france-pam-planned-end"/>
+      </reference>
+      <name value="IHE France PAM Planned End"/>
+      <description value="Date de sortie prévisionnelle (PV2-9), également portée par EVN-3 pour l'événement A16."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/ihe-france-pam-planned-start"/>
+      </reference>
+      <name value="IHE France PAM Planned Start"/>
+      <description value="Date d'entrée prévisionnelle (PV2-8)."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/ihe-france-pam-pmsi-entry-mode-cs"/>
+      </reference>
+      <name value="IHE France PAM PMSI Entry Mode CodeSystem"/>
+      <description value="Mode d'entrée PMSI (ZFM-1, table IHE-FRANCE-ZFM-1)."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/ihe-france-pam-pmsi-entry-mode-vs"/>
+      </reference>
+      <name value="IHE France PAM PMSI Entry Mode ValueSet"/>
+      <description value="Valeurs permises pour le mode d'entrée PMSI (ZFM-1)."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/ihe-france-pam-pmsi-exit-mode-cs"/>
+      </reference>
+      <name value="IHE France PAM PMSI Exit Mode CodeSystem"/>
+      <description value="Mode de sortie PMSI (ZFM-2, table IHE-FRANCE-ZFM-2)."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/ihe-france-pam-pmsi-exit-mode-vs"/>
+      </reference>
+      <name value="IHE France PAM PMSI Exit Mode ValueSet"/>
+      <description value="Valeurs permises pour le mode de sortie PMSI (ZFM-2)."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/ihe-france-pam-pmsi-movement"/>
+      </reference>
+      <name value="IHE France PAM PMSI Movement"/>
+      <description value="Mouvement PMSI (segment ZFM) : mode d'entrée, mode de sortie, provenance, destination et passage par une structure des urgences."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/ihe-france-pam-practitioner"/>
+      </reference>
+      <name value="IHE France PAM Practitioner"/>
+      <description value="Profil practitioner pour les professionnels de santé référencés dans les segments ROL et PV1 (type de données XCN)."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/ihe-france-pam-practitioner-role"/>
+      </reference>
+      <name value="IHE France PAM PractitionerRole"/>
+      <description value="Profil practitioner role pour les rôles véhiculés par le segment ROL et par les références médecins du segment PV1."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/ihe-france-pam-professional-activity-cs"/>
+      </reference>
+      <name value="IHE France PAM Professional Activity CodeSystem"/>
+      <description value="Activité socioprofessionnelle (ZFP-1, nomenclature PCS 2003 de l'INSEE)."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/ihe-france-pam-professional-activity-vs"/>
+      </reference>
+      <name value="IHE France PAM Professional Activity ValueSet"/>
+      <description value="Valeurs pour : Activité socioprofessionnelle (ZFP-1, nomenclature PCS 2003 de l'INSEE)."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/ihe-france-pam-professional-category-cs"/>
+      </reference>
+      <name value="IHE France PAM Professional Category CodeSystem"/>
+      <description value="Catégorie socioprofessionnelle (ZFP-2, nomenclature PCS 2003 de l'INSEE)."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/ihe-france-pam-professional-category-vs"/>
+      </reference>
+      <name value="IHE France PAM Professional Category ValueSet"/>
+      <description value="Valeurs pour : Catégorie socioprofessionnelle (ZFP-2, nomenclature PCS 2003 de l'INSEE)."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/ihe-france-pam-professional-situation"/>
+      </reference>
+      <name value="IHE France PAM Professional Situation"/>
+      <description value="Situation professionnelle du patient (segment ZFP) : activité et catégorie socioprofessionnelles (nomenclature PCS 2003 de l'INSEE)."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/ihe-france-pam-provider-role-cs"/>
+      </reference>
+      <name value="IHE France PAM Provider Role CodeSystem"/>
+      <description value="Rôle d'un médecin en relation avec le patient (ROL-3, table HL7 0443)."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/ihe-france-pam-provider-role-vs"/>
+      </reference>
+      <name value="IHE France PAM Provider Role ValueSet"/>
+      <description value="Valeurs permises pour le rôle d'un médecin (ROL-3)."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/ihe-france-pam-psychiatric-legal-status"/>
+      </reference>
+      <name value="IHE France PAM Psychiatric Legal Status"/>
+      <description value="Mode légal de soins en psychiatrie (segment ZFS, répétable). Un seul système doit être maître de la saisie des modes légaux de soins."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/ihe-france-pam-related-person"/>
+      </reference>
+      <name value="IHE France PAM Related Person"/>
+      <description value="Profil related person pour représenter les personnes à prévenir, personnes de confiance et personnes associées, véhiculées par le segment NK1."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/ihe-france-pam-relationship-cs"/>
+      </reference>
+      <name value="IHE France PAM Relationship CodeSystem"/>
+      <description value="Nature de la relation avec le patient (NK1-3, table HL7 0063). Liste non limitative."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/ihe-france-pam-relationship-vs"/>
+      </reference>
+      <name value="IHE France PAM Relationship ValueSet"/>
+      <description value="Valeurs pour : Nature de la relation avec le patient (NK1-3, table HL7 0063). Liste non limitative."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/ihe-france-pam-rimp-cs"/>
+      </reference>
+      <name value="IHE France PAM RIM-P Legal Care Code CodeSystem"/>
+      <description value="Code RIM-P du mode légal de soins (ZFS-7, table IHE-FRANCE-ZFS-7)."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/ihe-france-pam-rimp-vs"/>
+      </reference>
+      <name value="IHE France PAM RIM-P Legal Care Code ValueSet"/>
+      <description value="Valeurs permises pour le code RIM-P du mode légal de soins (ZFS-7)."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/ihe-france-pam-transport-care-cs"/>
+      </reference>
+      <name value="IHE France PAM Transport Care CodeSystem"/>
+      <description value="Prise en charge durant le transport (ZFV-11, table IHE-FRANCE-ZFV-11, codes RPU)."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/ihe-france-pam-transport-care-vs"/>
+      </reference>
+      <name value="IHE France PAM Transport Care ValueSet"/>
+      <description value="Valeurs permises pour la prise en charge durant le transport (ZFV-11)."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/ihe-france-pam-transport-mode-cs"/>
+      </reference>
+      <name value="IHE France PAM Transport Mode CodeSystem"/>
+      <description value="Mode de transport d'entrée (PV2-38) et de sortie (ZFV-2) (table HL7 0430)."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/ihe-france-pam-transport-mode-vs"/>
+      </reference>
+      <name value="IHE France PAM Transport Mode ValueSet"/>
+      <description value="Valeurs permises pour le mode de transport."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/ihe-france-pam-trigger-event-cs"/>
+      </reference>
+      <name value="IHE France PAM Trigger Event CodeSystem"/>
+      <description value="Événements déclencheurs HL7 v2 utilisés par les transactions ITI-30 et ITI-31 en France."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/ihe-france-pam-trigger-event-vs"/>
+      </reference>
+      <name value="IHE France PAM Trigger Event ValueSet"/>
+      <description value="Valeurs permises pour les événements déclencheurs PAM France."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/ihe-france-pam-venue-protection"/>
+      </reference>
+      <name value="IHE France PAM Venue Protection"/>
+      <description value="Protection concernant la venue (PV2-22) : vrai si l'accès aux données de la venue est protégé, faux si l'accès est normal."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <page>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
+        <valueUrl value="toc.html"/>
+      </extension>
+      <nameUrl value="toc.html"/>
+      <title value="Table of Contents"/>
+      <generation value="html"/>
+      <page>
+        <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
+          <valueUrl value="index.html"/>
+        </extension>
+        <nameUrl value="index.html"/>
+        <title value="Accueil"/>
+        <generation value="markdown"/>
+      </page>
+      <page>
+        <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
+          <valueUrl value="volume-1.html"/>
+        </extension>
+        <nameUrl value="volume-1.html"/>
+        <title value="Introduction"/>
+        <generation value="markdown"/>
+        <page>
+          <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
+            <valueUrl value="actors-transactions.html"/>
+          </extension>
+          <nameUrl value="actors-transactions.html"/>
+          <title value="Acteurs et transactions"/>
+          <generation value="markdown"/>
+        </page>
+        <page>
+          <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
+            <valueUrl value="conformite.html"/>
+          </extension>
+          <nameUrl value="conformite.html"/>
+          <title value="Conformité"/>
+          <generation value="markdown"/>
+        </page>
+      </page>
+      <page>
+        <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
+          <valueUrl value="content-modules.html"/>
+        </extension>
+        <nameUrl value="content-modules.html"/>
+        <title value="Contenus et contraintes FHIR"/>
+        <generation value="markdown"/>
+        <page>
+          <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
+            <valueUrl value="hl7v2-datatypes.html"/>
+          </extension>
+          <nameUrl value="hl7v2-datatypes.html"/>
+          <title value="Contraintes HL7 v2.5"/>
+          <generation value="markdown"/>
+        </page>
+        <page>
+          <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
+            <valueUrl value="hl7v2-to-fhir.html"/>
+          </extension>
+          <nameUrl value="hl7v2-to-fhir.html"/>
+          <title value="Mapping HL7 v2 vers FHIR"/>
+          <generation value="markdown"/>
+        </page>
+        <page>
+          <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
+            <valueUrl value="examples.html"/>
+          </extension>
+          <nameUrl value="examples.html"/>
+          <title value="Exemples"/>
+          <generation value="markdown"/>
+        </page>
+      </page>
+      <page>
+        <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
+          <valueUrl value="security.html"/>
+        </extension>
+        <nameUrl value="security.html"/>
+        <title value="Sécurité"/>
+        <generation value="markdown"/>
+      </page>
+      <page>
+        <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
+          <valueUrl value="publications.html"/>
+        </extension>
+        <nameUrl value="publications.html"/>
+        <title value="Publications antérieures"/>
+        <generation value="markdown"/>
+      </page>
+      <page>
+        <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
+          <valueUrl value="downloads.html"/>
+        </extension>
+        <nameUrl value="downloads.html"/>
+        <title value="Téléchargements et usages"/>
+        <generation value="markdown"/>
+      </page>
+      <page>
+        <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
+          <valueUrl value="translationinfo.html"/>
+        </extension>
+        <nameUrl value="translationinfo.html"/>
+        <title value="Informations sur la traduction"/>
+        <generation value="markdown"/>
+      </page>
+    </page>
+    <parameter>
+      <code value="path-resource"/>
+      <value value="input/capabilities"/>
+    </parameter>
+    <parameter>
+      <code value="path-resource"/>
+      <value value="input/examples"/>
+    </parameter>
+    <parameter>
+      <code value="path-resource"/>
+      <value value="input/extensions"/>
+    </parameter>
+    <parameter>
+      <code value="path-resource"/>
+      <value value="input/models"/>
+    </parameter>
+    <parameter>
+      <code value="path-resource"/>
+      <value value="input/operations"/>
+    </parameter>
+    <parameter>
+      <code value="path-resource"/>
+      <value value="input/profiles"/>
+    </parameter>
+    <parameter>
+      <code value="path-resource"/>
+      <value value="input/resources"/>
+    </parameter>
+    <parameter>
+      <code value="path-resource"/>
+      <value value="input/vocabulary"/>
+    </parameter>
+    <parameter>
+      <code value="path-resource"/>
+      <value value="input/maps"/>
+    </parameter>
+    <parameter>
+      <code value="path-resource"/>
+      <value value="input/testing"/>
+    </parameter>
+    <parameter>
+      <code value="path-resource"/>
+      <value value="input/history"/>
+    </parameter>
+    <parameter>
+      <code value="path-resource"/>
+      <value value="fsh-generated/resources"/>
+    </parameter>
+    <parameter>
+      <code value="path-pages"/>
+      <value value="template/config"/>
+    </parameter>
+    <parameter>
+      <code value="path-pages"/>
+      <value value="input/assets"/>
+    </parameter>
+    <parameter>
+      <code value="path-pages"/>
+      <value value="input/images"/>
+    </parameter>
+    <parameter>
+      <code value="path-tx-cache"/>
+      <value value="input-cache/txcache"/>
+    </parameter>
+  </definition>
+</ImplementationGuide>

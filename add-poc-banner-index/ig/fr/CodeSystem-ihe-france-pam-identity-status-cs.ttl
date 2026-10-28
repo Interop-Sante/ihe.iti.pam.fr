@@ -1,0 +1,168 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-identity-status-cs> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:Resource.id [ fhir:value "ihe-france-pam-identity-status-cs"] ;
+  fhir:Resource.language [ fhir:value "fr"] ;
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ] ;
+     fhir:Narrative.div "<div xml:lang=\"fr\" lang=\"fr\"><hr/><p><b>French</b></p><hr/><p class=\"res-header-id\"><b>Narratif généré : CodeSystem ihe-france-pam-identity-status-cs</b></p><a name=\"ihe-france-pam-identity-status-cs\"> </a><a name=\"hcihe-france-pam-identity-status-cs\"> </a><p>This case-sensitive code system <code>https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-identity-status-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Affichage</b></td><td><b>Définition</b></td></tr><tr><td style=\"white-space:nowrap\">VIDE<a name=\"ihe-france-pam-identity-status-cs-VIDE\"> </a></td><td>Identité non encore qualifiée</td><td>Identité dont le statut n'est pas encore renseigné.</td></tr><tr><td style=\"white-space:nowrap\">PROV<a name=\"ihe-france-pam-identity-status-cs-PROV\"> </a></td><td>Provisoire</td><td>Identité provisoire, non encore vérifiée.</td></tr><tr><td style=\"white-space:nowrap\">VALI<a name=\"ihe-france-pam-identity-status-cs-VALI\"> </a></td><td>Validé</td><td>Identité validée. Seul statut avec lequel le matricule INS peut être transporté.</td></tr><tr><td style=\"white-space:nowrap\">DOUB<a name=\"ihe-france-pam-identity-status-cs-DOUB\"> </a></td><td>Doublon ou esclave</td><td>Identité en doublon d'une autre identité.</td></tr><tr><td style=\"white-space:nowrap\">DESA<a name=\"ihe-france-pam-identity-status-cs-DESA\"> </a></td><td>Désactivé</td><td>Identité désactivée.</td></tr><tr><td style=\"white-space:nowrap\">DPOT<a name=\"ihe-france-pam-identity-status-cs-DPOT\"> </a></td><td>Doublon potentiel</td><td>Identité susceptible d'être un doublon.</td></tr><tr><td style=\"white-space:nowrap\">DOUA<a name=\"ihe-france-pam-identity-status-cs-DOUA\"> </a></td><td>Doublon avéré</td><td>Identité reconnue comme doublon.</td></tr><tr><td style=\"white-space:nowrap\">COLP<a name=\"ihe-france-pam-identity-status-cs-COLP\"> </a></td><td>Collision potentielle</td><td>Identité susceptible d'être en collision avec une autre.</td></tr><tr><td style=\"white-space:nowrap\">COLV<a name=\"ihe-france-pam-identity-status-cs-COLV\"> </a></td><td>Collision validée</td><td>Collision d'identités confirmée.</td></tr><tr><td style=\"white-space:nowrap\">FILI<a name=\"ihe-france-pam-identity-status-cs-FILI\"> </a></td><td>Filiation</td><td>Identité liée à une filiation.</td></tr><tr><td style=\"white-space:nowrap\">CACH<a name=\"ihe-france-pam-identity-status-cs-CACH\"> </a></td><td>Cachée</td><td>Identité cachée.</td></tr><tr><td style=\"white-space:nowrap\">ANOM<a name=\"ihe-france-pam-identity-status-cs-ANOM\"> </a></td><td>Anonyme</td><td>Identité anonyme.</td></tr><tr><td style=\"white-space:nowrap\">IDVER<a name=\"ihe-france-pam-identity-status-cs-IDVER\"> </a></td><td>Identité vérifiée par le patient</td><td>Identité dont l'exactitude a été vérifiée par le patient.</td></tr><tr><td style=\"white-space:nowrap\">RECD<a name=\"ihe-france-pam-identity-status-cs-RECD\"> </a></td><td>Reçue d'un autre domaine</td><td>Identité reçue d'un autre domaine d'identification.</td></tr><tr><td style=\"white-space:nowrap\">IDRA<a name=\"ihe-france-pam-identity-status-cs-IDRA\"> </a></td><td>Identité rapprochée dans un autre domaine</td><td>Identité rapprochée dans un autre domaine d'identification.</td></tr><tr><td style=\"white-space:nowrap\">USUR<a name=\"ihe-france-pam-identity-status-cs-USUR\"> </a></td><td>Usurpation</td><td>Identité usurpée.</td></tr><tr><td style=\"white-space:nowrap\">HOMD<a name=\"ihe-france-pam-identity-status-cs-HOMD\"> </a></td><td>Homonyme détecté</td><td>Homonyme détecté.</td></tr><tr><td style=\"white-space:nowrap\">HOMA<a name=\"ihe-france-pam-identity-status-cs-HOMA\"> </a></td><td>Homonyme avéré</td><td>Attribut d'identité « homonyme ».</td></tr><tr><td style=\"white-space:nowrap\">INVA<a name=\"ihe-france-pam-identity-status-cs-INVA\"> </a></td><td>Invalidation de l'identité</td><td>Identité invalidée.</td></tr><tr><td style=\"white-space:nowrap\">FICT<a name=\"ihe-france-pam-identity-status-cs-FICT\"> </a></td><td>Identité fictive</td><td>Attribut d'identité « fictive ».</td></tr><tr><td style=\"white-space:nowrap\">DOUT<a name=\"ihe-france-pam-identity-status-cs-DOUT\"> </a></td><td>Identité douteuse</td><td>Attribut d'identité « douteuse ».</td></tr></table></div>"
+  ] ;
+  fhir:CodeSystem.url [ fhir:value "https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-identity-status-cs"] ;
+  fhir:CodeSystem.version [ fhir:value "0.1.0"] ;
+  fhir:CodeSystem.name [ fhir:value "IHEFrancePamIdentityStatusCS"] ;
+  fhir:CodeSystem.title [ fhir:value "IHE France PAM Identity Status CodeSystem"] ;
+  fhir:CodeSystem.status [ fhir:value "draft"] ;
+  fhir:CodeSystem.experimental [ fhir:value "false"^^xsd:boolean] ;
+  fhir:CodeSystem.date [ fhir:value "2026-10-28T10:01:53+00:00"^^xsd:dateTime] ;
+  fhir:CodeSystem.publisher [ fhir:value "IHE France"] ;
+  fhir:CodeSystem.contact [
+     fhir:index -1 ;
+     fhir:ContactDetail.name [ fhir:value "IHE France" ] ;
+     fhir:ContactDetail.telecom [
+       fhir:index -1 ;
+       fhir:ContactPoint.system [ fhir:value "url" ] ;
+       fhir:ContactPoint.value [ fhir:value "https://www.ihe-france.org" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:ContactDetail.name [ fhir:value "IHE France" ] ;
+     fhir:ContactDetail.telecom [
+       fhir:index -1 ;
+       fhir:ContactPoint.system [ fhir:value "url" ] ;
+       fhir:ContactPoint.value [ fhir:value "https://www.ihe-france.org" ] ;
+       fhir:ContactPoint.use [ fhir:value "work" ]
+     ]
+  ] ;
+  fhir:CodeSystem.description [ fhir:value "Statuts et attributs de l'identité du patient (PID-32, table HL7 0445 spécialisée pour la France)."] ;
+  fhir:CodeSystem.jurisdiction [
+     fhir:index -1 ;
+     fhir:CodeableConcept.coding [
+       fhir:index -1 ;
+       fhir:Coding.system [ fhir:value "urn:iso:std:iso:3166" ] ;
+       fhir:Coding.code [ fhir:value "FR" ] ;
+       fhir:Coding.display [ fhir:value "France (la)" ]
+     ]
+  ] ;
+  fhir:CodeSystem.caseSensitive [ fhir:value "true"^^xsd:boolean] ;
+  fhir:CodeSystem.content [ fhir:value "complete"] ;
+  fhir:CodeSystem.count [ fhir:value "21"^^xsd:nonNegativeInteger] ;
+  fhir:CodeSystem.concept [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "VIDE" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Identité non encore qualifiée" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Identité dont le statut n'est pas encore renseigné." ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "PROV" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Provisoire" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Identité provisoire, non encore vérifiée." ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "VALI" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Validé" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Identité validée. Seul statut avec lequel le matricule INS peut être transporté." ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "DOUB" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Doublon ou esclave" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Identité en doublon d'une autre identité." ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "DESA" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Désactivé" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Identité désactivée." ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "DPOT" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Doublon potentiel" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Identité susceptible d'être un doublon." ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "DOUA" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Doublon avéré" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Identité reconnue comme doublon." ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "COLP" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Collision potentielle" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Identité susceptible d'être en collision avec une autre." ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "COLV" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Collision validée" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Collision d'identités confirmée." ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "FILI" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Filiation" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Identité liée à une filiation." ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "CACH" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Cachée" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Identité cachée." ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "ANOM" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Anonyme" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Identité anonyme." ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "IDVER" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Identité vérifiée par le patient" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Identité dont l'exactitude a été vérifiée par le patient." ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "RECD" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Reçue d'un autre domaine" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Identité reçue d'un autre domaine d'identification." ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "IDRA" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Identité rapprochée dans un autre domaine" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Identité rapprochée dans un autre domaine d'identification." ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "USUR" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Usurpation" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Identité usurpée." ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "HOMD" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Homonyme détecté" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Homonyme détecté." ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "HOMA" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Homonyme avéré" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Attribut d'identité « homonyme »." ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "INVA" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Invalidation de l'identité" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Identité invalidée." ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "FICT" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Identité fictive" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Attribut d'identité « fictive »." ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "DOUT" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Identité douteuse" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Attribut d'identité « douteuse »." ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-identity-status-cs.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

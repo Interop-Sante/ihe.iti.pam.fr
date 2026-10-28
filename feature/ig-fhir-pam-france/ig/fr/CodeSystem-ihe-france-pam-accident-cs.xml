@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="ihe-france-pam-accident-cs"/>
+  <language value="fr"/>
+  <text>
+    <status value="generated"/><div xml:lang="fr" lang="fr"><hr/><p><b>French</b></p><hr/><p class="res-header-id"><b>Narratif généré : CodeSystem ihe-france-pam-accident-cs</b></p><a name="ihe-france-pam-accident-cs"> </a><a name="hcihe-france-pam-accident-cs"> </a><p>This case-sensitive code system <code>https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-accident-cs</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Affichage</b></td><td><b>Définition</b></td></tr><tr><td style="white-space:nowrap">P<a name="ihe-france-pam-accident-cs-P"> </a></td><td>Accident voie publique</td><td>Accident de la voie publique.</td></tr><tr><td style="white-space:nowrap">T<a name="ihe-france-pam-accident-cs-T"> </a></td><td>Accident du travail</td><td>Accident du travail.</td></tr><tr><td style="white-space:nowrap">D<a name="ihe-france-pam-accident-cs-D"> </a></td><td>Accident domestique</td><td>Accident domestique.</td></tr><tr><td style="white-space:nowrap">S<a name="ihe-france-pam-accident-cs-S"> </a></td><td>Accident de sport</td><td>Accident de sport.</td></tr><tr><td style="white-space:nowrap">J<a name="ihe-france-pam-accident-cs-J"> </a></td><td>Accident de trajet</td><td>Accident de trajet.</td></tr><tr><td style="white-space:nowrap">C<a name="ihe-france-pam-accident-cs-C"> </a></td><td>Coups et blessures</td><td>Coups et blessures.</td></tr><tr><td style="white-space:nowrap">L<a name="ihe-france-pam-accident-cs-L"> </a></td><td>Accident scolaire</td><td>Accident scolaire.</td></tr><tr><td style="white-space:nowrap">B<a name="ihe-france-pam-accident-cs-B"> </a></td><td>Plan blanc</td><td>Plan blanc.</td></tr><tr><td style="white-space:nowrap">U<a name="ihe-france-pam-accident-cs-U"> </a></td><td>Nature d'accident inconnue</td><td>Nature de l'accident inconnue.</td></tr></table></div>
+  </text>
+  <url value="https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-accident-cs"/>
+  <version value="0.1.0"/>
+  <name value="IHEFrancePamAccidentCS"/>
+  <title value="IHE France PAM Accident Code CodeSystem"/>
+  <status value="draft"/>
+  <experimental value="false"/>
+  <date value="2026-10-28T10:06:53+00:00"/>
+  <publisher value="IHE France"/>
+  <contact>
+    <name value="IHE France"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.ihe-france.org"/>
+    </telecom>
+  </contact>
+  <contact>
+    <name value="IHE France"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.ihe-france.org"/>
+      <use value="work"/>
+    </telecom>
+  </contact>
+  <description value="Nature de l'accident (ACC-2, table HL7 0050)."/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="FR"/>
+      <display value="France (la)"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="9"/>
+  <concept>
+    <code value="P"/>
+    <display value="Accident voie publique"/>
+    <definition value="Accident de la voie publique."/>
+  </concept>
+  <concept>
+    <code value="T"/>
+    <display value="Accident du travail"/>
+    <definition value="Accident du travail."/>
+  </concept>
+  <concept>
+    <code value="D"/>
+    <display value="Accident domestique"/>
+    <definition value="Accident domestique."/>
+  </concept>
+  <concept>
+    <code value="S"/>
+    <display value="Accident de sport"/>
+    <definition value="Accident de sport."/>
+  </concept>
+  <concept>
+    <code value="J"/>
+    <display value="Accident de trajet"/>
+    <definition value="Accident de trajet."/>
+  </concept>
+  <concept>
+    <code value="C"/>
+    <display value="Coups et blessures"/>
+    <definition value="Coups et blessures."/>
+  </concept>
+  <concept>
+    <code value="L"/>
+    <display value="Accident scolaire"/>
+    <definition value="Accident scolaire."/>
+  </concept>
+  <concept>
+    <code value="B"/>
+    <display value="Plan blanc"/>
+    <definition value="Plan blanc."/>
+  </concept>
+  <concept>
+    <code value="U"/>
+    <display value="Nature d'accident inconnue"/>
+    <definition value="Nature de l'accident inconnue."/>
+  </concept>
+</CodeSystem>

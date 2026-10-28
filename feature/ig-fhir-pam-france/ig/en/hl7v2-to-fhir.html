@@ -1,0 +1,1098 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+
+
+
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en" dir="ltr">
+  <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
+    <title>Mapping HL7 v2 vers FHIR - IHE PAM France v0.1.0</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="http://hl7.org/fhir"/>
+
+    <link href="fhir.css" rel="stylesheet"/>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap-fhir.css" rel="stylesheet"/>
+
+    <!-- Project extras -->
+    <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
+    <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
+  	<link href="assets/css/prism.css" rel="stylesheet" />
+    <link href="assets/css/liquid.css" rel="stylesheet" />
+    <link href="assets/css/project.css" rel="stylesheet"/>
+  	<!-- Placeholder for child template CSS declarations -->
+<link href="assets/css/hl7fr.css" rel="stylesheet"/>
+<link href="assets/css/pam-overrides.css" rel="stylesheet"/>
+<script type="text/javascript" src="assets/js/pam-cleanup.js"></script>
+
+
+    <script type="text/javascript" src="fhir-table-scripts.js"> </script>
+    <script type="text/javascript" src="assets/js/direction-management.js"> </script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Favicons -->
+    <link rel="fhir-logo" sizes="144x144" href="assets/ico/icon-fhir-144.png"/>
+    <link rel="fhir-logo" sizes="114x114" href="assets/ico/icon-fhir-114.png"/>
+    <link rel="fhir-logo" sizes="72x72" href="assets/ico/icon-fhir-72.png"/>
+    <link rel="fhir-logo" href="assets/ico/icon-fhir-57.png"/>
+    <link rel="shortcut icon" href="assets/ico/favicon.png"/>
+  </head>
+  <body onload="document.body.style.opacity='1'">
+
+	  <script type="text/javascript" src="assets/js/prism.js"></script>
+	  <script type="text/javascript" src="assets/js/prism-fhirpath.js"></script>
+	  <script type="text/javascript" src="assets/js/prism-cql.js"></script>
+    <script type="text/javascript" src="assets/js/mermaid.js"></script>
+    <script type="text/javascript" src="assets/js/mermaid-init.js"></script>
+    <style type="text/css">h2{--heading-prefix:"3.2"}
+    h3,h4,h5,h6{--heading-prefix:"3.2"}</style>
+    <div id="segment-header" class="segment">  <!-- segment-header -->
+      <div class="container">  <!-- container -->
+
+        <!-- Placeholder for child template header declarations -->
+<div id="project-nav">
+  <a id="hl7-logo" data-no-external="true" href="http://interopsante.org/"><img height="50" alt="Interop'Santé Logo" src="assets/images/IS_LOGO.png"/></a>
+</div>
+
+<div id="family-nav">
+  <a id="family-logo" data-no-external="true" href="http://hl7.org/fhir"><img height="50" alt="Visit the FHIR website" src="assets/images/fhir-logo-www.png"/> </a>
+</div>
+
+        <div id="ig-status" data-fhir="generated">
+          <p><span style="font-size:12pt;font-weight:bold">IHE PAM France</span>
+            <br/>
+            <span style="display:inline-block;">0.1.0 - ci-build
+
+
+
+  <img alt="France (la) flag" src="../assets/images/fra.svg" height="16" title="France (la)"/>
+
+
+            </span>
+          </p>
+        </div>
+      </div> <!-- /container -->
+    </div>  <!-- /segment-header -->
+
+    <div id="segment-navbar" class="segment" data-fhir="generated">  <!-- segment-navbar -->
+      <div id="stripe"> </div>
+      <div class="container">  <!-- container -->
+        <!-- HEADER CONTENT -->
+
+        <nav class="navbar navbar-inverse">
+          <!--status-bar-->
+          <div class="container">
+
+            <button data-target=".navbar-inverse-collapse" class="navbar-toggle" data-toggle="collapse" type="button">
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+            </button>
+            <a class="navbar-brand hidden" href="http://hl7.org/fhir/R4/index.html">FHIR</a>
+            <div class="nav-collapse collapse navbar-inverse-collapse">
+              <!-- menu.xml  -->
+
+<ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
+  <li>
+    <a href="index.html">Accueil</a>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Vol. 1 - Étude fonctionnelle
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="volume-1.html">Introduction</a>
+      </li>
+      <li>
+        <a href="actors-transactions.html">Acteurs et transactions</a>
+      </li>
+      <li>
+        <a href="conformite.html">Conformité</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Vol. 2 - Détail des transactions
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="content-modules.html">Contenus et contraintes FHIR</a>
+      </li>
+      <li>
+        <a href="hl7v2-datatypes.html">Contraintes HL7 v2.5</a>
+      </li>
+      <li>
+        <a href="hl7v2-to-fhir.html">Mapping HL7 v2 vers FHIR</a>
+      </li>
+      <li>
+        <a href="examples.html">Exemples</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Vol. 3 - Annexes
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="security.html">Sécurité</a>
+      </li>
+      <li>
+        <a href="publications.html">Publications antérieures</a>
+      </li>
+      <li>
+        <a href="downloads.html">Téléchargements et usages</a>
+      </li>
+      <li>
+        <a href="translationinfo.html">Informations sur la traduction</a>
+      </li>
+      <li>
+        <a target="_blank" href="http://hl7.org/fhir/R4/index.html">Spécifications FHIR </a>
+      </li>
+      <li>
+        <a target="_blank" href="https://www.interopsante.org/">Site d&apos;Interop&apos;Santé </a>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <a href="artifacts.html">Ressources de conformité</a>
+  </li>
+  <li>
+    <a target="_blank" href="https://interop.esante.gouv.fr/ig/documentation/">Documentation</a>
+  </li>
+</ul>
+            </div>  <!-- /.nav-collapse -->
+
+              
+
+
+<div style="float: var(--ig-right);padding: 8px 0px;" id="language">
+  <div id="select_flg" class="flaglist" style="background-image: url(assets/images/icon_arrow_down.png);background-position: 133px 3px;">
+    <div><img class="flag" alt="flag English" src="assets/images/lang-en.png"/>English</div>
+  </div>
+  <div style="float: var(--ig-right); margin: 2px 0px; padding: 1px 0;color: var(--btn-text-color);font-size:12px">Language:</div>
+ 	<div id="flaglist" class="flaglist" style="display: none;position: absolute;right: 0;z-index: 100;background-image: url(assets/images/icon_arrow_up.png);background-position: 133px 3px;">
+    <div><img class="flag" alt="flag en" src="assets/images/lang-en.png"/>English</div>
+
+    <div><a href="../fr/hl7v2-to-fhir.html"><img class="flag" src="assets/images/lang-fr.png" alt="flag fr"/>Français</a></div>
+
+  </div>
+</div>
+
+
+          </div>  <!-- /.container -->
+        </nav>  <!-- /.navbar -->
+      <!-- /HEADER CONTENT -->
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-navbar -->
+    <!--status-bar-->
+
+    <div id="segment-breadcrumb" class="segment" data-fhir="generated">  <!-- segment-breadcrumb -->
+      <div class="container">  <!-- container -->
+        <ul class="breadcrumb">
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='content-modules.html'><b>Contenus et contraintes FHIR</b></a></li><li><b>Mapping HL7 v2 vers FHIR</b></li>
+
+          <span style="float: var(--ig-right);">
+
+            <a href="hl7v2-datatypes.html">&lt; prev</a> | 
+
+            <a href="#bottom">bottom</a>
+
+          | <a href="examples.html">next &gt;</a>
+
+          </span>
+
+        </ul>
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-breadcrumb -->
+
+    <a name="top"> </a>
+    <div id="segment-content" class="segment">  <!-- segment-content -->
+      <div class="container">  <!-- container -->
+        <div class="row">
+          <div class="inner-wrapper">
+
+<style type="text/css">
+h2:before{color:silver;counter-increment:section;content:var(--heading-prefix) " ";}
+h3:before{color:silver;counter-increment:sub-section;content:var(--heading-prefix) "." counter(sub-section) " ";}
+h4:before{color:silver;counter-increment:composite;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) " ";}
+h5:before{color:silver;counter-increment:detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) " ";}
+h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) "." counter(more-detail)" ";}
+</style>
+<div class="col-12">
+  <!--ReleaseHeader--><p id="publish-box">IHE PAM France - Local Development build (v0.1.0) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href='https://hl7.fr/ig/v2/pam/history.html'>Directory of published versions</a></p><!--EndReleaseHeader-->
+  <h2>Mapping HL7 v2 vers FHIR</h2>
+  
+
+
+
+
+<p style="border:var(--translation-box-border);background-color:var(--translation-background-color);padding: 5px 5px 5px 5px;">
+
+<p>There is no translation page available for the current page, so it has been rendered in the default language</p>
+
+
+</p>
+
+
+
+
+
+
+
+
+
+
+    <p><!-- white space is critical inside of capture --></p>
+<div class="markdown-toc">
+<ul id="markdown-toc">
+  <li><a href="#principes-retenus" id="markdown-toc-principes-retenus">Principes retenus</a></li>
+  <li><a href="#segments-et-ressources-cibles" id="markdown-toc-segments-et-ressources-cibles">Segments et ressources cibles</a></li>
+  <li><a href="#mapping-du-segment-pid" id="markdown-toc-mapping-du-segment-pid">Mapping du segment PID</a></li>
+  <li><a href="#mapping-des-segments-pv1-et-pv2" id="markdown-toc-mapping-des-segments-pv1-et-pv2">Mapping des segments PV1 et PV2</a></li>
+  <li><a href="#mapping-du-segment-nk1" id="markdown-toc-mapping-du-segment-nk1">Mapping du segment NK1</a></li>
+  <li><a href="#mapping-du-segment-rol" id="markdown-toc-mapping-du-segment-rol">Mapping du segment ROL</a></li>
+  <li><a href="#mapping-du-segment-zbe" id="markdown-toc-mapping-du-segment-zbe">Mapping du segment ZBE</a></li>
+  <li><a href="#mapping-des-segments-nationaux-z" id="markdown-toc-mapping-des-segments-nationaux-z">Mapping des segments nationaux Z*</a></li>
+  <li><a href="#correspondance-avec-fr-core" id="markdown-toc-correspondance-avec-fr-core">Correspondance avec FR Core</a></li>
+  <li><a href="#identifiants" id="markdown-toc-identifiants">Identifiants</a></li>
+  <li><a href="#extensions-nationales" id="markdown-toc-extensions-nationales">Extensions nationales</a></li>
+  <li><a href="#terminologies-locales" id="markdown-toc-terminologies-locales">Terminologies locales</a></li>
+  <li><a href="#choix-de-modélisation" id="markdown-toc-choix-de-modélisation">Choix de modélisation</a></li>
+  <li><a href="#limites-de-cette-version" id="markdown-toc-limites-de-cette-version">Limites de cette version</a></li>
+</ul>
+
+</div>
+<p>Cette page décrit la correspondance entre les segments HL7 v2.5 de l’extension française de PAM et les ressources FHIR de ce guide. Le mapping est détaillé champ à champ pour les segments les plus structurants ; les autres sont indiqués au niveau du segment.</p>
+
+<h3 id="principes-retenus">Principes retenus</h3>
+
+<ul>
+  <li>le texte normatif des documents source reste la référence</li>
+  <li>l’IG FHIR expose une projection structurée de cette matière</li>
+  <li>les profils expriment les contraintes principales, mais pas encore l’ensemble des règles du texte source</li>
+</ul>
+
+<h3 id="segments-et-ressources-cibles">Segments et ressources cibles</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Segment / notion HL7</th>
+      <th>Ressource FHIR cible</th>
+      <th>Représentation</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PID</code></td>
+      <td><code class="language-plaintext highlighter-rouge">Patient</code></td>
+      <td>profil</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PD1</code></td>
+      <td><code class="language-plaintext highlighter-rouge">Patient</code></td>
+      <td>extension <code class="language-plaintext highlighter-rouge">IHEFrancePamDataProtection</code> (<code class="language-plaintext highlighter-rouge">PD1-12</code>) ; autres champs non détaillés</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">NK1</code></td>
+      <td><code class="language-plaintext highlighter-rouge">RelatedPerson</code></td>
+      <td>profil</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PV1</code>, <code class="language-plaintext highlighter-rouge">PV2</code></td>
+      <td><code class="language-plaintext highlighter-rouge">Encounter</code></td>
+      <td>profil</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">ROL</code></td>
+      <td><code class="language-plaintext highlighter-rouge">Practitioner</code> / <code class="language-plaintext highlighter-rouge">PractitionerRole</code></td>
+      <td>profils</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">ACC</code></td>
+      <td><code class="language-plaintext highlighter-rouge">Encounter</code></td>
+      <td>extensions <code class="language-plaintext highlighter-rouge">IHEFrancePamAccidentDate</code> et <code class="language-plaintext highlighter-rouge">IHEFrancePamAccidentNature</code></td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">ZBE</code></td>
+      <td><code class="language-plaintext highlighter-rouge">Encounter</code></td>
+      <td>extensions</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">ZFA</code></td>
+      <td><code class="language-plaintext highlighter-rouge">Patient</code></td>
+      <td>extension</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">ZFD</code>, <code class="language-plaintext highlighter-rouge">ZFP</code>, <code class="language-plaintext highlighter-rouge">ZFS</code></td>
+      <td><code class="language-plaintext highlighter-rouge">Patient</code></td>
+      <td>extensions nationales</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">ZFV</code>, <code class="language-plaintext highlighter-rouge">ZFM</code></td>
+      <td><code class="language-plaintext highlighter-rouge">Encounter</code></td>
+      <td>extensions nationales</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">IN1</code>, <code class="language-plaintext highlighter-rouge">IN2</code>, <code class="language-plaintext highlighter-rouge">IN3</code>, <code class="language-plaintext highlighter-rouge">GT1</code></td>
+      <td><code class="language-plaintext highlighter-rouge">Coverage</code></td>
+      <td>non détaillé</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">OBX</code></td>
+      <td><code class="language-plaintext highlighter-rouge">Observation</code></td>
+      <td>non détaillé</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="mapping-du-segment-pid">Mapping du segment PID</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Champ HL7 v2.5</th>
+      <th>Sémantique</th>
+      <th>Cible FHIR</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PID-3</code></td>
+      <td>identifiants du patient</td>
+      <td><code class="language-plaintext highlighter-rouge">Patient.identifier</code> avec slices <code class="language-plaintext highlighter-rouge">PI</code>, <code class="language-plaintext highlighter-rouge">INS</code>, <code class="language-plaintext highlighter-rouge">INS-C</code>, <code class="language-plaintext highlighter-rouge">NH</code>, <code class="language-plaintext highlighter-rouge">NDP</code> (type porté par <code class="language-plaintext highlighter-rouge">CX-5</code>)</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PID-5</code></td>
+      <td>nom du patient</td>
+      <td><code class="language-plaintext highlighter-rouge">Patient.name</code> ; <code class="language-plaintext highlighter-rouge">XPN-7</code> = <code class="language-plaintext highlighter-rouge">L</code> (nom de naissance) donne <code class="language-plaintext highlighter-rouge">use</code> = <code class="language-plaintext highlighter-rouge">official</code>, <code class="language-plaintext highlighter-rouge">D</code> (nom d’usage) donne <code class="language-plaintext highlighter-rouge">usual</code>, <code class="language-plaintext highlighter-rouge">S</code> (pseudonyme) donne <code class="language-plaintext highlighter-rouge">anonymous</code></td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PID-6</code></td>
+      <td>nom de naissance de la mère</td>
+      <td>extension <code class="language-plaintext highlighter-rouge">IHEFrancePamMotherBirthName</code></td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PID-7</code></td>
+      <td>date de naissance (conditionnel : obligatoire si l’INS est transporté avec une identité qualifiée)</td>
+      <td><code class="language-plaintext highlighter-rouge">Patient.birthDate</code></td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PID-8</code></td>
+      <td>sexe du patient (conditionnel : obligatoire si l’INS est transporté avec une identité qualifiée)</td>
+      <td><code class="language-plaintext highlighter-rouge">Patient.gender</code> : <code class="language-plaintext highlighter-rouge">F</code> donne <code class="language-plaintext highlighter-rouge">female</code>, <code class="language-plaintext highlighter-rouge">M</code> donne <code class="language-plaintext highlighter-rouge">male</code>, <code class="language-plaintext highlighter-rouge">U</code> donne <code class="language-plaintext highlighter-rouge">unknown</code></td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PID-11</code></td>
+      <td>adresse du patient</td>
+      <td><code class="language-plaintext highlighter-rouge">Patient.address</code> ; <code class="language-plaintext highlighter-rouge">XAD-7</code> = <code class="language-plaintext highlighter-rouge">H</code> donne <code class="language-plaintext highlighter-rouge">use</code> = <code class="language-plaintext highlighter-rouge">home</code>, <code class="language-plaintext highlighter-rouge">BDL</code> désigne le lieu de naissance (<code class="language-plaintext highlighter-rouge">XAD-9</code> porte alors le code officiel géographique)</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PID-15</code></td>
+      <td>langue principale (code ISO 639-1)</td>
+      <td><code class="language-plaintext highlighter-rouge">Patient.communication.language</code></td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PID-16</code></td>
+      <td>situation de famille</td>
+      <td><code class="language-plaintext highlighter-rouge">Patient.maritalStatus</code> (valeurs <code class="language-plaintext highlighter-rouge">A</code>, <code class="language-plaintext highlighter-rouge">D</code>, <code class="language-plaintext highlighter-rouge">G</code>, <code class="language-plaintext highlighter-rouge">M</code>, <code class="language-plaintext highlighter-rouge">P</code>, <code class="language-plaintext highlighter-rouge">S</code>, <code class="language-plaintext highlighter-rouge">U</code>, <code class="language-plaintext highlighter-rouge">W</code>)</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PID-18</code></td>
+      <td>numéro de dossier administratif</td>
+      <td>extension <code class="language-plaintext highlighter-rouge">IHEFrancePamAdministrativeNumber</code> sur <code class="language-plaintext highlighter-rouge">Encounter</code></td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PID-21</code></td>
+      <td>lien mère-enfant (IPP et/ou numéro de dossier de la mère, types <code class="language-plaintext highlighter-rouge">PI</code> et <code class="language-plaintext highlighter-rouge">AN</code>)</td>
+      <td>non modélisé</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PID-23</code></td>
+      <td>lieu de naissance</td>
+      <td>non modélisé ; voir <code class="language-plaintext highlighter-rouge">XAD-7</code> = <code class="language-plaintext highlighter-rouge">BDL</code></td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PID-25</code></td>
+      <td>rang gémellaire</td>
+      <td>extension <code class="language-plaintext highlighter-rouge">IHEFrancePamBirthMultipleRank</code></td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PID-26</code></td>
+      <td>citoyenneté (code pays ISO 3166 alpha-3)</td>
+      <td>extension <code class="language-plaintext highlighter-rouge">IHEFrancePamNationality</code></td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PID-28</code></td>
+      <td>nationalité</td>
+      <td>interdit en France (déprécié, voir <code class="language-plaintext highlighter-rouge">PID-26</code>)</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PID-29</code>, <code class="language-plaintext highlighter-rouge">PID-30</code></td>
+      <td>date et indicateur de décès</td>
+      <td><code class="language-plaintext highlighter-rouge">Patient.deceased[x]</code></td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PID-32</code></td>
+      <td>statut de l’identité et attributs d’identité (répétable)</td>
+      <td>extension <code class="language-plaintext highlighter-rouge">IHEFrancePamIdentityStatus</code></td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PID-34</code></td>
+      <td>entité modificatrice de l’identité</td>
+      <td>extension <code class="language-plaintext highlighter-rouge">IHEFrancePamIdentityModifierEntity</code></td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Les champs <code class="language-plaintext highlighter-rouge">PID-10</code>, <code class="language-plaintext highlighter-rouge">PID-17</code> et <code class="language-plaintext highlighter-rouge">PID-22</code> (race, religion, groupe ethnique) et <code class="language-plaintext highlighter-rouge">PID-19</code> sont interdits en France.</p>
+
+<h3 id="mapping-des-segments-pv1-et-pv2">Mapping des segments PV1 et PV2</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Champ HL7 v2.5</th>
+      <th>Sémantique</th>
+      <th>Cible FHIR</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PV1-2</code></td>
+      <td>classe de patient</td>
+      <td>extension <code class="language-plaintext highlighter-rouge">IHEFrancePamPatientClass</code> et <code class="language-plaintext highlighter-rouge">Encounter.class</code> : <code class="language-plaintext highlighter-rouge">E</code> donne <code class="language-plaintext highlighter-rouge">EMER</code>, <code class="language-plaintext highlighter-rouge">I</code> donne <code class="language-plaintext highlighter-rouge">IMP</code>, <code class="language-plaintext highlighter-rouge">O</code> donne <code class="language-plaintext highlighter-rouge">AMB</code>, <code class="language-plaintext highlighter-rouge">V</code> donne <code class="language-plaintext highlighter-rouge">VR</code> ; <code class="language-plaintext highlighter-rouge">R</code> (séances) n’a pas de code standard</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PV1-3</code></td>
+      <td>hébergement du patient (type <code class="language-plaintext highlighter-rouge">PL</code> : UF, chambre, lit, établissement)</td>
+      <td><code class="language-plaintext highlighter-rouge">Encounter.location</code></td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PV1-4</code></td>
+      <td>type d’admission</td>
+      <td><code class="language-plaintext highlighter-rouge">Encounter.type</code></td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PV1-5</code></td>
+      <td>numéro de pré-admission</td>
+      <td><code class="language-plaintext highlighter-rouge">Encounter.hospitalization.preAdmissionIdentifier</code> (non contraint dans le profil)</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PV1-7</code></td>
+      <td>médecin responsable</td>
+      <td><code class="language-plaintext highlighter-rouge">Encounter.participant</code> (type <code class="language-plaintext highlighter-rouge">ATND</code>)</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PV1-8</code></td>
+      <td>médecin adressant</td>
+      <td><code class="language-plaintext highlighter-rouge">Encounter.participant</code> (type <code class="language-plaintext highlighter-rouge">REF</code>)</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PV1-14</code></td>
+      <td>mode d’entrée personnalisé</td>
+      <td><code class="language-plaintext highlighter-rouge">Encounter.hospitalization.admitSource</code></td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PV1-17</code></td>
+      <td>médecin ayant admis le patient</td>
+      <td><code class="language-plaintext highlighter-rouge">Encounter.participant</code> (type <code class="language-plaintext highlighter-rouge">ADM</code>)</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PV1-19</code></td>
+      <td>identifiant de venue</td>
+      <td><code class="language-plaintext highlighter-rouge">Encounter.identifier</code> slice <code class="language-plaintext highlighter-rouge">VN</code></td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PV1-36</code></td>
+      <td>circonstance de sortie</td>
+      <td><code class="language-plaintext highlighter-rouge">Encounter.hospitalization.dischargeDisposition</code></td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PV1-41</code></td>
+      <td>statut du dossier administratif</td>
+      <td>non modélisé</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PV2-8</code></td>
+      <td>date d’entrée prévisionnelle</td>
+      <td>extension <code class="language-plaintext highlighter-rouge">IHEFrancePamPlannedStart</code></td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PV2-9</code></td>
+      <td>date de sortie prévisionnelle</td>
+      <td>extension <code class="language-plaintext highlighter-rouge">IHEFrancePamPlannedEnd</code></td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PV2-22</code></td>
+      <td>protection concernant la venue (indicateur Y/N)</td>
+      <td>extension <code class="language-plaintext highlighter-rouge">IHEFrancePamVenueProtection</code></td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PV2-38</code></td>
+      <td>mode de transport d’entrée</td>
+      <td>extension <code class="language-plaintext highlighter-rouge">IHEFrancePamArrivalMode</code></td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PV2-47</code></td>
+      <td>date prévue de retour de permission</td>
+      <td>non modélisé</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Les champs <code class="language-plaintext highlighter-rouge">PV1-9</code> et <code class="language-plaintext highlighter-rouge">PV1-40</code> sont interdits en France.</p>
+
+<h3 id="mapping-du-segment-nk1">Mapping du segment NK1</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Champ HL7 v2.5</th>
+      <th>Sémantique</th>
+      <th>Cible FHIR</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">NK1</code></td>
+      <td>proche / personne associée</td>
+      <td><code class="language-plaintext highlighter-rouge">RelatedPerson</code></td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">NK1-2</code></td>
+      <td>nom</td>
+      <td><code class="language-plaintext highlighter-rouge">RelatedPerson.name</code></td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">NK1-3</code></td>
+      <td>nature de la relation</td>
+      <td><code class="language-plaintext highlighter-rouge">RelatedPerson.relationship</code></td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">NK1-4</code>, <code class="language-plaintext highlighter-rouge">NK1-5</code>, <code class="language-plaintext highlighter-rouge">NK1-6</code></td>
+      <td>adresse et téléphones</td>
+      <td><code class="language-plaintext highlighter-rouge">RelatedPerson.address</code>, <code class="language-plaintext highlighter-rouge">RelatedPerson.telecom</code></td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">NK1-7</code></td>
+      <td>rôle de la personne (personne de confiance, à prévenir…)</td>
+      <td>extension <code class="language-plaintext highlighter-rouge">IHEFrancePamContactRole</code></td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">NK1-33</code></td>
+      <td>identifiants de la personne (obligatoire, de préférence de type <code class="language-plaintext highlighter-rouge">PN</code>)</td>
+      <td><code class="language-plaintext highlighter-rouge">RelatedPerson.identifier</code></td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="mapping-du-segment-rol">Mapping du segment ROL</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Champ HL7 v2.5</th>
+      <th>Sémantique</th>
+      <th>Cible FHIR</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">ROL-3</code></td>
+      <td>nature du rôle</td>
+      <td><code class="language-plaintext highlighter-rouge">PractitionerRole.code</code></td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">ROL-4</code></td>
+      <td>personne dans le rôle (type <code class="language-plaintext highlighter-rouge">XCN</code>)</td>
+      <td><code class="language-plaintext highlighter-rouge">Practitioner</code></td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">ROL-5</code></td>
+      <td>début d’effet du rôle</td>
+      <td><code class="language-plaintext highlighter-rouge">PractitionerRole.period.start</code></td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">ROL-6</code></td>
+      <td>fin d’effet du rôle</td>
+      <td><code class="language-plaintext highlighter-rouge">PractitionerRole.period.end</code></td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Le médecin traitant (<code class="language-plaintext highlighter-rouge">ROL-3</code> = <code class="language-plaintext highlighter-rouge">ODRP</code>) peut aussi être référencé par <code class="language-plaintext highlighter-rouge">Patient.generalPractitioner</code>.</p>
+
+<p>Les professionnels référencés par <code class="language-plaintext highlighter-rouge">PV1-7</code>, <code class="language-plaintext highlighter-rouge">PV1-8</code> ou <code class="language-plaintext highlighter-rouge">ROL</code> sont représentés par les profils :</p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">IHEFrancePamPractitioner</code></li>
+  <li><code class="language-plaintext highlighter-rouge">IHEFrancePamPractitionerRole</code></li>
+</ul>
+
+<h4 id="type-xcn">Type XCN</h4>
+
+<table>
+  <thead>
+    <tr>
+      <th>Composant</th>
+      <th>Sémantique</th>
+      <th>Cible FHIR</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">XCN-1</code></td>
+      <td>identifiant de la personne</td>
+      <td><code class="language-plaintext highlighter-rouge">Practitioner.identifier.value</code></td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">XCN-13</code></td>
+      <td>type d’identifiant (<code class="language-plaintext highlighter-rouge">IDNPS</code>, <code class="language-plaintext highlighter-rouge">ADELI</code>, <code class="language-plaintext highlighter-rouge">RPPS</code>, <code class="language-plaintext highlighter-rouge">EI</code>)</td>
+      <td><code class="language-plaintext highlighter-rouge">Practitioner.identifier.type</code></td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">XCN-9</code></td>
+      <td>autorité d’affectation</td>
+      <td><code class="language-plaintext highlighter-rouge">Practitioner.identifier.system</code></td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">XCN-2</code>, <code class="language-plaintext highlighter-rouge">XCN-3</code>, <code class="language-plaintext highlighter-rouge">XCN-4</code>, <code class="language-plaintext highlighter-rouge">XCN-6</code></td>
+      <td>nom, prénoms, préfixe</td>
+      <td><code class="language-plaintext highlighter-rouge">Practitioner.name</code></td>
+    </tr>
+  </tbody>
+</table>
+
+<h4 id="type-xon">Type XON</h4>
+
+<table>
+  <thead>
+    <tr>
+      <th>Composant</th>
+      <th>Sémantique</th>
+      <th>Cible FHIR</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">XON-1</code></td>
+      <td>nom de l’organisation</td>
+      <td><code class="language-plaintext highlighter-rouge">Organization.name</code></td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">XON-6</code>, <code class="language-plaintext highlighter-rouge">XON-7</code>, <code class="language-plaintext highlighter-rouge">XON-10</code></td>
+      <td>autorité d’affectation, type et valeur de l’identifiant (<code class="language-plaintext highlighter-rouge">FINEJ</code>, <code class="language-plaintext highlighter-rouge">FINEG</code>, <code class="language-plaintext highlighter-rouge">SIREN</code>, <code class="language-plaintext highlighter-rouge">SIRET</code>, <code class="language-plaintext highlighter-rouge">UF</code>, <code class="language-plaintext highlighter-rouge">IDNST</code>, <code class="language-plaintext highlighter-rouge">SRV</code>)</td>
+      <td><code class="language-plaintext highlighter-rouge">Organization.identifier</code></td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="mapping-du-segment-zbe">Mapping du segment ZBE</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Champ HL7 v2.5</th>
+      <th>Sémantique</th>
+      <th>Cible FHIR</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">ZBE-1</code></td>
+      <td>identifiant du mouvement (type <code class="language-plaintext highlighter-rouge">EI</code>, répétable)</td>
+      <td>extension <code class="language-plaintext highlighter-rouge">IHEFrancePamMovementIdentifier</code></td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">ZBE-2</code></td>
+      <td>date et heure de création du mouvement</td>
+      <td>non modélisé</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">ZBE-3</code></td>
+      <td>borne de fin de période</td>
+      <td>interdit en France</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">ZBE-4</code></td>
+      <td>action sur le mouvement</td>
+      <td>extension <code class="language-plaintext highlighter-rouge">IHEFrancePamMovementAction</code></td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">ZBE-5</code></td>
+      <td>indicateur de mouvement historique</td>
+      <td>extension <code class="language-plaintext highlighter-rouge">IHEFrancePamHistoricMovementIndicator</code></td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">ZBE-6</code></td>
+      <td>code d’événement d’origine</td>
+      <td>extension <code class="language-plaintext highlighter-rouge">IHEFrancePamOriginEventCode</code></td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">ZBE-7</code></td>
+      <td>UF de responsabilité médicale</td>
+      <td>extension <code class="language-plaintext highlighter-rouge">IHEFrancePamMedicalResponsibilityUnit</code></td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">ZBE-8</code></td>
+      <td>UF de responsabilité des soins</td>
+      <td>extension <code class="language-plaintext highlighter-rouge">IHEFrancePamCareResponsibilityUnit</code></td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">ZBE-9</code></td>
+      <td>nature du mouvement</td>
+      <td>extension <code class="language-plaintext highlighter-rouge">IHEFrancePamMovementNature</code></td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="mapping-des-segments-nationaux-z">Mapping des segments nationaux Z*</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Segment</th>
+      <th>Sémantique</th>
+      <th>Cible FHIR</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">ZFA</code></td>
+      <td>contexte DMP du patient (statut, alimentation, consultation)</td>
+      <td>extension <code class="language-plaintext highlighter-rouge">IHEFrancePamDmpStatus</code> sur <code class="language-plaintext highlighter-rouge">Patient</code></td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">ZFD</code></td>
+      <td>complément démographique</td>
+      <td>extension <code class="language-plaintext highlighter-rouge">IHEFrancePamDemographicComplement</code> sur <code class="language-plaintext highlighter-rouge">Patient</code></td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">ZFP</code></td>
+      <td>situation professionnelle</td>
+      <td>extension <code class="language-plaintext highlighter-rouge">IHEFrancePamProfessionalSituation</code> sur <code class="language-plaintext highlighter-rouge">Patient</code></td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">ZFV</code></td>
+      <td>complément d’information sur la venue</td>
+      <td>extension <code class="language-plaintext highlighter-rouge">IHEFrancePamEncounterSupplement</code> sur <code class="language-plaintext highlighter-rouge">Encounter</code></td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">ZFM</code></td>
+      <td>mouvement PMSI</td>
+      <td>extension <code class="language-plaintext highlighter-rouge">IHEFrancePamPmsiMovement</code> sur <code class="language-plaintext highlighter-rouge">Encounter</code></td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">ZFS</code></td>
+      <td>mode légal de soins en psychiatrie</td>
+      <td>extension <code class="language-plaintext highlighter-rouge">IHEFrancePamPsychiatricLegalStatus</code> sur <code class="language-plaintext highlighter-rouge">Patient</code></td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="correspondance-avec-fr-core">Correspondance avec FR Core</h3>
+
+<p>Ce guide est un projet distinct de l’IG FR Core (version 3.0.0-ballot) et n’en dépend pas. Le tableau indique, pour les éléments qui se recoupent, l’équivalent FR Core et l’écart éventuel.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Élément PAM</th>
+      <th>Équivalent FR Core</th>
+      <th>Écart</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">Patient.identifier</code> slice <code class="language-plaintext highlighter-rouge">INS</code> (type <code class="language-plaintext highlighter-rouge">INS</code>, OID <code class="language-plaintext highlighter-rouge">1.2.250.1.213.1.4.8</code> et <code class="language-plaintext highlighter-rouge">.9</code>)</td>
+      <td>slices <code class="language-plaintext highlighter-rouge">NSS-NIR</code> et <code class="language-plaintext highlighter-rouge">NSS-NIA</code> (type <code class="language-plaintext highlighter-rouge">NH</code>, OID <code class="language-plaintext highlighter-rouge">1.2.250.1.213.1.4.13</code> et <code class="language-plaintext highlighter-rouge">.14</code>)</td>
+      <td>le code <code class="language-plaintext highlighter-rouge">NH</code> désigne l’INS dans FR Core et le NIR de facturation du bénéficiaire dans le PAM</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">Patient.identifier</code> slice <code class="language-plaintext highlighter-rouge">INS-C</code></td>
+      <td>slice <code class="language-plaintext highlighter-rouge">INS-C</code> (OID <code class="language-plaintext highlighter-rouge">1.2.250.1.213.1.4.2</code>)</td>
+      <td>aucun sur le type</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">Patient.identifier</code> slices <code class="language-plaintext highlighter-rouge">PI</code>, <code class="language-plaintext highlighter-rouge">NDP</code></td>
+      <td>slices <code class="language-plaintext highlighter-rouge">PI</code>, <code class="language-plaintext highlighter-rouge">NDP</code></td>
+      <td>FR Core discrimine par type et système ; le profil PAM par type seulement</td>
+    </tr>
+    <tr>
+      <td>types d’identifiants (<code class="language-plaintext highlighter-rouge">CodeSystem</code> local)</td>
+      <td><code class="language-plaintext highlighter-rouge">CodeSystem</code> <code class="language-plaintext highlighter-rouge">fr-core-cs-v2-0203</code></td>
+      <td>système différent pour les mêmes codes</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PID-5</code> / <code class="language-plaintext highlighter-rouge">XPN-3</code> (liste des prénoms)</td>
+      <td><code class="language-plaintext highlighter-rouge">officialName</code> et <code class="language-plaintext highlighter-rouge">usualName</code>, extension <code class="language-plaintext highlighter-rouge">birth-list-given-name</code></td>
+      <td>le profil PAM ne découpe pas <code class="language-plaintext highlighter-rouge">Patient.name</code></td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">ZFD-4</code> (date de naissance corrigée)</td>
+      <td>extension <code class="language-plaintext highlighter-rouge">birthDateUpdateIndicator</code></td>
+      <td>portée par l’extension complexe <code class="language-plaintext highlighter-rouge">IHEFrancePamDemographicComplement</code></td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PID-26</code> (citoyenneté)</td>
+      <td>extensions <code class="language-plaintext highlighter-rouge">patient-citizenship</code> et <code class="language-plaintext highlighter-rouge">patient-nationality</code></td>
+      <td>extension propre au PAM</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PID-32</code> (statut d’identité)</td>
+      <td>extension <code class="language-plaintext highlighter-rouge">identityReliability</code></td>
+      <td>extension propre au PAM (non comparée en détail)</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PV2-9</code> (sortie prévisionnelle)</td>
+      <td>extension <code class="language-plaintext highlighter-rouge">estimatedDischargeDate</code> (type <code class="language-plaintext highlighter-rouge">date</code>)</td>
+      <td><code class="language-plaintext highlighter-rouge">IHEFrancePamPlannedEnd</code> est de type <code class="language-plaintext highlighter-rouge">dateTime</code></td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PV1-5</code></td>
+      <td><code class="language-plaintext highlighter-rouge">Encounter.hospitalization.preAdmissionIdentifier</code></td>
+      <td>non contraint dans le profil PAM</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">Encounter.period</code>, <code class="language-plaintext highlighter-rouge">Encounter.location.location</code></td>
+      <td>cardinalité <code class="language-plaintext highlighter-rouge">1..1</code></td>
+      <td><code class="language-plaintext highlighter-rouge">0..1</code> et <code class="language-plaintext highlighter-rouge">0..*</code> dans le profil PAM</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PV1-3</code> (chambre, lit)</td>
+      <td><code class="language-plaintext highlighter-rouge">Location</code> avec types <code class="language-plaintext highlighter-rouge">CHAMB</code> et <code class="language-plaintext highlighter-rouge">LIT</code>, extensions <code class="language-plaintext highlighter-rouge">typeChambre</code> et <code class="language-plaintext highlighter-rouge">positionLit</code>, <code class="language-plaintext highlighter-rouge">partOf</code></td>
+      <td>le profil <code class="language-plaintext highlighter-rouge">Location</code> PAM n’a pas de <code class="language-plaintext highlighter-rouge">type</code></td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">ZBE-7</code>, <code class="language-plaintext highlighter-rouge">ZBE-8</code> (UF)</td>
+      <td>profil <code class="language-plaintext highlighter-rouge">Organization</code> UF</td>
+      <td>extensions à valeur <code class="language-plaintext highlighter-rouge">Identifier</code> dans le PAM</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">NK1-3</code> et <code class="language-plaintext highlighter-rouge">NK1-7</code></td>
+      <td><code class="language-plaintext highlighter-rouge">RelatedPerson.relationship</code> découpé en deux slices (lien de parenté, rôle)</td>
+      <td><code class="language-plaintext highlighter-rouge">NK1-3</code> dans <code class="language-plaintext highlighter-rouge">relationship</code> et <code class="language-plaintext highlighter-rouge">NK1-7</code> dans une extension</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">XCN</code> (<code class="language-plaintext highlighter-rouge">IDNPS</code>, <code class="language-plaintext highlighter-rouge">RPPS</code>)</td>
+      <td>slices <code class="language-plaintext highlighter-rouge">idNatPs</code> (<code class="language-plaintext highlighter-rouge">urn:oid:1.2.250.1.71.4.2.1</code>) et <code class="language-plaintext highlighter-rouge">rpps</code> (<code class="language-plaintext highlighter-rouge">https://rpps.esante.gouv.fr</code>) ; pas de slice <code class="language-plaintext highlighter-rouge">ADELI</code></td>
+      <td>le PAM utilise l’OID <code class="language-plaintext highlighter-rouge">1.2.250.1.71.4.2.1</code> pour <code class="language-plaintext highlighter-rouge">IDNPS</code>, <code class="language-plaintext highlighter-rouge">ADELI</code> et <code class="language-plaintext highlighter-rouge">RPPS</code></td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">ROL-3</code></td>
+      <td><code class="language-plaintext highlighter-rouge">PractitionerRole.code</code> lié à la situation d’exercice</td>
+      <td><code class="language-plaintext highlighter-rouge">ROL-3</code> décrit un rôle dans la venue, pas une situation d’exercice</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">XON</code> (<code class="language-plaintext highlighter-rouge">FINEJ</code>, <code class="language-plaintext highlighter-rouge">FINEG</code>, <code class="language-plaintext highlighter-rouge">UF</code>)</td>
+      <td>profils <code class="language-plaintext highlighter-rouge">Organization</code> Établissement et UF</td>
+      <td>un seul profil <code class="language-plaintext highlighter-rouge">Organization</code> dans le PAM</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="identifiants">Identifiants</h3>
+
+<h4 id="patient">Patient</h4>
+
+<p>Le profil <a href="StructureDefinition-ihe-france-pam-patient.html">IHEFrancePamPatient</a> pose des slices d’identifiant pour :</p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">PI</code> pour l’IPP</li>
+  <li><code class="language-plaintext highlighter-rouge">INS</code> pour l’identifiant national de santé (INS-NIR ou INS-NIA)</li>
+  <li><code class="language-plaintext highlighter-rouge">INS-C</code> pour l’identifiant national de santé calculé</li>
+  <li><code class="language-plaintext highlighter-rouge">NH</code> pour le NIR du bénéficiaire, distinct de l’INS-NIR</li>
+  <li><code class="language-plaintext highlighter-rouge">NDP</code> pour l’identifiant au dossier pharmaceutique</li>
+</ul>
+
+<h4 id="encounter">Encounter</h4>
+
+<p>Le profil <a href="StructureDefinition-ihe-france-pam-encounter.html">IHEFrancePamEncounter</a> pose :</p>
+
+<ul>
+  <li>un slice <code class="language-plaintext highlighter-rouge">VN</code> pour l’identifiant de venue</li>
+  <li>une extension d’identifiant de dossier administratif issue de <code class="language-plaintext highlighter-rouge">PID-18</code></li>
+  <li>une extension d’identifiant de mouvement issue de <code class="language-plaintext highlighter-rouge">ZBE-1</code></li>
+</ul>
+
+<h3 id="extensions-nationales">Extensions nationales</h3>
+
+<p>Les extensions nationales publiées sont :</p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">IHEFrancePamIdentityStatus</code></li>
+  <li><code class="language-plaintext highlighter-rouge">IHEFrancePamDmpStatus</code></li>
+  <li><code class="language-plaintext highlighter-rouge">IHEFrancePamAdministrativeNumber</code></li>
+  <li><code class="language-plaintext highlighter-rouge">IHEFrancePamMedicalResponsibilityUnit</code></li>
+  <li><code class="language-plaintext highlighter-rouge">IHEFrancePamCareResponsibilityUnit</code></li>
+  <li><code class="language-plaintext highlighter-rouge">IHEFrancePamIdentityModifierEntity</code></li>
+  <li><code class="language-plaintext highlighter-rouge">IHEFrancePamMotherBirthName</code></li>
+  <li><code class="language-plaintext highlighter-rouge">IHEFrancePamBirthMultipleRank</code></li>
+  <li><code class="language-plaintext highlighter-rouge">IHEFrancePamNationality</code></li>
+  <li><code class="language-plaintext highlighter-rouge">IHEFrancePamProfessionalSituation</code></li>
+  <li><code class="language-plaintext highlighter-rouge">IHEFrancePamPsychiatricLegalStatus</code></li>
+  <li><code class="language-plaintext highlighter-rouge">IHEFrancePamDemographicComplement</code></li>
+  <li><code class="language-plaintext highlighter-rouge">IHEFrancePamDataProtection</code></li>
+  <li><code class="language-plaintext highlighter-rouge">IHEFrancePamPatientClass</code></li>
+  <li><code class="language-plaintext highlighter-rouge">IHEFrancePamMovementIdentifier</code></li>
+  <li><code class="language-plaintext highlighter-rouge">IHEFrancePamMovementAction</code></li>
+  <li><code class="language-plaintext highlighter-rouge">IHEFrancePamHistoricMovementIndicator</code></li>
+  <li><code class="language-plaintext highlighter-rouge">IHEFrancePamOriginEventCode</code></li>
+  <li><code class="language-plaintext highlighter-rouge">IHEFrancePamMovementNature</code></li>
+  <li><code class="language-plaintext highlighter-rouge">IHEFrancePamPlannedStart</code></li>
+  <li><code class="language-plaintext highlighter-rouge">IHEFrancePamPlannedEnd</code></li>
+  <li><code class="language-plaintext highlighter-rouge">IHEFrancePamArrivalMode</code></li>
+  <li><code class="language-plaintext highlighter-rouge">IHEFrancePamVenueProtection</code></li>
+  <li><code class="language-plaintext highlighter-rouge">IHEFrancePamEncounterSupplement</code></li>
+  <li><code class="language-plaintext highlighter-rouge">IHEFrancePamPmsiMovement</code></li>
+  <li><code class="language-plaintext highlighter-rouge">IHEFrancePamAccidentDate</code></li>
+  <li><code class="language-plaintext highlighter-rouge">IHEFrancePamAccidentNature</code></li>
+</ul>
+
+<p>Elles représentent les concepts français présents dans les documents source. Les segments <code class="language-plaintext highlighter-rouge">ZFA</code>, <code class="language-plaintext highlighter-rouge">ZFD</code>, <code class="language-plaintext highlighter-rouge">ZFM</code>, <code class="language-plaintext highlighter-rouge">ZFS</code> et <code class="language-plaintext highlighter-rouge">ZFV</code> sont des extensions complexes, avec une sous-extension par champ.</p>
+
+<h3 id="terminologies-locales">Terminologies locales</h3>
+
+<p>Les terminologies locales suivantes évitent de laisser les extensions principales en code libre :</p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">IHEFrancePamIdentityStatus</code> : statut et attributs d’identité (<code class="language-plaintext highlighter-rouge">PID-32</code>)</li>
+  <li><code class="language-plaintext highlighter-rouge">IHEFrancePamDmpStatus</code>, <code class="language-plaintext highlighter-rouge">IHEFrancePamDmpFeeding</code> et <code class="language-plaintext highlighter-rouge">IHEFrancePamDmpConsultation</code> : contexte DMP (<code class="language-plaintext highlighter-rouge">ZFA-1</code>, <code class="language-plaintext highlighter-rouge">ZFA-9</code>, <code class="language-plaintext highlighter-rouge">ZFA-11</code>)</li>
+  <li><code class="language-plaintext highlighter-rouge">IHEFrancePamMovementAction</code> et <code class="language-plaintext highlighter-rouge">IHEFrancePamMovementNature</code> : action et nature d’un mouvement (<code class="language-plaintext highlighter-rouge">ZBE-4</code>, <code class="language-plaintext highlighter-rouge">ZBE-9</code>)</li>
+  <li><code class="language-plaintext highlighter-rouge">IHEFrancePamTriggerEvent</code> : événements déclencheurs</li>
+  <li><code class="language-plaintext highlighter-rouge">IHEFrancePamIdentifierType</code> : types d’identifiants (<code class="language-plaintext highlighter-rouge">CX-5</code>, <code class="language-plaintext highlighter-rouge">XCN-13</code>, <code class="language-plaintext highlighter-rouge">XON-7</code>)</li>
+  <li><code class="language-plaintext highlighter-rouge">IHEFrancePamPatientClass</code> : classe de patient (<code class="language-plaintext highlighter-rouge">PV1-2</code>)</li>
+  <li><code class="language-plaintext highlighter-rouge">IHEFrancePamIdentityMeans</code> et <code class="language-plaintext highlighter-rouge">IHEFrancePamIdentityDocument</code> : mode d’obtention et justificatif d’identité (<code class="language-plaintext highlighter-rouge">ZFD-5</code>, <code class="language-plaintext highlighter-rouge">ZFD-7</code>)</li>
+  <li><code class="language-plaintext highlighter-rouge">IHEFrancePamLegalCareMode</code> et <code class="language-plaintext highlighter-rouge">IHEFrancePamRimp</code> : mode légal de soins et code RIM-P (<code class="language-plaintext highlighter-rouge">ZFS-6</code>, <code class="language-plaintext highlighter-rouge">ZFS-7</code>)</li>
+  <li><code class="language-plaintext highlighter-rouge">IHEFrancePamTransportMode</code> et <code class="language-plaintext highlighter-rouge">IHEFrancePamTransportCare</code> : transport et prise en charge (<code class="language-plaintext highlighter-rouge">PV2-38</code>, <code class="language-plaintext highlighter-rouge">ZFV-2</code>, <code class="language-plaintext highlighter-rouge">ZFV-11</code>)</li>
+  <li><code class="language-plaintext highlighter-rouge">IHEFrancePamPmsiEntryMode</code>, <code class="language-plaintext highlighter-rouge">IHEFrancePamPmsiExitMode</code> et <code class="language-plaintext highlighter-rouge">IHEFrancePamEmergencyPassage</code> : modes PMSI (<code class="language-plaintext highlighter-rouge">ZFM-1</code>, <code class="language-plaintext highlighter-rouge">ZFM-2</code>, <code class="language-plaintext highlighter-rouge">ZFM-5</code>)</li>
+  <li><code class="language-plaintext highlighter-rouge">IHEFrancePamAccident</code> : nature de l’accident (<code class="language-plaintext highlighter-rouge">ACC-2</code>)</li>
+  <li><code class="language-plaintext highlighter-rouge">IHEFrancePamProviderRole</code> : rôle d’un médecin (<code class="language-plaintext highlighter-rouge">ROL-3</code>)</li>
+  <li><code class="language-plaintext highlighter-rouge">IHEFrancePamAdmissionType</code>, <code class="language-plaintext highlighter-rouge">IHEFrancePamAdmitSource</code> et <code class="language-plaintext highlighter-rouge">IHEFrancePamDischargeDisposition</code> : type d’admission, mode d’entrée et circonstance de sortie (<code class="language-plaintext highlighter-rouge">PV1-4</code>, <code class="language-plaintext highlighter-rouge">PV1-14</code>, <code class="language-plaintext highlighter-rouge">PV1-36</code>)</li>
+  <li><code class="language-plaintext highlighter-rouge">IHEFrancePamRelationship</code> et <code class="language-plaintext highlighter-rouge">IHEFrancePamContactRole</code> : relation et rôle d’une personne associée (<code class="language-plaintext highlighter-rouge">NK1-3</code>, <code class="language-plaintext highlighter-rouge">NK1-7</code>)</li>
+  <li><code class="language-plaintext highlighter-rouge">IHEFrancePamProfessionalActivity</code> et <code class="language-plaintext highlighter-rouge">IHEFrancePamProfessionalCategory</code> : activité et catégorie socioprofessionnelles (<code class="language-plaintext highlighter-rouge">ZFP-1</code>, <code class="language-plaintext highlighter-rouge">ZFP-2</code>)</li>
+</ul>
+
+<p>Chaque terminologie est publiée sous la forme d’un <code class="language-plaintext highlighter-rouge">CodeSystem</code> (suffixe <code class="language-plaintext highlighter-rouge">CS</code>) et d’un <code class="language-plaintext highlighter-rouge">ValueSet</code> (suffixe <code class="language-plaintext highlighter-rouge">VS</code>).</p>
+
+<h3 id="choix-de-modélisation">Choix de modélisation</h3>
+
+<p>Les choix suivants sont retenus :</p>
+
+<ul>
+  <li>la <code class="language-plaintext highlighter-rouge">venue</code> est portée par <code class="language-plaintext highlighter-rouge">Encounter</code></li>
+  <li>le <code class="language-plaintext highlighter-rouge">dossier administratif</code> est matérialisé comme un identifiant porté en extension sur <code class="language-plaintext highlighter-rouge">Encounter</code></li>
+  <li>les responsabilités d’UF médicale et de soins sont modélisées en extensions</li>
+  <li>les personnes associées décrites par <code class="language-plaintext highlighter-rouge">NK1</code> sont représentées par <code class="language-plaintext highlighter-rouge">RelatedPerson</code></li>
+  <li>les professionnels et rôles médicaux sont projetés sur <code class="language-plaintext highlighter-rouge">Practitioner</code> et <code class="language-plaintext highlighter-rouge">PractitionerRole</code></li>
+  <li>les informations <code class="language-plaintext highlighter-rouge">Z*</code> sont modélisées comme extensions nationales ciblées</li>
+</ul>
+
+<h3 id="limites-de-cette-version">Limites de cette version</h3>
+
+<ul>
+  <li>le mapping champ à champ n’est pas détaillé pour tous les segments (<code class="language-plaintext highlighter-rouge">PD1</code>, <code class="language-plaintext highlighter-rouge">ROL</code>, <code class="language-plaintext highlighter-rouge">ACC</code> en particulier)</li>
+  <li>les règles de dépendance entre champs (par exemple <code class="language-plaintext highlighter-rouge">ZBE-6</code> requis avec les actions <code class="language-plaintext highlighter-rouge">UPDATE</code> et <code class="language-plaintext highlighter-rouge">CANCEL</code>) ne sont pas exprimées par des invariants</li>
+  <li>les tables de grande taille ou issues de nomenclatures externes (<code class="language-plaintext highlighter-rouge">ZFM-3</code>, <code class="language-plaintext highlighter-rouge">ZFM-4</code>, <code class="language-plaintext highlighter-rouge">PV1-10</code> disciplines médico-tarifaires, <code class="language-plaintext highlighter-rouge">PV1-21</code> types d’activité) ne sont pas encore publiées comme ValueSets</li>
+  <li>les scénarios d’exemple <code class="language-plaintext highlighter-rouge">ITI-30</code> et <code class="language-plaintext highlighter-rouge">ITI-31</code> complets (messages) ne sont pas encore publiés : voir <a href="examples.html">exemples</a></li>
+</ul>
+
+
+
+
+</div>
+        </div>  <!-- /inner-wrapper -->
+      </div>  <!-- /row -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-content -->
+
+  <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
+  <script type="text/javascript" src="assets/js/flags.js"> </script>
+
+  <script type="text/javascript" src="assets/js/window-hash.js"> </script>
+  <script type="text/javascript" src="assets/js/togglechanges.js"> </script>
+  <script type="text/javascript" src="assets/js/requirements-table.js"> </script>
+  <a name="bottom"> </a>
+  <div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
+    <div class="container" data-fhir="generated">  <!-- container -->
+
+      <div style="background-color:var(--footer-nav-bg-color)">
+        <table style="width:100%">
+          <tbody>
+            <tr>
+              <td style="text-align:var(--ig-left);">&#xA0;
+
+                <a href="hl7v2-datatypes.html">&lt; prev</a>
+
+              </td>
+              <td style="text-align:center">
+                <a href="#top">top</a>
+              </td>
+              <td style="text-align:var(--ig-right);">&#xA0;
+
+                <a href="examples.html">next ></a>
+
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="inner-wrapper">
+        <p>
+
+
+
+          IG © 2026+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.ihe-france.org">IHE France</a>.  
+          Package ihe.fr.pam#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>.
+          Generated 
+  <span title="2026-10-28 10:06:00 +0000">
+    2026-10-28
+  </span>
+
+          <br/>
+          <span style="color: var(--footer-highlight-text-color)">
+                      Liens: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table des matières </a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" href="../qa.html">QA </a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" target="_blank" href="https://hl7.fr/ig/v2/pam/history.html">Historique des versions </a>
+                  | <a style="color: var(--footer-hyperlink-text-color)" target="_blank" href="https://github.com/Interop-Sante/ihe.iti.pam.fr/issues/new">New Issue</a>
+
+
+          </span>
+        </p>
+      </div>  <!-- /inner-wrapper -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-footer -->
+  
+  <div id="segment-post-footer" class="segment hidden">  <!-- segment-post-footer -->
+    <div class="container">  <!-- container -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-post-footer -->
+
+  <!-- JS and analytics only. -->
+  <!-- Bootstrap core JavaScript
+  ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"> </script>
+  <script type="text/javascript" src="assets/js/respond.min.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard-btn.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor-hover.js"> </script>
+  <!-- Analytics Below
+  ================================================== -->
+  </body>
+</html>
+

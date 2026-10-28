@@ -1,0 +1,103 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-admit-source-cs> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:Resource.id [ fhir:value "ihe-france-pam-admit-source-cs"] ;
+  fhir:Resource.language [ fhir:value "fr"] ;
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ] ;
+     fhir:Narrative.div "<div xml:lang=\"fr\" lang=\"fr\"><hr/><p><b>French</b></p><hr/><p class=\"res-header-id\"><b>Narratif généré : CodeSystem ihe-france-pam-admit-source-cs</b></p><a name=\"ihe-france-pam-admit-source-cs\"> </a><a name=\"hcihe-france-pam-admit-source-cs\"> </a><p>This case-sensitive code system <code>https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-admit-source-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Affichage</b></td><td><b>Définition</b></td></tr><tr><td style=\"white-space:nowrap\">1<a name=\"ihe-france-pam-admit-source-cs-1\"> </a></td><td>Envoyé par un médecin extérieur</td><td>Envoyé par un médecin extérieur.</td></tr><tr><td style=\"white-space:nowrap\">3<a name=\"ihe-france-pam-admit-source-cs-3\"> </a></td><td>Convocation à l'hôpital</td><td>Convocation à l'hôpital.</td></tr><tr><td style=\"white-space:nowrap\">4<a name=\"ihe-france-pam-admit-source-cs-4\"> </a></td><td>Transfert depuis un autre centre hospitalier</td><td>Transfert depuis un autre centre hospitalier.</td></tr><tr><td style=\"white-space:nowrap\">6<a name=\"ihe-france-pam-admit-source-cs-6\"> </a></td><td>Entrée par transfert interne</td><td>Entrée par transfert interne.</td></tr><tr><td style=\"white-space:nowrap\">7<a name=\"ihe-france-pam-admit-source-cs-7\"> </a></td><td>Entrée en urgence</td><td>Entrée en urgence : la venue présente a priori un caractère d'urgence, ce qui n'est pas déductible du fait que le patient arrive par une UF d'urgence.</td></tr><tr><td style=\"white-space:nowrap\">8<a name=\"ihe-france-pam-admit-source-cs-8\"> </a></td><td>Entrée sous contrainte des forces de l'ordre</td><td>Entrée sous contrainte des forces de l'ordre.</td></tr><tr><td style=\"white-space:nowrap\">90<a name=\"ihe-france-pam-admit-source-cs-90\"> </a></td><td>Séjour programmé</td><td>Séjour programmé.</td></tr><tr><td style=\"white-space:nowrap\">91<a name=\"ihe-france-pam-admit-source-cs-91\"> </a></td><td>Décision personnelle</td><td>Décision personnelle.</td></tr></table></div>"
+  ] ;
+  fhir:CodeSystem.url [ fhir:value "https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-admit-source-cs"] ;
+  fhir:CodeSystem.version [ fhir:value "0.1.0"] ;
+  fhir:CodeSystem.name [ fhir:value "IHEFrancePamAdmitSourceCS"] ;
+  fhir:CodeSystem.title [ fhir:value "IHE France PAM Admit Source CodeSystem"] ;
+  fhir:CodeSystem.status [ fhir:value "draft"] ;
+  fhir:CodeSystem.experimental [ fhir:value "false"^^xsd:boolean] ;
+  fhir:CodeSystem.date [ fhir:value "2026-10-28T10:01:53+00:00"^^xsd:dateTime] ;
+  fhir:CodeSystem.publisher [ fhir:value "IHE France"] ;
+  fhir:CodeSystem.contact [
+     fhir:index -1 ;
+     fhir:ContactDetail.name [ fhir:value "IHE France" ] ;
+     fhir:ContactDetail.telecom [
+       fhir:index -1 ;
+       fhir:ContactPoint.system [ fhir:value "url" ] ;
+       fhir:ContactPoint.value [ fhir:value "https://www.ihe-france.org" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:ContactDetail.name [ fhir:value "IHE France" ] ;
+     fhir:ContactDetail.telecom [
+       fhir:index -1 ;
+       fhir:ContactPoint.system [ fhir:value "url" ] ;
+       fhir:ContactPoint.value [ fhir:value "https://www.ihe-france.org" ] ;
+       fhir:ContactPoint.use [ fhir:value "work" ]
+     ]
+  ] ;
+  fhir:CodeSystem.description [ fhir:value "Mode d'entrée personnalisé (PV1-14, table HL7 0023). Liste non limitative, à adapter selon les besoins du site."] ;
+  fhir:CodeSystem.jurisdiction [
+     fhir:index -1 ;
+     fhir:CodeableConcept.coding [
+       fhir:index -1 ;
+       fhir:Coding.system [ fhir:value "urn:iso:std:iso:3166" ] ;
+       fhir:Coding.code [ fhir:value "FR" ] ;
+       fhir:Coding.display [ fhir:value "France (la)" ]
+     ]
+  ] ;
+  fhir:CodeSystem.caseSensitive [ fhir:value "true"^^xsd:boolean] ;
+  fhir:CodeSystem.content [ fhir:value "complete"] ;
+  fhir:CodeSystem.count [ fhir:value "8"^^xsd:nonNegativeInteger] ;
+  fhir:CodeSystem.concept [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "1" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Envoyé par un médecin extérieur" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Envoyé par un médecin extérieur." ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "3" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Convocation à l'hôpital" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Convocation à l'hôpital." ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "4" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Transfert depuis un autre centre hospitalier" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Transfert depuis un autre centre hospitalier." ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "6" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Entrée par transfert interne" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Entrée par transfert interne." ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "7" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Entrée en urgence" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Entrée en urgence : la venue présente a priori un caractère d'urgence, ce qui n'est pas déductible du fait que le patient arrive par une UF d'urgence." ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "8" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Entrée sous contrainte des forces de l'ordre" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Entrée sous contrainte des forces de l'ordre." ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "90" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Séjour programmé" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Séjour programmé." ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "91" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Décision personnelle" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Décision personnelle." ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-admit-source-cs.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

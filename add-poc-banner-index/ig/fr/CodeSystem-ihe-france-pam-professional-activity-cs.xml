@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="ihe-france-pam-professional-activity-cs"/>
+  <language value="fr"/>
+  <text>
+    <status value="generated"/><div xml:lang="fr" lang="fr"><hr/><p><b>French</b></p><hr/><p class="res-header-id"><b>Narratif généré : CodeSystem ihe-france-pam-professional-activity-cs</b></p><a name="ihe-france-pam-professional-activity-cs"> </a><a name="hcihe-france-pam-professional-activity-cs"> </a><p>This case-sensitive code system <code>https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-professional-activity-cs</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Affichage</b></td><td><b>Définition</b></td></tr><tr><td style="white-space:nowrap">1<a name="ihe-france-pam-professional-activity-cs-1"> </a></td><td>Agriculteurs exploitants</td><td>Agriculteurs exploitants.</td></tr><tr><td style="white-space:nowrap">2<a name="ihe-france-pam-professional-activity-cs-2"> </a></td><td>Artisans, commerçants et chefs d'entreprise</td><td>Artisans, commerçants et chefs d'entreprise.</td></tr><tr><td style="white-space:nowrap">3<a name="ihe-france-pam-professional-activity-cs-3"> </a></td><td>Cadres et professions intellectuelles supérieures</td><td>Cadres et professions intellectuelles supérieures.</td></tr><tr><td style="white-space:nowrap">4<a name="ihe-france-pam-professional-activity-cs-4"> </a></td><td>Professions intermédiaires</td><td>Professions intermédiaires.</td></tr><tr><td style="white-space:nowrap">5<a name="ihe-france-pam-professional-activity-cs-5"> </a></td><td>Employés</td><td>Employés.</td></tr><tr><td style="white-space:nowrap">6<a name="ihe-france-pam-professional-activity-cs-6"> </a></td><td>Ouvriers</td><td>Ouvriers.</td></tr><tr><td style="white-space:nowrap">7<a name="ihe-france-pam-professional-activity-cs-7"> </a></td><td>Retraités</td><td>Retraités.</td></tr><tr><td style="white-space:nowrap">8<a name="ihe-france-pam-professional-activity-cs-8"> </a></td><td>Autres personnes sans activité professionnelle</td><td>Autres personnes sans activité professionnelle.</td></tr></table></div>
+  </text>
+  <url value="https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-professional-activity-cs"/>
+  <version value="0.1.0"/>
+  <name value="IHEFrancePamProfessionalActivityCS"/>
+  <title value="IHE France PAM Professional Activity CodeSystem"/>
+  <status value="draft"/>
+  <experimental value="false"/>
+  <date value="2026-10-28T10:01:53+00:00"/>
+  <publisher value="IHE France"/>
+  <contact>
+    <name value="IHE France"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.ihe-france.org"/>
+    </telecom>
+  </contact>
+  <contact>
+    <name value="IHE France"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.ihe-france.org"/>
+      <use value="work"/>
+    </telecom>
+  </contact>
+  <description value="Activité socioprofessionnelle (ZFP-1, nomenclature PCS 2003 de l'INSEE)."/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="FR"/>
+      <display value="France (la)"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="8"/>
+  <concept>
+    <code value="1"/>
+    <display value="Agriculteurs exploitants"/>
+    <definition value="Agriculteurs exploitants."/>
+  </concept>
+  <concept>
+    <code value="2"/>
+    <display value="Artisans, commerçants et chefs d'entreprise"/>
+    <definition value="Artisans, commerçants et chefs d'entreprise."/>
+  </concept>
+  <concept>
+    <code value="3"/>
+    <display value="Cadres et professions intellectuelles supérieures"/>
+    <definition value="Cadres et professions intellectuelles supérieures."/>
+  </concept>
+  <concept>
+    <code value="4"/>
+    <display value="Professions intermédiaires"/>
+    <definition value="Professions intermédiaires."/>
+  </concept>
+  <concept>
+    <code value="5"/>
+    <display value="Employés"/>
+    <definition value="Employés."/>
+  </concept>
+  <concept>
+    <code value="6"/>
+    <display value="Ouvriers"/>
+    <definition value="Ouvriers."/>
+  </concept>
+  <concept>
+    <code value="7"/>
+    <display value="Retraités"/>
+    <definition value="Retraités."/>
+  </concept>
+  <concept>
+    <code value="8"/>
+    <display value="Autres personnes sans activité professionnelle"/>
+    <definition value="Autres personnes sans activité professionnelle."/>
+  </concept>
+</CodeSystem>

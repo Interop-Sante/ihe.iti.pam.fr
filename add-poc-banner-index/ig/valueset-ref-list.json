@@ -1,0 +1,329 @@
+{
+  "codeSystems" : [{
+    "url" : "https://hl7.fr/ig/v2/pam/ValueSet/ihe-france-pam-accident-vs",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "IHEFrancePamAccidentVS",
+    "title" : "IHE France PAM Accident Code ValueSet",
+    "description" : "Valeurs permises pour la nature de l'accident (ACC-2).",
+    "systems" : ["https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-accident-cs"],
+    "uses" : {
+    },
+    "StructureDefinition-ihe-france-pam-accident-nature.html" : "IHE France PAM Accident Nature"
+  },
+  {
+    "url" : "https://hl7.fr/ig/v2/pam/ValueSet/ihe-france-pam-admission-type-vs",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "IHEFrancePamAdmissionTypeVS",
+    "title" : "IHE France PAM Admission Type ValueSet",
+    "description" : "Valeurs pour : Type d'admission (PV1-4, table HL7 0007).",
+    "systems" : ["https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-admission-type-cs"],
+    "uses" : {
+    },
+    "StructureDefinition-ihe-france-pam-encounter.html" : "IHE France PAM Encounter"
+  },
+  {
+    "url" : "https://hl7.fr/ig/v2/pam/ValueSet/ihe-france-pam-admit-source-vs",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "IHEFrancePamAdmitSourceVS",
+    "title" : "IHE France PAM Admit Source ValueSet",
+    "description" : "Valeurs pour : Mode d'entrée personnalisé (PV1-14, table HL7 0023). Liste non limitative, à adapter selon les besoins du site.",
+    "systems" : ["https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-admit-source-cs"],
+    "uses" : {
+    },
+    "StructureDefinition-ihe-france-pam-encounter.html" : "IHE France PAM Encounter"
+  },
+  {
+    "url" : "https://hl7.fr/ig/v2/pam/ValueSet/ihe-france-pam-contact-role-vs",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "IHEFrancePamContactRoleVS",
+    "title" : "IHE France PAM Contact Role ValueSet",
+    "description" : "Valeurs pour : Rôle de la personne auprès du patient pendant le séjour (NK1-7, table HL7 0131). Liste non limitative. La personne de confiance est rattachée au séjour et transmise uniquement via ITI-31.",
+    "systems" : ["https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-contact-role-cs"],
+    "uses" : {
+    },
+    "StructureDefinition-ihe-france-pam-contact-role.html" : "IHE France PAM Contact Role"
+  },
+  {
+    "url" : "https://hl7.fr/ig/v2/pam/ValueSet/ihe-france-pam-discharge-disposition-vs",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "IHEFrancePamDischargeDispositionVS",
+    "title" : "IHE France PAM Discharge Disposition ValueSet",
+    "description" : "Valeurs pour : Circonstance de sortie (PV1-36, table HL7 0112). Table définie par l'utilisateur.",
+    "systems" : ["https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-discharge-disposition-cs"],
+    "uses" : {
+    },
+    "StructureDefinition-ihe-france-pam-encounter.html" : "IHE France PAM Encounter"
+  },
+  {
+    "url" : "https://hl7.fr/ig/v2/pam/ValueSet/ihe-france-pam-dmp-consultation-vs",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "IHEFrancePamDmpConsultationVS",
+    "title" : "IHE France PAM DMP Consultation Consent ValueSet",
+    "description" : "Valeurs permises pour l'information et le consentement à la consultation du DMP (ZFA-11).",
+    "systems" : ["https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-dmp-consultation-cs"],
+    "uses" : {
+    },
+    "StructureDefinition-ihe-france-pam-dmp-status.html" : "IHE France PAM DMP Status"
+  },
+  {
+    "url" : "https://hl7.fr/ig/v2/pam/ValueSet/ihe-france-pam-dmp-feeding-vs",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "IHEFrancePamDmpFeedingVS",
+    "title" : "IHE France PAM DMP Feeding Information ValueSet",
+    "description" : "Valeurs permises pour l'information et l'opposition à l'alimentation du DMP (ZFA-9).",
+    "systems" : ["https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-dmp-feeding-cs"],
+    "uses" : {
+    },
+    "StructureDefinition-ihe-france-pam-dmp-status.html" : "IHE France PAM DMP Status"
+  },
+  {
+    "url" : "https://hl7.fr/ig/v2/pam/ValueSet/ihe-france-pam-dmp-status-vs",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "IHEFrancePamDmpStatusVS",
+    "title" : "IHE France PAM DMP Status ValueSet",
+    "description" : "Valeurs permises pour le statut du DMP (ZFA-1).",
+    "systems" : ["https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-dmp-status-cs"],
+    "uses" : {
+    },
+    "StructureDefinition-ihe-france-pam-dmp-status.html" : "IHE France PAM DMP Status"
+  },
+  {
+    "url" : "https://hl7.fr/ig/v2/pam/ValueSet/ihe-france-pam-emergency-passage-vs",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "IHEFrancePamEmergencyPassageVS",
+    "title" : "IHE France PAM Emergency Passage ValueSet",
+    "description" : "Valeurs permises pour le passage par une structure des urgences (ZFM-5).",
+    "systems" : ["https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-emergency-passage-cs"],
+    "uses" : {
+    },
+    "StructureDefinition-ihe-france-pam-pmsi-movement.html" : "IHE France PAM PMSI Movement"
+  },
+  {
+    "url" : "https://hl7.fr/ig/v2/pam/ValueSet/ihe-france-pam-identifier-type-vs",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "IHEFrancePamIdentifierTypeVS",
+    "title" : "IHE France PAM Identifier Type ValueSet",
+    "description" : "Valeurs permises pour les types d'identifiants.",
+    "systems" : ["https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-identifier-type-cs"],
+    "uses" : {
+    },
+    "StructureDefinition-ihe-france-pam-encounter.html" : "IHE France PAM Encounter",
+    "StructureDefinition-ihe-france-pam-patient.html" : "IHE France PAM Patient"
+  },
+  {
+    "url" : "https://hl7.fr/ig/v2/pam/ValueSet/ihe-france-pam-identity-document-vs",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "IHEFrancePamIdentityDocumentVS",
+    "title" : "IHE France PAM Identity Document ValueSet",
+    "description" : "Valeurs permises pour le type de justificatif d'identité (ZFD-7).",
+    "systems" : ["https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-identity-document-cs"],
+    "uses" : {
+    },
+    "StructureDefinition-ihe-france-pam-demographic-complement.html" : "IHE France PAM Demographic Complement"
+  },
+  {
+    "url" : "https://hl7.fr/ig/v2/pam/ValueSet/ihe-france-pam-identity-means-vs",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "IHEFrancePamIdentityMeansVS",
+    "title" : "IHE France PAM Identity Means ValueSet",
+    "description" : "Valeurs permises pour le mode d'obtention de l'identité (ZFD-5).",
+    "systems" : ["https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-identity-means-cs"],
+    "uses" : {
+    },
+    "StructureDefinition-ihe-france-pam-demographic-complement.html" : "IHE France PAM Demographic Complement"
+  },
+  {
+    "url" : "https://hl7.fr/ig/v2/pam/ValueSet/ihe-france-pam-identity-status-vs",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "IHEFrancePamIdentityStatusVS",
+    "title" : "IHE France PAM Identity Status ValueSet",
+    "description" : "Valeurs permises pour le statut et les attributs d'identité (PID-32).",
+    "systems" : ["https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-identity-status-cs"],
+    "uses" : {
+    },
+    "StructureDefinition-ihe-france-pam-identity-status.html" : "IHE France PAM Identity Status"
+  },
+  {
+    "url" : "https://hl7.fr/ig/v2/pam/ValueSet/ihe-france-pam-legal-care-mode-vs",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "IHEFrancePamLegalCareModeVS",
+    "title" : "IHE France PAM Legal Care Mode ValueSet",
+    "description" : "Valeurs proposées pour le mode légal de soins en psychiatrie (ZFS-6).",
+    "systems" : ["https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-legal-care-mode-cs"],
+    "uses" : {
+    },
+    "StructureDefinition-ihe-france-pam-psychiatric-legal-status.html" : "IHE France PAM Psychiatric Legal Status"
+  },
+  {
+    "url" : "https://hl7.fr/ig/v2/pam/ValueSet/ihe-france-pam-movement-action-vs",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "IHEFrancePamMovementActionVS",
+    "title" : "IHE France PAM Movement Action ValueSet",
+    "description" : "Valeurs permises pour l'action sur un mouvement.",
+    "systems" : ["https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-movement-action-cs"],
+    "uses" : {
+    },
+    "StructureDefinition-ihe-france-pam-psychiatric-legal-status.html" : "IHE France PAM Psychiatric Legal Status",
+    "StructureDefinition-ihe-france-pam-movement-action.html" : "IHE France PAM Movement Action"
+  },
+  {
+    "url" : "https://hl7.fr/ig/v2/pam/ValueSet/ihe-france-pam-movement-nature-vs",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "IHEFrancePamMovementNatureVS",
+    "title" : "IHE France PAM Movement Nature ValueSet",
+    "description" : "Valeurs permises pour la nature du mouvement (ZBE-9).",
+    "systems" : ["https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-movement-nature-cs"],
+    "uses" : {
+    },
+    "StructureDefinition-ihe-france-pam-movement-nature.html" : "IHE France PAM Movement Nature"
+  },
+  {
+    "url" : "https://hl7.fr/ig/v2/pam/ValueSet/ihe-france-pam-patient-class-vs",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "IHEFrancePamPatientClassVS",
+    "title" : "IHE France PAM Patient Class ValueSet",
+    "description" : "Valeurs permises pour la classe de patient.",
+    "systems" : ["https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-patient-class-cs"],
+    "uses" : {
+    },
+    "StructureDefinition-ihe-france-pam-patient-class.html" : "IHE France PAM Patient Class"
+  },
+  {
+    "url" : "https://hl7.fr/ig/v2/pam/ValueSet/ihe-france-pam-pmsi-entry-mode-vs",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "IHEFrancePamPmsiEntryModeVS",
+    "title" : "IHE France PAM PMSI Entry Mode ValueSet",
+    "description" : "Valeurs permises pour le mode d'entrée PMSI (ZFM-1).",
+    "systems" : ["https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-pmsi-entry-mode-cs"],
+    "uses" : {
+    },
+    "StructureDefinition-ihe-france-pam-pmsi-movement.html" : "IHE France PAM PMSI Movement"
+  },
+  {
+    "url" : "https://hl7.fr/ig/v2/pam/ValueSet/ihe-france-pam-pmsi-exit-mode-vs",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "IHEFrancePamPmsiExitModeVS",
+    "title" : "IHE France PAM PMSI Exit Mode ValueSet",
+    "description" : "Valeurs permises pour le mode de sortie PMSI (ZFM-2).",
+    "systems" : ["https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-pmsi-exit-mode-cs"],
+    "uses" : {
+    },
+    "StructureDefinition-ihe-france-pam-pmsi-movement.html" : "IHE France PAM PMSI Movement"
+  },
+  {
+    "url" : "https://hl7.fr/ig/v2/pam/ValueSet/ihe-france-pam-professional-activity-vs",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "IHEFrancePamProfessionalActivityVS",
+    "title" : "IHE France PAM Professional Activity ValueSet",
+    "description" : "Valeurs pour : Activité socioprofessionnelle (ZFP-1, nomenclature PCS 2003 de l'INSEE).",
+    "systems" : ["https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-professional-activity-cs"],
+    "uses" : {
+    },
+    "StructureDefinition-ihe-france-pam-professional-situation.html" : "IHE France PAM Professional Situation"
+  },
+  {
+    "url" : "https://hl7.fr/ig/v2/pam/ValueSet/ihe-france-pam-professional-category-vs",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "IHEFrancePamProfessionalCategoryVS",
+    "title" : "IHE France PAM Professional Category ValueSet",
+    "description" : "Valeurs pour : Catégorie socioprofessionnelle (ZFP-2, nomenclature PCS 2003 de l'INSEE).",
+    "systems" : ["https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-professional-category-cs"],
+    "uses" : {
+    },
+    "StructureDefinition-ihe-france-pam-professional-situation.html" : "IHE France PAM Professional Situation"
+  },
+  {
+    "url" : "https://hl7.fr/ig/v2/pam/ValueSet/ihe-france-pam-provider-role-vs",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "IHEFrancePamProviderRoleVS",
+    "title" : "IHE France PAM Provider Role ValueSet",
+    "description" : "Valeurs permises pour le rôle d'un médecin (ROL-3).",
+    "systems" : ["https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-provider-role-cs"],
+    "uses" : {
+    },
+    "StructureDefinition-ihe-france-pam-practitioner-role.html" : "IHE France PAM PractitionerRole"
+  },
+  {
+    "url" : "https://hl7.fr/ig/v2/pam/ValueSet/ihe-france-pam-relationship-vs",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "IHEFrancePamRelationshipVS",
+    "title" : "IHE France PAM Relationship ValueSet",
+    "description" : "Valeurs pour : Nature de la relation avec le patient (NK1-3, table HL7 0063). Liste non limitative.",
+    "systems" : ["https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-relationship-cs"],
+    "uses" : {
+    },
+    "StructureDefinition-ihe-france-pam-related-person.html" : "IHE France PAM Related Person"
+  },
+  {
+    "url" : "https://hl7.fr/ig/v2/pam/ValueSet/ihe-france-pam-rimp-vs",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "IHEFrancePamRimpVS",
+    "title" : "IHE France PAM RIM-P Legal Care Code ValueSet",
+    "description" : "Valeurs permises pour le code RIM-P du mode légal de soins (ZFS-7).",
+    "systems" : ["https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-rimp-cs"],
+    "uses" : {
+    },
+    "StructureDefinition-ihe-france-pam-psychiatric-legal-status.html" : "IHE France PAM Psychiatric Legal Status"
+  },
+  {
+    "url" : "https://hl7.fr/ig/v2/pam/ValueSet/ihe-france-pam-transport-care-vs",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "IHEFrancePamTransportCareVS",
+    "title" : "IHE France PAM Transport Care ValueSet",
+    "description" : "Valeurs permises pour la prise en charge durant le transport (ZFV-11).",
+    "systems" : ["https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-transport-care-cs"],
+    "uses" : {
+    },
+    "StructureDefinition-ihe-france-pam-encounter-supplement.html" : "IHE France PAM Encounter Supplement"
+  },
+  {
+    "url" : "https://hl7.fr/ig/v2/pam/ValueSet/ihe-france-pam-transport-mode-vs",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "IHEFrancePamTransportModeVS",
+    "title" : "IHE France PAM Transport Mode ValueSet",
+    "description" : "Valeurs permises pour le mode de transport.",
+    "systems" : ["https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-transport-mode-cs"],
+    "uses" : {
+    },
+    "StructureDefinition-ihe-france-pam-arrival-mode.html" : "IHE France PAM Arrival Mode",
+    "StructureDefinition-ihe-france-pam-encounter-supplement.html" : "IHE France PAM Encounter Supplement"
+  },
+  {
+    "url" : "https://hl7.fr/ig/v2/pam/ValueSet/ihe-france-pam-trigger-event-vs",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "IHEFrancePamTriggerEventVS",
+    "title" : "IHE France PAM Trigger Event ValueSet",
+    "description" : "Valeurs permises pour les événements déclencheurs PAM France.",
+    "systems" : ["https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-trigger-event-cs"],
+    "uses" : {
+    },
+    "StructureDefinition-ihe-france-pam-origin-event-code.html" : "IHE France PAM Origin Event Code"
+  }]
+}

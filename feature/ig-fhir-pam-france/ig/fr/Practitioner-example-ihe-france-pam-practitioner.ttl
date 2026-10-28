@@ -1,0 +1,43 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://hl7.fr/ig/v2/pam/Practitioner/example-ihe-france-pam-practitioner> a fhir:Practitioner ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:Resource.id [ fhir:value "example-ihe-france-pam-practitioner"] ;
+  fhir:Resource.meta [
+     fhir:Meta.profile [
+       fhir:value "https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-practitioner" ;
+       fhir:index -1 ;
+       fhir:link <https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-practitioner>
+     ]
+  ] ;
+  fhir:Resource.language [ fhir:value "fr"] ;
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ] ;
+     fhir:Narrative.div "<div xml:lang=\"fr\" lang=\"fr\"><hr/><p><b>French</b></p><hr/><p class=\"res-header-id\"><b>Narratif généré : Praticien example-ihe-france-pam-practitioner</b></p><a name=\"example-ihe-france-pam-practitioner\"> </a><a name=\"hcexample-ihe-france-pam-practitioner\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profil: <a href=\"StructureDefinition-ihe-france-pam-practitioner.html\">IHE France PAM Practitioner</a></p></div><p style=\"border: 1px #661aff solid; background-color: #e6e6ff; padding: 10px;\">PAUL MARTIN (urn:example:rpps#10000000001)</p><hr/></div>"
+  ] ;
+  fhir:Practitioner.identifier [
+     fhir:index -1 ;
+     fhir:Identifier.system [ fhir:value "urn:example:rpps" ] ;
+     fhir:Identifier.value [ fhir:value "10000000001" ]
+  ] ;
+  fhir:Practitioner.name [
+     fhir:index -1 ;
+     fhir:HumanName.family [ fhir:value "MARTIN" ] ;
+     fhir:HumanName.given [
+       fhir:value "PAUL" ;
+       fhir:index -1
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://hl7.fr/ig/v2/pam/Practitioner/example-ihe-france-pam-practitioner.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

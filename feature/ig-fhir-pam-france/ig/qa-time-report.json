@@ -1,0 +1,5489 @@
+{
+  "date" : "Wed, 28 Oct, 2026 10:06:53 +0000",
+  "doco" : "For each file: start is seconds after start activity occurred. Length = milliseconds activity took",
+  "files" : [{
+    "name" : "/fsh-generated/resources/ImplementationGuide-ihe.fr.pam.json",
+    "size" : 36345,
+    "processes" : [{
+      "activity" : "load",
+      "start" : 21,
+      "length" : 171
+    },
+    {
+      "activity" : "checkR4R4B",
+      "start" : 23,
+      "length" : 14
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 23,
+      "length" : 69
+    },
+    {
+      "activity" : "validate",
+      "start" : 27,
+      "length" : 1735
+    },
+    {
+      "activity" : "scanForUsageStats",
+      "start" : 29,
+      "length" : 1
+    },
+    {
+      "activity" : "validate",
+      "start" : 29,
+      "length" : 1
+    },
+    {
+      "activity" : "translate",
+      "start" : 29,
+      "length" : 16
+    },
+    {
+      "activity" : "generate1",
+      "start" : 30,
+      "length" : 230
+    },
+    {
+      "activity" : "generate2",
+      "start" : 40,
+      "length" : 282
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 67,
+      "length" : 5
+    },
+    {
+      "activity" : "scanExamplesForR5",
+      "start" : 85,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/Basic-ihe-france-pam-iti30.json",
+    "size" : 100,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 21,
+      "length" : 3
+    },
+    {
+      "activity" : "load-configure",
+      "start" : 23,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 24,
+      "length" : 4
+    },
+    {
+      "activity" : "validate",
+      "start" : 29,
+      "length" : 3
+    },
+    {
+      "activity" : "translate",
+      "start" : 29,
+      "length" : 4
+    },
+    {
+      "activity" : "generate1",
+      "start" : 30,
+      "length" : 9
+    },
+    {
+      "activity" : "generate2",
+      "start" : 40,
+      "length" : 20
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/Basic-ihe-france-pam-iti31.json",
+    "size" : 100,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 21,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 24,
+      "length" : 2
+    },
+    {
+      "activity" : "validate",
+      "start" : 29,
+      "length" : 2
+    },
+    {
+      "activity" : "translate",
+      "start" : 29,
+      "length" : 3
+    },
+    {
+      "activity" : "generate1",
+      "start" : 30,
+      "length" : 7
+    },
+    {
+      "activity" : "generate2",
+      "start" : 40,
+      "length" : 10
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/CodeSystem-ihe-france-pam-accident-cs.json",
+    "size" : 1467,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 21,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 21,
+      "length" : 6
+    },
+    {
+      "activity" : "checkR4R4B",
+      "start" : 23,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 24,
+      "length" : 7
+    },
+    {
+      "activity" : "validate",
+      "start" : 25,
+      "length" : 40
+    },
+    {
+      "activity" : "checkConformanceResources",
+      "start" : 29,
+      "length" : 1
+    },
+    {
+      "activity" : "validate",
+      "start" : 29,
+      "length" : 1
+    },
+    {
+      "activity" : "translate",
+      "start" : 29,
+      "length" : 2
+    },
+    {
+      "activity" : "generate1",
+      "start" : 30,
+      "length" : 17
+    },
+    {
+      "activity" : "generate2",
+      "start" : 40,
+      "length" : 182
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/CodeSystem-ihe-france-pam-admission-type-cs.json",
+    "size" : 1489,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 21,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 21,
+      "length" : 3
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 24,
+      "length" : 4
+    },
+    {
+      "activity" : "validate",
+      "start" : 25,
+      "length" : 12
+    },
+    {
+      "activity" : "validate",
+      "start" : 29,
+      "length" : 1
+    },
+    {
+      "activity" : "translate",
+      "start" : 30,
+      "length" : 2
+    },
+    {
+      "activity" : "generate1",
+      "start" : 30,
+      "length" : 17
+    },
+    {
+      "activity" : "generate2",
+      "start" : 40,
+      "length" : 236
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 67,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/CodeSystem-ihe-france-pam-admit-source-cs.json",
+    "size" : 1733,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 21,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 21,
+      "length" : 3
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 24,
+      "length" : 4
+    },
+    {
+      "activity" : "validate",
+      "start" : 25,
+      "length" : 11
+    },
+    {
+      "activity" : "checkConformanceResources",
+      "start" : 29,
+      "length" : 1
+    },
+    {
+      "activity" : "validate",
+      "start" : 29,
+      "length" : 1
+    },
+    {
+      "activity" : "translate",
+      "start" : 30,
+      "length" : 3
+    },
+    {
+      "activity" : "generate1",
+      "start" : 30,
+      "length" : 18
+    },
+    {
+      "activity" : "generate2",
+      "start" : 40,
+      "length" : 107
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/CodeSystem-ihe-france-pam-contact-role-cs.json",
+    "size" : 1826,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 21,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 21,
+      "length" : 3
+    },
+    {
+      "activity" : "load-configure",
+      "start" : 23,
+      "length" : 1
+    },
+    {
+      "activity" : "checkR4R4B",
+      "start" : 23,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 24,
+      "length" : 3
+    },
+    {
+      "activity" : "validate",
+      "start" : 25,
+      "length" : 13
+    },
+    {
+      "activity" : "validate",
+      "start" : 29,
+      "length" : 1
+    },
+    {
+      "activity" : "translate",
+      "start" : 30,
+      "length" : 2
+    },
+    {
+      "activity" : "generate1",
+      "start" : 30,
+      "length" : 19
+    },
+    {
+      "activity" : "generate2",
+      "start" : 40,
+      "length" : 109
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/CodeSystem-ihe-france-pam-discharge-disposition-cs.json",
+    "size" : 2161,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 21,
+      "length" : 2
+    },
+    {
+      "activity" : "load",
+      "start" : 21,
+      "length" : 2
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 24,
+      "length" : 4
+    },
+    {
+      "activity" : "validate",
+      "start" : 25,
+      "length" : 15
+    },
+    {
+      "activity" : "validate",
+      "start" : 29,
+      "length" : 1
+    },
+    {
+      "activity" : "translate",
+      "start" : 30,
+      "length" : 3
+    },
+    {
+      "activity" : "generate1",
+      "start" : 30,
+      "length" : 74
+    },
+    {
+      "activity" : "generate2",
+      "start" : 41,
+      "length" : 74
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 67,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/CodeSystem-ihe-france-pam-dmp-consultation-cs.json",
+    "size" : 1017,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 21,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 21,
+      "length" : 3
+    },
+    {
+      "activity" : "checkR4R4B",
+      "start" : 23,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 24,
+      "length" : 3
+    },
+    {
+      "activity" : "validate",
+      "start" : 25,
+      "length" : 9
+    },
+    {
+      "activity" : "translate",
+      "start" : 30,
+      "length" : 2
+    },
+    {
+      "activity" : "generate1",
+      "start" : 30,
+      "length" : 14
+    },
+    {
+      "activity" : "generate2",
+      "start" : 41,
+      "length" : 57
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/CodeSystem-ihe-france-pam-dmp-feeding-cs.json",
+    "size" : 939,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 21,
+      "length" : 2
+    },
+    {
+      "activity" : "load",
+      "start" : 21,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 24,
+      "length" : 2
+    },
+    {
+      "activity" : "validate",
+      "start" : 25,
+      "length" : 9
+    },
+    {
+      "activity" : "validate",
+      "start" : 29,
+      "length" : 1
+    },
+    {
+      "activity" : "checkConformanceResources",
+      "start" : 29,
+      "length" : 1
+    },
+    {
+      "activity" : "validate",
+      "start" : 29,
+      "length" : 1
+    },
+    {
+      "activity" : "translate",
+      "start" : 30,
+      "length" : 2
+    },
+    {
+      "activity" : "generate1",
+      "start" : 30,
+      "length" : 12
+    },
+    {
+      "activity" : "generate2",
+      "start" : 41,
+      "length" : 53
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/CodeSystem-ihe-france-pam-dmp-status-cs.json",
+    "size" : 828,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 21,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 21,
+      "length" : 2
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 24,
+      "length" : 3
+    },
+    {
+      "activity" : "validate",
+      "start" : 25,
+      "length" : 8
+    },
+    {
+      "activity" : "validate",
+      "start" : 29,
+      "length" : 1
+    },
+    {
+      "activity" : "translate",
+      "start" : 30,
+      "length" : 3
+    },
+    {
+      "activity" : "generate1",
+      "start" : 30,
+      "length" : 13
+    },
+    {
+      "activity" : "generate2",
+      "start" : 41,
+      "length" : 50
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/CodeSystem-ihe-france-pam-emergency-passage-cs.json",
+    "size" : 1163,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 21,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 21,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 24,
+      "length" : 2
+    },
+    {
+      "activity" : "validate",
+      "start" : 25,
+      "length" : 8
+    },
+    {
+      "activity" : "validate",
+      "start" : 29,
+      "length" : 1
+    },
+    {
+      "activity" : "translate",
+      "start" : 30,
+      "length" : 2
+    },
+    {
+      "activity" : "generate1",
+      "start" : 30,
+      "length" : 132
+    },
+    {
+      "activity" : "generate2",
+      "start" : 41,
+      "length" : 49
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 67,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/CodeSystem-ihe-france-pam-identifier-type-cs.json",
+    "size" : 3636,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 21,
+      "length" : 2
+    },
+    {
+      "activity" : "load",
+      "start" : 21,
+      "length" : 2
+    },
+    {
+      "activity" : "checkR4R4B",
+      "start" : 23,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 24,
+      "length" : 5
+    },
+    {
+      "activity" : "validate",
+      "start" : 25,
+      "length" : 13
+    },
+    {
+      "activity" : "checkConformanceResources",
+      "start" : 29,
+      "length" : 1
+    },
+    {
+      "activity" : "validate",
+      "start" : 29,
+      "length" : 1
+    },
+    {
+      "activity" : "translate",
+      "start" : 30,
+      "length" : 3
+    },
+    {
+      "activity" : "generate1",
+      "start" : 31,
+      "length" : 31
+    },
+    {
+      "activity" : "generate2",
+      "start" : 41,
+      "length" : 64
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/CodeSystem-ihe-france-pam-identity-document-cs.json",
+    "size" : 2318,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 21,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 21,
+      "length" : 2
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 24,
+      "length" : 4
+    },
+    {
+      "activity" : "validate",
+      "start" : 25,
+      "length" : 12
+    },
+    {
+      "activity" : "validate",
+      "start" : 29,
+      "length" : 1
+    },
+    {
+      "activity" : "translate",
+      "start" : 30,
+      "length" : 2
+    },
+    {
+      "activity" : "generate1",
+      "start" : 31,
+      "length" : 22
+    },
+    {
+      "activity" : "generate2",
+      "start" : 41,
+      "length" : 57
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/CodeSystem-ihe-france-pam-identity-means-cs.json",
+    "size" : 1187,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 21,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 21,
+      "length" : 2
+    },
+    {
+      "activity" : "checkR4R4B",
+      "start" : 23,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 24,
+      "length" : 2
+    },
+    {
+      "activity" : "validate",
+      "start" : 25,
+      "length" : 7
+    },
+    {
+      "activity" : "translate",
+      "start" : 30,
+      "length" : 2
+    },
+    {
+      "activity" : "generate1",
+      "start" : 31,
+      "length" : 14
+    },
+    {
+      "activity" : "generate2",
+      "start" : 41,
+      "length" : 68
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 67,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/CodeSystem-ihe-france-pam-identity-status-cs.json",
+    "size" : 3376,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 21,
+      "length" : 2
+    },
+    {
+      "activity" : "load",
+      "start" : 21,
+      "length" : 2
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 24,
+      "length" : 5
+    },
+    {
+      "activity" : "validate",
+      "start" : 25,
+      "length" : 13
+    },
+    {
+      "activity" : "validate",
+      "start" : 29,
+      "length" : 1
+    },
+    {
+      "activity" : "translate",
+      "start" : 30,
+      "length" : 3
+    },
+    {
+      "activity" : "generate1",
+      "start" : 31,
+      "length" : 28
+    },
+    {
+      "activity" : "generate2",
+      "start" : 41,
+      "length" : 67
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/CodeSystem-ihe-france-pam-legal-care-mode-cs.json",
+    "size" : 2767,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 21,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 21,
+      "length" : 2
+    },
+    {
+      "activity" : "checkR4R4B",
+      "start" : 23,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 24,
+      "length" : 4
+    },
+    {
+      "activity" : "validate",
+      "start" : 25,
+      "length" : 9
+    },
+    {
+      "activity" : "checkConformanceResources",
+      "start" : 29,
+      "length" : 1
+    },
+    {
+      "activity" : "scanForUsageStats",
+      "start" : 29,
+      "length" : 1
+    },
+    {
+      "activity" : "validate",
+      "start" : 29,
+      "length" : 1
+    },
+    {
+      "activity" : "translate",
+      "start" : 30,
+      "length" : 2
+    },
+    {
+      "activity" : "generate1",
+      "start" : 31,
+      "length" : 24
+    },
+    {
+      "activity" : "generate2",
+      "start" : 41,
+      "length" : 61
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 67,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/CodeSystem-ihe-france-pam-movement-action-cs.json",
+    "size" : 968,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 21,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 21,
+      "length" : 2
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 24,
+      "length" : 3
+    },
+    {
+      "activity" : "validate",
+      "start" : 25,
+      "length" : 6
+    },
+    {
+      "activity" : "validate",
+      "start" : 29,
+      "length" : 1
+    },
+    {
+      "activity" : "translate",
+      "start" : 30,
+      "length" : 2
+    },
+    {
+      "activity" : "generate1",
+      "start" : 31,
+      "length" : 12
+    },
+    {
+      "activity" : "generate2",
+      "start" : 41,
+      "length" : 108
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/CodeSystem-ihe-france-pam-movement-nature-cs.json",
+    "size" : 2431,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 21,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 21,
+      "length" : 2
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 24,
+      "length" : 3
+    },
+    {
+      "activity" : "validate",
+      "start" : 25,
+      "length" : 10
+    },
+    {
+      "activity" : "translate",
+      "start" : 30,
+      "length" : 3
+    },
+    {
+      "activity" : "generate1",
+      "start" : 31,
+      "length" : 21
+    },
+    {
+      "activity" : "generate2",
+      "start" : 41,
+      "length" : 52
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/CodeSystem-ihe-france-pam-patient-class-cs.json",
+    "size" : 1358,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 21,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 21,
+      "length" : 2
+    },
+    {
+      "activity" : "checkR4R4B",
+      "start" : 23,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 24,
+      "length" : 4
+    },
+    {
+      "activity" : "validate",
+      "start" : 25,
+      "length" : 7
+    },
+    {
+      "activity" : "checkConformanceResources",
+      "start" : 29,
+      "length" : 1
+    },
+    {
+      "activity" : "validate",
+      "start" : 29,
+      "length" : 1
+    },
+    {
+      "activity" : "translate",
+      "start" : 30,
+      "length" : 2
+    },
+    {
+      "activity" : "generate1",
+      "start" : 31,
+      "length" : 66
+    },
+    {
+      "activity" : "generate2",
+      "start" : 41,
+      "length" : 183
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 67,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/CodeSystem-ihe-france-pam-pmsi-entry-mode-cs.json",
+    "size" : 1475,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 21,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 21,
+      "length" : 2
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 24,
+      "length" : 3
+    },
+    {
+      "activity" : "validate",
+      "start" : 25,
+      "length" : 7
+    },
+    {
+      "activity" : "validate",
+      "start" : 29,
+      "length" : 1
+    },
+    {
+      "activity" : "translate",
+      "start" : 30,
+      "length" : 2
+    },
+    {
+      "activity" : "generate1",
+      "start" : 31,
+      "length" : 15
+    },
+    {
+      "activity" : "generate2",
+      "start" : 42,
+      "length" : 50
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/CodeSystem-ihe-france-pam-pmsi-exit-mode-cs.json",
+    "size" : 1429,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 21,
+      "length" : 2
+    },
+    {
+      "activity" : "load",
+      "start" : 21,
+      "length" : 2
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 24,
+      "length" : 3
+    },
+    {
+      "activity" : "validate",
+      "start" : 25,
+      "length" : 8
+    },
+    {
+      "activity" : "validate",
+      "start" : 29,
+      "length" : 1
+    },
+    {
+      "activity" : "translate",
+      "start" : 30,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 31,
+      "length" : 14
+    },
+    {
+      "activity" : "generate2",
+      "start" : 42,
+      "length" : 56
+    },
+    {
+      "activity" : "scanExamplesForR5",
+      "start" : 85,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/CodeSystem-ihe-france-pam-professional-activity-cs.json",
+    "size" : 1561,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 21,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 21,
+      "length" : 3
+    },
+    {
+      "activity" : "load-configure",
+      "start" : 23,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 24,
+      "length" : 4
+    },
+    {
+      "activity" : "validate",
+      "start" : 25,
+      "length" : 9
+    },
+    {
+      "activity" : "checkConformanceResources",
+      "start" : 29,
+      "length" : 1
+    },
+    {
+      "activity" : "validate",
+      "start" : 29,
+      "length" : 1
+    },
+    {
+      "activity" : "translate",
+      "start" : 30,
+      "length" : 2
+    },
+    {
+      "activity" : "generate1",
+      "start" : 31,
+      "length" : 13
+    },
+    {
+      "activity" : "generate2",
+      "start" : 42,
+      "length" : 53
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/CodeSystem-ihe-france-pam-professional-category-cs.json",
+    "size" : 6991,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 21,
+      "length" : 2
+    },
+    {
+      "activity" : "load",
+      "start" : 21,
+      "length" : 3
+    },
+    {
+      "activity" : "checkR4R4B",
+      "start" : 23,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 24,
+      "length" : 8
+    },
+    {
+      "activity" : "validate",
+      "start" : 25,
+      "length" : 24
+    },
+    {
+      "activity" : "translate",
+      "start" : 30,
+      "length" : 2
+    },
+    {
+      "activity" : "generate1",
+      "start" : 31,
+      "length" : 36
+    },
+    {
+      "activity" : "generate2",
+      "start" : 42,
+      "length" : 88
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 67,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/CodeSystem-ihe-france-pam-provider-role-cs.json",
+    "size" : 1744,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 21,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 21,
+      "length" : 2
+    },
+    {
+      "activity" : "checkR4R4B",
+      "start" : 23,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 24,
+      "length" : 3
+    },
+    {
+      "activity" : "validate",
+      "start" : 25,
+      "length" : 9
+    },
+    {
+      "activity" : "validate",
+      "start" : 29,
+      "length" : 1
+    },
+    {
+      "activity" : "translate",
+      "start" : 30,
+      "length" : 2
+    },
+    {
+      "activity" : "generate1",
+      "start" : 31,
+      "length" : 15
+    },
+    {
+      "activity" : "generate2",
+      "start" : 42,
+      "length" : 51
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 67,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/CodeSystem-ihe-france-pam-relationship-cs.json",
+    "size" : 3833,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 21,
+      "length" : 2
+    },
+    {
+      "activity" : "load",
+      "start" : 21,
+      "length" : 3
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 24,
+      "length" : 7
+    },
+    {
+      "activity" : "validate",
+      "start" : 25,
+      "length" : 18
+    },
+    {
+      "activity" : "validate",
+      "start" : 29,
+      "length" : 1
+    },
+    {
+      "activity" : "translate",
+      "start" : 30,
+      "length" : 2
+    },
+    {
+      "activity" : "generate1",
+      "start" : 31,
+      "length" : 36
+    },
+    {
+      "activity" : "generate2",
+      "start" : 42,
+      "length" : 128
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/CodeSystem-ihe-france-pam-rimp-cs.json",
+    "size" : 1658,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 21,
+      "length" : 2
+    },
+    {
+      "activity" : "load",
+      "start" : 21,
+      "length" : 2
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 24,
+      "length" : 3
+    },
+    {
+      "activity" : "validate",
+      "start" : 25,
+      "length" : 7
+    },
+    {
+      "activity" : "checkConformanceResources",
+      "start" : 29,
+      "length" : 1
+    },
+    {
+      "activity" : "validate",
+      "start" : 29,
+      "length" : 1
+    },
+    {
+      "activity" : "translate",
+      "start" : 30,
+      "length" : 2
+    },
+    {
+      "activity" : "generate1",
+      "start" : 31,
+      "length" : 14
+    },
+    {
+      "activity" : "generate2",
+      "start" : 42,
+      "length" : 165
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 67,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/CodeSystem-ihe-france-pam-transport-care-cs.json",
+    "size" : 883,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 21,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 21,
+      "length" : 1
+    },
+    {
+      "activity" : "checkR4R4B",
+      "start" : 23,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 24,
+      "length" : 3
+    },
+    {
+      "activity" : "validate",
+      "start" : 25,
+      "length" : 6
+    },
+    {
+      "activity" : "translate",
+      "start" : 30,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 31,
+      "length" : 9
+    },
+    {
+      "activity" : "generate2",
+      "start" : 42,
+      "length" : 182
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/CodeSystem-ihe-france-pam-transport-mode-cs.json",
+    "size" : 1779,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 21,
+      "length" : 2
+    },
+    {
+      "activity" : "load",
+      "start" : 21,
+      "length" : 2
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 24,
+      "length" : 4
+    },
+    {
+      "activity" : "validate",
+      "start" : 25,
+      "length" : 8
+    },
+    {
+      "activity" : "validate",
+      "start" : 29,
+      "length" : 1
+    },
+    {
+      "activity" : "translate",
+      "start" : 30,
+      "length" : 2
+    },
+    {
+      "activity" : "generate1",
+      "start" : 31,
+      "length" : 68
+    },
+    {
+      "activity" : "generate2",
+      "start" : 42,
+      "length" : 48
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/CodeSystem-ihe-france-pam-trigger-event-cs.json",
+    "size" : 5252,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 21,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 21,
+      "length" : 3
+    },
+    {
+      "activity" : "checkR4R4B",
+      "start" : 23,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 24,
+      "length" : 6
+    },
+    {
+      "activity" : "validate",
+      "start" : 25,
+      "length" : 16
+    },
+    {
+      "activity" : "checkConformanceResources",
+      "start" : 29,
+      "length" : 1
+    },
+    {
+      "activity" : "validate",
+      "start" : 29,
+      "length" : 1
+    },
+    {
+      "activity" : "translate",
+      "start" : 30,
+      "length" : 2
+    },
+    {
+      "activity" : "generate1",
+      "start" : 31,
+      "length" : 30
+    },
+    {
+      "activity" : "generate2",
+      "start" : 42,
+      "length" : 168
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 67,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/Encounter-example-ihe-france-pam-encounter.json",
+    "size" : 3775,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 21,
+      "length" : 2
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 24,
+      "length" : 389
+    },
+    {
+      "activity" : "validate",
+      "start" : 29,
+      "length" : 64
+    },
+    {
+      "activity" : "translate",
+      "start" : 30,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 31,
+      "length" : 19
+    },
+    {
+      "activity" : "generate2",
+      "start" : 42,
+      "length" : 49
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/Location-example-ihe-france-pam-location.json",
+    "size" : 423,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 21,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 24,
+      "length" : 3
+    },
+    {
+      "activity" : "validate",
+      "start" : 29,
+      "length" : 3
+    },
+    {
+      "activity" : "translate",
+      "start" : 30,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 31,
+      "length" : 9
+    },
+    {
+      "activity" : "generate2",
+      "start" : 43,
+      "length" : 15
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/Organization-example-ihe-france-pam-organization.json",
+    "size" : 345,
+    "processes" : [{
+      "activity" : "generateNarratives",
+      "start" : 24,
+      "length" : 1
+    },
+    {
+      "activity" : "validate",
+      "start" : 29,
+      "length" : 3
+    },
+    {
+      "activity" : "translate",
+      "start" : 30,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 31,
+      "length" : 6
+    },
+    {
+      "activity" : "generate2",
+      "start" : 43,
+      "length" : 13
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/Patient-example-ihe-france-pam-patient.json",
+    "size" : 2394,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 21,
+      "length" : 2
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 24,
+      "length" : 45
+    },
+    {
+      "activity" : "validate",
+      "start" : 29,
+      "length" : 33
+    },
+    {
+      "activity" : "translate",
+      "start" : 30,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 31,
+      "length" : 21
+    },
+    {
+      "activity" : "generate2",
+      "start" : 43,
+      "length" : 24
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/Practitioner-example-ihe-france-pam-practitioner.json",
+    "size" : 400,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 21,
+      "length" : 1
+    },
+    {
+      "activity" : "checkR4R4B",
+      "start" : 23,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 24,
+      "length" : 1
+    },
+    {
+      "activity" : "validate",
+      "start" : 29,
+      "length" : 3
+    },
+    {
+      "activity" : "translate",
+      "start" : 30,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 31,
+      "length" : 11
+    },
+    {
+      "activity" : "generate2",
+      "start" : 43,
+      "length" : 13
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/RelatedPerson-example-ihe-france-pam-related-person.json",
+    "size" : 846,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 21,
+      "length" : 2
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 24,
+      "length" : 2
+    },
+    {
+      "activity" : "validate",
+      "start" : 29,
+      "length" : 9
+    },
+    {
+      "activity" : "translate",
+      "start" : 30,
+      "length" : 2
+    },
+    {
+      "activity" : "generate1",
+      "start" : 31,
+      "length" : 12
+    },
+    {
+      "activity" : "generate2",
+      "start" : 43,
+      "length" : 16
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/StructureDefinition-ihe-france-pam-accident-date.json",
+    "size" : 1438,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 21,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 21,
+      "length" : 5
+    },
+    {
+      "activity" : "generateSnapshots",
+      "start" : 21,
+      "length" : 10
+    },
+    {
+      "activity" : "loadInfo",
+      "start" : 23,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 24,
+      "length" : 48
+    },
+    {
+      "activity" : "validate",
+      "start" : 25,
+      "length" : 75
+    },
+    {
+      "activity" : "validate",
+      "start" : 29,
+      "length" : 1
+    },
+    {
+      "activity" : "translate",
+      "start" : 30,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 31,
+      "length" : 66
+    },
+    {
+      "activity" : "generate2",
+      "start" : 43,
+      "length" : 560
+    },
+    {
+      "activity" : "generate2",
+      "start" : 54,
+      "length" : 155
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 67,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/StructureDefinition-ihe-france-pam-accident-nature.json",
+    "size" : 1642,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 21,
+      "length" : 2
+    },
+    {
+      "activity" : "load",
+      "start" : 21,
+      "length" : 2
+    },
+    {
+      "activity" : "generateSnapshots",
+      "start" : 21,
+      "length" : 11
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 24,
+      "length" : 13
+    },
+    {
+      "activity" : "validate",
+      "start" : 25,
+      "length" : 36
+    },
+    {
+      "activity" : "checkConformanceResources",
+      "start" : 29,
+      "length" : 1
+    },
+    {
+      "activity" : "validate",
+      "start" : 29,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 31,
+      "length" : 53
+    },
+    {
+      "activity" : "generate2",
+      "start" : 43,
+      "length" : 233
+    },
+    {
+      "activity" : "generate2",
+      "start" : 54,
+      "length" : 48
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 67,
+      "length" : 2
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/StructureDefinition-ihe-france-pam-administrative-number.json",
+    "size" : 1396,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 21,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 21,
+      "length" : 2
+    },
+    {
+      "activity" : "generateSnapshots",
+      "start" : 21,
+      "length" : 8
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 24,
+      "length" : 7
+    },
+    {
+      "activity" : "validate",
+      "start" : 25,
+      "length" : 1
+    },
+    {
+      "activity" : "validate",
+      "start" : 25,
+      "length" : 31
+    },
+    {
+      "activity" : "checkConformanceResources",
+      "start" : 29,
+      "length" : 1
+    },
+    {
+      "activity" : "validate",
+      "start" : 29,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 31,
+      "length" : 50
+    },
+    {
+      "activity" : "generate2",
+      "start" : 43,
+      "length" : 206
+    },
+    {
+      "activity" : "generate2",
+      "start" : 54,
+      "length" : 61
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 67,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/StructureDefinition-ihe-france-pam-arrival-mode.json",
+    "size" : 1472,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 21,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 21,
+      "length" : 3
+    },
+    {
+      "activity" : "generateSnapshots",
+      "start" : 21,
+      "length" : 9
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 24,
+      "length" : 8
+    },
+    {
+      "activity" : "validate",
+      "start" : 25,
+      "length" : 31
+    },
+    {
+      "activity" : "validate",
+      "start" : 29,
+      "length" : 3
+    },
+    {
+      "activity" : "translate",
+      "start" : 30,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 31,
+      "length" : 50
+    },
+    {
+      "activity" : "generate2",
+      "start" : 44,
+      "length" : 208
+    },
+    {
+      "activity" : "generate2",
+      "start" : 54,
+      "length" : 29
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 67,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/StructureDefinition-ihe-france-pam-birth-multiple-rank.json",
+    "size" : 1450,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 21,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 21,
+      "length" : 2
+    },
+    {
+      "activity" : "generateSnapshots",
+      "start" : 21,
+      "length" : 14
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 24,
+      "length" : 6
+    },
+    {
+      "activity" : "validate",
+      "start" : 25,
+      "length" : 29
+    },
+    {
+      "activity" : "scanForUsageStats",
+      "start" : 29,
+      "length" : 1
+    },
+    {
+      "activity" : "validate",
+      "start" : 29,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 31,
+      "length" : 38
+    },
+    {
+      "activity" : "generate2",
+      "start" : 44,
+      "length" : 276
+    },
+    {
+      "activity" : "generate2",
+      "start" : 54,
+      "length" : 26
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/StructureDefinition-ihe-france-pam-care-responsibility-unit.json",
+    "size" : 1427,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 21,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 21,
+      "length" : 2
+    },
+    {
+      "activity" : "generateSnapshots",
+      "start" : 21,
+      "length" : 11
+    },
+    {
+      "activity" : "load-configure",
+      "start" : 23,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 24,
+      "length" : 7
+    },
+    {
+      "activity" : "validate",
+      "start" : 25,
+      "length" : 28
+    },
+    {
+      "activity" : "checkConformanceResources",
+      "start" : 29,
+      "length" : 1
+    },
+    {
+      "activity" : "validate",
+      "start" : 29,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 31,
+      "length" : 44
+    },
+    {
+      "activity" : "generate2",
+      "start" : 44,
+      "length" : 217
+    },
+    {
+      "activity" : "generate2",
+      "start" : 54,
+      "length" : 23
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 67,
+      "length" : 1
+    },
+    {
+      "activity" : "scanExamplesForR5",
+      "start" : 85,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/StructureDefinition-ihe-france-pam-contact-role.json",
+    "size" : 1694,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 21,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 21,
+      "length" : 2
+    },
+    {
+      "activity" : "generateSnapshots",
+      "start" : 21,
+      "length" : 6
+    },
+    {
+      "activity" : "loadDepInfo",
+      "start" : 23,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 24,
+      "length" : 6
+    },
+    {
+      "activity" : "validate",
+      "start" : 25,
+      "length" : 27
+    },
+    {
+      "activity" : "validate",
+      "start" : 29,
+      "length" : 1
+    },
+    {
+      "activity" : "translate",
+      "start" : 30,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 31,
+      "length" : 41
+    },
+    {
+      "activity" : "generate2",
+      "start" : 44,
+      "length" : 182
+    },
+    {
+      "activity" : "generate2",
+      "start" : 54,
+      "length" : 47
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 67,
+      "length" : 2
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/StructureDefinition-ihe-france-pam-data-protection.json",
+    "size" : 1515,
+    "processes" : [{
+      "activity" : "load",
+      "start" : 21,
+      "length" : 2
+    },
+    {
+      "activity" : "generateSnapshots",
+      "start" : 21,
+      "length" : 7
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 24,
+      "length" : 7
+    },
+    {
+      "activity" : "validate",
+      "start" : 25,
+      "length" : 26
+    },
+    {
+      "activity" : "checkConformanceResources",
+      "start" : 29,
+      "length" : 1
+    },
+    {
+      "activity" : "validate",
+      "start" : 29,
+      "length" : 2
+    },
+    {
+      "activity" : "generate1",
+      "start" : 31,
+      "length" : 37
+    },
+    {
+      "activity" : "generate2",
+      "start" : 45,
+      "length" : 178
+    },
+    {
+      "activity" : "generate2",
+      "start" : 54,
+      "length" : 26
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 67,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/StructureDefinition-ihe-france-pam-demographic-complement.json",
+    "size" : 7895,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 21,
+      "length" : 2
+    },
+    {
+      "activity" : "load",
+      "start" : 21,
+      "length" : 6
+    },
+    {
+      "activity" : "generateSnapshots",
+      "start" : 21,
+      "length" : 24
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 24,
+      "length" : 53
+    },
+    {
+      "activity" : "validate",
+      "start" : 25,
+      "length" : 180
+    },
+    {
+      "activity" : "validate",
+      "start" : 29,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 31,
+      "length" : 225
+    },
+    {
+      "activity" : "generate2",
+      "start" : 45,
+      "length" : 478
+    },
+    {
+      "activity" : "generate2",
+      "start" : 54,
+      "length" : 99
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 67,
+      "length" : 5
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/StructureDefinition-ihe-france-pam-dmp-status.json",
+    "size" : 7227,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 21,
+      "length" : 2
+    },
+    {
+      "activity" : "load",
+      "start" : 21,
+      "length" : 6
+    },
+    {
+      "activity" : "generateSnapshots",
+      "start" : 21,
+      "length" : 26
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 24,
+      "length" : 27
+    },
+    {
+      "activity" : "validate",
+      "start" : 26,
+      "length" : 150
+    },
+    {
+      "activity" : "scanForUsageStats",
+      "start" : 29,
+      "length" : 1
+    },
+    {
+      "activity" : "validate",
+      "start" : 29,
+      "length" : 1
+    },
+    {
+      "activity" : "translate",
+      "start" : 30,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 32,
+      "length" : 216
+    },
+    {
+      "activity" : "generate2",
+      "start" : 45,
+      "length" : 425
+    },
+    {
+      "activity" : "generate2",
+      "start" : 54,
+      "length" : 81
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 67,
+      "length" : 5
+    },
+    {
+      "activity" : "scanExamplesForR5",
+      "start" : 85,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/StructureDefinition-ihe-france-pam-encounter-supplement.json",
+    "size" : 9642,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 21,
+      "length" : 2
+    },
+    {
+      "activity" : "load",
+      "start" : 21,
+      "length" : 6
+    },
+    {
+      "activity" : "generateSnapshots",
+      "start" : 21,
+      "length" : 33
+    },
+    {
+      "activity" : "checkR4R4B",
+      "start" : 23,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 24,
+      "length" : 37
+    },
+    {
+      "activity" : "validate",
+      "start" : 26,
+      "length" : 185
+    },
+    {
+      "activity" : "checkConformanceResources",
+      "start" : 29,
+      "length" : 1
+    },
+    {
+      "activity" : "validate",
+      "start" : 29,
+      "length" : 1
+    },
+    {
+      "activity" : "translate",
+      "start" : 30,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 32,
+      "length" : 281
+    },
+    {
+      "activity" : "generate2",
+      "start" : 46,
+      "length" : 392
+    },
+    {
+      "activity" : "generate2",
+      "start" : 54,
+      "length" : 92
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 67,
+      "length" : 7
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/StructureDefinition-ihe-france-pam-encounter.json",
+    "size" : 10026,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 21,
+      "length" : 2
+    },
+    {
+      "activity" : "load",
+      "start" : 21,
+      "length" : 6
+    },
+    {
+      "activity" : "generateSnapshots",
+      "start" : 21,
+      "length" : 97
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 24,
+      "length" : 45
+    },
+    {
+      "activity" : "validate",
+      "start" : 26,
+      "length" : 418
+    },
+    {
+      "activity" : "checkConformanceResources",
+      "start" : 29,
+      "length" : 1
+    },
+    {
+      "activity" : "scanForUsageStats",
+      "start" : 29,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 32,
+      "length" : 363
+    },
+    {
+      "activity" : "generate2",
+      "start" : 46,
+      "length" : 740
+    },
+    {
+      "activity" : "generate2",
+      "start" : 54,
+      "length" : 196
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 67,
+      "length" : 12
+    },
+    {
+      "activity" : "scanExamplesForR5",
+      "start" : 85,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/StructureDefinition-ihe-france-pam-historic-movement-indicator.json",
+    "size" : 1566,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 21,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 21,
+      "length" : 2
+    },
+    {
+      "activity" : "generateSnapshots",
+      "start" : 21,
+      "length" : 5
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 24,
+      "length" : 7
+    },
+    {
+      "activity" : "validate",
+      "start" : 26,
+      "length" : 30
+    },
+    {
+      "activity" : "validate",
+      "start" : 29,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 33,
+      "length" : 37
+    },
+    {
+      "activity" : "generate2",
+      "start" : 47,
+      "length" : 175
+    },
+    {
+      "activity" : "generate2",
+      "start" : 54,
+      "length" : 17
+    },
+    {
+      "activity" : "generateExampleZip",
+      "start" : 67,
+      "length" : 1
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 67,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/StructureDefinition-ihe-france-pam-identity-modifier-entity.json",
+    "size" : 1623,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 21,
+      "length" : 2
+    },
+    {
+      "activity" : "load",
+      "start" : 21,
+      "length" : 2
+    },
+    {
+      "activity" : "generateSnapshots",
+      "start" : 21,
+      "length" : 6
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 24,
+      "length" : 5
+    },
+    {
+      "activity" : "validate",
+      "start" : 26,
+      "length" : 21
+    },
+    {
+      "activity" : "checkConformanceResources",
+      "start" : 29,
+      "length" : 1
+    },
+    {
+      "activity" : "validate",
+      "start" : 29,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 33,
+      "length" : 35
+    },
+    {
+      "activity" : "generate2",
+      "start" : 47,
+      "length" : 123
+    },
+    {
+      "activity" : "generate2",
+      "start" : 54,
+      "length" : 15
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 67,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/StructureDefinition-ihe-france-pam-identity-status.json",
+    "size" : 1656,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 21,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 21,
+      "length" : 2
+    },
+    {
+      "activity" : "generateSnapshots",
+      "start" : 21,
+      "length" : 9
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 24,
+      "length" : 6
+    },
+    {
+      "activity" : "validate",
+      "start" : 26,
+      "length" : 22
+    },
+    {
+      "activity" : "scanForUsageStats",
+      "start" : 29,
+      "length" : 1
+    },
+    {
+      "activity" : "validate",
+      "start" : 29,
+      "length" : 1
+    },
+    {
+      "activity" : "translate",
+      "start" : 30,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 33,
+      "length" : 37
+    },
+    {
+      "activity" : "generate2",
+      "start" : 47,
+      "length" : 145
+    },
+    {
+      "activity" : "generate2",
+      "start" : 54,
+      "length" : 15
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 67,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/StructureDefinition-ihe-france-pam-location.json",
+    "size" : 737,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 21,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 21,
+      "length" : 1
+    },
+    {
+      "activity" : "generateSnapshots",
+      "start" : 21,
+      "length" : 30
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 24,
+      "length" : 8
+    },
+    {
+      "activity" : "validate",
+      "start" : 26,
+      "length" : 68
+    },
+    {
+      "activity" : "validate",
+      "start" : 29,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 33,
+      "length" : 103
+    },
+    {
+      "activity" : "generate2",
+      "start" : 47,
+      "length" : 291
+    },
+    {
+      "activity" : "generate2",
+      "start" : 54,
+      "length" : 65
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 67,
+      "length" : 3
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/StructureDefinition-ihe-france-pam-medical-responsibility-unit.json",
+    "size" : 1535,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 21,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 21,
+      "length" : 2
+    },
+    {
+      "activity" : "generateSnapshots",
+      "start" : 21,
+      "length" : 5
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 24,
+      "length" : 5
+    },
+    {
+      "activity" : "validate",
+      "start" : 27,
+      "length" : 19
+    },
+    {
+      "activity" : "checkConformanceResources",
+      "start" : 29,
+      "length" : 1
+    },
+    {
+      "activity" : "validate",
+      "start" : 29,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 33,
+      "length" : 37
+    },
+    {
+      "activity" : "generate2",
+      "start" : 47,
+      "length" : 156
+    },
+    {
+      "activity" : "generate2",
+      "start" : 55,
+      "length" : 15
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 67,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/StructureDefinition-ihe-france-pam-mother-birth-name.json",
+    "size" : 1442,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 21,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 21,
+      "length" : 2
+    },
+    {
+      "activity" : "generateSnapshots",
+      "start" : 21,
+      "length" : 5
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 24,
+      "length" : 5
+    },
+    {
+      "activity" : "validate",
+      "start" : 27,
+      "length" : 20
+    },
+    {
+      "activity" : "translate",
+      "start" : 30,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 33,
+      "length" : 74
+    },
+    {
+      "activity" : "generate2",
+      "start" : 48,
+      "length" : 185
+    },
+    {
+      "activity" : "generate2",
+      "start" : 55,
+      "length" : 15
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/StructureDefinition-ihe-france-pam-movement-action.json",
+    "size" : 1560,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 21,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 21,
+      "length" : 1
+    },
+    {
+      "activity" : "generateSnapshots",
+      "start" : 21,
+      "length" : 4
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 24,
+      "length" : 6
+    },
+    {
+      "activity" : "validate",
+      "start" : 27,
+      "length" : 18
+    },
+    {
+      "activity" : "validate",
+      "start" : 29,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 33,
+      "length" : 133
+    },
+    {
+      "activity" : "generate2",
+      "start" : 48,
+      "length" : 179
+    },
+    {
+      "activity" : "generate2",
+      "start" : 55,
+      "length" : 14
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 67,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/StructureDefinition-ihe-france-pam-movement-identifier.json",
+    "size" : 1498,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 21,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 21,
+      "length" : 2
+    },
+    {
+      "activity" : "generateSnapshots",
+      "start" : 21,
+      "length" : 3
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 24,
+      "length" : 5
+    },
+    {
+      "activity" : "validate",
+      "start" : 27,
+      "length" : 19
+    },
+    {
+      "activity" : "checkConformanceResources",
+      "start" : 29,
+      "length" : 1
+    },
+    {
+      "activity" : "validate",
+      "start" : 29,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 33,
+      "length" : 37
+    },
+    {
+      "activity" : "generate2",
+      "start" : 48,
+      "length" : 143
+    },
+    {
+      "activity" : "generate2",
+      "start" : 55,
+      "length" : 14
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 67,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/StructureDefinition-ihe-france-pam-movement-nature.json",
+    "size" : 1593,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 21,
+      "length" : 2
+    },
+    {
+      "activity" : "load",
+      "start" : 21,
+      "length" : 2
+    },
+    {
+      "activity" : "generateSnapshots",
+      "start" : 21,
+      "length" : 3
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 24,
+      "length" : 5
+    },
+    {
+      "activity" : "validate",
+      "start" : 27,
+      "length" : 15
+    },
+    {
+      "activity" : "validate",
+      "start" : 29,
+      "length" : 1
+    },
+    {
+      "activity" : "translate",
+      "start" : 30,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 33,
+      "length" : 200
+    },
+    {
+      "activity" : "generate2",
+      "start" : 48,
+      "length" : 142
+    },
+    {
+      "activity" : "generate2",
+      "start" : 55,
+      "length" : 14
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 67,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/StructureDefinition-ihe-france-pam-nationality.json",
+    "size" : 1546,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 21,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 21,
+      "length" : 1
+    },
+    {
+      "activity" : "generateSnapshots",
+      "start" : 21,
+      "length" : 6
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 24,
+      "length" : 5
+    },
+    {
+      "activity" : "validate",
+      "start" : 27,
+      "length" : 12
+    },
+    {
+      "activity" : "checkConformanceResources",
+      "start" : 29,
+      "length" : 1
+    },
+    {
+      "activity" : "validate",
+      "start" : 29,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 33,
+      "length" : 37
+    },
+    {
+      "activity" : "generate2",
+      "start" : 48,
+      "length" : 179
+    },
+    {
+      "activity" : "generate2",
+      "start" : 55,
+      "length" : 14
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 67,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/StructureDefinition-ihe-france-pam-organization.json",
+    "size" : 1026,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 21,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 21,
+      "length" : 1
+    },
+    {
+      "activity" : "generateSnapshots",
+      "start" : 21,
+      "length" : 16
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 24,
+      "length" : 7
+    },
+    {
+      "activity" : "validate",
+      "start" : 27,
+      "length" : 36
+    },
+    {
+      "activity" : "scanForUsageStats",
+      "start" : 29,
+      "length" : 1
+    },
+    {
+      "activity" : "validate",
+      "start" : 29,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 33,
+      "length" : 75
+    },
+    {
+      "activity" : "generate2",
+      "start" : 48,
+      "length" : 196
+    },
+    {
+      "activity" : "generate2",
+      "start" : 55,
+      "length" : 46
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 67,
+      "length" : 2
+    },
+    {
+      "activity" : "scanProfilesForR5",
+      "start" : 85,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/StructureDefinition-ihe-france-pam-origin-event-code.json",
+    "size" : 1627,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 21,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 21,
+      "length" : 2
+    },
+    {
+      "activity" : "generateSnapshots",
+      "start" : 21,
+      "length" : 6
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 24,
+      "length" : 6
+    },
+    {
+      "activity" : "validate",
+      "start" : 27,
+      "length" : 15
+    },
+    {
+      "activity" : "validate",
+      "start" : 29,
+      "length" : 1
+    },
+    {
+      "activity" : "translate",
+      "start" : 30,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 33,
+      "length" : 39
+    },
+    {
+      "activity" : "generate2",
+      "start" : 49,
+      "length" : 159
+    },
+    {
+      "activity" : "generate2",
+      "start" : 55,
+      "length" : 15
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 67,
+      "length" : 2
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/StructureDefinition-ihe-france-pam-patient-class.json",
+    "size" : 1632,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 21,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 21,
+      "length" : 1
+    },
+    {
+      "activity" : "generateSnapshots",
+      "start" : 21,
+      "length" : 6
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 24,
+      "length" : 6
+    },
+    {
+      "activity" : "validate",
+      "start" : 27,
+      "length" : 12
+    },
+    {
+      "activity" : "checkConformanceResources",
+      "start" : 29,
+      "length" : 1
+    },
+    {
+      "activity" : "validate",
+      "start" : 29,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 33,
+      "length" : 38
+    },
+    {
+      "activity" : "generate2",
+      "start" : 49,
+      "length" : 118
+    },
+    {
+      "activity" : "generate2",
+      "start" : 55,
+      "length" : 15
+    },
+    {
+      "activity" : "makeDependencies",
+      "start" : 56,
+      "length" : 1
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 67,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/StructureDefinition-ihe-france-pam-patient.json",
+    "size" : 9913,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 21,
+      "length" : 3
+    },
+    {
+      "activity" : "load",
+      "start" : 21,
+      "length" : 4
+    },
+    {
+      "activity" : "generateSnapshots",
+      "start" : 21,
+      "length" : 70
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 24,
+      "length" : 46
+    },
+    {
+      "activity" : "validate",
+      "start" : 27,
+      "length" : 322
+    },
+    {
+      "activity" : "checkConformanceResources",
+      "start" : 29,
+      "length" : 1
+    },
+    {
+      "activity" : "scanForUsageStats",
+      "start" : 29,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 33,
+      "length" : 628
+    },
+    {
+      "activity" : "generate2",
+      "start" : 49,
+      "length" : 781
+    },
+    {
+      "activity" : "generate2",
+      "start" : 55,
+      "length" : 231
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 67,
+      "length" : 13
+    },
+    {
+      "activity" : "scanExamplesForR5",
+      "start" : 85,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/StructureDefinition-ihe-france-pam-planned-end.json",
+    "size" : 1410,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 21,
+      "length" : 4
+    },
+    {
+      "activity" : "load",
+      "start" : 21,
+      "length" : 2
+    },
+    {
+      "activity" : "generateSnapshots",
+      "start" : 22,
+      "length" : 4
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 25,
+      "length" : 6
+    },
+    {
+      "activity" : "validate",
+      "start" : 27,
+      "length" : 19
+    },
+    {
+      "activity" : "validate",
+      "start" : 29,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 34,
+      "length" : 49
+    },
+    {
+      "activity" : "generate2",
+      "start" : 50,
+      "length" : 114
+    },
+    {
+      "activity" : "generate2",
+      "start" : 55,
+      "length" : 14
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 67,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/StructureDefinition-ihe-france-pam-planned-start.json",
+    "size" : 1316,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 21,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 21,
+      "length" : 1
+    },
+    {
+      "activity" : "generateSnapshots",
+      "start" : 22,
+      "length" : 7
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 25,
+      "length" : 5
+    },
+    {
+      "activity" : "validate",
+      "start" : 27,
+      "length" : 34
+    },
+    {
+      "activity" : "validate",
+      "start" : 29,
+      "length" : 1
+    },
+    {
+      "activity" : "translate",
+      "start" : 30,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 34,
+      "length" : 36
+    },
+    {
+      "activity" : "generate2",
+      "start" : 50,
+      "length" : 112
+    },
+    {
+      "activity" : "generate2",
+      "start" : 55,
+      "length" : 14
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 67,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/StructureDefinition-ihe-france-pam-pmsi-movement.json",
+    "size" : 5550,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 21,
+      "length" : 3
+    },
+    {
+      "activity" : "load",
+      "start" : 21,
+      "length" : 4
+    },
+    {
+      "activity" : "generateSnapshots",
+      "start" : 22,
+      "length" : 14
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 25,
+      "length" : 17
+    },
+    {
+      "activity" : "validate",
+      "start" : 27,
+      "length" : 75
+    },
+    {
+      "activity" : "scanForUsageStats",
+      "start" : 29,
+      "length" : 1
+    },
+    {
+      "activity" : "validate",
+      "start" : 29,
+      "length" : 2
+    },
+    {
+      "activity" : "generate1",
+      "start" : 34,
+      "length" : 454
+    },
+    {
+      "activity" : "generate2",
+      "start" : 50,
+      "length" : 237
+    },
+    {
+      "activity" : "generate2",
+      "start" : 55,
+      "length" : 38
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 67,
+      "length" : 4
+    },
+    {
+      "activity" : "scanExamplesForR5",
+      "start" : 85,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/StructureDefinition-ihe-france-pam-practitioner-role.json",
+    "size" : 1069,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 21,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 21,
+      "length" : 2
+    },
+    {
+      "activity" : "generateSnapshots",
+      "start" : 22,
+      "length" : 15
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 25,
+      "length" : 13
+    },
+    {
+      "activity" : "validate",
+      "start" : 27,
+      "length" : 54
+    },
+    {
+      "activity" : "checkConformanceResources",
+      "start" : 29,
+      "length" : 1
+    },
+    {
+      "activity" : "validate",
+      "start" : 29,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 35,
+      "length" : 87
+    },
+    {
+      "activity" : "generate2",
+      "start" : 50,
+      "length" : 203
+    },
+    {
+      "activity" : "generate2",
+      "start" : 55,
+      "length" : 57
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 67,
+      "length" : 3
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/StructureDefinition-ihe-france-pam-practitioner.json",
+    "size" : 964,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 21,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 21,
+      "length" : 2
+    },
+    {
+      "activity" : "generateSnapshots",
+      "start" : 22,
+      "length" : 14
+    },
+    {
+      "activity" : "load-configure",
+      "start" : 23,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 25,
+      "length" : 8
+    },
+    {
+      "activity" : "validate",
+      "start" : 27,
+      "length" : 44
+    },
+    {
+      "activity" : "validate",
+      "start" : 29,
+      "length" : 1
+    },
+    {
+      "activity" : "translate",
+      "start" : 30,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 35,
+      "length" : 130
+    },
+    {
+      "activity" : "generate2",
+      "start" : 50,
+      "length" : 260
+    },
+    {
+      "activity" : "generate2",
+      "start" : 55,
+      "length" : 43
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 67,
+      "length" : 2
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/StructureDefinition-ihe-france-pam-professional-situation.json",
+    "size" : 3161,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 21,
+      "length" : 2
+    },
+    {
+      "activity" : "load",
+      "start" : 21,
+      "length" : 2
+    },
+    {
+      "activity" : "generateSnapshots",
+      "start" : 22,
+      "length" : 8
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 25,
+      "length" : 15
+    },
+    {
+      "activity" : "validate",
+      "start" : 27,
+      "length" : 33
+    },
+    {
+      "activity" : "checkConformanceResources",
+      "start" : 29,
+      "length" : 1
+    },
+    {
+      "activity" : "validate",
+      "start" : 29,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 35,
+      "length" : 125
+    },
+    {
+      "activity" : "generate2",
+      "start" : 51,
+      "length" : 194
+    },
+    {
+      "activity" : "generate2",
+      "start" : 55,
+      "length" : 26
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 67,
+      "length" : 2
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/StructureDefinition-ihe-france-pam-psychiatric-legal-status.json",
+    "size" : 6239,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 21,
+      "length" : 2
+    },
+    {
+      "activity" : "load",
+      "start" : 21,
+      "length" : 5
+    },
+    {
+      "activity" : "generateSnapshots",
+      "start" : 22,
+      "length" : 15
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 25,
+      "length" : 48
+    },
+    {
+      "activity" : "validate",
+      "start" : 27,
+      "length" : 61
+    },
+    {
+      "activity" : "scanForUsageStats",
+      "start" : 29,
+      "length" : 1
+    },
+    {
+      "activity" : "validate",
+      "start" : 29,
+      "length" : 1
+    },
+    {
+      "activity" : "translate",
+      "start" : 30,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 35,
+      "length" : 177
+    },
+    {
+      "activity" : "generate2",
+      "start" : 51,
+      "length" : 339
+    },
+    {
+      "activity" : "generate2",
+      "start" : 55,
+      "length" : 84
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 67,
+      "length" : 5
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/StructureDefinition-ihe-france-pam-related-person.json",
+    "size" : 1895,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 21,
+      "length" : 2
+    },
+    {
+      "activity" : "load",
+      "start" : 21,
+      "length" : 2
+    },
+    {
+      "activity" : "generateSnapshots",
+      "start" : 22,
+      "length" : 15
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 25,
+      "length" : 14
+    },
+    {
+      "activity" : "validate",
+      "start" : 27,
+      "length" : 34
+    },
+    {
+      "activity" : "checkConformanceResources",
+      "start" : 29,
+      "length" : 1
+    },
+    {
+      "activity" : "validate",
+      "start" : 29,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 35,
+      "length" : 99
+    },
+    {
+      "activity" : "generate2",
+      "start" : 51,
+      "length" : 236
+    },
+    {
+      "activity" : "generate2",
+      "start" : 55,
+      "length" : 33
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 67,
+      "length" : 3
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/StructureDefinition-ihe-france-pam-venue-protection.json",
+    "size" : 1509,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 21,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 21,
+      "length" : 2
+    },
+    {
+      "activity" : "generateSnapshots",
+      "start" : 22,
+      "length" : 4
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 25,
+      "length" : 9
+    },
+    {
+      "activity" : "validate",
+      "start" : 27,
+      "length" : 13
+    },
+    {
+      "activity" : "validate",
+      "start" : 29,
+      "length" : 1
+    },
+    {
+      "activity" : "translate",
+      "start" : 30,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 35,
+      "length" : 37
+    },
+    {
+      "activity" : "generate2",
+      "start" : 51,
+      "length" : 129
+    },
+    {
+      "activity" : "generate2",
+      "start" : 55,
+      "length" : 10
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 67,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/ValueSet-ihe-france-pam-accident-vs.json",
+    "size" : 495,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 21,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 21,
+      "length" : 2
+    },
+    {
+      "activity" : "checkR4R4B",
+      "start" : 23,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 25,
+      "length" : 25
+    },
+    {
+      "activity" : "validate",
+      "start" : 25,
+      "length" : 13
+    },
+    {
+      "activity" : "validate",
+      "start" : 29,
+      "length" : 1
+    },
+    {
+      "activity" : "translate",
+      "start" : 30,
+      "length" : 3
+    },
+    {
+      "activity" : "generate1",
+      "start" : 35,
+      "length" : 7
+    },
+    {
+      "activity" : "generate2",
+      "start" : 52,
+      "length" : 87
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/ValueSet-ihe-france-pam-admission-type-vs.json",
+    "size" : 521,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 21,
+      "length" : 2
+    },
+    {
+      "activity" : "load",
+      "start" : 21,
+      "length" : 2
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 25,
+      "length" : 2
+    },
+    {
+      "activity" : "validate",
+      "start" : 25,
+      "length" : 6
+    },
+    {
+      "activity" : "translate",
+      "start" : 30,
+      "length" : 2
+    },
+    {
+      "activity" : "generate1",
+      "start" : 35,
+      "length" : 7
+    },
+    {
+      "activity" : "generate2",
+      "start" : 52,
+      "length" : 67
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/ValueSet-ihe-france-pam-admit-source-vs.json",
+    "size" : 584,
+    "processes" : [{
+      "activity" : "load",
+      "start" : 21,
+      "length" : 2
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 25,
+      "length" : 2
+    },
+    {
+      "activity" : "validate",
+      "start" : 25,
+      "length" : 6
+    },
+    {
+      "activity" : "validate",
+      "start" : 29,
+      "length" : 1
+    },
+    {
+      "activity" : "translate",
+      "start" : 30,
+      "length" : 2
+    },
+    {
+      "activity" : "generate1",
+      "start" : 35,
+      "length" : 7
+    },
+    {
+      "activity" : "generate2",
+      "start" : 52,
+      "length" : 51
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/ValueSet-ihe-france-pam-contact-role-vs.json",
+    "size" : 662,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 21,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 21,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 25,
+      "length" : 2
+    },
+    {
+      "activity" : "validate",
+      "start" : 25,
+      "length" : 5
+    },
+    {
+      "activity" : "validate",
+      "start" : 29,
+      "length" : 1
+    },
+    {
+      "activity" : "translate",
+      "start" : 30,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 35,
+      "length" : 7
+    },
+    {
+      "activity" : "generate2",
+      "start" : 52,
+      "length" : 58
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 67,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/ValueSet-ihe-france-pam-discharge-disposition-vs.json",
+    "size" : 597,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 21,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 21,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 25,
+      "length" : 2
+    },
+    {
+      "activity" : "validate",
+      "start" : 25,
+      "length" : 7
+    },
+    {
+      "activity" : "validate",
+      "start" : 29,
+      "length" : 1
+    },
+    {
+      "activity" : "translate",
+      "start" : 30,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 35,
+      "length" : 6
+    },
+    {
+      "activity" : "generate2",
+      "start" : 52,
+      "length" : 59
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/ValueSet-ihe-france-pam-dmp-consultation-vs.json",
+    "size" : 573,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 21,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 21,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 25,
+      "length" : 2
+    },
+    {
+      "activity" : "validate",
+      "start" : 25,
+      "length" : 5
+    },
+    {
+      "activity" : "validate",
+      "start" : 29,
+      "length" : 1
+    },
+    {
+      "activity" : "translate",
+      "start" : 30,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 35,
+      "length" : 7
+    },
+    {
+      "activity" : "generate2",
+      "start" : 52,
+      "length" : 75
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/ValueSet-ihe-france-pam-dmp-feeding-vs.json",
+    "size" : 547,
+    "processes" : [{
+      "activity" : "load",
+      "start" : 21,
+      "length" : 2
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 25,
+      "length" : 2
+    },
+    {
+      "activity" : "validate",
+      "start" : 25,
+      "length" : 5
+    },
+    {
+      "activity" : "validate",
+      "start" : 29,
+      "length" : 1
+    },
+    {
+      "activity" : "translate",
+      "start" : 30,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 35,
+      "length" : 6
+    },
+    {
+      "activity" : "generate2",
+      "start" : 52,
+      "length" : 51
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/ValueSet-ihe-france-pam-dmp-status-vs.json",
+    "size" : 492,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 21,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 21,
+      "length" : 1
+    },
+    {
+      "activity" : "checkR4R4B",
+      "start" : 23,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 25,
+      "length" : 1
+    },
+    {
+      "activity" : "validate",
+      "start" : 25,
+      "length" : 6
+    },
+    {
+      "activity" : "validate",
+      "start" : 29,
+      "length" : 1
+    },
+    {
+      "activity" : "translate",
+      "start" : 30,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 35,
+      "length" : 7
+    },
+    {
+      "activity" : "generate2",
+      "start" : 52,
+      "length" : 175
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/ValueSet-ihe-france-pam-emergency-passage-vs.json",
+    "size" : 552,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 21,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 21,
+      "length" : 2
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 25,
+      "length" : 2
+    },
+    {
+      "activity" : "validate",
+      "start" : 25,
+      "length" : 4
+    },
+    {
+      "activity" : "validate",
+      "start" : 29,
+      "length" : 1
+    },
+    {
+      "activity" : "translate",
+      "start" : 30,
+      "length" : 2
+    },
+    {
+      "activity" : "generate1",
+      "start" : 35,
+      "length" : 6
+    },
+    {
+      "activity" : "generate2",
+      "start" : 52,
+      "length" : 48
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/ValueSet-ihe-france-pam-identifier-type-vs.json",
+    "size" : 517,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 21,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 21,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 25,
+      "length" : 2
+    },
+    {
+      "activity" : "validate",
+      "start" : 25,
+      "length" : 5
+    },
+    {
+      "activity" : "validate",
+      "start" : 29,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 35,
+      "length" : 6
+    },
+    {
+      "activity" : "generate2",
+      "start" : 52,
+      "length" : 57
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/ValueSet-ihe-france-pam-identity-document-vs.json",
+    "size" : 546,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 21,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 21,
+      "length" : 2
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 25,
+      "length" : 2
+    },
+    {
+      "activity" : "validate",
+      "start" : 25,
+      "length" : 6
+    },
+    {
+      "activity" : "validate",
+      "start" : 29,
+      "length" : 1
+    },
+    {
+      "activity" : "translate",
+      "start" : 30,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 35,
+      "length" : 7
+    },
+    {
+      "activity" : "generate2",
+      "start" : 52,
+      "length" : 52
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 67,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/ValueSet-ihe-france-pam-identity-means-vs.json",
+    "size" : 530,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 21,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 21,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 25,
+      "length" : 2
+    },
+    {
+      "activity" : "validate",
+      "start" : 25,
+      "length" : 5
+    },
+    {
+      "activity" : "validate",
+      "start" : 29,
+      "length" : 1
+    },
+    {
+      "activity" : "translate",
+      "start" : 30,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 35,
+      "length" : 6
+    },
+    {
+      "activity" : "generate2",
+      "start" : 52,
+      "length" : 50
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/ValueSet-ihe-france-pam-identity-status-vs.json",
+    "size" : 540,
+    "processes" : [{
+      "activity" : "load",
+      "start" : 21,
+      "length" : 2
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 25,
+      "length" : 1
+    },
+    {
+      "activity" : "validate",
+      "start" : 25,
+      "length" : 5
+    },
+    {
+      "activity" : "validate",
+      "start" : 29,
+      "length" : 1
+    },
+    {
+      "activity" : "translate",
+      "start" : 30,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 35,
+      "length" : 7
+    },
+    {
+      "activity" : "generate2",
+      "start" : 52,
+      "length" : 66
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/ValueSet-ihe-france-pam-legal-care-mode-vs.json",
+    "size" : 540,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 21,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 21,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 25,
+      "length" : 2
+    },
+    {
+      "activity" : "validate",
+      "start" : 25,
+      "length" : 6
+    },
+    {
+      "activity" : "validate",
+      "start" : 29,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 35,
+      "length" : 8
+    },
+    {
+      "activity" : "generate2",
+      "start" : 52,
+      "length" : 52
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/ValueSet-ihe-france-pam-movement-action-vs.json",
+    "size" : 518,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 21,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 21,
+      "length" : 2
+    },
+    {
+      "activity" : "checkR4R4B",
+      "start" : 23,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 25,
+      "length" : 2
+    },
+    {
+      "activity" : "validate",
+      "start" : 25,
+      "length" : 5
+    },
+    {
+      "activity" : "validate",
+      "start" : 29,
+      "length" : 1
+    },
+    {
+      "activity" : "translate",
+      "start" : 30,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 35,
+      "length" : 6
+    },
+    {
+      "activity" : "generate2",
+      "start" : 52,
+      "length" : 50
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/ValueSet-ihe-france-pam-movement-nature-vs.json",
+    "size" : 523,
+    "processes" : [{
+      "activity" : "load",
+      "start" : 21,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 25,
+      "length" : 2
+    },
+    {
+      "activity" : "validate",
+      "start" : 25,
+      "length" : 6
+    },
+    {
+      "activity" : "validate",
+      "start" : 29,
+      "length" : 1
+    },
+    {
+      "activity" : "translate",
+      "start" : 30,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 35,
+      "length" : 7
+    },
+    {
+      "activity" : "generate2",
+      "start" : 53,
+      "length" : 52
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/ValueSet-ihe-france-pam-patient-class-vs.json",
+    "size" : 503,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 21,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 21,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 25,
+      "length" : 2
+    },
+    {
+      "activity" : "validate",
+      "start" : 25,
+      "length" : 5
+    },
+    {
+      "activity" : "validate",
+      "start" : 29,
+      "length" : 1
+    },
+    {
+      "activity" : "translate",
+      "start" : 30,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 35,
+      "length" : 6
+    },
+    {
+      "activity" : "generate2",
+      "start" : 53,
+      "length" : 48
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 67,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/ValueSet-ihe-france-pam-pmsi-entry-mode-vs.json",
+    "size" : 522,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 21,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 21,
+      "length" : 3
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 25,
+      "length" : 4
+    },
+    {
+      "activity" : "validate",
+      "start" : 25,
+      "length" : 5
+    },
+    {
+      "activity" : "validate",
+      "start" : 29,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 35,
+      "length" : 6
+    },
+    {
+      "activity" : "generate2",
+      "start" : 53,
+      "length" : 97
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/ValueSet-ihe-france-pam-pmsi-exit-mode-vs.json",
+    "size" : 517,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 21,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 21,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 25,
+      "length" : 2
+    },
+    {
+      "activity" : "validate",
+      "start" : 25,
+      "length" : 4
+    },
+    {
+      "activity" : "validate",
+      "start" : 29,
+      "length" : 1
+    },
+    {
+      "activity" : "translate",
+      "start" : 30,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 35,
+      "length" : 7
+    },
+    {
+      "activity" : "generate2",
+      "start" : 53,
+      "length" : 49
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/ValueSet-ihe-france-pam-professional-activity-vs.json",
+    "size" : 588,
+    "processes" : [{
+      "activity" : "load",
+      "start" : 21,
+      "length" : 4
+    },
+    {
+      "activity" : "scan",
+      "start" : 23,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 25,
+      "length" : 2
+    },
+    {
+      "activity" : "validate",
+      "start" : 25,
+      "length" : 5
+    },
+    {
+      "activity" : "validate",
+      "start" : 29,
+      "length" : 1
+    },
+    {
+      "activity" : "translate",
+      "start" : 30,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 35,
+      "length" : 7
+    },
+    {
+      "activity" : "generate2",
+      "start" : 53,
+      "length" : 163
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/ValueSet-ihe-france-pam-professional-category-vs.json",
+    "size" : 589,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 21,
+      "length" : 2
+    },
+    {
+      "activity" : "load",
+      "start" : 21,
+      "length" : 2
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 25,
+      "length" : 1
+    },
+    {
+      "activity" : "validate",
+      "start" : 25,
+      "length" : 5
+    },
+    {
+      "activity" : "validate",
+      "start" : 29,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 35,
+      "length" : 6
+    },
+    {
+      "activity" : "generate2",
+      "start" : 53,
+      "length" : 51
+    },
+    {
+      "activity" : "scanExamplesForR5",
+      "start" : 85,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/ValueSet-ihe-france-pam-provider-role-vs.json",
+    "size" : 513,
+    "processes" : [{
+      "activity" : "load",
+      "start" : 21,
+      "length" : 2
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 25,
+      "length" : 2
+    },
+    {
+      "activity" : "validate",
+      "start" : 25,
+      "length" : 4
+    },
+    {
+      "activity" : "validate",
+      "start" : 29,
+      "length" : 1
+    },
+    {
+      "activity" : "translate",
+      "start" : 30,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 35,
+      "length" : 8
+    },
+    {
+      "activity" : "generate2",
+      "start" : 53,
+      "length" : 51
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/ValueSet-ihe-france-pam-relationship-vs.json",
+    "size" : 555,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 21,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 21,
+      "length" : 1
+    },
+    {
+      "activity" : "checkR4R4B",
+      "start" : 23,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 25,
+      "length" : 2
+    },
+    {
+      "activity" : "validate",
+      "start" : 25,
+      "length" : 5
+    },
+    {
+      "activity" : "validate",
+      "start" : 29,
+      "length" : 1
+    },
+    {
+      "activity" : "translate",
+      "start" : 30,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 35,
+      "length" : 8
+    },
+    {
+      "activity" : "generate2",
+      "start" : 53,
+      "length" : 53
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 67,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/ValueSet-ihe-france-pam-rimp-vs.json",
+    "size" : 501,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 21,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 21,
+      "length" : 2
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 25,
+      "length" : 2
+    },
+    {
+      "activity" : "validate",
+      "start" : 25,
+      "length" : 5
+    },
+    {
+      "activity" : "validate",
+      "start" : 29,
+      "length" : 1
+    },
+    {
+      "activity" : "translate",
+      "start" : 30,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 35,
+      "length" : 7
+    },
+    {
+      "activity" : "generate2",
+      "start" : 53,
+      "length" : 104
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/ValueSet-ihe-france-pam-transport-care-vs.json",
+    "size" : 535,
+    "processes" : [{
+      "activity" : "load",
+      "start" : 21,
+      "length" : 2
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 25,
+      "length" : 2
+    },
+    {
+      "activity" : "validate",
+      "start" : 25,
+      "length" : 5
+    },
+    {
+      "activity" : "validate",
+      "start" : 29,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 35,
+      "length" : 8
+    },
+    {
+      "activity" : "generate2",
+      "start" : 53,
+      "length" : 36
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/ValueSet-ihe-france-pam-transport-mode-vs.json",
+    "size" : 508,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 21,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 21,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 25,
+      "length" : 2
+    },
+    {
+      "activity" : "validate",
+      "start" : 25,
+      "length" : 5
+    },
+    {
+      "activity" : "validate",
+      "start" : 29,
+      "length" : 1
+    },
+    {
+      "activity" : "translate",
+      "start" : 30,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 35,
+      "length" : 8
+    },
+    {
+      "activity" : "generate2",
+      "start" : 53,
+      "length" : 181
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/ValueSet-ihe-france-pam-trigger-event-vs.json",
+    "size" : 524,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 21,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 21,
+      "length" : 2
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 25,
+      "length" : 2
+    },
+    {
+      "activity" : "validate",
+      "start" : 25,
+      "length" : 4
+    },
+    {
+      "activity" : "validate",
+      "start" : 29,
+      "length" : 1
+    },
+    {
+      "activity" : "translate",
+      "start" : 30,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 35,
+      "length" : 8
+    },
+    {
+      "activity" : "generate2",
+      "start" : 53,
+      "length" : 76
+    }]
+  },
+  {
+    "name" : "/input/includes/fragment-css.html",
+    "size" : 318,
+    "processes" : [{
+      "activity" : "validate",
+      "start" : 29,
+      "length" : 1
+    },
+    {
+      "activity" : "generate2",
+      "start" : 53,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "/fsh-generated/includes/fsh-link-references.md",
+    "size" : 7996,
+    "processes" : [{
+      "activity" : "validate",
+      "start" : 29,
+      "length" : 1
+    },
+    {
+      "activity" : "generate2",
+      "start" : 53,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "/fsh-generated/includes/menu.xml",
+    "size" : 2937,
+    "processes" : [{
+      "activity" : "validate",
+      "start" : 29,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "/input/data/features.yml",
+    "size" : 167,
+    "processes" : [{
+      "activity" : "validate",
+      "start" : 29,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "/input/pagecontent/examples.md",
+    "size" : 1457,
+    "processes" : [{
+      "activity" : "validate",
+      "start" : 29,
+      "length" : 1
+    },
+    {
+      "activity" : "generate2",
+      "start" : 53,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "/input/pagecontent/hl7v2-datatypes.md",
+    "size" : 3874,
+    "processes" : [{
+      "activity" : "validate",
+      "start" : 29,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "/input/pagecontent/actors-transactions.md",
+    "size" : 7358,
+    "processes" : [{
+      "activity" : "validate",
+      "start" : 29,
+      "length" : 1
+    },
+    {
+      "activity" : "generate2",
+      "start" : 53,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "/input/pagecontent/hl7v2-to-fhir.md",
+    "size" : 16217,
+    "processes" : [{
+      "activity" : "validate",
+      "start" : 29,
+      "length" : 1
+    },
+    {
+      "activity" : "generate2",
+      "start" : 53,
+      "length" : 2
+    }]
+  },
+  {
+    "name" : "/input/pagecontent/content-modules.md",
+    "size" : 2412,
+    "processes" : [{
+      "activity" : "validate",
+      "start" : 29,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "/input/pagecontent/index.md",
+    "size" : 3829,
+    "processes" : [{
+      "activity" : "validate",
+      "start" : 29,
+      "length" : 1
+    },
+    {
+      "activity" : "generate2",
+      "start" : 53,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "/input/pagecontent/translationinfo.md",
+    "size" : 398,
+    "processes" : [{
+      "activity" : "validate",
+      "start" : 29,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "/input/pagecontent/publications.md",
+    "size" : 3109,
+    "processes" : [{
+      "activity" : "validate",
+      "start" : 29,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "/input/pagecontent/downloads.md",
+    "size" : 680,
+    "processes" : [{
+      "activity" : "validate",
+      "start" : 29,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "/input/pagecontent/conformite.md",
+    "size" : 2215,
+    "processes" : [{
+      "activity" : "validate",
+      "start" : 29,
+      "length" : 1
+    },
+    {
+      "activity" : "generate2",
+      "start" : 53,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "/input/pagecontent/volume-1.md",
+    "size" : 2860,
+    "processes" : [{
+      "activity" : "validate",
+      "start" : 29,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "/input/pagecontent/security.md",
+    "size" : 2563,
+    "processes" : [{
+      "activity" : "validate",
+      "start" : 29,
+      "length" : 1
+    },
+    {
+      "activity" : "generate2",
+      "start" : 53,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "/template/config",
+    "size" : 0,
+    "processes" : [{
+      "activity" : "validate",
+      "start" : 29,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "/template/config/_config.yml",
+    "size" : 31,
+    "processes" : [{
+      "activity" : "validate",
+      "start" : 29,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "/input/assets",
+    "size" : 0,
+    "processes" : [{
+      "activity" : "validate",
+      "start" : 29,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "/input/assets/js",
+    "size" : 0,
+    "processes" : [{
+      "activity" : "validate",
+      "start" : 29,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "/input/assets/js/pam-cleanup.js",
+    "size" : 926,
+    "processes" : [{
+      "activity" : "validate",
+      "start" : 29,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "/input/assets/publications",
+    "size" : 0,
+    "processes" : [{
+      "activity" : "validate",
+      "start" : 29,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "/input/assets/publications/Publication-IHE_FRANCE_PAM_National_Extension_v2.11.1.pdf",
+    "size" : 2520119,
+    "processes" : [{
+      "activity" : "validate",
+      "start" : 29,
+      "length" : 1
+    },
+    {
+      "activity" : "generate2",
+      "start" : 53,
+      "length" : 3
+    }]
+  },
+  {
+    "name" : "/input/assets/publications/Publication-IHE_FRANCE_PAM_National_Extension_v2.5.pdf",
+    "size" : 1971405,
+    "processes" : [{
+      "activity" : "validate",
+      "start" : 29,
+      "length" : 1
+    },
+    {
+      "activity" : "generate2",
+      "start" : 53,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "/input/assets/publications/IHE_France_Constraints_on_HL7_data_types_for_ITI_V1.7.3.pdf",
+    "size" : 1072171,
+    "processes" : [{
+      "activity" : "validate",
+      "start" : 29,
+      "length" : 1
+    },
+    {
+      "activity" : "generate2",
+      "start" : 53,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "/input/assets/publications/Publication-IHE_FRANCE_PAM_National_Extension_v2.11.pdf",
+    "size" : 2541310,
+    "processes" : [{
+      "activity" : "validate",
+      "start" : 29,
+      "length" : 1
+    },
+    {
+      "activity" : "generate2",
+      "start" : 53,
+      "length" : 2
+    }]
+  },
+  {
+    "name" : "/input/assets/publications/Publication-IHE_FRANCE_PAM_National_Extension_v2.4.pdf",
+    "size" : 2577825,
+    "processes" : [{
+      "activity" : "validate",
+      "start" : 29,
+      "length" : 1
+    },
+    {
+      "activity" : "generate2",
+      "start" : 53,
+      "length" : 2
+    }]
+  },
+  {
+    "name" : "/input/assets/publications/Publication-IHE_FRANCE_PAM_National_Extension_v2.3.pdf",
+    "size" : 2042795,
+    "processes" : [{
+      "activity" : "validate",
+      "start" : 29,
+      "length" : 1
+    },
+    {
+      "activity" : "generate2",
+      "start" : 53,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "/input/assets/publications/IHE_France_Constraints_on_HL7_data_types_for_ITI_V1.3.pdf",
+    "size" : 796523,
+    "processes" : [{
+      "activity" : "validate",
+      "start" : 29,
+      "length" : 1
+    },
+    {
+      "activity" : "generate2",
+      "start" : 53,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "/input/assets/publications/IHE_France_Constraints_on_HL7_data_types_for_ITI_V1.8.2.pdf",
+    "size" : 1317631,
+    "processes" : [{
+      "activity" : "validate",
+      "start" : 29,
+      "length" : 1
+    },
+    {
+      "activity" : "generate2",
+      "start" : 53,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "/input/assets/publications/Publication-IHE_FRANCE_PAM_National_Extension_v2.11.2.pdf",
+    "size" : 3854820,
+    "processes" : [{
+      "activity" : "validate",
+      "start" : 29,
+      "length" : 1
+    },
+    {
+      "activity" : "generate2",
+      "start" : 53,
+      "length" : 3
+    }]
+  },
+  {
+    "name" : "/input/assets/publications/Publication-IHE_FRANCE_PAM_National_Extension_v2.8.pdf",
+    "size" : 1483378,
+    "processes" : [{
+      "activity" : "validate",
+      "start" : 29,
+      "length" : 1
+    },
+    {
+      "activity" : "generate2",
+      "start" : 53,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "/input/assets/publications/Publication-IHE_FRANCE_PAM_National_Extension_v2.9.pdf",
+    "size" : 1552891,
+    "processes" : [{
+      "activity" : "validate",
+      "start" : 29,
+      "length" : 2
+    },
+    {
+      "activity" : "generate2",
+      "start" : 53,
+      "length" : 2
+    }]
+  },
+  {
+    "name" : "/input/assets/publications/IHE_France_Constraints_on_HL7_data_types_for_ITI_V1.6.pdf",
+    "size" : 576881
+  },
+  {
+    "name" : "/input/assets/publications/Publication-IHE_FRANCE_PAM_National_Extension_v2.7.pdf",
+    "size" : 2088592,
+    "processes" : [{
+      "activity" : "validate",
+      "start" : 29,
+      "length" : 1
+    },
+    {
+      "activity" : "generate2",
+      "start" : 54,
+      "length" : 2
+    }]
+  },
+  {
+    "name" : "/input/assets/publications/IHE_France_Constraints_on_HL7_data_types_for_ITI_V1.5.pdf",
+    "size" : 1019971,
+    "processes" : [{
+      "activity" : "validate",
+      "start" : 29,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "/input/assets/publications/Publication-IHE_FRANCE_PAM_National_Extension_v2.10.5.pdf",
+    "size" : 2482890,
+    "processes" : [{
+      "activity" : "generate2",
+      "start" : 54,
+      "length" : 2
+    }]
+  },
+  {
+    "name" : "/input/assets/publications/IHE_France_Constraints_on_HL7_data_types_for_ITI_V1.8.1.pdf",
+    "size" : 1105500,
+    "processes" : [{
+      "activity" : "validate",
+      "start" : 29,
+      "length" : 1
+    },
+    {
+      "activity" : "generate2",
+      "start" : 54,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "/input/assets/publications/Publication-IHE_FRANCE_PAM_National_Extension_v2.6.pdf",
+    "size" : 1529762,
+    "processes" : [{
+      "activity" : "validate",
+      "start" : 29,
+      "length" : 1
+    },
+    {
+      "activity" : "generate2",
+      "start" : 54,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "/input/assets/publications/IHE_France_Constraints_on_HL7_data_types_for_ITI_V1.4.pdf",
+    "size" : 1053986,
+    "processes" : [{
+      "activity" : "validate",
+      "start" : 29,
+      "length" : 1
+    },
+    {
+      "activity" : "generate2",
+      "start" : 54,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "/input/assets/publications/IHE_France_Constraints_on_HL7_data_types_for_ITI_V1.8.pdf",
+    "size" : 1084762
+  },
+  {
+    "name" : "/input/assets/css",
+    "size" : 0,
+    "processes" : [{
+      "activity" : "validate",
+      "start" : 29,
+      "length" : 1
+    },
+    {
+      "activity" : "generate2",
+      "start" : 54,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "/input/assets/css/pam-overrides.css",
+    "size" : 302,
+    "processes" : [{
+      "activity" : "validate",
+      "start" : 29,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "/input/images",
+    "size" : 0,
+    "processes" : [{
+      "activity" : "validate",
+      "start" : 29,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "/input/images/fr.png",
+    "size" : 98,
+    "processes" : [{
+      "activity" : "validate",
+      "start" : 29,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "/temp/pages/_includes/artifacts.xml",
+    "size" : 216
+  },
+  {
+    "name" : "/temp/pages/_includes/fragment-artifacts-table.html",
+    "size" : 3443,
+    "processes" : [{
+      "activity" : "generate2",
+      "start" : 54,
+      "length" : 1
+    }]
+  }]
+}

@@ -1,0 +1,58 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "ihe-france-pam-movement-action-cs",
+  "language" : "fr",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xml:lang=\"fr\" lang=\"fr\"><hr/><p><b>French</b></p><hr/><p class=\"res-header-id\"><b>Narratif généré : CodeSystem ihe-france-pam-movement-action-cs</b></p><a name=\"ihe-france-pam-movement-action-cs\"> </a><a name=\"hcihe-france-pam-movement-action-cs\"> </a><p>This case-sensitive code system <code>https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-movement-action-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Affichage</b></td><td><b>Définition</b></td></tr><tr><td style=\"white-space:nowrap\">INSERT<a name=\"ihe-france-pam-movement-action-cs-INSERT\"> </a></td><td>Insertion d'un mouvement</td><td>Insertion d'un nouveau mouvement en fin de séquence.</td></tr><tr><td style=\"white-space:nowrap\">UPDATE<a name=\"ihe-france-pam-movement-action-cs-UPDATE\"> </a></td><td>Mise à jour d'un mouvement</td><td>Correction du mouvement, courant ou historique (événement Z99).</td></tr><tr><td style=\"white-space:nowrap\">CANCEL<a name=\"ihe-france-pam-movement-action-cs-CANCEL\"> </a></td><td>Annulation d'un mouvement</td><td>Annulation d'un mouvement de la séquence.</td></tr></table></div>"
+  },
+  "url" : "https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-movement-action-cs",
+  "version" : "0.1.0",
+  "name" : "IHEFrancePamMovementActionCS",
+  "title" : "IHE France PAM Movement Action CodeSystem",
+  "status" : "draft",
+  "experimental" : false,
+  "date" : "2026-10-28T10:06:53+00:00",
+  "publisher" : "IHE France",
+  "contact" : [{
+    "name" : "IHE France",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://www.ihe-france.org"
+    }]
+  },
+  {
+    "name" : "IHE France",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://www.ihe-france.org",
+      "use" : "work"
+    }]
+  }],
+  "description" : "Action portant sur un mouvement (ZBE-4) ou sur un mode légal de soins (ZFS-5).",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR",
+      "display" : "France (la)"
+    }]
+  }],
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 3,
+  "concept" : [{
+    "code" : "INSERT",
+    "display" : "Insertion d'un mouvement",
+    "definition" : "Insertion d'un nouveau mouvement en fin de séquence."
+  },
+  {
+    "code" : "UPDATE",
+    "display" : "Mise à jour d'un mouvement",
+    "definition" : "Correction du mouvement, courant ou historique (événement Z99)."
+  },
+  {
+    "code" : "CANCEL",
+    "display" : "Annulation d'un mouvement",
+    "definition" : "Annulation d'un mouvement de la séquence."
+  }]
+}

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="ihe-france-pam-identity-means-cs"/>
+  <language value="fr"/>
+  <text>
+    <status value="generated"/><div xml:lang="fr" lang="fr"><hr/><p><b>French</b></p><hr/><p class="res-header-id"><b>Narratif généré : CodeSystem ihe-france-pam-identity-means-cs</b></p><a name="ihe-france-pam-identity-means-cs"> </a><a name="hcihe-france-pam-identity-means-cs"> </a><p>This case-sensitive code system <code>https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-identity-means-cs</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Affichage</b></td><td><b>Définition</b></td></tr><tr><td style="white-space:nowrap">SM<a name="ihe-france-pam-identity-means-cs-SM"> </a></td><td>Saisie manuelle</td><td>Traits d'identité saisis manuellement.</td></tr><tr><td style="white-space:nowrap">CV<a name="ihe-france-pam-identity-means-cs-CV"> </a></td><td>Carte vitale</td><td>Traits d'identité obtenus à partir de la carte Vitale.</td></tr><tr><td style="white-space:nowrap">INSI<a name="ihe-france-pam-identity-means-cs-INSI"> </a></td><td>Téléservice INSi</td><td>Traits d'identité obtenus par le téléservice INSi.</td></tr><tr><td style="white-space:nowrap">CB<a name="ihe-france-pam-identity-means-cs-CB"> </a></td><td>Code à barre</td><td>Traits d'identité obtenus par lecture d'un code à barre.</td></tr><tr><td style="white-space:nowrap">RFID<a name="ihe-france-pam-identity-means-cs-RFID"> </a></td><td>Puce RFID</td><td>Traits d'identité obtenus par lecture d'une puce RFID.</td></tr></table></div>
+  </text>
+  <url value="https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-identity-means-cs"/>
+  <version value="0.1.0"/>
+  <name value="IHEFrancePamIdentityMeansCS"/>
+  <title value="IHE France PAM Identity Means CodeSystem"/>
+  <status value="draft"/>
+  <experimental value="false"/>
+  <date value="2026-10-28T10:06:53+00:00"/>
+  <publisher value="IHE France"/>
+  <contact>
+    <name value="IHE France"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.ihe-france.org"/>
+    </telecom>
+  </contact>
+  <contact>
+    <name value="IHE France"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.ihe-france.org"/>
+      <use value="work"/>
+    </telecom>
+  </contact>
+  <description value="Mode d'obtention de l'identité (ZFD-5, table IHE-FRANCE-ZFD-5)."/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="FR"/>
+      <display value="France (la)"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="5"/>
+  <concept>
+    <code value="SM"/>
+    <display value="Saisie manuelle"/>
+    <definition value="Traits d'identité saisis manuellement."/>
+  </concept>
+  <concept>
+    <code value="CV"/>
+    <display value="Carte vitale"/>
+    <definition value="Traits d'identité obtenus à partir de la carte Vitale."/>
+  </concept>
+  <concept>
+    <code value="INSI"/>
+    <display value="Téléservice INSi"/>
+    <definition value="Traits d'identité obtenus par le téléservice INSi."/>
+  </concept>
+  <concept>
+    <code value="CB"/>
+    <display value="Code à barre"/>
+    <definition value="Traits d'identité obtenus par lecture d'un code à barre."/>
+  </concept>
+  <concept>
+    <code value="RFID"/>
+    <display value="Puce RFID"/>
+    <definition value="Traits d'identité obtenus par lecture d'une puce RFID."/>
+  </concept>
+</CodeSystem>

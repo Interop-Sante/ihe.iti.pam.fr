@@ -1,0 +1,104 @@
+# IHE France PAM Historic Movement Indicator - IHE PAM France v0.1.0
+
+## Extension: IHE France PAM Historic Movement Indicator 
+
+**Context of Use**
+
+**Usage info**
+
+**Usages:**
+
+* Use this Extension: [IHE France PAM Encounter](StructureDefinition-ihe-france-pam-encounter.md)
+* Examples for this Extension: [Encounter/example-ihe-france-pam-encounter](Encounter-example-ihe-france-pam-encounter.md)
+
+You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/resource/ihe.fr.pam|current/StructureDefinition/StructureDefinition-ihe-france-pam-historic-movement-indicator.json)
+
+### Formal Views of Extension Content
+
+ [Description Differentials, Snapshots, and other representations](http://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#structure-definitions). 
+
+ 
+
+Other representations of profile: [CSV](../StructureDefinition-ihe-france-pam-historic-movement-indicator.csv), [Excel](../StructureDefinition-ihe-france-pam-historic-movement-indicator.xlsx), [Schematron](../StructureDefinition-ihe-france-pam-historic-movement-indicator.sch) 
+
+
+
+## Resource Content
+
+```json
+{
+  "resourceType" : "StructureDefinition",
+  "id" : "ihe-france-pam-historic-movement-indicator",
+  "url" : "https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-historic-movement-indicator",
+  "version" : "0.1.0",
+  "name" : "IHEFrancePamHistoricMovementIndicator",
+  "title" : "IHE France PAM Historic Movement Indicator",
+  "status" : "draft",
+  "date" : "2026-10-28T10:01:53+00:00",
+  "publisher" : "IHE France",
+  "contact" : [{
+    "name" : "IHE France",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://www.ihe-france.org"
+    }]
+  },
+  {
+    "name" : "IHE France",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://www.ihe-france.org",
+      "use" : "work"
+    }]
+  }],
+  "description" : "Indicateur de mouvement historique (ZBE-5) : vrai pour un mouvement ancien de la séquence, faux pour le mouvement courant.",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR",
+      "display" : "France (la)"
+    }]
+  }],
+  "fhirVersion" : "4.0.1",
+  "mapping" : [{
+    "identity" : "rim",
+    "uri" : "http://hl7.org/v3",
+    "name" : "RIM Mapping"
+  }],
+  "kind" : "complex-type",
+  "abstract" : false,
+  "context" : [{
+    "type" : "element",
+    "expression" : "Encounter"
+  }],
+  "type" : "Extension",
+  "baseDefinition" : "http://hl7.org/fhir/StructureDefinition/Extension|4.0.1",
+  "derivation" : "constraint",
+  "differential" : {
+    "element" : [{
+      "id" : "Extension",
+      "path" : "Extension",
+      "short" : "IHE France PAM Historic Movement Indicator",
+      "definition" : "Indicateur de mouvement historique (ZBE-5) : vrai pour un mouvement ancien de la séquence, faux pour le mouvement courant."
+    },
+    {
+      "id" : "Extension.extension",
+      "path" : "Extension.extension",
+      "max" : "0"
+    },
+    {
+      "id" : "Extension.url",
+      "path" : "Extension.url",
+      "fixedUri" : "https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-historic-movement-indicator"
+    },
+    {
+      "id" : "Extension.value[x]",
+      "path" : "Extension.value[x]",
+      "type" : [{
+        "code" : "boolean"
+      }]
+    }]
+  }
+}
+
+```

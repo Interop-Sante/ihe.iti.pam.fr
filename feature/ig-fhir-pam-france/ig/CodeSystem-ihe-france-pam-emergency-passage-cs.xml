@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="ihe-france-pam-emergency-passage-cs"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><div xml:lang="fr" lang="fr"><hr/><p><b>French</b></p><hr/><p class="res-header-id"><b>Narratif généré : CodeSystem ihe-france-pam-emergency-passage-cs</b></p><a name="ihe-france-pam-emergency-passage-cs"> </a><a name="hcihe-france-pam-emergency-passage-cs"> </a><p>This case-sensitive code system <code>https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-emergency-passage-cs</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Affichage</b></td><td><b>Définition</b></td></tr><tr><td style="white-space:nowrap">5<a name="ihe-france-pam-emergency-passage-cs-5"> </a></td><td>Même entité géographique</td><td>Passage par une structure des urgences de la même entité géographique (y compris l'UHCD).</td></tr><tr><td style="white-space:nowrap">U<a name="ihe-france-pam-emergency-passage-cs-U"> </a></td><td>Autre entité géographique</td><td>Passage par une structure des urgences d'une autre entité géographique (y compris l'UHCD).</td></tr><tr><td style="white-space:nowrap">V<a name="ihe-france-pam-emergency-passage-cs-V"> </a></td><td>Autre entité géographique et entité de l'établissement</td><td>Passage par une structure des urgences d'une autre entité géographique et par celle de l'entité géographique de l'établissement (UHCD comprises).</td></tr></table></div><div xml:lang="en" lang="en"><hr/><p><b>English</b></p><hr/><p class="res-header-id"><b>Generated Narrative: CodeSystem ihe-france-pam-emergency-passage-cs</b></p><a name="en-ihe-france-pam-emergency-passage-cs"> </a><a name="en-hcihe-france-pam-emergency-passage-cs"> </a><p>This case-sensitive code system <code>https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-emergency-passage-cs</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap">5<a name="en-ihe-france-pam-emergency-passage-cs-5"> </a></td><td>Même entité géographique</td><td>Passage par une structure des urgences de la même entité géographique (y compris l'UHCD).</td></tr><tr><td style="white-space:nowrap">U<a name="en-ihe-france-pam-emergency-passage-cs-U"> </a></td><td>Autre entité géographique</td><td>Passage par une structure des urgences d'une autre entité géographique (y compris l'UHCD).</td></tr><tr><td style="white-space:nowrap">V<a name="en-ihe-france-pam-emergency-passage-cs-V"> </a></td><td>Autre entité géographique et entité de l'établissement</td><td>Passage par une structure des urgences d'une autre entité géographique et par celle de l'entité géographique de l'établissement (UHCD comprises).</td></tr></table></div></div>
+  </text>
+  <url value="https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-emergency-passage-cs"/>
+  <version value="0.1.0"/>
+  <name value="IHEFrancePamEmergencyPassageCS"/>
+  <title value="IHE France PAM Emergency Passage CodeSystem"/>
+  <status value="draft"/>
+  <experimental value="false"/>
+  <date value="2026-10-28T10:06:53+00:00"/>
+  <publisher value="IHE France"/>
+  <contact>
+    <name value="IHE France"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.ihe-france.org"/>
+    </telecom>
+  </contact>
+  <contact>
+    <name value="IHE France"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.ihe-france.org"/>
+      <use value="work"/>
+    </telecom>
+  </contact>
+  <description value="Passage par une structure des urgences (ZFM-5, table IHE-FRANCE-ZFM-5)."/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="FR"/>
+      <display value="France (la)"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="3"/>
+  <concept>
+    <code value="5"/>
+    <display value="Même entité géographique"/>
+    <definition value="Passage par une structure des urgences de la même entité géographique (y compris l'UHCD)."/>
+  </concept>
+  <concept>
+    <code value="U"/>
+    <display value="Autre entité géographique"/>
+    <definition value="Passage par une structure des urgences d'une autre entité géographique (y compris l'UHCD)."/>
+  </concept>
+  <concept>
+    <code value="V"/>
+    <display value="Autre entité géographique et entité de l'établissement"/>
+    <definition value="Passage par une structure des urgences d'une autre entité géographique et par celle de l'entité géographique de l'établissement (UHCD comprises)."/>
+  </concept>
+</CodeSystem>

@@ -1,0 +1,77 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "ihe-france-pam-admission-type-cs",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div xml:lang=\"fr\" lang=\"fr\"><hr/><p><b>French</b></p><hr/><p class=\"res-header-id\"><b>Narratif généré : CodeSystem ihe-france-pam-admission-type-cs</b></p><a name=\"ihe-france-pam-admission-type-cs\"> </a><a name=\"hcihe-france-pam-admission-type-cs\"> </a><p>This case-sensitive code system <code>https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-admission-type-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Affichage</b></td><td><b>Définition</b></td></tr><tr><td style=\"white-space:nowrap\">C<a name=\"ihe-france-pam-admission-type-cs-C\"> </a></td><td>Confort</td><td>Confort (chirurgie esthétique).</td></tr><tr><td style=\"white-space:nowrap\">L<a name=\"ihe-france-pam-admission-type-cs-L\"> </a></td><td>Accouchement maternité</td><td>Accouchement maternité.</td></tr><tr><td style=\"white-space:nowrap\">N<a name=\"ihe-france-pam-admission-type-cs-N\"> </a></td><td>Nouveau-né</td><td>Nouveau-né.</td></tr><tr><td style=\"white-space:nowrap\">R<a name=\"ihe-france-pam-admission-type-cs-R\"> </a></td><td>Routine</td><td>Routine (valeur par défaut).</td></tr><tr><td style=\"white-space:nowrap\">U<a name=\"ihe-france-pam-admission-type-cs-U\"> </a></td><td>Urgent</td><td>Caractère d'urgence aiguë du problème, quel que soit le service d'entrée.</td></tr><tr><td style=\"white-space:nowrap\">RM<a name=\"ihe-france-pam-admission-type-cs-RM\"> </a></td><td>Rétrocession de médicament</td><td>Valeur ajoutée par IHE France pour caractériser les venues pour rétrocession médicamenteuse.</td></tr><tr><td style=\"white-space:nowrap\">IE<a name=\"ihe-france-pam-admission-type-cs-IE\"> </a></td><td>Prestation inter-établissements</td><td>Valeur ajoutée par IHE France pour caractériser les venues pour prestation facturée à un autre établissement demandeur.</td></tr></table></div><div xml:lang=\"en\" lang=\"en\"><hr/><p><b>English</b></p><hr/><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem ihe-france-pam-admission-type-cs</b></p><a name=\"en-ihe-france-pam-admission-type-cs\"> </a><a name=\"en-hcihe-france-pam-admission-type-cs\"> </a><p>This case-sensitive code system <code>https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-admission-type-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">C<a name=\"en-ihe-france-pam-admission-type-cs-C\"> </a></td><td>Confort</td><td>Confort (chirurgie esthétique).</td></tr><tr><td style=\"white-space:nowrap\">L<a name=\"en-ihe-france-pam-admission-type-cs-L\"> </a></td><td>Accouchement maternité</td><td>Accouchement maternité.</td></tr><tr><td style=\"white-space:nowrap\">N<a name=\"en-ihe-france-pam-admission-type-cs-N\"> </a></td><td>Nouveau-né</td><td>Nouveau-né.</td></tr><tr><td style=\"white-space:nowrap\">R<a name=\"en-ihe-france-pam-admission-type-cs-R\"> </a></td><td>Routine</td><td>Routine (valeur par défaut).</td></tr><tr><td style=\"white-space:nowrap\">U<a name=\"en-ihe-france-pam-admission-type-cs-U\"> </a></td><td>Urgent</td><td>Caractère d'urgence aiguë du problème, quel que soit le service d'entrée.</td></tr><tr><td style=\"white-space:nowrap\">RM<a name=\"en-ihe-france-pam-admission-type-cs-RM\"> </a></td><td>Rétrocession de médicament</td><td>Valeur ajoutée par IHE France pour caractériser les venues pour rétrocession médicamenteuse.</td></tr><tr><td style=\"white-space:nowrap\">IE<a name=\"en-ihe-france-pam-admission-type-cs-IE\"> </a></td><td>Prestation inter-établissements</td><td>Valeur ajoutée par IHE France pour caractériser les venues pour prestation facturée à un autre établissement demandeur.</td></tr></table></div></div>"
+  },
+  "url" : "https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-admission-type-cs",
+  "version" : "0.1.0",
+  "name" : "IHEFrancePamAdmissionTypeCS",
+  "title" : "IHE France PAM Admission Type CodeSystem",
+  "status" : "draft",
+  "experimental" : false,
+  "date" : "2026-10-28T10:01:53+00:00",
+  "publisher" : "IHE France",
+  "contact" : [{
+    "name" : "IHE France",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://www.ihe-france.org"
+    }]
+  },
+  {
+    "name" : "IHE France",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://www.ihe-france.org",
+      "use" : "work"
+    }]
+  }],
+  "description" : "Type d'admission (PV1-4, table HL7 0007).",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR",
+      "display" : "France (la)"
+    }]
+  }],
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 7,
+  "concept" : [{
+    "code" : "C",
+    "display" : "Confort",
+    "definition" : "Confort (chirurgie esthétique)."
+  },
+  {
+    "code" : "L",
+    "display" : "Accouchement maternité",
+    "definition" : "Accouchement maternité."
+  },
+  {
+    "code" : "N",
+    "display" : "Nouveau-né",
+    "definition" : "Nouveau-né."
+  },
+  {
+    "code" : "R",
+    "display" : "Routine",
+    "definition" : "Routine (valeur par défaut)."
+  },
+  {
+    "code" : "U",
+    "display" : "Urgent",
+    "definition" : "Caractère d'urgence aiguë du problème, quel que soit le service d'entrée."
+  },
+  {
+    "code" : "RM",
+    "display" : "Rétrocession de médicament",
+    "definition" : "Valeur ajoutée par IHE France pour caractériser les venues pour rétrocession médicamenteuse."
+  },
+  {
+    "code" : "IE",
+    "display" : "Prestation inter-établissements",
+    "definition" : "Valeur ajoutée par IHE France pour caractériser les venues pour prestation facturée à un autre établissement demandeur."
+  }]
+}

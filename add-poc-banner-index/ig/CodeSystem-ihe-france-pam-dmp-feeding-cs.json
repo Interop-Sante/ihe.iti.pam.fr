@@ -1,0 +1,57 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "ihe-france-pam-dmp-feeding-cs",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div xml:lang=\"fr\" lang=\"fr\"><hr/><p><b>French</b></p><hr/><p class=\"res-header-id\"><b>Narratif généré : CodeSystem ihe-france-pam-dmp-feeding-cs</b></p><a name=\"ihe-france-pam-dmp-feeding-cs\"> </a><a name=\"hcihe-france-pam-dmp-feeding-cs\"> </a><p>This case-sensitive code system <code>https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-dmp-feeding-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Affichage</b></td><td><b>Définition</b></td></tr><tr><td style=\"white-space:nowrap\">NA<a name=\"ihe-france-pam-dmp-feeding-cs-NA\"> </a></td><td>N/A</td><td>Information non recueillie.</td></tr><tr><td style=\"white-space:nowrap\">IO<a name=\"ihe-france-pam-dmp-feeding-cs-IO\"> </a></td><td>Informé et opposé</td><td>Le patient est informé et s'oppose à l'alimentation.</td></tr><tr><td style=\"white-space:nowrap\">INO<a name=\"ihe-france-pam-dmp-feeding-cs-INO\"> </a></td><td>Informé et non opposé</td><td>Le patient est informé et ne s'oppose pas à l'alimentation.</td></tr></table></div><div xml:lang=\"en\" lang=\"en\"><hr/><p><b>English</b></p><hr/><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem ihe-france-pam-dmp-feeding-cs</b></p><a name=\"en-ihe-france-pam-dmp-feeding-cs\"> </a><a name=\"en-hcihe-france-pam-dmp-feeding-cs\"> </a><p>This case-sensitive code system <code>https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-dmp-feeding-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">NA<a name=\"en-ihe-france-pam-dmp-feeding-cs-NA\"> </a></td><td>N/A</td><td>Information non recueillie.</td></tr><tr><td style=\"white-space:nowrap\">IO<a name=\"en-ihe-france-pam-dmp-feeding-cs-IO\"> </a></td><td>Informé et opposé</td><td>Le patient est informé et s'oppose à l'alimentation.</td></tr><tr><td style=\"white-space:nowrap\">INO<a name=\"en-ihe-france-pam-dmp-feeding-cs-INO\"> </a></td><td>Informé et non opposé</td><td>Le patient est informé et ne s'oppose pas à l'alimentation.</td></tr></table></div></div>"
+  },
+  "url" : "https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-dmp-feeding-cs",
+  "version" : "0.1.0",
+  "name" : "IHEFrancePamDmpFeedingCS",
+  "title" : "IHE France PAM DMP Feeding Information CodeSystem",
+  "status" : "draft",
+  "experimental" : false,
+  "date" : "2026-10-28T10:01:53+00:00",
+  "publisher" : "IHE France",
+  "contact" : [{
+    "name" : "IHE France",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://www.ihe-france.org"
+    }]
+  },
+  {
+    "name" : "IHE France",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://www.ihe-france.org",
+      "use" : "work"
+    }]
+  }],
+  "description" : "Information du patient et opposition à l'alimentation de Mon espace santé / DMP (ZFA-9, table IHE-FRANCE-ZFA-9).",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR",
+      "display" : "France (la)"
+    }]
+  }],
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 3,
+  "concept" : [{
+    "code" : "NA",
+    "display" : "N/A",
+    "definition" : "Information non recueillie."
+  },
+  {
+    "code" : "IO",
+    "display" : "Informé et opposé",
+    "definition" : "Le patient est informé et s'oppose à l'alimentation."
+  },
+  {
+    "code" : "INO",
+    "display" : "Informé et non opposé",
+    "definition" : "Le patient est informé et ne s'oppose pas à l'alimentation."
+  }]
+}

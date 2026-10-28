@@ -1,0 +1,1793 @@
+{
+  "resourceType" : "ImplementationGuide",
+  "id" : "ihe.fr.pam",
+  "language" : "en",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xml:lang=\"en\" lang=\"en\"><hr/><p><b>English</b></p><hr/><p class=\"res-header-id\"><b>Generated Narrative: ImplementationGuide ihe.fr.pam</b></p><a name=\"en-ihe.fr.pam\"> </a><a name=\"en-hcihe.fr.pam\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Language: fr</p></div><h2>IHEFrancePAM</h2><p>The official URL for this implementation guide is: </p><pre>https://hl7.fr/ig/v2/pam/ImplementationGuide/ihe.fr.pam</pre><div><p>Base de travail pour transformer le profil IHE PAM France issu d'un PDF en Implementation Guide FHIR publiable avec le template Interop'Sante.</p>\n</div></div>"
+  },
+  "url" : "https://hl7.fr/ig/v2/pam/ImplementationGuide/ihe.fr.pam",
+  "version" : "0.1.0",
+  "name" : "IHEFrancePAM",
+  "title" : "IHE PAM France",
+  "status" : "draft",
+  "date" : "2026-10-28T10:06:53+00:00",
+  "publisher" : "IHE France",
+  "contact" : [{
+    "name" : "IHE France",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://www.ihe-france.org"
+    }]
+  },
+  {
+    "name" : "IHE France",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://www.ihe-france.org",
+      "use" : "work"
+    }]
+  }],
+  "description" : "Base de travail pour transformer le profil IHE PAM France issu d'un PDF en Implementation Guide FHIR publiable avec le template Interop'Sante.\n",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR",
+      "display" : "France (la)"
+    }]
+  }],
+  "packageId" : "ihe.fr.pam",
+  "license" : "CC0-1.0",
+  "fhirVersion" : ["4.0.1"],
+  "dependsOn" : [{
+    "id" : "hl7tx",
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/implementationguide-dependency-comment",
+      "valueMarkdown" : "Automatically added as a dependency - all IGs depend on HL7 Terminology"
+    }],
+    "uri" : "http://terminology.hl7.org/ImplementationGuide/hl7.terminology",
+    "packageId" : "hl7.terminology.r4",
+    "version" : "7.5.0"
+  },
+  {
+    "id" : "hl7ext",
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/implementationguide-dependency-comment",
+      "valueMarkdown" : "Automatically added as a dependency - all IGs depend on the HL7 Extension Pack"
+    }],
+    "uri" : "http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions",
+    "packageId" : "hl7.fhir.uv.extensions.r4",
+    "version" : "5.4.0"
+  }],
+  "definition" : {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/expansion-parameters",
+      "valueReference" : {
+        "reference" : "Parameters/expansion-parameters"
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency",
+      "valueCode" : "hl7.fhir.uv.tools.r4#1.3.0"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueCode" : "copyrightyear"
+      },
+      {
+        "url" : "value",
+        "valueString" : "2026+"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueCode" : "releaselabel"
+      },
+      {
+        "url" : "value",
+        "valueString" : "ci-build"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueCode" : "path-expansion-params"
+      },
+      {
+        "url" : "value",
+        "valueString" : "../../expansion-params.json"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueCode" : "i18n-default-lang"
+      },
+      {
+        "url" : "value",
+        "valueString" : "fr"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueCode" : "i18n-lang"
+      },
+      {
+        "url" : "value",
+        "valueString" : "en"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueCode" : "translation-sources"
+      },
+      {
+        "url" : "value",
+        "valueString" : "input/translations/en"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueCode" : "shownav"
+      },
+      {
+        "url" : "value",
+        "valueString" : "true"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueCode" : "pin-canonicals"
+      },
+      {
+        "url" : "value",
+        "valueString" : "pin-all"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueCode" : "apply-contact"
+      },
+      {
+        "url" : "value",
+        "valueString" : "true"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueCode" : "apply-jurisdiction"
+      },
+      {
+        "url" : "value",
+        "valueString" : "true"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueCode" : "logging"
+      },
+      {
+        "url" : "value",
+        "valueString" : "tx"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueCode" : "logging"
+      },
+      {
+        "url" : "value",
+        "valueString" : "init"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueCode" : "logging"
+      },
+      {
+        "url" : "value",
+        "valueString" : "progress"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueCode" : "autoload-resources"
+      },
+      {
+        "url" : "value",
+        "valueString" : "true"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueCode" : "path-liquid-template"
+      },
+      {
+        "url" : "value",
+        "valueString" : "template/liquid"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueCode" : "path-liquid-template"
+      },
+      {
+        "url" : "value",
+        "valueString" : "input/liquid"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueCode" : "path-qa"
+      },
+      {
+        "url" : "value",
+        "valueString" : "temp/qa"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueCode" : "path-temp"
+      },
+      {
+        "url" : "value",
+        "valueString" : "temp/pages"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueCode" : "path-output"
+      },
+      {
+        "url" : "value",
+        "valueString" : "output"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueCode" : "path-suppressed-warnings"
+      },
+      {
+        "url" : "value",
+        "valueString" : "input/ignoreWarnings.txt"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueCode" : "path-history"
+      },
+      {
+        "url" : "value",
+        "valueString" : "https://hl7.fr/ig/v2/pam/history.html"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueCode" : "template-html"
+      },
+      {
+        "url" : "value",
+        "valueString" : "template-page.html"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueCode" : "template-md"
+      },
+      {
+        "url" : "value",
+        "valueString" : "template-page-md.html"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueCode" : "apply-context"
+      },
+      {
+        "url" : "value",
+        "valueString" : "true"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueCode" : "apply-copyright"
+      },
+      {
+        "url" : "value",
+        "valueString" : "true"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueCode" : "apply-license"
+      },
+      {
+        "url" : "value",
+        "valueString" : "true"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueCode" : "apply-publisher"
+      },
+      {
+        "url" : "value",
+        "valueString" : "true"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueCode" : "apply-version"
+      },
+      {
+        "url" : "value",
+        "valueString" : "true"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueCode" : "apply-wg"
+      },
+      {
+        "url" : "value",
+        "valueString" : "true"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueCode" : "active-tables"
+      },
+      {
+        "url" : "value",
+        "valueString" : "true"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueCode" : "fmm-definition"
+      },
+      {
+        "url" : "value",
+        "valueString" : "http://hl7.org/fhir/versions.html#maturity"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueCode" : "propagate-status"
+      },
+      {
+        "url" : "value",
+        "valueString" : "true"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueCode" : "excludelogbinaryformat"
+      },
+      {
+        "url" : "value",
+        "valueString" : "true"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueCode" : "tabbed-snapshots"
+      },
+      {
+        "url" : "value",
+        "valueString" : "true"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    }],
+    "resource" : [{
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Encounter"
+      }],
+      "reference" : {
+        "reference" : "Encounter/example-ihe-france-pam-encounter"
+      },
+      "name" : "Exemple encounter PAM France",
+      "description" : "Exemple minimal de venue conforme au profil initial IHE France PAM.",
+      "exampleCanonical" : "https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-encounter|0.1.0"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Location"
+      }],
+      "reference" : {
+        "reference" : "Location/example-ihe-france-pam-location"
+      },
+      "name" : "Exemple location PAM France",
+      "description" : "Exemple minimal de localisation d'hébergement.",
+      "exampleCanonical" : "https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-location|0.1.0"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Organization"
+      }],
+      "reference" : {
+        "reference" : "Organization/example-ihe-france-pam-organization"
+      },
+      "name" : "Exemple organisation PAM France",
+      "description" : "Exemple minimal d'organisation ou d'établissement.",
+      "exampleCanonical" : "https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-organization|0.1.0"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Patient"
+      }],
+      "reference" : {
+        "reference" : "Patient/example-ihe-france-pam-patient"
+      },
+      "name" : "Exemple patient PAM France",
+      "description" : "Exemple minimal de patient conforme au profil initial IHE France PAM.",
+      "exampleCanonical" : "https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-patient|0.1.0"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Practitioner"
+      }],
+      "reference" : {
+        "reference" : "Practitioner/example-ihe-france-pam-practitioner"
+      },
+      "name" : "Exemple practitioner PAM France",
+      "description" : "Exemple minimal de professionnel de santé.",
+      "exampleCanonical" : "https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-practitioner|0.1.0"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "RelatedPerson"
+      }],
+      "reference" : {
+        "reference" : "RelatedPerson/example-ihe-france-pam-related-person"
+      },
+      "name" : "Exemple proche PAM France",
+      "description" : "Exemple minimal de personne associée au patient.",
+      "exampleCanonical" : "https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-related-person|0.1.0"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/ihe-france-pam-accident-cs"
+      },
+      "name" : "IHE France PAM Accident Code CodeSystem",
+      "description" : "Nature de l'accident (ACC-2, table HL7 0050).",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/ihe-france-pam-accident-vs"
+      },
+      "name" : "IHE France PAM Accident Code ValueSet",
+      "description" : "Valeurs permises pour la nature de l'accident (ACC-2).",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:extension"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/ihe-france-pam-accident-date"
+      },
+      "name" : "IHE France PAM Accident Date",
+      "description" : "Date et heure de l'accident (ACC-1), renseignées si l'entrée du patient fait suite à un accident.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:extension"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/ihe-france-pam-accident-nature"
+      },
+      "name" : "IHE France PAM Accident Nature",
+      "description" : "Nature de l'accident (ACC-2). Le segment ACC est obligatoire lorsque l'entrée du patient fait suite à un accident.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:extension"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/ihe-france-pam-administrative-number"
+      },
+      "name" : "IHE France PAM Administrative Number",
+      "description" : "Numéro de dossier administratif (PID-18), de type AN.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/ihe-france-pam-admission-type-cs"
+      },
+      "name" : "IHE France PAM Admission Type CodeSystem",
+      "description" : "Type d'admission (PV1-4, table HL7 0007).",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/ihe-france-pam-admission-type-vs"
+      },
+      "name" : "IHE France PAM Admission Type ValueSet",
+      "description" : "Valeurs pour : Type d'admission (PV1-4, table HL7 0007).",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/ihe-france-pam-admit-source-cs"
+      },
+      "name" : "IHE France PAM Admit Source CodeSystem",
+      "description" : "Mode d'entrée personnalisé (PV1-14, table HL7 0023). Liste non limitative, à adapter selon les besoins du site.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/ihe-france-pam-admit-source-vs"
+      },
+      "name" : "IHE France PAM Admit Source ValueSet",
+      "description" : "Valeurs pour : Mode d'entrée personnalisé (PV1-14, table HL7 0023). Liste non limitative, à adapter selon les besoins du site.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:extension"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/ihe-france-pam-arrival-mode"
+      },
+      "name" : "IHE France PAM Arrival Mode",
+      "description" : "Mode de transport d'entrée (PV2-38).",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:extension"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/ihe-france-pam-birth-multiple-rank"
+      },
+      "name" : "IHE France PAM Birth Multiple Rank",
+      "description" : "Rang gémellaire (PID-25), entier positif pour un patient issu d'une naissance multiple.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:extension"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/ihe-france-pam-care-responsibility-unit"
+      },
+      "name" : "IHE France PAM Care Responsibility Unit",
+      "description" : "Unité fonctionnelle responsable des soins (ZBE-8, type XON).",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:extension"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/ihe-france-pam-contact-role"
+      },
+      "name" : "IHE France PAM Contact Role",
+      "description" : "Rôle de la personne auprès du patient (NK1-7) : personne à prévenir, personne de confiance, représentant légal, personne à ne pas prévenir.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/ihe-france-pam-contact-role-cs"
+      },
+      "name" : "IHE France PAM Contact Role CodeSystem",
+      "description" : "Rôle de la personne auprès du patient pendant le séjour (NK1-7, table HL7 0131). Liste non limitative. La personne de confiance est rattachée au séjour et transmise uniquement via ITI-31.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/ihe-france-pam-contact-role-vs"
+      },
+      "name" : "IHE France PAM Contact Role ValueSet",
+      "description" : "Valeurs pour : Rôle de la personne auprès du patient pendant le séjour (NK1-7, table HL7 0131). Liste non limitative. La personne de confiance est rattachée au séjour et transmise uniquement via ITI-31.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:extension"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/ihe-france-pam-data-protection"
+      },
+      "name" : "IHE France PAM Data Protection",
+      "description" : "Protection des données du patient (PD1-12) : vrai si l'accès à l'information du patient est protégé, faux si l'accès est normal.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:extension"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/ihe-france-pam-demographic-complement"
+      },
+      "name" : "IHE France PAM Demographic Complement",
+      "description" : "Complément démographique (segment ZFD) : date lunaire, semaines de gestation, consentement SMS, indicateur de date de naissance corrigée, mode d'obtention et justificatif de l'identité.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/ihe-france-pam-discharge-disposition-cs"
+      },
+      "name" : "IHE France PAM Discharge Disposition CodeSystem",
+      "description" : "Circonstance de sortie (PV1-36, table HL7 0112). Table définie par l'utilisateur.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/ihe-france-pam-discharge-disposition-vs"
+      },
+      "name" : "IHE France PAM Discharge Disposition ValueSet",
+      "description" : "Valeurs pour : Circonstance de sortie (PV1-36, table HL7 0112). Table définie par l'utilisateur.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/ihe-france-pam-dmp-consultation-cs"
+      },
+      "name" : "IHE France PAM DMP Consultation Consent CodeSystem",
+      "description" : "Information du patient et consentement à la consultation de Mon espace santé / DMP (ZFA-11, table IHE-FRANCE-ZFA-11).",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/ihe-france-pam-dmp-consultation-vs"
+      },
+      "name" : "IHE France PAM DMP Consultation Consent ValueSet",
+      "description" : "Valeurs permises pour l'information et le consentement à la consultation du DMP (ZFA-11).",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/ihe-france-pam-dmp-feeding-cs"
+      },
+      "name" : "IHE France PAM DMP Feeding Information CodeSystem",
+      "description" : "Information du patient et opposition à l'alimentation de Mon espace santé / DMP (ZFA-9, table IHE-FRANCE-ZFA-9).",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/ihe-france-pam-dmp-feeding-vs"
+      },
+      "name" : "IHE France PAM DMP Feeding Information ValueSet",
+      "description" : "Valeurs permises pour l'information et l'opposition à l'alimentation du DMP (ZFA-9).",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:extension"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/ihe-france-pam-dmp-status"
+      },
+      "name" : "IHE France PAM DMP Status",
+      "description" : "Contexte DMP du patient (segment ZFA) : statut du DMP, information et opposition à l'alimentation, information et consentement à la consultation.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/ihe-france-pam-dmp-status-cs"
+      },
+      "name" : "IHE France PAM DMP Status CodeSystem",
+      "description" : "Statut du DMP du patient (ZFA-1, table IHE-FRANCE-ZFA-1).",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/ihe-france-pam-dmp-status-vs"
+      },
+      "name" : "IHE France PAM DMP Status ValueSet",
+      "description" : "Valeurs permises pour le statut du DMP (ZFA-1).",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/ihe-france-pam-emergency-passage-cs"
+      },
+      "name" : "IHE France PAM Emergency Passage CodeSystem",
+      "description" : "Passage par une structure des urgences (ZFM-5, table IHE-FRANCE-ZFM-5).",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/ihe-france-pam-emergency-passage-vs"
+      },
+      "name" : "IHE France PAM Emergency Passage ValueSet",
+      "description" : "Valeurs permises pour le passage par une structure des urgences (ZFM-5).",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/ihe-france-pam-encounter"
+      },
+      "name" : "IHE France PAM Encounter",
+      "description" : "Profil encounter pour l'extension nationale IHE France PAM, dérivé des contraintes portées par les segments PV1, PV2, ACC, ZBE, ZFV et ZFM.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:extension"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/ihe-france-pam-encounter-supplement"
+      },
+      "name" : "IHE France PAM Encounter Supplement",
+      "description" : "Compléments sur la rencontre (segment ZFV) : établissement de provenance, transport de sortie, période de placement en psychiatrie, adresse de provenance ou de destination, numéros d'archive.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:extension"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/ihe-france-pam-historic-movement-indicator"
+      },
+      "name" : "IHE France PAM Historic Movement Indicator",
+      "description" : "Indicateur de mouvement historique (ZBE-5) : vrai pour un mouvement ancien de la séquence, faux pour le mouvement courant.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/ihe-france-pam-identifier-type-cs"
+      },
+      "name" : "IHE France PAM Identifier Type CodeSystem",
+      "description" : "Types d'identifiants permis en France (CX-5, XCN-13, XON-7 ; table HL7 0203 spécialisée).",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/ihe-france-pam-identifier-type-vs"
+      },
+      "name" : "IHE France PAM Identifier Type ValueSet",
+      "description" : "Valeurs permises pour les types d'identifiants.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/ihe-france-pam-identity-document-cs"
+      },
+      "name" : "IHE France PAM Identity Document CodeSystem",
+      "description" : "Type de justificatif d'identité (ZFD-7, table IHE-FRANCE-ZFD-7).",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/ihe-france-pam-identity-document-vs"
+      },
+      "name" : "IHE France PAM Identity Document ValueSet",
+      "description" : "Valeurs permises pour le type de justificatif d'identité (ZFD-7).",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/ihe-france-pam-identity-means-cs"
+      },
+      "name" : "IHE France PAM Identity Means CodeSystem",
+      "description" : "Mode d'obtention de l'identité (ZFD-5, table IHE-FRANCE-ZFD-5).",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/ihe-france-pam-identity-means-vs"
+      },
+      "name" : "IHE France PAM Identity Means ValueSet",
+      "description" : "Valeurs permises pour le mode d'obtention de l'identité (ZFD-5).",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:extension"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/ihe-france-pam-identity-modifier-entity"
+      },
+      "name" : "IHE France PAM Identity Modifier Entity",
+      "description" : "Entité ayant modifié l'identité du patient (PID-34), renseignée dans un contexte de groupement hospitalier de territoire où les identités sont partagées.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:extension"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/ihe-france-pam-identity-status"
+      },
+      "name" : "IHE France PAM Identity Status",
+      "description" : "Statut ou attribut de l'identité du patient (PID-32). Répétable : un statut et, le cas échéant, des attributs d'identité.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/ihe-france-pam-identity-status-cs"
+      },
+      "name" : "IHE France PAM Identity Status CodeSystem",
+      "description" : "Statuts et attributs de l'identité du patient (PID-32, table HL7 0445 spécialisée pour la France).",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/ihe-france-pam-identity-status-vs"
+      },
+      "name" : "IHE France PAM Identity Status ValueSet",
+      "description" : "Valeurs permises pour le statut et les attributs d'identité (PID-32).",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Basic"
+      }],
+      "reference" : {
+        "reference" : "Basic/ihe-france-pam-iti30"
+      },
+      "name" : "IHE France PAM ITI-30 Mapping Summary",
+      "description" : "Résumé narratif de la transaction ITI-30 et de ses cibles FHIR probables.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Basic"
+      }],
+      "reference" : {
+        "reference" : "Basic/ihe-france-pam-iti31"
+      },
+      "name" : "IHE France PAM ITI-31 Mapping Summary",
+      "description" : "Résumé narratif de la transaction ITI-31 et de ses cibles FHIR probables.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/ihe-france-pam-legal-care-mode-cs"
+      },
+      "name" : "IHE France PAM Legal Care Mode CodeSystem",
+      "description" : "Mode légal de soins en psychiatrie (ZFS-6, table IHE-FRANCE-ZFS-6). Liste non limitative.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/ihe-france-pam-legal-care-mode-vs"
+      },
+      "name" : "IHE France PAM Legal Care Mode ValueSet",
+      "description" : "Valeurs proposées pour le mode légal de soins en psychiatrie (ZFS-6).",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/ihe-france-pam-location"
+      },
+      "name" : "IHE France PAM Location",
+      "description" : "Profil location pour la localisation du patient (type de données PL, champ PV1-3) : unité fonctionnelle d'hébergement, chambre, lit et établissement.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:extension"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/ihe-france-pam-medical-responsibility-unit"
+      },
+      "name" : "IHE France PAM Medical Responsibility Unit",
+      "description" : "Unité fonctionnelle médicalement ou médico-administrativement responsable du patient (ZBE-7, type XON).",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:extension"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/ihe-france-pam-mother-birth-name"
+      },
+      "name" : "IHE France PAM Mother Birth Name",
+      "description" : "Nom de naissance de la mère (PID-6). Ce champ ne porte pas le nom de naissance du patient.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:extension"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/ihe-france-pam-movement-action"
+      },
+      "name" : "IHE France PAM Movement Action",
+      "description" : "Action portant sur le mouvement (ZBE-4) : insertion, annulation ou correction.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/ihe-france-pam-movement-action-cs"
+      },
+      "name" : "IHE France PAM Movement Action CodeSystem",
+      "description" : "Action portant sur un mouvement (ZBE-4) ou sur un mode légal de soins (ZFS-5).",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/ihe-france-pam-movement-action-vs"
+      },
+      "name" : "IHE France PAM Movement Action ValueSet",
+      "description" : "Valeurs permises pour l'action sur un mouvement.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:extension"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/ihe-france-pam-movement-identifier"
+      },
+      "name" : "IHE France PAM Movement Identifier",
+      "description" : "Identifiant du mouvement (ZBE-1, type EI). Répétable dans un contexte de gestion coopérative des mouvements.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:extension"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/ihe-france-pam-movement-nature"
+      },
+      "name" : "IHE France PAM Movement Nature",
+      "description" : "Nature du mouvement (ZBE-9) : éléments ayant fait l'objet d'un changement de situation.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/ihe-france-pam-movement-nature-cs"
+      },
+      "name" : "IHE France PAM Movement Nature CodeSystem",
+      "description" : "Nature du mouvement (ZBE-9, table IHE-FRANCE-ZBE-9).",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/ihe-france-pam-movement-nature-vs"
+      },
+      "name" : "IHE France PAM Movement Nature ValueSet",
+      "description" : "Valeurs permises pour la nature du mouvement (ZBE-9).",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:extension"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/ihe-france-pam-nationality"
+      },
+      "name" : "IHE France PAM Nationality",
+      "description" : "Citoyenneté du patient (PID-26), code pays ISO 3166 alpha-3 par défaut. Le champ PID-28 (nationalité) est déprécié et son usage est interdit en France.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/ihe-france-pam-organization"
+      },
+      "name" : "IHE France PAM Organization",
+      "description" : "Profil organisation pour les établissements, entités juridiques et unités fonctionnelles identifiés dans PAM France (type de données XON).",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:extension"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/ihe-france-pam-origin-event-code"
+      },
+      "name" : "IHE France PAM Origin Event Code",
+      "description" : "Événement déclencheur d'origine du mouvement (ZBE-6), renseigné pour une correction ou une annulation.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/ihe-france-pam-patient"
+      },
+      "name" : "IHE France PAM Patient",
+      "description" : "Profil patient pour l'extension nationale IHE France PAM, dérivé des contraintes portées notamment par les segments PID, PD1, NK1 et par les types de données HL7 v2.5 français.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:extension"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/ihe-france-pam-patient-class"
+      },
+      "name" : "IHE France PAM Patient Class",
+      "description" : "Classe de patient (PV1-2) : urgences, hospitalisation, externe, séances, télésurveillance médicale ou non applicable.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/ihe-france-pam-patient-class-cs"
+      },
+      "name" : "IHE France PAM Patient Class CodeSystem",
+      "description" : "Classe de patient (PV1-2, table HL7 0004).",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/ihe-france-pam-patient-class-vs"
+      },
+      "name" : "IHE France PAM Patient Class ValueSet",
+      "description" : "Valeurs permises pour la classe de patient.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:extension"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/ihe-france-pam-planned-end"
+      },
+      "name" : "IHE France PAM Planned End",
+      "description" : "Date de sortie prévisionnelle (PV2-9), également portée par EVN-3 pour l'événement A16.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:extension"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/ihe-france-pam-planned-start"
+      },
+      "name" : "IHE France PAM Planned Start",
+      "description" : "Date d'entrée prévisionnelle (PV2-8).",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/ihe-france-pam-pmsi-entry-mode-cs"
+      },
+      "name" : "IHE France PAM PMSI Entry Mode CodeSystem",
+      "description" : "Mode d'entrée PMSI (ZFM-1, table IHE-FRANCE-ZFM-1).",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/ihe-france-pam-pmsi-entry-mode-vs"
+      },
+      "name" : "IHE France PAM PMSI Entry Mode ValueSet",
+      "description" : "Valeurs permises pour le mode d'entrée PMSI (ZFM-1).",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/ihe-france-pam-pmsi-exit-mode-cs"
+      },
+      "name" : "IHE France PAM PMSI Exit Mode CodeSystem",
+      "description" : "Mode de sortie PMSI (ZFM-2, table IHE-FRANCE-ZFM-2).",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/ihe-france-pam-pmsi-exit-mode-vs"
+      },
+      "name" : "IHE France PAM PMSI Exit Mode ValueSet",
+      "description" : "Valeurs permises pour le mode de sortie PMSI (ZFM-2).",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:extension"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/ihe-france-pam-pmsi-movement"
+      },
+      "name" : "IHE France PAM PMSI Movement",
+      "description" : "Mouvement PMSI (segment ZFM) : mode d'entrée, mode de sortie, provenance, destination et passage par une structure des urgences.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/ihe-france-pam-practitioner"
+      },
+      "name" : "IHE France PAM Practitioner",
+      "description" : "Profil practitioner pour les professionnels de santé référencés dans les segments ROL et PV1 (type de données XCN).",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/ihe-france-pam-practitioner-role"
+      },
+      "name" : "IHE France PAM PractitionerRole",
+      "description" : "Profil practitioner role pour les rôles véhiculés par le segment ROL et par les références médecins du segment PV1.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/ihe-france-pam-professional-activity-cs"
+      },
+      "name" : "IHE France PAM Professional Activity CodeSystem",
+      "description" : "Activité socioprofessionnelle (ZFP-1, nomenclature PCS 2003 de l'INSEE).",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/ihe-france-pam-professional-activity-vs"
+      },
+      "name" : "IHE France PAM Professional Activity ValueSet",
+      "description" : "Valeurs pour : Activité socioprofessionnelle (ZFP-1, nomenclature PCS 2003 de l'INSEE).",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/ihe-france-pam-professional-category-cs"
+      },
+      "name" : "IHE France PAM Professional Category CodeSystem",
+      "description" : "Catégorie socioprofessionnelle (ZFP-2, nomenclature PCS 2003 de l'INSEE).",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/ihe-france-pam-professional-category-vs"
+      },
+      "name" : "IHE France PAM Professional Category ValueSet",
+      "description" : "Valeurs pour : Catégorie socioprofessionnelle (ZFP-2, nomenclature PCS 2003 de l'INSEE).",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:extension"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/ihe-france-pam-professional-situation"
+      },
+      "name" : "IHE France PAM Professional Situation",
+      "description" : "Situation professionnelle du patient (segment ZFP) : activité et catégorie socioprofessionnelles (nomenclature PCS 2003 de l'INSEE).",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/ihe-france-pam-provider-role-cs"
+      },
+      "name" : "IHE France PAM Provider Role CodeSystem",
+      "description" : "Rôle d'un médecin en relation avec le patient (ROL-3, table HL7 0443).",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/ihe-france-pam-provider-role-vs"
+      },
+      "name" : "IHE France PAM Provider Role ValueSet",
+      "description" : "Valeurs permises pour le rôle d'un médecin (ROL-3).",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:extension"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/ihe-france-pam-psychiatric-legal-status"
+      },
+      "name" : "IHE France PAM Psychiatric Legal Status",
+      "description" : "Mode légal de soins en psychiatrie (segment ZFS, répétable). Un seul système doit être maître de la saisie des modes légaux de soins.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/ihe-france-pam-related-person"
+      },
+      "name" : "IHE France PAM Related Person",
+      "description" : "Profil related person pour représenter les personnes à prévenir, personnes de confiance et personnes associées, véhiculées par le segment NK1.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/ihe-france-pam-relationship-cs"
+      },
+      "name" : "IHE France PAM Relationship CodeSystem",
+      "description" : "Nature de la relation avec le patient (NK1-3, table HL7 0063). Liste non limitative.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/ihe-france-pam-relationship-vs"
+      },
+      "name" : "IHE France PAM Relationship ValueSet",
+      "description" : "Valeurs pour : Nature de la relation avec le patient (NK1-3, table HL7 0063). Liste non limitative.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/ihe-france-pam-rimp-cs"
+      },
+      "name" : "IHE France PAM RIM-P Legal Care Code CodeSystem",
+      "description" : "Code RIM-P du mode légal de soins (ZFS-7, table IHE-FRANCE-ZFS-7).",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/ihe-france-pam-rimp-vs"
+      },
+      "name" : "IHE France PAM RIM-P Legal Care Code ValueSet",
+      "description" : "Valeurs permises pour le code RIM-P du mode légal de soins (ZFS-7).",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/ihe-france-pam-transport-care-cs"
+      },
+      "name" : "IHE France PAM Transport Care CodeSystem",
+      "description" : "Prise en charge durant le transport (ZFV-11, table IHE-FRANCE-ZFV-11, codes RPU).",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/ihe-france-pam-transport-care-vs"
+      },
+      "name" : "IHE France PAM Transport Care ValueSet",
+      "description" : "Valeurs permises pour la prise en charge durant le transport (ZFV-11).",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/ihe-france-pam-transport-mode-cs"
+      },
+      "name" : "IHE France PAM Transport Mode CodeSystem",
+      "description" : "Mode de transport d'entrée (PV2-38) et de sortie (ZFV-2) (table HL7 0430).",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/ihe-france-pam-transport-mode-vs"
+      },
+      "name" : "IHE France PAM Transport Mode ValueSet",
+      "description" : "Valeurs permises pour le mode de transport.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/ihe-france-pam-trigger-event-cs"
+      },
+      "name" : "IHE France PAM Trigger Event CodeSystem",
+      "description" : "Événements déclencheurs HL7 v2 utilisés par les transactions ITI-30 et ITI-31 en France.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/ihe-france-pam-trigger-event-vs"
+      },
+      "name" : "IHE France PAM Trigger Event ValueSet",
+      "description" : "Valeurs permises pour les événements déclencheurs PAM France.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:extension"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/ihe-france-pam-venue-protection"
+      },
+      "name" : "IHE France PAM Venue Protection",
+      "description" : "Protection concernant la venue (PV2-22) : vrai si l'accès aux données de la venue est protégé, faux si l'accès est normal.",
+      "exampleBoolean" : false
+    }],
+    "page" : {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+        "valueUrl" : "toc.html"
+      }],
+      "nameUrl" : "toc.html",
+      "title" : "Table of Contents",
+      "generation" : "html",
+      "page" : [{
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+          "valueUrl" : "index.html"
+        }],
+        "nameUrl" : "index.html",
+        "title" : "Accueil",
+        "generation" : "markdown"
+      },
+      {
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+          "valueUrl" : "volume-1.html"
+        }],
+        "nameUrl" : "volume-1.html",
+        "title" : "Introduction",
+        "generation" : "markdown",
+        "page" : [{
+          "extension" : [{
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+            "valueUrl" : "actors-transactions.html"
+          }],
+          "nameUrl" : "actors-transactions.html",
+          "title" : "Acteurs et transactions",
+          "generation" : "markdown"
+        },
+        {
+          "extension" : [{
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+            "valueUrl" : "conformite.html"
+          }],
+          "nameUrl" : "conformite.html",
+          "title" : "Conformité",
+          "generation" : "markdown"
+        }]
+      },
+      {
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+          "valueUrl" : "content-modules.html"
+        }],
+        "nameUrl" : "content-modules.html",
+        "title" : "Contenus et contraintes FHIR",
+        "generation" : "markdown",
+        "page" : [{
+          "extension" : [{
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+            "valueUrl" : "hl7v2-datatypes.html"
+          }],
+          "nameUrl" : "hl7v2-datatypes.html",
+          "title" : "Contraintes HL7 v2.5",
+          "generation" : "markdown"
+        },
+        {
+          "extension" : [{
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+            "valueUrl" : "hl7v2-to-fhir.html"
+          }],
+          "nameUrl" : "hl7v2-to-fhir.html",
+          "title" : "Mapping HL7 v2 vers FHIR",
+          "generation" : "markdown"
+        },
+        {
+          "extension" : [{
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+            "valueUrl" : "examples.html"
+          }],
+          "nameUrl" : "examples.html",
+          "title" : "Exemples",
+          "generation" : "markdown"
+        }]
+      },
+      {
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+          "valueUrl" : "security.html"
+        }],
+        "nameUrl" : "security.html",
+        "title" : "Sécurité",
+        "generation" : "markdown"
+      },
+      {
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+          "valueUrl" : "publications.html"
+        }],
+        "nameUrl" : "publications.html",
+        "title" : "Publications antérieures",
+        "generation" : "markdown"
+      },
+      {
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+          "valueUrl" : "downloads.html"
+        }],
+        "nameUrl" : "downloads.html",
+        "title" : "Téléchargements et usages",
+        "generation" : "markdown"
+      },
+      {
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+          "valueUrl" : "translationinfo.html"
+        }],
+        "nameUrl" : "translationinfo.html",
+        "title" : "Informations sur la traduction",
+        "generation" : "markdown"
+      }]
+    },
+    "parameter" : [{
+      "code" : "path-resource",
+      "value" : "input/capabilities"
+    },
+    {
+      "code" : "path-resource",
+      "value" : "input/examples"
+    },
+    {
+      "code" : "path-resource",
+      "value" : "input/extensions"
+    },
+    {
+      "code" : "path-resource",
+      "value" : "input/models"
+    },
+    {
+      "code" : "path-resource",
+      "value" : "input/operations"
+    },
+    {
+      "code" : "path-resource",
+      "value" : "input/profiles"
+    },
+    {
+      "code" : "path-resource",
+      "value" : "input/resources"
+    },
+    {
+      "code" : "path-resource",
+      "value" : "input/vocabulary"
+    },
+    {
+      "code" : "path-resource",
+      "value" : "input/maps"
+    },
+    {
+      "code" : "path-resource",
+      "value" : "input/testing"
+    },
+    {
+      "code" : "path-resource",
+      "value" : "input/history"
+    },
+    {
+      "code" : "path-resource",
+      "value" : "fsh-generated/resources"
+    },
+    {
+      "code" : "path-pages",
+      "value" : "template/config"
+    },
+    {
+      "code" : "path-pages",
+      "value" : "input/assets"
+    },
+    {
+      "code" : "path-pages",
+      "value" : "input/images"
+    },
+    {
+      "code" : "path-tx-cache",
+      "value" : "input-cache/txcache"
+    }]
+  }
+}

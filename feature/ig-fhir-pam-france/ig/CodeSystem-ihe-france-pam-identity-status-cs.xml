@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="ihe-france-pam-identity-status-cs"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><div xml:lang="fr" lang="fr"><hr/><p><b>French</b></p><hr/><p class="res-header-id"><b>Narratif généré : CodeSystem ihe-france-pam-identity-status-cs</b></p><a name="ihe-france-pam-identity-status-cs"> </a><a name="hcihe-france-pam-identity-status-cs"> </a><p>This case-sensitive code system <code>https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-identity-status-cs</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Affichage</b></td><td><b>Définition</b></td></tr><tr><td style="white-space:nowrap">VIDE<a name="ihe-france-pam-identity-status-cs-VIDE"> </a></td><td>Identité non encore qualifiée</td><td>Identité dont le statut n'est pas encore renseigné.</td></tr><tr><td style="white-space:nowrap">PROV<a name="ihe-france-pam-identity-status-cs-PROV"> </a></td><td>Provisoire</td><td>Identité provisoire, non encore vérifiée.</td></tr><tr><td style="white-space:nowrap">VALI<a name="ihe-france-pam-identity-status-cs-VALI"> </a></td><td>Validé</td><td>Identité validée. Seul statut avec lequel le matricule INS peut être transporté.</td></tr><tr><td style="white-space:nowrap">DOUB<a name="ihe-france-pam-identity-status-cs-DOUB"> </a></td><td>Doublon ou esclave</td><td>Identité en doublon d'une autre identité.</td></tr><tr><td style="white-space:nowrap">DESA<a name="ihe-france-pam-identity-status-cs-DESA"> </a></td><td>Désactivé</td><td>Identité désactivée.</td></tr><tr><td style="white-space:nowrap">DPOT<a name="ihe-france-pam-identity-status-cs-DPOT"> </a></td><td>Doublon potentiel</td><td>Identité susceptible d'être un doublon.</td></tr><tr><td style="white-space:nowrap">DOUA<a name="ihe-france-pam-identity-status-cs-DOUA"> </a></td><td>Doublon avéré</td><td>Identité reconnue comme doublon.</td></tr><tr><td style="white-space:nowrap">COLP<a name="ihe-france-pam-identity-status-cs-COLP"> </a></td><td>Collision potentielle</td><td>Identité susceptible d'être en collision avec une autre.</td></tr><tr><td style="white-space:nowrap">COLV<a name="ihe-france-pam-identity-status-cs-COLV"> </a></td><td>Collision validée</td><td>Collision d'identités confirmée.</td></tr><tr><td style="white-space:nowrap">FILI<a name="ihe-france-pam-identity-status-cs-FILI"> </a></td><td>Filiation</td><td>Identité liée à une filiation.</td></tr><tr><td style="white-space:nowrap">CACH<a name="ihe-france-pam-identity-status-cs-CACH"> </a></td><td>Cachée</td><td>Identité cachée.</td></tr><tr><td style="white-space:nowrap">ANOM<a name="ihe-france-pam-identity-status-cs-ANOM"> </a></td><td>Anonyme</td><td>Identité anonyme.</td></tr><tr><td style="white-space:nowrap">IDVER<a name="ihe-france-pam-identity-status-cs-IDVER"> </a></td><td>Identité vérifiée par le patient</td><td>Identité dont l'exactitude a été vérifiée par le patient.</td></tr><tr><td style="white-space:nowrap">RECD<a name="ihe-france-pam-identity-status-cs-RECD"> </a></td><td>Reçue d'un autre domaine</td><td>Identité reçue d'un autre domaine d'identification.</td></tr><tr><td style="white-space:nowrap">IDRA<a name="ihe-france-pam-identity-status-cs-IDRA"> </a></td><td>Identité rapprochée dans un autre domaine</td><td>Identité rapprochée dans un autre domaine d'identification.</td></tr><tr><td style="white-space:nowrap">USUR<a name="ihe-france-pam-identity-status-cs-USUR"> </a></td><td>Usurpation</td><td>Identité usurpée.</td></tr><tr><td style="white-space:nowrap">HOMD<a name="ihe-france-pam-identity-status-cs-HOMD"> </a></td><td>Homonyme détecté</td><td>Homonyme détecté.</td></tr><tr><td style="white-space:nowrap">HOMA<a name="ihe-france-pam-identity-status-cs-HOMA"> </a></td><td>Homonyme avéré</td><td>Attribut d'identité « homonyme ».</td></tr><tr><td style="white-space:nowrap">INVA<a name="ihe-france-pam-identity-status-cs-INVA"> </a></td><td>Invalidation de l'identité</td><td>Identité invalidée.</td></tr><tr><td style="white-space:nowrap">FICT<a name="ihe-france-pam-identity-status-cs-FICT"> </a></td><td>Identité fictive</td><td>Attribut d'identité « fictive ».</td></tr><tr><td style="white-space:nowrap">DOUT<a name="ihe-france-pam-identity-status-cs-DOUT"> </a></td><td>Identité douteuse</td><td>Attribut d'identité « douteuse ».</td></tr></table></div><div xml:lang="en" lang="en"><hr/><p><b>English</b></p><hr/><p class="res-header-id"><b>Generated Narrative: CodeSystem ihe-france-pam-identity-status-cs</b></p><a name="en-ihe-france-pam-identity-status-cs"> </a><a name="en-hcihe-france-pam-identity-status-cs"> </a><p>This case-sensitive code system <code>https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-identity-status-cs</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap">VIDE<a name="en-ihe-france-pam-identity-status-cs-VIDE"> </a></td><td>Identité non encore qualifiée</td><td>Identité dont le statut n'est pas encore renseigné.</td></tr><tr><td style="white-space:nowrap">PROV<a name="en-ihe-france-pam-identity-status-cs-PROV"> </a></td><td>Provisoire</td><td>Identité provisoire, non encore vérifiée.</td></tr><tr><td style="white-space:nowrap">VALI<a name="en-ihe-france-pam-identity-status-cs-VALI"> </a></td><td>Validé</td><td>Identité validée. Seul statut avec lequel le matricule INS peut être transporté.</td></tr><tr><td style="white-space:nowrap">DOUB<a name="en-ihe-france-pam-identity-status-cs-DOUB"> </a></td><td>Doublon ou esclave</td><td>Identité en doublon d'une autre identité.</td></tr><tr><td style="white-space:nowrap">DESA<a name="en-ihe-france-pam-identity-status-cs-DESA"> </a></td><td>Désactivé</td><td>Identité désactivée.</td></tr><tr><td style="white-space:nowrap">DPOT<a name="en-ihe-france-pam-identity-status-cs-DPOT"> </a></td><td>Doublon potentiel</td><td>Identité susceptible d'être un doublon.</td></tr><tr><td style="white-space:nowrap">DOUA<a name="en-ihe-france-pam-identity-status-cs-DOUA"> </a></td><td>Doublon avéré</td><td>Identité reconnue comme doublon.</td></tr><tr><td style="white-space:nowrap">COLP<a name="en-ihe-france-pam-identity-status-cs-COLP"> </a></td><td>Collision potentielle</td><td>Identité susceptible d'être en collision avec une autre.</td></tr><tr><td style="white-space:nowrap">COLV<a name="en-ihe-france-pam-identity-status-cs-COLV"> </a></td><td>Collision validée</td><td>Collision d'identités confirmée.</td></tr><tr><td style="white-space:nowrap">FILI<a name="en-ihe-france-pam-identity-status-cs-FILI"> </a></td><td>Filiation</td><td>Identité liée à une filiation.</td></tr><tr><td style="white-space:nowrap">CACH<a name="en-ihe-france-pam-identity-status-cs-CACH"> </a></td><td>Cachée</td><td>Identité cachée.</td></tr><tr><td style="white-space:nowrap">ANOM<a name="en-ihe-france-pam-identity-status-cs-ANOM"> </a></td><td>Anonyme</td><td>Identité anonyme.</td></tr><tr><td style="white-space:nowrap">IDVER<a name="en-ihe-france-pam-identity-status-cs-IDVER"> </a></td><td>Identité vérifiée par le patient</td><td>Identité dont l'exactitude a été vérifiée par le patient.</td></tr><tr><td style="white-space:nowrap">RECD<a name="en-ihe-france-pam-identity-status-cs-RECD"> </a></td><td>Reçue d'un autre domaine</td><td>Identité reçue d'un autre domaine d'identification.</td></tr><tr><td style="white-space:nowrap">IDRA<a name="en-ihe-france-pam-identity-status-cs-IDRA"> </a></td><td>Identité rapprochée dans un autre domaine</td><td>Identité rapprochée dans un autre domaine d'identification.</td></tr><tr><td style="white-space:nowrap">USUR<a name="en-ihe-france-pam-identity-status-cs-USUR"> </a></td><td>Usurpation</td><td>Identité usurpée.</td></tr><tr><td style="white-space:nowrap">HOMD<a name="en-ihe-france-pam-identity-status-cs-HOMD"> </a></td><td>Homonyme détecté</td><td>Homonyme détecté.</td></tr><tr><td style="white-space:nowrap">HOMA<a name="en-ihe-france-pam-identity-status-cs-HOMA"> </a></td><td>Homonyme avéré</td><td>Attribut d'identité « homonyme ».</td></tr><tr><td style="white-space:nowrap">INVA<a name="en-ihe-france-pam-identity-status-cs-INVA"> </a></td><td>Invalidation de l'identité</td><td>Identité invalidée.</td></tr><tr><td style="white-space:nowrap">FICT<a name="en-ihe-france-pam-identity-status-cs-FICT"> </a></td><td>Identité fictive</td><td>Attribut d'identité « fictive ».</td></tr><tr><td style="white-space:nowrap">DOUT<a name="en-ihe-france-pam-identity-status-cs-DOUT"> </a></td><td>Identité douteuse</td><td>Attribut d'identité « douteuse ».</td></tr></table></div></div>
+  </text>
+  <url value="https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-identity-status-cs"/>
+  <version value="0.1.0"/>
+  <name value="IHEFrancePamIdentityStatusCS"/>
+  <title value="IHE France PAM Identity Status CodeSystem"/>
+  <status value="draft"/>
+  <experimental value="false"/>
+  <date value="2026-10-28T10:06:53+00:00"/>
+  <publisher value="IHE France"/>
+  <contact>
+    <name value="IHE France"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.ihe-france.org"/>
+    </telecom>
+  </contact>
+  <contact>
+    <name value="IHE France"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.ihe-france.org"/>
+      <use value="work"/>
+    </telecom>
+  </contact>
+  <description value="Statuts et attributs de l'identité du patient (PID-32, table HL7 0445 spécialisée pour la France)."/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="FR"/>
+      <display value="France (la)"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="21"/>
+  <concept>
+    <code value="VIDE"/>
+    <display value="Identité non encore qualifiée"/>
+    <definition value="Identité dont le statut n'est pas encore renseigné."/>
+  </concept>
+  <concept>
+    <code value="PROV"/>
+    <display value="Provisoire"/>
+    <definition value="Identité provisoire, non encore vérifiée."/>
+  </concept>
+  <concept>
+    <code value="VALI"/>
+    <display value="Validé"/>
+    <definition value="Identité validée. Seul statut avec lequel le matricule INS peut être transporté."/>
+  </concept>
+  <concept>
+    <code value="DOUB"/>
+    <display value="Doublon ou esclave"/>
+    <definition value="Identité en doublon d'une autre identité."/>
+  </concept>
+  <concept>
+    <code value="DESA"/>
+    <display value="Désactivé"/>
+    <definition value="Identité désactivée."/>
+  </concept>
+  <concept>
+    <code value="DPOT"/>
+    <display value="Doublon potentiel"/>
+    <definition value="Identité susceptible d'être un doublon."/>
+  </concept>
+  <concept>
+    <code value="DOUA"/>
+    <display value="Doublon avéré"/>
+    <definition value="Identité reconnue comme doublon."/>
+  </concept>
+  <concept>
+    <code value="COLP"/>
+    <display value="Collision potentielle"/>
+    <definition value="Identité susceptible d'être en collision avec une autre."/>
+  </concept>
+  <concept>
+    <code value="COLV"/>
+    <display value="Collision validée"/>
+    <definition value="Collision d'identités confirmée."/>
+  </concept>
+  <concept>
+    <code value="FILI"/>
+    <display value="Filiation"/>
+    <definition value="Identité liée à une filiation."/>
+  </concept>
+  <concept>
+    <code value="CACH"/>
+    <display value="Cachée"/>
+    <definition value="Identité cachée."/>
+  </concept>
+  <concept>
+    <code value="ANOM"/>
+    <display value="Anonyme"/>
+    <definition value="Identité anonyme."/>
+  </concept>
+  <concept>
+    <code value="IDVER"/>
+    <display value="Identité vérifiée par le patient"/>
+    <definition value="Identité dont l'exactitude a été vérifiée par le patient."/>
+  </concept>
+  <concept>
+    <code value="RECD"/>
+    <display value="Reçue d'un autre domaine"/>
+    <definition value="Identité reçue d'un autre domaine d'identification."/>
+  </concept>
+  <concept>
+    <code value="IDRA"/>
+    <display value="Identité rapprochée dans un autre domaine"/>
+    <definition value="Identité rapprochée dans un autre domaine d'identification."/>
+  </concept>
+  <concept>
+    <code value="USUR"/>
+    <display value="Usurpation"/>
+    <definition value="Identité usurpée."/>
+  </concept>
+  <concept>
+    <code value="HOMD"/>
+    <display value="Homonyme détecté"/>
+    <definition value="Homonyme détecté."/>
+  </concept>
+  <concept>
+    <code value="HOMA"/>
+    <display value="Homonyme avéré"/>
+    <definition value="Attribut d'identité « homonyme »."/>
+  </concept>
+  <concept>
+    <code value="INVA"/>
+    <display value="Invalidation de l'identité"/>
+    <definition value="Identité invalidée."/>
+  </concept>
+  <concept>
+    <code value="FICT"/>
+    <display value="Identité fictive"/>
+    <definition value="Attribut d'identité « fictive »."/>
+  </concept>
+  <concept>
+    <code value="DOUT"/>
+    <display value="Identité douteuse"/>
+    <definition value="Attribut d'identité « douteuse »."/>
+  </concept>
+</CodeSystem>

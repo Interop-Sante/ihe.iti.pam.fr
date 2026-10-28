@@ -1,0 +1,93 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-patient-class-cs> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:Resource.id [ fhir:value "ihe-france-pam-patient-class-cs"] ;
+  fhir:Resource.language [ fhir:value "en"] ;
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ] ;
+     fhir:Narrative.div "<div xml:lang=\"en\" lang=\"en\"><hr/><p><b>English</b></p><hr/><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem ihe-france-pam-patient-class-cs</b></p><a name=\"en-ihe-france-pam-patient-class-cs\"> </a><a name=\"en-hcihe-france-pam-patient-class-cs\"> </a><p>This case-sensitive code system <code>https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-patient-class-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">E<a name=\"en-ihe-france-pam-patient-class-cs-E\"> </a></td><td>Passage aux urgences</td><td>Arrivée aux urgences.</td></tr><tr><td style=\"white-space:nowrap\">I<a name=\"en-ihe-france-pam-patient-class-cs-I\"> </a></td><td>Hospitalisation</td><td>Hospitalisation complète et partielle, toutes catégories confondues, y compris soins de longue durée, HAD, maison de retraite et rééducation.</td></tr><tr><td style=\"white-space:nowrap\">N<a name=\"en-ihe-france-pam-patient-class-cs-N\"> </a></td><td>Non applicable</td><td>Valeur utilisée dans la transaction ITI-30.</td></tr><tr><td style=\"white-space:nowrap\">O<a name=\"en-ihe-france-pam-patient-class-cs-O\"> </a></td><td>Actes et consultation externe</td><td>Activité externe, y compris rétrocession de médicaments.</td></tr><tr><td style=\"white-space:nowrap\">R<a name=\"en-ihe-france-pam-patient-class-cs-R\"> </a></td><td>Séances</td><td>Séances.</td></tr><tr><td style=\"white-space:nowrap\">V<a name=\"en-ihe-france-pam-patient-class-cs-V\"> </a></td><td>Télésurveillance médicale</td><td>Télésurveillance médicale exercée dans un cadre hospitalier.</td></tr></table></div>"
+  ] ;
+  fhir:CodeSystem.url [ fhir:value "https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-patient-class-cs"] ;
+  fhir:CodeSystem.version [ fhir:value "0.1.0"] ;
+  fhir:CodeSystem.name [ fhir:value "IHEFrancePamPatientClassCS"] ;
+  fhir:CodeSystem.title [ fhir:value "IHE France PAM Patient Class CodeSystem"] ;
+  fhir:CodeSystem.status [ fhir:value "draft"] ;
+  fhir:CodeSystem.experimental [ fhir:value "false"^^xsd:boolean] ;
+  fhir:CodeSystem.date [ fhir:value "2026-10-28T10:01:53+00:00"^^xsd:dateTime] ;
+  fhir:CodeSystem.publisher [ fhir:value "IHE France"] ;
+  fhir:CodeSystem.contact [
+     fhir:index -1 ;
+     fhir:ContactDetail.name [ fhir:value "IHE France" ] ;
+     fhir:ContactDetail.telecom [
+       fhir:index -1 ;
+       fhir:ContactPoint.system [ fhir:value "url" ] ;
+       fhir:ContactPoint.value [ fhir:value "https://www.ihe-france.org" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:ContactDetail.name [ fhir:value "IHE France" ] ;
+     fhir:ContactDetail.telecom [
+       fhir:index -1 ;
+       fhir:ContactPoint.system [ fhir:value "url" ] ;
+       fhir:ContactPoint.value [ fhir:value "https://www.ihe-france.org" ] ;
+       fhir:ContactPoint.use [ fhir:value "work" ]
+     ]
+  ] ;
+  fhir:CodeSystem.description [ fhir:value "Classe de patient (PV1-2, table HL7 0004)."] ;
+  fhir:CodeSystem.jurisdiction [
+     fhir:index -1 ;
+     fhir:CodeableConcept.coding [
+       fhir:index -1 ;
+       fhir:Coding.system [ fhir:value "urn:iso:std:iso:3166" ] ;
+       fhir:Coding.code [ fhir:value "FR" ] ;
+       fhir:Coding.display [ fhir:value "France (la)" ]
+     ]
+  ] ;
+  fhir:CodeSystem.caseSensitive [ fhir:value "true"^^xsd:boolean] ;
+  fhir:CodeSystem.content [ fhir:value "complete"] ;
+  fhir:CodeSystem.count [ fhir:value "6"^^xsd:nonNegativeInteger] ;
+  fhir:CodeSystem.concept [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "E" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Passage aux urgences" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Arrivée aux urgences." ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "I" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Hospitalisation" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Hospitalisation complète et partielle, toutes catégories confondues, y compris soins de longue durée, HAD, maison de retraite et rééducation." ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "N" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Non applicable" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Valeur utilisée dans la transaction ITI-30." ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "O" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Actes et consultation externe" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Activité externe, y compris rétrocession de médicaments." ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "R" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Séances" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Séances." ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "V" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Télésurveillance médicale" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Télésurveillance médicale exercée dans un cadre hospitalier." ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-patient-class-cs.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

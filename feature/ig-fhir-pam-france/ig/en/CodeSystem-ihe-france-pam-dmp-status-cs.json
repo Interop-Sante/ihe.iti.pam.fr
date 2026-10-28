@@ -1,0 +1,58 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "ihe-france-pam-dmp-status-cs",
+  "language" : "en",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xml:lang=\"en\" lang=\"en\"><hr/><p><b>English</b></p><hr/><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem ihe-france-pam-dmp-status-cs</b></p><a name=\"en-ihe-france-pam-dmp-status-cs\"> </a><a name=\"en-hcihe-france-pam-dmp-status-cs\"> </a><p>This case-sensitive code system <code>https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-dmp-status-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">ACTIF<a name=\"en-ihe-france-pam-dmp-status-cs-ACTIF\"> </a></td><td>Actif</td><td>Le DMP du patient existe et n'est pas fermé.</td></tr><tr><td style=\"white-space:nowrap\">FERME<a name=\"en-ihe-france-pam-dmp-status-cs-FERME\"> </a></td><td>Fermé</td><td>Le DMP du patient existe et est fermé.</td></tr><tr><td style=\"white-space:nowrap\">INEXISTANT<a name=\"en-ihe-france-pam-dmp-status-cs-INEXISTANT\"> </a></td><td>Inexistant</td><td>Le DMP du patient n'existe pas.</td></tr></table></div>"
+  },
+  "url" : "https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-dmp-status-cs",
+  "version" : "0.1.0",
+  "name" : "IHEFrancePamDmpStatusCS",
+  "title" : "IHE France PAM DMP Status CodeSystem",
+  "status" : "draft",
+  "experimental" : false,
+  "date" : "2026-10-28T10:06:53+00:00",
+  "publisher" : "IHE France",
+  "contact" : [{
+    "name" : "IHE France",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://www.ihe-france.org"
+    }]
+  },
+  {
+    "name" : "IHE France",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://www.ihe-france.org",
+      "use" : "work"
+    }]
+  }],
+  "description" : "Statut du DMP du patient (ZFA-1, table IHE-FRANCE-ZFA-1).",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR",
+      "display" : "France (la)"
+    }]
+  }],
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 3,
+  "concept" : [{
+    "code" : "ACTIF",
+    "display" : "Actif",
+    "definition" : "Le DMP du patient existe et n'est pas fermé."
+  },
+  {
+    "code" : "FERME",
+    "display" : "Fermé",
+    "definition" : "Le DMP du patient existe et est fermé."
+  },
+  {
+    "code" : "INEXISTANT",
+    "display" : "Inexistant",
+    "definition" : "Le DMP du patient n'existe pas."
+  }]
+}

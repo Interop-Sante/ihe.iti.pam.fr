@@ -1,0 +1,73 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "ihe-france-pam-patient-class-cs",
+  "language" : "en",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xml:lang=\"en\" lang=\"en\"><hr/><p><b>English</b></p><hr/><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem ihe-france-pam-patient-class-cs</b></p><a name=\"en-ihe-france-pam-patient-class-cs\"> </a><a name=\"en-hcihe-france-pam-patient-class-cs\"> </a><p>This case-sensitive code system <code>https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-patient-class-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">E<a name=\"en-ihe-france-pam-patient-class-cs-E\"> </a></td><td>Passage aux urgences</td><td>Arrivée aux urgences.</td></tr><tr><td style=\"white-space:nowrap\">I<a name=\"en-ihe-france-pam-patient-class-cs-I\"> </a></td><td>Hospitalisation</td><td>Hospitalisation complète et partielle, toutes catégories confondues, y compris soins de longue durée, HAD, maison de retraite et rééducation.</td></tr><tr><td style=\"white-space:nowrap\">N<a name=\"en-ihe-france-pam-patient-class-cs-N\"> </a></td><td>Non applicable</td><td>Valeur utilisée dans la transaction ITI-30.</td></tr><tr><td style=\"white-space:nowrap\">O<a name=\"en-ihe-france-pam-patient-class-cs-O\"> </a></td><td>Actes et consultation externe</td><td>Activité externe, y compris rétrocession de médicaments.</td></tr><tr><td style=\"white-space:nowrap\">R<a name=\"en-ihe-france-pam-patient-class-cs-R\"> </a></td><td>Séances</td><td>Séances.</td></tr><tr><td style=\"white-space:nowrap\">V<a name=\"en-ihe-france-pam-patient-class-cs-V\"> </a></td><td>Télésurveillance médicale</td><td>Télésurveillance médicale exercée dans un cadre hospitalier.</td></tr></table></div>"
+  },
+  "url" : "https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-patient-class-cs",
+  "version" : "0.1.0",
+  "name" : "IHEFrancePamPatientClassCS",
+  "title" : "IHE France PAM Patient Class CodeSystem",
+  "status" : "draft",
+  "experimental" : false,
+  "date" : "2026-10-28T10:06:53+00:00",
+  "publisher" : "IHE France",
+  "contact" : [{
+    "name" : "IHE France",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://www.ihe-france.org"
+    }]
+  },
+  {
+    "name" : "IHE France",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://www.ihe-france.org",
+      "use" : "work"
+    }]
+  }],
+  "description" : "Classe de patient (PV1-2, table HL7 0004).",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR",
+      "display" : "France (la)"
+    }]
+  }],
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 6,
+  "concept" : [{
+    "code" : "E",
+    "display" : "Passage aux urgences",
+    "definition" : "Arrivée aux urgences."
+  },
+  {
+    "code" : "I",
+    "display" : "Hospitalisation",
+    "definition" : "Hospitalisation complète et partielle, toutes catégories confondues, y compris soins de longue durée, HAD, maison de retraite et rééducation."
+  },
+  {
+    "code" : "N",
+    "display" : "Non applicable",
+    "definition" : "Valeur utilisée dans la transaction ITI-30."
+  },
+  {
+    "code" : "O",
+    "display" : "Actes et consultation externe",
+    "definition" : "Activité externe, y compris rétrocession de médicaments."
+  },
+  {
+    "code" : "R",
+    "display" : "Séances",
+    "definition" : "Séances."
+  },
+  {
+    "code" : "V",
+    "display" : "Télésurveillance médicale",
+    "definition" : "Télésurveillance médicale exercée dans un cadre hospitalier."
+  }]
+}

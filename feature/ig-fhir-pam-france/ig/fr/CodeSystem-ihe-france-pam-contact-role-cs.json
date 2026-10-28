@@ -1,0 +1,98 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "ihe-france-pam-contact-role-cs",
+  "language" : "fr",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xml:lang=\"fr\" lang=\"fr\"><hr/><p><b>French</b></p><hr/><p class=\"res-header-id\"><b>Narratif généré : CodeSystem ihe-france-pam-contact-role-cs</b></p><a name=\"ihe-france-pam-contact-role-cs\"> </a><a name=\"hcihe-france-pam-contact-role-cs\"> </a><p>This case-sensitive code system <code>https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-contact-role-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Affichage</b></td><td><b>Définition</b></td></tr><tr><td style=\"white-space:nowrap\">E<a name=\"ihe-france-pam-contact-role-cs-E\"> </a></td><td>Employeur</td><td>Employeur.</td></tr><tr><td style=\"white-space:nowrap\">C<a name=\"ihe-france-pam-contact-role-cs-C\"> </a></td><td>Personne à contacter en cas d'urgence</td><td>Personne à contacter en cas d'urgence.</td></tr><tr><td style=\"white-space:nowrap\">F<a name=\"ihe-france-pam-contact-role-cs-F\"> </a></td><td>Agence fédérale</td><td>Agence fédérale.</td></tr><tr><td style=\"white-space:nowrap\">I<a name=\"ihe-france-pam-contact-role-cs-I\"> </a></td><td>Compagnie d'assurances</td><td>Compagnie d'assurances.</td></tr><tr><td style=\"white-space:nowrap\">N<a name=\"ihe-france-pam-contact-role-cs-N\"> </a></td><td>Parent proche</td><td>Parent proche.</td></tr><tr><td style=\"white-space:nowrap\">S<a name=\"ihe-france-pam-contact-role-cs-S\"> </a></td><td>Agence d'État</td><td>Agence d'État.</td></tr><tr><td style=\"white-space:nowrap\">O<a name=\"ihe-france-pam-contact-role-cs-O\"> </a></td><td>Autre</td><td>Autre.</td></tr><tr><td style=\"white-space:nowrap\">U<a name=\"ihe-france-pam-contact-role-cs-U\"> </a></td><td>Inconnu</td><td>Inconnu.</td></tr><tr><td style=\"white-space:nowrap\">K<a name=\"ihe-france-pam-contact-role-cs-K\"> </a></td><td>Personne de confiance</td><td>Personne de confiance.</td></tr><tr><td style=\"white-space:nowrap\">P<a name=\"ihe-france-pam-contact-role-cs-P\"> </a></td><td>Personne à ne pas prévenir</td><td>Personne à ne pas prévenir.</td></tr><tr><td style=\"white-space:nowrap\">R<a name=\"ihe-france-pam-contact-role-cs-R\"> </a></td><td>Représentant légal</td><td>Représentant légal.</td></tr></table></div>"
+  },
+  "url" : "https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-contact-role-cs",
+  "version" : "0.1.0",
+  "name" : "IHEFrancePamContactRoleCS",
+  "title" : "IHE France PAM Contact Role CodeSystem",
+  "status" : "draft",
+  "experimental" : false,
+  "date" : "2026-10-28T10:06:53+00:00",
+  "publisher" : "IHE France",
+  "contact" : [{
+    "name" : "IHE France",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://www.ihe-france.org"
+    }]
+  },
+  {
+    "name" : "IHE France",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://www.ihe-france.org",
+      "use" : "work"
+    }]
+  }],
+  "description" : "Rôle de la personne auprès du patient pendant le séjour (NK1-7, table HL7 0131). Liste non limitative. La personne de confiance est rattachée au séjour et transmise uniquement via ITI-31.",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR",
+      "display" : "France (la)"
+    }]
+  }],
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 11,
+  "concept" : [{
+    "code" : "E",
+    "display" : "Employeur",
+    "definition" : "Employeur."
+  },
+  {
+    "code" : "C",
+    "display" : "Personne à contacter en cas d'urgence",
+    "definition" : "Personne à contacter en cas d'urgence."
+  },
+  {
+    "code" : "F",
+    "display" : "Agence fédérale",
+    "definition" : "Agence fédérale."
+  },
+  {
+    "code" : "I",
+    "display" : "Compagnie d'assurances",
+    "definition" : "Compagnie d'assurances."
+  },
+  {
+    "code" : "N",
+    "display" : "Parent proche",
+    "definition" : "Parent proche."
+  },
+  {
+    "code" : "S",
+    "display" : "Agence d'État",
+    "definition" : "Agence d'État."
+  },
+  {
+    "code" : "O",
+    "display" : "Autre",
+    "definition" : "Autre."
+  },
+  {
+    "code" : "U",
+    "display" : "Inconnu",
+    "definition" : "Inconnu."
+  },
+  {
+    "code" : "K",
+    "display" : "Personne de confiance",
+    "definition" : "Personne de confiance."
+  },
+  {
+    "code" : "P",
+    "display" : "Personne à ne pas prévenir",
+    "definition" : "Personne à ne pas prévenir."
+  },
+  {
+    "code" : "R",
+    "display" : "Représentant légal",
+    "definition" : "Représentant légal."
+  }]
+}

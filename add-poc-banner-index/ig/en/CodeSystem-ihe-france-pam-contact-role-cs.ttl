@@ -1,0 +1,118 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-contact-role-cs> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:Resource.id [ fhir:value "ihe-france-pam-contact-role-cs"] ;
+  fhir:Resource.language [ fhir:value "en"] ;
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ] ;
+     fhir:Narrative.div "<div xml:lang=\"en\" lang=\"en\"><hr/><p><b>English</b></p><hr/><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem ihe-france-pam-contact-role-cs</b></p><a name=\"en-ihe-france-pam-contact-role-cs\"> </a><a name=\"en-hcihe-france-pam-contact-role-cs\"> </a><p>This case-sensitive code system <code>https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-contact-role-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">E<a name=\"en-ihe-france-pam-contact-role-cs-E\"> </a></td><td>Employeur</td><td>Employeur.</td></tr><tr><td style=\"white-space:nowrap\">C<a name=\"en-ihe-france-pam-contact-role-cs-C\"> </a></td><td>Personne à contacter en cas d'urgence</td><td>Personne à contacter en cas d'urgence.</td></tr><tr><td style=\"white-space:nowrap\">F<a name=\"en-ihe-france-pam-contact-role-cs-F\"> </a></td><td>Agence fédérale</td><td>Agence fédérale.</td></tr><tr><td style=\"white-space:nowrap\">I<a name=\"en-ihe-france-pam-contact-role-cs-I\"> </a></td><td>Compagnie d'assurances</td><td>Compagnie d'assurances.</td></tr><tr><td style=\"white-space:nowrap\">N<a name=\"en-ihe-france-pam-contact-role-cs-N\"> </a></td><td>Parent proche</td><td>Parent proche.</td></tr><tr><td style=\"white-space:nowrap\">S<a name=\"en-ihe-france-pam-contact-role-cs-S\"> </a></td><td>Agence d'État</td><td>Agence d'État.</td></tr><tr><td style=\"white-space:nowrap\">O<a name=\"en-ihe-france-pam-contact-role-cs-O\"> </a></td><td>Autre</td><td>Autre.</td></tr><tr><td style=\"white-space:nowrap\">U<a name=\"en-ihe-france-pam-contact-role-cs-U\"> </a></td><td>Inconnu</td><td>Inconnu.</td></tr><tr><td style=\"white-space:nowrap\">K<a name=\"en-ihe-france-pam-contact-role-cs-K\"> </a></td><td>Personne de confiance</td><td>Personne de confiance.</td></tr><tr><td style=\"white-space:nowrap\">P<a name=\"en-ihe-france-pam-contact-role-cs-P\"> </a></td><td>Personne à ne pas prévenir</td><td>Personne à ne pas prévenir.</td></tr><tr><td style=\"white-space:nowrap\">R<a name=\"en-ihe-france-pam-contact-role-cs-R\"> </a></td><td>Représentant légal</td><td>Représentant légal.</td></tr></table></div>"
+  ] ;
+  fhir:CodeSystem.url [ fhir:value "https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-contact-role-cs"] ;
+  fhir:CodeSystem.version [ fhir:value "0.1.0"] ;
+  fhir:CodeSystem.name [ fhir:value "IHEFrancePamContactRoleCS"] ;
+  fhir:CodeSystem.title [ fhir:value "IHE France PAM Contact Role CodeSystem"] ;
+  fhir:CodeSystem.status [ fhir:value "draft"] ;
+  fhir:CodeSystem.experimental [ fhir:value "false"^^xsd:boolean] ;
+  fhir:CodeSystem.date [ fhir:value "2026-10-28T10:01:53+00:00"^^xsd:dateTime] ;
+  fhir:CodeSystem.publisher [ fhir:value "IHE France"] ;
+  fhir:CodeSystem.contact [
+     fhir:index -1 ;
+     fhir:ContactDetail.name [ fhir:value "IHE France" ] ;
+     fhir:ContactDetail.telecom [
+       fhir:index -1 ;
+       fhir:ContactPoint.system [ fhir:value "url" ] ;
+       fhir:ContactPoint.value [ fhir:value "https://www.ihe-france.org" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:ContactDetail.name [ fhir:value "IHE France" ] ;
+     fhir:ContactDetail.telecom [
+       fhir:index -1 ;
+       fhir:ContactPoint.system [ fhir:value "url" ] ;
+       fhir:ContactPoint.value [ fhir:value "https://www.ihe-france.org" ] ;
+       fhir:ContactPoint.use [ fhir:value "work" ]
+     ]
+  ] ;
+  fhir:CodeSystem.description [ fhir:value "Rôle de la personne auprès du patient pendant le séjour (NK1-7, table HL7 0131). Liste non limitative. La personne de confiance est rattachée au séjour et transmise uniquement via ITI-31."] ;
+  fhir:CodeSystem.jurisdiction [
+     fhir:index -1 ;
+     fhir:CodeableConcept.coding [
+       fhir:index -1 ;
+       fhir:Coding.system [ fhir:value "urn:iso:std:iso:3166" ] ;
+       fhir:Coding.code [ fhir:value "FR" ] ;
+       fhir:Coding.display [ fhir:value "France (la)" ]
+     ]
+  ] ;
+  fhir:CodeSystem.caseSensitive [ fhir:value "true"^^xsd:boolean] ;
+  fhir:CodeSystem.content [ fhir:value "complete"] ;
+  fhir:CodeSystem.count [ fhir:value "11"^^xsd:nonNegativeInteger] ;
+  fhir:CodeSystem.concept [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "E" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Employeur" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Employeur." ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "C" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Personne à contacter en cas d'urgence" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Personne à contacter en cas d'urgence." ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "F" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Agence fédérale" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Agence fédérale." ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "I" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Compagnie d'assurances" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Compagnie d'assurances." ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "N" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Parent proche" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Parent proche." ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "S" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Agence d'État" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Agence d'État." ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "O" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Autre" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Autre." ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "U" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Inconnu" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Inconnu." ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "K" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Personne de confiance" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Personne de confiance." ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "P" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Personne à ne pas prévenir" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Personne à ne pas prévenir." ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "R" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Représentant légal" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Représentant légal." ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-contact-role-cs.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

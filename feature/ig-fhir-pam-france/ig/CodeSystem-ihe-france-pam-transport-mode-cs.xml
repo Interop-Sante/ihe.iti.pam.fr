@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="ihe-france-pam-transport-mode-cs"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><div xml:lang="fr" lang="fr"><hr/><p><b>French</b></p><hr/><p class="res-header-id"><b>Narratif généré : CodeSystem ihe-france-pam-transport-mode-cs</b></p><a name="ihe-france-pam-transport-mode-cs"> </a><a name="hcihe-france-pam-transport-mode-cs"> </a><p>This case-sensitive code system <code>https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-transport-mode-cs</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Affichage</b></td><td><b>Définition</b></td></tr><tr><td style="white-space:nowrap">0<a name="ihe-france-pam-transport-mode-cs-0"> </a></td><td>Police</td><td>Transport par la police.</td></tr><tr><td style="white-space:nowrap">1<a name="ihe-france-pam-transport-mode-cs-1"> </a></td><td>SAMU, SMUR terrestre</td><td>Transport par le SAMU ou le SMUR terrestre.</td></tr><tr><td style="white-space:nowrap">2<a name="ihe-france-pam-transport-mode-cs-2"> </a></td><td>Ambulance publique</td><td>Ambulance publique.</td></tr><tr><td style="white-space:nowrap">3<a name="ihe-france-pam-transport-mode-cs-3"> </a></td><td>Ambulance privée</td><td>Ambulance privée.</td></tr><tr><td style="white-space:nowrap">4<a name="ihe-france-pam-transport-mode-cs-4"> </a></td><td>Taxi</td><td>Taxi.</td></tr><tr><td style="white-space:nowrap">5<a name="ihe-france-pam-transport-mode-cs-5"> </a></td><td>Moyens personnels</td><td>Moyens personnels.</td></tr><tr><td style="white-space:nowrap">6<a name="ihe-france-pam-transport-mode-cs-6"> </a></td><td>SAMU, SMUR hélicoptère</td><td>Transport par le SAMU ou le SMUR en hélicoptère.</td></tr><tr><td style="white-space:nowrap">7<a name="ihe-france-pam-transport-mode-cs-7"> </a></td><td>Pompier</td><td>Pompiers.</td></tr><tr><td style="white-space:nowrap">8<a name="ihe-france-pam-transport-mode-cs-8"> </a></td><td>VSL</td><td>Véhicule sanitaire léger.</td></tr><tr><td style="white-space:nowrap">9<a name="ihe-france-pam-transport-mode-cs-9"> </a></td><td>Autre</td><td>Autre moyen de transport.</td></tr><tr><td style="white-space:nowrap">10<a name="ihe-france-pam-transport-mode-cs-10"> </a></td><td>Avion</td><td>Avion.</td></tr><tr><td style="white-space:nowrap">11<a name="ihe-france-pam-transport-mode-cs-11"> </a></td><td>Bateau</td><td>Bateau.</td></tr></table></div><div xml:lang="en" lang="en"><hr/><p><b>English</b></p><hr/><p class="res-header-id"><b>Generated Narrative: CodeSystem ihe-france-pam-transport-mode-cs</b></p><a name="en-ihe-france-pam-transport-mode-cs"> </a><a name="en-hcihe-france-pam-transport-mode-cs"> </a><p>This case-sensitive code system <code>https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-transport-mode-cs</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap">0<a name="en-ihe-france-pam-transport-mode-cs-0"> </a></td><td>Police</td><td>Transport par la police.</td></tr><tr><td style="white-space:nowrap">1<a name="en-ihe-france-pam-transport-mode-cs-1"> </a></td><td>SAMU, SMUR terrestre</td><td>Transport par le SAMU ou le SMUR terrestre.</td></tr><tr><td style="white-space:nowrap">2<a name="en-ihe-france-pam-transport-mode-cs-2"> </a></td><td>Ambulance publique</td><td>Ambulance publique.</td></tr><tr><td style="white-space:nowrap">3<a name="en-ihe-france-pam-transport-mode-cs-3"> </a></td><td>Ambulance privée</td><td>Ambulance privée.</td></tr><tr><td style="white-space:nowrap">4<a name="en-ihe-france-pam-transport-mode-cs-4"> </a></td><td>Taxi</td><td>Taxi.</td></tr><tr><td style="white-space:nowrap">5<a name="en-ihe-france-pam-transport-mode-cs-5"> </a></td><td>Moyens personnels</td><td>Moyens personnels.</td></tr><tr><td style="white-space:nowrap">6<a name="en-ihe-france-pam-transport-mode-cs-6"> </a></td><td>SAMU, SMUR hélicoptère</td><td>Transport par le SAMU ou le SMUR en hélicoptère.</td></tr><tr><td style="white-space:nowrap">7<a name="en-ihe-france-pam-transport-mode-cs-7"> </a></td><td>Pompier</td><td>Pompiers.</td></tr><tr><td style="white-space:nowrap">8<a name="en-ihe-france-pam-transport-mode-cs-8"> </a></td><td>VSL</td><td>Véhicule sanitaire léger.</td></tr><tr><td style="white-space:nowrap">9<a name="en-ihe-france-pam-transport-mode-cs-9"> </a></td><td>Autre</td><td>Autre moyen de transport.</td></tr><tr><td style="white-space:nowrap">10<a name="en-ihe-france-pam-transport-mode-cs-10"> </a></td><td>Avion</td><td>Avion.</td></tr><tr><td style="white-space:nowrap">11<a name="en-ihe-france-pam-transport-mode-cs-11"> </a></td><td>Bateau</td><td>Bateau.</td></tr></table></div></div>
+  </text>
+  <url value="https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-transport-mode-cs"/>
+  <version value="0.1.0"/>
+  <name value="IHEFrancePamTransportModeCS"/>
+  <title value="IHE France PAM Transport Mode CodeSystem"/>
+  <status value="draft"/>
+  <experimental value="false"/>
+  <date value="2026-10-28T10:06:53+00:00"/>
+  <publisher value="IHE France"/>
+  <contact>
+    <name value="IHE France"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.ihe-france.org"/>
+    </telecom>
+  </contact>
+  <contact>
+    <name value="IHE France"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.ihe-france.org"/>
+      <use value="work"/>
+    </telecom>
+  </contact>
+  <description value="Mode de transport d'entrée (PV2-38) et de sortie (ZFV-2) (table HL7 0430)."/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="FR"/>
+      <display value="France (la)"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="12"/>
+  <concept>
+    <code value="0"/>
+    <display value="Police"/>
+    <definition value="Transport par la police."/>
+  </concept>
+  <concept>
+    <code value="1"/>
+    <display value="SAMU, SMUR terrestre"/>
+    <definition value="Transport par le SAMU ou le SMUR terrestre."/>
+  </concept>
+  <concept>
+    <code value="2"/>
+    <display value="Ambulance publique"/>
+    <definition value="Ambulance publique."/>
+  </concept>
+  <concept>
+    <code value="3"/>
+    <display value="Ambulance privée"/>
+    <definition value="Ambulance privée."/>
+  </concept>
+  <concept>
+    <code value="4"/>
+    <display value="Taxi"/>
+    <definition value="Taxi."/>
+  </concept>
+  <concept>
+    <code value="5"/>
+    <display value="Moyens personnels"/>
+    <definition value="Moyens personnels."/>
+  </concept>
+  <concept>
+    <code value="6"/>
+    <display value="SAMU, SMUR hélicoptère"/>
+    <definition value="Transport par le SAMU ou le SMUR en hélicoptère."/>
+  </concept>
+  <concept>
+    <code value="7"/>
+    <display value="Pompier"/>
+    <definition value="Pompiers."/>
+  </concept>
+  <concept>
+    <code value="8"/>
+    <display value="VSL"/>
+    <definition value="Véhicule sanitaire léger."/>
+  </concept>
+  <concept>
+    <code value="9"/>
+    <display value="Autre"/>
+    <definition value="Autre moyen de transport."/>
+  </concept>
+  <concept>
+    <code value="10"/>
+    <display value="Avion"/>
+    <definition value="Avion."/>
+  </concept>
+  <concept>
+    <code value="11"/>
+    <display value="Bateau"/>
+    <definition value="Bateau."/>
+  </concept>
+</CodeSystem>

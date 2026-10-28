@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="ihe-france-pam-movement-nature-cs"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><div xml:lang="fr" lang="fr"><hr/><p><b>French</b></p><hr/><p class="res-header-id"><b>Narratif généré : CodeSystem ihe-france-pam-movement-nature-cs</b></p><a name="ihe-france-pam-movement-nature-cs"> </a><a name="hcihe-france-pam-movement-nature-cs"> </a><p>This case-sensitive code system <code>https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-movement-nature-cs</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Affichage</b></td><td><b>Définition</b></td></tr><tr><td style="white-space:nowrap">S<a name="ihe-france-pam-movement-nature-cs-S"> </a></td><td>Responsabilité de soins</td><td>Changement de responsabilité de soins uniquement.</td></tr><tr><td style="white-space:nowrap">H<a name="ihe-france-pam-movement-nature-cs-H"> </a></td><td>Responsabilité d'hébergement</td><td>Changement de responsabilité d'hébergement uniquement.</td></tr><tr><td style="white-space:nowrap">M<a name="ihe-france-pam-movement-nature-cs-M"> </a></td><td>Responsabilité médicale</td><td>Changement de responsabilité médicale uniquement.</td></tr><tr><td style="white-space:nowrap">L<a name="ihe-france-pam-movement-nature-cs-L"> </a></td><td>Lit</td><td>Changement de lit uniquement.</td></tr><tr><td style="white-space:nowrap">D<a name="ihe-france-pam-movement-nature-cs-D"> </a></td><td>Prise en charge médico-administrative</td><td>Changement de prise en charge médico-administrative laissant les responsabilités et la localisation du patient inchangées (par exemple changement de tarif du séjour en unité de soins).</td></tr><tr><td style="white-space:nowrap">SM<a name="ihe-france-pam-movement-nature-cs-SM"> </a></td><td>Soins et médicale</td><td>Changement de responsabilité de soins et médicale.</td></tr><tr><td style="white-space:nowrap">SH<a name="ihe-france-pam-movement-nature-cs-SH"> </a></td><td>Soins et hébergement</td><td>Changement de responsabilité de soins et d'hébergement.</td></tr><tr><td style="white-space:nowrap">MH<a name="ihe-france-pam-movement-nature-cs-MH"> </a></td><td>Hébergement et médicale</td><td>Changement de responsabilité d'hébergement et médicale.</td></tr><tr><td style="white-space:nowrap">LD<a name="ihe-france-pam-movement-nature-cs-LD"> </a></td><td>Prise en charge et lit</td><td>Changement de prise en charge médico-administrative et de lit, laissant les responsabilités inchangées.</td></tr><tr><td style="white-space:nowrap">HMS<a name="ihe-france-pam-movement-nature-cs-HMS"> </a></td><td>Trois responsabilités</td><td>Changement conjoint des trois responsabilités.</td></tr><tr><td style="white-space:nowrap">C<a name="ihe-france-pam-movement-nature-cs-C"> </a></td><td>Correction du statut administratif</td><td>Correction ou changement du statut administratif du patient sans génération de mouvement. À utiliser uniquement sur un événement Z99 portant sur un A05, A04 ou A01.</td></tr></table></div><div xml:lang="en" lang="en"><hr/><p><b>English</b></p><hr/><p class="res-header-id"><b>Generated Narrative: CodeSystem ihe-france-pam-movement-nature-cs</b></p><a name="en-ihe-france-pam-movement-nature-cs"> </a><a name="en-hcihe-france-pam-movement-nature-cs"> </a><p>This case-sensitive code system <code>https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-movement-nature-cs</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap">S<a name="en-ihe-france-pam-movement-nature-cs-S"> </a></td><td>Responsabilité de soins</td><td>Changement de responsabilité de soins uniquement.</td></tr><tr><td style="white-space:nowrap">H<a name="en-ihe-france-pam-movement-nature-cs-H"> </a></td><td>Responsabilité d'hébergement</td><td>Changement de responsabilité d'hébergement uniquement.</td></tr><tr><td style="white-space:nowrap">M<a name="en-ihe-france-pam-movement-nature-cs-M"> </a></td><td>Responsabilité médicale</td><td>Changement de responsabilité médicale uniquement.</td></tr><tr><td style="white-space:nowrap">L<a name="en-ihe-france-pam-movement-nature-cs-L"> </a></td><td>Lit</td><td>Changement de lit uniquement.</td></tr><tr><td style="white-space:nowrap">D<a name="en-ihe-france-pam-movement-nature-cs-D"> </a></td><td>Prise en charge médico-administrative</td><td>Changement de prise en charge médico-administrative laissant les responsabilités et la localisation du patient inchangées (par exemple changement de tarif du séjour en unité de soins).</td></tr><tr><td style="white-space:nowrap">SM<a name="en-ihe-france-pam-movement-nature-cs-SM"> </a></td><td>Soins et médicale</td><td>Changement de responsabilité de soins et médicale.</td></tr><tr><td style="white-space:nowrap">SH<a name="en-ihe-france-pam-movement-nature-cs-SH"> </a></td><td>Soins et hébergement</td><td>Changement de responsabilité de soins et d'hébergement.</td></tr><tr><td style="white-space:nowrap">MH<a name="en-ihe-france-pam-movement-nature-cs-MH"> </a></td><td>Hébergement et médicale</td><td>Changement de responsabilité d'hébergement et médicale.</td></tr><tr><td style="white-space:nowrap">LD<a name="en-ihe-france-pam-movement-nature-cs-LD"> </a></td><td>Prise en charge et lit</td><td>Changement de prise en charge médico-administrative et de lit, laissant les responsabilités inchangées.</td></tr><tr><td style="white-space:nowrap">HMS<a name="en-ihe-france-pam-movement-nature-cs-HMS"> </a></td><td>Trois responsabilités</td><td>Changement conjoint des trois responsabilités.</td></tr><tr><td style="white-space:nowrap">C<a name="en-ihe-france-pam-movement-nature-cs-C"> </a></td><td>Correction du statut administratif</td><td>Correction ou changement du statut administratif du patient sans génération de mouvement. À utiliser uniquement sur un événement Z99 portant sur un A05, A04 ou A01.</td></tr></table></div></div>
+  </text>
+  <url value="https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-movement-nature-cs"/>
+  <version value="0.1.0"/>
+  <name value="IHEFrancePamMovementNatureCS"/>
+  <title value="IHE France PAM Movement Nature CodeSystem"/>
+  <status value="draft"/>
+  <experimental value="false"/>
+  <date value="2026-10-28T10:01:53+00:00"/>
+  <publisher value="IHE France"/>
+  <contact>
+    <name value="IHE France"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.ihe-france.org"/>
+    </telecom>
+  </contact>
+  <contact>
+    <name value="IHE France"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.ihe-france.org"/>
+      <use value="work"/>
+    </telecom>
+  </contact>
+  <description value="Nature du mouvement (ZBE-9, table IHE-FRANCE-ZBE-9)."/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="FR"/>
+      <display value="France (la)"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="11"/>
+  <concept>
+    <code value="S"/>
+    <display value="Responsabilité de soins"/>
+    <definition value="Changement de responsabilité de soins uniquement."/>
+  </concept>
+  <concept>
+    <code value="H"/>
+    <display value="Responsabilité d'hébergement"/>
+    <definition value="Changement de responsabilité d'hébergement uniquement."/>
+  </concept>
+  <concept>
+    <code value="M"/>
+    <display value="Responsabilité médicale"/>
+    <definition value="Changement de responsabilité médicale uniquement."/>
+  </concept>
+  <concept>
+    <code value="L"/>
+    <display value="Lit"/>
+    <definition value="Changement de lit uniquement."/>
+  </concept>
+  <concept>
+    <code value="D"/>
+    <display value="Prise en charge médico-administrative"/>
+    <definition value="Changement de prise en charge médico-administrative laissant les responsabilités et la localisation du patient inchangées (par exemple changement de tarif du séjour en unité de soins)."/>
+  </concept>
+  <concept>
+    <code value="SM"/>
+    <display value="Soins et médicale"/>
+    <definition value="Changement de responsabilité de soins et médicale."/>
+  </concept>
+  <concept>
+    <code value="SH"/>
+    <display value="Soins et hébergement"/>
+    <definition value="Changement de responsabilité de soins et d'hébergement."/>
+  </concept>
+  <concept>
+    <code value="MH"/>
+    <display value="Hébergement et médicale"/>
+    <definition value="Changement de responsabilité d'hébergement et médicale."/>
+  </concept>
+  <concept>
+    <code value="LD"/>
+    <display value="Prise en charge et lit"/>
+    <definition value="Changement de prise en charge médico-administrative et de lit, laissant les responsabilités inchangées."/>
+  </concept>
+  <concept>
+    <code value="HMS"/>
+    <display value="Trois responsabilités"/>
+    <definition value="Changement conjoint des trois responsabilités."/>
+  </concept>
+  <concept>
+    <code value="C"/>
+    <display value="Correction du statut administratif"/>
+    <definition value="Correction ou changement du statut administratif du patient sans génération de mouvement. À utiliser uniquement sur un événement Z99 portant sur un A05, A04 ou A01."/>
+  </concept>
+</CodeSystem>

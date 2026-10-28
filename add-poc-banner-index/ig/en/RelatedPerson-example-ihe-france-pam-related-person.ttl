@@ -1,0 +1,63 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://hl7.fr/ig/v2/pam/RelatedPerson/example-ihe-france-pam-related-person> a fhir:RelatedPerson ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:Resource.id [ fhir:value "example-ihe-france-pam-related-person"] ;
+  fhir:Resource.meta [
+     fhir:Meta.profile [
+       fhir:value "https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-related-person" ;
+       fhir:index -1 ;
+       fhir:link <https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-related-person>
+     ]
+  ] ;
+  fhir:Resource.language [ fhir:value "en"] ;
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ] ;
+     fhir:Narrative.div "<div xml:lang=\"en\" lang=\"en\"><hr/><p><b>English</b></p><hr/><p class=\"res-header-id\"><b>Generated Narrative: RelatedPerson example-ihe-france-pam-related-person</b></p><a name=\"en-example-ihe-france-pam-related-person\"> </a><a name=\"en-hcexample-ihe-france-pam-related-person\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-ihe-france-pam-related-person.html\">IHE France PAM Related Person</a></p></div><p style=\"border: 1px #661aff solid; background-color: #e6e6ff; padding: 10px;\">ALICE DARK - Personne a prevenir (Person number: PN-0001)</p><hr/><table class=\"grid\"><tr><td style=\"background-color: #f3f5da\" title=\"The patient this person is related to\">Patient:</td><td colspan=\"3\"><a href=\"Patient-example-ihe-france-pam-patient.html\">JEANNE MARIE-CECILE DARK  Female, DoB: 1960-05-30 ( IPP: 1900068)</a></td></tr><tr><td style=\"background-color: #f3f5da\" title=\"The nature of the relationship between the patient and the related person\">Relationship:</td><td colspan=\"3\"><span title=\"Codes:\">Personne a prevenir</span></td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Ways to contact the Related Person\">Contact Detail</td><td colspan=\"3\"><a href=\"tel:+33123456789\">+33123456789</a></td></tr></table></div>"
+  ] ;
+  fhir:RelatedPerson.identifier [
+     fhir:index -1 ;
+     fhir:Identifier.type [
+       fhir:CodeableConcept.coding [
+         fhir:index -1 ;
+         fhir:Coding.system [ fhir:value "https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-identifier-type-cs" ] ;
+         fhir:Coding.code [ fhir:value "PN" ]
+       ]
+     ] ;
+     fhir:Identifier.system [ fhir:value "urn:example:person-number" ] ;
+     fhir:Identifier.value [ fhir:value "PN-0001" ]
+  ] ;
+  fhir:RelatedPerson.patient [
+     fhir:link <https://hl7.fr/ig/v2/pam/Patient/example-ihe-france-pam-patient> ;
+     fhir:Reference.reference [ fhir:value "Patient/example-ihe-france-pam-patient" ]
+  ] ;
+  fhir:RelatedPerson.relationship [
+     fhir:index -1 ;
+     fhir:CodeableConcept.text [ fhir:value "Personne a prevenir" ]
+  ] ;
+  fhir:RelatedPerson.name [
+     fhir:index -1 ;
+     fhir:HumanName.family [ fhir:value "DARK" ] ;
+     fhir:HumanName.given [
+       fhir:value "ALICE" ;
+       fhir:index -1
+     ]
+  ] ;
+  fhir:RelatedPerson.telecom [
+     fhir:index -1 ;
+     fhir:ContactPoint.system [ fhir:value "phone" ] ;
+     fhir:ContactPoint.value [ fhir:value "+33123456789" ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://hl7.fr/ig/v2/pam/RelatedPerson/example-ihe-france-pam-related-person.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

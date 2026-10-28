@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="ihe-france-pam-identity-document-vs"/>
+  <language value="en"/>
+  <text>
+    <status value="generated"/><div xml:lang="en" lang="en"><hr/><p><b>English</b></p><hr/><p class="res-header-id"><b>Generated Narrative: ValueSet ihe-france-pam-identity-document-vs</b></p><a name="en-ihe-france-pam-identity-document-vs"> </a><a name="en-hcihe-france-pam-identity-document-vs"> </a><ul><li>Include all codes defined in <a href="CodeSystem-ihe-france-pam-identity-document-cs.html"><code>https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-identity-document-cs</code></a><span title="Version is explicitly stated to be 0.1.0"> version &#x1F4CD;0.1.0</span></li></ul></div>
+  </text>
+  <url value="https://hl7.fr/ig/v2/pam/ValueSet/ihe-france-pam-identity-document-vs"/>
+  <version value="0.1.0"/>
+  <name value="IHEFrancePamIdentityDocumentVS"/>
+  <title value="IHE France PAM Identity Document ValueSet"/>
+  <status value="draft"/>
+  <experimental value="false"/>
+  <date value="2026-10-28T10:06:53+00:00"/>
+  <publisher value="IHE France"/>
+  <contact>
+    <name value="IHE France"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.ihe-france.org"/>
+    </telecom>
+  </contact>
+  <contact>
+    <name value="IHE France"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.ihe-france.org"/>
+      <use value="work"/>
+    </telecom>
+  </contact>
+  <description value="Valeurs permises pour le type de justificatif d'identité (ZFD-7)."/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="FR"/>
+      <display value="France (la)"/>
+    </coding>
+  </jurisdiction>
+  <compose>
+    <include>
+      <system value="https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-identity-document-cs"/>
+      <version value="0.1.0"/>
+    </include>
+  </compose>
+</ValueSet>

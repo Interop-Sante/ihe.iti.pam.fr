@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="ihe-france-pam-transport-care-cs"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><div xml:lang="fr" lang="fr"><hr/><p><b>French</b></p><hr/><p class="res-header-id"><b>Narratif généré : CodeSystem ihe-france-pam-transport-care-cs</b></p><a name="ihe-france-pam-transport-care-cs"> </a><a name="hcihe-france-pam-transport-care-cs"> </a><p>This case-sensitive code system <code>https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-transport-care-cs</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Affichage</b></td><td><b>Définition</b></td></tr><tr><td style="white-space:nowrap">MED<a name="ihe-france-pam-transport-care-cs-MED"> </a></td><td>Médicalisé</td><td>Transport médicalisé.</td></tr><tr><td style="white-space:nowrap">PARAMED<a name="ihe-france-pam-transport-care-cs-PARAMED"> </a></td><td>Paramédicalisé</td><td>Transport paramédicalisé.</td></tr><tr><td style="white-space:nowrap">AUCUN<a name="ihe-france-pam-transport-care-cs-AUCUN"> </a></td><td>Aucune prise en charge</td><td>Sans prise en charge médicalisée ou paramédicalisée.</td></tr></table></div><div xml:lang="en" lang="en"><hr/><p><b>English</b></p><hr/><p class="res-header-id"><b>Generated Narrative: CodeSystem ihe-france-pam-transport-care-cs</b></p><a name="en-ihe-france-pam-transport-care-cs"> </a><a name="en-hcihe-france-pam-transport-care-cs"> </a><p>This case-sensitive code system <code>https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-transport-care-cs</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap">MED<a name="en-ihe-france-pam-transport-care-cs-MED"> </a></td><td>Médicalisé</td><td>Transport médicalisé.</td></tr><tr><td style="white-space:nowrap">PARAMED<a name="en-ihe-france-pam-transport-care-cs-PARAMED"> </a></td><td>Paramédicalisé</td><td>Transport paramédicalisé.</td></tr><tr><td style="white-space:nowrap">AUCUN<a name="en-ihe-france-pam-transport-care-cs-AUCUN"> </a></td><td>Aucune prise en charge</td><td>Sans prise en charge médicalisée ou paramédicalisée.</td></tr></table></div></div>
+  </text>
+  <url value="https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-transport-care-cs"/>
+  <version value="0.1.0"/>
+  <name value="IHEFrancePamTransportCareCS"/>
+  <title value="IHE France PAM Transport Care CodeSystem"/>
+  <status value="draft"/>
+  <experimental value="false"/>
+  <date value="2026-10-28T10:01:53+00:00"/>
+  <publisher value="IHE France"/>
+  <contact>
+    <name value="IHE France"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.ihe-france.org"/>
+    </telecom>
+  </contact>
+  <contact>
+    <name value="IHE France"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.ihe-france.org"/>
+      <use value="work"/>
+    </telecom>
+  </contact>
+  <description value="Prise en charge durant le transport (ZFV-11, table IHE-FRANCE-ZFV-11, codes RPU)."/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="FR"/>
+      <display value="France (la)"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="3"/>
+  <concept>
+    <code value="MED"/>
+    <display value="Médicalisé"/>
+    <definition value="Transport médicalisé."/>
+  </concept>
+  <concept>
+    <code value="PARAMED"/>
+    <display value="Paramédicalisé"/>
+    <definition value="Transport paramédicalisé."/>
+  </concept>
+  <concept>
+    <code value="AUCUN"/>
+    <display value="Aucune prise en charge"/>
+    <definition value="Sans prise en charge médicalisée ou paramédicalisée."/>
+  </concept>
+</CodeSystem>

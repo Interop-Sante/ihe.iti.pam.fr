@@ -1,0 +1,68 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "ihe-france-pam-identity-means-cs",
+  "language" : "en",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xml:lang=\"en\" lang=\"en\"><hr/><p><b>English</b></p><hr/><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem ihe-france-pam-identity-means-cs</b></p><a name=\"en-ihe-france-pam-identity-means-cs\"> </a><a name=\"en-hcihe-france-pam-identity-means-cs\"> </a><p>This case-sensitive code system <code>https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-identity-means-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">SM<a name=\"en-ihe-france-pam-identity-means-cs-SM\"> </a></td><td>Saisie manuelle</td><td>Traits d'identité saisis manuellement.</td></tr><tr><td style=\"white-space:nowrap\">CV<a name=\"en-ihe-france-pam-identity-means-cs-CV\"> </a></td><td>Carte vitale</td><td>Traits d'identité obtenus à partir de la carte Vitale.</td></tr><tr><td style=\"white-space:nowrap\">INSI<a name=\"en-ihe-france-pam-identity-means-cs-INSI\"> </a></td><td>Téléservice INSi</td><td>Traits d'identité obtenus par le téléservice INSi.</td></tr><tr><td style=\"white-space:nowrap\">CB<a name=\"en-ihe-france-pam-identity-means-cs-CB\"> </a></td><td>Code à barre</td><td>Traits d'identité obtenus par lecture d'un code à barre.</td></tr><tr><td style=\"white-space:nowrap\">RFID<a name=\"en-ihe-france-pam-identity-means-cs-RFID\"> </a></td><td>Puce RFID</td><td>Traits d'identité obtenus par lecture d'une puce RFID.</td></tr></table></div>"
+  },
+  "url" : "https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-identity-means-cs",
+  "version" : "0.1.0",
+  "name" : "IHEFrancePamIdentityMeansCS",
+  "title" : "IHE France PAM Identity Means CodeSystem",
+  "status" : "draft",
+  "experimental" : false,
+  "date" : "2026-10-28T10:06:53+00:00",
+  "publisher" : "IHE France",
+  "contact" : [{
+    "name" : "IHE France",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://www.ihe-france.org"
+    }]
+  },
+  {
+    "name" : "IHE France",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://www.ihe-france.org",
+      "use" : "work"
+    }]
+  }],
+  "description" : "Mode d'obtention de l'identité (ZFD-5, table IHE-FRANCE-ZFD-5).",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR",
+      "display" : "France (la)"
+    }]
+  }],
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 5,
+  "concept" : [{
+    "code" : "SM",
+    "display" : "Saisie manuelle",
+    "definition" : "Traits d'identité saisis manuellement."
+  },
+  {
+    "code" : "CV",
+    "display" : "Carte vitale",
+    "definition" : "Traits d'identité obtenus à partir de la carte Vitale."
+  },
+  {
+    "code" : "INSI",
+    "display" : "Téléservice INSi",
+    "definition" : "Traits d'identité obtenus par le téléservice INSi."
+  },
+  {
+    "code" : "CB",
+    "display" : "Code à barre",
+    "definition" : "Traits d'identité obtenus par lecture d'un code à barre."
+  },
+  {
+    "code" : "RFID",
+    "display" : "Puce RFID",
+    "definition" : "Traits d'identité obtenus par lecture d'une puce RFID."
+  }]
+}

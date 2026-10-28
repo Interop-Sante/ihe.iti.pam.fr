@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="ihe-france-pam-trigger-event-cs"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><div xml:lang="fr" lang="fr"><hr/><p><b>French</b></p><hr/><p class="res-header-id"><b>Narratif généré : CodeSystem ihe-france-pam-trigger-event-cs</b></p><a name="ihe-france-pam-trigger-event-cs"> </a><a name="hcihe-france-pam-trigger-event-cs"> </a><p>This case-sensitive code system <code>https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-trigger-event-cs</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Affichage</b></td><td><b>Définition</b></td></tr><tr><td style="white-space:nowrap">A01<a name="ihe-france-pam-trigger-event-cs-A01"> </a></td><td>Admission hospitalisée</td><td>ADT^A01 : admission d'un patient hospitalisé.</td></tr><tr><td style="white-space:nowrap">A02<a name="ihe-france-pam-trigger-event-cs-A02"> </a></td><td>Mutation</td><td>ADT^A02 : mutation (changement d'unité fonctionnelle, de localisation ou de conditions de prise en charge).</td></tr><tr><td style="white-space:nowrap">A03<a name="ihe-france-pam-trigger-event-cs-A03"> </a></td><td>Sortie</td><td>ADT^A03 : sortie définitive.</td></tr><tr><td style="white-space:nowrap">A04<a name="ihe-france-pam-trigger-event-cs-A04"> </a></td><td>Enregistrement externe</td><td>ADT^A04 : enregistrement d'un patient externe, ou arrivée aux urgences.</td></tr><tr><td style="white-space:nowrap">A05<a name="ihe-france-pam-trigger-event-cs-A05"> </a></td><td>Pré-admission</td><td>ADT^A05 : pré-admission.</td></tr><tr><td style="white-space:nowrap">A06<a name="ihe-france-pam-trigger-event-cs-A06"> </a></td><td>Changement vers hospitalisation</td><td>ADT^A06 : le patient externe ou aux urgences devient hospitalisé.</td></tr><tr><td style="white-space:nowrap">A07<a name="ihe-france-pam-trigger-event-cs-A07"> </a></td><td>Changement vers externe</td><td>ADT^A07 : le patient hospitalisé ou aux urgences devient externe.</td></tr><tr><td style="white-space:nowrap">A11<a name="ihe-france-pam-trigger-event-cs-A11"> </a></td><td>Annulation admission</td><td>ADT^A11 : annulation d'une admission ou d'une activité externe.</td></tr><tr><td style="white-space:nowrap">A12<a name="ihe-france-pam-trigger-event-cs-A12"> </a></td><td>Annulation mutation</td><td>ADT^A12 : annulation d'une mutation.</td></tr><tr><td style="white-space:nowrap">A13<a name="ihe-france-pam-trigger-event-cs-A13"> </a></td><td>Annulation sortie</td><td>ADT^A13 : annulation d'une sortie.</td></tr><tr><td style="white-space:nowrap">A14<a name="ihe-france-pam-trigger-event-cs-A14"> </a></td><td>Admission en attente</td><td>ADT^A14 : admission hospitalisée en attente.</td></tr><tr><td style="white-space:nowrap">A15<a name="ihe-france-pam-trigger-event-cs-A15"> </a></td><td>Mutation en attente</td><td>ADT^A15 : mutation en attente.</td></tr><tr><td style="white-space:nowrap">A16<a name="ihe-france-pam-trigger-event-cs-A16"> </a></td><td>Sortie en attente</td><td>ADT^A16 : sortie en attente (sortie imminente).</td></tr><tr><td style="white-space:nowrap">A21<a name="ihe-france-pam-trigger-event-cs-A21"> </a></td><td>Absence provisoire</td><td>ADT^A21 : absence provisoire (permission) ou transfert vers un plateau technique pour acte (moins de 48 heures).</td></tr><tr><td style="white-space:nowrap">A22<a name="ihe-france-pam-trigger-event-cs-A22"> </a></td><td>Retour d'absence provisoire</td><td>ADT^A22 : retour d'absence provisoire ou de transfert vers un plateau technique.</td></tr><tr><td style="white-space:nowrap">A25<a name="ihe-france-pam-trigger-event-cs-A25"> </a></td><td>Annulation sortie en attente</td><td>ADT^A25 : annulation d'une sortie en attente.</td></tr><tr><td style="white-space:nowrap">A26<a name="ihe-france-pam-trigger-event-cs-A26"> </a></td><td>Annulation mutation en attente</td><td>ADT^A26 : annulation d'une mutation en attente.</td></tr><tr><td style="white-space:nowrap">A27<a name="ihe-france-pam-trigger-event-cs-A27"> </a></td><td>Annulation admission en attente</td><td>ADT^A27 : annulation d'une admission en attente.</td></tr><tr><td style="white-space:nowrap">A28<a name="ihe-france-pam-trigger-event-cs-A28"> </a></td><td>Création patient</td><td>ADT^A28 : création d'un nouveau patient (ITI-30).</td></tr><tr><td style="white-space:nowrap">A31<a name="ihe-france-pam-trigger-event-cs-A31"> </a></td><td>Mise à jour patient</td><td>ADT^A31 : mise à jour des informations du patient (ITI-30).</td></tr><tr><td style="white-space:nowrap">A38<a name="ihe-france-pam-trigger-event-cs-A38"> </a></td><td>Annulation pré-admission</td><td>ADT^A38 : annulation d'une pré-admission.</td></tr><tr><td style="white-space:nowrap">A40<a name="ihe-france-pam-trigger-event-cs-A40"> </a></td><td>Fusion patient</td><td>ADT^A40 : fusion de deux dossiers patients (ITI-30).</td></tr><tr><td style="white-space:nowrap">A44<a name="ihe-france-pam-trigger-event-cs-A44"> </a></td><td>Réattribution dossier</td><td>ADT^A44 : réattribution d'un dossier administratif à un autre patient.</td></tr><tr><td style="white-space:nowrap">A47<a name="ihe-france-pam-trigger-event-cs-A47"> </a></td><td>Mise à jour identifiants patient</td><td>ADT^A47 : mise à jour d'un ou plusieurs identifiants du patient (ITI-30).</td></tr><tr><td style="white-space:nowrap">A49<a name="ihe-france-pam-trigger-event-cs-A49"> </a></td><td>Changement du numéro de dossier</td><td>ADT^A49 : changement du numéro de dossier administratif.</td></tr><tr><td style="white-space:nowrap">A52<a name="ihe-france-pam-trigger-event-cs-A52"> </a></td><td>Annulation absence provisoire</td><td>ADT^A52 : annulation d'une absence provisoire.</td></tr><tr><td style="white-space:nowrap">A53<a name="ihe-france-pam-trigger-event-cs-A53"> </a></td><td>Annulation retour d'absence provisoire</td><td>ADT^A53 : annulation d'un retour d'absence provisoire.</td></tr><tr><td style="white-space:nowrap">A54<a name="ihe-france-pam-trigger-event-cs-A54"> </a></td><td>Changement médecin responsable</td><td>ADT^A54 : changement du médecin responsable.</td></tr><tr><td style="white-space:nowrap">A55<a name="ihe-france-pam-trigger-event-cs-A55"> </a></td><td>Annulation changement médecin responsable</td><td>ADT^A55 : annulation du changement de médecin responsable.</td></tr><tr><td style="white-space:nowrap">Z99<a name="ihe-france-pam-trigger-event-cs-Z99"> </a></td><td>Correction de mouvement</td><td>ADT^Z99 : correction d'un mouvement, courant ou historique. Seul événement pouvant modifier un mouvement.</td></tr></table></div><div xml:lang="en" lang="en"><hr/><p><b>English</b></p><hr/><p class="res-header-id"><b>Generated Narrative: CodeSystem ihe-france-pam-trigger-event-cs</b></p><a name="en-ihe-france-pam-trigger-event-cs"> </a><a name="en-hcihe-france-pam-trigger-event-cs"> </a><p>This case-sensitive code system <code>https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-trigger-event-cs</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap">A01<a name="en-ihe-france-pam-trigger-event-cs-A01"> </a></td><td>Admission hospitalisée</td><td>ADT^A01 : admission d'un patient hospitalisé.</td></tr><tr><td style="white-space:nowrap">A02<a name="en-ihe-france-pam-trigger-event-cs-A02"> </a></td><td>Mutation</td><td>ADT^A02 : mutation (changement d'unité fonctionnelle, de localisation ou de conditions de prise en charge).</td></tr><tr><td style="white-space:nowrap">A03<a name="en-ihe-france-pam-trigger-event-cs-A03"> </a></td><td>Sortie</td><td>ADT^A03 : sortie définitive.</td></tr><tr><td style="white-space:nowrap">A04<a name="en-ihe-france-pam-trigger-event-cs-A04"> </a></td><td>Enregistrement externe</td><td>ADT^A04 : enregistrement d'un patient externe, ou arrivée aux urgences.</td></tr><tr><td style="white-space:nowrap">A05<a name="en-ihe-france-pam-trigger-event-cs-A05"> </a></td><td>Pré-admission</td><td>ADT^A05 : pré-admission.</td></tr><tr><td style="white-space:nowrap">A06<a name="en-ihe-france-pam-trigger-event-cs-A06"> </a></td><td>Changement vers hospitalisation</td><td>ADT^A06 : le patient externe ou aux urgences devient hospitalisé.</td></tr><tr><td style="white-space:nowrap">A07<a name="en-ihe-france-pam-trigger-event-cs-A07"> </a></td><td>Changement vers externe</td><td>ADT^A07 : le patient hospitalisé ou aux urgences devient externe.</td></tr><tr><td style="white-space:nowrap">A11<a name="en-ihe-france-pam-trigger-event-cs-A11"> </a></td><td>Annulation admission</td><td>ADT^A11 : annulation d'une admission ou d'une activité externe.</td></tr><tr><td style="white-space:nowrap">A12<a name="en-ihe-france-pam-trigger-event-cs-A12"> </a></td><td>Annulation mutation</td><td>ADT^A12 : annulation d'une mutation.</td></tr><tr><td style="white-space:nowrap">A13<a name="en-ihe-france-pam-trigger-event-cs-A13"> </a></td><td>Annulation sortie</td><td>ADT^A13 : annulation d'une sortie.</td></tr><tr><td style="white-space:nowrap">A14<a name="en-ihe-france-pam-trigger-event-cs-A14"> </a></td><td>Admission en attente</td><td>ADT^A14 : admission hospitalisée en attente.</td></tr><tr><td style="white-space:nowrap">A15<a name="en-ihe-france-pam-trigger-event-cs-A15"> </a></td><td>Mutation en attente</td><td>ADT^A15 : mutation en attente.</td></tr><tr><td style="white-space:nowrap">A16<a name="en-ihe-france-pam-trigger-event-cs-A16"> </a></td><td>Sortie en attente</td><td>ADT^A16 : sortie en attente (sortie imminente).</td></tr><tr><td style="white-space:nowrap">A21<a name="en-ihe-france-pam-trigger-event-cs-A21"> </a></td><td>Absence provisoire</td><td>ADT^A21 : absence provisoire (permission) ou transfert vers un plateau technique pour acte (moins de 48 heures).</td></tr><tr><td style="white-space:nowrap">A22<a name="en-ihe-france-pam-trigger-event-cs-A22"> </a></td><td>Retour d'absence provisoire</td><td>ADT^A22 : retour d'absence provisoire ou de transfert vers un plateau technique.</td></tr><tr><td style="white-space:nowrap">A25<a name="en-ihe-france-pam-trigger-event-cs-A25"> </a></td><td>Annulation sortie en attente</td><td>ADT^A25 : annulation d'une sortie en attente.</td></tr><tr><td style="white-space:nowrap">A26<a name="en-ihe-france-pam-trigger-event-cs-A26"> </a></td><td>Annulation mutation en attente</td><td>ADT^A26 : annulation d'une mutation en attente.</td></tr><tr><td style="white-space:nowrap">A27<a name="en-ihe-france-pam-trigger-event-cs-A27"> </a></td><td>Annulation admission en attente</td><td>ADT^A27 : annulation d'une admission en attente.</td></tr><tr><td style="white-space:nowrap">A28<a name="en-ihe-france-pam-trigger-event-cs-A28"> </a></td><td>Création patient</td><td>ADT^A28 : création d'un nouveau patient (ITI-30).</td></tr><tr><td style="white-space:nowrap">A31<a name="en-ihe-france-pam-trigger-event-cs-A31"> </a></td><td>Mise à jour patient</td><td>ADT^A31 : mise à jour des informations du patient (ITI-30).</td></tr><tr><td style="white-space:nowrap">A38<a name="en-ihe-france-pam-trigger-event-cs-A38"> </a></td><td>Annulation pré-admission</td><td>ADT^A38 : annulation d'une pré-admission.</td></tr><tr><td style="white-space:nowrap">A40<a name="en-ihe-france-pam-trigger-event-cs-A40"> </a></td><td>Fusion patient</td><td>ADT^A40 : fusion de deux dossiers patients (ITI-30).</td></tr><tr><td style="white-space:nowrap">A44<a name="en-ihe-france-pam-trigger-event-cs-A44"> </a></td><td>Réattribution dossier</td><td>ADT^A44 : réattribution d'un dossier administratif à un autre patient.</td></tr><tr><td style="white-space:nowrap">A47<a name="en-ihe-france-pam-trigger-event-cs-A47"> </a></td><td>Mise à jour identifiants patient</td><td>ADT^A47 : mise à jour d'un ou plusieurs identifiants du patient (ITI-30).</td></tr><tr><td style="white-space:nowrap">A49<a name="en-ihe-france-pam-trigger-event-cs-A49"> </a></td><td>Changement du numéro de dossier</td><td>ADT^A49 : changement du numéro de dossier administratif.</td></tr><tr><td style="white-space:nowrap">A52<a name="en-ihe-france-pam-trigger-event-cs-A52"> </a></td><td>Annulation absence provisoire</td><td>ADT^A52 : annulation d'une absence provisoire.</td></tr><tr><td style="white-space:nowrap">A53<a name="en-ihe-france-pam-trigger-event-cs-A53"> </a></td><td>Annulation retour d'absence provisoire</td><td>ADT^A53 : annulation d'un retour d'absence provisoire.</td></tr><tr><td style="white-space:nowrap">A54<a name="en-ihe-france-pam-trigger-event-cs-A54"> </a></td><td>Changement médecin responsable</td><td>ADT^A54 : changement du médecin responsable.</td></tr><tr><td style="white-space:nowrap">A55<a name="en-ihe-france-pam-trigger-event-cs-A55"> </a></td><td>Annulation changement médecin responsable</td><td>ADT^A55 : annulation du changement de médecin responsable.</td></tr><tr><td style="white-space:nowrap">Z99<a name="en-ihe-france-pam-trigger-event-cs-Z99"> </a></td><td>Correction de mouvement</td><td>ADT^Z99 : correction d'un mouvement, courant ou historique. Seul événement pouvant modifier un mouvement.</td></tr></table></div></div>
+  </text>
+  <url value="https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-trigger-event-cs"/>
+  <version value="0.1.0"/>
+  <name value="IHEFrancePamTriggerEventCS"/>
+  <title value="IHE France PAM Trigger Event CodeSystem"/>
+  <status value="draft"/>
+  <experimental value="false"/>
+  <date value="2026-10-28T10:06:53+00:00"/>
+  <publisher value="IHE France"/>
+  <contact>
+    <name value="IHE France"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.ihe-france.org"/>
+    </telecom>
+  </contact>
+  <contact>
+    <name value="IHE France"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.ihe-france.org"/>
+      <use value="work"/>
+    </telecom>
+  </contact>
+  <description value="Événements déclencheurs HL7 v2 utilisés par les transactions ITI-30 et ITI-31 en France."/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="FR"/>
+      <display value="France (la)"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="30"/>
+  <concept>
+    <code value="A01"/>
+    <display value="Admission hospitalisée"/>
+    <definition value="ADT^A01 : admission d'un patient hospitalisé."/>
+  </concept>
+  <concept>
+    <code value="A02"/>
+    <display value="Mutation"/>
+    <definition value="ADT^A02 : mutation (changement d'unité fonctionnelle, de localisation ou de conditions de prise en charge)."/>
+  </concept>
+  <concept>
+    <code value="A03"/>
+    <display value="Sortie"/>
+    <definition value="ADT^A03 : sortie définitive."/>
+  </concept>
+  <concept>
+    <code value="A04"/>
+    <display value="Enregistrement externe"/>
+    <definition value="ADT^A04 : enregistrement d'un patient externe, ou arrivée aux urgences."/>
+  </concept>
+  <concept>
+    <code value="A05"/>
+    <display value="Pré-admission"/>
+    <definition value="ADT^A05 : pré-admission."/>
+  </concept>
+  <concept>
+    <code value="A06"/>
+    <display value="Changement vers hospitalisation"/>
+    <definition value="ADT^A06 : le patient externe ou aux urgences devient hospitalisé."/>
+  </concept>
+  <concept>
+    <code value="A07"/>
+    <display value="Changement vers externe"/>
+    <definition value="ADT^A07 : le patient hospitalisé ou aux urgences devient externe."/>
+  </concept>
+  <concept>
+    <code value="A11"/>
+    <display value="Annulation admission"/>
+    <definition value="ADT^A11 : annulation d'une admission ou d'une activité externe."/>
+  </concept>
+  <concept>
+    <code value="A12"/>
+    <display value="Annulation mutation"/>
+    <definition value="ADT^A12 : annulation d'une mutation."/>
+  </concept>
+  <concept>
+    <code value="A13"/>
+    <display value="Annulation sortie"/>
+    <definition value="ADT^A13 : annulation d'une sortie."/>
+  </concept>
+  <concept>
+    <code value="A14"/>
+    <display value="Admission en attente"/>
+    <definition value="ADT^A14 : admission hospitalisée en attente."/>
+  </concept>
+  <concept>
+    <code value="A15"/>
+    <display value="Mutation en attente"/>
+    <definition value="ADT^A15 : mutation en attente."/>
+  </concept>
+  <concept>
+    <code value="A16"/>
+    <display value="Sortie en attente"/>
+    <definition value="ADT^A16 : sortie en attente (sortie imminente)."/>
+  </concept>
+  <concept>
+    <code value="A21"/>
+    <display value="Absence provisoire"/>
+    <definition value="ADT^A21 : absence provisoire (permission) ou transfert vers un plateau technique pour acte (moins de 48 heures)."/>
+  </concept>
+  <concept>
+    <code value="A22"/>
+    <display value="Retour d'absence provisoire"/>
+    <definition value="ADT^A22 : retour d'absence provisoire ou de transfert vers un plateau technique."/>
+  </concept>
+  <concept>
+    <code value="A25"/>
+    <display value="Annulation sortie en attente"/>
+    <definition value="ADT^A25 : annulation d'une sortie en attente."/>
+  </concept>
+  <concept>
+    <code value="A26"/>
+    <display value="Annulation mutation en attente"/>
+    <definition value="ADT^A26 : annulation d'une mutation en attente."/>
+  </concept>
+  <concept>
+    <code value="A27"/>
+    <display value="Annulation admission en attente"/>
+    <definition value="ADT^A27 : annulation d'une admission en attente."/>
+  </concept>
+  <concept>
+    <code value="A28"/>
+    <display value="Création patient"/>
+    <definition value="ADT^A28 : création d'un nouveau patient (ITI-30)."/>
+  </concept>
+  <concept>
+    <code value="A31"/>
+    <display value="Mise à jour patient"/>
+    <definition value="ADT^A31 : mise à jour des informations du patient (ITI-30)."/>
+  </concept>
+  <concept>
+    <code value="A38"/>
+    <display value="Annulation pré-admission"/>
+    <definition value="ADT^A38 : annulation d'une pré-admission."/>
+  </concept>
+  <concept>
+    <code value="A40"/>
+    <display value="Fusion patient"/>
+    <definition value="ADT^A40 : fusion de deux dossiers patients (ITI-30)."/>
+  </concept>
+  <concept>
+    <code value="A44"/>
+    <display value="Réattribution dossier"/>
+    <definition value="ADT^A44 : réattribution d'un dossier administratif à un autre patient."/>
+  </concept>
+  <concept>
+    <code value="A47"/>
+    <display value="Mise à jour identifiants patient"/>
+    <definition value="ADT^A47 : mise à jour d'un ou plusieurs identifiants du patient (ITI-30)."/>
+  </concept>
+  <concept>
+    <code value="A49"/>
+    <display value="Changement du numéro de dossier"/>
+    <definition value="ADT^A49 : changement du numéro de dossier administratif."/>
+  </concept>
+  <concept>
+    <code value="A52"/>
+    <display value="Annulation absence provisoire"/>
+    <definition value="ADT^A52 : annulation d'une absence provisoire."/>
+  </concept>
+  <concept>
+    <code value="A53"/>
+    <display value="Annulation retour d'absence provisoire"/>
+    <definition value="ADT^A53 : annulation d'un retour d'absence provisoire."/>
+  </concept>
+  <concept>
+    <code value="A54"/>
+    <display value="Changement médecin responsable"/>
+    <definition value="ADT^A54 : changement du médecin responsable."/>
+  </concept>
+  <concept>
+    <code value="A55"/>
+    <display value="Annulation changement médecin responsable"/>
+    <definition value="ADT^A55 : annulation du changement de médecin responsable."/>
+  </concept>
+  <concept>
+    <code value="Z99"/>
+    <display value="Correction de mouvement"/>
+    <definition value="ADT^Z99 : correction d'un mouvement, courant ou historique. Seul événement pouvant modifier un mouvement."/>
+  </concept>
+</CodeSystem>

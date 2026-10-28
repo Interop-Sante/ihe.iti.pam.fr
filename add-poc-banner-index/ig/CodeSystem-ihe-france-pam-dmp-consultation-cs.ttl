@@ -1,0 +1,77 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-dmp-consultation-cs> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:Resource.id [ fhir:value "ihe-france-pam-dmp-consultation-cs"] ;
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ] ;
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div xml:lang=\"fr\" lang=\"fr\"><hr/><p><b>French</b></p><hr/><p class=\"res-header-id\"><b>Narratif généré : CodeSystem ihe-france-pam-dmp-consultation-cs</b></p><a name=\"ihe-france-pam-dmp-consultation-cs\"> </a><a name=\"hcihe-france-pam-dmp-consultation-cs\"> </a><p>This case-sensitive code system <code>https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-dmp-consultation-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Affichage</b></td><td><b>Définition</b></td></tr><tr><td style=\"white-space:nowrap\">NA<a name=\"ihe-france-pam-dmp-consultation-cs-NA\"> </a></td><td>N/A</td><td>Information non recueillie.</td></tr><tr><td style=\"white-space:nowrap\">INC<a name=\"ihe-france-pam-dmp-consultation-cs-INC\"> </a></td><td>Informé et ne consent pas</td><td>Le patient est informé et ne consent pas à la consultation de Mon espace santé / DMP.</td></tr><tr><td style=\"white-space:nowrap\">IC<a name=\"ihe-france-pam-dmp-consultation-cs-IC\"> </a></td><td>Informé et consent</td><td>Le patient est informé et consent à la consultation de Mon espace santé / DMP.</td></tr></table></div><div xml:lang=\"en\" lang=\"en\"><hr/><p><b>English</b></p><hr/><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem ihe-france-pam-dmp-consultation-cs</b></p><a name=\"en-ihe-france-pam-dmp-consultation-cs\"> </a><a name=\"en-hcihe-france-pam-dmp-consultation-cs\"> </a><p>This case-sensitive code system <code>https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-dmp-consultation-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">NA<a name=\"en-ihe-france-pam-dmp-consultation-cs-NA\"> </a></td><td>N/A</td><td>Information non recueillie.</td></tr><tr><td style=\"white-space:nowrap\">INC<a name=\"en-ihe-france-pam-dmp-consultation-cs-INC\"> </a></td><td>Informé et ne consent pas</td><td>Le patient est informé et ne consent pas à la consultation de Mon espace santé / DMP.</td></tr><tr><td style=\"white-space:nowrap\">IC<a name=\"en-ihe-france-pam-dmp-consultation-cs-IC\"> </a></td><td>Informé et consent</td><td>Le patient est informé et consent à la consultation de Mon espace santé / DMP.</td></tr></table></div></div>"
+  ] ;
+  fhir:CodeSystem.url [ fhir:value "https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-dmp-consultation-cs"] ;
+  fhir:CodeSystem.version [ fhir:value "0.1.0"] ;
+  fhir:CodeSystem.name [ fhir:value "IHEFrancePamDmpConsultationCS"] ;
+  fhir:CodeSystem.title [ fhir:value "IHE France PAM DMP Consultation Consent CodeSystem"] ;
+  fhir:CodeSystem.status [ fhir:value "draft"] ;
+  fhir:CodeSystem.experimental [ fhir:value "false"^^xsd:boolean] ;
+  fhir:CodeSystem.date [ fhir:value "2026-10-28T10:01:53+00:00"^^xsd:dateTime] ;
+  fhir:CodeSystem.publisher [ fhir:value "IHE France"] ;
+  fhir:CodeSystem.contact [
+     fhir:index 0 ;
+     fhir:ContactDetail.name [ fhir:value "IHE France" ] ;
+     fhir:ContactDetail.telecom [
+       fhir:index 0 ;
+       fhir:ContactPoint.system [ fhir:value "url" ] ;
+       fhir:ContactPoint.value [ fhir:value "https://www.ihe-france.org" ]
+     ]
+  ], [
+     fhir:index 1 ;
+     fhir:ContactDetail.name [ fhir:value "IHE France" ] ;
+     fhir:ContactDetail.telecom [
+       fhir:index 0 ;
+       fhir:ContactPoint.system [ fhir:value "url" ] ;
+       fhir:ContactPoint.value [ fhir:value "https://www.ihe-france.org" ] ;
+       fhir:ContactPoint.use [ fhir:value "work" ]
+     ]
+  ] ;
+  fhir:CodeSystem.description [ fhir:value "Information du patient et consentement à la consultation de Mon espace santé / DMP (ZFA-11, table IHE-FRANCE-ZFA-11)."] ;
+  fhir:CodeSystem.jurisdiction [
+     fhir:index 0 ;
+     fhir:CodeableConcept.coding [
+       fhir:index 0 ;
+       fhir:Coding.system [ fhir:value "urn:iso:std:iso:3166" ] ;
+       fhir:Coding.code [ fhir:value "FR" ] ;
+       fhir:Coding.display [ fhir:value "France (la)" ]
+     ]
+  ] ;
+  fhir:CodeSystem.caseSensitive [ fhir:value "true"^^xsd:boolean] ;
+  fhir:CodeSystem.content [ fhir:value "complete"] ;
+  fhir:CodeSystem.count [ fhir:value "3"^^xsd:nonNegativeInteger] ;
+  fhir:CodeSystem.concept [
+     fhir:index 0 ;
+     fhir:CodeSystem.concept.code [ fhir:value "NA" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "N/A" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Information non recueillie." ]
+  ], [
+     fhir:index 1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "INC" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Informé et ne consent pas" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Le patient est informé et ne consent pas à la consultation de Mon espace santé / DMP." ]
+  ], [
+     fhir:index 2 ;
+     fhir:CodeSystem.concept.code [ fhir:value "IC" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Informé et consent" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Le patient est informé et consent à la consultation de Mon espace santé / DMP." ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-dmp-consultation-cs.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

@@ -1,0 +1,20 @@
+{
+  "url" : "https://hl7.fr/ig/v2/pam/ImplementationGuide/ihe.fr.pam",
+  "name" : "IHEFrancePAM",
+  "title" : "IHE PAM France",
+  "description" : "Base de travail pour transformer le profil IHE PAM France issu d'un PDF en Implementation Guide FHIR publiable avec le template Interop'Sante.",
+  "status" : "draft",
+  "package-id" : "ihe.fr.pam",
+  "ig-ver" : "0.1.0",
+  "date" : "Wed, 28 Oct, 2026 10:01:53 +0000",
+  "dateISO8601" : "2026-10-28T10:01:53+00:00",
+  "errs" : 0,
+  "warnings" : 76,
+  "hints" : 1046,
+  "broken-links" : 0,
+  "suppressed-hints" : 0,
+  "suppressed-warnings" : 0,
+  "version" : "4.0.1",
+  "tool" : "6.0.0-snapshot1 (3)",
+  "maxMemory" : 1148887328
+}

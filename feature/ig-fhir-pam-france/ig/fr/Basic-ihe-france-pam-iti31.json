@@ -1,0 +1,12 @@
+{
+  "resourceType" : "Basic",
+  "id" : "ihe-france-pam-iti31",
+  "language" : "fr",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xml:lang=\"fr\" lang=\"fr\"><hr/><p><b>French</b></p><hr/><p class=\"res-header-id\"><b>Narratif généré : Basique ihe-france-pam-iti31</b></p><a name=\"ihe-france-pam-iti31\"> </a><a name=\"hcihe-france-pam-iti31\"> </a><p><b>code</b>: <span title=\"Codes :\">ITI-31</span></p></div>"
+  },
+  "code" : {
+    "text" : "ITI-31"
+  }
+}

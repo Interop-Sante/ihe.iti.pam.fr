@@ -1,0 +1,112 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "ihe-france-pam-identity-document-cs",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div xml:lang=\"fr\" lang=\"fr\"><hr/><p><b>French</b></p><hr/><p class=\"res-header-id\"><b>Narratif généré : CodeSystem ihe-france-pam-identity-document-cs</b></p><a name=\"ihe-france-pam-identity-document-cs\"> </a><a name=\"hcihe-france-pam-identity-document-cs\"> </a><p>This case-sensitive code system <code>https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-identity-document-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Affichage</b></td><td><b>Définition</b></td></tr><tr><td style=\"white-space:nowrap\">AN<a name=\"ihe-france-pam-identity-document-cs-AN\"> </a></td><td>Extrait d'acte de naissance</td><td>Extrait d'acte de naissance.</td></tr><tr><td style=\"white-space:nowrap\">CC<a name=\"ihe-france-pam-identity-document-cs-CC\"> </a></td><td>Carnet de circulation</td><td>Carnet de circulation.</td></tr><tr><td style=\"white-space:nowrap\">CE<a name=\"ihe-france-pam-identity-document-cs-CE\"> </a></td><td>Carte européenne</td><td>Carte européenne.</td></tr><tr><td style=\"white-space:nowrap\">CM<a name=\"ihe-france-pam-identity-document-cs-CM\"> </a></td><td>Carte militaire</td><td>Carte militaire.</td></tr><tr><td style=\"white-space:nowrap\">CN<a name=\"ihe-france-pam-identity-document-cs-CN\"> </a></td><td>Carte nationale d'identité</td><td>Carte nationale d'identité.</td></tr><tr><td style=\"white-space:nowrap\">CS<a name=\"ihe-france-pam-identity-document-cs-CS\"> </a></td><td>Titre de séjour</td><td>Titre de séjour.</td></tr><tr><td style=\"white-space:nowrap\">LE<a name=\"ihe-france-pam-identity-document-cs-LE\"> </a></td><td>Livret de famille</td><td>Livret de famille.</td></tr><tr><td style=\"white-space:nowrap\">PA<a name=\"ihe-france-pam-identity-document-cs-PA\"> </a></td><td>Passeport</td><td>Passeport.</td></tr><tr><td style=\"white-space:nowrap\">PC<a name=\"ihe-france-pam-identity-document-cs-PC\"> </a></td><td>Permis de conduire</td><td>Permis de conduire.</td></tr><tr><td style=\"white-space:nowrap\">TC<a name=\"ihe-france-pam-identity-document-cs-TC\"> </a></td><td>Tiers de confiance</td><td>Contrat de confiance utilisé pour qualifier l'identité en dehors du laboratoire.</td></tr><tr><td style=\"white-space:nowrap\">AV<a name=\"ihe-france-pam-identity-document-cs-AV\"> </a></td><td>Application Carte Vitale</td><td>Application Carte Vitale.</td></tr><tr><td style=\"white-space:nowrap\">DC<a name=\"ihe-france-pam-identity-document-cs-DC\"> </a></td><td>Document de circulation pour étranger mineur</td><td>Document de circulation pour étranger mineur.</td></tr><tr><td style=\"white-space:nowrap\">AC<a name=\"ihe-france-pam-identity-document-cs-AC\"> </a></td><td>Acte de naissance et carte Vitale avec photo</td><td>Acte de naissance accompagné d'une carte Vitale avec photo.</td></tr><tr><td style=\"white-space:nowrap\">IE<a name=\"ihe-france-pam-identity-document-cs-IE\"> </a></td><td>Identification électronique eIDAS</td><td>Identification électronique eIDAS.</td></tr></table></div><div xml:lang=\"en\" lang=\"en\"><hr/><p><b>English</b></p><hr/><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem ihe-france-pam-identity-document-cs</b></p><a name=\"en-ihe-france-pam-identity-document-cs\"> </a><a name=\"en-hcihe-france-pam-identity-document-cs\"> </a><p>This case-sensitive code system <code>https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-identity-document-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">AN<a name=\"en-ihe-france-pam-identity-document-cs-AN\"> </a></td><td>Extrait d'acte de naissance</td><td>Extrait d'acte de naissance.</td></tr><tr><td style=\"white-space:nowrap\">CC<a name=\"en-ihe-france-pam-identity-document-cs-CC\"> </a></td><td>Carnet de circulation</td><td>Carnet de circulation.</td></tr><tr><td style=\"white-space:nowrap\">CE<a name=\"en-ihe-france-pam-identity-document-cs-CE\"> </a></td><td>Carte européenne</td><td>Carte européenne.</td></tr><tr><td style=\"white-space:nowrap\">CM<a name=\"en-ihe-france-pam-identity-document-cs-CM\"> </a></td><td>Carte militaire</td><td>Carte militaire.</td></tr><tr><td style=\"white-space:nowrap\">CN<a name=\"en-ihe-france-pam-identity-document-cs-CN\"> </a></td><td>Carte nationale d'identité</td><td>Carte nationale d'identité.</td></tr><tr><td style=\"white-space:nowrap\">CS<a name=\"en-ihe-france-pam-identity-document-cs-CS\"> </a></td><td>Titre de séjour</td><td>Titre de séjour.</td></tr><tr><td style=\"white-space:nowrap\">LE<a name=\"en-ihe-france-pam-identity-document-cs-LE\"> </a></td><td>Livret de famille</td><td>Livret de famille.</td></tr><tr><td style=\"white-space:nowrap\">PA<a name=\"en-ihe-france-pam-identity-document-cs-PA\"> </a></td><td>Passeport</td><td>Passeport.</td></tr><tr><td style=\"white-space:nowrap\">PC<a name=\"en-ihe-france-pam-identity-document-cs-PC\"> </a></td><td>Permis de conduire</td><td>Permis de conduire.</td></tr><tr><td style=\"white-space:nowrap\">TC<a name=\"en-ihe-france-pam-identity-document-cs-TC\"> </a></td><td>Tiers de confiance</td><td>Contrat de confiance utilisé pour qualifier l'identité en dehors du laboratoire.</td></tr><tr><td style=\"white-space:nowrap\">AV<a name=\"en-ihe-france-pam-identity-document-cs-AV\"> </a></td><td>Application Carte Vitale</td><td>Application Carte Vitale.</td></tr><tr><td style=\"white-space:nowrap\">DC<a name=\"en-ihe-france-pam-identity-document-cs-DC\"> </a></td><td>Document de circulation pour étranger mineur</td><td>Document de circulation pour étranger mineur.</td></tr><tr><td style=\"white-space:nowrap\">AC<a name=\"en-ihe-france-pam-identity-document-cs-AC\"> </a></td><td>Acte de naissance et carte Vitale avec photo</td><td>Acte de naissance accompagné d'une carte Vitale avec photo.</td></tr><tr><td style=\"white-space:nowrap\">IE<a name=\"en-ihe-france-pam-identity-document-cs-IE\"> </a></td><td>Identification électronique eIDAS</td><td>Identification électronique eIDAS.</td></tr></table></div></div>"
+  },
+  "url" : "https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-identity-document-cs",
+  "version" : "0.1.0",
+  "name" : "IHEFrancePamIdentityDocumentCS",
+  "title" : "IHE France PAM Identity Document CodeSystem",
+  "status" : "draft",
+  "experimental" : false,
+  "date" : "2026-10-28T10:01:53+00:00",
+  "publisher" : "IHE France",
+  "contact" : [{
+    "name" : "IHE France",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://www.ihe-france.org"
+    }]
+  },
+  {
+    "name" : "IHE France",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://www.ihe-france.org",
+      "use" : "work"
+    }]
+  }],
+  "description" : "Type de justificatif d'identité (ZFD-7, table IHE-FRANCE-ZFD-7).",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR",
+      "display" : "France (la)"
+    }]
+  }],
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 14,
+  "concept" : [{
+    "code" : "AN",
+    "display" : "Extrait d'acte de naissance",
+    "definition" : "Extrait d'acte de naissance."
+  },
+  {
+    "code" : "CC",
+    "display" : "Carnet de circulation",
+    "definition" : "Carnet de circulation."
+  },
+  {
+    "code" : "CE",
+    "display" : "Carte européenne",
+    "definition" : "Carte européenne."
+  },
+  {
+    "code" : "CM",
+    "display" : "Carte militaire",
+    "definition" : "Carte militaire."
+  },
+  {
+    "code" : "CN",
+    "display" : "Carte nationale d'identité",
+    "definition" : "Carte nationale d'identité."
+  },
+  {
+    "code" : "CS",
+    "display" : "Titre de séjour",
+    "definition" : "Titre de séjour."
+  },
+  {
+    "code" : "LE",
+    "display" : "Livret de famille",
+    "definition" : "Livret de famille."
+  },
+  {
+    "code" : "PA",
+    "display" : "Passeport",
+    "definition" : "Passeport."
+  },
+  {
+    "code" : "PC",
+    "display" : "Permis de conduire",
+    "definition" : "Permis de conduire."
+  },
+  {
+    "code" : "TC",
+    "display" : "Tiers de confiance",
+    "definition" : "Contrat de confiance utilisé pour qualifier l'identité en dehors du laboratoire."
+  },
+  {
+    "code" : "AV",
+    "display" : "Application Carte Vitale",
+    "definition" : "Application Carte Vitale."
+  },
+  {
+    "code" : "DC",
+    "display" : "Document de circulation pour étranger mineur",
+    "definition" : "Document de circulation pour étranger mineur."
+  },
+  {
+    "code" : "AC",
+    "display" : "Acte de naissance et carte Vitale avec photo",
+    "definition" : "Acte de naissance accompagné d'une carte Vitale avec photo."
+  },
+  {
+    "code" : "IE",
+    "display" : "Identification électronique eIDAS",
+    "definition" : "Identification électronique eIDAS."
+  }]
+}

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="ihe-france-pam-pmsi-entry-mode-cs"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><div xml:lang="fr" lang="fr"><hr/><p><b>French</b></p><hr/><p class="res-header-id"><b>Narratif généré : CodeSystem ihe-france-pam-pmsi-entry-mode-cs</b></p><a name="ihe-france-pam-pmsi-entry-mode-cs"> </a><a name="hcihe-france-pam-pmsi-entry-mode-cs"> </a><p>This case-sensitive code system <code>https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-pmsi-entry-mode-cs</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Affichage</b></td><td><b>Définition</b></td></tr><tr><td style="white-space:nowrap">0<a name="ihe-france-pam-pmsi-entry-mode-cs-0"> </a></td><td>Transfert pour acte</td><td>Venue ponctuelle du patient à l'hôpital.</td></tr><tr><td style="white-space:nowrap">6<a name="ihe-france-pam-pmsi-entry-mode-cs-6"> </a></td><td>Mutation (même hôpital)</td><td>Arrivée du patient dans l'unité fonctionnelle.</td></tr><tr><td style="white-space:nowrap">7<a name="ihe-france-pam-pmsi-entry-mode-cs-7"> </a></td><td>Arrivée depuis un autre hôpital</td><td>Arrivée du patient à l'hôpital.</td></tr><tr><td style="white-space:nowrap">8<a name="ihe-france-pam-pmsi-entry-mode-cs-8"> </a></td><td>Autres cas d'arrivée</td><td>Venue du domicile ou d'une maison de retraite, voie publique ou assimilé, avec ou sans passage par la structure d'accueil des urgences de l'établissement.</td></tr><tr><td style="white-space:nowrap">N<a name="ihe-france-pam-pmsi-entry-mode-cs-N"> </a></td><td>Nouveau-né</td><td>Nouveau-né dont la naissance a eu lieu dans l'établissement.</td></tr><tr><td style="white-space:nowrap">O<a name="ihe-france-pam-pmsi-entry-mode-cs-O"> </a></td><td>Patient entré décédé pour prélèvement d'organes</td><td>Patient entré décédé pour prélèvement d'organes.</td></tr></table></div><div xml:lang="en" lang="en"><hr/><p><b>English</b></p><hr/><p class="res-header-id"><b>Generated Narrative: CodeSystem ihe-france-pam-pmsi-entry-mode-cs</b></p><a name="en-ihe-france-pam-pmsi-entry-mode-cs"> </a><a name="en-hcihe-france-pam-pmsi-entry-mode-cs"> </a><p>This case-sensitive code system <code>https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-pmsi-entry-mode-cs</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap">0<a name="en-ihe-france-pam-pmsi-entry-mode-cs-0"> </a></td><td>Transfert pour acte</td><td>Venue ponctuelle du patient à l'hôpital.</td></tr><tr><td style="white-space:nowrap">6<a name="en-ihe-france-pam-pmsi-entry-mode-cs-6"> </a></td><td>Mutation (même hôpital)</td><td>Arrivée du patient dans l'unité fonctionnelle.</td></tr><tr><td style="white-space:nowrap">7<a name="en-ihe-france-pam-pmsi-entry-mode-cs-7"> </a></td><td>Arrivée depuis un autre hôpital</td><td>Arrivée du patient à l'hôpital.</td></tr><tr><td style="white-space:nowrap">8<a name="en-ihe-france-pam-pmsi-entry-mode-cs-8"> </a></td><td>Autres cas d'arrivée</td><td>Venue du domicile ou d'une maison de retraite, voie publique ou assimilé, avec ou sans passage par la structure d'accueil des urgences de l'établissement.</td></tr><tr><td style="white-space:nowrap">N<a name="en-ihe-france-pam-pmsi-entry-mode-cs-N"> </a></td><td>Nouveau-né</td><td>Nouveau-né dont la naissance a eu lieu dans l'établissement.</td></tr><tr><td style="white-space:nowrap">O<a name="en-ihe-france-pam-pmsi-entry-mode-cs-O"> </a></td><td>Patient entré décédé pour prélèvement d'organes</td><td>Patient entré décédé pour prélèvement d'organes.</td></tr></table></div></div>
+  </text>
+  <url value="https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-pmsi-entry-mode-cs"/>
+  <version value="0.1.0"/>
+  <name value="IHEFrancePamPmsiEntryModeCS"/>
+  <title value="IHE France PAM PMSI Entry Mode CodeSystem"/>
+  <status value="draft"/>
+  <experimental value="false"/>
+  <date value="2026-10-28T10:06:53+00:00"/>
+  <publisher value="IHE France"/>
+  <contact>
+    <name value="IHE France"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.ihe-france.org"/>
+    </telecom>
+  </contact>
+  <contact>
+    <name value="IHE France"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.ihe-france.org"/>
+      <use value="work"/>
+    </telecom>
+  </contact>
+  <description value="Mode d'entrée PMSI (ZFM-1, table IHE-FRANCE-ZFM-1)."/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="FR"/>
+      <display value="France (la)"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="6"/>
+  <concept>
+    <code value="0"/>
+    <display value="Transfert pour acte"/>
+    <definition value="Venue ponctuelle du patient à l'hôpital."/>
+  </concept>
+  <concept>
+    <code value="6"/>
+    <display value="Mutation (même hôpital)"/>
+    <definition value="Arrivée du patient dans l'unité fonctionnelle."/>
+  </concept>
+  <concept>
+    <code value="7"/>
+    <display value="Arrivée depuis un autre hôpital"/>
+    <definition value="Arrivée du patient à l'hôpital."/>
+  </concept>
+  <concept>
+    <code value="8"/>
+    <display value="Autres cas d'arrivée"/>
+    <definition value="Venue du domicile ou d'une maison de retraite, voie publique ou assimilé, avec ou sans passage par la structure d'accueil des urgences de l'établissement."/>
+  </concept>
+  <concept>
+    <code value="N"/>
+    <display value="Nouveau-né"/>
+    <definition value="Nouveau-né dont la naissance a eu lieu dans l'établissement."/>
+  </concept>
+  <concept>
+    <code value="O"/>
+    <display value="Patient entré décédé pour prélèvement d'organes"/>
+    <definition value="Patient entré décédé pour prélèvement d'organes."/>
+  </concept>
+</CodeSystem>

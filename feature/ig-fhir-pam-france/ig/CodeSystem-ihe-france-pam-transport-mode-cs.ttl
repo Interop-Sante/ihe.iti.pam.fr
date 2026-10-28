@@ -1,0 +1,122 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-transport-mode-cs> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:Resource.id [ fhir:value "ihe-france-pam-transport-mode-cs"] ;
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ] ;
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div xml:lang=\"fr\" lang=\"fr\"><hr/><p><b>French</b></p><hr/><p class=\"res-header-id\"><b>Narratif généré : CodeSystem ihe-france-pam-transport-mode-cs</b></p><a name=\"ihe-france-pam-transport-mode-cs\"> </a><a name=\"hcihe-france-pam-transport-mode-cs\"> </a><p>This case-sensitive code system <code>https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-transport-mode-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Affichage</b></td><td><b>Définition</b></td></tr><tr><td style=\"white-space:nowrap\">0<a name=\"ihe-france-pam-transport-mode-cs-0\"> </a></td><td>Police</td><td>Transport par la police.</td></tr><tr><td style=\"white-space:nowrap\">1<a name=\"ihe-france-pam-transport-mode-cs-1\"> </a></td><td>SAMU, SMUR terrestre</td><td>Transport par le SAMU ou le SMUR terrestre.</td></tr><tr><td style=\"white-space:nowrap\">2<a name=\"ihe-france-pam-transport-mode-cs-2\"> </a></td><td>Ambulance publique</td><td>Ambulance publique.</td></tr><tr><td style=\"white-space:nowrap\">3<a name=\"ihe-france-pam-transport-mode-cs-3\"> </a></td><td>Ambulance privée</td><td>Ambulance privée.</td></tr><tr><td style=\"white-space:nowrap\">4<a name=\"ihe-france-pam-transport-mode-cs-4\"> </a></td><td>Taxi</td><td>Taxi.</td></tr><tr><td style=\"white-space:nowrap\">5<a name=\"ihe-france-pam-transport-mode-cs-5\"> </a></td><td>Moyens personnels</td><td>Moyens personnels.</td></tr><tr><td style=\"white-space:nowrap\">6<a name=\"ihe-france-pam-transport-mode-cs-6\"> </a></td><td>SAMU, SMUR hélicoptère</td><td>Transport par le SAMU ou le SMUR en hélicoptère.</td></tr><tr><td style=\"white-space:nowrap\">7<a name=\"ihe-france-pam-transport-mode-cs-7\"> </a></td><td>Pompier</td><td>Pompiers.</td></tr><tr><td style=\"white-space:nowrap\">8<a name=\"ihe-france-pam-transport-mode-cs-8\"> </a></td><td>VSL</td><td>Véhicule sanitaire léger.</td></tr><tr><td style=\"white-space:nowrap\">9<a name=\"ihe-france-pam-transport-mode-cs-9\"> </a></td><td>Autre</td><td>Autre moyen de transport.</td></tr><tr><td style=\"white-space:nowrap\">10<a name=\"ihe-france-pam-transport-mode-cs-10\"> </a></td><td>Avion</td><td>Avion.</td></tr><tr><td style=\"white-space:nowrap\">11<a name=\"ihe-france-pam-transport-mode-cs-11\"> </a></td><td>Bateau</td><td>Bateau.</td></tr></table></div><div xml:lang=\"en\" lang=\"en\"><hr/><p><b>English</b></p><hr/><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem ihe-france-pam-transport-mode-cs</b></p><a name=\"en-ihe-france-pam-transport-mode-cs\"> </a><a name=\"en-hcihe-france-pam-transport-mode-cs\"> </a><p>This case-sensitive code system <code>https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-transport-mode-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">0<a name=\"en-ihe-france-pam-transport-mode-cs-0\"> </a></td><td>Police</td><td>Transport par la police.</td></tr><tr><td style=\"white-space:nowrap\">1<a name=\"en-ihe-france-pam-transport-mode-cs-1\"> </a></td><td>SAMU, SMUR terrestre</td><td>Transport par le SAMU ou le SMUR terrestre.</td></tr><tr><td style=\"white-space:nowrap\">2<a name=\"en-ihe-france-pam-transport-mode-cs-2\"> </a></td><td>Ambulance publique</td><td>Ambulance publique.</td></tr><tr><td style=\"white-space:nowrap\">3<a name=\"en-ihe-france-pam-transport-mode-cs-3\"> </a></td><td>Ambulance privée</td><td>Ambulance privée.</td></tr><tr><td style=\"white-space:nowrap\">4<a name=\"en-ihe-france-pam-transport-mode-cs-4\"> </a></td><td>Taxi</td><td>Taxi.</td></tr><tr><td style=\"white-space:nowrap\">5<a name=\"en-ihe-france-pam-transport-mode-cs-5\"> </a></td><td>Moyens personnels</td><td>Moyens personnels.</td></tr><tr><td style=\"white-space:nowrap\">6<a name=\"en-ihe-france-pam-transport-mode-cs-6\"> </a></td><td>SAMU, SMUR hélicoptère</td><td>Transport par le SAMU ou le SMUR en hélicoptère.</td></tr><tr><td style=\"white-space:nowrap\">7<a name=\"en-ihe-france-pam-transport-mode-cs-7\"> </a></td><td>Pompier</td><td>Pompiers.</td></tr><tr><td style=\"white-space:nowrap\">8<a name=\"en-ihe-france-pam-transport-mode-cs-8\"> </a></td><td>VSL</td><td>Véhicule sanitaire léger.</td></tr><tr><td style=\"white-space:nowrap\">9<a name=\"en-ihe-france-pam-transport-mode-cs-9\"> </a></td><td>Autre</td><td>Autre moyen de transport.</td></tr><tr><td style=\"white-space:nowrap\">10<a name=\"en-ihe-france-pam-transport-mode-cs-10\"> </a></td><td>Avion</td><td>Avion.</td></tr><tr><td style=\"white-space:nowrap\">11<a name=\"en-ihe-france-pam-transport-mode-cs-11\"> </a></td><td>Bateau</td><td>Bateau.</td></tr></table></div></div>"
+  ] ;
+  fhir:CodeSystem.url [ fhir:value "https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-transport-mode-cs"] ;
+  fhir:CodeSystem.version [ fhir:value "0.1.0"] ;
+  fhir:CodeSystem.name [ fhir:value "IHEFrancePamTransportModeCS"] ;
+  fhir:CodeSystem.title [ fhir:value "IHE France PAM Transport Mode CodeSystem"] ;
+  fhir:CodeSystem.status [ fhir:value "draft"] ;
+  fhir:CodeSystem.experimental [ fhir:value "false"^^xsd:boolean] ;
+  fhir:CodeSystem.date [ fhir:value "2026-10-28T10:06:53+00:00"^^xsd:dateTime] ;
+  fhir:CodeSystem.publisher [ fhir:value "IHE France"] ;
+  fhir:CodeSystem.contact [
+     fhir:index 0 ;
+     fhir:ContactDetail.name [ fhir:value "IHE France" ] ;
+     fhir:ContactDetail.telecom [
+       fhir:index 0 ;
+       fhir:ContactPoint.system [ fhir:value "url" ] ;
+       fhir:ContactPoint.value [ fhir:value "https://www.ihe-france.org" ]
+     ]
+  ], [
+     fhir:index 1 ;
+     fhir:ContactDetail.name [ fhir:value "IHE France" ] ;
+     fhir:ContactDetail.telecom [
+       fhir:index 0 ;
+       fhir:ContactPoint.system [ fhir:value "url" ] ;
+       fhir:ContactPoint.value [ fhir:value "https://www.ihe-france.org" ] ;
+       fhir:ContactPoint.use [ fhir:value "work" ]
+     ]
+  ] ;
+  fhir:CodeSystem.description [ fhir:value "Mode de transport d'entrée (PV2-38) et de sortie (ZFV-2) (table HL7 0430)."] ;
+  fhir:CodeSystem.jurisdiction [
+     fhir:index 0 ;
+     fhir:CodeableConcept.coding [
+       fhir:index 0 ;
+       fhir:Coding.system [ fhir:value "urn:iso:std:iso:3166" ] ;
+       fhir:Coding.code [ fhir:value "FR" ] ;
+       fhir:Coding.display [ fhir:value "France (la)" ]
+     ]
+  ] ;
+  fhir:CodeSystem.caseSensitive [ fhir:value "true"^^xsd:boolean] ;
+  fhir:CodeSystem.content [ fhir:value "complete"] ;
+  fhir:CodeSystem.count [ fhir:value "12"^^xsd:nonNegativeInteger] ;
+  fhir:CodeSystem.concept [
+     fhir:index 0 ;
+     fhir:CodeSystem.concept.code [ fhir:value "0" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Police" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Transport par la police." ]
+  ], [
+     fhir:index 1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "1" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "SAMU, SMUR terrestre" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Transport par le SAMU ou le SMUR terrestre." ]
+  ], [
+     fhir:index 2 ;
+     fhir:CodeSystem.concept.code [ fhir:value "2" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Ambulance publique" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Ambulance publique." ]
+  ], [
+     fhir:index 3 ;
+     fhir:CodeSystem.concept.code [ fhir:value "3" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Ambulance privée" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Ambulance privée." ]
+  ], [
+     fhir:index 4 ;
+     fhir:CodeSystem.concept.code [ fhir:value "4" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Taxi" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Taxi." ]
+  ], [
+     fhir:index 5 ;
+     fhir:CodeSystem.concept.code [ fhir:value "5" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Moyens personnels" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Moyens personnels." ]
+  ], [
+     fhir:index 6 ;
+     fhir:CodeSystem.concept.code [ fhir:value "6" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "SAMU, SMUR hélicoptère" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Transport par le SAMU ou le SMUR en hélicoptère." ]
+  ], [
+     fhir:index 7 ;
+     fhir:CodeSystem.concept.code [ fhir:value "7" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pompier" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Pompiers." ]
+  ], [
+     fhir:index 8 ;
+     fhir:CodeSystem.concept.code [ fhir:value "8" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "VSL" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Véhicule sanitaire léger." ]
+  ], [
+     fhir:index 9 ;
+     fhir:CodeSystem.concept.code [ fhir:value "9" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Autre" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Autre moyen de transport." ]
+  ], [
+     fhir:index 10 ;
+     fhir:CodeSystem.concept.code [ fhir:value "10" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Avion" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Avion." ]
+  ], [
+     fhir:index 11 ;
+     fhir:CodeSystem.concept.code [ fhir:value "11" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Bateau" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Bateau." ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-transport-mode-cs.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

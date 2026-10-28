@@ -1,0 +1,58 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "ihe-france-pam-dmp-consultation-cs",
+  "language" : "en",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xml:lang=\"en\" lang=\"en\"><hr/><p><b>English</b></p><hr/><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem ihe-france-pam-dmp-consultation-cs</b></p><a name=\"en-ihe-france-pam-dmp-consultation-cs\"> </a><a name=\"en-hcihe-france-pam-dmp-consultation-cs\"> </a><p>This case-sensitive code system <code>https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-dmp-consultation-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">NA<a name=\"en-ihe-france-pam-dmp-consultation-cs-NA\"> </a></td><td>N/A</td><td>Information non recueillie.</td></tr><tr><td style=\"white-space:nowrap\">INC<a name=\"en-ihe-france-pam-dmp-consultation-cs-INC\"> </a></td><td>Informé et ne consent pas</td><td>Le patient est informé et ne consent pas à la consultation de Mon espace santé / DMP.</td></tr><tr><td style=\"white-space:nowrap\">IC<a name=\"en-ihe-france-pam-dmp-consultation-cs-IC\"> </a></td><td>Informé et consent</td><td>Le patient est informé et consent à la consultation de Mon espace santé / DMP.</td></tr></table></div>"
+  },
+  "url" : "https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-dmp-consultation-cs",
+  "version" : "0.1.0",
+  "name" : "IHEFrancePamDmpConsultationCS",
+  "title" : "IHE France PAM DMP Consultation Consent CodeSystem",
+  "status" : "draft",
+  "experimental" : false,
+  "date" : "2026-10-28T10:06:53+00:00",
+  "publisher" : "IHE France",
+  "contact" : [{
+    "name" : "IHE France",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://www.ihe-france.org"
+    }]
+  },
+  {
+    "name" : "IHE France",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://www.ihe-france.org",
+      "use" : "work"
+    }]
+  }],
+  "description" : "Information du patient et consentement à la consultation de Mon espace santé / DMP (ZFA-11, table IHE-FRANCE-ZFA-11).",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR",
+      "display" : "France (la)"
+    }]
+  }],
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 3,
+  "concept" : [{
+    "code" : "NA",
+    "display" : "N/A",
+    "definition" : "Information non recueillie."
+  },
+  {
+    "code" : "INC",
+    "display" : "Informé et ne consent pas",
+    "definition" : "Le patient est informé et ne consent pas à la consultation de Mon espace santé / DMP."
+  },
+  {
+    "code" : "IC",
+    "display" : "Informé et consent",
+    "definition" : "Le patient est informé et consent à la consultation de Mon espace santé / DMP."
+  }]
+}

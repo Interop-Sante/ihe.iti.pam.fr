@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Basic xmlns="http://hl7.org/fhir">
+  <id value="ihe-france-pam-iti31"/>
+  <language value="en"/>
+  <text>
+    <status value="generated"/><div xml:lang="en" lang="en"><hr/><p><b>English</b></p><hr/><p class="res-header-id"><b>Generated Narrative: Basic ihe-france-pam-iti31</b></p><a name="en-ihe-france-pam-iti31"> </a><a name="en-hcihe-france-pam-iti31"> </a><p><b>code</b>: <span title="Codes:">ITI-31</span></p></div>
+  </text>
+  <code>
+    <text value="ITI-31"/>
+  </code>
+</Basic>

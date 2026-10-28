@@ -1,0 +1,148 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "ihe-france-pam-identifier-type-cs",
+  "language" : "en",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xml:lang=\"en\" lang=\"en\"><hr/><p><b>English</b></p><hr/><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem ihe-france-pam-identifier-type-cs</b></p><a name=\"en-ihe-france-pam-identifier-type-cs\"> </a><a name=\"en-hcihe-france-pam-identifier-type-cs\"> </a><p>This case-sensitive code system <code>https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-identifier-type-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">PI<a name=\"en-ihe-france-pam-identifier-type-cs-PI\"> </a></td><td>IPP</td><td>Identifiant permanent du patient attribué par l'établissement.</td></tr><tr><td style=\"white-space:nowrap\">INS<a name=\"en-ihe-france-pam-identifier-type-cs-INS\"> </a></td><td>Identifiant National de Santé</td><td>INS-NIR ou INS-NIA récupéré à partir du téléservice INSi.</td></tr><tr><td style=\"white-space:nowrap\">INS-C<a name=\"en-ihe-france-pam-identifier-type-cs-INS-C\"> </a></td><td>INS-C</td><td>Identifiant national de santé calculé.</td></tr><tr><td style=\"white-space:nowrap\">NH<a name=\"en-ihe-france-pam-identifier-type-cs-NH\"> </a></td><td>National Health Plan Identifier</td><td>NIR du bénéficiaire utilisé dans les échanges avec l'assurance maladie (à ne pas confondre avec l'INS-NIR).</td></tr><tr><td style=\"white-space:nowrap\">NDP<a name=\"en-ihe-france-pam-identifier-type-cs-NDP\"> </a></td><td>Identifiant du patient au Dossier Pharmaceutique</td><td>Identifiant du patient au dossier pharmaceutique.</td></tr><tr><td style=\"white-space:nowrap\">PN<a name=\"en-ihe-france-pam-identifier-type-cs-PN\"> </a></td><td>Person number</td><td>IPP fédérateur d'un gestionnaire de références croisées. Utilisé aussi pour identifier les personnes à prévenir et les personnes de confiance.</td></tr><tr><td style=\"white-space:nowrap\">RRI<a name=\"en-ihe-france-pam-identifier-type-cs-RRI\"> </a></td><td>Regional registry ID</td><td>Identifiant de registre régional.</td></tr><tr><td style=\"white-space:nowrap\">AN<a name=\"en-ihe-france-pam-identifier-type-cs-AN\"> </a></td><td>Numéro de dossier</td><td>Numéro de dossier administratif (PID-18).</td></tr><tr><td style=\"white-space:nowrap\">VN<a name=\"en-ihe-france-pam-identifier-type-cs-VN\"> </a></td><td>Numéro de venue</td><td>Numéro de venue (PV1-19).</td></tr><tr><td style=\"white-space:nowrap\">MR<a name=\"en-ihe-france-pam-identifier-type-cs-MR\"> </a></td><td>Numéro d'archive</td><td>Numéro d'archive.</td></tr><tr><td style=\"white-space:nowrap\">EI<a name=\"en-ihe-france-pam-identifier-type-cs-EI\"> </a></td><td>Employee number</td><td>Numéro d'employé, identifiant interne d'un professionnel dans un établissement.</td></tr><tr><td style=\"white-space:nowrap\">ADELI<a name=\"en-ihe-france-pam-identifier-type-cs-ADELI\"> </a></td><td>ADELI</td><td>Numéro au répertoire ADELI du professionnel de santé.</td></tr><tr><td style=\"white-space:nowrap\">RPPS<a name=\"en-ihe-france-pam-identifier-type-cs-RPPS\"> </a></td><td>RPPS</td><td>Numéro d'inscription au RPPS du professionnel de santé.</td></tr><tr><td style=\"white-space:nowrap\">IDNPS<a name=\"en-ihe-france-pam-identifier-type-cs-IDNPS\"> </a></td><td>IDNPS</td><td>Identification nationale des professionnels de santé (CI-SIS), utilisée en extra-hospitalier.</td></tr><tr><td style=\"white-space:nowrap\">FINEJ<a name=\"en-ihe-france-pam-identifier-type-cs-FINEJ\"> </a></td><td>FINESS entité juridique</td><td>Numéro FINESS d'entité juridique.</td></tr><tr><td style=\"white-space:nowrap\">FINEG<a name=\"en-ihe-france-pam-identifier-type-cs-FINEG\"> </a></td><td>FINESS entité géographique</td><td>Numéro FINESS d'entité géographique.</td></tr><tr><td style=\"white-space:nowrap\">SIREN<a name=\"en-ihe-france-pam-identifier-type-cs-SIREN\"> </a></td><td>SIREN</td><td>Numéro SIREN de l'organisation.</td></tr><tr><td style=\"white-space:nowrap\">SIRET<a name=\"en-ihe-france-pam-identifier-type-cs-SIRET\"> </a></td><td>SIRET</td><td>Numéro SIRET de l'organisation.</td></tr><tr><td style=\"white-space:nowrap\">UF<a name=\"en-ihe-france-pam-identifier-type-cs-UF\"> </a></td><td>Code UF</td><td>Code d'unité fonctionnelle.</td></tr><tr><td style=\"white-space:nowrap\">SRV<a name=\"en-ihe-france-pam-identifier-type-cs-SRV\"> </a></td><td>Code service</td><td>Code de service (axe organisationnel).</td></tr><tr><td style=\"white-space:nowrap\">IDNST<a name=\"en-ihe-france-pam-identifier-type-cs-IDNST\"> </a></td><td>IDNST</td><td>Identification nationale de structure (CI-SIS), utilisée en extra-hospitalier.</td></tr></table></div>"
+  },
+  "url" : "https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-identifier-type-cs",
+  "version" : "0.1.0",
+  "name" : "IHEFrancePamIdentifierTypeCS",
+  "title" : "IHE France PAM Identifier Type CodeSystem",
+  "status" : "draft",
+  "experimental" : false,
+  "date" : "2026-10-28T10:06:53+00:00",
+  "publisher" : "IHE France",
+  "contact" : [{
+    "name" : "IHE France",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://www.ihe-france.org"
+    }]
+  },
+  {
+    "name" : "IHE France",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://www.ihe-france.org",
+      "use" : "work"
+    }]
+  }],
+  "description" : "Types d'identifiants permis en France (CX-5, XCN-13, XON-7 ; table HL7 0203 spécialisée).",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR",
+      "display" : "France (la)"
+    }]
+  }],
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 21,
+  "concept" : [{
+    "code" : "PI",
+    "display" : "IPP",
+    "definition" : "Identifiant permanent du patient attribué par l'établissement."
+  },
+  {
+    "code" : "INS",
+    "display" : "Identifiant National de Santé",
+    "definition" : "INS-NIR ou INS-NIA récupéré à partir du téléservice INSi."
+  },
+  {
+    "code" : "INS-C",
+    "display" : "INS-C",
+    "definition" : "Identifiant national de santé calculé."
+  },
+  {
+    "code" : "NH",
+    "display" : "National Health Plan Identifier",
+    "definition" : "NIR du bénéficiaire utilisé dans les échanges avec l'assurance maladie (à ne pas confondre avec l'INS-NIR)."
+  },
+  {
+    "code" : "NDP",
+    "display" : "Identifiant du patient au Dossier Pharmaceutique",
+    "definition" : "Identifiant du patient au dossier pharmaceutique."
+  },
+  {
+    "code" : "PN",
+    "display" : "Person number",
+    "definition" : "IPP fédérateur d'un gestionnaire de références croisées. Utilisé aussi pour identifier les personnes à prévenir et les personnes de confiance."
+  },
+  {
+    "code" : "RRI",
+    "display" : "Regional registry ID",
+    "definition" : "Identifiant de registre régional."
+  },
+  {
+    "code" : "AN",
+    "display" : "Numéro de dossier",
+    "definition" : "Numéro de dossier administratif (PID-18)."
+  },
+  {
+    "code" : "VN",
+    "display" : "Numéro de venue",
+    "definition" : "Numéro de venue (PV1-19)."
+  },
+  {
+    "code" : "MR",
+    "display" : "Numéro d'archive",
+    "definition" : "Numéro d'archive."
+  },
+  {
+    "code" : "EI",
+    "display" : "Employee number",
+    "definition" : "Numéro d'employé, identifiant interne d'un professionnel dans un établissement."
+  },
+  {
+    "code" : "ADELI",
+    "display" : "ADELI",
+    "definition" : "Numéro au répertoire ADELI du professionnel de santé."
+  },
+  {
+    "code" : "RPPS",
+    "display" : "RPPS",
+    "definition" : "Numéro d'inscription au RPPS du professionnel de santé."
+  },
+  {
+    "code" : "IDNPS",
+    "display" : "IDNPS",
+    "definition" : "Identification nationale des professionnels de santé (CI-SIS), utilisée en extra-hospitalier."
+  },
+  {
+    "code" : "FINEJ",
+    "display" : "FINESS entité juridique",
+    "definition" : "Numéro FINESS d'entité juridique."
+  },
+  {
+    "code" : "FINEG",
+    "display" : "FINESS entité géographique",
+    "definition" : "Numéro FINESS d'entité géographique."
+  },
+  {
+    "code" : "SIREN",
+    "display" : "SIREN",
+    "definition" : "Numéro SIREN de l'organisation."
+  },
+  {
+    "code" : "SIRET",
+    "display" : "SIRET",
+    "definition" : "Numéro SIRET de l'organisation."
+  },
+  {
+    "code" : "UF",
+    "display" : "Code UF",
+    "definition" : "Code d'unité fonctionnelle."
+  },
+  {
+    "code" : "SRV",
+    "display" : "Code service",
+    "definition" : "Code de service (axe organisationnel)."
+  },
+  {
+    "code" : "IDNST",
+    "display" : "IDNST",
+    "definition" : "Identification nationale de structure (CI-SIS), utilisée en extra-hospitalier."
+  }]
+}

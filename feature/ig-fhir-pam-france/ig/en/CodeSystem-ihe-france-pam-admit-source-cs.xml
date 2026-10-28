@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="ihe-france-pam-admit-source-cs"/>
+  <language value="en"/>
+  <text>
+    <status value="generated"/><div xml:lang="en" lang="en"><hr/><p><b>English</b></p><hr/><p class="res-header-id"><b>Generated Narrative: CodeSystem ihe-france-pam-admit-source-cs</b></p><a name="en-ihe-france-pam-admit-source-cs"> </a><a name="en-hcihe-france-pam-admit-source-cs"> </a><p>This case-sensitive code system <code>https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-admit-source-cs</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap">1<a name="en-ihe-france-pam-admit-source-cs-1"> </a></td><td>Envoyé par un médecin extérieur</td><td>Envoyé par un médecin extérieur.</td></tr><tr><td style="white-space:nowrap">3<a name="en-ihe-france-pam-admit-source-cs-3"> </a></td><td>Convocation à l'hôpital</td><td>Convocation à l'hôpital.</td></tr><tr><td style="white-space:nowrap">4<a name="en-ihe-france-pam-admit-source-cs-4"> </a></td><td>Transfert depuis un autre centre hospitalier</td><td>Transfert depuis un autre centre hospitalier.</td></tr><tr><td style="white-space:nowrap">6<a name="en-ihe-france-pam-admit-source-cs-6"> </a></td><td>Entrée par transfert interne</td><td>Entrée par transfert interne.</td></tr><tr><td style="white-space:nowrap">7<a name="en-ihe-france-pam-admit-source-cs-7"> </a></td><td>Entrée en urgence</td><td>Entrée en urgence : la venue présente a priori un caractère d'urgence, ce qui n'est pas déductible du fait que le patient arrive par une UF d'urgence.</td></tr><tr><td style="white-space:nowrap">8<a name="en-ihe-france-pam-admit-source-cs-8"> </a></td><td>Entrée sous contrainte des forces de l'ordre</td><td>Entrée sous contrainte des forces de l'ordre.</td></tr><tr><td style="white-space:nowrap">90<a name="en-ihe-france-pam-admit-source-cs-90"> </a></td><td>Séjour programmé</td><td>Séjour programmé.</td></tr><tr><td style="white-space:nowrap">91<a name="en-ihe-france-pam-admit-source-cs-91"> </a></td><td>Décision personnelle</td><td>Décision personnelle.</td></tr></table></div>
+  </text>
+  <url value="https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-admit-source-cs"/>
+  <version value="0.1.0"/>
+  <name value="IHEFrancePamAdmitSourceCS"/>
+  <title value="IHE France PAM Admit Source CodeSystem"/>
+  <status value="draft"/>
+  <experimental value="false"/>
+  <date value="2026-10-28T10:06:53+00:00"/>
+  <publisher value="IHE France"/>
+  <contact>
+    <name value="IHE France"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.ihe-france.org"/>
+    </telecom>
+  </contact>
+  <contact>
+    <name value="IHE France"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.ihe-france.org"/>
+      <use value="work"/>
+    </telecom>
+  </contact>
+  <description value="Mode d'entrée personnalisé (PV1-14, table HL7 0023). Liste non limitative, à adapter selon les besoins du site."/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="FR"/>
+      <display value="France (la)"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="8"/>
+  <concept>
+    <code value="1"/>
+    <display value="Envoyé par un médecin extérieur"/>
+    <definition value="Envoyé par un médecin extérieur."/>
+  </concept>
+  <concept>
+    <code value="3"/>
+    <display value="Convocation à l'hôpital"/>
+    <definition value="Convocation à l'hôpital."/>
+  </concept>
+  <concept>
+    <code value="4"/>
+    <display value="Transfert depuis un autre centre hospitalier"/>
+    <definition value="Transfert depuis un autre centre hospitalier."/>
+  </concept>
+  <concept>
+    <code value="6"/>
+    <display value="Entrée par transfert interne"/>
+    <definition value="Entrée par transfert interne."/>
+  </concept>
+  <concept>
+    <code value="7"/>
+    <display value="Entrée en urgence"/>
+    <definition value="Entrée en urgence : la venue présente a priori un caractère d'urgence, ce qui n'est pas déductible du fait que le patient arrive par une UF d'urgence."/>
+  </concept>
+  <concept>
+    <code value="8"/>
+    <display value="Entrée sous contrainte des forces de l'ordre"/>
+    <definition value="Entrée sous contrainte des forces de l'ordre."/>
+  </concept>
+  <concept>
+    <code value="90"/>
+    <display value="Séjour programmé"/>
+    <definition value="Séjour programmé."/>
+  </concept>
+  <concept>
+    <code value="91"/>
+    <display value="Décision personnelle"/>
+    <definition value="Décision personnelle."/>
+  </concept>
+</CodeSystem>

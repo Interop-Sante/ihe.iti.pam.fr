@@ -1,0 +1,103 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-provider-role-cs> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:Resource.id [ fhir:value "ihe-france-pam-provider-role-cs"] ;
+  fhir:Resource.language [ fhir:value "fr"] ;
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ] ;
+     fhir:Narrative.div "<div xml:lang=\"fr\" lang=\"fr\"><hr/><p><b>French</b></p><hr/><p class=\"res-header-id\"><b>Narratif généré : CodeSystem ihe-france-pam-provider-role-cs</b></p><a name=\"ihe-france-pam-provider-role-cs\"> </a><a name=\"hcihe-france-pam-provider-role-cs\"> </a><p>This case-sensitive code system <code>https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-provider-role-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Affichage</b></td><td><b>Définition</b></td></tr><tr><td style=\"white-space:nowrap\">AD<a name=\"ihe-france-pam-provider-role-cs-AD\"> </a></td><td>Médecin ayant admis</td><td>Médecin de la structure qui décide d'hospitaliser (PV1-17).</td></tr><tr><td style=\"white-space:nowrap\">AT<a name=\"ihe-france-pam-provider-role-cs-AT\"> </a></td><td>Médecin responsable</td><td>Médecin responsable du patient pendant le séjour (PV1-7).</td></tr><tr><td style=\"white-space:nowrap\">CP<a name=\"ihe-france-pam-provider-role-cs-CP\"> </a></td><td>Médecin consulté</td><td>Médecin consulté pour un deuxième avis dans le cadre de la venue.</td></tr><tr><td style=\"white-space:nowrap\">FHCP<a name=\"ihe-france-pam-provider-role-cs-FHCP\"> </a></td><td>Médecin de famille</td><td>Médecin de famille, utilisé dans les rares cas où il est distinct du médecin traitant.</td></tr><tr><td style=\"white-space:nowrap\">RP<a name=\"ihe-france-pam-provider-role-cs-RP\"> </a></td><td>Médecin adressant</td><td>Médecin adressant (PV1-8).</td></tr><tr><td style=\"white-space:nowrap\">RT<a name=\"ihe-france-pam-provider-role-cs-RT\"> </a></td><td>Médecin correspondant</td><td>Médecin correspondant, au sens de la Sécurité sociale.</td></tr><tr><td style=\"white-space:nowrap\">ODRP<a name=\"ihe-france-pam-provider-role-cs-ODRP\"> </a></td><td>Médecin traitant</td><td>Médecin traitant déclaré, au sens de la Sécurité sociale.</td></tr><tr><td style=\"white-space:nowrap\">SUBS<a name=\"ihe-france-pam-provider-role-cs-SUBS\"> </a></td><td>Remplaçant du médecin traitant</td><td>Médecin qui remplace le médecin traitant en son absence.</td></tr></table></div>"
+  ] ;
+  fhir:CodeSystem.url [ fhir:value "https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-provider-role-cs"] ;
+  fhir:CodeSystem.version [ fhir:value "0.1.0"] ;
+  fhir:CodeSystem.name [ fhir:value "IHEFrancePamProviderRoleCS"] ;
+  fhir:CodeSystem.title [ fhir:value "IHE France PAM Provider Role CodeSystem"] ;
+  fhir:CodeSystem.status [ fhir:value "draft"] ;
+  fhir:CodeSystem.experimental [ fhir:value "false"^^xsd:boolean] ;
+  fhir:CodeSystem.date [ fhir:value "2026-10-28T10:01:53+00:00"^^xsd:dateTime] ;
+  fhir:CodeSystem.publisher [ fhir:value "IHE France"] ;
+  fhir:CodeSystem.contact [
+     fhir:index -1 ;
+     fhir:ContactDetail.name [ fhir:value "IHE France" ] ;
+     fhir:ContactDetail.telecom [
+       fhir:index -1 ;
+       fhir:ContactPoint.system [ fhir:value "url" ] ;
+       fhir:ContactPoint.value [ fhir:value "https://www.ihe-france.org" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:ContactDetail.name [ fhir:value "IHE France" ] ;
+     fhir:ContactDetail.telecom [
+       fhir:index -1 ;
+       fhir:ContactPoint.system [ fhir:value "url" ] ;
+       fhir:ContactPoint.value [ fhir:value "https://www.ihe-france.org" ] ;
+       fhir:ContactPoint.use [ fhir:value "work" ]
+     ]
+  ] ;
+  fhir:CodeSystem.description [ fhir:value "Rôle d'un médecin en relation avec le patient (ROL-3, table HL7 0443)."] ;
+  fhir:CodeSystem.jurisdiction [
+     fhir:index -1 ;
+     fhir:CodeableConcept.coding [
+       fhir:index -1 ;
+       fhir:Coding.system [ fhir:value "urn:iso:std:iso:3166" ] ;
+       fhir:Coding.code [ fhir:value "FR" ] ;
+       fhir:Coding.display [ fhir:value "France (la)" ]
+     ]
+  ] ;
+  fhir:CodeSystem.caseSensitive [ fhir:value "true"^^xsd:boolean] ;
+  fhir:CodeSystem.content [ fhir:value "complete"] ;
+  fhir:CodeSystem.count [ fhir:value "8"^^xsd:nonNegativeInteger] ;
+  fhir:CodeSystem.concept [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "AD" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Médecin ayant admis" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Médecin de la structure qui décide d'hospitaliser (PV1-17)." ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "AT" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Médecin responsable" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Médecin responsable du patient pendant le séjour (PV1-7)." ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "CP" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Médecin consulté" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Médecin consulté pour un deuxième avis dans le cadre de la venue." ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "FHCP" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Médecin de famille" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Médecin de famille, utilisé dans les rares cas où il est distinct du médecin traitant." ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "RP" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Médecin adressant" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Médecin adressant (PV1-8)." ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "RT" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Médecin correspondant" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Médecin correspondant, au sens de la Sécurité sociale." ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "ODRP" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Médecin traitant" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Médecin traitant déclaré, au sens de la Sécurité sociale." ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "SUBS" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Remplaçant du médecin traitant" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Médecin qui remplace le médecin traitant en son absence." ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-provider-role-cs.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

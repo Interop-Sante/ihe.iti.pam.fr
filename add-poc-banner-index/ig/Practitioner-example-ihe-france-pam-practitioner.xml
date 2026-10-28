@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Practitioner xmlns="http://hl7.org/fhir">
+  <id value="example-ihe-france-pam-practitioner"/>
+  <meta>
+    <profile value="https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-practitioner"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><div xml:lang="fr" lang="fr"><hr/><p><b>French</b></p><hr/><p class="res-header-id"><b>Narratif généré : Praticien example-ihe-france-pam-practitioner</b></p><a name="example-ihe-france-pam-practitioner"> </a><a name="hcexample-ihe-france-pam-practitioner"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px"/><p style="margin-bottom: 0px">Profil: <a href="StructureDefinition-ihe-france-pam-practitioner.html">IHE France PAM Practitioner</a></p></div><p style="border: 1px #661aff solid; background-color: #e6e6ff; padding: 10px;">PAUL MARTIN (urn:example:rpps#10000000001)</p><hr/></div><div xml:lang="en" lang="en"><hr/><p><b>English</b></p><hr/><p class="res-header-id"><b>Generated Narrative: Practitioner example-ihe-france-pam-practitioner</b></p><a name="en-example-ihe-france-pam-practitioner"> </a><a name="en-hcexample-ihe-france-pam-practitioner"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px"/><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-ihe-france-pam-practitioner.html">IHE France PAM Practitioner</a></p></div><p style="border: 1px #661aff solid; background-color: #e6e6ff; padding: 10px;">PAUL MARTIN (urn:example:rpps#10000000001)</p><hr/></div></div>
+  </text>
+  <identifier>
+    <system value="urn:example:rpps"/>
+    <value value="10000000001"/>
+  </identifier>
+  <name>
+    <family value="MARTIN"/>
+    <given value="PAUL"/>
+  </name>
+</Practitioner>

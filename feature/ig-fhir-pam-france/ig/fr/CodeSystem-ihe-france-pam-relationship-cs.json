@@ -1,0 +1,208 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "ihe-france-pam-relationship-cs",
+  "language" : "fr",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xml:lang=\"fr\" lang=\"fr\"><hr/><p><b>French</b></p><hr/><p class=\"res-header-id\"><b>Narratif généré : CodeSystem ihe-france-pam-relationship-cs</b></p><a name=\"ihe-france-pam-relationship-cs\"> </a><a name=\"hcihe-france-pam-relationship-cs\"> </a><p>This case-sensitive code system <code>https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-relationship-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Affichage</b></td><td><b>Définition</b></td></tr><tr><td style=\"white-space:nowrap\">ASC<a name=\"ihe-france-pam-relationship-cs-ASC\"> </a></td><td>Collègue</td><td>Collègue.</td></tr><tr><td style=\"white-space:nowrap\">BRO<a name=\"ihe-france-pam-relationship-cs-BRO\"> </a></td><td>Frère</td><td>Frère.</td></tr><tr><td style=\"white-space:nowrap\">CGV<a name=\"ihe-france-pam-relationship-cs-CGV\"> </a></td><td>Aidant</td><td>Aidant (care giver).</td></tr><tr><td style=\"white-space:nowrap\">CHD<a name=\"ihe-france-pam-relationship-cs-CHD\"> </a></td><td>Enfant</td><td>Enfant.</td></tr><tr><td style=\"white-space:nowrap\">CUR<a name=\"ihe-france-pam-relationship-cs-CUR\"> </a></td><td>Curateur</td><td>Curateur.</td></tr><tr><td style=\"white-space:nowrap\">DEP<a name=\"ihe-france-pam-relationship-cs-DEP\"> </a></td><td>Dépendant handicapé</td><td>Dépendant handicapé.</td></tr><tr><td style=\"white-space:nowrap\">DOM<a name=\"ihe-france-pam-relationship-cs-DOM\"> </a></td><td>Compagnon</td><td>Compagnon.</td></tr><tr><td style=\"white-space:nowrap\">EMC<a name=\"ihe-france-pam-relationship-cs-EMC\"> </a></td><td>Contact d'urgence</td><td>Contact d'urgence.</td></tr><tr><td style=\"white-space:nowrap\">EME<a name=\"ihe-france-pam-relationship-cs-EME\"> </a></td><td>Employé</td><td>Employé.</td></tr><tr><td style=\"white-space:nowrap\">EMR<a name=\"ihe-france-pam-relationship-cs-EMR\"> </a></td><td>Employeur</td><td>Employeur.</td></tr><tr><td style=\"white-space:nowrap\">EXF<a name=\"ihe-france-pam-relationship-cs-EXF\"> </a></td><td>Proche</td><td>Proche.</td></tr><tr><td style=\"white-space:nowrap\">FCH<a name=\"ihe-france-pam-relationship-cs-FCH\"> </a></td><td>Enfant adoptif</td><td>Enfant adoptif.</td></tr><tr><td style=\"white-space:nowrap\">FND<a name=\"ihe-france-pam-relationship-cs-FND\"> </a></td><td>Ami</td><td>Ami.</td></tr><tr><td style=\"white-space:nowrap\">FTH<a name=\"ihe-france-pam-relationship-cs-FTH\"> </a></td><td>Père</td><td>Père.</td></tr><tr><td style=\"white-space:nowrap\">GCH<a name=\"ihe-france-pam-relationship-cs-GCH\"> </a></td><td>Petit-enfant</td><td>Petit-enfant.</td></tr><tr><td style=\"white-space:nowrap\">GRD<a name=\"ihe-france-pam-relationship-cs-GRD\"> </a></td><td>Tuteur</td><td>Tuteur.</td></tr><tr><td style=\"white-space:nowrap\">GRP<a name=\"ihe-france-pam-relationship-cs-GRP\"> </a></td><td>Grand-parent</td><td>Grand-parent.</td></tr><tr><td style=\"white-space:nowrap\">MGR<a name=\"ihe-france-pam-relationship-cs-MGR\"> </a></td><td>Directeur</td><td>Directeur.</td></tr><tr><td style=\"white-space:nowrap\">MTH<a name=\"ihe-france-pam-relationship-cs-MTH\"> </a></td><td>Mère</td><td>Mère.</td></tr><tr><td style=\"white-space:nowrap\">NCH<a name=\"ihe-france-pam-relationship-cs-NCH\"> </a></td><td>Enfant naturel</td><td>Enfant naturel.</td></tr><tr><td style=\"white-space:nowrap\">NON<a name=\"ihe-france-pam-relationship-cs-NON\"> </a></td><td>Aucun</td><td>Aucun.</td></tr><tr><td style=\"white-space:nowrap\">OAD<a name=\"ihe-france-pam-relationship-cs-OAD\"> </a></td><td>Autre adulte</td><td>Autre adulte.</td></tr><tr><td style=\"white-space:nowrap\">OTH<a name=\"ihe-france-pam-relationship-cs-OTH\"> </a></td><td>Autre</td><td>Autre : utiliser NK1-3.2 pour véhiculer le texte lorsque la nature de la relation n'est pas dans la table.</td></tr><tr><td style=\"white-space:nowrap\">OWN<a name=\"ihe-france-pam-relationship-cs-OWN\"> </a></td><td>Propriétaire</td><td>Propriétaire.</td></tr><tr><td style=\"white-space:nowrap\">PAR<a name=\"ihe-france-pam-relationship-cs-PAR\"> </a></td><td>Parent proche</td><td>Parent proche.</td></tr><tr><td style=\"white-space:nowrap\">SCH<a name=\"ihe-france-pam-relationship-cs-SCH\"> </a></td><td>Beau-fils</td><td>Beau-fils.</td></tr><tr><td style=\"white-space:nowrap\">SEL<a name=\"ihe-france-pam-relationship-cs-SEL\"> </a></td><td>Elle-même</td><td>Elle-même.</td></tr><tr><td style=\"white-space:nowrap\">SIB<a name=\"ihe-france-pam-relationship-cs-SIB\"> </a></td><td>Frère ou sœur</td><td>Frère ou sœur.</td></tr><tr><td style=\"white-space:nowrap\">SIS<a name=\"ihe-france-pam-relationship-cs-SIS\"> </a></td><td>Sœur</td><td>Sœur.</td></tr><tr><td style=\"white-space:nowrap\">SPO<a name=\"ihe-france-pam-relationship-cs-SPO\"> </a></td><td>Époux</td><td>Époux.</td></tr><tr><td style=\"white-space:nowrap\">TRA<a name=\"ihe-france-pam-relationship-cs-TRA\"> </a></td><td>Entraîneur</td><td>Entraîneur.</td></tr><tr><td style=\"white-space:nowrap\">UNK<a name=\"ihe-france-pam-relationship-cs-UNK\"> </a></td><td>Inconnu</td><td>Inconnu.</td></tr><tr><td style=\"white-space:nowrap\">WRD<a name=\"ihe-france-pam-relationship-cs-WRD\"> </a></td><td>Tutelle judiciaire</td><td>Tutelle judiciaire.</td></tr></table></div>"
+  },
+  "url" : "https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-relationship-cs",
+  "version" : "0.1.0",
+  "name" : "IHEFrancePamRelationshipCS",
+  "title" : "IHE France PAM Relationship CodeSystem",
+  "status" : "draft",
+  "experimental" : false,
+  "date" : "2026-10-28T10:06:53+00:00",
+  "publisher" : "IHE France",
+  "contact" : [{
+    "name" : "IHE France",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://www.ihe-france.org"
+    }]
+  },
+  {
+    "name" : "IHE France",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://www.ihe-france.org",
+      "use" : "work"
+    }]
+  }],
+  "description" : "Nature de la relation avec le patient (NK1-3, table HL7 0063). Liste non limitative.",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR",
+      "display" : "France (la)"
+    }]
+  }],
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 33,
+  "concept" : [{
+    "code" : "ASC",
+    "display" : "Collègue",
+    "definition" : "Collègue."
+  },
+  {
+    "code" : "BRO",
+    "display" : "Frère",
+    "definition" : "Frère."
+  },
+  {
+    "code" : "CGV",
+    "display" : "Aidant",
+    "definition" : "Aidant (care giver)."
+  },
+  {
+    "code" : "CHD",
+    "display" : "Enfant",
+    "definition" : "Enfant."
+  },
+  {
+    "code" : "CUR",
+    "display" : "Curateur",
+    "definition" : "Curateur."
+  },
+  {
+    "code" : "DEP",
+    "display" : "Dépendant handicapé",
+    "definition" : "Dépendant handicapé."
+  },
+  {
+    "code" : "DOM",
+    "display" : "Compagnon",
+    "definition" : "Compagnon."
+  },
+  {
+    "code" : "EMC",
+    "display" : "Contact d'urgence",
+    "definition" : "Contact d'urgence."
+  },
+  {
+    "code" : "EME",
+    "display" : "Employé",
+    "definition" : "Employé."
+  },
+  {
+    "code" : "EMR",
+    "display" : "Employeur",
+    "definition" : "Employeur."
+  },
+  {
+    "code" : "EXF",
+    "display" : "Proche",
+    "definition" : "Proche."
+  },
+  {
+    "code" : "FCH",
+    "display" : "Enfant adoptif",
+    "definition" : "Enfant adoptif."
+  },
+  {
+    "code" : "FND",
+    "display" : "Ami",
+    "definition" : "Ami."
+  },
+  {
+    "code" : "FTH",
+    "display" : "Père",
+    "definition" : "Père."
+  },
+  {
+    "code" : "GCH",
+    "display" : "Petit-enfant",
+    "definition" : "Petit-enfant."
+  },
+  {
+    "code" : "GRD",
+    "display" : "Tuteur",
+    "definition" : "Tuteur."
+  },
+  {
+    "code" : "GRP",
+    "display" : "Grand-parent",
+    "definition" : "Grand-parent."
+  },
+  {
+    "code" : "MGR",
+    "display" : "Directeur",
+    "definition" : "Directeur."
+  },
+  {
+    "code" : "MTH",
+    "display" : "Mère",
+    "definition" : "Mère."
+  },
+  {
+    "code" : "NCH",
+    "display" : "Enfant naturel",
+    "definition" : "Enfant naturel."
+  },
+  {
+    "code" : "NON",
+    "display" : "Aucun",
+    "definition" : "Aucun."
+  },
+  {
+    "code" : "OAD",
+    "display" : "Autre adulte",
+    "definition" : "Autre adulte."
+  },
+  {
+    "code" : "OTH",
+    "display" : "Autre",
+    "definition" : "Autre : utiliser NK1-3.2 pour véhiculer le texte lorsque la nature de la relation n'est pas dans la table."
+  },
+  {
+    "code" : "OWN",
+    "display" : "Propriétaire",
+    "definition" : "Propriétaire."
+  },
+  {
+    "code" : "PAR",
+    "display" : "Parent proche",
+    "definition" : "Parent proche."
+  },
+  {
+    "code" : "SCH",
+    "display" : "Beau-fils",
+    "definition" : "Beau-fils."
+  },
+  {
+    "code" : "SEL",
+    "display" : "Elle-même",
+    "definition" : "Elle-même."
+  },
+  {
+    "code" : "SIB",
+    "display" : "Frère ou sœur",
+    "definition" : "Frère ou sœur."
+  },
+  {
+    "code" : "SIS",
+    "display" : "Sœur",
+    "definition" : "Sœur."
+  },
+  {
+    "code" : "SPO",
+    "display" : "Époux",
+    "definition" : "Époux."
+  },
+  {
+    "code" : "TRA",
+    "display" : "Entraîneur",
+    "definition" : "Entraîneur."
+  },
+  {
+    "code" : "UNK",
+    "display" : "Inconnu",
+    "definition" : "Inconnu."
+  },
+  {
+    "code" : "WRD",
+    "display" : "Tutelle judiciaire",
+    "definition" : "Tutelle judiciaire."
+  }]
+}

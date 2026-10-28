@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="ihe-france-pam-movement-nature-vs"/>
+  <language value="en"/>
+  <text>
+    <status value="generated"/><div xml:lang="en" lang="en"><hr/><p><b>English</b></p><hr/><p class="res-header-id"><b>Generated Narrative: ValueSet ihe-france-pam-movement-nature-vs</b></p><a name="en-ihe-france-pam-movement-nature-vs"> </a><a name="en-hcihe-france-pam-movement-nature-vs"> </a><ul><li>Include all codes defined in <a href="CodeSystem-ihe-france-pam-movement-nature-cs.html"><code>https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-movement-nature-cs</code></a><span title="Version is explicitly stated to be 0.1.0"> version &#x1F4CD;0.1.0</span></li></ul></div>
+  </text>
+  <url value="https://hl7.fr/ig/v2/pam/ValueSet/ihe-france-pam-movement-nature-vs"/>
+  <version value="0.1.0"/>
+  <name value="IHEFrancePamMovementNatureVS"/>
+  <title value="IHE France PAM Movement Nature ValueSet"/>
+  <status value="draft"/>
+  <experimental value="false"/>
+  <date value="2026-10-28T10:01:53+00:00"/>
+  <publisher value="IHE France"/>
+  <contact>
+    <name value="IHE France"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.ihe-france.org"/>
+    </telecom>
+  </contact>
+  <contact>
+    <name value="IHE France"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.ihe-france.org"/>
+      <use value="work"/>
+    </telecom>
+  </contact>
+  <description value="Valeurs permises pour la nature du mouvement (ZBE-9)."/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="FR"/>
+      <display value="France (la)"/>
+    </coding>
+  </jurisdiction>
+  <compose>
+    <include>
+      <system value="https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-movement-nature-cs"/>
+      <version value="0.1.0"/>
+    </include>
+  </compose>
+</ValueSet>

@@ -1,0 +1,36 @@
+{
+  "resourceType" : "RelatedPerson",
+  "id" : "example-ihe-france-pam-related-person",
+  "meta" : {
+    "profile" : ["https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-related-person"]
+  },
+  "language" : "en",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xml:lang=\"en\" lang=\"en\"><hr/><p><b>English</b></p><hr/><p class=\"res-header-id\"><b>Generated Narrative: RelatedPerson example-ihe-france-pam-related-person</b></p><a name=\"en-example-ihe-france-pam-related-person\"> </a><a name=\"en-hcexample-ihe-france-pam-related-person\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-ihe-france-pam-related-person.html\">IHE France PAM Related Person</a></p></div><p style=\"border: 1px #661aff solid; background-color: #e6e6ff; padding: 10px;\">ALICE DARK - Personne a prevenir (Person number: PN-0001)</p><hr/><table class=\"grid\"><tr><td style=\"background-color: #f3f5da\" title=\"The patient this person is related to\">Patient:</td><td colspan=\"3\"><a href=\"Patient-example-ihe-france-pam-patient.html\">JEANNE MARIE-CECILE DARK  Female, DoB: 1960-05-30 ( IPP: 1900068)</a></td></tr><tr><td style=\"background-color: #f3f5da\" title=\"The nature of the relationship between the patient and the related person\">Relationship:</td><td colspan=\"3\"><span title=\"Codes:\">Personne a prevenir</span></td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Ways to contact the Related Person\">Contact Detail</td><td colspan=\"3\"><a href=\"tel:+33123456789\">+33123456789</a></td></tr></table></div>"
+  },
+  "identifier" : [{
+    "type" : {
+      "coding" : [{
+        "system" : "https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-identifier-type-cs",
+        "code" : "PN"
+      }]
+    },
+    "system" : "urn:example:person-number",
+    "value" : "PN-0001"
+  }],
+  "patient" : {
+    "reference" : "Patient/example-ihe-france-pam-patient"
+  },
+  "relationship" : [{
+    "text" : "Personne a prevenir"
+  }],
+  "name" : [{
+    "family" : "DARK",
+    "given" : ["ALICE"]
+  }],
+  "telecom" : [{
+    "system" : "phone",
+    "value" : "+33123456789"
+  }]
+}

@@ -1,0 +1,138 @@
+# ihe.fr.pam#0.1.0: IHE PAM France(fr)
+
+## Pages
+
+* [Accueil](index.md)
+* [Exemples](examples.md)
+* [Contenus et contraintes FHIR](content-modules.md)
+* [Informations sur la traduction](translationinfo.md)
+* [Acteurs et transactions](actors-transactions.md)
+* [Résumé des artefacts](artifacts.md)
+* [Contraintes HL7 v2.5](hl7v2-datatypes.md)
+* [Téléchargements et usages](downloads.md)
+* [Publications antérieures](publications.md)
+* [Sécurité](security.md)
+* [Introduction](volume-1.md)
+* [Conformité](conformite.md)
+* [Mapping HL7 v2 vers FHIR](hl7v2-to-fhir.md)
+
+## Resources
+
+### CodeSystems
+
+* [IHE France PAM Accident Code CodeSystem](CodeSystem-ihe-france-pam-accident-cs.md)
+* [IHE France PAM Admission Type CodeSystem](CodeSystem-ihe-france-pam-admission-type-cs.md)
+* [IHE France PAM Admit Source CodeSystem](CodeSystem-ihe-france-pam-admit-source-cs.md)
+* [IHE France PAM Contact Role CodeSystem](CodeSystem-ihe-france-pam-contact-role-cs.md)
+* [IHE France PAM Discharge Disposition CodeSystem](CodeSystem-ihe-france-pam-discharge-disposition-cs.md)
+* [IHE France PAM DMP Consultation Consent CodeSystem](CodeSystem-ihe-france-pam-dmp-consultation-cs.md)
+* [IHE France PAM DMP Feeding Information CodeSystem](CodeSystem-ihe-france-pam-dmp-feeding-cs.md)
+* [IHE France PAM DMP Status CodeSystem](CodeSystem-ihe-france-pam-dmp-status-cs.md)
+* [IHE France PAM Emergency Passage CodeSystem](CodeSystem-ihe-france-pam-emergency-passage-cs.md)
+* [IHE France PAM Identifier Type CodeSystem](CodeSystem-ihe-france-pam-identifier-type-cs.md)
+* [IHE France PAM Identity Document CodeSystem](CodeSystem-ihe-france-pam-identity-document-cs.md)
+* [IHE France PAM Identity Means CodeSystem](CodeSystem-ihe-france-pam-identity-means-cs.md)
+* [IHE France PAM Identity Status CodeSystem](CodeSystem-ihe-france-pam-identity-status-cs.md)
+* [IHE France PAM Legal Care Mode CodeSystem](CodeSystem-ihe-france-pam-legal-care-mode-cs.md)
+* [IHE France PAM Movement Action CodeSystem](CodeSystem-ihe-france-pam-movement-action-cs.md)
+* [IHE France PAM Movement Nature CodeSystem](CodeSystem-ihe-france-pam-movement-nature-cs.md)
+* [IHE France PAM Patient Class CodeSystem](CodeSystem-ihe-france-pam-patient-class-cs.md)
+* [IHE France PAM PMSI Entry Mode CodeSystem](CodeSystem-ihe-france-pam-pmsi-entry-mode-cs.md)
+* [IHE France PAM PMSI Exit Mode CodeSystem](CodeSystem-ihe-france-pam-pmsi-exit-mode-cs.md)
+* [IHE France PAM Professional Activity CodeSystem](CodeSystem-ihe-france-pam-professional-activity-cs.md)
+* [IHE France PAM Professional Category CodeSystem](CodeSystem-ihe-france-pam-professional-category-cs.md)
+* [IHE France PAM Provider Role CodeSystem](CodeSystem-ihe-france-pam-provider-role-cs.md)
+* [IHE France PAM Relationship CodeSystem](CodeSystem-ihe-france-pam-relationship-cs.md)
+* [IHE France PAM RIM-P Legal Care Code CodeSystem](CodeSystem-ihe-france-pam-rimp-cs.md)
+* [IHE France PAM Transport Care CodeSystem](CodeSystem-ihe-france-pam-transport-care-cs.md)
+* [IHE France PAM Transport Mode CodeSystem](CodeSystem-ihe-france-pam-transport-mode-cs.md)
+* [IHE France PAM Trigger Event CodeSystem](CodeSystem-ihe-france-pam-trigger-event-cs.md)
+
+### ValueSets
+
+* [IHE France PAM Accident Code ValueSet](ValueSet-ihe-france-pam-accident-vs.md)
+* [IHE France PAM Admission Type ValueSet](ValueSet-ihe-france-pam-admission-type-vs.md)
+* [IHE France PAM Admit Source ValueSet](ValueSet-ihe-france-pam-admit-source-vs.md)
+* [IHE France PAM Contact Role ValueSet](ValueSet-ihe-france-pam-contact-role-vs.md)
+* [IHE France PAM Discharge Disposition ValueSet](ValueSet-ihe-france-pam-discharge-disposition-vs.md)
+* [IHE France PAM DMP Consultation Consent ValueSet](ValueSet-ihe-france-pam-dmp-consultation-vs.md)
+* [IHE France PAM DMP Feeding Information ValueSet](ValueSet-ihe-france-pam-dmp-feeding-vs.md)
+* [IHE France PAM DMP Status ValueSet](ValueSet-ihe-france-pam-dmp-status-vs.md)
+* [IHE France PAM Emergency Passage ValueSet](ValueSet-ihe-france-pam-emergency-passage-vs.md)
+* [IHE France PAM Identifier Type ValueSet](ValueSet-ihe-france-pam-identifier-type-vs.md)
+* [IHE France PAM Identity Document ValueSet](ValueSet-ihe-france-pam-identity-document-vs.md)
+* [IHE France PAM Identity Means ValueSet](ValueSet-ihe-france-pam-identity-means-vs.md)
+* [IHE France PAM Identity Status ValueSet](ValueSet-ihe-france-pam-identity-status-vs.md)
+* [IHE France PAM Legal Care Mode ValueSet](ValueSet-ihe-france-pam-legal-care-mode-vs.md)
+* [IHE France PAM Movement Action ValueSet](ValueSet-ihe-france-pam-movement-action-vs.md)
+* [IHE France PAM Movement Nature ValueSet](ValueSet-ihe-france-pam-movement-nature-vs.md)
+* [IHE France PAM Patient Class ValueSet](ValueSet-ihe-france-pam-patient-class-vs.md)
+* [IHE France PAM PMSI Entry Mode ValueSet](ValueSet-ihe-france-pam-pmsi-entry-mode-vs.md)
+* [IHE France PAM PMSI Exit Mode ValueSet](ValueSet-ihe-france-pam-pmsi-exit-mode-vs.md)
+* [IHE France PAM Professional Activity ValueSet](ValueSet-ihe-france-pam-professional-activity-vs.md)
+* [IHE France PAM Professional Category ValueSet](ValueSet-ihe-france-pam-professional-category-vs.md)
+* [IHE France PAM Provider Role ValueSet](ValueSet-ihe-france-pam-provider-role-vs.md)
+* [IHE France PAM Relationship ValueSet](ValueSet-ihe-france-pam-relationship-vs.md)
+* [IHE France PAM RIM-P Legal Care Code ValueSet](ValueSet-ihe-france-pam-rimp-vs.md)
+* [IHE France PAM Transport Care ValueSet](ValueSet-ihe-france-pam-transport-care-vs.md)
+* [IHE France PAM Transport Mode ValueSet](ValueSet-ihe-france-pam-transport-mode-vs.md)
+* [IHE France PAM Trigger Event ValueSet](ValueSet-ihe-france-pam-trigger-event-vs.md)
+
+### Resource Profiles
+
+* [IHE France PAM Encounter](StructureDefinition-ihe-france-pam-encounter.md)
+* [IHE France PAM Location](StructureDefinition-ihe-france-pam-location.md)
+* [IHE France PAM Organization](StructureDefinition-ihe-france-pam-organization.md)
+* [IHE France PAM Patient](StructureDefinition-ihe-france-pam-patient.md)
+* [IHE France PAM PractitionerRole](StructureDefinition-ihe-france-pam-practitioner-role.md)
+* [IHE France PAM Practitioner](StructureDefinition-ihe-france-pam-practitioner.md)
+* [IHE France PAM Related Person](StructureDefinition-ihe-france-pam-related-person.md)
+
+### Extensions
+
+* [IHE France PAM Accident Date](StructureDefinition-ihe-france-pam-accident-date.md)
+* [IHE France PAM Accident Nature](StructureDefinition-ihe-france-pam-accident-nature.md)
+* [IHE France PAM Administrative Number](StructureDefinition-ihe-france-pam-administrative-number.md)
+* [IHE France PAM Arrival Mode](StructureDefinition-ihe-france-pam-arrival-mode.md)
+* [IHE France PAM Birth Multiple Rank](StructureDefinition-ihe-france-pam-birth-multiple-rank.md)
+* [IHE France PAM Care Responsibility Unit](StructureDefinition-ihe-france-pam-care-responsibility-unit.md)
+* [IHE France PAM Contact Role](StructureDefinition-ihe-france-pam-contact-role.md)
+* [IHE France PAM Data Protection](StructureDefinition-ihe-france-pam-data-protection.md)
+* [IHE France PAM Demographic Complement](StructureDefinition-ihe-france-pam-demographic-complement.md)
+* [IHE France PAM DMP Status](StructureDefinition-ihe-france-pam-dmp-status.md)
+* [IHE France PAM Encounter Supplement](StructureDefinition-ihe-france-pam-encounter-supplement.md)
+* [IHE France PAM Historic Movement Indicator](StructureDefinition-ihe-france-pam-historic-movement-indicator.md)
+* [IHE France PAM Identity Modifier Entity](StructureDefinition-ihe-france-pam-identity-modifier-entity.md)
+* [IHE France PAM Identity Status](StructureDefinition-ihe-france-pam-identity-status.md)
+* [IHE France PAM Medical Responsibility Unit](StructureDefinition-ihe-france-pam-medical-responsibility-unit.md)
+* [IHE France PAM Mother Birth Name](StructureDefinition-ihe-france-pam-mother-birth-name.md)
+* [IHE France PAM Movement Action](StructureDefinition-ihe-france-pam-movement-action.md)
+* [IHE France PAM Movement Identifier](StructureDefinition-ihe-france-pam-movement-identifier.md)
+* [IHE France PAM Movement Nature](StructureDefinition-ihe-france-pam-movement-nature.md)
+* [IHE France PAM Nationality](StructureDefinition-ihe-france-pam-nationality.md)
+* [IHE France PAM Origin Event Code](StructureDefinition-ihe-france-pam-origin-event-code.md)
+* [IHE France PAM Patient Class](StructureDefinition-ihe-france-pam-patient-class.md)
+* [IHE France PAM Planned End](StructureDefinition-ihe-france-pam-planned-end.md)
+* [IHE France PAM Planned Start](StructureDefinition-ihe-france-pam-planned-start.md)
+* [IHE France PAM PMSI Movement](StructureDefinition-ihe-france-pam-pmsi-movement.md)
+* [IHE France PAM Professional Situation](StructureDefinition-ihe-france-pam-professional-situation.md)
+* [IHE France PAM Psychiatric Legal Status](StructureDefinition-ihe-france-pam-psychiatric-legal-status.md)
+* [IHE France PAM Venue Protection](StructureDefinition-ihe-france-pam-venue-protection.md)
+
+### Basics
+
+* [ihe-france-pam-iti30](Basic-ihe-france-pam-iti30.md)
+* [ihe-france-pam-iti31](Basic-ihe-france-pam-iti31.md)
+
+### ImplementationGuides
+
+* [IHE PAM France](ImplementationGuide-ihe.fr.pam.md)
+
+### Examples
+
+* [example-ihe-france-pam-encounter (Encounter)](Encounter-example-ihe-france-pam-encounter.md)
+* [UF 4036 chambre 22 lit 3 (Location)](Location-example-ihe-france-pam-location.md)
+* [Centre Hospitalier Exemple (Organization)](Organization-example-ihe-france-pam-organization.md)
+* [example-ihe-france-pam-patient (Patient)](Patient-example-ihe-france-pam-patient.md)
+* [example-ihe-france-pam-practitioner (Practitioner)](Practitioner-example-ihe-france-pam-practitioner.md)
+* [example-ihe-france-pam-related-person (RelatedPerson)](RelatedPerson-example-ihe-france-pam-related-person.md)

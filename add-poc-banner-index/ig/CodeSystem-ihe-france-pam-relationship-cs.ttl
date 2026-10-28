@@ -1,0 +1,227 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-relationship-cs> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:Resource.id [ fhir:value "ihe-france-pam-relationship-cs"] ;
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ] ;
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div xml:lang=\"fr\" lang=\"fr\"><hr/><p><b>French</b></p><hr/><p class=\"res-header-id\"><b>Narratif généré : CodeSystem ihe-france-pam-relationship-cs</b></p><a name=\"ihe-france-pam-relationship-cs\"> </a><a name=\"hcihe-france-pam-relationship-cs\"> </a><p>This case-sensitive code system <code>https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-relationship-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Affichage</b></td><td><b>Définition</b></td></tr><tr><td style=\"white-space:nowrap\">ASC<a name=\"ihe-france-pam-relationship-cs-ASC\"> </a></td><td>Collègue</td><td>Collègue.</td></tr><tr><td style=\"white-space:nowrap\">BRO<a name=\"ihe-france-pam-relationship-cs-BRO\"> </a></td><td>Frère</td><td>Frère.</td></tr><tr><td style=\"white-space:nowrap\">CGV<a name=\"ihe-france-pam-relationship-cs-CGV\"> </a></td><td>Aidant</td><td>Aidant (care giver).</td></tr><tr><td style=\"white-space:nowrap\">CHD<a name=\"ihe-france-pam-relationship-cs-CHD\"> </a></td><td>Enfant</td><td>Enfant.</td></tr><tr><td style=\"white-space:nowrap\">CUR<a name=\"ihe-france-pam-relationship-cs-CUR\"> </a></td><td>Curateur</td><td>Curateur.</td></tr><tr><td style=\"white-space:nowrap\">DEP<a name=\"ihe-france-pam-relationship-cs-DEP\"> </a></td><td>Dépendant handicapé</td><td>Dépendant handicapé.</td></tr><tr><td style=\"white-space:nowrap\">DOM<a name=\"ihe-france-pam-relationship-cs-DOM\"> </a></td><td>Compagnon</td><td>Compagnon.</td></tr><tr><td style=\"white-space:nowrap\">EMC<a name=\"ihe-france-pam-relationship-cs-EMC\"> </a></td><td>Contact d'urgence</td><td>Contact d'urgence.</td></tr><tr><td style=\"white-space:nowrap\">EME<a name=\"ihe-france-pam-relationship-cs-EME\"> </a></td><td>Employé</td><td>Employé.</td></tr><tr><td style=\"white-space:nowrap\">EMR<a name=\"ihe-france-pam-relationship-cs-EMR\"> </a></td><td>Employeur</td><td>Employeur.</td></tr><tr><td style=\"white-space:nowrap\">EXF<a name=\"ihe-france-pam-relationship-cs-EXF\"> </a></td><td>Proche</td><td>Proche.</td></tr><tr><td style=\"white-space:nowrap\">FCH<a name=\"ihe-france-pam-relationship-cs-FCH\"> </a></td><td>Enfant adoptif</td><td>Enfant adoptif.</td></tr><tr><td style=\"white-space:nowrap\">FND<a name=\"ihe-france-pam-relationship-cs-FND\"> </a></td><td>Ami</td><td>Ami.</td></tr><tr><td style=\"white-space:nowrap\">FTH<a name=\"ihe-france-pam-relationship-cs-FTH\"> </a></td><td>Père</td><td>Père.</td></tr><tr><td style=\"white-space:nowrap\">GCH<a name=\"ihe-france-pam-relationship-cs-GCH\"> </a></td><td>Petit-enfant</td><td>Petit-enfant.</td></tr><tr><td style=\"white-space:nowrap\">GRD<a name=\"ihe-france-pam-relationship-cs-GRD\"> </a></td><td>Tuteur</td><td>Tuteur.</td></tr><tr><td style=\"white-space:nowrap\">GRP<a name=\"ihe-france-pam-relationship-cs-GRP\"> </a></td><td>Grand-parent</td><td>Grand-parent.</td></tr><tr><td style=\"white-space:nowrap\">MGR<a name=\"ihe-france-pam-relationship-cs-MGR\"> </a></td><td>Directeur</td><td>Directeur.</td></tr><tr><td style=\"white-space:nowrap\">MTH<a name=\"ihe-france-pam-relationship-cs-MTH\"> </a></td><td>Mère</td><td>Mère.</td></tr><tr><td style=\"white-space:nowrap\">NCH<a name=\"ihe-france-pam-relationship-cs-NCH\"> </a></td><td>Enfant naturel</td><td>Enfant naturel.</td></tr><tr><td style=\"white-space:nowrap\">NON<a name=\"ihe-france-pam-relationship-cs-NON\"> </a></td><td>Aucun</td><td>Aucun.</td></tr><tr><td style=\"white-space:nowrap\">OAD<a name=\"ihe-france-pam-relationship-cs-OAD\"> </a></td><td>Autre adulte</td><td>Autre adulte.</td></tr><tr><td style=\"white-space:nowrap\">OTH<a name=\"ihe-france-pam-relationship-cs-OTH\"> </a></td><td>Autre</td><td>Autre : utiliser NK1-3.2 pour véhiculer le texte lorsque la nature de la relation n'est pas dans la table.</td></tr><tr><td style=\"white-space:nowrap\">OWN<a name=\"ihe-france-pam-relationship-cs-OWN\"> </a></td><td>Propriétaire</td><td>Propriétaire.</td></tr><tr><td style=\"white-space:nowrap\">PAR<a name=\"ihe-france-pam-relationship-cs-PAR\"> </a></td><td>Parent proche</td><td>Parent proche.</td></tr><tr><td style=\"white-space:nowrap\">SCH<a name=\"ihe-france-pam-relationship-cs-SCH\"> </a></td><td>Beau-fils</td><td>Beau-fils.</td></tr><tr><td style=\"white-space:nowrap\">SEL<a name=\"ihe-france-pam-relationship-cs-SEL\"> </a></td><td>Elle-même</td><td>Elle-même.</td></tr><tr><td style=\"white-space:nowrap\">SIB<a name=\"ihe-france-pam-relationship-cs-SIB\"> </a></td><td>Frère ou sœur</td><td>Frère ou sœur.</td></tr><tr><td style=\"white-space:nowrap\">SIS<a name=\"ihe-france-pam-relationship-cs-SIS\"> </a></td><td>Sœur</td><td>Sœur.</td></tr><tr><td style=\"white-space:nowrap\">SPO<a name=\"ihe-france-pam-relationship-cs-SPO\"> </a></td><td>Époux</td><td>Époux.</td></tr><tr><td style=\"white-space:nowrap\">TRA<a name=\"ihe-france-pam-relationship-cs-TRA\"> </a></td><td>Entraîneur</td><td>Entraîneur.</td></tr><tr><td style=\"white-space:nowrap\">UNK<a name=\"ihe-france-pam-relationship-cs-UNK\"> </a></td><td>Inconnu</td><td>Inconnu.</td></tr><tr><td style=\"white-space:nowrap\">WRD<a name=\"ihe-france-pam-relationship-cs-WRD\"> </a></td><td>Tutelle judiciaire</td><td>Tutelle judiciaire.</td></tr></table></div><div xml:lang=\"en\" lang=\"en\"><hr/><p><b>English</b></p><hr/><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem ihe-france-pam-relationship-cs</b></p><a name=\"en-ihe-france-pam-relationship-cs\"> </a><a name=\"en-hcihe-france-pam-relationship-cs\"> </a><p>This case-sensitive code system <code>https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-relationship-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">ASC<a name=\"en-ihe-france-pam-relationship-cs-ASC\"> </a></td><td>Collègue</td><td>Collègue.</td></tr><tr><td style=\"white-space:nowrap\">BRO<a name=\"en-ihe-france-pam-relationship-cs-BRO\"> </a></td><td>Frère</td><td>Frère.</td></tr><tr><td style=\"white-space:nowrap\">CGV<a name=\"en-ihe-france-pam-relationship-cs-CGV\"> </a></td><td>Aidant</td><td>Aidant (care giver).</td></tr><tr><td style=\"white-space:nowrap\">CHD<a name=\"en-ihe-france-pam-relationship-cs-CHD\"> </a></td><td>Enfant</td><td>Enfant.</td></tr><tr><td style=\"white-space:nowrap\">CUR<a name=\"en-ihe-france-pam-relationship-cs-CUR\"> </a></td><td>Curateur</td><td>Curateur.</td></tr><tr><td style=\"white-space:nowrap\">DEP<a name=\"en-ihe-france-pam-relationship-cs-DEP\"> </a></td><td>Dépendant handicapé</td><td>Dépendant handicapé.</td></tr><tr><td style=\"white-space:nowrap\">DOM<a name=\"en-ihe-france-pam-relationship-cs-DOM\"> </a></td><td>Compagnon</td><td>Compagnon.</td></tr><tr><td style=\"white-space:nowrap\">EMC<a name=\"en-ihe-france-pam-relationship-cs-EMC\"> </a></td><td>Contact d'urgence</td><td>Contact d'urgence.</td></tr><tr><td style=\"white-space:nowrap\">EME<a name=\"en-ihe-france-pam-relationship-cs-EME\"> </a></td><td>Employé</td><td>Employé.</td></tr><tr><td style=\"white-space:nowrap\">EMR<a name=\"en-ihe-france-pam-relationship-cs-EMR\"> </a></td><td>Employeur</td><td>Employeur.</td></tr><tr><td style=\"white-space:nowrap\">EXF<a name=\"en-ihe-france-pam-relationship-cs-EXF\"> </a></td><td>Proche</td><td>Proche.</td></tr><tr><td style=\"white-space:nowrap\">FCH<a name=\"en-ihe-france-pam-relationship-cs-FCH\"> </a></td><td>Enfant adoptif</td><td>Enfant adoptif.</td></tr><tr><td style=\"white-space:nowrap\">FND<a name=\"en-ihe-france-pam-relationship-cs-FND\"> </a></td><td>Ami</td><td>Ami.</td></tr><tr><td style=\"white-space:nowrap\">FTH<a name=\"en-ihe-france-pam-relationship-cs-FTH\"> </a></td><td>Père</td><td>Père.</td></tr><tr><td style=\"white-space:nowrap\">GCH<a name=\"en-ihe-france-pam-relationship-cs-GCH\"> </a></td><td>Petit-enfant</td><td>Petit-enfant.</td></tr><tr><td style=\"white-space:nowrap\">GRD<a name=\"en-ihe-france-pam-relationship-cs-GRD\"> </a></td><td>Tuteur</td><td>Tuteur.</td></tr><tr><td style=\"white-space:nowrap\">GRP<a name=\"en-ihe-france-pam-relationship-cs-GRP\"> </a></td><td>Grand-parent</td><td>Grand-parent.</td></tr><tr><td style=\"white-space:nowrap\">MGR<a name=\"en-ihe-france-pam-relationship-cs-MGR\"> </a></td><td>Directeur</td><td>Directeur.</td></tr><tr><td style=\"white-space:nowrap\">MTH<a name=\"en-ihe-france-pam-relationship-cs-MTH\"> </a></td><td>Mère</td><td>Mère.</td></tr><tr><td style=\"white-space:nowrap\">NCH<a name=\"en-ihe-france-pam-relationship-cs-NCH\"> </a></td><td>Enfant naturel</td><td>Enfant naturel.</td></tr><tr><td style=\"white-space:nowrap\">NON<a name=\"en-ihe-france-pam-relationship-cs-NON\"> </a></td><td>Aucun</td><td>Aucun.</td></tr><tr><td style=\"white-space:nowrap\">OAD<a name=\"en-ihe-france-pam-relationship-cs-OAD\"> </a></td><td>Autre adulte</td><td>Autre adulte.</td></tr><tr><td style=\"white-space:nowrap\">OTH<a name=\"en-ihe-france-pam-relationship-cs-OTH\"> </a></td><td>Autre</td><td>Autre : utiliser NK1-3.2 pour véhiculer le texte lorsque la nature de la relation n'est pas dans la table.</td></tr><tr><td style=\"white-space:nowrap\">OWN<a name=\"en-ihe-france-pam-relationship-cs-OWN\"> </a></td><td>Propriétaire</td><td>Propriétaire.</td></tr><tr><td style=\"white-space:nowrap\">PAR<a name=\"en-ihe-france-pam-relationship-cs-PAR\"> </a></td><td>Parent proche</td><td>Parent proche.</td></tr><tr><td style=\"white-space:nowrap\">SCH<a name=\"en-ihe-france-pam-relationship-cs-SCH\"> </a></td><td>Beau-fils</td><td>Beau-fils.</td></tr><tr><td style=\"white-space:nowrap\">SEL<a name=\"en-ihe-france-pam-relationship-cs-SEL\"> </a></td><td>Elle-même</td><td>Elle-même.</td></tr><tr><td style=\"white-space:nowrap\">SIB<a name=\"en-ihe-france-pam-relationship-cs-SIB\"> </a></td><td>Frère ou sœur</td><td>Frère ou sœur.</td></tr><tr><td style=\"white-space:nowrap\">SIS<a name=\"en-ihe-france-pam-relationship-cs-SIS\"> </a></td><td>Sœur</td><td>Sœur.</td></tr><tr><td style=\"white-space:nowrap\">SPO<a name=\"en-ihe-france-pam-relationship-cs-SPO\"> </a></td><td>Époux</td><td>Époux.</td></tr><tr><td style=\"white-space:nowrap\">TRA<a name=\"en-ihe-france-pam-relationship-cs-TRA\"> </a></td><td>Entraîneur</td><td>Entraîneur.</td></tr><tr><td style=\"white-space:nowrap\">UNK<a name=\"en-ihe-france-pam-relationship-cs-UNK\"> </a></td><td>Inconnu</td><td>Inconnu.</td></tr><tr><td style=\"white-space:nowrap\">WRD<a name=\"en-ihe-france-pam-relationship-cs-WRD\"> </a></td><td>Tutelle judiciaire</td><td>Tutelle judiciaire.</td></tr></table></div></div>"
+  ] ;
+  fhir:CodeSystem.url [ fhir:value "https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-relationship-cs"] ;
+  fhir:CodeSystem.version [ fhir:value "0.1.0"] ;
+  fhir:CodeSystem.name [ fhir:value "IHEFrancePamRelationshipCS"] ;
+  fhir:CodeSystem.title [ fhir:value "IHE France PAM Relationship CodeSystem"] ;
+  fhir:CodeSystem.status [ fhir:value "draft"] ;
+  fhir:CodeSystem.experimental [ fhir:value "false"^^xsd:boolean] ;
+  fhir:CodeSystem.date [ fhir:value "2026-10-28T10:01:53+00:00"^^xsd:dateTime] ;
+  fhir:CodeSystem.publisher [ fhir:value "IHE France"] ;
+  fhir:CodeSystem.contact [
+     fhir:index 0 ;
+     fhir:ContactDetail.name [ fhir:value "IHE France" ] ;
+     fhir:ContactDetail.telecom [
+       fhir:index 0 ;
+       fhir:ContactPoint.system [ fhir:value "url" ] ;
+       fhir:ContactPoint.value [ fhir:value "https://www.ihe-france.org" ]
+     ]
+  ], [
+     fhir:index 1 ;
+     fhir:ContactDetail.name [ fhir:value "IHE France" ] ;
+     fhir:ContactDetail.telecom [
+       fhir:index 0 ;
+       fhir:ContactPoint.system [ fhir:value "url" ] ;
+       fhir:ContactPoint.value [ fhir:value "https://www.ihe-france.org" ] ;
+       fhir:ContactPoint.use [ fhir:value "work" ]
+     ]
+  ] ;
+  fhir:CodeSystem.description [ fhir:value "Nature de la relation avec le patient (NK1-3, table HL7 0063). Liste non limitative."] ;
+  fhir:CodeSystem.jurisdiction [
+     fhir:index 0 ;
+     fhir:CodeableConcept.coding [
+       fhir:index 0 ;
+       fhir:Coding.system [ fhir:value "urn:iso:std:iso:3166" ] ;
+       fhir:Coding.code [ fhir:value "FR" ] ;
+       fhir:Coding.display [ fhir:value "France (la)" ]
+     ]
+  ] ;
+  fhir:CodeSystem.caseSensitive [ fhir:value "true"^^xsd:boolean] ;
+  fhir:CodeSystem.content [ fhir:value "complete"] ;
+  fhir:CodeSystem.count [ fhir:value "33"^^xsd:nonNegativeInteger] ;
+  fhir:CodeSystem.concept [
+     fhir:index 0 ;
+     fhir:CodeSystem.concept.code [ fhir:value "ASC" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Collègue" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Collègue." ]
+  ], [
+     fhir:index 1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "BRO" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Frère" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Frère." ]
+  ], [
+     fhir:index 2 ;
+     fhir:CodeSystem.concept.code [ fhir:value "CGV" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Aidant" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Aidant (care giver)." ]
+  ], [
+     fhir:index 3 ;
+     fhir:CodeSystem.concept.code [ fhir:value "CHD" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Enfant" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Enfant." ]
+  ], [
+     fhir:index 4 ;
+     fhir:CodeSystem.concept.code [ fhir:value "CUR" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Curateur" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Curateur." ]
+  ], [
+     fhir:index 5 ;
+     fhir:CodeSystem.concept.code [ fhir:value "DEP" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Dépendant handicapé" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Dépendant handicapé." ]
+  ], [
+     fhir:index 6 ;
+     fhir:CodeSystem.concept.code [ fhir:value "DOM" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Compagnon" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Compagnon." ]
+  ], [
+     fhir:index 7 ;
+     fhir:CodeSystem.concept.code [ fhir:value "EMC" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Contact d'urgence" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Contact d'urgence." ]
+  ], [
+     fhir:index 8 ;
+     fhir:CodeSystem.concept.code [ fhir:value "EME" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Employé" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Employé." ]
+  ], [
+     fhir:index 9 ;
+     fhir:CodeSystem.concept.code [ fhir:value "EMR" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Employeur" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Employeur." ]
+  ], [
+     fhir:index 10 ;
+     fhir:CodeSystem.concept.code [ fhir:value "EXF" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Proche" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Proche." ]
+  ], [
+     fhir:index 11 ;
+     fhir:CodeSystem.concept.code [ fhir:value "FCH" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Enfant adoptif" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Enfant adoptif." ]
+  ], [
+     fhir:index 12 ;
+     fhir:CodeSystem.concept.code [ fhir:value "FND" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Ami" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Ami." ]
+  ], [
+     fhir:index 13 ;
+     fhir:CodeSystem.concept.code [ fhir:value "FTH" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Père" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Père." ]
+  ], [
+     fhir:index 14 ;
+     fhir:CodeSystem.concept.code [ fhir:value "GCH" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Petit-enfant" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Petit-enfant." ]
+  ], [
+     fhir:index 15 ;
+     fhir:CodeSystem.concept.code [ fhir:value "GRD" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Tuteur" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Tuteur." ]
+  ], [
+     fhir:index 16 ;
+     fhir:CodeSystem.concept.code [ fhir:value "GRP" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Grand-parent" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Grand-parent." ]
+  ], [
+     fhir:index 17 ;
+     fhir:CodeSystem.concept.code [ fhir:value "MGR" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Directeur" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Directeur." ]
+  ], [
+     fhir:index 18 ;
+     fhir:CodeSystem.concept.code [ fhir:value "MTH" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Mère" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Mère." ]
+  ], [
+     fhir:index 19 ;
+     fhir:CodeSystem.concept.code [ fhir:value "NCH" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Enfant naturel" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Enfant naturel." ]
+  ], [
+     fhir:index 20 ;
+     fhir:CodeSystem.concept.code [ fhir:value "NON" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Aucun" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Aucun." ]
+  ], [
+     fhir:index 21 ;
+     fhir:CodeSystem.concept.code [ fhir:value "OAD" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Autre adulte" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Autre adulte." ]
+  ], [
+     fhir:index 22 ;
+     fhir:CodeSystem.concept.code [ fhir:value "OTH" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Autre" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Autre : utiliser NK1-3.2 pour véhiculer le texte lorsque la nature de la relation n'est pas dans la table." ]
+  ], [
+     fhir:index 23 ;
+     fhir:CodeSystem.concept.code [ fhir:value "OWN" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Propriétaire" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Propriétaire." ]
+  ], [
+     fhir:index 24 ;
+     fhir:CodeSystem.concept.code [ fhir:value "PAR" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Parent proche" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Parent proche." ]
+  ], [
+     fhir:index 25 ;
+     fhir:CodeSystem.concept.code [ fhir:value "SCH" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Beau-fils" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Beau-fils." ]
+  ], [
+     fhir:index 26 ;
+     fhir:CodeSystem.concept.code [ fhir:value "SEL" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Elle-même" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Elle-même." ]
+  ], [
+     fhir:index 27 ;
+     fhir:CodeSystem.concept.code [ fhir:value "SIB" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Frère ou sœur" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Frère ou sœur." ]
+  ], [
+     fhir:index 28 ;
+     fhir:CodeSystem.concept.code [ fhir:value "SIS" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Sœur" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Sœur." ]
+  ], [
+     fhir:index 29 ;
+     fhir:CodeSystem.concept.code [ fhir:value "SPO" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Époux" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Époux." ]
+  ], [
+     fhir:index 30 ;
+     fhir:CodeSystem.concept.code [ fhir:value "TRA" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Entraîneur" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Entraîneur." ]
+  ], [
+     fhir:index 31 ;
+     fhir:CodeSystem.concept.code [ fhir:value "UNK" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Inconnu" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Inconnu." ]
+  ], [
+     fhir:index 32 ;
+     fhir:CodeSystem.concept.code [ fhir:value "WRD" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Tutelle judiciaire" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Tutelle judiciaire." ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-relationship-cs.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

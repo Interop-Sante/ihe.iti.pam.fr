@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Basic xmlns="http://hl7.org/fhir">
+  <id value="ihe-france-pam-iti31"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><div xml:lang="fr" lang="fr"><hr/><p><b>French</b></p><hr/><p class="res-header-id"><b>Narratif généré : Basique ihe-france-pam-iti31</b></p><a name="ihe-france-pam-iti31"> </a><a name="hcihe-france-pam-iti31"> </a><p><b>code</b>: <span title="Codes :">ITI-31</span></p></div><div xml:lang="en" lang="en"><hr/><p><b>English</b></p><hr/><p class="res-header-id"><b>Generated Narrative: Basic ihe-france-pam-iti31</b></p><a name="en-ihe-france-pam-iti31"> </a><a name="en-hcihe-france-pam-iti31"> </a><p><b>code</b>: <span title="Codes:">ITI-31</span></p></div></div>
+  </text>
+  <code>
+    <text value="ITI-31"/>
+  </code>
+</Basic>

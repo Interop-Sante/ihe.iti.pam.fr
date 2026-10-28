@@ -1,0 +1,20 @@
+{
+  "resourceType" : "Location",
+  "id" : "example-ihe-france-pam-location",
+  "meta" : {
+    "profile" : ["https://hl7.fr/ig/v2/pam/StructureDefinition/ihe-france-pam-location"]
+  },
+  "language" : "en",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xml:lang=\"en\" lang=\"en\"><hr/><p><b>English</b></p><hr/><p class=\"res-header-id\"><b>Generated Narrative: Location example-ihe-france-pam-location</b></p><a name=\"en-example-ihe-france-pam-location\"> </a><a name=\"en-hcexample-ihe-france-pam-location\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-ihe-france-pam-location.html\">IHE France PAM Location</a></p></div><p style=\"border: 1px #661aff solid; background-color: #e6e6ff; padding: 10px;\">UF 4036 chambre 22 lit 3 (urn:example:uf#4036)</p><hr/><table class=\"grid\"><tr><td style=\"background-color: #f3f5da\" title=\"The organization responsible for the provisioning and upkeep of the location\">Managed By:</td><td colspan=\"3\"><a href=\"Organization-example-ihe-france-pam-organization.html\">Centre Hospitalier Exemple (urn:example:finess#120456789)</a></td></tr></table></div>"
+  },
+  "identifier" : [{
+    "system" : "urn:example:uf",
+    "value" : "4036"
+  }],
+  "name" : "UF 4036 chambre 22 lit 3",
+  "managingOrganization" : {
+    "reference" : "Organization/example-ihe-france-pam-organization"
+  }
+}

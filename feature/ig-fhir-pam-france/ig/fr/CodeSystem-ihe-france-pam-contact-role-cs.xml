@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="ihe-france-pam-contact-role-cs"/>
+  <language value="fr"/>
+  <text>
+    <status value="generated"/><div xml:lang="fr" lang="fr"><hr/><p><b>French</b></p><hr/><p class="res-header-id"><b>Narratif généré : CodeSystem ihe-france-pam-contact-role-cs</b></p><a name="ihe-france-pam-contact-role-cs"> </a><a name="hcihe-france-pam-contact-role-cs"> </a><p>This case-sensitive code system <code>https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-contact-role-cs</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Affichage</b></td><td><b>Définition</b></td></tr><tr><td style="white-space:nowrap">E<a name="ihe-france-pam-contact-role-cs-E"> </a></td><td>Employeur</td><td>Employeur.</td></tr><tr><td style="white-space:nowrap">C<a name="ihe-france-pam-contact-role-cs-C"> </a></td><td>Personne à contacter en cas d'urgence</td><td>Personne à contacter en cas d'urgence.</td></tr><tr><td style="white-space:nowrap">F<a name="ihe-france-pam-contact-role-cs-F"> </a></td><td>Agence fédérale</td><td>Agence fédérale.</td></tr><tr><td style="white-space:nowrap">I<a name="ihe-france-pam-contact-role-cs-I"> </a></td><td>Compagnie d'assurances</td><td>Compagnie d'assurances.</td></tr><tr><td style="white-space:nowrap">N<a name="ihe-france-pam-contact-role-cs-N"> </a></td><td>Parent proche</td><td>Parent proche.</td></tr><tr><td style="white-space:nowrap">S<a name="ihe-france-pam-contact-role-cs-S"> </a></td><td>Agence d'État</td><td>Agence d'État.</td></tr><tr><td style="white-space:nowrap">O<a name="ihe-france-pam-contact-role-cs-O"> </a></td><td>Autre</td><td>Autre.</td></tr><tr><td style="white-space:nowrap">U<a name="ihe-france-pam-contact-role-cs-U"> </a></td><td>Inconnu</td><td>Inconnu.</td></tr><tr><td style="white-space:nowrap">K<a name="ihe-france-pam-contact-role-cs-K"> </a></td><td>Personne de confiance</td><td>Personne de confiance.</td></tr><tr><td style="white-space:nowrap">P<a name="ihe-france-pam-contact-role-cs-P"> </a></td><td>Personne à ne pas prévenir</td><td>Personne à ne pas prévenir.</td></tr><tr><td style="white-space:nowrap">R<a name="ihe-france-pam-contact-role-cs-R"> </a></td><td>Représentant légal</td><td>Représentant légal.</td></tr></table></div>
+  </text>
+  <url value="https://hl7.fr/ig/v2/pam/CodeSystem/ihe-france-pam-contact-role-cs"/>
+  <version value="0.1.0"/>
+  <name value="IHEFrancePamContactRoleCS"/>
+  <title value="IHE France PAM Contact Role CodeSystem"/>
+  <status value="draft"/>
+  <experimental value="false"/>
+  <date value="2026-10-28T10:06:53+00:00"/>
+  <publisher value="IHE France"/>
+  <contact>
+    <name value="IHE France"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.ihe-france.org"/>
+    </telecom>
+  </contact>
+  <contact>
+    <name value="IHE France"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.ihe-france.org"/>
+      <use value="work"/>
+    </telecom>
+  </contact>
+  <description value="Rôle de la personne auprès du patient pendant le séjour (NK1-7, table HL7 0131). Liste non limitative. La personne de confiance est rattachée au séjour et transmise uniquement via ITI-31."/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="FR"/>
+      <display value="France (la)"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="11"/>
+  <concept>
+    <code value="E"/>
+    <display value="Employeur"/>
+    <definition value="Employeur."/>
+  </concept>
+  <concept>
+    <code value="C"/>
+    <display value="Personne à contacter en cas d'urgence"/>
+    <definition value="Personne à contacter en cas d'urgence."/>
+  </concept>
+  <concept>
+    <code value="F"/>
+    <display value="Agence fédérale"/>
+    <definition value="Agence fédérale."/>
+  </concept>
+  <concept>
+    <code value="I"/>
+    <display value="Compagnie d'assurances"/>
+    <definition value="Compagnie d'assurances."/>
+  </concept>
+  <concept>
+    <code value="N"/>
+    <display value="Parent proche"/>
+    <definition value="Parent proche."/>
+  </concept>
+  <concept>
+    <code value="S"/>
+    <display value="Agence d'État"/>
+    <definition value="Agence d'État."/>
+  </concept>
+  <concept>
+    <code value="O"/>
+    <display value="Autre"/>
+    <definition value="Autre."/>
+  </concept>
+  <concept>
+    <code value="U"/>
+    <display value="Inconnu"/>
+    <definition value="Inconnu."/>
+  </concept>
+  <concept>
+    <code value="K"/>
+    <display value="Personne de confiance"/>
+    <definition value="Personne de confiance."/>
+  </concept>
+  <concept>
+    <code value="P"/>
+    <display value="Personne à ne pas prévenir"/>
+    <definition value="Personne à ne pas prévenir."/>
+  </concept>
+  <concept>
+    <code value="R"/>
+    <display value="Représentant légal"/>
+    <definition value="Représentant légal."/>
+  </concept>
+</CodeSystem>
