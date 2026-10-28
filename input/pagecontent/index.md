@@ -7,6 +7,7 @@
         <li><b>Rationalisation des extensions :</b> le nombre d'extensions est actuellement important et doit être revu.</li>
         <li><b>Alignement avec le FR Core :</b> les ressources et les profils devront être alignés avec les spécifications françaises de référence dans la mesure du possible.</li>
         <li><b>Description des cas d'usage :</b> les modalités d'utilisation de cet IG et les cas d'usage associés restent à préciser.</li>
+        <li><b>Réflexion sur les paradigmes d’échange :</b> les modalités d’interaction devront être clarifiées, notamment le recours à des API ou à des échanges par messages.</li>
     </ul>
     <p>Le contenu et la structure de cette publication sont susceptibles d'évoluer. Cette version ne constitue pas une version stabilisée des spécifications.</p>
     </blockquote>
