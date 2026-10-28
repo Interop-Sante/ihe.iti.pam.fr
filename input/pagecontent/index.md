@@ -1,3 +1,17 @@
+<div style="width: 65%">
+    <blockquote class="stu-note">
+    <p><b>Note : preuve de concept, IG en cours de construction</b></p>
+    <p><b>Attention !</b> Cet IG est actuellement en cours de construction et constitue une preuve de concept. La publication actuelle propose une représentation du PDF de référence sous forme d'Implementation Guide, générée avec FHIR Publisher, sans révision de fond des spécifications.</p>
+    <p>Plusieurs travaux restent à mener :</p>
+    <ul>
+        <li><b>Rationalisation des extensions :</b> le nombre d'extensions est actuellement important et doit être revu.</li>
+        <li><b>Alignement avec le FR Core :</b> les ressources et les profils devront être alignés avec les spécifications françaises de référence dans la mesure du possible.</li>
+        <li><b>Description des cas d'usage :</b> les modalités d'utilisation de cet IG et les cas d'usage associés restent à préciser.</li>
+    </ul>
+    <p>Le contenu et la structure de cette publication sont susceptibles d'évoluer. Cette version ne constitue pas une version stabilisée des spécifications.</p>
+    </blockquote>
+</div>
+
 Ce guide d'implémentation décrit l'extension nationale française du profil IHE PAM (*Patient Administration Management*) : les contraintes sur les événements et segments HL7 v2.5 applicables en France pour la gestion de l'identité patient (transaction `ITI-30`) et des venues et mouvements (transaction `ITI-31`), ainsi que leur représentation en FHIR R4 (4.0.1).
 
 ### À qui s'adresse ce guide
